@@ -388,7 +388,7 @@ def adoptIndex(ghToken: String): Index = {
   indices.foldLeft(Index.empty)(_ + _)
 }
 
-private val ghToken = Option(System.getenv("GH_TOKEN")).getOrElse {
+private lazy val ghToken = Option(System.getenv("GH_TOKEN")).getOrElse {
   System.err.println("Warning: GH_TOKEN not set, it's likely we'll get rate-limited by the GitHub API")
   ""
 }

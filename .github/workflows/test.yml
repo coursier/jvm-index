@@ -1,0 +1,17 @@
+name: Test
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: coursier/cache-action@v4
+        with:
+          extraFiles: "generate-index.*"
+      - run: .github/scripts/setup.sh
+      - run: ./generate-index.sh dummy
