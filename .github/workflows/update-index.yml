@@ -12,7 +12,7 @@ jobs:
         with:
           extraFiles: "generate-index.*"
       - run: .github/scripts/setup.sh
-      - run: ./generate-index.sh
+      - run: ./generate-index.sh writeIndex
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: rm -f cs
