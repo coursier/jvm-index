@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: coursier/cache-action@v4
         with:
-          extraFiles: "generate-index.*"
+          extraFiles: "[\"generate-index.*\", \".github/scripts/*.sh\"]"
       - run: .github/scripts/setup.sh
       - run: ./generate-index.sh dummy
