@@ -1,0 +1,30 @@
+name: Update index
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: coursier/cache-action@v4
+        with:
+          extraFiles: "generate-index.*"
+      - run: .github/scripts/setup.sh
+      - run: ./generate-index.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: rm -f cs
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Update index
+          author: GitHub <noreply@github.com>
+          delete-branch: true
+          title: Update index
+      - name: Check outputs
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"

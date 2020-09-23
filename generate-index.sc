@@ -413,6 +413,7 @@ def writeIndex(output: String = "index.json"): Unit = {
   val json = (graalvmIndex0 + graalvmJdk11Index0 + adoptIndex0).json
   val dest = Paths.get(output)
   Files.write(dest, json.getBytes("UTF-8"))
+  System.err.println(s"Wrote $dest")
 }
 
 @main
