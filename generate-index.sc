@@ -361,11 +361,13 @@ def adoptIndex(ghToken: String, baseVersion: String, versionPrefix: String = "")
     else if (input == "tar.gz") Some("tgz")
     else None
 
-  val prefix =
-    if (baseVersion == "8") "jdk8u"
-    else s"jdk-$baseVersion."
+  val prefixes =
+    if (baseVersion == "8") Seq("jdk8u")
+    else Seq(s"jdk-$baseVersion.", s"jdk-$baseVersion+")
   val indices = releases0
-    .filter(release => release.tagName.startsWith(prefix))
+    .filter { release =>
+      prefixes.exists(prefix => release.tagName.startsWith(prefix))
+    }
     .flatMap { release =>
       val version0 = release.tagName.stripPrefix("jdk-").stripPrefix("jdk")
       val versionInFileName = {
@@ -424,7 +426,7 @@ def writeIndex(output: String = "index.json"): Unit = {
   val graalvmIndex0 = graalvmIndex(ghToken, "8")
   val graalvmJdk11Index0 = graalvmIndex(ghToken, "11")
 
-  val adoptIndices = (8 to 14).map { num =>
+  val adoptIndices = (8 to 15).map { num =>
     val versionPrefix = if (num == 8) "1." else ""
     adoptIndex(ghToken, num.toString, versionPrefix)
   }
