@@ -332,13 +332,13 @@ def graalvmIndex(ghToken: String, javaVersion: String, javaVersionInName: java.l
   indices.foldLeft(Index.empty)(_ + _)
 }
 
-def adoptIndex(ghToken: String): Index = {
+def adoptIndex(ghToken: String, baseVersion: String, versionPrefix: String = ""): Index = {
   val ghOrg = "AdoptOpenJDK"
-  val ghProj = "openjdk8-binaries"
+  val ghProj = s"openjdk$baseVersion-binaries"
   val releases0 = releaseIds(ghOrg, ghProj, ghToken)
     .filter(!_.prerelease)
 
-  val assetNamePrefix = "OpenJDK8U-jdk_"
+  val assetNamePrefix = s"OpenJDK${baseVersion}U-jdk_"
 
   def archOpt(input: String): Option[(String, String)] =
     if (input.startsWith("x64_"))
@@ -361,10 +361,21 @@ def adoptIndex(ghToken: String): Index = {
     else if (input == "tar.gz") Some("tgz")
     else None
 
+  val prefix =
+    if (baseVersion == "8") "jdk8u"
+    else s"jdk-$baseVersion."
   val indices = releases0
-    .filter(release => release.tagName.startsWith("jdk8u"))
+    .filter(release => release.tagName.startsWith(prefix))
     .flatMap { release =>
-      val version = release.tagName.stripPrefix("jdk")
+      val version0 = release.tagName.stripPrefix("jdk-").stripPrefix("jdk")
+      val versionInFileName = {
+        if (version0.contains("+"))
+          version0.split('+') match {
+            case Array(before, after) => s"${before}_${after.takeWhile(_ != '.')}"
+            case _ => version0
+          }
+        else version0
+      }
       val assets = releaseAssets(ghOrg, ghProj, ghToken, release.releaseId)
       assets
         .filter(asset => asset.name.startsWith(assetNamePrefix))
@@ -374,13 +385,13 @@ def adoptIndex(ghToken: String): Index = {
             (arch, rem) <- archOpt(name0)
             (os, rem0) <- osOpt(rem)
             ext <- {
-              val prefix = "hotspot_" + version.filter(_ != '-') + "."
+              val prefix = "hotspot_" + versionInFileName.filter(_ != '-') + "."
               Some(rem0)
                 .filter(_.startsWith(prefix))
                 .map(_.stripPrefix(prefix))
             }
             archiveType <- archiveTypeOpt(ext)
-          } yield Index(os, arch, s"jdk@adopt", "1." + version.takeWhile(_ != '-').replaceAllLiterally("u", ".0-"), archiveType + "+" + asset.downloadUrl)
+          } yield Index(os, arch, s"jdk@adopt", "1." + version0.takeWhile(_ != '-').replaceAllLiterally("u", ".0-").replace("+", "_"), archiveType + "+" + asset.downloadUrl)
           opt.toSeq
         }
     }
@@ -401,15 +412,22 @@ def printGraalvmIndex(): Unit = {
 
 @main
 def printAdoptIndex(): Unit = {
-  val index = adoptIndex(ghToken)
-  println(index.json)
+  val adopt8Index = adoptIndex(ghToken, "8", "1.")
+  val adopt11Index = adoptIndex(ghToken, "11")
+  val adoptIndex0 = adopt8Index + adopt11Index
+  println(adoptIndex0.json)
 }
 
 @main
 def writeIndex(output: String = "index.json"): Unit = {
+
   val graalvmIndex0 = graalvmIndex(ghToken, "8")
   val graalvmJdk11Index0 = graalvmIndex(ghToken, "11")
-  val adoptIndex0 = adoptIndex(ghToken)
+
+  val adopt11Index = adoptIndex(ghToken, "11")
+  val adopt8Index = adoptIndex(ghToken, "8", "1.")
+  val adoptIndex0 = adopt8Index + adopt11Index
+
   val json = (graalvmIndex0 + graalvmJdk11Index0 + adoptIndex0).json
   val dest = Paths.get(output)
   Files.write(dest, json.getBytes("UTF-8"))
