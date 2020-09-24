@@ -332,17 +332,21 @@ def graalvmIndex(ghToken: String, javaVersion: String, javaVersionInName: java.l
   indices.foldLeft(Index.empty)(_ + _)
 }
 
-def adoptIndex(ghToken: String): Index = {
+def adoptIndex(ghToken: String, baseVersion: String, versionPrefix: String = ""): Index = {
   val ghOrg = "AdoptOpenJDK"
-  val ghProj = "openjdk8-binaries"
+  val ghProj = s"openjdk$baseVersion-binaries"
   val releases0 = releaseIds(ghOrg, ghProj, ghToken)
     .filter(!_.prerelease)
 
-  val assetNamePrefix = "OpenJDK8U-jdk_"
+  val assetNamePrefix = s"OpenJDK${baseVersion}U-jdk_"
 
   def archOpt(input: String): Option[(String, String)] =
     if (input.startsWith("x64_"))
       Some(("amd64", input.stripPrefix("x64_")))
+    else if (input.startsWith("aarch64_"))
+      Some(("arm64", input.stripPrefix("aarch64_")))
+    else if (input.startsWith("arm_"))
+      Some(("arm", input.stripPrefix("arm_")))
     else
       None
 
@@ -361,10 +365,23 @@ def adoptIndex(ghToken: String): Index = {
     else if (input == "tar.gz") Some("tgz")
     else None
 
+  val prefixes =
+    if (baseVersion == "8") Seq("jdk8u")
+    else Seq(s"jdk-$baseVersion.", s"jdk-$baseVersion+")
   val indices = releases0
-    .filter(release => release.tagName.startsWith("jdk8u"))
+    .filter { release =>
+      prefixes.exists(prefix => release.tagName.startsWith(prefix))
+    }
     .flatMap { release =>
-      val version = release.tagName.stripPrefix("jdk")
+      val version0 = release.tagName.stripPrefix("jdk-").stripPrefix("jdk")
+      val versionInFileName = {
+        if (version0.contains("+"))
+          version0.split('+') match {
+            case Array(before, after) => s"${before}_${after.takeWhile(_ != '.')}"
+            case _ => version0
+          }
+        else version0
+      }
       val assets = releaseAssets(ghOrg, ghProj, ghToken, release.releaseId)
       assets
         .filter(asset => asset.name.startsWith(assetNamePrefix))
@@ -374,13 +391,13 @@ def adoptIndex(ghToken: String): Index = {
             (arch, rem) <- archOpt(name0)
             (os, rem0) <- osOpt(rem)
             ext <- {
-              val prefix = "hotspot_" + version.filter(_ != '-') + "."
+              val prefix = "hotspot_" + versionInFileName.filter(_ != '-') + "."
               Some(rem0)
                 .filter(_.startsWith(prefix))
                 .map(_.stripPrefix(prefix))
             }
             archiveType <- archiveTypeOpt(ext)
-          } yield Index(os, arch, s"jdk@adopt", "1." + version.takeWhile(_ != '-').replaceAllLiterally("u", ".0-"), archiveType + "+" + asset.downloadUrl)
+          } yield Index(os, arch, s"jdk@adopt", "1." + version0.takeWhile(_ != '-').replaceAllLiterally("u", ".0-").replace("+", "_"), archiveType + "+" + asset.downloadUrl)
           opt.toSeq
         }
     }
@@ -393,24 +410,41 @@ private lazy val ghToken = Option(System.getenv("GH_TOKEN")).getOrElse {
   ""
 }
 
+def fullGraalvmIndex(): Index = {
+  val graalvmIndex0 = graalvmIndex(ghToken, "8")
+  val graalvmJdk11Index0 = graalvmIndex(ghToken, "11")
+  graalvmIndex0 + graalvmJdk11Index0
+}
+
+def fullAdoptIndex(): Index = {
+  val adoptIndices = (8 to 15).map { num =>
+    val versionPrefix = if (num == 8) "1." else ""
+    adoptIndex(ghToken, num.toString, versionPrefix)
+  }
+  adoptIndices.foldLeft(Index.empty)(_ + _)
+}
+
 @main
 def printGraalvmIndex(): Unit = {
-  val index = graalvmIndex(ghToken, "8")
+  val index = fullGraalvmIndex()
   println(index.json)
 }
 
 @main
 def printAdoptIndex(): Unit = {
-  val index = adoptIndex(ghToken)
-  println(index.json)
+  val adopt8Index = adoptIndex(ghToken, "8", "1.")
+  val adopt11Index = adoptIndex(ghToken, "11")
+  val adoptIndex0 = adopt8Index + adopt11Index
+  println(adoptIndex0.json)
 }
 
 @main
 def writeIndex(output: String = "index.json"): Unit = {
-  val graalvmIndex0 = graalvmIndex(ghToken, "8")
-  val graalvmJdk11Index0 = graalvmIndex(ghToken, "11")
-  val adoptIndex0 = adoptIndex(ghToken)
-  val json = (graalvmIndex0 + graalvmJdk11Index0 + adoptIndex0).json
+
+  val graalvmIndex0 = fullGraalvmIndex()
+  val adoptIndex0 = fullAdoptIndex()
+
+  val json = (graalvmIndex0 + adoptIndex0).json
   val dest = Paths.get(output)
   Files.write(dest, json.getBytes("UTF-8"))
   System.err.println(s"Wrote $dest")
