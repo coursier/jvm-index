@@ -410,9 +410,23 @@ private lazy val ghToken = Option(System.getenv("GH_TOKEN")).getOrElse {
   ""
 }
 
+def fullGraalvmIndex(): Index = {
+  val graalvmIndex0 = graalvmIndex(ghToken, "8")
+  val graalvmJdk11Index0 = graalvmIndex(ghToken, "11")
+  graalvmIndex0 + graalvmJdk11Index0
+}
+
+def fullAdoptIndex(): Index = {
+  val adoptIndices = (8 to 15).map { num =>
+    val versionPrefix = if (num == 8) "1." else ""
+    adoptIndex(ghToken, num.toString, versionPrefix)
+  }
+  adoptIndices.foldLeft(Index.empty)(_ + _)
+}
+
 @main
 def printGraalvmIndex(): Unit = {
-  val index = graalvmIndex(ghToken, "8")
+  val index = fullGraalvmIndex()
   println(index.json)
 }
 
@@ -427,16 +441,10 @@ def printAdoptIndex(): Unit = {
 @main
 def writeIndex(output: String = "index.json"): Unit = {
 
-  val graalvmIndex0 = graalvmIndex(ghToken, "8")
-  val graalvmJdk11Index0 = graalvmIndex(ghToken, "11")
+  val graalvmIndex0 = fullGraalvmIndex()
+  val adoptIndex0 = fullAdoptIndex()
 
-  val adoptIndices = (8 to 15).map { num =>
-    val versionPrefix = if (num == 8) "1." else ""
-    adoptIndex(ghToken, num.toString, versionPrefix)
-  }
-  val adoptIndex0 = adoptIndices.foldLeft(Index.empty)(_ + _)
-
-  val json = (graalvmIndex0 + graalvmJdk11Index0 + adoptIndex0).json
+  val json = (graalvmIndex0 + adoptIndex0).json
   val dest = Paths.get(output)
   Files.write(dest, json.getBytes("UTF-8"))
   System.err.println(s"Wrote $dest")
