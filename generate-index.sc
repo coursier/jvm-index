@@ -343,6 +343,10 @@ def adoptIndex(ghToken: String, baseVersion: String, versionPrefix: String = "")
   def archOpt(input: String): Option[(String, String)] =
     if (input.startsWith("x64_"))
       Some(("amd64", input.stripPrefix("x64_")))
+    else if (input.startsWith("aarch64_"))
+      Some(("arm64", input.stripPrefix("aarch64_")))
+    else if (input.startsWith("arm_"))
+      Some(("arm", input.stripPrefix("arm_")))
     else
       None
 
