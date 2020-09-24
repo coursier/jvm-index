@@ -424,9 +424,11 @@ def writeIndex(output: String = "index.json"): Unit = {
   val graalvmIndex0 = graalvmIndex(ghToken, "8")
   val graalvmJdk11Index0 = graalvmIndex(ghToken, "11")
 
-  val adopt11Index = adoptIndex(ghToken, "11")
-  val adopt8Index = adoptIndex(ghToken, "8", "1.")
-  val adoptIndex0 = adopt8Index + adopt11Index
+  val adoptIndices = (8 to 14).map { num =>
+    val versionPrefix = if (num == 8) "1." else ""
+    adoptIndex(ghToken, num.toString, versionPrefix)
+  }
+  val adoptIndex0 = adoptIndices.foldLeft(Index.empty)(_ + _)
 
   val json = (graalvmIndex0 + graalvmJdk11Index0 + adoptIndex0).json
   val dest = Paths.get(output)
