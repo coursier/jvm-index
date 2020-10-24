@@ -397,7 +397,7 @@ def adoptIndex(ghToken: String, baseVersion: String, versionPrefix: String = "")
                 .map(_.stripPrefix(prefix))
             }
             archiveType <- archiveTypeOpt(ext)
-          } yield Index(os, arch, s"jdk@adopt", "1." + version0.takeWhile(_ != '-').replaceAllLiterally("u", ".0-").replace("+", "_"), archiveType + "+" + asset.downloadUrl)
+          } yield Index(os, arch, s"jdk@adopt", "1." + version0.takeWhile(c => c != '-' && c != '+' && c != '_').replaceAllLiterally("u", ".0-"), archiveType + "+" + asset.downloadUrl)
           opt.toSeq
         }
     }
