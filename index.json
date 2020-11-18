@@ -47,7 +47,8 @@
         "19.3.4": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.4/graalvm-ce-java8-darwin-amd64-19.3.4.tar.gz",
         "20.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.0.0/graalvm-ce-java8-darwin-amd64-20.0.0.tar.gz",
         "20.1.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.1.0/graalvm-ce-java8-darwin-amd64-20.1.0.tar.gz",
-        "20.2.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.2.0/graalvm-ce-java8-darwin-amd64-20.2.0.tar.gz"
+        "20.2.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.2.0/graalvm-ce-java8-darwin-amd64-20.2.0.tar.gz",
+        "20.3.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.3.0/graalvm-ce-java8-darwin-amd64-20.3.0.tar.gz"
       },
       "jdk@graalvm-java11": {
         "19.3.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java11-darwin-amd64-19.3.0.tar.gz",
@@ -58,7 +59,8 @@
         "19.3.4": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.4/graalvm-ce-java11-darwin-amd64-19.3.4.tar.gz",
         "20.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.0.0/graalvm-ce-java11-darwin-amd64-20.0.0.tar.gz",
         "20.1.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.1.0/graalvm-ce-java11-darwin-amd64-20.1.0.tar.gz",
-        "20.2.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.2.0/graalvm-ce-java11-darwin-amd64-20.2.0.tar.gz"
+        "20.2.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.2.0/graalvm-ce-java11-darwin-amd64-20.2.0.tar.gz",
+        "20.3.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.3.0/graalvm-ce-java11-darwin-amd64-20.3.0.tar.gz"
       }
     }
   },
@@ -258,7 +260,8 @@
         "19.3.4": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.4/graalvm-ce-java8-windows-amd64-19.3.4.zip",
         "20.0.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.0.0/graalvm-ce-java8-windows-amd64-20.0.0.zip",
         "20.1.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.1.0/graalvm-ce-java8-windows-amd64-20.1.0.zip",
-        "20.2.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.2.0/graalvm-ce-java8-windows-amd64-20.2.0.zip"
+        "20.2.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.2.0/graalvm-ce-java8-windows-amd64-20.2.0.zip",
+        "20.3.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.3.0/graalvm-ce-java8-windows-amd64-20.3.0.zip"
       },
       "jdk@graalvm-java11": {
         "19.3.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java11-windows-amd64-19.3.0.zip",
@@ -269,7 +272,8 @@
         "19.3.4": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.4/graalvm-ce-java11-windows-amd64-19.3.4.zip",
         "20.0.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.0.0/graalvm-ce-java11-windows-amd64-20.0.0.zip",
         "20.1.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.1.0/graalvm-ce-java11-windows-amd64-20.1.0.zip",
-        "20.2.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.2.0/graalvm-ce-java11-windows-amd64-20.2.0.zip"
+        "20.2.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.2.0/graalvm-ce-java11-windows-amd64-20.2.0.zip",
+        "20.3.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.3.0/graalvm-ce-java11-windows-amd64-20.3.0.zip"
       }
     }
   }
