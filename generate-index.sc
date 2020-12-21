@@ -299,7 +299,7 @@ def graalvmIndex(ghToken: String, javaVersion: String, javaVersionInName: java.l
     if (input.startsWith("amd64-"))
       Some(("amd64", input.stripPrefix("amd64-")))
     else if (input.startsWith("aarch64-"))
-      Some(("aarch64", input.stripPrefix("aarch64-")))
+      Some(("arm64", input.stripPrefix("aarch64-")))
     else
       None
 
