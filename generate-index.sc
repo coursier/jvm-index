@@ -482,14 +482,9 @@ final case class ZuluParams(
     case x     => s"jdk@zulu-$x"
   }
 
-  private def actualJdkVersion(ver: Seq[Int]) = {
-    val prefix = if (ver.headOption.exists(_ <= 8)) "1." else ""
-    prefix + ver.take(3).mkString(".")
-  }
-
   def index(jdkVersion: Seq[Int], url: String): Index = {
     val indexUrl = s"$indexArchiveType+$url"
-    Index(indexOs, indexArch, indexJdkName, actualJdkVersion(jdkVersion), indexUrl)
+    Index(indexOs, indexArch, indexJdkName, jdkVersion.take(3).mkString("."), indexUrl)
   }
 }
 
