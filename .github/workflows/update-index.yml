@@ -11,14 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: coursier/cache-action@v4
+      - uses: coursier/cache-action@v6
+      - uses: laughedelic/coursier-setup@v1
         with:
-          extraFiles: "[\"generate-index.*\", \".github/scripts/*.sh\"]"
-      - run: .github/scripts/setup.sh
+          jvm: 8
+          apps: cs:2.0.16
       - run: ./generate-index.sh writeIndex
         env:
           GH_TOKEN: ${{ secrets.INDEX_GITHUB_TOKEN }}
-      - run: rm -f cs
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v3
