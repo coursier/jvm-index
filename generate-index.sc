@@ -332,7 +332,7 @@ def graalvmIndex(ghToken: String, javaVersion: String, javaVersionInName: java.l
   indices.foldLeft(Index.empty)(_ + _)
 }
 
-def adoptIndex(ghToken: String, baseVersion: String, versionPrefix: String = ""): Index = {
+def adoptIndex(ghToken: String, baseVersion: Int, versionPrefix: String = ""): Index = {
   val ghOrg = "AdoptOpenJDK"
   val ghProj = s"openjdk$baseVersion-binaries"
   val releases0 = releaseIds(ghOrg, ghProj, ghToken)
@@ -366,7 +366,7 @@ def adoptIndex(ghToken: String, baseVersion: String, versionPrefix: String = "")
     else None
 
   val prefixes =
-    if (baseVersion == "8") Seq("jdk8u")
+    if (baseVersion == 8) Seq("jdk8u")
     else Seq(s"jdk-$baseVersion.", s"jdk-$baseVersion+")
   val indices = releases0
     .filter { release =>
@@ -419,7 +419,7 @@ def fullGraalvmIndex(): Index = {
 def fullAdoptIndex(): Index = {
   val adoptIndices = (8 to 15).map { num =>
     val versionPrefix = if (num == 8) "1." else ""
-    adoptIndex(ghToken, num.toString, versionPrefix)
+    adoptIndex(ghToken, num, versionPrefix)
   }
   adoptIndices.foldLeft(Index.empty)(_ + _)
 }
@@ -432,8 +432,8 @@ def printGraalvmIndex(): Unit = {
 
 @main
 def printAdoptIndex(): Unit = {
-  val adopt8Index = adoptIndex(ghToken, "8", "1.")
-  val adopt11Index = adoptIndex(ghToken, "11")
+  val adopt8Index = adoptIndex(ghToken, 8, "1.")
+  val adopt11Index = adoptIndex(ghToken, 11)
   val adoptIndex0 = adopt8Index + adopt11Index
   println(adoptIndex0.json)
 }
