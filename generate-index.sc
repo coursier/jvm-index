@@ -332,15 +332,30 @@ def graalvmIndex(ghToken: String, javaVersion: String, javaVersionInName: java.l
   indices.foldLeft(Index.empty)(_ + _)
 }
 
-def adoptIndex(ghToken: String, baseVersion: Int, versionPrefix: String = ""): Index = {
+def adoptIndex(
+  ghToken: String,
+  baseVersion: Int,
+  versionPrefix: String = "",
+  debugImage: Boolean = true
+): Index = {
   val ghOrg = "AdoptOpenJDK"
   val ghProj = s"openjdk$baseVersion-binaries"
   val releases0 = releaseIds(ghOrg, ghProj, ghToken)
     .filter(!_.prerelease)
 
-  val assetNamePrefix =
-    if (baseVersion <= 15) s"OpenJDK${baseVersion}U-jdk_"
-    else s"OpenJDK${baseVersion}-jdk_"
+  val releaseJdkName = "jdk@adopt"
+  val releaseAssetNamePrefix = {
+    val jdkStr = "jdk"
+    if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
+    else s"OpenJDK${baseVersion}-${jdkStr}_"
+  }
+
+  val debugJdkName = "jdk@adopt-debugimage"
+  val debugAssetNamePrefix = {
+    val jdkStr = "debugimage"
+    if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
+    else s"OpenJDK${baseVersion}-${jdkStr}_"
+  }
 
   def archOpt(input: String): Option[(String, String)] =
     if (input.startsWith("x64_"))
@@ -384,8 +399,9 @@ def adoptIndex(ghToken: String, baseVersion: Int, versionPrefix: String = ""): I
           }
         else version0
       }
-      val assets = releaseAssets(ghOrg, ghProj, ghToken, release.releaseId)
-      assets
+      val assets = releaseAssets(ghOrg, ghProj, ghToken, release.releaseId).toStream
+      def index(jdkName: String, assetNamePrefix: String) = assets
+        .iterator
         .filter(asset => asset.name.startsWith(assetNamePrefix))
         .flatMap { asset =>
           val name0 = asset.name.stripPrefix(assetNamePrefix)
@@ -399,9 +415,13 @@ def adoptIndex(ghToken: String, baseVersion: Int, versionPrefix: String = ""): I
                 .map(_.stripPrefix(prefix))
             }
             archiveType <- archiveTypeOpt(ext)
-          } yield Index(os, arch, s"jdk@adopt", "1." + version0.takeWhile(c => c != '-' && c != '+' && c != '_').replaceAllLiterally("u", ".0-"), archiveType + "+" + asset.downloadUrl)
+          } yield Index(os, arch, jdkName, "1." + version0.takeWhile(c => c != '-' && c != '+' && c != '_').replaceAllLiterally("u", ".0-"), archiveType + "+" + asset.downloadUrl)
           opt.toSeq
         }
+      def releaseIndex = index(releaseJdkName, releaseAssetNamePrefix)
+      def debugIndex = index(debugJdkName, debugAssetNamePrefix)
+      if (debugImage) releaseIndex ++ debugIndex
+      else releaseIndex
     }
 
   indices.foldLeft(Index.empty)(_ + _)
