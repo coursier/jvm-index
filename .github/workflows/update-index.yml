@@ -17,7 +17,7 @@ jobs:
       - run: .github/scripts/setup.sh
       - run: ./generate-index.sh writeIndex
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.INDEX_GITHUB_TOKEN }}
       - run: rm -f cs
       - name: Create Pull Request
         id: cpr
