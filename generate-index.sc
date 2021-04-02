@@ -193,12 +193,9 @@ def releaseIds(
 ): Iterator[Release] = {
 
   def helper(page: Int): Iterator[Release] = {
-    val url = uri"https://api.github.com/repos/$ghOrg/$ghProj/releases?access_token=$ghToken&page=$page"
-    val displayUrl =
-      if (ghToken.isEmpty) url.toString
-      else url.toString.replaceAllLiterally(ghToken, "****")
-    System.err.println(s"Getting $displayUrl")
-    val resp = quickRequest.get(url).send()
+    val url = uri"https://api.github.com/repos/$ghOrg/$ghProj/releases?page=$page"
+    System.err.println(s"Getting $url")
+    val resp = quickRequest.header("Authorization", s"token $ghToken").get(url).send()
     val linkHeader = resp.header("Link")
     val hasNext = linkHeader
       .toSeq
@@ -233,12 +230,9 @@ def releaseAssets(
 ): Iterator[Asset] = {
 
   def helper(page: Int): Iterator[Asset] = {
-    val url = uri"https://api.github.com/repos/$ghOrg/$ghProj/releases/$releaseId/assets?access_token=$ghToken&page=$page"
-    val displayUrl =
-      if (ghToken.isEmpty) url.toString
-      else url.toString.replaceAllLiterally(ghToken, "****")
-    System.err.println(s"Getting $displayUrl")
-    val resp = quickRequest.get(url).send()
+    val url = uri"https://api.github.com/repos/$ghOrg/$ghProj/releases/$releaseId/assets?page=$page"
+    System.err.println(s"Getting $url")
+    val resp = quickRequest.header("Authorization", s"token $ghToken").get(url).send()
     val json = ujson.read(resp.body)
 
     val linkHeader = resp.header("Link")
