@@ -483,12 +483,17 @@ final case class ZuluParams(
     case x     => x
   }
 
+  lazy val indexJdkName = bundleType match {
+    case "jdk" =>  "zulu"
+    case x     => s"zulu-$x"
+  }
+
   private def actualJdkVersion(ver: Seq[Int]) = {
     val prefix = if (ver.headOption.exists(_ <= 8)) "1." else ""
     prefix + ver.take(3).mkString(".")
   }
 
-  def index(jdkVersion: Seq[Int], url: String, indexJdkName: String = "zulu"): Index = {
+  def index(jdkVersion: Seq[Int], url: String): Index = {
     val indexUrl = s"$indexArchiveType+$url"
     Index(indexOs, indexArch, indexJdkName, actualJdkVersion(jdkVersion), indexUrl)
   }
@@ -498,11 +503,13 @@ def zuluIndex(): Index = {
 
   val oses = Seq("darwin", "linux", "windows", "linux-musl") // Add "solaris", "qnx"?
   val cpus = Seq("x86", "amd64", "arm", "arm64", "ppc64")
+  val bundleTypes = Seq("jdk", "jre")
   val allParams = for {
     os <- oses
     cpu <- cpus
     ext = if (os == "windows") "zip" else "tgz"
-  } yield ZuluParams(os, cpu, ext)
+    bundleType <- bundleTypes
+  } yield ZuluParams(os, cpu, ext, bundleType = bundleType)
 
   allParams
     .flatMap { params =>
