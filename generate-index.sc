@@ -484,8 +484,8 @@ final case class ZuluParams(
   }
 
   lazy val indexJdkName = bundleType match {
-    case "jdk" =>  "zulu"
-    case x     => s"zulu-$x"
+    case "jdk" =>  "jdk@zulu"
+    case x     => s"jdk@zulu-$x"
   }
 
   private def actualJdkVersion(ver: Seq[Int]) = {
