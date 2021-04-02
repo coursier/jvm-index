@@ -373,20 +373,32 @@ def adoptIndex(
   def archOpt(input: String): Option[(String, String)] =
     if (input.startsWith("x64_"))
       Some(("amd64", input.stripPrefix("x64_")))
+    else if (input.startsWith("x86-32_"))
+      Some(("x86", input.stripPrefix("x86-32_")))
     else if (input.startsWith("aarch64_"))
       Some(("arm64", input.stripPrefix("aarch64_")))
     else if (input.startsWith("arm_"))
       Some(("arm", input.stripPrefix("arm_")))
+    else if (input.startsWith("s390x_"))
+      Some(("s390x", input.stripPrefix("s390x_")))
+    else if (input.startsWith("ppc64_"))
+      Some(("ppc64", input.stripPrefix("ppc64_")))
+    else if (input.startsWith("ppc64le_"))
+      Some(("ppc64le", input.stripPrefix("ppc64le_")))
     else
       None
 
   def osOpt(input: String): Option[(String, String)] =
     if (input.startsWith("linux_"))
       Some(("linux", input.stripPrefix("linux_")))
+    else if (input.startsWith("alpine-linux_"))
+      Some(("alpine-linux", input.stripPrefix("alpine-linux_")))
     else if (input.startsWith("mac_"))
       Some(("darwin", input.stripPrefix("mac_")))
     else if (input.startsWith("windows_"))
       Some(("windows", input.stripPrefix("windows_")))
+    else if (input.startsWith("aix_"))
+      Some(("aix", input.stripPrefix("aix_")))
     else
       None
 
