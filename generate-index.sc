@@ -335,8 +335,7 @@ def graalvmIndex(ghToken: String, javaVersion: String, javaVersionInName: java.l
 def adoptIndex(
   ghToken: String,
   baseVersion: Int,
-  versionPrefix: String = "",
-  debugImage: Boolean = true
+  versionPrefix: String = ""
 ): Index = {
   val ghOrg = "AdoptOpenJDK"
   val ghProj = s"openjdk$baseVersion-binaries"
@@ -353,6 +352,20 @@ def adoptIndex(
   val debugJdkName = "jdk@adopt-debugimage"
   val debugAssetNamePrefix = {
     val jdkStr = "debugimage"
+    if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
+    else s"OpenJDK${baseVersion}-${jdkStr}_"
+  }
+
+  val testJdkName = "jdk@adopt-testimage"
+  val testAssetNamePrefix = {
+    val jdkStr = "testimage"
+    if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
+    else s"OpenJDK${baseVersion}-${jdkStr}_"
+  }
+
+  val jreName = "jdk@adopt-jre"
+  val jreAssetNamePrefix = {
+    val jdkStr = "jre"
     if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
     else s"OpenJDK${baseVersion}-${jdkStr}_"
   }
@@ -420,8 +433,9 @@ def adoptIndex(
         }
       def releaseIndex = index(releaseJdkName, releaseAssetNamePrefix)
       def debugIndex = index(debugJdkName, debugAssetNamePrefix)
-      if (debugImage) releaseIndex ++ debugIndex
-      else releaseIndex
+      def testIndex = index(testJdkName, testAssetNamePrefix)
+      def jreIndex = index(jreName, jreAssetNamePrefix)
+      releaseIndex ++ debugIndex ++ testIndex ++ jreIndex
     }
 
   indices.foldLeft(Index.empty)(_ + _)
