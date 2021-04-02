@@ -664,7 +664,7 @@ def writeIndex(output: String = "index.json"): Unit = {
   val graalvmIndex0 = fullGraalvmIndex()
   val adoptIndex0 = fullAdoptIndex()
   val zuluIndex0 = zuluIndex()
-  val libericaIndex0 = libericaIndex()
+  val libericaIndex0 = Index.empty // libericaIndex()
 
   val json = (graalvmIndex0 + adoptIndex0 + zuluIndex0 + libericaIndex0).json
   val dest = Paths.get(output)
