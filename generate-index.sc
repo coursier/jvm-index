@@ -338,7 +338,9 @@ def adoptIndex(ghToken: String, baseVersion: Int, versionPrefix: String = ""): I
   val releases0 = releaseIds(ghOrg, ghProj, ghToken)
     .filter(!_.prerelease)
 
-  val assetNamePrefix = s"OpenJDK${baseVersion}U-jdk_"
+  val assetNamePrefix =
+    if (baseVersion <= 15) s"OpenJDK${baseVersion}U-jdk_"
+    else s"OpenJDK${baseVersion}-jdk_"
 
   def archOpt(input: String): Option[(String, String)] =
     if (input.startsWith("x64_"))
@@ -417,7 +419,7 @@ def fullGraalvmIndex(): Index = {
 }
 
 def fullAdoptIndex(): Index = {
-  val adoptIndices = (8 to 15).map { num =>
+  val adoptIndices = (8 to 16).map { num =>
     val versionPrefix = if (num == 8) "1." else ""
     adoptIndex(ghToken, num, versionPrefix)
   }
