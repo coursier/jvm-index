@@ -575,6 +575,15 @@ def libericaIndex(): Index = {
   val allParams = for {
     os <- oses
     cpu <- cpus
+    // filtering out a few empty cases, to try to avoid being black-listed
+    if !(os == "darwin" && cpu == "x86") &&
+        !(os == "darwin" && cpu == "ppc64") &&
+        !(os == "windows" && cpu == "arm") &&
+        !(os == "windows" && cpu == "arm64") &&
+        !(os == "windows" && cpu == "ppc64") &&
+        !(os == "linux-musl" && cpu == "x86") &&
+        !(os == "linux-musl" && cpu == "arm") &&
+        !(os == "linux-musl" && cpu == "ppc64")
     ext = if (os == "windows" || os == "darwin") "zip" else "tgz"
     bundleType <- bundleTypes
   } yield LibericaParams(os, cpu, ext, bundleType = bundleType)
