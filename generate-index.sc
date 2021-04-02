@@ -583,7 +583,13 @@ def libericaIndex(): Index = {
     .flatMap { params =>
       System.err.println(s"Getting ${params.url}")
       val resp = quickRequest.get(params.url).send()
-      val json = ujson.read(resp.body)
+      val json =
+        try ujson.read(resp.body)
+        catch {
+          case NonFatal(e) =>
+            System.err.println(s"Error parsing '${resp.body}'")
+            throw e
+        }
 
       val count = json.arr.length
       System.err.println(s"Found $count elements")
