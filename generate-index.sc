@@ -595,7 +595,11 @@ def libericaIndex(): Index = {
 
   val url = uri"https://api.bell-sw.com/v1/liberica/releases"
   System.err.println(s"Getting $url")
-  val resp = quickRequest.get(url).send()
+  val ua = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.7.8 (KHTML, like Gecko) Version/9.1.3 Safari/537.86.7"
+  val resp = quickRequest
+    .header("User-Agent", ua)
+    .get(url)
+    .send()
   val json =
     try ujson.read(resp.body)
     catch {
