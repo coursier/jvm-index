@@ -525,103 +525,95 @@ def zuluIndex(): Index = {
     .foldLeft(Index.empty)(_ + _)
 }
 
-final case class LibericaParams(
-  indexOs: String,
-  indexArch: String,
-  indexArchiveType: String,
-  bundleType: String = "jdk"
+final case class LibericaEntry(
+  featureVersion: Int,
+  patchVersion: Int,
+  updateVersion: Int,
+  buildVersion: Int,
+  bitness: Int,
+  os: String,
+  url: String,
+  bundleType: String,
+  packageType: String,
+  architecture: String
 ) {
-  lazy val url: sttp.model.Uri = {
-    val fx = if (bundleType.endsWith("-full")) "true" else "false"
-    uri"https://api.bell-sw.com/v1/liberica/releases?bitness=$bitness&fx=$fx&os=$os&arch=$arch&package-type=$ext&bundle-type=$bundleType"
+  lazy val sortKey = (featureVersion, patchVersion, updateVersion, buildVersion, packageType)
+
+  def jdkVersion: String = s"$featureVersion.$patchVersion.$updateVersion"
+
+  def indexOs = os match {
+    case "macos" => "darwin"
+    case x       => x
+  }
+  def indexArchOpt = (architecture, bitness) match {
+    case ("arm", 32) => Some("arm")
+    case ("arm", 64) => Some("arm64")
+    case ("x86", 32) => Some("x86")
+    case ("x86", 64) => Some("amd64")
+    case ("ppc", 64) => Some("ppc64")
+    case _             => None
   }
 
-  lazy val os = indexOs match {
-    case "darwin"     => "macos"
-    case x            => x
-  }
-
-  lazy val (arch, bitness) = indexArch match {
-    case "arm"   => ("arm", "32")
-    case "arm64" => ("arm", "64")
-    case "x86"   => ("x86", "32")
-    case "amd64" => ("x86", "64")
-    case "ppc64" => ("ppc", "64")
-    case _       => ???
-  }
-
-  lazy val ext = indexArchiveType match {
-    case "tgz" => "tar.gz"
-    case x     => x
-  }
-
-  lazy val indexJdkName = bundleType match {
+  def indexJdkName = bundleType match {
     case "jdk"                         =>  "jdk@liberica"
     case jdk if jdk.startsWith("jdk-") =>  "jdk@liberica" + jdk.stripPrefix("jdk")
     case x                             => s"jdk@liberica-$x"
   }
 
-  def index(jdkVersion: Seq[Int], url: String): Index = {
-    val indexUrl = s"$indexArchiveType+$url"
-    Index(indexOs, indexArch, indexJdkName, jdkVersion.take(3).mkString("."), indexUrl)
+  def indexUrl = {
+    val packageTypePrefix = packageType match {
+      case "tar.gz" => "tgz"
+      case x        => x
+    }
+    s"$packageTypePrefix+$url"
   }
+
+  def indexOpt: Option[Index] =
+    for {
+      indexArch <- indexArchOpt
+      if packageType == "zip" || packageType == "tar.gz"
+    } yield Index(indexOs, indexArch, indexJdkName, jdkVersion, indexUrl)
+}
+
+object LibericaEntry {
+  def apply(obj: ujson.Obj): LibericaEntry =
+    LibericaEntry(
+      featureVersion = obj("featureVersion").num.toInt,
+      patchVersion = obj("patchVersion").num.toInt,
+      updateVersion = obj("updateVersion").num.toInt,
+      buildVersion = obj("buildVersion").num.toInt,
+      bitness = obj("bitness").num.toInt,
+      os = obj("os").str,
+      url = obj("downloadUrl").str,
+      bundleType = obj("bundleType").str,
+      packageType = obj("packageType").str,
+      architecture = obj("architecture").str
+    )
 }
 
 def libericaIndex(): Index = {
 
-  val oses = Seq("darwin", "linux", "windows", "linux-musl") // Add "solaris"
-  val cpus = Seq("x86", "amd64", "arm", "arm64", "ppc64")
-  val bundleTypes = Seq("jdk", "jre", "jdk-full", "jdk-lite", "jre-full")
-  val allParams = for {
-    os <- oses
-    cpu <- cpus
-    // filtering out a few empty cases, to try to avoid being black-listed
-    if !(os == "darwin" && cpu == "x86") &&
-        !(os == "darwin" && cpu == "ppc64") &&
-        !(os == "windows" && cpu == "arm") &&
-        !(os == "windows" && cpu == "arm64") &&
-        !(os == "windows" && cpu == "ppc64") &&
-        !(os == "linux-musl" && cpu == "x86") &&
-        !(os == "linux-musl" && cpu == "arm") &&
-        !(os == "linux-musl" && cpu == "ppc64")
-    ext = if (os == "windows" || os == "darwin") "zip" else "tgz"
-    bundleType <- bundleTypes
-  } yield LibericaParams(os, cpu, ext, bundleType = bundleType)
-
-  allParams
-    .flatMap { params =>
-      System.err.println(s"Getting ${params.url}")
-      val resp = quickRequest.get(params.url).send()
-      val json =
-        try ujson.read(resp.body)
-        catch {
-          case NonFatal(e) =>
-            System.err.println(s"Error parsing '${resp.body}'")
-            throw e
-        }
-
-      val count = json.arr.length
-      System.err.println(s"Found $count elements")
-
-      json.arr
-        .toArray
-        .map(_.obj)
-        .map { a =>
-          val featureVersion = a("featureVersion").num.toInt
-          val patchVersion = a("patchVersion").num.toInt
-          val updateVersion = a("updateVersion").num.toInt
-          val buildVersion = a("buildVersion").num.toInt
-          (featureVersion, patchVersion, updateVersion, buildVersion) -> a
-        }
-        .sortBy(_._1)
-        .iterator
-        .map {
-          case ((featureVersion, patchVersion, updateVersion, buildVersion), obj) =>
-            val url = obj("downloadUrl").str
-            val jdkVersion = List(featureVersion, patchVersion, updateVersion, buildVersion)
-            params.index(jdkVersion, url)
-        }
+  val url = uri"https://api.bell-sw.com/v1/liberica/releases"
+  System.err.println(s"Getting $url")
+  val resp = quickRequest.get(url).send()
+  val json =
+    try ujson.read(resp.body)
+    catch {
+      case NonFatal(e) =>
+        System.err.println(s"Error parsing '${resp.body}'")
+        throw e
     }
+
+  val count = json.arr.length
+  System.err.println(s"Found $count elements")
+
+  json
+    .arr
+    .toArray
+    .map(elem => LibericaEntry(elem.obj))
+    .sortBy(_.sortKey)
+    .iterator
+    .flatMap(_.indexOpt.iterator)
     .foldLeft(Index.empty)(_ + _)
 }
 
@@ -664,7 +656,7 @@ def writeIndex(output: String = "index.json"): Unit = {
   val graalvmIndex0 = fullGraalvmIndex()
   val adoptIndex0 = fullAdoptIndex()
   val zuluIndex0 = zuluIndex()
-  val libericaIndex0 = Index.empty // libericaIndex()
+  val libericaIndex0 = libericaIndex()
 
   val json = (graalvmIndex0 + adoptIndex0 + zuluIndex0 + libericaIndex0).json
   val dest = Paths.get(output)
