@@ -507,6 +507,7 @@
         "15.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu15.27.17-ca-jre15.0.0-macosx_x64.tar.gz",
         "15.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu15.28.51-ca-jre15.0.1-macosx_x64.tar.gz",
         "15.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu15.29.15-ca-jre15.0.2-macosx_x64.tar.gz",
+        "16.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu16.28.11-ca-jre16.0.0-macosx_x64.tar.gz",
         "7.0.252": "tgz+https://cdn.azul.com/zulu/bin/zulu7.36.0.5-ca-jre7.0.252-macosx_x64.tar.gz",
         "7.0.262": "tgz+https://cdn.azul.com/zulu/bin/zulu7.38.0.11-ca-jre7.0.262-macosx_x64.tar.gz",
         "7.0.272": "tgz+https://cdn.azul.com/zulu/bin/zulu7.40.0.15-ca-jre7.0.272-macosx_x64.tar.gz",
@@ -565,6 +566,7 @@
         "11.0.10": "tgz+https://cdn.azul.com/zulu/bin/zulu11.45.27-ca-jre11.0.10-macosx_aarch64.tar.gz",
         "13.0.6": "tgz+https://cdn.azul.com/zulu/bin/zulu13.37.21-ca-jre13.0.6-macosx_aarch64.tar.gz",
         "15.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu15.29.15-ca-jre15.0.2-macosx_aarch64.tar.gz",
+        "16.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu16.28.11-ca-jre16.0.0-macosx_aarch64.tar.gz",
         "8.0.282": "tgz+https://cdn.azul.com/zulu/bin/zulu8.52.0.23-ca-jre8.0.282-macosx_aarch64.tar.gz"
       }
     }
@@ -971,6 +973,7 @@
         "15.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu15.27.17-ca-jre15.0.0-linux_x64.tar.gz",
         "15.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu15.28.51-ca-jre15.0.1-linux_x64.tar.gz",
         "15.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu15.29.15-ca-jre15.0.2-linux_x64.tar.gz",
+        "16.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu16.28.11-ca-jre16.0.0-linux_x64.tar.gz",
         "8.0.212": "tgz+https://cdn.azul.com/zulu/bin/zulu8.38.0.13-ca-jre8.0.212-linux_x64.tar.gz",
         "8.0.222": "tgz+https://cdn.azul.com/zulu/bin/zulu8.40.0.25-ca-jre8.0.222-linux_x64.tar.gz",
         "8.0.232": "tgz+https://cdn.azul.com/zulu/bin/zulu8.42.0.23-ca-jre8.0.232-linux_x64.tar.gz",
@@ -1474,7 +1477,8 @@
         "13.0.6": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu13.37.21-ca-jre13.0.6-linux_aarch64.tar.gz",
         "15.0.0": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu15.27.17-ca-jre15.0.0-linux_aarch64.tar.gz",
         "15.0.1": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu15.28.51-ca-jre15.0.1-linux_aarch64.tar.gz",
-        "15.0.2": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu15.29.15-ca-jre15.0.2-linux_aarch64.tar.gz"
+        "15.0.2": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu15.29.15-ca-jre15.0.2-linux_aarch64.tar.gz",
+        "16.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu16.28.11-ca-jre16.0.0-linux_aarch64.tar.gz"
       }
     },
     "ppc64": {
@@ -2102,6 +2106,7 @@
         "15.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu15.27.17-ca-jre15.0.0-linux_musl_x64.tar.gz",
         "15.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu15.28.51-ca-jre15.0.1-linux_musl_x64.tar.gz",
         "15.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu15.29.15-ca-jre15.0.2-linux_musl_x64.tar.gz",
+        "16.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu16.28.11-ca-jre16.0.0-linux_musl_x64.tar.gz",
         "8.0.212": "tgz+https://cdn.azul.com/zulu/bin/zulu8.38.0.13-ca-jre8.0.212-linux_musl_x64.tar.gz",
         "8.0.222": "tgz+https://cdn.azul.com/zulu/bin/zulu8.40.0.25-ca-jre8.0.222-linux_musl_x64.tar.gz",
         "8.0.232": "tgz+https://cdn.azul.com/zulu/bin/zulu8.42.0.23-ca-jre8.0.232-linux_musl_x64.tar.gz",
@@ -2630,6 +2635,7 @@
         "15.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu15.27.17-ca-jre15.0.0-win_x64.zip",
         "15.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu15.28.51-ca-jre15.0.1-win_x64.zip",
         "15.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu15.29.15-ca-jre15.0.2-win_x64.zip",
+        "16.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu16.28.11-ca-jre16.0.0-win_x64.zip",
         "8.0.212": "zip+https://cdn.azul.com/zulu/bin/zulu8.38.0.13-ca-jre8.0.212-win_x64.zip",
         "8.0.222": "zip+https://cdn.azul.com/zulu/bin/zulu8.40.0.25-ca-jre8.0.222-win_x64.zip",
         "8.0.232": "zip+https://cdn.azul.com/zulu/bin/zulu8.42.0.23-ca-jre8.0.232-win_x64.zip",
@@ -2949,6 +2955,7 @@
         "15.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu15.27.17-ca-jre15.0.0-win_i686.zip",
         "15.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu15.28.51-ca-jre15.0.1-win_i686.zip",
         "15.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu15.29.15-ca-jre15.0.2-win_i686.zip",
+        "16.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu16.28.11-ca-jre16.0.0-win_i686.zip",
         "7.0.252": "zip+https://cdn.azul.com/zulu/bin/zulu7.36.0.5-ca-jre7.0.252-win_i686.zip",
         "7.0.262": "zip+https://cdn.azul.com/zulu/bin/zulu7.38.0.11-ca-jre7.0.262-win_i686.zip",
         "7.0.272": "zip+https://cdn.azul.com/zulu/bin/zulu7.40.0.15-ca-jre7.0.272-win_i686.zip",
