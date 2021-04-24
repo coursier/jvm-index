@@ -1293,6 +1293,7 @@
       "jdk@zulu": {
         "11.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu11.1.8-ca-jdk11.0.0-c2-linux_aarch32sf.tar.gz",
         "11.0.10": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.45.27-ca-jdk11.0.10-linux_aarch32hf.tar.gz",
+        "11.0.11": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.48.21-ca-jdk11.0.11-linux_aarch32sf.tar.gz",
         "11.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu11.31.16-ca-jdk11.0.3-linux_aarch32sf.tar.gz",
         "11.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu11.33.21-ca-jdk11.0.4-linux_aarch32hf.tar.gz",
         "11.0.5": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.35.36-ca-jdk11.0.5-linux_aarch32sf.tar.gz",
@@ -1313,7 +1314,8 @@
         "8.0.265": "tgz+https://cdn.azul.com/zulu/bin/zulu8.48.3.246-ca-jdk8.0.265-linux_aarch32hf.tar.gz",
         "8.0.272": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.50.0.259-ca-jdk8.0.272-linux_aarch32sf.tar.gz",
         "8.0.275": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.50.51.263-ca-jdk8.0.275-linux_aarch32sf.tar.gz",
-        "8.0.282": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.52.0.23-ca-jdk8.0.282-linux_aarch32hf.tar.gz"
+        "8.0.282": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.52.0.23-ca-jdk8.0.282-linux_aarch32hf.tar.gz",
+        "8.0.292": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.54.0.21-ca-jdk8.0.292-linux_aarch32hf.tar.gz"
       }
     },
     "arm64": {
@@ -1708,7 +1710,8 @@
         "8.0.265": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.48.3.247-ca-hl-jdk8.0.265-linux_ppc64.tar.gz",
         "8.0.272": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.50.0.261-ca-hl-jdk8.0.272-linux_ppc64.tar.gz",
         "8.0.275": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.50.51.263-ca-hl-jdk8.0.275-linux_ppc64.tar.gz",
-        "8.0.282": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.52.0.23-ca-hl-embvm-jdk8.0.282-linux_ppc64.tar.gz"
+        "8.0.282": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.52.0.23-ca-hl-embvm-jdk8.0.282-linux_ppc64.tar.gz",
+        "8.0.292": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.54.0.21-ca-hl-embvm-jdk8.0.292-linux_ppc64.tar.gz"
       }
     },
     "ppc64le": {
