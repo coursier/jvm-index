@@ -565,46 +565,46 @@
     "arm64": {
       "jdk@liberica": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-macos-aarch64.zip",
-        "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-macos-aarch64.zip",
+        "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+10/bellsoft-jdk11.0.11+10-macos-aarch64.zip",
         "15.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-macos-aarch64.zip",
         "16.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-macos-aarch64.zip",
-        "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-macos-aarch64.zip",
+        "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jdk16.0.1+10-macos-aarch64.zip",
         "8.0.282": "zip+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-macos-aarch64.zip",
-        "8.0.292": "zip+https://github.com/bell-sw/Liberica/releases/download/8u292+10/bellsoft-jdk8u292+10-macos-aarch64.zip"
+        "8.0.292": "zip+https://github.com/bell-sw/Liberica/releases/download/8u292+11/bellsoft-jdk8u292+11-macos-aarch64.zip"
       },
       "jdk@liberica-full": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-macos-aarch64-full.zip",
-        "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-macos-aarch64-full.zip",
+        "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+10/bellsoft-jdk11.0.11+10-macos-aarch64-full.zip",
         "15.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-macos-aarch64-full.zip",
         "16.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-macos-aarch64-full.zip",
-        "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-macos-aarch64-full.zip",
+        "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jdk16.0.1+10-macos-aarch64-full.zip",
         "8.0.282": "zip+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-macos-aarch64-full.zip",
-        "8.0.292": "zip+https://github.com/bell-sw/Liberica/releases/download/8u292+10/bellsoft-jdk8u292+10-macos-aarch64-full.zip"
+        "8.0.292": "zip+https://github.com/bell-sw/Liberica/releases/download/8u292+11/bellsoft-jdk8u292+11-macos-aarch64-full.zip"
       },
       "jdk@liberica-jre": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-macos-aarch64.zip",
-        "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jre11.0.11+9-macos-aarch64.zip",
+        "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+10/bellsoft-jre11.0.11+10-macos-aarch64.zip",
         "15.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jre15.0.2+10-macos-aarch64.zip",
         "16.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jre16+36-macos-aarch64.zip",
-        "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jre16.0.1+9-macos-aarch64.zip",
+        "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jre16.0.1+10-macos-aarch64.zip",
         "8.0.282": "zip+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jre8u282+8-macos-aarch64.zip",
-        "8.0.292": "zip+https://github.com/bell-sw/Liberica/releases/download/8u292+10/bellsoft-jre8u292+10-macos-aarch64.zip"
+        "8.0.292": "zip+https://github.com/bell-sw/Liberica/releases/download/8u292+11/bellsoft-jre8u292+11-macos-aarch64.zip"
       },
       "jdk@liberica-jre-full": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-macos-aarch64-full.zip",
-        "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jre11.0.11+9-macos-aarch64-full.zip",
+        "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+10/bellsoft-jre11.0.11+10-macos-aarch64-full.zip",
         "15.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jre15.0.2+10-macos-aarch64-full.zip",
         "16.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jre16+36-macos-aarch64-full.zip",
-        "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jre16.0.1+9-macos-aarch64-full.zip",
+        "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jre16.0.1+10-macos-aarch64-full.zip",
         "8.0.282": "zip+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jre8u282+8-macos-aarch64-full.zip",
-        "8.0.292": "zip+https://github.com/bell-sw/Liberica/releases/download/8u292+10/bellsoft-jre8u292+10-macos-aarch64-full.zip"
+        "8.0.292": "zip+https://github.com/bell-sw/Liberica/releases/download/8u292+11/bellsoft-jre8u292+11-macos-aarch64-full.zip"
       },
       "jdk@liberica-lite": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-macos-aarch64-lite.zip",
-        "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-macos-aarch64-lite.zip",
+        "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+10/bellsoft-jdk11.0.11+10-macos-aarch64-lite.zip",
         "15.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-macos-aarch64-lite.zip",
         "16.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-macos-aarch64-lite.zip",
-        "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-macos-aarch64-lite.zip"
+        "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jdk16.0.1+10-macos-aarch64-lite.zip"
       },
       "jdk@zulu": {
         "11.0.10": "tgz+https://cdn.azul.com/zulu/bin/zulu11.45.27-ca-jdk11.0.10-macosx_aarch64.tar.gz",
@@ -2356,6 +2356,12 @@
         "15.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-linux-aarch64-musl-lite.tar.gz",
         "16.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-linux-aarch64-musl-lite.tar.gz",
         "16.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-linux-aarch64-musl-lite.tar.gz"
+      },
+      "jdk@zulu": {
+        "16.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu16.30.19-ca-jdk16.0.1-linux_musl_aarch64.tar.gz"
+      },
+      "jdk@zulu-jre": {
+        "16.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu16.30.19-ca-jre16.0.1-linux_musl_aarch64.tar.gz"
       }
     }
   },
