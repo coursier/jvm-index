@@ -343,38 +343,40 @@ def graalvmIndex(ghToken: String, javaVersion: String, javaVersionInName: java.l
   indices.foldLeft(Index.empty)(_ + _)
 }
 
+enum Adopt(val ghOrg: String, val ghProjPrefix: String, val baseVersions: Seq[Int]):
+  case adopt extends Adopt("AdoptOpenJDK", "openjdk", 8 to 16)
+  case temurin extends Adopt("adoptium", "temurin", Seq(8, 11, 16))
+  def jdkName(suffix: String = "") = s"jdk@$this$suffix"
+
 def adoptIndex(
   ghToken: String,
+  adopt: Adopt,
   baseVersion: Int,
   versionPrefix: String = ""
 ): Index = {
-  val ghOrg = "AdoptOpenJDK"
-  val ghProj = s"openjdk$baseVersion-binaries"
+  import adopt.{ghOrg, ghProjPrefix}
+  val ghProj = s"$ghProjPrefix$baseVersion-binaries"
   val releases0 = releaseIds(ghOrg, ghProj, ghToken)
     .filter(!_.prerelease)
 
-  val releaseJdkName = "jdk@adopt"
   val releaseAssetNamePrefix = {
     val jdkStr = "jdk"
     if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
     else s"OpenJDK${baseVersion}-${jdkStr}_"
   }
 
-  val debugJdkName = "jdk@adopt-debugimage"
   val debugAssetNamePrefix = {
     val jdkStr = "debugimage"
     if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
     else s"OpenJDK${baseVersion}-${jdkStr}_"
   }
 
-  val testJdkName = "jdk@adopt-testimage"
   val testAssetNamePrefix = {
     val jdkStr = "testimage"
     if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
     else s"OpenJDK${baseVersion}-${jdkStr}_"
   }
 
-  val jreName = "jdk@adopt-jre"
   val jreAssetNamePrefix = {
     val jdkStr = "jre"
     if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
@@ -454,10 +456,10 @@ def adoptIndex(
           } yield Index(os, arch, jdkName, "1." + version0.takeWhile(c => c != '-' && c != '+' && c != '_').replaceAllLiterally("u", ".0-"), archiveType + "+" + asset.downloadUrl)
           opt.toSeq
         }
-      def releaseIndex = index(releaseJdkName, releaseAssetNamePrefix)
-      def debugIndex = index(debugJdkName, debugAssetNamePrefix)
-      def testIndex = index(testJdkName, testAssetNamePrefix)
-      def jreIndex = index(jreName, jreAssetNamePrefix)
+      def releaseIndex = index(adopt.jdkName(), releaseAssetNamePrefix)
+      def debugIndex = index(adopt.jdkName("-debugimage"), debugAssetNamePrefix)
+      def testIndex = index(adopt.jdkName("-testimage"), testAssetNamePrefix)
+      def jreIndex = index(adopt.jdkName("-jre"), jreAssetNamePrefix)
       releaseIndex ++ debugIndex ++ testIndex ++ jreIndex
     }
 
@@ -638,10 +640,9 @@ def libericaIndex(): Index = {
     .foldLeft(Index.empty)(_ + _)
 }
 
-private lazy val ghToken = Option(System.getenv("GH_TOKEN")).getOrElse {
-  System.err.println("Warning: GH_TOKEN not set, it's likely we'll get rate-limited by the GitHub API")
-  ""
-}
+private lazy val ghToken = Option(System.getenv("GH_TOKEN"))
+  .orElse(sys.props.get("gh.token"))
+  .getOrElse(sys.error("GH_TOKEN not set"))
 
 def fullGraalvmIndex(): Index = {
   val graalvmIndex0 = graalvmIndex(ghToken, "8")
@@ -650,10 +651,12 @@ def fullGraalvmIndex(): Index = {
 }
 
 def fullAdoptIndex(): Index = {
-  val adoptIndices = (8 to 16).map { num =>
-    val versionPrefix = if (num == 8) "1." else ""
-    adoptIndex(ghToken, num, versionPrefix)
-  }
+  val adoptIndices = for {
+    adopt <- Adopt.values
+    baseVersion <- adopt.baseVersions
+    versionPrefix = if (baseVersion == 8) "1." else ""
+  } yield adoptIndex(ghToken, adopt, baseVersion, versionPrefix)
+
   adoptIndices.foldLeft(Index.empty)(_ + _)
 }
 
@@ -664,9 +667,9 @@ def printGraalvmIndex(): Unit = {
 }
 
 @main
-def printAdoptIndex(): Unit = {
-  val adopt8Index = adoptIndex(ghToken, 8, "1.")
-  val adopt11Index = adoptIndex(ghToken, 11)
+def printAdoptIndex(adopt: String /* = adopt | temurin */): Unit = {
+  val adopt8Index = adoptIndex(ghToken, Adopt.valueOf(adopt), 8, "1.")
+  val adopt11Index = adoptIndex(ghToken, Adopt.valueOf(adopt), 11)
   val adoptIndex0 = adopt8Index + adopt11Index
   println(adoptIndex0.json)
 }
