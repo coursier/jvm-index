@@ -15,10 +15,12 @@ inThisBuild(List(
 
 lazy val shared = Def.settings(
   Compile / resourceDirectory := baseDirectory.value / "resources",
-
-  // pura Java
-  crossPaths := false,
-  autoScalaLibrary := false
+  scalaVersion := "3.0.1",
+  libraryDependencies ++= Seq (
+    "com.softwaremill.sttp.client3" %% "core" % "3.3.14",
+    "com.lihaoyi" %% "ujson" % "1.4.0",
+  ),
+  Compile / sources := Seq(baseDirectory.value / "generate-index.sc")
 )
 
 name := "jvm-index"

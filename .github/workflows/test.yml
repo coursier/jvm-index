@@ -14,5 +14,5 @@ jobs:
       - uses: laughedelic/coursier-setup@v1
         with:
           jvm: 8
-          apps: cs:2.0.16
-      - run: ./generate-index.sh dummy
+          apps: sbt
+      - run: sbt "runMain dummy"

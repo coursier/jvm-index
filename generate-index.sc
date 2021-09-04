@@ -1,7 +1,3 @@
-
-import $ivy.`com.softwaremill.sttp.client3::core:3.3.14`
-import $ivy.`com.lihaoyi::ujson:1.4.0`
-
 import java.nio.file.{Files, Paths}
 
 import sttp.client3.quick._

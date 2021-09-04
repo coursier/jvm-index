@@ -1,15 +1,9 @@
 ## Usage
 
-Generate an index with
+Generate the `index.json` index with
 ```bash
-$ GH_TOKEN="****" ./generate-index.sh
+$ GH_TOKEN="****" sbt "runMain writeIndex index.json"
 ```
-
-Just `./generate-index.sh` can work if `GH_TOKEN` is not set, but it usually
-gets rate-limited by the GitHub API.
-
-By default, the index is written in `index.json` in the current directory.
-Pass `--output custom.json` to write to another file.
 
 ## (Non) use by coursier
 

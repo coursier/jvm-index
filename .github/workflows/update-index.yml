@@ -15,8 +15,8 @@ jobs:
       - uses: laughedelic/coursier-setup@v1
         with:
           jvm: 8
-          apps: cs:2.0.16
-      - run: ./generate-index.sh writeIndex
+          apps: sbt
+      - run: sbt "runMain writeIndex index.json"
         env:
           GH_TOKEN: ${{ secrets.INDEX_GITHUB_TOKEN }}
       - name: Create Pull Request
