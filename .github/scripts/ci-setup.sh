@@ -26,5 +26,5 @@ fi
    sbt-launcher
 
 "$DIR/cs" bootstrap -o "$DIR/amm" \
-   com.lihaoyi:ammonite_2.13.2:2.1.4 \
+   com.lihaoyi:ammonite_2.13.6:2.4.0 \
    -M ammonite.Main
