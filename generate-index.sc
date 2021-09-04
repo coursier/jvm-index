@@ -359,29 +359,10 @@ def adoptIndex(
   val releases0 = releaseIds(ghOrg, ghProj, ghToken)
     .filter(!_.prerelease)
 
-  val releaseAssetNamePrefix = {
-    val jdkStr = "jdk"
-    if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
-    else s"OpenJDK${baseVersion}-${jdkStr}_"
-  }
-
-  val debugAssetNamePrefix = {
-    val jdkStr = "debugimage"
-    if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
-    else s"OpenJDK${baseVersion}-${jdkStr}_"
-  }
-
-  val testAssetNamePrefix = {
-    val jdkStr = "testimage"
-    if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
-    else s"OpenJDK${baseVersion}-${jdkStr}_"
-  }
-
-  val jreAssetNamePrefix = {
-    val jdkStr = "jre"
-    if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
-    else s"OpenJDK${baseVersion}-${jdkStr}_"
-  }
+  def assetNamePrefix(jdkStr: String) = Seq(
+    s"OpenJDK${baseVersion}U-${jdkStr}_",
+    s"OpenJDK${baseVersion}-${jdkStr}_",
+  )
 
   def archOpt(input: String): Option[(String, String)] =
     if (input.startsWith("x64_"))
@@ -438,11 +419,11 @@ def adoptIndex(
         else version0
       }
       val assets = releaseAssets(ghOrg, ghProj, ghToken, release.tagName).to(LazyList)
-      def index(jdkName: String, assetNamePrefix: String) = assets
+      def index(jdkName: String, assetNamePrefix: Seq[String]) = assets
         .iterator
-        .filter(asset => asset.name.startsWith(assetNamePrefix))
+        .filter(asset => assetNamePrefix.exists(asset.name.startsWith))
         .flatMap { asset =>
-          val name0 = asset.name.stripPrefix(assetNamePrefix)
+          val name0 = assetNamePrefix.foldLeft(asset.name)(_ stripPrefix _)
           val opt = for {
             (arch, rem) <- archOpt(name0)
             (os, rem0) <- osOpt(rem)
@@ -456,10 +437,10 @@ def adoptIndex(
           } yield Index(os, arch, jdkName, "1." + version0.takeWhile(c => c != '-' && c != '+' && c != '_').replace("u", ".0-"), archiveType + "+" + asset.downloadUrl)
           opt.toSeq
         }
-      def releaseIndex = index(adopt.jdkName(), releaseAssetNamePrefix)
-      def debugIndex = index(adopt.jdkName("-debugimage"), debugAssetNamePrefix)
-      def testIndex = index(adopt.jdkName("-testimage"), testAssetNamePrefix)
-      def jreIndex = index(adopt.jdkName("-jre"), jreAssetNamePrefix)
+      def releaseIndex = index(adopt.jdkName(), assetNamePrefix("jdk"))
+      def debugIndex = index(adopt.jdkName("-debugimage"), assetNamePrefix("debugimage"))
+      def testIndex = index(adopt.jdkName("-testimage"), assetNamePrefix("testimage"))
+      def jreIndex = index(adopt.jdkName("-jre"), assetNamePrefix("jre"))
       releaseIndex ++ debugIndex ++ testIndex ++ jreIndex
     }
 

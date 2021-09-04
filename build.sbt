@@ -15,10 +15,10 @@ inThisBuild(List(
 
 lazy val shared = Def.settings(
   Compile / resourceDirectory := baseDirectory.value / "resources",
-  scalaVersion := "3.0.1",
+  scalaVersion := "3.0.2",
   libraryDependencies ++= Seq (
     "com.softwaremill.sttp.client3" %% "core" % "3.3.14",
-    "com.lihaoyi" %% "ujson" % "1.4.0",
+    "com.lihaoyi" %% "ujson" % "1.4.1",
   ),
   Compile / sources := Seq(baseDirectory.value / "generate-index.sc")
 )
