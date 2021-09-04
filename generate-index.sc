@@ -1,10 +1,10 @@
 
-import $ivy.`com.softwaremill.sttp.client::core:2.0.0-RC6`
-import $ivy.`com.lihaoyi::ujson:0.9.5`
+import $ivy.`com.softwaremill.sttp.client3::core:3.3.14`
+import $ivy.`com.lihaoyi::ujson:1.4.0`
 
 import java.nio.file.{Files, Paths}
 
-import sttp.client.quick._
+import sttp.client3.quick._
 
 import scala.util.control.NonFatal
 
@@ -195,7 +195,7 @@ def releaseIds(
   def helper(page: Int): Iterator[Release] = {
     val url = uri"https://api.github.com/repos/$ghOrg/$ghProj/releases?page=$page"
     System.err.println(s"Getting $url")
-    val resp = quickRequest.header("Authorization", s"token $ghToken").get(url).send()
+    val resp = quickRequest.header("Authorization", s"token $ghToken").get(url).send(backend)
     val linkHeader = resp.header("Link")
     val hasNext = linkHeader
       .toSeq
@@ -232,7 +232,7 @@ def releaseAssets(
   def helper(page: Int): Iterator[Asset] = {
     val url = uri"https://api.github.com/repos/$ghOrg/$ghProj/releases/$releaseId/assets?page=$page"
     System.err.println(s"Getting $url")
-    val resp = quickRequest.header("Authorization", s"token $ghToken").get(url).send()
+    val resp = quickRequest.header("Authorization", s"token $ghToken").get(url).send(backend)
     val json = ujson.read(resp.body)
 
     val linkHeader = resp.header("Link")
@@ -503,7 +503,7 @@ def zuluIndex(): Index = {
   allParams
     .flatMap { params =>
       System.err.println(s"Getting ${params.url}")
-      val resp = quickRequest.get(params.url).send()
+      val resp = quickRequest.get(params.url).send(backend)
       val json = ujson.read(resp.body)
 
       val count = json.arr.length
@@ -599,7 +599,7 @@ def libericaIndex(): Index = {
   val resp = quickRequest
     .header("User-Agent", ua)
     .get(url)
-    .send()
+    .send(backend)
   val json =
     try ujson.read(resp.body)
     catch {
