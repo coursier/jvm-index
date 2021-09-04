@@ -106,9 +106,9 @@ final case class Index(map: Map[String, Map[String, Map[String, Map[String, Stri
           k -> json3(m)
       }
     if (l.isEmpty)
-      Js.Obj()
+      ujson.Obj()
     else
-      Js.Obj(l.head, l.tail: _*)
+      ujson.Obj(l.head, l.tail: _*)
   }
 
   private def json3(
@@ -122,9 +122,9 @@ final case class Index(map: Map[String, Map[String, Map[String, Map[String, Stri
           k -> json2(m)
       }
     if (l.isEmpty)
-      Js.Obj()
+      ujson.Obj()
     else
-      Js.Obj(l.head, l.tail: _*)
+      ujson.Obj(l.head, l.tail: _*)
   }
 
   private def json2(
@@ -138,9 +138,9 @@ final case class Index(map: Map[String, Map[String, Map[String, Map[String, Stri
           k -> json1(m)
       }
     if (l.isEmpty)
-      Js.Obj()
+      ujson.Obj()
     else
-      Js.Obj(l.head, l.tail: _*)
+      ujson.Obj(l.head, l.tail: _*)
   }
 
   private def json1(
@@ -151,12 +151,12 @@ final case class Index(map: Map[String, Map[String, Map[String, Map[String, Stri
       .sortBy(_._1)
       .map {
         case (k, v) =>
-          k -> Js.Str(v)
+          k -> ujson.Str(v)
       }
     if (l.isEmpty)
-      Js.Obj()
+      ujson.Obj()
     else
-      Js.Obj(l.head, l.tail: _*)
+      ujson.Obj(l.head, l.tail: _*)
   }
 
   def json: String =
