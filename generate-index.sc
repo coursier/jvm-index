@@ -437,7 +437,7 @@ def adoptIndex(
           }
         else version0
       }
-      val assets = releaseAssets(ghOrg, ghProj, ghToken, release.tagName).toStream
+      val assets = releaseAssets(ghOrg, ghProj, ghToken, release.tagName).to(LazyList)
       def index(jdkName: String, assetNamePrefix: String) = assets
         .iterator
         .filter(asset => asset.name.startsWith(assetNamePrefix))
@@ -453,7 +453,7 @@ def adoptIndex(
                 .map(_.stripPrefix(prefix))
             }
             archiveType <- archiveTypeOpt(ext)
-          } yield Index(os, arch, jdkName, "1." + version0.takeWhile(c => c != '-' && c != '+' && c != '_').replaceAllLiterally("u", ".0-"), archiveType + "+" + asset.downloadUrl)
+          } yield Index(os, arch, jdkName, "1." + version0.takeWhile(c => c != '-' && c != '+' && c != '_').replace("u", ".0-"), archiveType + "+" + asset.downloadUrl)
           opt.toSeq
         }
       def releaseIndex = index(adopt.jdkName(), releaseAssetNamePrefix)
