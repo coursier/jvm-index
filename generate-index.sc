@@ -172,7 +172,6 @@ object Index {
 
 
 final case class Release(
-  releaseId: Long,
   tagName: String,
   prerelease: Boolean
 )
@@ -182,78 +181,100 @@ final case class Asset(
   downloadUrl: String
 )
 
+def queryRepo(owner: String, name: String, q: String): ujson.Value = {
+  val body = ujson.Obj(
+    "query" -> ujson.Str(s"""query { repository(owner: "$owner" name: "$name") { $q } }""")
+  )
+
+  val resp = quickRequest
+    .header("Authorization", s"token $ghToken")
+    .body(body.render())
+    .post(uri"https://api.github.com/graphql")
+    .send(backend)
+
+  try ujson.read(resp.body)("data")("repository")
+  catch { case NonFatal(e) => println(body); println(resp); throw e }
+}
+
 def releaseIds(
   ghOrg: String,
   ghProj: String,
   ghToken: String
 ): Iterator[Release] = {
-
-  def helper(page: Int): Iterator[Release] = {
-    val url = uri"https://api.github.com/repos/$ghOrg/$ghProj/releases?page=$page"
-    System.err.println(s"Getting $url")
-    val resp = quickRequest.header("Authorization", s"token $ghToken").get(url).send(backend)
-    val linkHeader = resp.header("Link")
-    val hasNext = linkHeader
-      .toSeq
-      .flatMap(_.split(','))
-      .exists(_.endsWith("; rel=\"next\""))
-    val json = ujson.read(resp.body)
+  def helper(before: Option[String]): Iterator[Release] = {
+    System.err.println(s"Getting releases of $ghOrg/$ghProj before $before ..")
+    val json = queryRepo(ghOrg, ghProj,
+      s"""|releases(
+          |  ${ before.fold("")(cursor => s"before: \"$cursor\"") }
+          |  orderBy: {field: CREATED_AT, direction: DESC}
+          |  last: 100
+          |) {
+          |  nodes { tagName isPrerelease }
+          |  pageInfo { hasPreviousPage, startCursor }
+          |}""".stripMargin
+    )("releases")
 
     val res = try {
-      json.arr.toVector.map { obj =>
-        Release(obj("id").num.toLong, obj("tag_name").str, obj("prerelease").bool)
+      json("nodes").arr.map { obj =>
+        Release(obj("tagName").str, obj("isPrerelease").bool)
       }
     } catch {
       case NonFatal(e) =>
-        System.err.println(resp.body)
+        System.err.println(json)
         throw e
     }
 
-    if (hasNext)
-      res.iterator ++ helper(page + 1)
+    val pageInfo = json("pageInfo")
+    if (pageInfo("hasPreviousPage").bool)
+      res.iterator ++ helper(Some(pageInfo("startCursor").str))
     else
       res.iterator
   }
 
-  helper(1)
+  helper(None)
 }
 
 def releaseAssets(
   ghOrg: String,
   ghProj: String,
   ghToken: String,
-  releaseId: Long
+  tagName: String
 ): Iterator[Asset] = {
 
-  def helper(page: Int): Iterator[Asset] = {
-    val url = uri"https://api.github.com/repos/$ghOrg/$ghProj/releases/$releaseId/assets?page=$page"
-    System.err.println(s"Getting $url")
-    val resp = quickRequest.header("Authorization", s"token $ghToken").get(url).send(backend)
-    val json = ujson.read(resp.body)
-
-    val linkHeader = resp.header("Link")
-    val hasNext = linkHeader
-      .toSeq
-      .flatMap(_.split(','))
-      .exists(_.endsWith("; rel=\"next\""))
+  def helper(before: Option[String]): Iterator[Asset] = {
+    System.err.println(
+      s"Getting assets of $ghOrg/$ghProj for release $tagName before $before .."
+    )
+    val json = queryRepo(ghOrg, ghProj,
+      s"""|release(tagName: "$tagName") {
+          |  releaseAssets(
+          |    ${ before.fold("")(cursor => s"before: \"$cursor\"") }
+          |    last: 100
+          |  ) {
+          |    nodes { name downloadUrl }
+          |    pageInfo { hasPreviousPage, startCursor }
+          |  }
+          |}""".stripMargin
+    )("release")("releaseAssets")
 
     val res = try {
-      json.arr.toVector.map { obj =>
-        Asset(obj("name").str, obj("browser_download_url").str)
+      json("nodes").arr.map { obj =>
+        Asset(obj("name").str, obj("downloadUrl").str)
       }
     } catch {
       case NonFatal(e) =>
-        System.err.println(resp.body)
+        System.err.println(json)
         throw e
     }
 
-    if (hasNext)
-      res.iterator ++ helper(page + 1)
+    val pageInfo = json("pageInfo")
+    if (pageInfo("hasPreviousPage").bool)
+      res.iterator ++ helper(Some(pageInfo("startCursor").str))
     else
       res.iterator
   }
 
-  helper(1)
+  helper(None)
 }
 
 
@@ -302,7 +323,7 @@ def graalvmIndex(ghToken: String, javaVersion: String, javaVersionInName: java.l
     .filter(release => release.tagName.startsWith("vm-"))
     .flatMap { release =>
       val version = release.tagName.stripPrefix("vm-")
-      val assets = releaseAssets(ghOrg, ghProj, ghToken, release.releaseId)
+      val assets = releaseAssets(ghOrg, ghProj, ghToken, release.tagName)
       assets
         .filter(asset => asset.name.startsWith(assetNamePrefix))
         .flatMap { asset =>
@@ -414,7 +435,7 @@ def adoptIndex(
           }
         else version0
       }
-      val assets = releaseAssets(ghOrg, ghProj, ghToken, release.releaseId).toStream
+      val assets = releaseAssets(ghOrg, ghProj, ghToken, release.tagName).toStream
       def index(jdkName: String, assetNamePrefix: String) = assets
         .iterator
         .filter(asset => asset.name.startsWith(assetNamePrefix))
