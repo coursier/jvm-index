@@ -8,7 +8,7 @@
 
 set -e
 
-coursier_version="2.0.0-RC6-24"
+coursier_version="2.0.16"
 for_graalvm="false"
 dest="cs"
 
