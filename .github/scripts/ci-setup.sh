@@ -11,7 +11,7 @@ mkdir -p "$DIR"
 export PATH="$DIR:$PATH"
 
 COURSIER_VERSION="2.0.16"
-MILL_VERSION="0.6.0"
+MILL_VERSION="0.9.9"
 
 if [ ! -x "$DIR/cs-$COURSIER_VERSION" ]; then
   curl -Lo "$DIR/cs-$COURSIER_VERSION" \
