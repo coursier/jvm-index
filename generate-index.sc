@@ -345,7 +345,7 @@ def graalvmIndex(ghToken: String, javaVersion: String, javaVersionInName: java.l
 
 enum Adopt(val ghOrg: String, val ghProjPrefix: String, val baseVersions: Seq[Int]):
   case adopt extends Adopt("AdoptOpenJDK", "openjdk", 8 to 16)
-  case temurin extends Adopt("adoptium", "temurin", Seq(8, 11, 16))
+  case temurin extends Adopt("adoptium", "temurin", Seq(8, 11, 16, 17))
   def jdkName(suffix: String = "") = s"jdk@$this$suffix"
 
 def adoptIndex(
