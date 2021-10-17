@@ -47,10 +47,12 @@ object Liberica {
     }
 
     def indexOpt: Option[Index] =
-      for {
-        indexArch <- indexArchOpt
-        if packageType == "zip" || packageType == "tar.gz"
-      } yield Index(indexOs, indexArch, indexJdkName, jdkVersion, indexUrl)
+      if (packageType == "zip" || packageType == "tar.gz")
+        indexArchOpt.map { indexArch =>
+          Index(indexOs, indexArch, indexJdkName, jdkVersion, indexUrl)
+        }
+      else
+        None
   }
 
   object LibericaEntry {

@@ -3,6 +3,7 @@
 // using com.lihaoyi::ujson:0.9.5
 // using com.lihaoyi::os-lib:0.7.5
 // using option -deprecation
+// using option -Ywarn-unused
 
 object GenerateIndex {
 

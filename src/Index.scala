@@ -87,8 +87,6 @@ final case class Index(map: Map[String, Map[String, Map[String, Map[String, Stri
   def +(other: Index): Index =
     Index(merge4(map, other.map))
 
-  import ujson._
-
   private def json4(
     map: Map[String, Map[String, Map[String, Map[String, String]]]]
   ) = {

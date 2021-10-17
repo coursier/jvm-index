@@ -1,17 +1,13 @@
 object Adopt {
 
   def fullIndex(ghToken: String): Index = {
-    val adoptIndices = (8 to 16).map { num =>
-      val versionPrefix = if (num == 8) "1." else ""
-      index(ghToken, num, versionPrefix)
-    }
+    val adoptIndices = (8 to 16).map(index(ghToken, _))
     adoptIndices.foldLeft(Index.empty)(_ + _)
   }
 
   def index(
     ghToken: String,
-    baseVersion: Int,
-    versionPrefix: String = ""
+    baseVersion: Int
   ): Index = {
     val ghOrg  = "AdoptOpenJDK"
     val ghProj = s"openjdk$baseVersion-binaries"
