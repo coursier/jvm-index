@@ -100,7 +100,7 @@ object Adopt {
             }
           else version0
         }
-        lazy val assets = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.releaseId).toVector
+        lazy val assets = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.tagName).toVector
         def index(jdkName: String, assetNamePrefix: String) = assets
           .iterator
           .filter(asset => asset.name.startsWith(assetNamePrefix))

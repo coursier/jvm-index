@@ -55,7 +55,7 @@ object Graalvm {
       .filter(release => release.tagName.startsWith("vm-"))
       .flatMap { release =>
         val version = release.tagName.stripPrefix("vm-")
-        val assets  = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.releaseId)
+        val assets  = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.tagName)
         assets
           .filter(asset => asset.name.startsWith(assetNamePrefix))
           .flatMap { asset =>

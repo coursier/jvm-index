@@ -1,5 +1,3 @@
-import sttp.client.quick._
-
 import scala.util.control.NonFatal
 
 final case class Asset(
@@ -13,45 +11,44 @@ object Asset {
     ghOrg: String,
     ghProj: String,
     ghToken: String,
-    releaseId: Long
+    tagName: String
   ): Iterator[Asset] = {
 
-    def helper(page: Int): Iterator[Asset] = {
-      val url =
-        uri"https://api.github.com/repos/$ghOrg/$ghProj/releases/$releaseId/assets?page=$page"
-      System.err.println(s"Getting $url")
-      val resp = quickRequest
-        .headers {
-          if (ghToken.isEmpty) Map[String, String]()
-          else Map("Authorization" -> s"token $ghToken")
-        }
-        .get(url)
-        .send()
-      val json = ujson.read(resp.body)
-
-      val linkHeader = resp.header("Link")
-      val hasNext = linkHeader
-        .toSeq
-        .flatMap(_.split(','))
-        .exists(_.endsWith("; rel=\"next\""))
+    def helper(before: Option[String]): Iterator[Asset] = {
+      System.err.println(
+        s"Getting assets of $ghOrg/$ghProj for release $tagName${before.fold("")(" before " + _)} …"
+      )
+      val resp = GitHub.queryRepo(ghOrg, ghProj, ghToken) {
+        s"""|release(tagName: "$tagName") {
+            |  releaseAssets(
+            |    ${before.fold("")(cursor => s"before: \"$cursor\"")}
+            |    last: 100
+            |  ) {
+            |    nodes { name downloadUrl }
+            |    pageInfo { hasPreviousPage, startCursor }
+            |  }
+            |}""".stripMargin
+      }
+      val json = resp("release")("releaseAssets")
 
       val res =
-        try json.arr.toVector.map { obj =>
-          Asset(obj("name").str, obj("browser_download_url").str)
+        try json("nodes").arr.map { obj =>
+          Asset(obj("name").str, obj("downloadUrl").str)
         }
         catch {
           case NonFatal(e) =>
-            System.err.println(resp.body)
+            System.err.println(json)
             throw e
         }
 
-      if (hasNext)
-        res.iterator ++ helper(page + 1)
+      val pageInfo = json("pageInfo")
+      if (pageInfo("hasPreviousPage").bool)
+        res.iterator ++ helper(Some(pageInfo("startCursor").str))
       else
         res.iterator
     }
 
-    helper(1)
+    helper(None)
   }
 
 }

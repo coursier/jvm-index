@@ -1,8 +1,6 @@
-import sttp.client.quick._
 import scala.util.control.NonFatal
 
 final case class Release(
-  releaseId: Long,
   tagName: String,
   prerelease: Boolean
 )
@@ -14,41 +12,39 @@ object Release {
     ghProj: String,
     ghToken: String
   ): Iterator[Release] = {
+    def helper(before: Option[String]): Iterator[Release] = {
+      System.err.println(s"Getting releases of $ghOrg/$ghProj${before.fold("")(" before " + _)} …")
+      val resp = GitHub.queryRepo(ghOrg, ghProj, ghToken) {
+        s"""|releases(
+            |  ${before.fold("")(cursor => s"before: \"$cursor\"")}
+            |  orderBy: {field: CREATED_AT, direction: DESC}
+            |  last: 100
+            |) {
+            |  nodes { tagName isPrerelease }
+            |  pageInfo { hasPreviousPage, startCursor }
+            |}""".stripMargin
+      }
 
-    def helper(page: Int): Iterator[Release] = {
-      val url = uri"https://api.github.com/repos/$ghOrg/$ghProj/releases?page=$page"
-      System.err.println(s"Getting $url")
-      val resp = quickRequest
-        .headers {
-          if (ghToken.isEmpty) Map[String, String]()
-          else Map("Authorization" -> s"token $ghToken")
-        }
-        .get(url)
-        .send()
-      val linkHeader = resp.header("Link")
-      val hasNext = linkHeader
-        .toSeq
-        .flatMap(_.split(','))
-        .exists(_.endsWith("; rel=\"next\""))
-      val json = ujson.read(resp.body)
+      val json = resp("releases")
 
       val res =
-        try json.arr.toVector.map { obj =>
-          Release(obj("id").num.toLong, obj("tag_name").str, obj("prerelease").bool)
+        try json("nodes").arr.map { obj =>
+          Release(obj("tagName").str, obj("isPrerelease").bool)
         }
         catch {
           case NonFatal(e) =>
-            System.err.println(resp.body)
+            System.err.println(json)
             throw e
         }
 
-      if (hasNext)
-        res.iterator ++ helper(page + 1)
+      val pageInfo = json("pageInfo")
+      if (pageInfo("hasPreviousPage").bool)
+        res.iterator ++ helper(Some(pageInfo("startCursor").str))
       else
         res.iterator
     }
 
-    helper(1)
+    helper(None)
   }
 
 }
