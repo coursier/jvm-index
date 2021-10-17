@@ -1,64 +1,43 @@
-object Adopt {
+object Temurin {
 
   def fullIndex(ghToken: String): Index = {
-    val adoptIndices = (8 to 16).map(index(ghToken, _))
-    adoptIndices.foldLeft(Index.empty)(_ + _)
+    val adoptIndices   = (8 to 16).map(index(ghToken, _, adopt = true))
+    val temurinIndices = Seq(8, 11, 16, 17).map(index(ghToken, _, adopt = false))
+    (adoptIndices.iterator ++ temurinIndices.iterator).foldLeft(Index.empty)(_ + _)
   }
 
   def index(
     ghToken: String,
-    baseVersion: Int
+    baseVersion: Int,
+    adopt: Boolean
   ): Index = {
-    val ghOrg  = "AdoptOpenJDK"
-    val ghProj = s"openjdk$baseVersion-binaries"
+    val ghOrg         = if (adopt) "AdoptOpenJDK" else "adoptium"
+    val projectPrefix = if (adopt) "openjdk" else "temurin"
+    val ghProj        = s"$projectPrefix$baseVersion-binaries"
     val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken)
       .filter(!_.prerelease)
 
-    val releaseJdkName = "jdk@adopt"
-    val releaseAssetNamePrefix = {
-      val jdkStr = "jdk"
-      if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
-      else s"OpenJDK$baseVersion-${jdkStr}_"
-    }
+    def jdkName(suffix: String = ""): String =
+      "jdk@" + (if (adopt) "adopt" else "temurin") + suffix
 
-    val debugJdkName = "jdk@adopt-debugimage"
-    val debugAssetNamePrefix = {
-      val jdkStr = "debugimage"
-      if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
-      else s"OpenJDK$baseVersion-${jdkStr}_"
-    }
-
-    val testJdkName = "jdk@adopt-testimage"
-    val testAssetNamePrefix = {
-      val jdkStr = "testimage"
-      if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
-      else s"OpenJDK$baseVersion-${jdkStr}_"
-    }
-
-    val jreName = "jdk@adopt-jre"
-    val jreAssetNamePrefix = {
-      val jdkStr = "jre"
-      if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
-      else s"OpenJDK$baseVersion-${jdkStr}_"
-    }
+    def assetNamePrefix(jdkStr: String) = Seq(
+      s"OpenJDK${baseVersion}U-${jdkStr}_",
+      s"OpenJDK$baseVersion-${jdkStr}_"
+    )
 
     def archOpt(input: String): Option[(String, String)] =
-      if (input.startsWith("x64_"))
-        Some(("amd64", input.stripPrefix("x64_")))
-      else if (input.startsWith("x86-32_"))
-        Some(("x86", input.stripPrefix("x86-32_")))
-      else if (input.startsWith("aarch64_"))
-        Some(("arm64", input.stripPrefix("aarch64_")))
-      else if (input.startsWith("arm_"))
-        Some(("arm", input.stripPrefix("arm_")))
-      else if (input.startsWith("s390x_"))
-        Some(("s390x", input.stripPrefix("s390x_")))
-      else if (input.startsWith("ppc64_"))
-        Some(("ppc64", input.stripPrefix("ppc64_")))
-      else if (input.startsWith("ppc64le_"))
-        Some(("ppc64le", input.stripPrefix("ppc64le_")))
-      else
-        None
+      Map(
+        "amd64"   -> "x64_",
+        "x86"     -> "x86-32_",
+        "arm64"   -> "aarch64_",
+        "arm"     -> "arm_",
+        "s390x"   -> "s390x_",
+        "ppc64"   -> "ppc64_",
+        "ppc64le" -> "ppc64le_"
+      ).collectFirst {
+        case (k, v) if input.startsWith(v) =>
+          k -> input.stripPrefix(v)
+      }
 
     def osOpt(input: String): Option[(String, String)] =
       if (input.startsWith("linux_"))
@@ -96,12 +75,12 @@ object Adopt {
             }
           else version0
         }
-        lazy val assets = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.tagName).toVector
-        def index(jdkName: String, assetNamePrefix: String) = assets
+        val assets = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.tagName).to(LazyList)
+        def index(jdkName: String, assetNamePrefix: Seq[String]) = assets
           .iterator
-          .filter(asset => asset.name.startsWith(assetNamePrefix))
+          .filter(asset => assetNamePrefix.exists(asset.name.startsWith))
           .flatMap { asset =>
-            val name0 = asset.name.stripPrefix(assetNamePrefix)
+            val name0 = assetNamePrefix.foldLeft(asset.name)(_ stripPrefix _)
             val opt = for {
               (arch, rem) <- archOpt(name0)
               (os, rem0)  <- osOpt(rem)
@@ -115,10 +94,10 @@ object Adopt {
             } yield Index(os, arch, jdkName, "1." + version0.takeWhile(c => c != '-' && c != '+' && c != '_').replace("u", ".0-"), archiveType + "+" + asset.downloadUrl)
             opt.toSeq
           }
-        def releaseIndex = index(releaseJdkName, releaseAssetNamePrefix)
-        def debugIndex   = index(debugJdkName, debugAssetNamePrefix)
-        def testIndex    = index(testJdkName, testAssetNamePrefix)
-        def jreIndex     = index(jreName, jreAssetNamePrefix)
+        def releaseIndex = index(jdkName(), assetNamePrefix("jdk"))
+        def debugIndex   = index(jdkName("-debugimage"), assetNamePrefix("debugimage"))
+        def testIndex    = index(jdkName("-testimage"), assetNamePrefix("testimage"))
+        def jreIndex     = index(jdkName("-jre"), assetNamePrefix("jre"))
         releaseIndex ++ debugIndex ++ testIndex ++ jreIndex
       }
 
