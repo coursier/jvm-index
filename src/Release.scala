@@ -1,4 +1,3 @@
-
 import sttp.client.quick._
 import scala.util.control.NonFatal
 
@@ -20,7 +19,10 @@ object Release {
       val url = uri"https://api.github.com/repos/$ghOrg/$ghProj/releases?page=$page"
       System.err.println(s"Getting $url")
       val resp = quickRequest
-        .headers(if (ghToken.isEmpty) Map[String, String]() else Map("Authorization" -> s"token $ghToken"))
+        .headers {
+          if (ghToken.isEmpty) Map[String, String]()
+          else Map("Authorization" -> s"token $ghToken")
+        }
         .get(url)
         .send()
       val linkHeader = resp.header("Link")
@@ -30,15 +32,15 @@ object Release {
         .exists(_.endsWith("; rel=\"next\""))
       val json = ujson.read(resp.body)
 
-      val res = try {
-        json.arr.toVector.map { obj =>
+      val res =
+        try json.arr.toVector.map { obj =>
           Release(obj("id").num.toLong, obj("tag_name").str, obj("prerelease").bool)
         }
-      } catch {
-        case NonFatal(e) =>
-          System.err.println(resp.body)
-          throw e
-      }
+        catch {
+          case NonFatal(e) =>
+            System.err.println(resp.body)
+            throw e
+        }
 
       if (hasNext)
         res.iterator ++ helper(page + 1)

@@ -1,4 +1,3 @@
-
 final case class Index(map: Map[String, Map[String, Map[String, Map[String, String]]]]) {
 
   private def merge4(
@@ -161,6 +160,12 @@ final case class Index(map: Map[String, Map[String, Map[String, Map[String, Stri
 object Index {
   def empty: Index =
     Index(Map.empty)
-  def apply(os: String, architecture: String, jdkName: String, jdkVersion: String, url: String): Index =
-      Index(Map(os -> Map(architecture -> Map(jdkName -> Map(jdkVersion -> url)))))
+  def apply(
+    os: String,
+    architecture: String,
+    jdkName: String,
+    jdkVersion: String,
+    url: String
+  ): Index =
+    Index(Map(os -> Map(architecture -> Map(jdkName -> Map(jdkVersion -> url)))))
 }

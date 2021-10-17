@@ -10,9 +10,9 @@ object GenerateIndex {
 
     val output = "index.json"
 
-    val graalvmIndex0 = Graalvm.fullIndex(GhToken.token)
-    val adoptIndex0 = Adopt.fullIndex(GhToken.token)
-    val zuluIndex0 = Zulu.index()
+    val graalvmIndex0  = Graalvm.fullIndex(GhToken.token)
+    val adoptIndex0    = Adopt.fullIndex(GhToken.token)
+    val zuluIndex0     = Zulu.index()
     val libericaIndex0 = Liberica.index()
 
     val json = (graalvmIndex0 + adoptIndex0 + zuluIndex0 + libericaIndex0).json

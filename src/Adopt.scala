@@ -1,4 +1,3 @@
-
 object Adopt {
 
   def fullIndex(ghToken: String): Index = {
@@ -14,7 +13,7 @@ object Adopt {
     baseVersion: Int,
     versionPrefix: String = ""
   ): Index = {
-    val ghOrg = "AdoptOpenJDK"
+    val ghOrg  = "AdoptOpenJDK"
     val ghProj = s"openjdk$baseVersion-binaries"
     val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken)
       .filter(!_.prerelease)
@@ -23,28 +22,28 @@ object Adopt {
     val releaseAssetNamePrefix = {
       val jdkStr = "jdk"
       if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
-      else s"OpenJDK${baseVersion}-${jdkStr}_"
+      else s"OpenJDK$baseVersion-${jdkStr}_"
     }
 
     val debugJdkName = "jdk@adopt-debugimage"
     val debugAssetNamePrefix = {
       val jdkStr = "debugimage"
       if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
-      else s"OpenJDK${baseVersion}-${jdkStr}_"
+      else s"OpenJDK$baseVersion-${jdkStr}_"
     }
 
     val testJdkName = "jdk@adopt-testimage"
     val testAssetNamePrefix = {
       val jdkStr = "testimage"
       if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
-      else s"OpenJDK${baseVersion}-${jdkStr}_"
+      else s"OpenJDK$baseVersion-${jdkStr}_"
     }
 
     val jreName = "jdk@adopt-jre"
     val jreAssetNamePrefix = {
       val jdkStr = "jre"
       if (baseVersion <= 15) s"OpenJDK${baseVersion}U-${jdkStr}_"
-      else s"OpenJDK${baseVersion}-${jdkStr}_"
+      else s"OpenJDK$baseVersion-${jdkStr}_"
     }
 
     def archOpt(input: String): Option[(String, String)] =
@@ -97,7 +96,7 @@ object Adopt {
           if (version0.contains("+"))
             version0.split('+') match {
               case Array(before, after) => s"${before}_${after.takeWhile(_ != '.')}"
-              case _ => version0
+              case _                    => version0
             }
           else version0
         }
@@ -109,7 +108,7 @@ object Adopt {
             val name0 = asset.name.stripPrefix(assetNamePrefix)
             val opt = for {
               (arch, rem) <- archOpt(name0)
-              (os, rem0) <- osOpt(rem)
+              (os, rem0)  <- osOpt(rem)
               ext <- {
                 val prefix = "hotspot_" + versionInFileName.filter(_ != '-') + "."
                 Some(rem0)
@@ -121,9 +120,9 @@ object Adopt {
             opt.toSeq
           }
         def releaseIndex = index(releaseJdkName, releaseAssetNamePrefix)
-        def debugIndex = index(debugJdkName, debugAssetNamePrefix)
-        def testIndex = index(testJdkName, testAssetNamePrefix)
-        def jreIndex = index(jreName, jreAssetNamePrefix)
+        def debugIndex   = index(debugJdkName, debugAssetNamePrefix)
+        def testIndex    = index(testJdkName, testAssetNamePrefix)
+        def jreIndex     = index(jreName, jreAssetNamePrefix)
         releaseIndex ++ debugIndex ++ testIndex ++ jreIndex
       }
 

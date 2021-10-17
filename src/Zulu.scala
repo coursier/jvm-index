@@ -1,4 +1,3 @@
-
 import sttp.client.quick._
 
 object Zulu {
@@ -33,7 +32,7 @@ object Zulu {
     }
 
     lazy val indexJdkName = bundleType match {
-      case "jdk" =>  "jdk@zulu"
+      case "jdk" => "jdk@zulu"
       case x     => s"jdk@zulu-$x"
     }
 
@@ -45,11 +44,11 @@ object Zulu {
 
   def index(): Index = {
 
-    val oses = Seq("darwin", "linux", "windows", "linux-musl") // Add "solaris", "qnx"?
-    val cpus = Seq("x86", "amd64", "arm", "arm64", "ppc64")
+    val oses        = Seq("darwin", "linux", "windows", "linux-musl") // Add "solaris", "qnx"?
+    val cpus        = Seq("x86", "amd64", "arm", "arm64", "ppc64")
     val bundleTypes = Seq("jdk", "jre")
     val allParams = for {
-      os <- oses
+      os  <- oses
       cpu <- cpus
       ext = if (os == "windows") "zip" else "tgz"
       bundleType <- bundleTypes
@@ -72,7 +71,7 @@ object Zulu {
           .iterator
           .map(_._2)
           .map { obj =>
-            val url = obj("url").str
+            val url        = obj("url").str
             val jdkVersion = obj("jdk_version").arr.toList.map(_.num.toInt)
             params.index(jdkVersion, url)
           }

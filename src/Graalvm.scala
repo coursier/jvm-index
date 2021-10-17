@@ -1,13 +1,16 @@
-
 object Graalvm {
 
   def fullIndex(ghToken: String): Index = {
-    val graalvmIndex0 = index(ghToken, "8")
+    val graalvmIndex0      = index(ghToken, "8")
     val graalvmJdk11Index0 = index(ghToken, "11")
     graalvmIndex0 + graalvmJdk11Index0
   }
 
-  def index(ghToken: String, javaVersion: String, javaVersionInName: java.lang.Boolean = null): Index = {
+  def index(
+    ghToken: String,
+    javaVersion: String,
+    javaVersionInName: java.lang.Boolean = null
+  ): Index = {
 
     val javaVersionInName0 = Option(javaVersionInName)
       .map(x => x: Boolean)
@@ -18,12 +21,12 @@ object Graalvm {
       else
         "jdk@graalvm"
 
-    val ghOrg = "graalvm"
+    val ghOrg  = "graalvm"
     val ghProj = "graalvm-ce-builds"
     val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken)
       .filter(!_.prerelease)
 
-    val assetNamePrefix = s"graalvm-ce-java${javaVersion}-"
+    val assetNamePrefix = s"graalvm-ce-java$javaVersion-"
 
     def osOpt(input: String): Option[(String, String)] =
       if (input.startsWith("linux-"))
@@ -52,13 +55,13 @@ object Graalvm {
       .filter(release => release.tagName.startsWith("vm-"))
       .flatMap { release =>
         val version = release.tagName.stripPrefix("vm-")
-        val assets = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.releaseId)
+        val assets  = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.releaseId)
         assets
           .filter(asset => asset.name.startsWith(assetNamePrefix))
           .flatMap { asset =>
             val name0 = asset.name.stripPrefix(assetNamePrefix)
             val opt = for {
-              (os, rem) <- osOpt(name0)
+              (os, rem)    <- osOpt(name0)
               (arch, rem0) <- archOpt(rem)
               ext <- Some(rem0)
                 .filter(_.startsWith(version + "."))

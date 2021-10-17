@@ -1,4 +1,3 @@
-
 import sttp.client.quick._
 import scala.util.control.NonFatal
 
@@ -30,12 +29,12 @@ object Liberica {
       case ("x86", 32) => Some("x86")
       case ("x86", 64) => Some("amd64")
       case ("ppc", 64) => Some("ppc64")
-      case _             => None
+      case _           => None
     }
 
     def indexJdkName = bundleType match {
-      case "jdk"                         =>  "jdk@liberica"
-      case jdk if jdk.startsWith("jdk-") =>  "jdk@liberica" + jdk.stripPrefix("jdk")
+      case "jdk"                         => "jdk@liberica"
+      case jdk if jdk.startsWith("jdk-") => "jdk@liberica" + jdk.stripPrefix("jdk")
       case x                             => s"jdk@liberica-$x"
     }
 
@@ -74,7 +73,8 @@ object Liberica {
 
     val url = uri"https://api.bell-sw.com/v1/liberica/releases"
     System.err.println(s"Getting $url")
-    val ua = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.7.8 (KHTML, like Gecko) Version/9.1.3 Safari/537.86.7"
+    val ua =
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.7.8 (KHTML, like Gecko) Version/9.1.3 Safari/537.86.7"
     val resp = quickRequest
       .header("User-Agent", ua)
       .get(url)
