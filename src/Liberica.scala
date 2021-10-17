@@ -1,4 +1,4 @@
-import sttp.client.quick._
+import sttp.client3.quick._
 import scala.util.control.NonFatal
 
 object Liberica {
@@ -80,7 +80,7 @@ object Liberica {
     val resp = quickRequest
       .header("User-Agent", ua)
       .get(url)
-      .send()
+      .send(backend)
     val json =
       try ujson.read(resp.body)
       catch {

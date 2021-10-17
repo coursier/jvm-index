@@ -1,4 +1,4 @@
-import sttp.client.quick._
+import sttp.client3.quick._
 
 object Zulu {
   final case class ZuluParams(
@@ -57,7 +57,7 @@ object Zulu {
     allParams
       .flatMap { params =>
         System.err.println(s"Getting ${params.url}")
-        val resp = quickRequest.get(params.url).send()
+        val resp = quickRequest.get(params.url).send(backend)
         val json = ujson.read(resp.body)
 
         val count = json.arr.length

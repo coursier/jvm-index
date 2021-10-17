@@ -1,5 +1,5 @@
 // using scala 2.13
-// using com.softwaremill.sttp.client::core:2.0.0-RC6
+// using com.softwaremill.sttp.client3::core:3.3.15
 // using com.lihaoyi::ujson:0.9.5
 // using com.lihaoyi::os-lib:0.7.5
 // using option -deprecation

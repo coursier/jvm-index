@@ -1,4 +1,4 @@
-import sttp.client.quick._
+import sttp.client3.quick._
 
 import scala.util.control.NonFatal
 
@@ -21,7 +21,7 @@ object GitHub {
       }
       .body(body.render())
       .post(uri"https://api.github.com/graphql")
-      .send()
+      .send(backend)
 
     try ujson.read(resp.body)("data")("repository")
     catch { case NonFatal(e) => println(body); println(resp); throw e }
