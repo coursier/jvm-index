@@ -12,7 +12,7 @@ object GenerateIndex {
     val output = "index.json"
 
     val graalvmIndex0  = Graalvm.fullIndex(GhToken.token)
-    val adoptIndex0    = Adopt.fullIndex(GhToken.token)
+    val adoptIndex0    = Temurin.fullIndex(GhToken.token)
     val zuluIndex0     = Zulu.index()
     val libericaIndex0 = Liberica.index()
 
