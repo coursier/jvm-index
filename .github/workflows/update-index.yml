@@ -10,7 +10,7 @@ jobs:
   update-index:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.3.4
+      - uses: actions/checkout@v2.3.5
       - uses: coursier/cache-action@v6.3
       - uses: coursier/setup-action@v1.1.1
         with:
