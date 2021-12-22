@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
 # This is the launcher script of Scala CLI (https://github.com/VirtusLab/scala-cli).
-# This script downloads and runs the Scala CLI version set by VERSION below.
+# This script downloads and runs the Scala CLI version set by SCALA_CLI_VERSION below.
 #
 # Download the latest version of this script at https://github.com/VirtusLab/scala-cli/raw/master/scala-cli.sh
 
 set -eu
 
-SCALA_CLI_VERSION="0.0.6"
+SCALA_CLI_VERSION="0.0.9"
 
 if [ "$(expr substr $(uname -s) 1 5 2>/dev/null)" == "Linux" ]; then
   SCALA_CLI_URL="https://github.com/VirtusLab/scala-cli/releases/download/v$SCALA_CLI_VERSION/scala-cli-x86_64-pc-linux.gz"
@@ -29,7 +29,13 @@ if [ ! -f "$CACHE_DEST" ]; then
   echo "Downloading $SCALA_CLI_URL"
   curl -fLo "$TMP_DEST" "$SCALA_CLI_URL"
   mv "$TMP_DEST" "$CACHE_DEST"
+fi
+
+if [ ! -f "$SCALA_CLI_BIN_PATH" ]; then
   gunzip -k "$CACHE_DEST"
+fi
+
+if [ ! -x "$SCALA_CLI_BIN_PATH" ]; then
   chmod +x "$SCALA_CLI_BIN_PATH"
 fi
 
