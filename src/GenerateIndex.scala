@@ -1,9 +1,9 @@
 // using scala 2.13
-// using com.softwaremill.sttp.client3::core:3.3.15
-// using com.lihaoyi::ujson:1.4.2
-// using com.lihaoyi::os-lib:0.7.5
-// using option -deprecation
-// using option -Ywarn-unused
+// using lib "com.softwaremill.sttp.client3::core:3.3.15"
+// using lib "com.lihaoyi::ujson:1.4.2"
+// using lib "com.lihaoyi::os-lib:0.7.5"
+// using option "-deprecation"
+// using option "-Ywarn-unused"
 
 object GenerateIndex {
 
