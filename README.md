@@ -1,3 +1,9 @@
+# coursier jvm-index
+
+This repository hosts and manages the JVM index used by the `cs java` and `cs java-home`
+commands of [coursier](https://get-coursier.io), and more generally, the JVM management
+capabilities of coursier.
+
 ## Generating the index locally
 
 Generate an index with
