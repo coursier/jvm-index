@@ -24,7 +24,7 @@ commands of [coursier](https://get-coursier.io).
 If you suspect one of those commands doesn't use a newer JVM version, pass `--update --ttl 0` to them,
 like
 ```text
-$ cs java --env --jvm temurin:17 --update --ttl 0
+$ cs java --env --jvm graalvm-java17:22.0.0 --update --ttl 0
 ```
 
 ## About
