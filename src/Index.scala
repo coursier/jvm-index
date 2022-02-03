@@ -1,5 +1,19 @@
 final case class Index(map: Map[String, Map[String, Map[String, Map[String, String]]]]) {
 
+  def mapJdkName(f: String => String): Index =
+    Index(
+      map.map {
+        case (os, map0) =>
+          os -> map0.map {
+            case (arch, map1) =>
+              arch -> map1.map {
+                case (jdkName, map2) =>
+                  f(jdkName) -> map2
+              }
+          }
+      }
+    )
+
   private def merge4(
     a: Map[String, Map[String, Map[String, Map[String, String]]]],
     b: Map[String, Map[String, Map[String, Map[String, String]]]]

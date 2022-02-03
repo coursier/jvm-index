@@ -1,9 +1,24 @@
 object Temurin {
 
   def fullIndex(ghToken: String): Index = {
-    val adoptIndices   = (8 to 16).map(index(ghToken, _, adopt = true))
-    val temurinIndices = Seq(8, 11, 16, 17).map(index(ghToken, _, adopt = false))
-    (adoptIndices.iterator ++ temurinIndices.iterator).foldLeft(Index.empty)(_ + _)
+    val adoptIndices   = (8 to 16).map(ver => ver -> index(ghToken, ver, adopt = true))
+    val temurinIndices = Seq(8, 11, 16, 17).map(ver => ver -> index(ghToken, ver, adopt = false))
+
+    val adoptiumIndices = (adoptIndices.toMap ++ temurinIndices)
+      .toVector
+      .sortBy(_._1)
+      .map(_._2)
+      .map { index0 =>
+        index0.mapJdkName { name =>
+          val suffix = name
+            .stripPrefix("jdk@adopt")
+            .stripPrefix("jdk@temurin")
+          "jdk@adoptium" + suffix
+        }
+      }
+
+    val allIndices = adoptIndices.iterator.map(_._2) ++ temurinIndices.iterator.map(_._2) ++ adoptiumIndices.iterator
+    allIndices.foldLeft(Index.empty)(_ + _)
   }
 
   def index(
