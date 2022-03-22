@@ -1,0 +1,16 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/home/runner/.cache/coursier/v1/https/github.com/VirtusLab/scala-cli/releases/download/v0.1.2/scala-cli-x86_64-pc-linux",
+    "bsp",
+    "--json-options",
+    "/home/runner/work/jvm-index/jvm-index/src/.scala-build/ide-options.json",
+    "/home/runner/work/jvm-index/jvm-index/src"
+  ],
+  "version": "0.1.2",
+  "bspVersion": "2.0.0",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
