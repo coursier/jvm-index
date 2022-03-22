@@ -15,7 +15,7 @@ jobs:
       - uses: coursier/setup-action@v1.1.2
         with:
           jvm: 11
-      - run: ./scala-cli.sh src
+      - run: ./scala-cli.sh .
         env:
           GH_TOKEN: ${{ secrets.INDEX_GITHUB_TOKEN }}
       - name: Create Pull Request
