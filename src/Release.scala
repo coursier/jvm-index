@@ -29,8 +29,8 @@ object Release {
 
       val res =
         try json("nodes").arr.map { obj =>
-          Release(obj("tagName").str, obj("isPrerelease").bool)
-        }
+            Release(obj("tagName").str, obj("isPrerelease").bool)
+          }
         catch {
           case NonFatal(e) =>
             System.err.println(json)
