@@ -85,14 +85,13 @@ object Temurin {
       }
       .flatMap { release =>
         val version0 = release.tagName.stripPrefix("jdk-").stripPrefix("jdk")
-        val versionInFileName = {
+        val versionInFileName =
           if (version0.contains("+"))
             version0.split('+') match {
               case Array(before, after) => s"${before}_${after.takeWhile(_ != '.')}"
               case _                    => version0
             }
           else version0
-        }
         val assets = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.tagName).to(LazyList)
         def index(jdkName: String, assetNamePrefix: Seq[String]) = assets
           .iterator

@@ -33,8 +33,8 @@ object Asset {
 
       val res =
         try json("nodes").arr.map { obj =>
-          Asset(obj("name").str, obj("downloadUrl").str)
-        }
+            Asset(obj("name").str, obj("downloadUrl").str)
+          }
         catch {
           case NonFatal(e) =>
             System.err.println(json)
