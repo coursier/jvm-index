@@ -604,6 +604,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-macos-amd64.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-macos-amd64.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-macos-amd64.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-macos-amd64.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-macos-amd64.zip",
         "12.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-macos-amd64.zip",
         "12.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-macos-amd64.zip",
@@ -624,8 +625,10 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-macos-amd64.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-macos-amd64.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-macos-amd64.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-amd64.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-macos-amd64.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-macos-amd64.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-macos-amd64.zip",
         "8.0.192": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u192.all/bellsoft-jdk1.8.0-macos-amd64.tar.gz",
         "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-macos-amd64.zip",
         "8.0.212": "zip+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jdk8u212-macos-amd64.zip",
@@ -642,7 +645,8 @@
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-macos-amd64.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-macos-amd64.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-macos-amd64.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-macos-amd64.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-macos-amd64.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-macos-amd64.zip"
       },
       "jdk@liberica-full": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-macos-amd64-full.zip",
@@ -656,6 +660,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-macos-amd64-full.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-macos-amd64-full.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-macos-amd64-full.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-macos-amd64-full.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-macos-amd64-full.zip",
         "13.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-macos-amd64-full.zip",
         "14.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jdk14+36-macos-amd64-full.zip",
@@ -671,8 +676,10 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-macos-amd64-full.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-macos-amd64-full.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-macos-amd64-full.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-amd64-full.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-macos-amd64-full.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-macos-amd64-full.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-macos-amd64-full.zip",
         "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-macos-amd64-full.zip",
         "8.0.252": "zip+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jdk8u252+9-macos-amd64-full.zip",
         "8.0.262": "zip+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jdk8u262+10-macos-amd64-full.zip",
@@ -684,7 +691,8 @@
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-macos-amd64-full.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-macos-amd64-full.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-macos-amd64-full.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-macos-amd64-full.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-macos-amd64-full.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-macos-amd64-full.zip"
       },
       "jdk@liberica-jre": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-macos-amd64.zip",
@@ -699,6 +707,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-macos-amd64.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-macos-amd64.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-macos-amd64.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-macos-amd64.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-macos-amd64.zip",
         "13.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jre13.0.1+10-macos-amd64.zip",
         "13.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-macos-amd64.zip",
@@ -715,8 +724,10 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-macos-amd64.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-macos-amd64.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-macos-amd64.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-macos-amd64.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-macos-amd64.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-macos-amd64.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-macos-amd64.zip",
         "8.0.192": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u192.all/bellsoft-jre1.8.0-macos-amd64.tar.gz",
         "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-macos-amd64.zip",
         "8.0.212": "zip+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jre8u212-macos-amd64.zip",
@@ -733,7 +744,8 @@
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-macos-amd64.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-macos-amd64.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-macos-amd64.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-macos-amd64.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-macos-amd64.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-macos-amd64.zip"
       },
       "jdk@liberica-jre-full": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-macos-amd64-full.zip",
@@ -747,6 +759,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-macos-amd64-full.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-macos-amd64-full.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-macos-amd64-full.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-macos-amd64-full.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-macos-amd64-full.zip",
         "13.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-macos-amd64-full.zip",
         "14.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jre14+36-macos-amd64-full.zip",
@@ -762,8 +775,10 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-macos-amd64-full.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-macos-amd64-full.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-macos-amd64-full.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-macos-amd64-full.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-macos-amd64-full.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-macos-amd64-full.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-macos-amd64-full.zip",
         "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-macos-amd64-full.zip",
         "8.0.252": "zip+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jre8u252+9-macos-amd64-full.zip",
         "8.0.262": "zip+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jre8u262+10-macos-amd64-full.zip",
@@ -775,7 +790,8 @@
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-macos-amd64-full.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-macos-amd64-full.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-macos-amd64-full.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-macos-amd64-full.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-macos-amd64-full.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-macos-amd64-full.zip"
       },
       "jdk@liberica-lite": {
         "11.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.1/bellsoft-jdk11.0.1-macos-amd64-lite.tar.gz",
@@ -794,6 +810,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-macos-amd64-lite.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-macos-amd64-lite.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-macos-amd64-lite.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-macos-amd64-lite.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-macos-amd64-lite.zip",
         "12.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-macos-amd64-lite.zip",
         "12.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-macos-amd64-lite.zip",
@@ -814,12 +831,15 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-macos-amd64-lite.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-macos-amd64-lite.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-macos-amd64-lite.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-amd64-lite.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-macos-amd64-lite.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-macos-amd64-lite.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-macos-amd64-lite.zip",
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-macos-amd64-lite.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-macos-amd64-lite.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-macos-amd64-lite.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-macos-amd64-lite.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-macos-amd64-lite.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-macos-amd64-lite.zip"
       },
       "jdk@temurin": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_x64_mac_hotspot_11.0.12_7.tar.gz",
@@ -1121,6 +1141,7 @@
         "11.0.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jdk11.0.14+9-macos-aarch64.zip",
         "11.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-macos-aarch64.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-macos-aarch64.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-macos-aarch64.zip",
         "15.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-macos-aarch64.zip",
         "16.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-macos-aarch64.zip",
         "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jdk16.0.1+10-macos-aarch64.zip",
@@ -1129,14 +1150,17 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-macos-aarch64.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-macos-aarch64.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-macos-aarch64.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-aarch64.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-macos-aarch64.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-macos-aarch64.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-macos-aarch64.zip",
         "8.0.282": "zip+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-macos-aarch64.zip",
         "8.0.292": "zip+https://github.com/bell-sw/Liberica/releases/download/8u292+11/bellsoft-jdk8u292+11-macos-aarch64.zip",
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-macos-aarch64.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-macos-aarch64.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-macos-aarch64.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-macos-aarch64.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-macos-aarch64.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-macos-aarch64.zip"
       },
       "jdk@liberica-full": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-macos-aarch64-full.zip",
@@ -1146,6 +1170,7 @@
         "11.0.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jdk11.0.14+9-macos-aarch64-full.zip",
         "11.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-macos-aarch64-full.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-macos-aarch64-full.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-macos-aarch64-full.zip",
         "15.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-macos-aarch64-full.zip",
         "16.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-macos-aarch64-full.zip",
         "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jdk16.0.1+10-macos-aarch64-full.zip",
@@ -1154,14 +1179,17 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-macos-aarch64-full.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-macos-aarch64-full.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-macos-aarch64-full.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-aarch64-full.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-macos-aarch64-full.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-macos-aarch64-full.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-macos-aarch64-full.zip",
         "8.0.282": "zip+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-macos-aarch64-full.zip",
         "8.0.292": "zip+https://github.com/bell-sw/Liberica/releases/download/8u292+11/bellsoft-jdk8u292+11-macos-aarch64-full.zip",
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-macos-aarch64-full.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-macos-aarch64-full.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-macos-aarch64-full.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-macos-aarch64-full.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-macos-aarch64-full.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-macos-aarch64-full.zip"
       },
       "jdk@liberica-jre": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-macos-aarch64.zip",
@@ -1171,6 +1199,7 @@
         "11.0.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jre11.0.14+9-macos-aarch64.zip",
         "11.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-macos-aarch64.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-macos-aarch64.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-macos-aarch64.zip",
         "15.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jre15.0.2+10-macos-aarch64.zip",
         "16.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jre16+36-macos-aarch64.zip",
         "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jre16.0.1+10-macos-aarch64.zip",
@@ -1179,14 +1208,17 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-macos-aarch64.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-macos-aarch64.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-macos-aarch64.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-macos-aarch64.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-macos-aarch64.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-macos-aarch64.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-macos-aarch64.zip",
         "8.0.282": "zip+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jre8u282+8-macos-aarch64.zip",
         "8.0.292": "zip+https://github.com/bell-sw/Liberica/releases/download/8u292+11/bellsoft-jre8u292+11-macos-aarch64.zip",
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-macos-aarch64.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-macos-aarch64.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-macos-aarch64.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-macos-aarch64.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-macos-aarch64.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-macos-aarch64.zip"
       },
       "jdk@liberica-jre-full": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-macos-aarch64-full.zip",
@@ -1196,6 +1228,7 @@
         "11.0.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jre11.0.14+9-macos-aarch64-full.zip",
         "11.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-macos-aarch64-full.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-macos-aarch64-full.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-macos-aarch64-full.zip",
         "15.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jre15.0.2+10-macos-aarch64-full.zip",
         "16.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jre16+36-macos-aarch64-full.zip",
         "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jre16.0.1+10-macos-aarch64-full.zip",
@@ -1204,14 +1237,17 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-macos-aarch64-full.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-macos-aarch64-full.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-macos-aarch64-full.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-macos-aarch64-full.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-macos-aarch64-full.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-macos-aarch64-full.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-macos-aarch64-full.zip",
         "8.0.282": "zip+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jre8u282+8-macos-aarch64-full.zip",
         "8.0.292": "zip+https://github.com/bell-sw/Liberica/releases/download/8u292+11/bellsoft-jre8u292+11-macos-aarch64-full.zip",
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-macos-aarch64-full.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-macos-aarch64-full.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-macos-aarch64-full.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-macos-aarch64-full.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-macos-aarch64-full.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-macos-aarch64-full.zip"
       },
       "jdk@liberica-lite": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-macos-aarch64-lite.zip",
@@ -1221,6 +1257,7 @@
         "11.0.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jdk11.0.14+9-macos-aarch64-lite.zip",
         "11.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-macos-aarch64-lite.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-macos-aarch64-lite.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-macos-aarch64-lite.zip",
         "15.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-macos-aarch64-lite.zip",
         "16.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-macos-aarch64-lite.zip",
         "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+10/bellsoft-jdk16.0.1+10-macos-aarch64-lite.zip",
@@ -1229,12 +1266,15 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-macos-aarch64-lite.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-macos-aarch64-lite.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-macos-aarch64-lite.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-aarch64-lite.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-macos-aarch64-lite.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-macos-aarch64-lite.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-macos-aarch64-lite.zip",
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-macos-aarch64-lite.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-macos-aarch64-lite.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-macos-aarch64-lite.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-macos-aarch64-lite.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-macos-aarch64-lite.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-macos-aarch64-lite.zip"
       },
       "jdk@temurin": {
         "1.11.0.15": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.15_10.tar.gz",
@@ -1640,6 +1680,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-amd64.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-amd64.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-amd64.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-amd64.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-amd64.tar.gz",
         "12.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-linux-amd64.tar.gz",
         "12.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-linux-amd64.tar.gz",
@@ -1660,8 +1701,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-amd64.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-amd64.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-amd64.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-amd64.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-amd64.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-amd64.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-amd64.tar.gz",
         "8.0.192": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u192.all/bellsoft-jdk1.8.0-linux-amd64.tar.gz",
         "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-linux-amd64.tar.gz",
         "8.0.212": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jdk8u212-linux-amd64.tar.gz",
@@ -1678,7 +1721,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-amd64.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-amd64.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-amd64.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-amd64.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-amd64.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-amd64.tar.gz"
       },
       "jdk@liberica-full": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-amd64-full.tar.gz",
@@ -1692,6 +1736,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-amd64-full.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-amd64-full.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-amd64-full.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-amd64-full.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-amd64-full.tar.gz",
         "13.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-linux-amd64-full.tar.gz",
         "14.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jdk14+36-linux-amd64-full.tar.gz",
@@ -1707,8 +1752,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-amd64-full.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-amd64-full.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-amd64-full.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-amd64-full.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-amd64-full.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-amd64-full.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-amd64-full.tar.gz",
         "8.0.242": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-linux-amd64-full.tar.gz",
         "8.0.252": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jdk8u252+9-linux-amd64-full.tar.gz",
         "8.0.262": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jdk8u262+10-linux-amd64-full.tar.gz",
@@ -1720,7 +1767,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-amd64-full.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-amd64-full.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-amd64-full.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-amd64-full.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-amd64-full.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-amd64-full.tar.gz"
       },
       "jdk@liberica-jre": {
         "10.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/10.0.2.amd64/bellsoft-jre10.0.2-linux-amd64.tar.gz",
@@ -1736,6 +1784,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-linux-amd64.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-amd64.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-amd64.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-amd64.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-amd64.tar.gz",
         "13.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jre13.0.1+10-linux-amd64.tar.gz",
         "13.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-linux-amd64.tar.gz",
@@ -1752,8 +1801,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-linux-amd64.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-amd64.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-amd64.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-amd64.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-amd64.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-amd64.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-amd64.tar.gz",
         "8.0.192": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u192.all/bellsoft-jre1.8.0-linux-amd64.tar.gz",
         "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-linux-amd64.tar.gz",
         "8.0.212": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jre8u212-linux-amd64.tar.gz",
@@ -1770,7 +1821,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-linux-amd64.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-amd64.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-linux-amd64.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-amd64.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-amd64.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-linux-amd64.tar.gz"
       },
       "jdk@liberica-jre-full": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-amd64-full.tar.gz",
@@ -1784,6 +1836,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-linux-amd64-full.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-amd64-full.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-amd64-full.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-amd64-full.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-amd64-full.tar.gz",
         "13.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-linux-amd64-full.tar.gz",
         "14.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jre14+36-linux-amd64-full.tar.gz",
@@ -1799,8 +1852,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-linux-amd64-full.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-amd64-full.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-amd64-full.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-amd64-full.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-amd64-full.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-amd64-full.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-amd64-full.tar.gz",
         "8.0.242": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-linux-amd64-full.tar.gz",
         "8.0.252": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jre8u252+9-linux-amd64-full.tar.gz",
         "8.0.262": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jre8u262+10-linux-amd64-full.tar.gz",
@@ -1812,7 +1867,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-linux-amd64-full.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-amd64-full.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-linux-amd64-full.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-amd64-full.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-amd64-full.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-linux-amd64-full.tar.gz"
       },
       "jdk@liberica-lite": {
         "11.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-linux-amd64-lite.tar.gz",
@@ -1832,6 +1888,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-amd64-lite.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-amd64-lite.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-amd64-lite.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-amd64-lite.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-amd64-lite.tar.gz",
         "12.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-linux-amd64-lite.tar.gz",
         "12.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-linux-amd64-lite.tar.gz",
@@ -1852,12 +1909,15 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-amd64-lite.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-amd64-lite.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-amd64-lite.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-amd64-lite.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-amd64-lite.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-amd64-lite.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-amd64-lite.tar.gz",
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-amd64-lite.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-amd64-lite.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-amd64-lite.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-amd64-lite.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-amd64-lite.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-amd64-lite.tar.gz"
       },
       "jdk@temurin": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
@@ -2301,6 +2361,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-arm32-vfp-hflt.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-arm32-vfp-hflt.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-arm32-vfp-hflt.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-arm32-vfp-hflt.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-arm32-vfp-hflt.tar.gz",
         "12.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-linux-arm32-vfp-hflt.tar.gz",
         "12.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-linux-arm32-vfp-hflt.tar.gz",
@@ -2321,8 +2382,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-arm32-vfp-hflt.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-arm32-vfp-hflt.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-arm32-vfp-hflt.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-arm32-vfp-hflt.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-arm32-vfp-hflt.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-arm32-vfp-hflt.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-arm32-vfp-hflt.tar.gz",
         "9.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/9.0.1/bellsoft-jdk9.0.1-linux-arm32-vfp-hflt.tar.gz",
         "9.0.4": "tgz+https://github.com/bell-sw/Liberica/releases/download/9.0.4/bellsoft-jdk9.0.4-linux-arm32-vfp-hflt.tar.gz"
       },
@@ -2338,6 +2401,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-arm32-vfp-hflt-full.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-arm32-vfp-hflt-full.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-arm32-vfp-hflt-full.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-arm32-vfp-hflt-full.tar.gz",
         "13.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-linux-arm32-vfp-hflt-full.tar.gz",
         "14.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jdk14+36-linux-arm32-vfp-hflt-full.tar.gz",
@@ -2353,8 +2417,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-arm32-vfp-hflt-full.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-arm32-vfp-hflt-full.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-arm32-vfp-hflt-full.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-arm32-vfp-hflt-full.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-arm32-vfp-hflt-full.tar.gz",
-        "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-arm32-vfp-hflt-full.tar.gz"
+        "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-arm32-vfp-hflt-full.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-arm32-vfp-hflt-full.tar.gz"
       },
       "jdk@liberica-jre": {
         "10.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/10/bellsoft-jre10-linux-arm32-vfp-hflt.tar.gz",
@@ -2372,6 +2438,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-linux-arm32-vfp-hflt.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-arm32-vfp-hflt.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-arm32-vfp-hflt.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-arm32-vfp-hflt.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-arm32-vfp-hflt.tar.gz",
         "13.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jre13.0.1+10-linux-arm32-vfp-hflt.tar.gz",
         "13.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-linux-arm32-vfp-hflt.tar.gz",
@@ -2388,8 +2455,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-linux-arm32-vfp-hflt.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-arm32-vfp-hflt.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-arm32-vfp-hflt.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-arm32-vfp-hflt.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-arm32-vfp-hflt.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-arm32-vfp-hflt.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-arm32-vfp-hflt.tar.gz",
         "9.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/9.0.1/bellsoft-jre9.0.1-linux-arm32-vfp-hflt.tar.gz",
         "9.0.4": "tgz+https://github.com/bell-sw/Liberica/releases/download/9.0.4/bellsoft-jre9.0.4-linux-arm32-vfp-hflt.tar.gz"
       },
@@ -2405,6 +2474,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-linux-arm32-vfp-hflt-full.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-arm32-vfp-hflt-full.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-arm32-vfp-hflt-full.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-arm32-vfp-hflt-full.tar.gz",
         "13.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-linux-arm32-vfp-hflt-full.tar.gz",
         "14.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jre14+36-linux-arm32-vfp-hflt-full.tar.gz",
@@ -2420,8 +2490,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-linux-arm32-vfp-hflt-full.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-arm32-vfp-hflt-full.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-arm32-vfp-hflt-full.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-arm32-vfp-hflt-full.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-arm32-vfp-hflt-full.tar.gz",
-        "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-arm32-vfp-hflt-full.tar.gz"
+        "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-arm32-vfp-hflt-full.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-arm32-vfp-hflt-full.tar.gz"
       },
       "jdk@liberica-lite": {
         "11.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-linux-arm32-vfp-hflt-lite.tar.gz",
@@ -2441,6 +2513,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-arm32-vfp-hflt-lite.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-arm32-vfp-hflt-lite.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-arm32-vfp-hflt-lite.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
         "12.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-linux-arm32-vfp-hflt-lite.tar.gz",
         "12.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-linux-arm32-vfp-hflt-lite.tar.gz",
@@ -2461,8 +2534,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-arm32-vfp-hflt-lite.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-arm32-vfp-hflt-lite.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-arm32-vfp-hflt-lite.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-arm32-vfp-hflt-lite.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-arm32-vfp-hflt-lite.tar.gz",
-        "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-arm32-vfp-hflt-lite.tar.gz"
+        "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-arm32-vfp-hflt-lite.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-arm32-vfp-hflt-lite.tar.gz"
       },
       "jdk@temurin": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_arm_linux_hotspot_11.0.12_7.tar.gz",
@@ -2812,6 +2887,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-aarch64.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-aarch64.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-aarch64.tar.gz",
         "12.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-linux-aarch64.tar.gz",
         "12.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-linux-aarch64.tar.gz",
@@ -2832,8 +2908,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-aarch64.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-aarch64.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-aarch64.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-aarch64.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-aarch64.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64.tar.gz",
         "8.0.192": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u192.all/bellsoft-jdk1.8.0-linux-arm64.tar.gz",
         "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-linux-aarch64.tar.gz",
         "8.0.212": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jdk8u212-linux-aarch64.tar.gz",
@@ -2850,7 +2928,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-aarch64.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-aarch64.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-aarch64.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-aarch64.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-aarch64.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-aarch64.tar.gz"
       },
       "jdk@liberica-full": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-aarch64-full.tar.gz",
@@ -2862,6 +2941,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-aarch64-full.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-aarch64-full.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64-full.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64-full.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-aarch64-full.tar.gz",
         "13.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-linux-aarch64-full.tar.gz",
         "14.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jdk14+36-linux-aarch64-full.tar.gz",
@@ -2877,8 +2957,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-aarch64-full.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-aarch64-full.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-aarch64-full.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64-full.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-aarch64-full.tar.gz",
-        "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-aarch64-full.tar.gz"
+        "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-aarch64-full.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64-full.tar.gz"
       },
       "jdk@liberica-jre": {
         "10.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/10.0.2.ARMv8/bellsoft-jre10.0.2-linux-aarch64.tar.gz",
@@ -2894,6 +2976,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-linux-aarch64.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-aarch64.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-aarch64.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-aarch64.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-aarch64.tar.gz",
         "13.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jre13.0.1+10-linux-aarch64.tar.gz",
         "13.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-linux-aarch64.tar.gz",
@@ -2910,8 +2993,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-linux-aarch64.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-aarch64.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-aarch64.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-aarch64.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-aarch64.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-aarch64.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-aarch64.tar.gz",
         "8.0.192": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u192.all/bellsoft-jre1.8.0-linux-arm64.tar.gz",
         "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-linux-aarch64.tar.gz",
         "8.0.212": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jre8u212-linux-aarch64.tar.gz",
@@ -2928,7 +3013,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-linux-aarch64.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-aarch64.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-linux-aarch64.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-aarch64.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-aarch64.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-linux-aarch64.tar.gz"
       },
       "jdk@liberica-jre-full": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-aarch64-full.tar.gz",
@@ -2940,6 +3026,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-linux-aarch64-full.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-aarch64-full.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-aarch64-full.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-aarch64-full.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-aarch64-full.tar.gz",
         "13.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-linux-aarch64-full.tar.gz",
         "14.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jre14+36-linux-aarch64-full.tar.gz",
@@ -2955,8 +3042,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-linux-aarch64-full.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-aarch64-full.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-aarch64-full.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-aarch64-full.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-aarch64-full.tar.gz",
-        "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-aarch64-full.tar.gz"
+        "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-aarch64-full.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-aarch64-full.tar.gz"
       },
       "jdk@liberica-lite": {
         "11.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-linux-aarch64-lite.tar.gz",
@@ -2976,6 +3065,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-aarch64-lite.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-aarch64-lite.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64-lite.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64-lite.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-aarch64-lite.tar.gz",
         "12.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-linux-aarch64-lite.tar.gz",
         "12.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-linux-aarch64-lite.tar.gz",
@@ -2996,12 +3086,15 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-aarch64-lite.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-aarch64-lite.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-aarch64-lite.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64-lite.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-aarch64-lite.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-aarch64-lite.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64-lite.tar.gz",
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-aarch64-lite.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-aarch64-lite.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-aarch64-lite.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-aarch64-lite.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-aarch64-lite.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-aarch64-lite.tar.gz"
       },
       "jdk@temurin": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_aarch64_linux_hotspot_11.0.12_7.tar.gz",
@@ -3162,6 +3255,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-ppc64le.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-ppc64le.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-ppc64le.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-ppc64le.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-ppc64le.tar.gz",
         "12.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.2/bellsoft-jdk12.0.2-linux-ppc64le.tar.gz",
         "13.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/13/bellsoft-jdk13-linux-ppc64le.tar.gz",
@@ -3180,8 +3274,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-ppc64le.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-ppc64le.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-ppc64le.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-ppc64le.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-ppc64le.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-ppc64le.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-ppc64le.tar.gz",
         "8.0.232": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u232+10/bellsoft-jdk8u232+10-linux-ppc64le.tar.gz",
         "8.0.242": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-linux-ppc64le.tar.gz",
         "8.0.252": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jdk8u252+9-linux-ppc64le.tar.gz",
@@ -3194,7 +3290,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-ppc64le.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-ppc64le.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-ppc64le.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-ppc64le.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-ppc64le.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-ppc64le.tar.gz"
       },
       "jdk@liberica-jre": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-ppc64le.tar.gz",
@@ -3209,6 +3306,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-linux-ppc64le.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-ppc64le.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-ppc64le.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-ppc64le.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-ppc64le.tar.gz",
         "13.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jre13.0.1+10-linux-ppc64le.tar.gz",
         "13.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-linux-ppc64le.tar.gz",
@@ -3225,8 +3323,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-linux-ppc64le.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-ppc64le.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-ppc64le.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-ppc64le.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-ppc64le.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-ppc64le.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-ppc64le.tar.gz",
         "8.0.232": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u232+10/bellsoft-jre8u232+10-linux-ppc64le.tar.gz",
         "8.0.242": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-linux-ppc64le.tar.gz",
         "8.0.252": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jre8u252+9-linux-ppc64le.tar.gz",
@@ -3239,7 +3339,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-linux-ppc64le.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-ppc64le.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-linux-ppc64le.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-ppc64le.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-ppc64le.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-linux-ppc64le.tar.gz"
       },
       "jdk@liberica-lite": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-ppc64le-lite.tar.gz",
@@ -3254,6 +3355,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-ppc64le-lite.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-ppc64le-lite.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-ppc64le-lite.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-ppc64le-lite.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-ppc64le-lite.tar.gz",
         "12.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.2/bellsoft-jdk12.0.2-linux-ppc64le-lite.tar.gz",
         "13.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/13/bellsoft-jdk13-linux-ppc64le-lite.tar.gz",
@@ -3272,12 +3374,15 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-ppc64le-lite.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-ppc64le-lite.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-ppc64le-lite.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-ppc64le-lite.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-ppc64le-lite.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-ppc64le-lite.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-ppc64le-lite.tar.gz",
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-ppc64le-lite.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-ppc64le-lite.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-ppc64le-lite.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-ppc64le-lite.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-ppc64le-lite.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-ppc64le-lite.tar.gz"
       },
       "jdk@zulu": {
         "8.0.232": "tgz+https://cdn.azul.com/zulu/bin/zulu8.42.0.196-ca-hl-jdk1.8.0_232-linux_ppc64.tar.gz",
@@ -3820,6 +3925,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-i586.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-i586.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-i586.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-i586.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-i586.tar.gz",
         "12.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-linux-i586.tar.gz",
         "12.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-linux-i586.tar.gz",
@@ -3840,8 +3946,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-i586.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-i586.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-i586.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-i586.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-i586.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-i586.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-i586.tar.gz",
         "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-linux-i586.tar.gz",
         "8.0.212": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jdk8u212-linux-i586.tar.gz",
         "8.0.222": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u222/bellsoft-jdk8u222-linux-i586.tar.gz",
@@ -3857,7 +3965,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-i586.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-i586.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-i586.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-i586.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-i586.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-i586.tar.gz"
       },
       "jdk@liberica-full": {
         "8.0.242": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-linux-i586-full.tar.gz",
@@ -3871,7 +3980,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-i586-full.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-i586-full.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-i586-full.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-i586-full.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-i586-full.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-i586-full.tar.gz"
       },
       "jdk@liberica-jre": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-i586.tar.gz",
@@ -3886,6 +3996,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-linux-i586.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-i586.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-i586.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-i586.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-i586.tar.gz",
         "13.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jre13.0.1+10-linux-i586.tar.gz",
         "13.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-linux-i586.tar.gz",
@@ -3902,8 +4013,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-linux-i586.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-i586.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-i586.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-i586.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-i586.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-i586.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-i586.tar.gz",
         "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-linux-i586.tar.gz",
         "8.0.212": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jre8u212-linux-i586.tar.gz",
         "8.0.222": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u222/bellsoft-jre8u222-linux-i586.tar.gz",
@@ -3919,7 +4032,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-linux-i586.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-i586.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-linux-i586.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-i586.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-i586.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-linux-i586.tar.gz"
       },
       "jdk@liberica-jre-full": {
         "8.0.242": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-linux-i586-full.tar.gz",
@@ -3933,7 +4047,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-linux-i586-full.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-i586-full.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-linux-i586-full.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-i586-full.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-i586-full.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-linux-i586-full.tar.gz"
       },
       "jdk@liberica-lite": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-i586-lite.tar.gz",
@@ -3950,6 +4065,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-i586-lite.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-i586-lite.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-i586-lite.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-i586-lite.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-i586-lite.tar.gz",
         "12.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-linux-i586-lite.tar.gz",
         "12.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-linux-i586-lite.tar.gz",
@@ -3970,12 +4086,15 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-i586-lite.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-i586-lite.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-i586-lite.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-i586-lite.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-i586-lite.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-i586-lite.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-i586-lite.tar.gz",
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-i586-lite.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-i586-lite.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-i586-lite.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-i586-lite.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-i586-lite.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-i586-lite.tar.gz"
       },
       "jdk@zulu": {
         "10.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu10.2+3-jdk10.0.1-linux_i686.tar.gz",
@@ -4147,6 +4266,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-x64-musl.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-x64-musl.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-x64-musl.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-x64-musl.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-x64-musl.tar.gz",
         "12.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-linux-x64-musl.tar.gz",
         "12.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-linux-x64-musl.tar.gz",
@@ -4167,8 +4287,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-x64-musl.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-x64-musl.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-x64-musl.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-x64-musl.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-x64-musl.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-x64-musl.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-x64-musl.tar.gz",
         "8.0.262": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jdk8u262+10-linux-x64-musl.tar.gz",
         "8.0.265": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u265+1/bellsoft-jdk8u265+1-linux-x64-musl.tar.gz",
         "8.0.272": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u272+10/bellsoft-jdk8u272+10-linux-x64-musl.tar.gz",
@@ -4178,7 +4300,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-x64-musl.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-x64-musl.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-x64-musl.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-x64-musl.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-x64-musl.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-x64-musl.tar.gz"
       },
       "jdk@liberica-jre": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-x64-musl.tar.gz",
@@ -4190,6 +4313,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-linux-x64-musl.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-x64-musl.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-x64-musl.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-x64-musl.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-x64-musl.tar.gz",
         "14.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/14.0.2+13/bellsoft-jre14.0.2+13-linux-x64-musl.tar.gz",
         "15.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/15+36/bellsoft-jre15+36-linux-x64-musl.tar.gz",
@@ -4202,8 +4326,10 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-linux-x64-musl.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-x64-musl.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-x64-musl.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-x64-musl.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-x64-musl.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-x64-musl.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-x64-musl.tar.gz",
         "8.0.262": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jre8u262+10-linux-x64-musl.tar.gz",
         "8.0.265": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u265+1/bellsoft-jre8u265+1-linux-x64-musl.tar.gz",
         "8.0.272": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u272+10/bellsoft-jre8u272+10-linux-x64-musl.tar.gz",
@@ -4213,7 +4339,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-linux-x64-musl.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-x64-musl.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-linux-x64-musl.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-x64-musl.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-x64-musl.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-linux-x64-musl.tar.gz"
       },
       "jdk@liberica-lite": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-x64-musl-lite.tar.gz",
@@ -4231,6 +4358,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-x64-musl-lite.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-x64-musl-lite.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-x64-musl-lite.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-x64-musl-lite.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-x64-musl-lite.tar.gz",
         "12.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-linux-x64-musl-lite.tar.gz",
         "12.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-linux-x64-musl-lite.tar.gz",
@@ -4251,12 +4379,15 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-x64-musl-lite.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-x64-musl-lite.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-x64-musl-lite.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-x64-musl-lite.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-x64-musl-lite.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-x64-musl-lite.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-x64-musl-lite.tar.gz",
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-x64-musl-lite.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-x64-musl-lite.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-x64-musl-lite.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-x64-musl-lite.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-x64-musl-lite.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-x64-musl-lite.tar.gz"
       },
       "jdk@zulu": {
         "11.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu11.2.3-ca-jdk11.0.1-linux_musl_x64.tar.gz",
@@ -4398,6 +4529,7 @@
         "11.0.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jdk11.0.14+9-linux-aarch64-musl.tar.gz",
         "11.0.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-linux-aarch64-musl.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64-musl.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64-musl.tar.gz",
         "15.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-linux-aarch64-musl.tar.gz",
         "16.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-linux-aarch64-musl.tar.gz",
         "16.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-linux-aarch64-musl.tar.gz",
@@ -4406,14 +4538,17 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-aarch64-musl.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-aarch64-musl.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-aarch64-musl.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64-musl.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-aarch64-musl.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-aarch64-musl.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64-musl.tar.gz",
         "8.0.282": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-linux-aarch64-musl.tar.gz",
         "8.0.292": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u292+10/bellsoft-jdk8u292+10-linux-aarch64-musl.tar.gz",
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-aarch64-musl.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-aarch64-musl.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-aarch64-musl.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-aarch64-musl.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-aarch64-musl.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-aarch64-musl.tar.gz"
       },
       "jdk@liberica-jre": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-aarch64-musl.tar.gz",
@@ -4423,6 +4558,7 @@
         "11.0.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jre11.0.14+9-linux-aarch64-musl.tar.gz",
         "11.0.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-linux-aarch64-musl.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-aarch64-musl.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-aarch64-musl.tar.gz",
         "15.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jre15.0.2+10-linux-aarch64-musl.tar.gz",
         "16.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jre16+36-linux-aarch64-musl.tar.gz",
         "16.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jre16.0.1+9-linux-aarch64-musl.tar.gz",
@@ -4431,14 +4567,17 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-linux-aarch64-musl.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-aarch64-musl.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-aarch64-musl.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-aarch64-musl.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-aarch64-musl.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-aarch64-musl.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-aarch64-musl.tar.gz",
         "8.0.282": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jre8u282+8-linux-aarch64-musl.tar.gz",
         "8.0.292": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u292+10/bellsoft-jre8u292+10-linux-aarch64-musl.tar.gz",
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-linux-aarch64-musl.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-aarch64-musl.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-linux-aarch64-musl.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-aarch64-musl.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-aarch64-musl.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-linux-aarch64-musl.tar.gz"
       },
       "jdk@liberica-lite": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-aarch64-musl-lite.tar.gz",
@@ -4448,6 +4587,7 @@
         "11.0.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jdk11.0.14+9-linux-aarch64-musl-lite.tar.gz",
         "11.0.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-linux-aarch64-musl-lite.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64-musl-lite.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64-musl-lite.tar.gz",
         "15.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-linux-aarch64-musl-lite.tar.gz",
         "16.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-linux-aarch64-musl-lite.tar.gz",
         "16.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-linux-aarch64-musl-lite.tar.gz",
@@ -4456,12 +4596,15 @@
         "17.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-aarch64-musl-lite.tar.gz",
         "17.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-aarch64-musl-lite.tar.gz",
         "17.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-aarch64-musl-lite.tar.gz",
+        "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64-musl-lite.tar.gz",
         "18.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-aarch64-musl-lite.tar.gz",
         "18.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-aarch64-musl-lite.tar.gz",
+        "18.1.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64-musl-lite.tar.gz",
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-aarch64-musl-lite.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-aarch64-musl-lite.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-aarch64-musl-lite.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-aarch64-musl-lite.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-aarch64-musl-lite.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-aarch64-musl-lite.tar.gz"
       },
       "jdk@zulu": {
         "11.0.15": "tgz+https://cdn.azul.com/zulu/bin/zulu11.56.19-ca-jdk11.0.15-linux_musl_aarch64.tar.gz",
@@ -4507,6 +4650,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-solaris-x64.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-solaris-x64.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-solaris-x64.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-solaris-x64.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-solaris-x64.tar.gz",
         "12.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-solaris-x64.tar.gz",
         "12.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-solaris-x64.tar.gz",
@@ -4527,7 +4671,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-solaris-x64.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-solaris-x64.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-solaris-x64.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-solaris-x64.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-solaris-x64.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-solaris-x64.tar.gz"
       },
       "jdk@liberica-jre": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-solaris-x64.tar.gz",
@@ -4539,6 +4684,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-solaris-x64.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-solaris-x64.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-solaris-x64.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-solaris-x64.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-solaris-x64.tar.gz",
         "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-solaris-x64.tar.gz",
         "8.0.212": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jre8u212-solaris-x64.tar.gz",
@@ -4555,7 +4701,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-solaris-x64.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-solaris-x64.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-solaris-x64.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-solaris-x64.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-solaris-x64.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-solaris-x64.tar.gz"
       },
       "jdk@liberica-lite": {
         "11.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-solaris-x64-lite.tar.gz",
@@ -4573,6 +4720,7 @@
         "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-solaris-x64-lite.tar.gz",
         "11.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-solaris-x64-lite.tar.gz",
         "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-solaris-x64-lite.tar.gz",
+        "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-solaris-x64-lite.tar.gz",
         "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-solaris-x64-lite.tar.gz",
         "12.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-solaris-x64-lite.tar.gz",
         "12.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-solaris-x64-lite.tar.gz",
@@ -4581,7 +4729,8 @@
         "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-solaris-x64-lite.tar.gz",
         "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-solaris-x64-lite.tar.gz",
         "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-solaris-x64-lite.tar.gz",
-        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-solaris-x64-lite.tar.gz"
+        "8.0.332": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-solaris-x64-lite.tar.gz",
+        "8.0.333": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-solaris-x64-lite.tar.gz"
       }
     }
   },
@@ -4882,6 +5031,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-windows-amd64.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-windows-amd64.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-amd64.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-amd64.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-amd64.zip",
         "12.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-windows-amd64.zip",
         "12.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-windows-amd64.zip",
@@ -4902,8 +5052,10 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-amd64.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-amd64.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-amd64.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-amd64.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-windows-amd64.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-windows-amd64.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-amd64.zip",
         "8.0.192": "zip+https://github.com/bell-sw/Liberica/releases/download/8u192.all/bellsoft-jdk1.8.0-windows-amd64.zip",
         "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-windows-amd64.zip",
         "8.0.212": "zip+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jdk8u212-windows-amd64.zip",
@@ -4920,7 +5072,8 @@
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-windows-amd64.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-windows-amd64.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-windows-amd64.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-windows-amd64.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-windows-amd64.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-windows-amd64.zip"
       },
       "jdk@liberica-full": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-windows-amd64-full.zip",
@@ -4934,6 +5087,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-windows-amd64-full.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-windows-amd64-full.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-amd64-full.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-amd64-full.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-amd64-full.zip",
         "13.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-windows-amd64-full.zip",
         "14.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jdk14+36-windows-amd64-full.zip",
@@ -4949,8 +5103,10 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-amd64-full.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-amd64-full.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-amd64-full.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-amd64-full.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-windows-amd64-full.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-windows-amd64-full.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-amd64-full.zip",
         "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-windows-amd64-full.zip",
         "8.0.252": "zip+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jdk8u252+9-windows-amd64-full.zip",
         "8.0.262": "zip+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jdk8u262+10-windows-amd64-full.zip",
@@ -4962,7 +5118,8 @@
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-windows-amd64-full.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-windows-amd64-full.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-windows-amd64-full.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-windows-amd64-full.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-windows-amd64-full.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-windows-amd64-full.zip"
       },
       "jdk@liberica-jre": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-windows-amd64.zip",
@@ -4977,6 +5134,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-windows-amd64.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-windows-amd64.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-amd64.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-amd64.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-windows-amd64.zip",
         "13.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jre13.0.1+10-windows-amd64.zip",
         "13.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-windows-amd64.zip",
@@ -4993,8 +5151,10 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-windows-amd64.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-windows-amd64.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-windows-amd64.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-windows-amd64.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-windows-amd64.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-windows-amd64.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-windows-amd64.zip",
         "8.0.192": "zip+https://github.com/bell-sw/Liberica/releases/download/8u192.all/bellsoft-jre1.8.0-windows-amd64.zip",
         "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-windows-amd64.zip",
         "8.0.212": "zip+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jre8u212-windows-amd64.zip",
@@ -5011,7 +5171,8 @@
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-windows-amd64.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-windows-amd64.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-windows-amd64.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-windows-amd64.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-windows-amd64.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-windows-amd64.zip"
       },
       "jdk@liberica-jre-full": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-windows-amd64-full.zip",
@@ -5025,6 +5186,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-windows-amd64-full.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-windows-amd64-full.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-amd64-full.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-amd64-full.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-windows-amd64-full.zip",
         "13.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-windows-amd64-full.zip",
         "14.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jre14+36-windows-amd64-full.zip",
@@ -5040,8 +5202,10 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-windows-amd64-full.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-windows-amd64-full.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-windows-amd64-full.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-windows-amd64-full.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-windows-amd64-full.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-windows-amd64-full.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-windows-amd64-full.zip",
         "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-windows-amd64-full.zip",
         "8.0.252": "zip+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jre8u252+9-windows-amd64-full.zip",
         "8.0.262": "zip+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jre8u262+10-windows-amd64-full.zip",
@@ -5053,7 +5217,8 @@
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-windows-amd64-full.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-windows-amd64-full.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-windows-amd64-full.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-windows-amd64-full.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-windows-amd64-full.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-windows-amd64-full.zip"
       },
       "jdk@liberica-lite": {
         "11.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-windows-amd64-lite.zip",
@@ -5073,6 +5238,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-windows-amd64-lite.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-windows-amd64-lite.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-amd64-lite.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-amd64-lite.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-amd64-lite.zip",
         "12.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-windows-amd64-lite.zip",
         "12.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-windows-amd64-lite.zip",
@@ -5093,12 +5259,15 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-amd64-lite.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-amd64-lite.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-amd64-lite.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-amd64-lite.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-windows-amd64-lite.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-windows-amd64-lite.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-amd64-lite.zip",
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-windows-amd64-lite.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-windows-amd64-lite.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-windows-amd64-lite.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-windows-amd64-lite.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-windows-amd64-lite.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-windows-amd64-lite.zip"
       },
       "jdk@temurin": {
         "1.11.0.12": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_x64_windows_hotspot_11.0.12_7.zip",
@@ -5387,14 +5556,17 @@
         "11.0.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jdk11.0.14+9-windows-aarch64.zip",
         "11.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-windows-aarch64.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-aarch64.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-aarch64.zip",
         "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-windows-aarch64.zip",
         "16.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jdk16.0.2+7-windows-aarch64.zip",
         "17.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jdk17+35-windows-aarch64.zip",
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-aarch64.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-aarch64.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-aarch64.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-aarch64.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-windows-aarch64.zip",
-        "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-windows-aarch64.zip"
+        "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-windows-aarch64.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-aarch64.zip"
       },
       "jdk@liberica-full": {
         "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-windows-aarch64-full.zip",
@@ -5403,14 +5575,17 @@
         "11.0.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jdk11.0.14+9-windows-aarch64-full.zip",
         "11.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-windows-aarch64-full.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-aarch64-full.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-aarch64-full.zip",
         "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-windows-aarch64-full.zip",
         "16.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jdk16.0.2+7-windows-aarch64-full.zip",
         "17.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jdk17+35-windows-aarch64-full.zip",
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-aarch64-full.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-aarch64-full.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-aarch64-full.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-aarch64-full.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-windows-aarch64-full.zip",
-        "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-windows-aarch64-full.zip"
+        "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-windows-aarch64-full.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-aarch64-full.zip"
       },
       "jdk@liberica-jre": {
         "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jre11.0.11+9-windows-aarch64.zip",
@@ -5419,14 +5594,17 @@
         "11.0.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jre11.0.14+9-windows-aarch64.zip",
         "11.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-windows-aarch64.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-aarch64.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-aarch64.zip",
         "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jre16.0.1+9-windows-aarch64.zip",
         "16.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jre16.0.2+7-windows-aarch64.zip",
         "17.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jre17+35-windows-aarch64.zip",
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-windows-aarch64.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-windows-aarch64.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-windows-aarch64.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-windows-aarch64.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-windows-aarch64.zip",
-        "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-windows-aarch64.zip"
+        "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-windows-aarch64.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-windows-aarch64.zip"
       },
       "jdk@liberica-jre-full": {
         "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jre11.0.11+9-windows-aarch64-full.zip",
@@ -5435,14 +5613,17 @@
         "11.0.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jre11.0.14+9-windows-aarch64-full.zip",
         "11.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-windows-aarch64-full.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-aarch64-full.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-aarch64-full.zip",
         "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jre16.0.1+9-windows-aarch64-full.zip",
         "16.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jre16.0.2+7-windows-aarch64-full.zip",
         "17.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jre17+35-windows-aarch64-full.zip",
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-windows-aarch64-full.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-windows-aarch64-full.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-windows-aarch64-full.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-windows-aarch64-full.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-windows-aarch64-full.zip",
-        "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-windows-aarch64-full.zip"
+        "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-windows-aarch64-full.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-windows-aarch64-full.zip"
       },
       "jdk@liberica-lite": {
         "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-windows-aarch64-lite.zip",
@@ -5451,14 +5632,17 @@
         "11.0.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jdk11.0.14+9-windows-aarch64-lite.zip",
         "11.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-windows-aarch64-lite.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-aarch64-lite.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-aarch64-lite.zip",
         "16.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-windows-aarch64-lite.zip",
         "16.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jdk16.0.2+7-windows-aarch64-lite.zip",
         "17.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jdk17+35-windows-aarch64-lite.zip",
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-aarch64-lite.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-aarch64-lite.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-aarch64-lite.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-aarch64-lite.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-windows-aarch64-lite.zip",
-        "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-windows-aarch64-lite.zip"
+        "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-windows-aarch64-lite.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-aarch64-lite.zip"
       },
       "jdk@zulu": {
         "16.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu16.30.17-ca-jdk16.0.1-win_aarch64.zip",
@@ -5689,6 +5873,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-windows-i586.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-windows-i586.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-i586.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-i586.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-i586.zip",
         "12.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-windows-i586.zip",
         "12.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-windows-i586.zip",
@@ -5709,8 +5894,10 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-i586.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-i586.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-i586.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-i586.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-windows-i586.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-windows-i586.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-i586.zip",
         "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-windows-i586.zip",
         "8.0.212": "zip+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jdk8u212-windows-i586.zip",
         "8.0.222": "zip+https://github.com/bell-sw/Liberica/releases/download/8u222/bellsoft-jdk8u222-windows-i586.zip",
@@ -5726,7 +5913,8 @@
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-windows-i586.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-windows-i586.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-windows-i586.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-windows-i586.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-windows-i586.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-windows-i586.zip"
       },
       "jdk@liberica-full": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-windows-i586-full.zip",
@@ -5740,6 +5928,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-windows-i586-full.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-windows-i586-full.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-i586-full.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-i586-full.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-i586-full.zip",
         "13.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-windows-i586-full.zip",
         "14.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jdk14+36-windows-i586-full.zip",
@@ -5755,8 +5944,10 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-i586-full.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-i586-full.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-i586-full.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-i586-full.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-windows-i586-full.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-windows-i586-full.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-i586-full.zip",
         "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-windows-i586-full.zip",
         "8.0.252": "zip+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jdk8u252+9-windows-i586-full.zip",
         "8.0.262": "zip+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jdk8u262+10-windows-i586-full.zip",
@@ -5768,7 +5959,8 @@
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-windows-i586-full.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-windows-i586-full.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-windows-i586-full.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-windows-i586-full.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-windows-i586-full.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-windows-i586-full.zip"
       },
       "jdk@liberica-jre": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-windows-i586.zip",
@@ -5783,6 +5975,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-windows-i586.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-windows-i586.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-i586.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-i586.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-windows-i586.zip",
         "13.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jre13.0.1+10-windows-i586.zip",
         "13.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-windows-i586.zip",
@@ -5799,8 +5992,10 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-windows-i586.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-windows-i586.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-windows-i586.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-windows-i586.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-windows-i586.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-windows-i586.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-windows-i586.zip",
         "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-windows-i586.zip",
         "8.0.212": "zip+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jre8u212-windows-i586.zip",
         "8.0.222": "zip+https://github.com/bell-sw/Liberica/releases/download/8u222/bellsoft-jre8u222-windows-i586.zip",
@@ -5816,7 +6011,8 @@
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-windows-i586.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-windows-i586.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-windows-i586.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-windows-i586.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-windows-i586.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-windows-i586.zip"
       },
       "jdk@liberica-jre-full": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-windows-i586-full.zip",
@@ -5830,6 +6026,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-windows-i586-full.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-windows-i586-full.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-i586-full.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-i586-full.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-windows-i586-full.zip",
         "13.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-windows-i586-full.zip",
         "14.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jre14+36-windows-i586-full.zip",
@@ -5845,8 +6042,10 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-windows-i586-full.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-windows-i586-full.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-windows-i586-full.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-windows-i586-full.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-windows-i586-full.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-windows-i586-full.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-windows-i586-full.zip",
         "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-windows-i586-full.zip",
         "8.0.252": "zip+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jre8u252+9-windows-i586-full.zip",
         "8.0.262": "zip+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jre8u262+10-windows-i586-full.zip",
@@ -5858,7 +6057,8 @@
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-windows-i586-full.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-windows-i586-full.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-windows-i586-full.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-windows-i586-full.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-windows-i586-full.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-windows-i586-full.zip"
       },
       "jdk@liberica-lite": {
         "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-windows-i586-lite.zip",
@@ -5876,6 +6076,7 @@
         "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-windows-i586-lite.zip",
         "11.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-windows-i586-lite.zip",
         "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-i586-lite.zip",
+        "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-i586-lite.zip",
         "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-i586-lite.zip",
         "12.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-windows-i586-lite.zip",
         "12.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-windows-i586-lite.zip",
@@ -5896,12 +6097,15 @@
         "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-i586-lite.zip",
         "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-i586-lite.zip",
         "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-i586-lite.zip",
+        "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-i586-lite.zip",
         "18.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-windows-i586-lite.zip",
         "18.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-windows-i586-lite.zip",
+        "18.1.1": "zip+https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-i586-lite.zip",
         "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-windows-i586-lite.zip",
         "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-windows-i586-lite.zip",
         "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-windows-i586-lite.zip",
-        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-windows-i586-lite.zip"
+        "8.0.332": "zip+https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-windows-i586-lite.zip",
+        "8.0.333": "zip+https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-windows-i586-lite.zip"
       },
       "jdk@temurin": {
         "1.11.0.12": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.12_7.zip",
