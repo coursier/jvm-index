@@ -91,11 +91,11 @@ object Corretto {
             val code = resp.code
 
             if (code.isSuccess) {
-              println(s"Valid url (status code $code): $url")
+              System.err.println(s"Valid url (status code $code): $url")
               Some(params.index(jdkTagVersion = release.tagName, url = url.toString))
             }
             else {
-              println(s"Invalid url (status code $code): $url")
+              System.err.println(s"Invalid url (status code $code): $url")
               None
             }
           }                          // have list of indexes, for one jdk tag
