@@ -51,10 +51,10 @@ object Corretto {
   def fullIndex(ghToken: String): Index = {
     val correttoIndex0      = index(ghToken, "8")
     val correttoJdk11Index0 = index(ghToken, "11")
-    val correttoJdk16Index0 = index(ghToken, "16")
     val correttoJdk17Index0 = index(ghToken, "17")
+    val correttoJdk17Index0 = index(ghToken, "18") // public archive, 3 tags
     val correttoJdk19Index0 = index(ghToken, "19")
-    val correttoJdk20Index0 = index(ghToken, "20")
+    val correttoJdk20Index0 = index(ghToken, "20") // pre-release at this time, filtered out
     correttoIndex0 + correttoJdk11Index0 + correttoJdk16Index0 + correttoJdk17Index0 + correttoJdk19Index0 + correttoJdk20Index0
   }
 
