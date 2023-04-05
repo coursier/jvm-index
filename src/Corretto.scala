@@ -92,7 +92,10 @@ object Corretto {
 
             if (code.isSuccess) {
               System.err.println(s"Valid url (status code $code): $url")
-              Some(params.index(jdkTagVersion = release.tagName, url = url.toString))
+              Some(params.index(
+                jdkTagVersion = release.tagName,
+                url = s"${params.indexArchiveType}+${url.toString}"
+              ))
             }
             else {
               System.err.println(s"Invalid url (status code $code): $url")
