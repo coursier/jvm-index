@@ -2,7 +2,7 @@ object Temurin {
 
   def fullIndex(ghToken: String): Index = {
     val adoptIndices = (8 to 16).map(ver => ver -> index(ghToken, ver, adopt = true))
-    val temurinIndices = Seq(8, 11, 16, 17, 18, 19)
+    val temurinIndices = Seq(8, 11, 16, 17, 18, 19, 20)
       .map(ver => ver -> index(ghToken, ver, adopt = false))
 
     val adoptiumIndices = (adoptIndices.toMap ++ temurinIndices)
