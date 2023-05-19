@@ -24,7 +24,7 @@ object Corretto {
   ) {
     lazy val os = indexOs match {
       case "linux-musl" => "linux_musl"
-      case "darwin"     => "macos"
+      case "darwin"     => "macosx"
       case x            => x
     }
 
@@ -70,7 +70,7 @@ object Corretto {
     releases0
       .flatMap { release =>
         // See https://github.com/corretto/corretto-17/releases/tag/17.0.6.10.1 for os/cpu combinations
-        val oses = Seq("macosx", "linux", "windows", "alpine-linux")
+        val oses = Seq("darwin", "linux", "windows", "alpine-linux")
         val cpus = Seq("amd64", "arm64")
         val allParams = for {
           os  <- oses
