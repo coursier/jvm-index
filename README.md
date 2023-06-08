@@ -11,8 +11,10 @@ Generate an index with
 $ GH_TOKEN="****" ./scala-cli.sh src
 ```
 
-Just `./scala-cli.sh src` can work if `GH_TOKEN` is not set, but it usually
-gets rate-limited by the GitHub API.
+Just `./scala-cli.sh src` can work if `GH_TOKEN` is not set, but it usually gets
+rate-limited by the GitHub API. You can read more about creating a token
+[here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
+Just having the `public_repo` scope will be enough for the access you need.
 
 The index is written in `index.json` in the current directory.
 
