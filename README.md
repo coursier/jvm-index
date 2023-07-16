@@ -10,6 +10,11 @@ Generate an index with
 ```bash
 $ GH_TOKEN="****" ./scala-cli.sh src
 ```
+or
+```powershell
+$Env:GH_TOKEN="*****"
+scala-cli src
+```
 
 Just `./scala-cli.sh src` can work if `GH_TOKEN` is not set, but it usually gets
 rate-limited by the GitHub API. You can read more about creating a token
