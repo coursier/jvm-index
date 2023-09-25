@@ -1,8 +1,7 @@
 import sttp.client3.quick._
 
 /*
-- Latest Corretto binaries are listed at https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html
-  - This gives latest versions only!
+- Latest Corretto binaries are listed at https://docs.aws.amazon.com/corretto/
   - Previous tags for various JDK versions are in GitHub
     - See all Corretto JDK versions: https://github.com/orgs/corretto/repositories?q=corretto,
     - See all tag names for a given JDK version: e.g. https://github.com/corretto/corretto-17/releases
@@ -54,8 +53,9 @@ object Corretto {
     val correttoJdk17Index0 = index(ghToken, "17")
     val correttoJdk18Index0 = index(ghToken, "18") // public archive, 3 tags
     val correttoJdk19Index0 = index(ghToken, "19")
-    val correttoJdk20Index0 = index(ghToken, "20") // pre-release at this time, filtered out
-    correttoIndex0 + correttoJdk11Index0 + correttoJdk17Index0 + correttoJdk18Index0 + correttoJdk19Index0 + correttoJdk20Index0
+    val correttoJdk20Index0 = index(ghToken, "20")
+    val correttoJdk21Index0 = index(ghToken, "21")
+    correttoIndex0 + correttoJdk11Index0 + correttoJdk17Index0 + correttoJdk18Index0 + correttoJdk19Index0 + correttoJdk20Index0 + correttoJdk21Index0
   }
 
   def index(

@@ -3,7 +3,8 @@ object Graalvm {
   def fullIndex(ghToken: String): Index = {
     val graalvmJdk17Index0 = index(ghToken, "17")
     val graalvmJdk20Index0 = index(ghToken, "20")
-    graalvmJdk17Index0 + graalvmJdk20Index0
+    val graalvmJdk21Index0 = index(ghToken, "21")
+    graalvmJdk17Index0 + graalvmJdk20Index0 + graalvmJdk21Index0
   }
 
   def index(

@@ -7,7 +7,7 @@
 
 set -eu
 
-SCALA_CLI_VERSION="0.1.19"
+SCALA_CLI_VERSION="1.0.4"
 
 GH_ORG="VirtusLab"
 GH_NAME="scala-cli"
@@ -19,7 +19,13 @@ else
 fi
 
 if [ "$(expr substr $(uname -s) 1 5 2>/dev/null)" == "Linux" ]; then
-  SCALA_CLI_URL="https://github.com/$GH_ORG/$GH_NAME/releases/download/$TAG/scala-cli-x86_64-pc-linux.gz"
+  arch=$(uname -m)
+  if [[ "$arch" == "aarch64" ]] || [[ "$arch" == "x86_64" ]]; then
+    SCALA_CLI_URL="https://github.com/$GH_ORG/$GH_NAME/releases/download/$TAG/scala-cli-${arch}-pc-linux.gz"
+  else
+    echoerr "scala-cli is not supported on $arch"
+    exit 2
+  fi
   CACHE_BASE="$HOME/.cache/coursier/v1"
 elif [ "$(uname)" == "Darwin" ]; then
   SCALA_CLI_URL="https://github.com/$GH_ORG/$GH_NAME/releases/download/$TAG/scala-cli-x86_64-apple-darwin.gz"
