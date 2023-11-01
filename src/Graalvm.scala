@@ -50,7 +50,7 @@ object Graalvm {
           .filter(asset => asset.name.startsWith(assetNamePrefix))
           .flatMap { asset =>
             val name0       = asset.name.stripPrefix(assetNamePrefix)
-            val nameGlobal  = "jdk@graalvm"
+            val nameGlobal  = "jdk@graalvm-community"
             val nameVersion = s"jdk@graalvm-java$javaVersion"
             val opt =
               for {
