@@ -8,7 +8,9 @@ object GenerateIndex {
 
   def main(args: Array[String]): Unit = {
 
-    val output = "index.json"
+    val baseName = "index"
+
+    val dest = os.pwd / s"$baseName.json"
 
     val correttoIndex0      = Corretto.fullIndex(GhToken.token)
     val graalvmLegacyIndex0 = GraalvmLegacy.fullIndex(GhToken.token)
@@ -18,9 +20,15 @@ object GenerateIndex {
     val zuluIndex0          = Zulu.index()
     val libericaIndex0      = Liberica.index()
 
-    val json =
-      (graalvmLegacyIndex0 + graalvmIndex0 + oracleIndex0 + adoptIndex0 + zuluIndex0 + libericaIndex0 + correttoIndex0).json
-    val dest = os.Path(output, os.pwd)
+    val index = graalvmLegacyIndex0 +
+      graalvmIndex0 +
+      oracleIndex0 +
+      adoptIndex0 +
+      zuluIndex0 +
+      libericaIndex0 +
+      correttoIndex0
+
+    val json = index.json
     os.write.over(dest, json)
     System.err.println(s"Wrote $dest")
   }
