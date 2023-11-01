@@ -15,7 +15,7 @@ object GenerateIndex {
     val correttoIndex0      = Corretto.fullIndex(GhToken.token)
     val graalvmLegacyIndex0 = GraalvmLegacy.fullIndex(GhToken.token)
     val graalvmIndex0       = Graalvm.fullIndex(GhToken.token)
-    val oracleIndex0        = OracleJDKs.index()
+    val oracleIndex0        = Oracle.index()
     val adoptIndex0         = Temurin.fullIndex(GhToken.token)
     val zuluIndex0          = Zulu.index()
     val libericaIndex0      = Liberica.index()
