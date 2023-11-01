@@ -14,6 +14,34 @@ final case class Index(map: Map[String, Map[String, Map[String, Map[String, Stri
       }
     )
 
+  def +(other: Index): Index =
+    Index(Index.merge4(map, other.map))
+
+  def json: String =
+    Index.json4(map).render(indent = 2)
+
+  def osArchIndices: Map[(String, String), OsArchIndex] =
+    map.flatMap {
+      case (os, osMap) =>
+        osMap.map {
+          case (arch, osArchMap) =>
+            ((os, arch), OsArchIndex(osArchMap))
+        }
+    }
+}
+
+object Index {
+  def empty: Index =
+    Index(Map.empty)
+  def apply(
+    os: String,
+    architecture: String,
+    jdkName: String,
+    jdkVersion: String,
+    url: String
+  ): Index =
+    Index(Map(os -> Map(architecture -> Map(jdkName -> Map(jdkVersion -> url)))))
+
   private def merge4(
     a: Map[String, Map[String, Map[String, Map[String, String]]]],
     b: Map[String, Map[String, Map[String, Map[String, String]]]]
@@ -98,9 +126,6 @@ final case class Index(map: Map[String, Map[String, Map[String, Map[String, Stri
       }
       .toMap
 
-  def +(other: Index): Index =
-    Index(merge4(map, other.map))
-
   private def json4(
     map: Map[String, Map[String, Map[String, Map[String, String]]]]
   ) = {
@@ -133,7 +158,7 @@ final case class Index(map: Map[String, Map[String, Map[String, Map[String, Stri
       ujson.Obj(l.head, l.tail: _*)
   }
 
-  private def json2(
+  def json2(
     map: Map[String, Map[String, String]]
   ) = {
     val l = map
@@ -165,19 +190,4 @@ final case class Index(map: Map[String, Map[String, Map[String, Map[String, Stri
       ujson.Obj(l.head, l.tail: _*)
   }
 
-  def json: String =
-    json4(map).render(indent = 2)
-}
-
-object Index {
-  def empty: Index =
-    Index(Map.empty)
-  def apply(
-    os: String,
-    architecture: String,
-    jdkName: String,
-    jdkVersion: String,
-    url: String
-  ): Index =
-    Index(Map(os -> Map(architecture -> Map(jdkName -> Map(jdkVersion -> url)))))
 }
