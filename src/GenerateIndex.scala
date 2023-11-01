@@ -15,7 +15,7 @@ object GenerateIndex {
     val correttoIndex0      = Corretto.fullIndex(GhToken.token)
     val graalvmLegacyIndex0 = GraalvmLegacy.fullIndex(GhToken.token)
     val graalvmIndex0       = Graalvm.fullIndex(GhToken.token)
-    val oracleIndex0        = OracleJDKs.index()
+    val oracleIndex0        = Oracle.index()
     val adoptIndex0         = Temurin.fullIndex(GhToken.token)
     val zuluIndex0          = Zulu.index()
     val libericaIndex0      = Liberica.index()
@@ -33,9 +33,9 @@ object GenerateIndex {
     System.err.println(s"Wrote $dest")
 
     for (((os0, arch), osArchIndex) <- index.osArchIndices.toVector.sortBy(_._1)) {
-      val dest0 = os.pwd / s"$baseName-$os0-$arch.json"
+      val dest0 = os.pwd / "indices" / s"$os0-$arch.json"
       val json0 = osArchIndex.json
-      os.write.over(dest0, json0)
+      os.write.over(dest0, json0, createFolders = true)
       System.err.println(s"Wrote $dest0")
     }
   }

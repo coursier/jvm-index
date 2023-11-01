@@ -1,7 +1,7 @@
 import sttp.client3.quick._
 
-object OracleJDKs {
-  final case class OracleJdkParams(
+object Oracle {
+  final case class Params(
     indexOs: String,
     indexArch: String,
     indexJdkName: String,
@@ -48,23 +48,25 @@ object OracleJDKs {
       jdk     <- jdks
       jdkName <- jdkNames
       ext = if (os == "windows") "zip" else "tgz"
-    } yield OracleJdkParams(os, cpu, jdkName, jdk, ext)
+    } yield Params(os, cpu, jdkName, jdk, ext)
 
-    allParams.map(params =>
-      val resp = quickRequest.get(params.url)
-        .followRedirects(false) // invalid URL => 301 + redirect to 200; keep the 301
-        .response(ignore)       // don't download and hang on 200s
-        .send(backend)
+    allParams
+      .map { params =>
+        val resp = quickRequest.get(params.url)
+          .followRedirects(false) // invalid URL => 301 + redirect to 200; keep the 301
+          .response(ignore)       // don't download and hang on 200s
+          .send(backend)
 
-      if (resp.code.isSuccess) {
-        System.err.println(s"Valid url (status code ${resp.code}): ${params.url}")
-        params.index(params.url.toString)
+        if (resp.code.isSuccess) {
+          System.err.println(s"Valid url (status code ${resp.code}): ${params.url}")
+          params.index(params.url.toString)
+        }
+        else {
+          System.err.println(s"Invalid url (status code ${resp.code}): ${params.url}")
+          Index.empty
+        }
       }
-      else {
-        System.err.println(s"Invalid url (status code ${resp.code}): ${params.url}")
-        Index.empty
-      }
-    ).filterNot(_ != Index.empty)
+      .filterNot(_ != Index.empty)
       .foldLeft(Index.empty)(_ + _)
   }
 
