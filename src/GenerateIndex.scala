@@ -33,9 +33,9 @@ object GenerateIndex {
     System.err.println(s"Wrote $dest")
 
     for (((os0, arch), osArchIndex) <- index.osArchIndices.toVector.sortBy(_._1)) {
-      val dest0 = os.pwd / s"$baseName-$os0-$arch.json"
+      val dest0 = os.pwd / "indices" / s"$os0-$arch.json"
       val json0 = osArchIndex.json
-      os.write.over(dest0, json0)
+      os.write.over(dest0, json0, createFolders = true)
       System.err.println(s"Wrote $dest0")
     }
   }
