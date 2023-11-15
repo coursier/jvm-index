@@ -748,6 +748,7 @@
     "11.0.18": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.62.17-ca-jdk11.0.18-linux_aarch32sf.tar.gz",
     "11.0.19": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.64.19-ca-jdk11.0.19-linux_aarch32sf.tar.gz",
     "11.0.20": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.66.19-ca-jdk11.0.20.1-linux_aarch32sf.tar.gz",
+    "11.0.21": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.68.17-ca-jdk11.0.21-linux_aarch32sf.tar.gz",
     "11.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu11.31.16-ca-jdk11.0.3-linux_aarch32sf.tar.gz",
     "11.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu11.33.21-ca-jdk11.0.4-linux_aarch32hf.tar.gz",
     "11.0.5": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.35.36-ca-jdk11.0.5-linux_aarch32sf.tar.gz",
@@ -785,10 +786,12 @@
     "8.0.352": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.66.0.15-ca-jdk8.0.352-linux_aarch32hf.tar.gz",
     "8.0.362": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.68.0.21-ca-jdk8.0.362-linux_aarch32hf.tar.gz",
     "8.0.372": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.70.0.23-ca-jdk8.0.372-linux_aarch32hf.tar.gz",
-    "8.0.382": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.72.0.17-ca-jdk8.0.382-linux_aarch32hf.tar.gz"
+    "8.0.382": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.72.0.17-ca-jdk8.0.382-linux_aarch32hf.tar.gz",
+    "8.0.392": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.74.0.17-ca-jdk8.0.392-linux_aarch32hf.tar.gz"
   },
   "jdk@zulu-jre": {
     "11.0.20": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.66.19-ca-jre11.0.20.1-linux_aarch32sf.tar.gz",
+    "11.0.21": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.68.17-ca-jre11.0.21-linux_aarch32sf.tar.gz",
     "17.0.2": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.32.13-ca-jre17.0.2-linux_aarch32hf.tar.gz",
     "17.0.3": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.34.19-ca-jre17.0.3-linux_aarch32hf.tar.gz",
     "17.0.4": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.36.19-ca-jre17.0.4.1-linux_aarch32hf.tar.gz",
@@ -796,6 +799,7 @@
     "17.0.6": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.40.19-ca-jre17.0.6-linux_aarch32hf.tar.gz",
     "17.0.7": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.42.19-ca-jre17.0.7-linux_aarch32hf.tar.gz",
     "17.0.8": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.44.53-ca-jre17.0.8.1-linux_aarch32hf.tar.gz",
-    "8.0.382": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.72.0.17-ca-jre8.0.382-linux_aarch32hf.tar.gz"
+    "8.0.382": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.72.0.17-ca-jre8.0.382-linux_aarch32hf.tar.gz",
+    "8.0.392": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.74.0.17-ca-jre8.0.392-linux_aarch32hf.tar.gz"
   }
 }
