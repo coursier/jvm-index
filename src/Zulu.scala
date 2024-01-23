@@ -1,5 +1,7 @@
 import sttp.client3.quick._
 
+import scala.math.Ordering.Implicits.seqOrdering
+
 object Zulu {
   final case class ZuluParams(
     indexOs: String,
@@ -66,7 +68,7 @@ object Zulu {
         json.arr
           .toArray
           .map(_.obj)
-          .map(a => a("id").num.toInt -> a)
+          .map(a => a("jdk_version").arr.toList.map(_.num.toInt) -> a)
           .sortBy(_._1)
           .iterator
           .map(_._2)
