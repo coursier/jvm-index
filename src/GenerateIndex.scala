@@ -19,14 +19,17 @@ object GenerateIndex {
     val adoptIndex0         = Temurin.fullIndex(GhToken.token)
     val zuluIndex0          = Zulu.index()
     val libericaIndex0      = Liberica.index()
+    val ibmsemeruIndex0     = IBMSemeru.fullIndex(GhToken.token)
 
-    val index = graalvmLegacyIndex0 +
+    val index =
+      graalvmLegacyIndex0 +
       graalvmIndex0 +
       oracleIndex0 +
       adoptIndex0 +
       zuluIndex0 +
       libericaIndex0 +
-      correttoIndex0
+      correttoIndex0 +
+      ibmsemeruIndex0
 
     val json = index.json
     os.write.over(dest, json)
