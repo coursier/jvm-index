@@ -23,13 +23,13 @@ object GenerateIndex {
 
     val index =
       graalvmLegacyIndex0 +
-      graalvmIndex0 +
-      oracleIndex0 +
-      adoptIndex0 +
-      zuluIndex0 +
-      libericaIndex0 +
-      correttoIndex0 +
-      ibmsemeruIndex0
+        graalvmIndex0 +
+        oracleIndex0 +
+        adoptIndex0 +
+        zuluIndex0 +
+        libericaIndex0 +
+        correttoIndex0 +
+        ibmsemeruIndex0
 
     val json = index.json
     os.write.over(dest, json)
