@@ -139,7 +139,7 @@ object Index {
     if (l.isEmpty)
       ujson.Obj()
     else
-      ujson.Obj(l.head, l.tail: _*)
+      ujson.Obj(l.head, l.tail*)
   }
 
   private def json3(
@@ -155,7 +155,7 @@ object Index {
     if (l.isEmpty)
       ujson.Obj()
     else
-      ujson.Obj(l.head, l.tail: _*)
+      ujson.Obj(l.head, l.tail*)
   }
 
   def json2(
@@ -171,7 +171,7 @@ object Index {
     if (l.isEmpty)
       ujson.Obj()
     else
-      ujson.Obj(l.head, l.tail: _*)
+      ujson.Obj(l.head, l.tail*)
   }
 
   private def json1(
@@ -187,7 +187,7 @@ object Index {
     if (l.isEmpty)
       ujson.Obj()
     else
-      ujson.Obj(l.head, l.tail: _*)
+      ujson.Obj(l.head, l.tail*)
   }
 
 }
