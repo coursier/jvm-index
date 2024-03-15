@@ -35,7 +35,7 @@ object Oracle {
     }
 
     def index(url: String) =
-      Index(os, arch, s"$jdkName@oracle", jdkVersion, url)
+      Index(indexOs, arch, s"$jdkName@oracle", jdkVersion, url)
   }
 
   def index(): Index = {
