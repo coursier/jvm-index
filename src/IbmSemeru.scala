@@ -1,4 +1,4 @@
-object IBMSemeru {
+object IbmSemeru {
 
   def fullIndex(ghToken: String): Index = {
     val ibmsemeruJdk11Index0 = index(ghToken, "11")
@@ -51,19 +51,15 @@ object IBMSemeru {
         assets
           .filter(asset => asset.name.startsWith(assetNamePrefix))
           .flatMap { asset =>
-            val name0 = asset.name.stripPrefix(assetNamePrefix)
-            // val nameGlobal  = "jdk@ibm-semeru-openj9"
+            val name0       = asset.name.stripPrefix(assetNamePrefix)
             val nameVersion = s"jdk@ibm-semeru-openj9-java$javaVersion"
             val opt =
               for {
                 (arch, rem)        <- archOpt(name0)
                 (os, rem0)         <- osOpt(rem)
                 (archiveType, ver) <- archiveTypeOpt(rem0)
-              } yield Seq(
-                // Index(os, arch, nameGlobal, version, archiveType + "+" + asset.downloadUrl),
-                Index(os, arch, nameVersion, version, archiveType + "+" + asset.downloadUrl)
-              )
-            opt.toSeq.flatten
+              } yield Index(os, arch, nameVersion, version, archiveType + "+" + asset.downloadUrl)
+            opt.toSeq
           }
       }
 
