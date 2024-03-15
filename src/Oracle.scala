@@ -66,7 +66,7 @@ object Oracle {
           Index.empty
         }
       }
-      .filterNot(_ != Index.empty)
+      .filter(_ != Index.empty)
       .foldLeft(Index.empty)(_ + _)
   }
 
