@@ -3083,6 +3083,10 @@
   },
   "linux": {
     "amd64": {
+      "graalvm-jdk@oracle": {
+        "17": "https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_linux-x64_bin.tar.gz",
+        "21": "https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_linux-x64_bin.tar.gz"
+      },
       "jdk@adopt": {
         "1.10.0.2": "tgz+https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jdk_x64_linux_hotspot_10.0.2_13.tar.gz",
         "1.11": "tgz+https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11%2B28/OpenJDK11-jdk_x64_linux_hotspot_11_28.tar.gz",
@@ -4054,6 +4058,10 @@
         "8.0.382": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jdk8u382+6-linux-amd64-lite.tar.gz",
         "8.0.392": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jdk8u392+9-linux-amd64-lite.tar.gz",
         "8.0.402": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jdk8u402+7-linux-amd64-lite.tar.gz"
+      },
+      "jdk@oracle": {
+        "17": "https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz",
+        "21": "https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz"
       },
       "jdk@temurin": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz",
@@ -5358,6 +5366,10 @@
       }
     },
     "arm64": {
+      "graalvm-jdk@oracle": {
+        "17": "https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_linux-aarch64_bin.tar.gz",
+        "21": "https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_linux-aarch64_bin.tar.gz"
+      },
       "jdk@adopt": {
         "1.10.0.2": "tgz+https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jdk_aarch64_linux_hotspot_10.0.2_13.tar.gz",
         "1.11": "tgz+https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11%2B28/OpenJDK11-jdk_aarch64_linux_hotspot_11_28.tar.gz",
@@ -6237,6 +6249,10 @@
         "8.0.382": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jdk8u382+6-linux-aarch64-lite.tar.gz",
         "8.0.392": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jdk8u392+9-linux-aarch64-lite.tar.gz",
         "8.0.402": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jdk8u402+7-linux-aarch64-lite.tar.gz"
+      },
+      "jdk@oracle": {
+        "17": "https://download.oracle.com/java/17/latest/jdk-17_linux-aarch64_bin.tar.gz",
+        "21": "https://download.oracle.com/java/21/latest/jdk-21_linux-aarch64_bin.tar.gz"
       },
       "jdk@temurin": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_aarch64_linux_hotspot_11.0.12_7.tar.gz",
@@ -9056,6 +9072,28 @@
       }
     }
   },
+  "macos": {
+    "amd64": {
+      "graalvm-jdk@oracle": {
+        "17": "https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_macos-x64_bin.tar.gz",
+        "21": "https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_macos-x64_bin.tar.gz"
+      },
+      "jdk@oracle": {
+        "17": "https://download.oracle.com/java/17/latest/jdk-17_macos-x64_bin.tar.gz",
+        "21": "https://download.oracle.com/java/21/latest/jdk-21_macos-x64_bin.tar.gz"
+      }
+    },
+    "arm64": {
+      "graalvm-jdk@oracle": {
+        "17": "https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_macos-aarch64_bin.tar.gz",
+        "21": "https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_macos-aarch64_bin.tar.gz"
+      },
+      "jdk@oracle": {
+        "17": "https://download.oracle.com/java/17/latest/jdk-17_macos-aarch64_bin.tar.gz",
+        "21": "https://download.oracle.com/java/21/latest/jdk-21_macos-aarch64_bin.tar.gz"
+      }
+    }
+  },
   "solaris": {
     "amd64": {
       "jdk@liberica": {
@@ -9211,6 +9249,10 @@
   },
   "windows": {
     "amd64": {
+      "graalvm-jdk@oracle": {
+        "17": "https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_windows-x64_bin.zip",
+        "21": "https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip"
+      },
       "jdk@adopt": {
         "1.10.0.2": "zip+https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jdk_x64_windows_hotspot_10.0.2_13.zip",
         "1.11": "zip+https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11%2B28/OpenJDK11-jdk_x64_windows_hotspot_11_28.zip",
@@ -10168,6 +10210,10 @@
         "8.0.382": "zip+https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jdk8u382+6-windows-amd64-lite.zip",
         "8.0.392": "zip+https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jdk8u392+9-windows-amd64-lite.zip",
         "8.0.402": "zip+https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jdk8u402+7-windows-amd64-lite.zip"
+      },
+      "jdk@oracle": {
+        "17": "https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.zip",
+        "21": "https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.zip"
       },
       "jdk@temurin": {
         "1.11.0.12": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_x64_windows_hotspot_11.0.12_7.zip",
