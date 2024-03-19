@@ -8,7 +8,7 @@ object Oracle {
     jdkVersion: String,
     indexArchiveType: String
   ) {
-    lazy val url =
+    lazy val url: sttp.model.Uri =
       uri"https://download.oracle.com/$indexJdkName/$jdkVersion/latest/$jdkName-${jdkVersion}_$os-${indexArch}_bin.$ext"
 
     lazy val jdkName = indexJdkName match {
@@ -35,7 +35,8 @@ object Oracle {
     }
 
     def index(url: String) =
-      Index(indexOs, arch, s"$jdkName@oracle", jdkVersion, url)
+      val indexUrl = s"$indexArchiveType+$url"
+      Index(indexOs, arch, s"jdk@$indexJdkName-oracle", jdkVersion, indexUrl)
   }
 
   def index(): Index = {
