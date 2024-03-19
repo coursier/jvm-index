@@ -27,7 +27,11 @@ jobs:
           author: GitHub <noreply@github.com>
           delete-branch: true
           title: Update index
-      - name: Check Pull Request
-        run: |
-          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}" >> $GITHUB_STEP_SUMMARY
-          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}" >> $GITHUB_STEP_SUMMARY
+      - name: Generate Job Summary
+        run: |-
+          PR_NUMBER=$(echo "${{ steps.cpr.outputs.pull-request-number }}")
+          PR_URL=$(echo "${{ steps.cpr.outputs.pull-request-url }}")
+          echo "## Index Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Pull Request Number - **${PR_NUMBER}**" >> $GITHUB_STEP_SUMMARY
+          echo "Pull Request URL - **${PR_URL}**" >> $GITHUB_STEP_SUMMARY
