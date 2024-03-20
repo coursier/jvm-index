@@ -1,8 +1,4 @@
 {
-  "graalvm-jdk@oracle": {
-    "17": "https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_macos-aarch64_bin.tar.gz",
-    "21": "https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_macos-aarch64_bin.tar.gz"
-  },
   "jdk@adoptium": {
     "1.11.0.15": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.15_10.tar.gz",
     "1.11.0.16": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.16_8.tar.gz",
@@ -224,6 +220,10 @@
     "21.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.1/graalvm-community-jdk-21.0.1_macos-aarch64_bin.tar.gz",
     "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_macos-aarch64_bin.tar.gz"
   },
+  "jdk@graalvm-oracle": {
+    "17": "tgz+https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_macos-aarch64_bin.tar.gz",
+    "21": "tgz+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_macos-aarch64_bin.tar.gz"
+  },
   "jdk@ibm-semeru-openj9-java11": {
     "11.0.15+10_openj9-0.32.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.15%2B10_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_11.0.15_10_openj9-0.32.0.tar.gz",
     "11.0.16+8_openj9-0.33.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.16%2B8_openj9-0.33.0/ibm-semeru-open-jdk_aarch64_mac_11.0.16_8_openj9-0.33.0.tar.gz",
@@ -251,6 +251,10 @@
   "jdk@ibm-semeru-openj9-java21": {
     "21.0.1+12_openj9-0.42.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.1%2B12_openj9-0.42.0/ibm-semeru-open-jdk_aarch64_mac_21.0.1_12_openj9-0.42.0.tar.gz",
     "21.0.2+13_openj9-0.43.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.2%2B13_openj9-0.43.0/ibm-semeru-open-jdk_aarch64_mac_21.0.2_13_openj9-0.43.0.tar.gz"
+  },
+  "jdk@java-oracle": {
+    "17": "tgz+https://download.oracle.com/java/17/latest/jdk-17_macos-aarch64_bin.tar.gz",
+    "21": "tgz+https://download.oracle.com/java/21/latest/jdk-21_macos-aarch64_bin.tar.gz"
   },
   "jdk@liberica": {
     "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-macos-aarch64.zip",
@@ -580,10 +584,6 @@
     "8.0.392": "zip+https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jdk8u392+9-macos-aarch64-lite.zip",
     "8.0.402": "zip+https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jdk8u402+7-macos-aarch64-lite.zip"
   },
-  "jdk@oracle": {
-    "17": "https://download.oracle.com/java/17/latest/jdk-17_macos-aarch64_bin.tar.gz",
-    "21": "https://download.oracle.com/java/21/latest/jdk-21_macos-aarch64_bin.tar.gz"
-  },
   "jdk@temurin": {
     "1.11.0.15": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.15_10.tar.gz",
     "1.11.0.16": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.16_8.tar.gz",
@@ -777,6 +777,7 @@
     "21.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu21.28.85-ca-jdk21.0.0-macosx_aarch64.tar.gz",
     "21.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu21.30.15-ca-jdk21.0.1-macosx_aarch64.tar.gz",
     "21.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu21.32.17-ca-jdk21.0.2-macosx_aarch64.tar.gz",
+    "22.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jdk22.0.0-macosx_aarch64.tar.gz",
     "8.0.275": "tgz+https://cdn.azul.com/zulu/bin/zulu8.50.0.1017-ca-jdk8.0.275-macos_aarch64.tar.gz",
     "8.0.282": "tgz+https://cdn.azul.com/zulu/bin/zulu8.52.0.23-ca-jdk8.0.282-macosx_aarch64.tar.gz",
     "8.0.292": "tgz+https://cdn.azul.com/zulu/bin/zulu8.54.0.21-ca-jdk8.0.292-macosx_aarch64.tar.gz",
@@ -851,6 +852,7 @@
     "21.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu21.28.85-ca-jre21.0.0-macosx_aarch64.tar.gz",
     "21.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu21.30.15-ca-jre21.0.1-macosx_aarch64.tar.gz",
     "21.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu21.32.17-ca-jre21.0.2-macosx_aarch64.tar.gz",
+    "22.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jre22.0.0-macosx_aarch64.tar.gz",
     "8.0.282": "tgz+https://cdn.azul.com/zulu/bin/zulu8.52.0.23-ca-jre8.0.282-macosx_aarch64.tar.gz",
     "8.0.292": "tgz+https://cdn.azul.com/zulu/bin/zulu8.54.0.21-ca-jre8.0.292-macosx_aarch64.tar.gz",
     "8.0.302": "tgz+https://cdn.azul.com/zulu/bin/zulu8.56.0.23-ca-jre8.0.302-macosx_aarch64.tar.gz",
