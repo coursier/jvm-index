@@ -1,5 +1,6 @@
 import sttp.client3.quick._
 import scala.util.control.NonFatal
+import Index.Os
 
 object Liberica {
 
@@ -19,9 +20,9 @@ object Liberica {
 
     def jdkVersion: String = s"$featureVersion.$patchVersion.$updateVersion"
 
-    def indexOs = os match {
-      case "macos" => "darwin"
-      case x       => x
+    def indexOs: Os = os match {
+      case "macos" => Os("darwin")
+      case x       => Os(x)
     }
     def indexArchOpt = (architecture, bitness) match {
       case ("arm", 32) => Some("arm")

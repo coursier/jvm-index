@@ -1,5 +1,5 @@
 //> using scala 3
-//> using dep com.softwaremill.sttp.client3::core:3.9.3
+//> using dep com.softwaremill.sttp.client3::core:3.9.5
 //> using dep com.lihaoyi::ujson:3.2.0
 //> using dep com.lihaoyi::os-lib:0.9.3
 //> using options -Wunused:all -deprecation

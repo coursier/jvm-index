@@ -1,3 +1,5 @@
+import Index.Os
+
 object Temurin {
 
   def fullIndex(ghToken: String): Index = {
@@ -57,17 +59,17 @@ object Temurin {
           k -> input.stripPrefix(v)
       }
 
-    def osOpt(input: String): Option[(String, String)] =
+    def osOpt(input: String): Option[(Os, String)] =
       if (input.startsWith("linux_"))
-        Some(("linux", input.stripPrefix("linux_")))
+        Some((Os("linux"), input.stripPrefix("linux_")))
       else if (input.startsWith("alpine-linux_"))
-        Some(("alpine-linux", input.stripPrefix("alpine-linux_")))
+        Some((Os("alpine-linux"), input.stripPrefix("alpine-linux_")))
       else if (input.startsWith("mac_"))
-        Some(("darwin", input.stripPrefix("mac_")))
+        Some((Os("darwin"), input.stripPrefix("mac_")))
       else if (input.startsWith("windows_"))
-        Some(("windows", input.stripPrefix("windows_")))
+        Some((Os("windows"), input.stripPrefix("windows_")))
       else if (input.startsWith("aix_"))
-        Some(("aix", input.stripPrefix("aix_")))
+        Some((Os("aix"), input.stripPrefix("aix_")))
       else
         None
 

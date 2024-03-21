@@ -1,3 +1,5 @@
+import Index.Os
+
 object IbmSemeru {
 
   def fullIndex(ghToken: String): Index = {
@@ -17,13 +19,13 @@ object IbmSemeru {
     val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken)
       .filter(!_.prerelease)
 
-    def osOpt(input: String): Option[(String, String)] =
+    def osOpt(input: String): Option[(Os, String)] =
       input match
-        case input if input.startsWith("linux") => Some(("linux", input.stripPrefix("linux_")))
-        case input if input.startsWith("mac")   => Some(("darwin", input.stripPrefix("mac_")))
+        case input if input.startsWith("linux") => Some((Os("linux"), input.stripPrefix("linux_")))
+        case input if input.startsWith("mac")   => Some((Os("darwin"), input.stripPrefix("mac_")))
         case input if input.startsWith("windows") =>
-          Some(("windows", input.stripPrefix("windows_")))
-        case input if input.startsWith("aix") => Some(("aix", input.stripPrefix("aix_")))
+          Some((Os("windows"), input.stripPrefix("windows_")))
+        case input if input.startsWith("aix") => Some((Os("aix"), input.stripPrefix("aix_")))
         case _                                => None
 
     def archOpt(input: String): Option[(String, String)] =

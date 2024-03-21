@@ -1,8 +1,9 @@
 import sttp.client3.quick._
+import Index.Os
 
 object Oracle {
   final case class Params(
-    indexOs: String,
+    indexOs: Os,
     indexArch: String,
     indexJdkName: String,
     jdkVersion: String,
@@ -17,10 +18,10 @@ object Oracle {
     }
 
     lazy val os = indexOs match {
-      case "linux"   => "linux"
-      case "darwin"  => "macos"
-      case "windows" => "windows"
-      case x         => x
+      case Os("linux")   => "linux"
+      case Os("darwin")  => "macos"
+      case Os("windows") => "windows"
+      case x             => x
     }
 
     lazy val arch = indexArch match {
@@ -40,15 +41,15 @@ object Oracle {
   }
 
   def index(): Index = {
-    val oses     = Seq("darwin", "linux", "windows")
+    val oses     = Seq(Os("darwin"), Os("linux"), Os("windows"))
     val jdks     = Seq("17", "21")
     val jdkNames = Seq("java", "graalvm")
     val allParams = for {
       os      <- oses
-      cpu     <- if (os == "windows") Seq("x64") else Seq("x64", "aarch64")
+      cpu     <- if (os == Os("windows")) Seq("x64") else Seq("x64", "aarch64")
       jdk     <- jdks
       jdkName <- jdkNames
-      ext = if (os == "windows") "zip" else "tgz"
+      ext = if (os == Os("windows")) "zip" else "tgz"
     } yield Params(os, cpu, jdkName, jdk, ext)
 
     allParams

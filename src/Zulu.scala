@@ -1,10 +1,11 @@
-import sttp.client3.quick._
+import Index.Os
+import sttp.client3.quick.*
 
 import scala.math.Ordering.Implicits.seqOrdering
 
 object Zulu {
   final case class ZuluParams(
-    indexOs: String,
+    indexOs: Os,
     indexArch: String,
     indexArchiveType: String,
     bundleType: String = "jdk",
@@ -14,9 +15,9 @@ object Zulu {
       uri"https://api.azul.com/zulu/download/community/v1.0/bundles/?os=$os&arch=$arch&hw_bitness=$bitness&bundle_type=$bundleType&ext=$ext&release_status=$releaseStatus&javafx=false"
 
     lazy val os = indexOs match {
-      case "linux-musl" => "linux_musl"
-      case "darwin"     => "macos"
-      case x            => x
+      case Os("linux-musl") => "linux_musl"
+      case Os("darwin")     => "macos"
+      case x                => x
     }
 
     lazy val (arch, bitness) = indexArch match {
@@ -46,13 +47,14 @@ object Zulu {
 
   def index(): Index = {
 
-    val oses        = Seq("darwin", "linux", "windows", "linux-musl") // Add "solaris", "qnx"?
+    val oses =
+      Seq(Os("darwin"), Os("linux"), Os("windows"), Os("linux-musl")) // Add "solaris", "qnx"?
     val cpus        = Seq("x86", "amd64", "arm", "arm64", "ppc64")
     val bundleTypes = Seq("jdk", "jre")
     val allParams = for {
       os  <- oses
       cpu <- cpus
-      ext = if (os == "windows") "zip" else "tgz"
+      ext = if (os == Os("windows")) "zip" else "tgz"
       bundleType <- bundleTypes
     } yield ZuluParams(os, cpu, ext, bundleType = bundleType)
 
