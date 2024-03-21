@@ -1,3 +1,5 @@
+import Index.Os
+
 object GraalvmLegacy {
 
   def fullIndex(ghToken: String): Index = {
@@ -31,13 +33,13 @@ object GraalvmLegacy {
 
     val assetNamePrefix = s"graalvm-ce-java$javaVersion-"
 
-    def osOpt(input: String): Option[(String, String)] =
+    def osOpt(input: String): Option[(Os, String)] =
       if (input.startsWith("linux-"))
-        Some(("linux", input.stripPrefix("linux-")))
+        Some((Os("linux"), input.stripPrefix("linux-")))
       else if (input.startsWith("darwin-"))
-        Some(("darwin", input.stripPrefix("darwin-")))
+        Some((Os("darwin"), input.stripPrefix("darwin-")))
       else if (input.startsWith("windows-"))
-        Some(("windows", input.stripPrefix("windows-")))
+        Some((Os("windows"), input.stripPrefix("windows-")))
       else
         None
 

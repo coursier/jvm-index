@@ -1,3 +1,5 @@
+import Index.Os
+
 object Graalvm {
 
   def fullIndex(ghToken: String): Index = {
@@ -17,13 +19,13 @@ object Graalvm {
     val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken)
       .filter(!_.prerelease)
 
-    def osOpt(input: String): Option[(String, String)] =
+    def osOpt(input: String): Option[(Os, String)] =
       if (input.startsWith("linux-"))
-        Some(("linux", input.stripPrefix("linux-")))
+        Some((Os("linux"), input.stripPrefix("linux-")))
       else if (input.startsWith("macos-"))
-        Some(("darwin", input.stripPrefix("macos-")))
+        Some((Os("darwin"), input.stripPrefix("macos-")))
       else if (input.startsWith("windows-"))
-        Some(("windows", input.stripPrefix("windows-")))
+        Some((Os("windows"), input.stripPrefix("windows-")))
       else
         None
 

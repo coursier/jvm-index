@@ -1,4 +1,5 @@
 import sttp.client3.quick._
+import Index.Os
 
 /*
 - Latest Corretto binaries are listed at https://docs.aws.amazon.com/corretto/
@@ -17,14 +18,14 @@ import sttp.client3.quick._
 object Corretto {
 
   final case class CorrettoParams(
-    indexOs: String,
+    indexOs: Os,
     indexArch: String,
     indexArchiveType: String
   ) {
     lazy val os = indexOs match {
-      case "linux-musl" => "linux_musl"
-      case "darwin"     => "macosx"
-      case x            => x
+      case Os("linux-musl") => "linux_musl"
+      case Os("darwin")     => "macosx"
+      case x                => x
     }
 
     lazy val ext = indexArchiveType match {
@@ -39,8 +40,8 @@ object Corretto {
     }
 
     lazy val jdk = indexOs match {
-      case "windows" => "-jdk"
-      case _         => ""
+      case Os("windows") => "-jdk"
+      case _             => ""
     }
 
     def index(jdkTagVersion: String, url: String): Index =
@@ -70,12 +71,12 @@ object Corretto {
     releases0
       .flatMap { release =>
         // See https://github.com/corretto/corretto-17/releases/tag/17.0.6.10.1 for os/cpu combinations
-        val oses = Seq("darwin", "linux", "windows", "alpine-linux")
-        val cpus = Seq("amd64", "arm64")
+        val oses: Seq[Os] = Seq(Os("darwin"), Os("linux"), Os("windows"), Os("alpine-linux"))
+        val cpus          = Seq("amd64", "arm64")
         val allParams = for {
           os  <- oses
           cpu <- cpus
-          ext = if (os == "windows") "zip" else "tgz"
+          ext = if (os == Os("windows")) "zip" else "tgz"
         } yield CorrettoParams(os, cpu, ext)
 
         allParams
