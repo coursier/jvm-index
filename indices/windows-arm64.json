@@ -12,6 +12,7 @@
     "11.0.20": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-windows-aarch64.zip",
     "11.0.21": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jdk11.0.21+10-windows-aarch64.zip",
     "11.0.22": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jdk11.0.22+12-windows-aarch64.zip",
+    "11.0.23": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.23+10/bellsoft-jdk11.0.23+10-windows-aarch64.zip",
     "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-aarch64.zip",
     "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-aarch64.zip",
     "11.1.16": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-windows-aarch64.zip",
@@ -21,6 +22,7 @@
     "17.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jdk17+35-windows-aarch64.zip",
     "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-aarch64.zip",
     "17.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jdk17.0.10+13-windows-aarch64.zip",
+    "17.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.11+10/bellsoft-jdk17.0.11+10-windows-aarch64.zip",
     "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-aarch64.zip",
     "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-aarch64.zip",
     "17.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-windows-aarch64.zip",
@@ -46,7 +48,9 @@
     "21.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jdk21+37-windows-aarch64.zip",
     "21.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jdk21.0.1+12-windows-aarch64.zip",
     "21.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jdk21.0.2+14-windows-aarch64.zip",
-    "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-windows-aarch64.zip"
+    "21.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.3+10/bellsoft-jdk21.0.3+10-windows-aarch64.zip",
+    "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-windows-aarch64.zip",
+    "22.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.1+10/bellsoft-jdk22.0.1+10-windows-aarch64.zip"
   },
   "jdk@liberica-full": {
     "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-windows-aarch64-full.zip",
@@ -61,6 +65,7 @@
     "11.0.20": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-windows-aarch64-full.zip",
     "11.0.21": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jdk11.0.21+10-windows-aarch64-full.zip",
     "11.0.22": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jdk11.0.22+12-windows-aarch64-full.zip",
+    "11.0.23": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.23+10/bellsoft-jdk11.0.23+10-windows-aarch64-full.zip",
     "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-aarch64-full.zip",
     "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-aarch64-full.zip",
     "11.1.16": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-windows-aarch64-full.zip",
@@ -70,6 +75,7 @@
     "17.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jdk17+35-windows-aarch64-full.zip",
     "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-aarch64-full.zip",
     "17.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jdk17.0.10+13-windows-aarch64-full.zip",
+    "17.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.11+10/bellsoft-jdk17.0.11+10-windows-aarch64-full.zip",
     "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-aarch64-full.zip",
     "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-aarch64-full.zip",
     "17.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-windows-aarch64-full.zip",
@@ -95,7 +101,9 @@
     "21.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jdk21+37-windows-aarch64-full.zip",
     "21.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jdk21.0.1+12-windows-aarch64-full.zip",
     "21.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jdk21.0.2+14-windows-aarch64-full.zip",
-    "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-windows-aarch64-full.zip"
+    "21.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.3+10/bellsoft-jdk21.0.3+10-windows-aarch64-full.zip",
+    "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-windows-aarch64-full.zip",
+    "22.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.1+10/bellsoft-jdk22.0.1+10-windows-aarch64-full.zip"
   },
   "jdk@liberica-jre": {
     "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jre11.0.11+9-windows-aarch64.zip",
@@ -110,6 +118,7 @@
     "11.0.20": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-windows-aarch64.zip",
     "11.0.21": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jre11.0.21+10-windows-aarch64.zip",
     "11.0.22": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jre11.0.22+12-windows-aarch64.zip",
+    "11.0.23": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.23+10/bellsoft-jre11.0.23+10-windows-aarch64.zip",
     "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-aarch64.zip",
     "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-aarch64.zip",
     "11.1.16": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-windows-aarch64.zip",
@@ -119,6 +128,7 @@
     "17.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jre17+35-windows-aarch64.zip",
     "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-windows-aarch64.zip",
     "17.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jre17.0.10+13-windows-aarch64.zip",
+    "17.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.11+10/bellsoft-jre17.0.11+10-windows-aarch64.zip",
     "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-windows-aarch64.zip",
     "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-windows-aarch64.zip",
     "17.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-windows-aarch64.zip",
@@ -144,7 +154,9 @@
     "21.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jre21+37-windows-aarch64.zip",
     "21.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jre21.0.1+12-windows-aarch64.zip",
     "21.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jre21.0.2+14-windows-aarch64.zip",
-    "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-windows-aarch64.zip"
+    "21.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.3+10/bellsoft-jre21.0.3+10-windows-aarch64.zip",
+    "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-windows-aarch64.zip",
+    "22.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.1+10/bellsoft-jre22.0.1+10-windows-aarch64.zip"
   },
   "jdk@liberica-jre-full": {
     "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jre11.0.11+9-windows-aarch64-full.zip",
@@ -159,6 +171,7 @@
     "11.0.20": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-windows-aarch64-full.zip",
     "11.0.21": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jre11.0.21+10-windows-aarch64-full.zip",
     "11.0.22": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jre11.0.22+12-windows-aarch64-full.zip",
+    "11.0.23": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.23+10/bellsoft-jre11.0.23+10-windows-aarch64-full.zip",
     "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-aarch64-full.zip",
     "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-aarch64-full.zip",
     "11.1.16": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-windows-aarch64-full.zip",
@@ -168,6 +181,7 @@
     "17.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jre17+35-windows-aarch64-full.zip",
     "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-windows-aarch64-full.zip",
     "17.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jre17.0.10+13-windows-aarch64-full.zip",
+    "17.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.11+10/bellsoft-jre17.0.11+10-windows-aarch64-full.zip",
     "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-windows-aarch64-full.zip",
     "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-windows-aarch64-full.zip",
     "17.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-windows-aarch64-full.zip",
@@ -193,7 +207,9 @@
     "21.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jre21+37-windows-aarch64-full.zip",
     "21.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jre21.0.1+12-windows-aarch64-full.zip",
     "21.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jre21.0.2+14-windows-aarch64-full.zip",
-    "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-windows-aarch64-full.zip"
+    "21.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.3+10/bellsoft-jre21.0.3+10-windows-aarch64-full.zip",
+    "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-windows-aarch64-full.zip",
+    "22.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.1+10/bellsoft-jre22.0.1+10-windows-aarch64-full.zip"
   },
   "jdk@liberica-lite": {
     "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-windows-aarch64-lite.zip",
@@ -208,6 +224,7 @@
     "11.0.20": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-windows-aarch64-lite.zip",
     "11.0.21": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jdk11.0.21+10-windows-aarch64-lite.zip",
     "11.0.22": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jdk11.0.22+12-windows-aarch64-lite.zip",
+    "11.0.23": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.23+10/bellsoft-jdk11.0.23+10-windows-aarch64-lite.zip",
     "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-aarch64-lite.zip",
     "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-aarch64-lite.zip",
     "11.1.16": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-windows-aarch64-lite.zip",
@@ -217,6 +234,7 @@
     "17.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jdk17+35-windows-aarch64-lite.zip",
     "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-aarch64-lite.zip",
     "17.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jdk17.0.10+13-windows-aarch64-lite.zip",
+    "17.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.11+10/bellsoft-jdk17.0.11+10-windows-aarch64-lite.zip",
     "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-aarch64-lite.zip",
     "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-aarch64-lite.zip",
     "17.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-windows-aarch64-lite.zip",
@@ -242,7 +260,9 @@
     "21.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jdk21+37-windows-aarch64-lite.zip",
     "21.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jdk21.0.1+12-windows-aarch64-lite.zip",
     "21.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jdk21.0.2+14-windows-aarch64-lite.zip",
-    "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-windows-aarch64-lite.zip"
+    "21.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.3+10/bellsoft-jdk21.0.3+10-windows-aarch64-lite.zip",
+    "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-windows-aarch64-lite.zip",
+    "22.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.1+10/bellsoft-jdk22.0.1+10-windows-aarch64-lite.zip"
   },
   "jdk@zulu": {
     "16.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu16.30.17-ca-jdk16.0.1-win_aarch64.zip",
@@ -250,6 +270,7 @@
     "17.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu17.28.13-ca-jdk17.0.0-win_aarch64.zip",
     "17.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu17.30.15-ca-jdk17.0.1-win_aarch64.zip",
     "17.0.10": "zip+https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jdk17.0.10-win_aarch64.zip",
+    "17.0.11": "zip+https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jdk17.0.11-win_aarch64.zip",
     "17.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu17.32.13-ca-jdk17.0.2-win_aarch64.zip",
     "17.0.3": "zip+https://cdn.azul.com/zulu/bin/zulu17.34.19-ca-jdk17.0.3-win_aarch64.zip",
     "17.0.4": "zip+https://cdn.azul.com/zulu/bin/zulu17.36.13-ca-jdk17.0.4-win_aarch64.zip",
@@ -261,7 +282,8 @@
     "18.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jdk18.0.0-win_aarch64.zip",
     "18.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu18.30.11-ca-jdk18.0.1-win_aarch64.zip",
     "18.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jdk18.0.2-win_aarch64.zip",
-    "19.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu19.28.81-ca-jdk19.0.0-win_aarch64.zip"
+    "19.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu19.28.81-ca-jdk19.0.0-win_aarch64.zip",
+    "21.0.3": "zip+https://cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-win_aarch64.zip"
   },
   "jdk@zulu-jre": {
     "16.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu16.30.17-ca-jre16.0.1-win_aarch64.zip",
