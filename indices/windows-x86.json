@@ -282,7 +282,8 @@
     "1.8.0-372": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u372-b07/OpenJDK8U-jre_x86-32_windows_hotspot_8u372b07.zip",
     "1.8.0-382": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_x86-32_windows_hotspot_8u382b05.zip",
     "1.8.0-392": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jre_x86-32_windows_hotspot_8u392b08.zip",
-    "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_x86-32_windows_hotspot_8u402b06.zip"
+    "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_x86-32_windows_hotspot_8u402b06.zip",
+    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_x86-32_windows_hotspot_8u412b08.zip"
   },
   "jdk@adoptium-testimage": {
     "1.11.0.18": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.18%2B10/OpenJDK11U-testimage_x86-32_windows_hotspot_11.0.18_10.zip",
@@ -914,7 +915,8 @@
     "1.8.0-372": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u372-b07/OpenJDK8U-jre_x86-32_windows_hotspot_8u372b07.zip",
     "1.8.0-382": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_x86-32_windows_hotspot_8u382b05.zip",
     "1.8.0-392": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jre_x86-32_windows_hotspot_8u392b08.zip",
-    "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_x86-32_windows_hotspot_8u402b06.zip"
+    "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_x86-32_windows_hotspot_8u402b06.zip",
+    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_x86-32_windows_hotspot_8u412b08.zip"
   },
   "jdk@temurin-testimage": {
     "1.11.0.18": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.18%2B10/OpenJDK11U-testimage_x86-32_windows_hotspot_11.0.18_10.zip",
