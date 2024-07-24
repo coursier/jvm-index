@@ -128,6 +128,7 @@
         "1.17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
         "1.21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.2_13.tar.gz",
         "1.21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.3_9.tar.gz",
+        "1.21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.4_7.tar.gz",
         "1.8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u302b08.tar.gz",
         "1.8.0-312": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u312-b07/OpenJDK8U-jdk_ppc64_aix_hotspot_8u312b07.tar.gz",
         "1.8.0-322": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u322-b06/OpenJDK8U-jdk_ppc64_aix_hotspot_8u322b06.tar.gz",
@@ -141,6 +142,7 @@
         "1.8.0-392": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u392b08.tar.gz",
         "1.8.0-402": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jdk_ppc64_aix_hotspot_8u402b06.tar.gz",
         "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u412b08.tar.gz",
+        "1.8.0-422": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk_ppc64_aix_hotspot_8u422b05.tar.gz",
         "1.9.0.4": "tgz+https://github.com/AdoptOpenJDK/openjdk9-binaries/releases/download/jdk-9.0.4%2B11/OpenJDK9U-jdk_ppc64_aix_hotspot_9.0.4_11.tar.gz"
       },
       "jdk@adoptium-debugimage": {
@@ -163,6 +165,7 @@
         "1.17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
         "1.21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.2_13.tar.gz",
         "1.21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.3_9.tar.gz",
+        "1.21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.4_7.tar.gz",
         "1.8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u302b08.tar.gz",
         "1.8.0-312": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u312-b07/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u312b07.tar.gz",
         "1.8.0-322": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u322-b06/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u322b06.tar.gz",
@@ -175,7 +178,8 @@
         "1.8.0-382": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u382b05.tar.gz",
         "1.8.0-392": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u392b08.tar.gz",
         "1.8.0-402": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u402b06.tar.gz",
-        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u412b08.tar.gz"
+        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u412b08.tar.gz",
+        "1.8.0-422": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u422b05.tar.gz"
       },
       "jdk@adoptium-jre": {
         "1.10.0.2": "tgz+https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jre_ppc64_aix_hotspot_10.0.2_13.tar.gz",
@@ -208,6 +212,7 @@
         "1.17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
         "1.21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.2_13.tar.gz",
         "1.21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.3_9.tar.gz",
+        "1.21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.4_7.tar.gz",
         "1.8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u302b08.tar.gz",
         "1.8.0-312": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u312-b07/OpenJDK8U-jre_ppc64_aix_hotspot_8u312b07.tar.gz",
         "1.8.0-322": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u322-b06/OpenJDK8U-jre_ppc64_aix_hotspot_8u322b06.tar.gz",
@@ -220,7 +225,8 @@
         "1.8.0-382": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_ppc64_aix_hotspot_8u382b05.tar.gz",
         "1.8.0-392": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u392b08.tar.gz",
         "1.8.0-402": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_ppc64_aix_hotspot_8u402b06.tar.gz",
-        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u412b08.tar.gz"
+        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u412b08.tar.gz",
+        "1.8.0-422": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jre_ppc64_aix_hotspot_8u422b05.tar.gz"
       },
       "jdk@adoptium-testimage": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
@@ -241,7 +247,8 @@
         "1.17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
         "1.19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_ppc64_aix_hotspot_19.0.2_7.tar.gz",
         "1.21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.2_13.tar.gz",
-        "1.21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.3_9.tar.gz"
+        "1.21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.3_9.tar.gz",
+        "1.21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.4_7.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java11": {
         "11.0.12+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_ppc64_aix_11.0.12_7_openj9-0.27.0.tar.gz",
@@ -301,6 +308,7 @@
         "1.17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
         "1.21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.2_13.tar.gz",
         "1.21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.3_9.tar.gz",
+        "1.21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.4_7.tar.gz",
         "1.8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u302b08.tar.gz",
         "1.8.0-312": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u312-b07/OpenJDK8U-jdk_ppc64_aix_hotspot_8u312b07.tar.gz",
         "1.8.0-322": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u322-b06/OpenJDK8U-jdk_ppc64_aix_hotspot_8u322b06.tar.gz",
@@ -313,7 +321,8 @@
         "1.8.0-382": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_ppc64_aix_hotspot_8u382b05.tar.gz",
         "1.8.0-392": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u392b08.tar.gz",
         "1.8.0-402": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jdk_ppc64_aix_hotspot_8u402b06.tar.gz",
-        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u412b08.tar.gz"
+        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u412b08.tar.gz",
+        "1.8.0-422": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk_ppc64_aix_hotspot_8u422b05.tar.gz"
       },
       "jdk@temurin-debugimage": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
@@ -335,6 +344,7 @@
         "1.17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
         "1.21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.2_13.tar.gz",
         "1.21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.3_9.tar.gz",
+        "1.21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.4_7.tar.gz",
         "1.8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u302b08.tar.gz",
         "1.8.0-312": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u312-b07/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u312b07.tar.gz",
         "1.8.0-322": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u322-b06/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u322b06.tar.gz",
@@ -347,7 +357,8 @@
         "1.8.0-382": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u382b05.tar.gz",
         "1.8.0-392": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u392b08.tar.gz",
         "1.8.0-402": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u402b06.tar.gz",
-        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u412b08.tar.gz"
+        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u412b08.tar.gz",
+        "1.8.0-422": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u422b05.tar.gz"
       },
       "jdk@temurin-jre": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.12_7.tar.gz",
@@ -369,6 +380,7 @@
         "1.17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
         "1.21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.2_13.tar.gz",
         "1.21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.3_9.tar.gz",
+        "1.21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.4_7.tar.gz",
         "1.8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u302b08.tar.gz",
         "1.8.0-312": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u312-b07/OpenJDK8U-jre_ppc64_aix_hotspot_8u312b07.tar.gz",
         "1.8.0-322": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u322-b06/OpenJDK8U-jre_ppc64_aix_hotspot_8u322b06.tar.gz",
@@ -381,7 +393,8 @@
         "1.8.0-382": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_ppc64_aix_hotspot_8u382b05.tar.gz",
         "1.8.0-392": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u392b08.tar.gz",
         "1.8.0-402": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_ppc64_aix_hotspot_8u402b06.tar.gz",
-        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u412b08.tar.gz"
+        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u412b08.tar.gz",
+        "1.8.0-422": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jre_ppc64_aix_hotspot_8u422b05.tar.gz"
       },
       "jdk@temurin-testimage": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
@@ -394,7 +407,8 @@
         "1.17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
         "1.19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_ppc64_aix_hotspot_19.0.2_7.tar.gz",
         "1.21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.2_13.tar.gz",
-        "1.21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.3_9.tar.gz"
+        "1.21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.3_9.tar.gz",
+        "1.21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.4_7.tar.gz"
       }
     }
   },
@@ -1483,7 +1497,10 @@
         "20.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-20.0.2/graalvm-community-jdk-20.0.2_macos-x64_bin.tar.gz",
         "21.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.0/graalvm-community-jdk-21.0.0_macos-x64_bin.tar.gz",
         "21.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.1/graalvm-community-jdk-21.0.1_macos-x64_bin.tar.gz",
-        "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_macos-x64_bin.tar.gz"
+        "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_macos-x64_bin.tar.gz",
+        "22.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.0/graalvm-community-jdk-22.0.0_macos-x64_bin.tar.gz",
+        "22.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.1/graalvm-community-jdk-22.0.1_macos-x64_bin.tar.gz",
+        "22.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_macos-x64_bin.tar.gz"
       },
       "jdk@graalvm-java11": {
         "19.3.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java11-darwin-amd64-19.3.0.tar.gz",
@@ -1555,6 +1572,11 @@
         "21.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.0/graalvm-community-jdk-21.0.0_macos-x64_bin.tar.gz",
         "21.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.1/graalvm-community-jdk-21.0.1_macos-x64_bin.tar.gz",
         "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_macos-x64_bin.tar.gz"
+      },
+      "jdk@graalvm-java22": {
+        "22.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.0/graalvm-community-jdk-22.0.0_macos-x64_bin.tar.gz",
+        "22.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.1/graalvm-community-jdk-22.0.1_macos-x64_bin.tar.gz",
+        "22.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_macos-x64_bin.tar.gz"
       },
       "jdk@graalvm-oracle": {
         "17": "tgz+https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_macos-x64_bin.tar.gz",
@@ -2837,7 +2859,10 @@
         "20.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-20.0.2/graalvm-community-jdk-20.0.2_macos-aarch64_bin.tar.gz",
         "21.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.0/graalvm-community-jdk-21.0.0_macos-aarch64_bin.tar.gz",
         "21.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.1/graalvm-community-jdk-21.0.1_macos-aarch64_bin.tar.gz",
-        "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_macos-aarch64_bin.tar.gz"
+        "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_macos-aarch64_bin.tar.gz",
+        "22.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.0/graalvm-community-jdk-22.0.0_macos-aarch64_bin.tar.gz",
+        "22.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.1/graalvm-community-jdk-22.0.1_macos-aarch64_bin.tar.gz",
+        "22.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_macos-aarch64_bin.tar.gz"
       },
       "jdk@graalvm-java11": {
         "22.1.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.1.0/graalvm-ce-java11-darwin-aarch64-22.1.0.tar.gz",
@@ -2866,6 +2891,11 @@
         "21.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.0/graalvm-community-jdk-21.0.0_macos-aarch64_bin.tar.gz",
         "21.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.1/graalvm-community-jdk-21.0.1_macos-aarch64_bin.tar.gz",
         "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_macos-aarch64_bin.tar.gz"
+      },
+      "jdk@graalvm-java22": {
+        "22.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.0/graalvm-community-jdk-22.0.0_macos-aarch64_bin.tar.gz",
+        "22.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.1/graalvm-community-jdk-22.0.1_macos-aarch64_bin.tar.gz",
+        "22.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_macos-aarch64_bin.tar.gz"
       },
       "jdk@graalvm-oracle": {
         "17": "tgz+https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_macos-aarch64_bin.tar.gz",
@@ -4111,7 +4141,10 @@
         "20.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-20.0.2/graalvm-community-jdk-20.0.2_linux-x64_bin.tar.gz",
         "21.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.0/graalvm-community-jdk-21.0.0_linux-x64_bin.tar.gz",
         "21.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.1/graalvm-community-jdk-21.0.1_linux-x64_bin.tar.gz",
-        "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_linux-x64_bin.tar.gz"
+        "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_linux-x64_bin.tar.gz",
+        "22.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.0/graalvm-community-jdk-22.0.0_linux-x64_bin.tar.gz",
+        "22.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.1/graalvm-community-jdk-22.0.1_linux-x64_bin.tar.gz",
+        "22.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_linux-x64_bin.tar.gz"
       },
       "jdk@graalvm-java11": {
         "19.3.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java11-linux-amd64-19.3.0.tar.gz",
@@ -4183,6 +4216,11 @@
         "21.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.0/graalvm-community-jdk-21.0.0_linux-x64_bin.tar.gz",
         "21.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.1/graalvm-community-jdk-21.0.1_linux-x64_bin.tar.gz",
         "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_linux-x64_bin.tar.gz"
+      },
+      "jdk@graalvm-java22": {
+        "22.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.0/graalvm-community-jdk-22.0.0_linux-x64_bin.tar.gz",
+        "22.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.1/graalvm-community-jdk-22.0.1_linux-x64_bin.tar.gz",
+        "22.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_linux-x64_bin.tar.gz"
       },
       "jdk@graalvm-oracle": {
         "17": "tgz+https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_linux-x64_bin.tar.gz",
@@ -5395,7 +5433,8 @@
         "1.8.0-382": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_arm_linux_hotspot_8u382b05.tar.gz",
         "1.8.0-392": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jdk_arm_linux_hotspot_8u392b08.tar.gz",
         "1.8.0-402": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jdk_arm_linux_hotspot_8u402b06.tar.gz",
-        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_arm_linux_hotspot_8u412b08.tar.gz"
+        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_arm_linux_hotspot_8u412b08.tar.gz",
+        "1.8.0-422": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk_arm_linux_hotspot_8u422b05.tar.gz"
       },
       "jdk@adoptium-debugimage": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.12_7.tar.gz",
@@ -5449,7 +5488,8 @@
         "1.8.0-382": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-debugimage_arm_linux_hotspot_8u382b05.tar.gz",
         "1.8.0-392": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-debugimage_arm_linux_hotspot_8u392b08.tar.gz",
         "1.8.0-402": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-debugimage_arm_linux_hotspot_8u402b06.tar.gz",
-        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_arm_linux_hotspot_8u412b08.tar.gz"
+        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_arm_linux_hotspot_8u412b08.tar.gz",
+        "1.8.0-422": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-debugimage_arm_linux_hotspot_8u422b05.tar.gz"
       },
       "jdk@adoptium-jre": {
         "1.10.0.2": "tgz+https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jre_arm_linux_hotspot_10.0.2_13.tar.gz",
@@ -5505,7 +5545,8 @@
         "1.8.0-382": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_arm_linux_hotspot_8u382b05.tar.gz",
         "1.8.0-392": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jre_arm_linux_hotspot_8u392b08.tar.gz",
         "1.8.0-402": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_arm_linux_hotspot_8u402b06.tar.gz",
-        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_arm_linux_hotspot_8u412b08.tar.gz"
+        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_arm_linux_hotspot_8u412b08.tar.gz",
+        "1.8.0-422": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jre_arm_linux_hotspot_8u422b05.tar.gz"
       },
       "jdk@adoptium-testimage": {
         "1.11.0.18": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.18%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.18_10.tar.gz",
@@ -5971,7 +6012,8 @@
         "1.8.0-382": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_arm_linux_hotspot_8u382b05.tar.gz",
         "1.8.0-392": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jdk_arm_linux_hotspot_8u392b08.tar.gz",
         "1.8.0-402": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jdk_arm_linux_hotspot_8u402b06.tar.gz",
-        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_arm_linux_hotspot_8u412b08.tar.gz"
+        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_arm_linux_hotspot_8u412b08.tar.gz",
+        "1.8.0-422": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk_arm_linux_hotspot_8u422b05.tar.gz"
       },
       "jdk@temurin-debugimage": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.12_7.tar.gz",
@@ -6025,7 +6067,8 @@
         "1.8.0-382": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-debugimage_arm_linux_hotspot_8u382b05.tar.gz",
         "1.8.0-392": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-debugimage_arm_linux_hotspot_8u392b08.tar.gz",
         "1.8.0-402": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-debugimage_arm_linux_hotspot_8u402b06.tar.gz",
-        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_arm_linux_hotspot_8u412b08.tar.gz"
+        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_arm_linux_hotspot_8u412b08.tar.gz",
+        "1.8.0-422": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-debugimage_arm_linux_hotspot_8u422b05.tar.gz"
       },
       "jdk@temurin-jre": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jre_arm_linux_hotspot_11.0.12_7.tar.gz",
@@ -6075,7 +6118,8 @@
         "1.8.0-382": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_arm_linux_hotspot_8u382b05.tar.gz",
         "1.8.0-392": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jre_arm_linux_hotspot_8u392b08.tar.gz",
         "1.8.0-402": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_arm_linux_hotspot_8u402b06.tar.gz",
-        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_arm_linux_hotspot_8u412b08.tar.gz"
+        "1.8.0-412": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_arm_linux_hotspot_8u412b08.tar.gz",
+        "1.8.0-422": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jre_arm_linux_hotspot_8u422b05.tar.gz"
       },
       "jdk@temurin-testimage": {
         "1.11.0.18": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.18%2B10/OpenJDK11U-testimage_arm_linux_hotspot_11.0.18_10.tar.gz",
@@ -6112,6 +6156,7 @@
         "11.0.21": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.68.17-ca-jdk11.0.21-linux_aarch32sf.tar.gz",
         "11.0.22": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.70.15-ca-jdk11.0.22-linux_aarch32sf.tar.gz",
         "11.0.23": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.72.19-ca-jdk11.0.23-linux_aarch32hf.tar.gz",
+        "11.0.24": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.74.15-ca-jdk11.0.24-linux_aarch32hf.tar.gz",
         "11.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu11.31.16-ca-jdk11.0.3-linux_aarch32hf.tar.gz",
         "11.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu11.33.21-ca-jdk11.0.4-linux_aarch32hf.tar.gz",
         "11.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu11.35.36-ca-jdk11.0.5-linux_aarch32hf.tar.gz",
@@ -6122,6 +6167,7 @@
         "13.0.4": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu13.33.38-ca-jdk13.0.4-c2-linux_aarch32hf.tar.gz",
         "17.0.10": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.48.15-ca-jdk17.0.10-linux_aarch32hf.tar.gz",
         "17.0.11": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.50.19-ca-jdk17.0.11-c2-linux_aarch32hf.tar.gz",
+        "17.0.12": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.52.17-ca-jdk17.0.12-c2-linux_aarch32hf.tar.gz",
         "17.0.2": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.32.13-ca-jdk17.0.2-linux_aarch32hf.tar.gz",
         "17.0.3": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.34.19-ca-jdk17.0.3-linux_aarch32hf.tar.gz",
         "17.0.4": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.36.15-ca-jdk17.0.4-linux_aarch32hf.tar.gz",
@@ -6155,7 +6201,8 @@
         "8.0.382": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.72.0.17-ca-jdk8.0.382-linux_aarch32sf.tar.gz",
         "8.0.392": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.74.0.17-ca-jdk8.0.392-linux_aarch32sf.tar.gz",
         "8.0.402": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.76.0.17-ca-jdk8.0.402-linux_aarch32sf.tar.gz",
-        "8.0.412": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.78.0.19-ca-jdk8.0.412-linux_aarch32hf.tar.gz"
+        "8.0.412": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.78.0.19-ca-jdk8.0.412-linux_aarch32hf.tar.gz",
+        "8.0.422": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.80.0.17-ca-jdk8.0.422-linux_aarch32hf.tar.gz"
       },
       "jdk@zulu-jre": {
         "11.0.20": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.66.15-ca-jre11.0.20-linux_aarch32hf.tar.gz",
@@ -6163,6 +6210,7 @@
         "11.0.22": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.70.15-ca-jre11.0.22-linux_aarch32sf.tar.gz",
         "17.0.10": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.48.15-ca-jre17.0.10-linux_aarch32hf.tar.gz",
         "17.0.11": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.50.19-ca-jre17.0.11-c2-linux_aarch32hf.tar.gz",
+        "17.0.12": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.52.17-ca-jre17.0.12-c2-linux_aarch32hf.tar.gz",
         "17.0.2": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.32.13-ca-jre17.0.2-linux_aarch32hf.tar.gz",
         "17.0.3": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.34.19-ca-jre17.0.3-linux_aarch32hf.tar.gz",
         "17.0.4": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.36.19-ca-jre17.0.4.1-linux_aarch32hf.tar.gz",
@@ -6627,7 +6675,10 @@
         "20.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-20.0.2/graalvm-community-jdk-20.0.2_linux-aarch64_bin.tar.gz",
         "21.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.0/graalvm-community-jdk-21.0.0_linux-aarch64_bin.tar.gz",
         "21.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.1/graalvm-community-jdk-21.0.1_linux-aarch64_bin.tar.gz",
-        "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_linux-aarch64_bin.tar.gz"
+        "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_linux-aarch64_bin.tar.gz",
+        "22.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.0/graalvm-community-jdk-22.0.0_linux-aarch64_bin.tar.gz",
+        "22.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.1/graalvm-community-jdk-22.0.1_linux-aarch64_bin.tar.gz",
+        "22.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_linux-aarch64_bin.tar.gz"
       },
       "jdk@graalvm-java11": {
         "19.3.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java11-linux-aarch64-19.3.0.tar.gz",
@@ -6693,6 +6744,11 @@
         "21.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.0/graalvm-community-jdk-21.0.0_linux-aarch64_bin.tar.gz",
         "21.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.1/graalvm-community-jdk-21.0.1_linux-aarch64_bin.tar.gz",
         "21.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_linux-aarch64_bin.tar.gz"
+      },
+      "jdk@graalvm-java22": {
+        "22.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.0/graalvm-community-jdk-22.0.0_linux-aarch64_bin.tar.gz",
+        "22.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.1/graalvm-community-jdk-22.0.1_linux-aarch64_bin.tar.gz",
+        "22.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_linux-aarch64_bin.tar.gz"
       },
       "jdk@graalvm-oracle": {
         "17": "tgz+https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_linux-aarch64_bin.tar.gz",
@@ -7901,7 +7957,8 @@
         "8.0.382": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.72.0.17-ca-hl-jdk8.0.382-linux_ppc64.tar.gz",
         "8.0.392": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.74.0.17-ca-hl-jdk8.0.392-linux_ppc64.tar.gz",
         "8.0.402": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.76.0.17-ca-hl-jdk8.0.402-linux_ppc64.tar.gz",
-        "8.0.412": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.78.0.19-ca-hl-jdk8.0.412-linux_ppc64.tar.gz"
+        "8.0.412": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.78.0.19-ca-hl-jdk8.0.412-linux_ppc64.tar.gz",
+        "8.0.422": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.80.0.17-ca-hl-jdk8.0.422-linux_ppc64.tar.gz"
       },
       "jdk@zulu-jre": {
         "8.0.382": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.72.0.17-ca-hl-jre8.0.382-linux_ppc64.tar.gz",
@@ -11100,7 +11157,10 @@
         "20.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-20.0.2/graalvm-community-jdk-20.0.2_windows-x64_bin.zip",
         "21.0.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.0/graalvm-community-jdk-21.0.0_windows-x64_bin.zip",
         "21.0.1": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.1/graalvm-community-jdk-21.0.1_windows-x64_bin.zip",
-        "21.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_windows-x64_bin.zip"
+        "21.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_windows-x64_bin.zip",
+        "22.0.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.0/graalvm-community-jdk-22.0.0_windows-x64_bin.zip",
+        "22.0.1": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.1/graalvm-community-jdk-22.0.1_windows-x64_bin.zip",
+        "22.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_windows-x64_bin.zip"
       },
       "jdk@graalvm-java11": {
         "19.3.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java11-windows-amd64-19.3.0.zip",
@@ -11172,6 +11232,11 @@
         "21.0.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.0/graalvm-community-jdk-21.0.0_windows-x64_bin.zip",
         "21.0.1": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.1/graalvm-community-jdk-21.0.1_windows-x64_bin.zip",
         "21.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_windows-x64_bin.zip"
+      },
+      "jdk@graalvm-java22": {
+        "22.0.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.0/graalvm-community-jdk-22.0.0_windows-x64_bin.zip",
+        "22.0.1": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.1/graalvm-community-jdk-22.0.1_windows-x64_bin.zip",
+        "22.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_windows-x64_bin.zip"
       },
       "jdk@graalvm-oracle": {
         "17": "zip+https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_windows-x64_bin.zip",
