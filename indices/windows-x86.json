@@ -125,6 +125,7 @@
     "1.11.0.21": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.21%2B9/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.21_9.zip",
     "1.11.0.22": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.22_7.zip",
     "1.11.0.23": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.23_9.zip",
+    "1.11.0.24": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.24%2B8/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.24_8.zip",
     "1.12": "zip+https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12%2B33/OpenJDK12U-jdk_x86-32_windows_hotspot_12_33.zip",
     "1.12.0.1": "zip+https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12.0.1%2B12/OpenJDK12U-jdk_x86-32_windows_hotspot_12.0.1_12.zip",
     "1.12.0.2": "zip+https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12.0.2%2B10/OpenJDK12U-jdk_x86-32_windows_hotspot_12.0.2_10.zip",
@@ -142,6 +143,7 @@
     "1.17.0.1": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.1_12.zip",
     "1.17.0.10": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.10_7.zip",
     "1.17.0.11": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.11_9.zip",
+    "1.17.0.12": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.12_7.zip",
     "1.17.0.2": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.2_8.zip",
     "1.17.0.3": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.3_7.zip",
     "1.17.0.4": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.4_8.zip",
@@ -171,7 +173,8 @@
     "1.8.0-382": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_x86-32_windows_hotspot_8u382b05.zip",
     "1.8.0-392": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jdk_x86-32_windows_hotspot_8u392b08.zip",
     "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jdk_x86-32_windows_hotspot_8u402b06.zip",
-    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_x86-32_windows_hotspot_8u412b08.zip"
+    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_x86-32_windows_hotspot_8u412b08.zip",
+    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk_x86-32_windows_hotspot_8u422b05.zip"
   },
   "jdk@adoptium-debugimage": {
     "1.11.0.13": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-debugimage_x86-32_windows_hotspot_11.0.13_8.zip",
@@ -188,11 +191,13 @@
     "1.11.0.21": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.21%2B9/OpenJDK11U-debugimage_x86-32_windows_hotspot_11.0.21_9.zip",
     "1.11.0.22": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-debugimage_x86-32_windows_hotspot_11.0.22_7.zip",
     "1.11.0.23": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-debugimage_x86-32_windows_hotspot_11.0.23_9.zip",
+    "1.11.0.24": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.24%2B8/OpenJDK11U-debugimage_x86-32_windows_hotspot_11.0.24_8.zip",
     "1.16.0.2": "zip+https://github.com/adoptium/temurin16-binaries/releases/download/jdk-16.0.2%2B7/OpenJDK16U-debugimage_x86-32_windows_hotspot_16.0.2_7.zip",
     "1.17": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-debugimage_x86-32_windows_hotspot_17_35.zip",
     "1.17.0.1": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.1_12.zip",
     "1.17.0.10": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.10_7.zip",
     "1.17.0.11": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.11_9.zip",
+    "1.17.0.12": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.12_7.zip",
     "1.17.0.2": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.2_8.zip",
     "1.17.0.3": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.3_7.zip",
     "1.17.0.4": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.4_8.zip",
@@ -222,7 +227,8 @@
     "1.8.0-382": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-debugimage_x86-32_windows_hotspot_8u382b05.zip",
     "1.8.0-392": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-debugimage_x86-32_windows_hotspot_8u392b08.zip",
     "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-debugimage_x86-32_windows_hotspot_8u402b06.zip",
-    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_x86-32_windows_hotspot_8u412b08.zip"
+    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_x86-32_windows_hotspot_8u412b08.zip",
+    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-debugimage_x86-32_windows_hotspot_8u422b05.zip"
   },
   "jdk@adoptium-jre": {
     "1.11.0.12": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.12_7.zip",
@@ -240,6 +246,7 @@
     "1.11.0.21": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.21%2B9/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.21_9.zip",
     "1.11.0.22": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.22_7.zip",
     "1.11.0.23": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.23_9.zip",
+    "1.11.0.24": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.24%2B8/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.24_8.zip",
     "1.12": "zip+https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12%2B33/OpenJDK12U-jre_x86-32_windows_hotspot_12_33.zip",
     "1.12.0.1": "zip+https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12.0.1%2B12/OpenJDK12U-jre_x86-32_windows_hotspot_12.0.1_12.zip",
     "1.12.0.2": "zip+https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12.0.2%2B10/OpenJDK12U-jre_x86-32_windows_hotspot_12.0.2_10.zip",
@@ -255,6 +262,7 @@
     "1.17.0.1": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.1_12.zip",
     "1.17.0.10": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.10_7.zip",
     "1.17.0.11": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.11_9.zip",
+    "1.17.0.12": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.12_7.zip",
     "1.17.0.2": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.2_8.zip",
     "1.17.0.3": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.3_7.zip",
     "1.17.0.4": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.4_8.zip",
@@ -283,7 +291,8 @@
     "1.8.0-382": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_x86-32_windows_hotspot_8u382b05.zip",
     "1.8.0-392": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jre_x86-32_windows_hotspot_8u392b08.zip",
     "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_x86-32_windows_hotspot_8u402b06.zip",
-    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_x86-32_windows_hotspot_8u412b08.zip"
+    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_x86-32_windows_hotspot_8u412b08.zip",
+    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jre_x86-32_windows_hotspot_8u422b05.zip"
   },
   "jdk@adoptium-testimage": {
     "1.11.0.18": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.18%2B10/OpenJDK11U-testimage_x86-32_windows_hotspot_11.0.18_10.zip",
@@ -292,6 +301,7 @@
     "1.11.0.21": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.21%2B9/OpenJDK11U-testimage_x86-32_windows_hotspot_11.0.21_9.zip",
     "1.11.0.22": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-testimage_x86-32_windows_hotspot_11.0.22_7.zip",
     "1.11.0.23": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-testimage_x86-32_windows_hotspot_11.0.23_9.zip",
+    "1.11.0.24": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.24%2B8/OpenJDK11U-testimage_x86-32_windows_hotspot_11.0.24_8.zip",
     "1.13": "zip+https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13%2B33/OpenJDK13U-testimage_x86-32_windows_hotspot_13_33.zip",
     "1.13.0.1": "zip+https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.1%2B9/OpenJDK13U-testimage_x86-32_windows_hotspot_13.0.1_9.zip",
     "1.13.0.2": "zip+https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.2%2B8/OpenJDK13U-testimage_x86-32_windows_hotspot_13.0.2_8.zip",
@@ -305,6 +315,7 @@
     "1.17": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-testimage_x86-32_windows_hotspot_17_35.zip",
     "1.17.0.10": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.10_7.zip",
     "1.17.0.11": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.11_9.zip",
+    "1.17.0.12": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.12_7.zip",
     "1.17.0.6": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.6_10.zip",
     "1.17.0.8": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.8_7.zip",
     "1.17.0.8.1": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.8.1_1.zip",
@@ -327,6 +338,7 @@
     "11.0.21": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jdk11.0.21+10-windows-i586.zip",
     "11.0.22": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jdk11.0.22+12-windows-i586.zip",
     "11.0.23": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.23+12/bellsoft-jdk11.0.23+12-windows-i586.zip",
+    "11.0.24": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.24+9/bellsoft-jdk11.0.24+9-windows-i586.zip",
     "11.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.3/bellsoft-jdk11.0.3-windows-i586.zip",
     "11.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.4/bellsoft-jdk11.0.4-windows-i586.zip",
     "11.0.5": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jdk11.0.5+11-windows-i586.zip",
@@ -358,6 +370,7 @@
     "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-i586.zip",
     "17.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jdk17.0.10+13-windows-i586.zip",
     "17.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.11+12/bellsoft-jdk17.0.11+12-windows-i586.zip",
+    "17.0.12": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.12+10/bellsoft-jdk17.0.12+10-windows-i586.zip",
     "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-i586.zip",
     "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-i586.zip",
     "17.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-windows-i586.zip",
@@ -384,6 +397,7 @@
     "21.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jdk21.0.1+12-windows-i586.zip",
     "21.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jdk21.0.2+14-windows-i586.zip",
     "21.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.3+12/bellsoft-jdk21.0.3+12-windows-i586.zip",
+    "21.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.4+9/bellsoft-jdk21.0.4+9-windows-i586.zip",
     "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-windows-i586.zip",
     "8.0.212": "zip+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jdk8u212-windows-i586.zip",
     "8.0.222": "zip+https://github.com/bell-sw/Liberica/releases/download/8u222/bellsoft-jdk8u222-windows-i586.zip",
@@ -409,7 +423,8 @@
     "8.0.382": "zip+https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jdk8u382+6-windows-i586.zip",
     "8.0.392": "zip+https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jdk8u392+9-windows-i586.zip",
     "8.0.402": "zip+https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jdk8u402+7-windows-i586.zip",
-    "8.0.412": "zip+https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jdk8u412+9-windows-i586.zip"
+    "8.0.412": "zip+https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jdk8u412+9-windows-i586.zip",
+    "8.0.422": "zip+https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jdk8u422+6-windows-i586.zip"
   },
   "jdk@liberica-full": {
     "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-windows-i586-full.zip",
@@ -426,6 +441,7 @@
     "11.0.21": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jdk11.0.21+10-windows-i586-full.zip",
     "11.0.22": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jdk11.0.22+12-windows-i586-full.zip",
     "11.0.23": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.23+12/bellsoft-jdk11.0.23+12-windows-i586-full.zip",
+    "11.0.24": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.24+9/bellsoft-jdk11.0.24+9-windows-i586-full.zip",
     "11.0.6": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jdk11.0.6+10-windows-i586-full.zip",
     "11.0.7": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.7+10/bellsoft-jdk11.0.7+10-windows-i586-full.zip",
     "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-windows-i586-full.zip",
@@ -449,6 +465,7 @@
     "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-i586-full.zip",
     "17.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jdk17.0.10+13-windows-i586-full.zip",
     "17.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.11+12/bellsoft-jdk17.0.11+12-windows-i586-full.zip",
+    "17.0.12": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.12+10/bellsoft-jdk17.0.12+10-windows-i586-full.zip",
     "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-i586-full.zip",
     "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-i586-full.zip",
     "17.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-windows-i586-full.zip",
@@ -475,6 +492,7 @@
     "21.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jdk21.0.1+12-windows-i586-full.zip",
     "21.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jdk21.0.2+14-windows-i586-full.zip",
     "21.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.3+12/bellsoft-jdk21.0.3+12-windows-i586-full.zip",
+    "21.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.4+9/bellsoft-jdk21.0.4+9-windows-i586-full.zip",
     "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-windows-i586-full.zip",
     "8.0.252": "zip+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jdk8u252+9-windows-i586-full.zip",
     "8.0.262": "zip+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jdk8u262+10-windows-i586-full.zip",
@@ -496,7 +514,8 @@
     "8.0.382": "zip+https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jdk8u382+6-windows-i586-full.zip",
     "8.0.392": "zip+https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jdk8u392+9-windows-i586-full.zip",
     "8.0.402": "zip+https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jdk8u402+7-windows-i586-full.zip",
-    "8.0.412": "zip+https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jdk8u412+9-windows-i586-full.zip"
+    "8.0.412": "zip+https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jdk8u412+9-windows-i586-full.zip",
+    "8.0.422": "zip+https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jdk8u422+6-windows-i586-full.zip"
   },
   "jdk@liberica-jre": {
     "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-windows-i586.zip",
@@ -513,6 +532,7 @@
     "11.0.21": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jre11.0.21+10-windows-i586.zip",
     "11.0.22": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jre11.0.22+12-windows-i586.zip",
     "11.0.23": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.23+12/bellsoft-jre11.0.23+12-windows-i586.zip",
+    "11.0.24": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.24+9/bellsoft-jre11.0.24+9-windows-i586.zip",
     "11.0.5": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jre11.0.5+11-windows-i586.zip",
     "11.0.6": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jre11.0.6+10-windows-i586.zip",
     "11.0.7": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.7+10/bellsoft-jre11.0.7+10-windows-i586.zip",
@@ -538,6 +558,7 @@
     "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-windows-i586.zip",
     "17.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jre17.0.10+13-windows-i586.zip",
     "17.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.11+12/bellsoft-jre17.0.11+12-windows-i586.zip",
+    "17.0.12": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.12+10/bellsoft-jre17.0.12+10-windows-i586.zip",
     "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-windows-i586.zip",
     "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-windows-i586.zip",
     "17.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-windows-i586.zip",
@@ -564,6 +585,7 @@
     "21.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jre21.0.1+12-windows-i586.zip",
     "21.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jre21.0.2+14-windows-i586.zip",
     "21.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.3+12/bellsoft-jre21.0.3+12-windows-i586.zip",
+    "21.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.4+9/bellsoft-jre21.0.4+9-windows-i586.zip",
     "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-windows-i586.zip",
     "8.0.212": "zip+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jre8u212-windows-i586.zip",
     "8.0.222": "zip+https://github.com/bell-sw/Liberica/releases/download/8u222/bellsoft-jre8u222-windows-i586.zip",
@@ -589,7 +611,8 @@
     "8.0.382": "zip+https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jre8u382+6-windows-i586.zip",
     "8.0.392": "zip+https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jre8u392+9-windows-i586.zip",
     "8.0.402": "zip+https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jre8u402+7-windows-i586.zip",
-    "8.0.412": "zip+https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jre8u412+9-windows-i586.zip"
+    "8.0.412": "zip+https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jre8u412+9-windows-i586.zip",
+    "8.0.422": "zip+https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jre8u422+6-windows-i586.zip"
   },
   "jdk@liberica-jre-full": {
     "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-windows-i586-full.zip",
@@ -606,6 +629,7 @@
     "11.0.21": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jre11.0.21+10-windows-i586-full.zip",
     "11.0.22": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jre11.0.22+12-windows-i586-full.zip",
     "11.0.23": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.23+12/bellsoft-jre11.0.23+12-windows-i586-full.zip",
+    "11.0.24": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.24+9/bellsoft-jre11.0.24+9-windows-i586-full.zip",
     "11.0.6": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jre11.0.6+10-windows-i586-full.zip",
     "11.0.7": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.7+10/bellsoft-jre11.0.7+10-windows-i586-full.zip",
     "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-windows-i586-full.zip",
@@ -629,6 +653,7 @@
     "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-windows-i586-full.zip",
     "17.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jre17.0.10+13-windows-i586-full.zip",
     "17.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.11+12/bellsoft-jre17.0.11+12-windows-i586-full.zip",
+    "17.0.12": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.12+10/bellsoft-jre17.0.12+10-windows-i586-full.zip",
     "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-windows-i586-full.zip",
     "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-windows-i586-full.zip",
     "17.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-windows-i586-full.zip",
@@ -655,6 +680,7 @@
     "21.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jre21.0.1+12-windows-i586-full.zip",
     "21.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jre21.0.2+14-windows-i586-full.zip",
     "21.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.3+12/bellsoft-jre21.0.3+12-windows-i586-full.zip",
+    "21.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.4+9/bellsoft-jre21.0.4+9-windows-i586-full.zip",
     "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-windows-i586-full.zip",
     "8.0.252": "zip+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jre8u252+9-windows-i586-full.zip",
     "8.0.262": "zip+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jre8u262+10-windows-i586-full.zip",
@@ -676,7 +702,8 @@
     "8.0.382": "zip+https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jre8u382+6-windows-i586-full.zip",
     "8.0.392": "zip+https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jre8u392+9-windows-i586-full.zip",
     "8.0.402": "zip+https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jre8u402+7-windows-i586-full.zip",
-    "8.0.412": "zip+https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jre8u412+9-windows-i586-full.zip"
+    "8.0.412": "zip+https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jre8u412+9-windows-i586-full.zip",
+    "8.0.422": "zip+https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jre8u422+6-windows-i586-full.zip"
   },
   "jdk@liberica-lite": {
     "11.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-windows-i586-lite.zip",
@@ -694,6 +721,7 @@
     "11.0.21": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jdk11.0.21+10-windows-i586-lite.zip",
     "11.0.22": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jdk11.0.22+12-windows-i586-lite.zip",
     "11.0.23": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.23+12/bellsoft-jdk11.0.23+12-windows-i586-lite.zip",
+    "11.0.24": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.24+9/bellsoft-jdk11.0.24+9-windows-i586-lite.zip",
     "11.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.3/bellsoft-jdk11.0.3-windows-i586-lite.zip",
     "11.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.4/bellsoft-jdk11.0.4-windows-i586-lite.zip",
     "11.0.5": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jdk11.0.5+11-windows-i586-lite.zip",
@@ -725,6 +753,7 @@
     "17.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-windows-i586-lite.zip",
     "17.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jdk17.0.10+13-windows-i586-lite.zip",
     "17.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.11+12/bellsoft-jdk17.0.11+12-windows-i586-lite.zip",
+    "17.0.12": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.12+10/bellsoft-jdk17.0.12+10-windows-i586-lite.zip",
     "17.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-windows-i586-lite.zip",
     "17.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-windows-i586-lite.zip",
     "17.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-windows-i586-lite.zip",
@@ -751,6 +780,7 @@
     "21.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jdk21.0.1+12-windows-i586-lite.zip",
     "21.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jdk21.0.2+14-windows-i586-lite.zip",
     "21.0.3": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.3+12/bellsoft-jdk21.0.3+12-windows-i586-lite.zip",
+    "21.0.4": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.4+9/bellsoft-jdk21.0.4+9-windows-i586-lite.zip",
     "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-windows-i586-lite.zip",
     "8.0.312": "zip+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-windows-i586-lite.zip",
     "8.0.322": "zip+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-windows-i586-lite.zip",
@@ -764,7 +794,8 @@
     "8.0.382": "zip+https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jdk8u382+6-windows-i586-lite.zip",
     "8.0.392": "zip+https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jdk8u392+9-windows-i586-lite.zip",
     "8.0.402": "zip+https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jdk8u402+7-windows-i586-lite.zip",
-    "8.0.412": "zip+https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jdk8u412+9-windows-i586-lite.zip"
+    "8.0.412": "zip+https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jdk8u412+9-windows-i586-lite.zip",
+    "8.0.422": "zip+https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jdk8u422+6-windows-i586-lite.zip"
   },
   "jdk@temurin": {
     "1.11.0.12": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.12_7.zip",
@@ -782,11 +813,13 @@
     "1.11.0.21": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.21%2B9/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.21_9.zip",
     "1.11.0.22": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.22_7.zip",
     "1.11.0.23": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.23_9.zip",
+    "1.11.0.24": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.24%2B8/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.24_8.zip",
     "1.16.0.2": "zip+https://github.com/adoptium/temurin16-binaries/releases/download/jdk-16.0.2%2B7/OpenJDK16U-jdk_x86-32_windows_hotspot_16.0.2_7.zip",
     "1.17": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x86-32_windows_hotspot_17_35.zip",
     "1.17.0.1": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.1_12.zip",
     "1.17.0.10": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.10_7.zip",
     "1.17.0.11": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.11_9.zip",
+    "1.17.0.12": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.12_7.zip",
     "1.17.0.2": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.2_8.zip",
     "1.17.0.3": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.3_7.zip",
     "1.17.0.4": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.4_8.zip",
@@ -816,7 +849,8 @@
     "1.8.0-382": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_x86-32_windows_hotspot_8u382b05.zip",
     "1.8.0-392": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jdk_x86-32_windows_hotspot_8u392b08.zip",
     "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jdk_x86-32_windows_hotspot_8u402b06.zip",
-    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_x86-32_windows_hotspot_8u412b08.zip"
+    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_x86-32_windows_hotspot_8u412b08.zip",
+    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk_x86-32_windows_hotspot_8u422b05.zip"
   },
   "jdk@temurin-debugimage": {
     "1.11.0.13": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-debugimage_x86-32_windows_hotspot_11.0.13_8.zip",
@@ -833,11 +867,13 @@
     "1.11.0.21": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.21%2B9/OpenJDK11U-debugimage_x86-32_windows_hotspot_11.0.21_9.zip",
     "1.11.0.22": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-debugimage_x86-32_windows_hotspot_11.0.22_7.zip",
     "1.11.0.23": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-debugimage_x86-32_windows_hotspot_11.0.23_9.zip",
+    "1.11.0.24": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.24%2B8/OpenJDK11U-debugimage_x86-32_windows_hotspot_11.0.24_8.zip",
     "1.16.0.2": "zip+https://github.com/adoptium/temurin16-binaries/releases/download/jdk-16.0.2%2B7/OpenJDK16U-debugimage_x86-32_windows_hotspot_16.0.2_7.zip",
     "1.17": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-debugimage_x86-32_windows_hotspot_17_35.zip",
     "1.17.0.1": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.1_12.zip",
     "1.17.0.10": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.10_7.zip",
     "1.17.0.11": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.11_9.zip",
+    "1.17.0.12": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.12_7.zip",
     "1.17.0.2": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.2_8.zip",
     "1.17.0.3": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.3_7.zip",
     "1.17.0.4": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.4_8.zip",
@@ -867,7 +903,8 @@
     "1.8.0-382": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-debugimage_x86-32_windows_hotspot_8u382b05.zip",
     "1.8.0-392": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-debugimage_x86-32_windows_hotspot_8u392b08.zip",
     "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-debugimage_x86-32_windows_hotspot_8u402b06.zip",
-    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_x86-32_windows_hotspot_8u412b08.zip"
+    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_x86-32_windows_hotspot_8u412b08.zip",
+    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-debugimage_x86-32_windows_hotspot_8u422b05.zip"
   },
   "jdk@temurin-jre": {
     "1.11.0.12": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.12_7.zip",
@@ -885,9 +922,11 @@
     "1.11.0.21": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.21%2B9/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.21_9.zip",
     "1.11.0.22": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.22_7.zip",
     "1.11.0.23": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.23_9.zip",
+    "1.11.0.24": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.24%2B8/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.24_8.zip",
     "1.17.0.1": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.1_12.zip",
     "1.17.0.10": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.10_7.zip",
     "1.17.0.11": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.11_9.zip",
+    "1.17.0.12": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.12_7.zip",
     "1.17.0.2": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.2_8.zip",
     "1.17.0.3": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.3_7.zip",
     "1.17.0.4": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.4_8.zip",
@@ -916,7 +955,8 @@
     "1.8.0-382": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_x86-32_windows_hotspot_8u382b05.zip",
     "1.8.0-392": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jre_x86-32_windows_hotspot_8u392b08.zip",
     "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_x86-32_windows_hotspot_8u402b06.zip",
-    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_x86-32_windows_hotspot_8u412b08.zip"
+    "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_x86-32_windows_hotspot_8u412b08.zip",
+    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jre_x86-32_windows_hotspot_8u422b05.zip"
   },
   "jdk@temurin-testimage": {
     "1.11.0.18": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.18%2B10/OpenJDK11U-testimage_x86-32_windows_hotspot_11.0.18_10.zip",
@@ -925,10 +965,12 @@
     "1.11.0.21": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.21%2B9/OpenJDK11U-testimage_x86-32_windows_hotspot_11.0.21_9.zip",
     "1.11.0.22": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-testimage_x86-32_windows_hotspot_11.0.22_7.zip",
     "1.11.0.23": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-testimage_x86-32_windows_hotspot_11.0.23_9.zip",
+    "1.11.0.24": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.24%2B8/OpenJDK11U-testimage_x86-32_windows_hotspot_11.0.24_8.zip",
     "1.16.0.2": "zip+https://github.com/adoptium/temurin16-binaries/releases/download/jdk-16.0.2%2B7/OpenJDK16U-testimage_x86-32_windows_hotspot_16.0.2_7.zip",
     "1.17": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-testimage_x86-32_windows_hotspot_17_35.zip",
     "1.17.0.10": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.10_7.zip",
     "1.17.0.11": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.11_9.zip",
+    "1.17.0.12": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.12_7.zip",
     "1.17.0.6": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.6_10.zip",
     "1.17.0.8": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.8_7.zip",
     "1.17.0.8.1": "zip+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.8.1_1.zip",
@@ -953,6 +995,7 @@
     "11.0.21": "zip+https://cdn.azul.com/zulu/bin/zulu11.68.17-ca-jdk11.0.21-win_i686.zip",
     "11.0.22": "zip+https://cdn.azul.com/zulu/bin/zulu11.70.15-ca-jdk11.0.22-win_i686.zip",
     "11.0.23": "zip+https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jdk11.0.23-win_i686.zip",
+    "11.0.24": "zip+https://cdn.azul.com/zulu/bin/zulu11.74.15-ca-jdk11.0.24-win_i686.zip",
     "11.0.6": "zip+https://cdn.azul.com/zulu/bin/zulu11.37.17-ca-jdk11.0.6-win_i686.zip",
     "11.0.7": "zip+https://cdn.azul.com/zulu/bin/zulu11.39.15-ca-jdk11.0.7-win_i686.zip",
     "11.0.8": "zip+https://cdn.azul.com/zulu/bin/zulu11.41.23-ca-jdk11.0.8-win_i686.zip",
@@ -996,6 +1039,7 @@
     "17.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu17.30.15-ca-jdk17.0.1-win_i686.zip",
     "17.0.10": "zip+https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jdk17.0.10-win_i686.zip",
     "17.0.11": "zip+https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jdk17.0.11-win_i686.zip",
+    "17.0.12": "zip+https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jdk17.0.12-win_i686.zip",
     "17.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu17.32.13-ca-jdk17.0.2-win_i686.zip",
     "17.0.3": "zip+https://cdn.azul.com/zulu/bin/zulu17.34.19-ca-jdk17.0.3-win_i686.zip",
     "17.0.4": "zip+https://cdn.azul.com/zulu/bin/zulu17.36.15-ca-jdk17.0.4-win_i686.zip",
@@ -1052,6 +1096,7 @@
     "8.0.392": "zip+https://cdn.azul.com/zulu/bin/zulu8.74.0.17-ca-jdk8.0.392-win_i686.zip",
     "8.0.402": "zip+https://cdn.azul.com/zulu/bin/zulu8.76.0.17-ca-jdk8.0.402-win_i686.zip",
     "8.0.412": "zip+https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jdk8.0.412-win_i686.zip",
+    "8.0.422": "zip+https://cdn.azul.com/zulu/bin/zulu8.80.0.17-ca-jdk8.0.422-win_i686.zip",
     "9.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu9.0.1.3-jdk9.0.1-win_i686.zip",
     "9.0.4": "zip+https://cdn.azul.com/zulu/bin/zulu9.0.4.1-ca-jdk9.0.4-win_i686.zip",
     "9.0.7": "zip+https://cdn.azul.com/zulu/bin/zulu9.0.7.1-ca-jdk9.0.7-win_i686.zip"
@@ -1071,6 +1116,7 @@
     "11.0.21": "zip+https://cdn.azul.com/zulu/bin/zulu11.68.17-ca-jre11.0.21-win_i686.zip",
     "11.0.22": "zip+https://cdn.azul.com/zulu/bin/zulu11.70.15-ca-jre11.0.22-win_i686.zip",
     "11.0.23": "zip+https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jre11.0.23-win_i686.zip",
+    "11.0.24": "zip+https://cdn.azul.com/zulu/bin/zulu11.74.15-ca-jre11.0.24-win_i686.zip",
     "11.0.6": "zip+https://cdn.azul.com/zulu/bin/zulu11.37.17-ca-jre11.0.6-win_i686.zip",
     "11.0.7": "zip+https://cdn.azul.com/zulu/bin/zulu11.39.15-ca-jre11.0.7-win_i686.zip",
     "11.0.8": "zip+https://cdn.azul.com/zulu/bin/zulu11.41.23-ca-jre11.0.8-win_i686.zip",
@@ -1109,6 +1155,7 @@
     "17.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu17.30.15-ca-jre17.0.1-win_i686.zip",
     "17.0.10": "zip+https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jre17.0.10-win_i686.zip",
     "17.0.11": "zip+https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jre17.0.11-win_i686.zip",
+    "17.0.12": "zip+https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jre17.0.12-win_i686.zip",
     "17.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu17.32.13-ca-jre17.0.2-win_i686.zip",
     "17.0.3": "zip+https://cdn.azul.com/zulu/bin/zulu17.34.19-ca-jre17.0.3-win_i686.zip",
     "17.0.4": "zip+https://cdn.azul.com/zulu/bin/zulu17.36.15-ca-jre17.0.4-win_i686.zip",
@@ -1156,6 +1203,7 @@
     "8.0.382": "zip+https://cdn.azul.com/zulu/bin/zulu8.72.0.17-ca-jre8.0.382-win_i686.zip",
     "8.0.392": "zip+https://cdn.azul.com/zulu/bin/zulu8.74.0.17-ca-jre8.0.392-win_i686.zip",
     "8.0.402": "zip+https://cdn.azul.com/zulu/bin/zulu8.76.0.17-ca-jre8.0.402-win_i686.zip",
-    "8.0.412": "zip+https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jre8.0.412-win_i686.zip"
+    "8.0.412": "zip+https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jre8.0.412-win_i686.zip",
+    "8.0.422": "zip+https://cdn.azul.com/zulu/bin/zulu8.80.0.17-ca-jre8.0.422-win_i686.zip"
   }
 }
