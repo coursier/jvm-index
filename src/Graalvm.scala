@@ -2,11 +2,11 @@ import Index.Os
 
 object Graalvm {
 
+  def majorVersions = Seq(17, 20, 21)
+
   def fullIndex(ghToken: String): Index = {
-    val graalvmJdk17Index0 = index(ghToken, "17")
-    val graalvmJdk20Index0 = index(ghToken, "20")
-    val graalvmJdk21Index0 = index(ghToken, "21")
-    graalvmJdk17Index0 + graalvmJdk20Index0 + graalvmJdk21Index0
+    val indices = majorVersions.map(v => index(ghToken, v.toString))
+    indices.foldLeft(Index.empty)(_ + _)
   }
 
   def index(
