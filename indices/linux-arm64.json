@@ -388,6 +388,7 @@
     "11.0.22.7.1": "tgz+https://corretto.aws/downloads/resources/11.0.22.7.1/amazon-corretto-11.0.22.7.1-linux-aarch64.tar.gz",
     "11.0.23.9.1": "tgz+https://corretto.aws/downloads/resources/11.0.23.9.1/amazon-corretto-11.0.23.9.1-linux-aarch64.tar.gz",
     "11.0.24.8.1": "tgz+https://corretto.aws/downloads/resources/11.0.24.8.1/amazon-corretto-11.0.24.8.1-linux-aarch64.tar.gz",
+    "11.0.25.9.1": "tgz+https://corretto.aws/downloads/resources/11.0.25.9.1/amazon-corretto-11.0.25.9.1-linux-aarch64.tar.gz",
     "11.0.4.11.1": "tgz+https://corretto.aws/downloads/resources/11.0.4.11.1/amazon-corretto-11.0.4.11.1-linux-aarch64.tar.gz",
     "11.0.5.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.5.10.1/amazon-corretto-11.0.5.10.1-linux-aarch64.tar.gz",
     "11.0.6.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.6.10.1/amazon-corretto-11.0.6.10.1-linux-aarch64.tar.gz",
@@ -401,6 +402,7 @@
     "17.0.10.8.1": "tgz+https://corretto.aws/downloads/resources/17.0.10.8.1/amazon-corretto-17.0.10.8.1-linux-aarch64.tar.gz",
     "17.0.11.9.1": "tgz+https://corretto.aws/downloads/resources/17.0.11.9.1/amazon-corretto-17.0.11.9.1-linux-aarch64.tar.gz",
     "17.0.12.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.12.7.1/amazon-corretto-17.0.12.7.1-linux-aarch64.tar.gz",
+    "17.0.13.11.1": "tgz+https://corretto.aws/downloads/resources/17.0.13.11.1/amazon-corretto-17.0.13.11.1-linux-aarch64.tar.gz",
     "17.0.2.8.1": "tgz+https://corretto.aws/downloads/resources/17.0.2.8.1/amazon-corretto-17.0.2.8.1-linux-aarch64.tar.gz",
     "17.0.3.6.1": "tgz+https://corretto.aws/downloads/resources/17.0.3.6.1/amazon-corretto-17.0.3.6.1-linux-aarch64.tar.gz",
     "17.0.4.8.1": "tgz+https://corretto.aws/downloads/resources/17.0.4.8.1/amazon-corretto-17.0.4.8.1-linux-aarch64.tar.gz",
@@ -427,6 +429,7 @@
     "21.0.2.14.1": "tgz+https://corretto.aws/downloads/resources/21.0.2.14.1/amazon-corretto-21.0.2.14.1-linux-aarch64.tar.gz",
     "21.0.3.9.1": "tgz+https://corretto.aws/downloads/resources/21.0.3.9.1/amazon-corretto-21.0.3.9.1-linux-aarch64.tar.gz",
     "21.0.4.7.1": "tgz+https://corretto.aws/downloads/resources/21.0.4.7.1/amazon-corretto-21.0.4.7.1-linux-aarch64.tar.gz",
+    "21.0.5.11.1": "tgz+https://corretto.aws/downloads/resources/21.0.5.11.1/amazon-corretto-21.0.5.11.1-linux-aarch64.tar.gz",
     "8.232.09.1": "tgz+https://corretto.aws/downloads/resources/8.232.09.1/amazon-corretto-8.232.09.1-linux-aarch64.tar.gz",
     "8.242.07.1": "tgz+https://corretto.aws/downloads/resources/8.242.07.1/amazon-corretto-8.242.07.1-linux-aarch64.tar.gz",
     "8.242.08.1": "tgz+https://corretto.aws/downloads/resources/8.242.08.1/amazon-corretto-8.242.08.1-linux-aarch64.tar.gz",
@@ -455,7 +458,8 @@
     "8.402.06.1": "tgz+https://corretto.aws/downloads/resources/8.402.06.1/amazon-corretto-8.402.06.1-linux-aarch64.tar.gz",
     "8.402.08.1": "tgz+https://corretto.aws/downloads/resources/8.402.08.1/amazon-corretto-8.402.08.1-linux-aarch64.tar.gz",
     "8.412.08.1": "tgz+https://corretto.aws/downloads/resources/8.412.08.1/amazon-corretto-8.412.08.1-linux-aarch64.tar.gz",
-    "8.422.05.1": "tgz+https://corretto.aws/downloads/resources/8.422.05.1/amazon-corretto-8.422.05.1-linux-aarch64.tar.gz"
+    "8.422.05.1": "tgz+https://corretto.aws/downloads/resources/8.422.05.1/amazon-corretto-8.422.05.1-linux-aarch64.tar.gz",
+    "8.432.06.1": "tgz+https://corretto.aws/downloads/resources/8.432.06.1/amazon-corretto-8.432.06.1-linux-aarch64.tar.gz"
   },
   "jdk@graalvm-community": {
     "17.0.7": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-17.0.7/graalvm-community-jdk-17.0.7_linux-aarch64_bin.tar.gz",
