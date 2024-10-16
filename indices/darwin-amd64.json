@@ -499,7 +499,8 @@
     "22.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.0/graalvm-community-jdk-22.0.0_macos-x64_bin.tar.gz",
     "22.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.1/graalvm-community-jdk-22.0.1_macos-x64_bin.tar.gz",
     "22.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_macos-x64_bin.tar.gz",
-    "23.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.0/graalvm-community-jdk-23.0.0_macos-x64_bin.tar.gz"
+    "23.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.0/graalvm-community-jdk-23.0.0_macos-x64_bin.tar.gz",
+    "23.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.1/graalvm-community-jdk-23.0.1_macos-x64_bin.tar.gz"
   },
   "jdk@graalvm-java11": {
     "19.3.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java11-darwin-amd64-19.3.0.tar.gz",
@@ -578,10 +579,10 @@
     "22.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_macos-x64_bin.tar.gz"
   },
   "jdk@graalvm-java23": {
-    "23.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.0/graalvm-community-jdk-23.0.0_macos-x64_bin.tar.gz"
+    "23.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.0/graalvm-community-jdk-23.0.0_macos-x64_bin.tar.gz",
+    "23.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.1/graalvm-community-jdk-23.0.1_macos-x64_bin.tar.gz"
   },
   "jdk@graalvm-oracle": {
-    "17": "tgz+https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_macos-x64_bin.tar.gz",
     "21": "tgz+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_macos-x64_bin.tar.gz"
   },
   "jdk@ibm-semeru-openj9-java11": {
@@ -628,7 +629,6 @@
     "21.0.4+7_openj9-0.46.1": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.4%2B7_openj9-0.46.1/ibm-semeru-open-jdk_x64_mac_21.0.4_7_openj9-0.46.1.tar.gz"
   },
   "jdk@java-oracle": {
-    "17": "tgz+https://download.oracle.com/java/17/latest/jdk-17_macos-x64_bin.tar.gz",
     "21": "tgz+https://download.oracle.com/java/21/latest/jdk-21_macos-x64_bin.tar.gz"
   },
   "jdk@liberica": {
@@ -1375,6 +1375,7 @@
     "11.0.22": "tgz+https://cdn.azul.com/zulu/bin/zulu11.70.15-ca-jdk11.0.22-macosx_x64.tar.gz",
     "11.0.23": "tgz+https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jdk11.0.23-macosx_x64.tar.gz",
     "11.0.24": "tgz+https://cdn.azul.com/zulu/bin/zulu11.74.15-ca-jdk11.0.24-macosx_x64.tar.gz",
+    "11.0.25": "tgz+https://cdn.azul.com/zulu/bin/zulu11.76.21-ca-jdk11.0.25-macosx_x64.tar.gz",
     "11.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu11.31.11-ca-jdk11.0.3-macosx_x64.tar.gz",
     "11.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu11.33.15-ca-jdk11.0.4-macosx_x64.tar.gz",
     "11.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu11.35.13-ca-jdk11.0.5-macosx_x64.tar.gz",
@@ -1422,6 +1423,7 @@
     "17.0.10": "tgz+https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jdk17.0.10-macosx_x64.tar.gz",
     "17.0.11": "tgz+https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jdk17.0.11-macosx_x64.tar.gz",
     "17.0.12": "tgz+https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jdk17.0.12-macosx_x64.tar.gz",
+    "17.0.13": "tgz+https://cdn.azul.com/zulu/bin/zulu17.54.21-ca-jdk17.0.13-macosx_x64.tar.gz",
     "17.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu17.32.13-ca-jdk17.0.2-macosx_x64.tar.gz",
     "17.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu17.34.19-ca-jdk17.0.3-macosx_x64.tar.gz",
     "17.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu17.36.13-ca-jdk17.0.4-macosx_x64.tar.gz",
@@ -1444,10 +1446,12 @@
     "21.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu21.32.17-ca-jdk21.0.2-macosx_x64.tar.gz",
     "21.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-macosx_x64.tar.gz",
     "21.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu21.36.17-ca-jdk21.0.4-macosx_x64.tar.gz",
+    "21.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu21.38.21-ca-jdk21.0.5-macosx_x64.tar.gz",
     "22.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jdk22.0.0-macosx_x64.tar.gz",
     "22.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jdk22.0.1-macosx_x64.tar.gz",
     "22.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu22.32.17-ca-crac-jdk22.0.2-macosx_x64.tar.gz",
-    "23.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu23.28.85-ca-crac-jdk23.0.0-macosx_x64.tar.gz",
+    "23.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu23.28.85-ca-jdk23.0.0-macosx_x64.tar.gz",
+    "23.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu23.30.13-ca-jdk23.0.1-macosx_x64.tar.gz",
     "7.0.101": "tgz+https://cdn.azul.com/zulu/bin/zulu7.14.0.5-jdk7.0.101-macosx_x64.tar.gz",
     "7.0.111": "tgz+https://cdn.azul.com/zulu/bin/zulu7.15.0.1-jdk7.0.111-macosx_x64.tar.gz",
     "7.0.121": "tgz+https://cdn.azul.com/zulu/bin/zulu7.16.0.1-jdk7.0.121-macosx_x64.tar.gz",
@@ -1527,6 +1531,7 @@
     "8.0.402": "tgz+https://cdn.azul.com/zulu/bin/zulu8.76.0.17-ca-jdk8.0.402-macosx_x64.tar.gz",
     "8.0.412": "tgz+https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jdk8.0.412-macosx_x64.tar.gz",
     "8.0.422": "tgz+https://cdn.azul.com/zulu/bin/zulu8.80.0.17-ca-jdk8.0.422-macosx_x64.tar.gz",
+    "8.0.432": "tgz+https://cdn.azul.com/zulu/bin/zulu8.82.0.21-ca-jdk8.0.432-macosx_x64.tar.gz",
     "8.0.45": "tgz+https://cdn.azul.com/zulu/bin/zulu8.7.0.5-ca-jdk8.0.45-macosx_x64.tar.gz",
     "8.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu8.1.0.10-ca-jdk8.0.05-macosx_x64.tar.gz",
     "8.0.51": "tgz+https://cdn.azul.com/zulu/bin/zulu8.8.0.3-ca-jdk8.0.51-macosx_x64.tar.gz",
@@ -1558,6 +1563,7 @@
     "11.0.22": "tgz+https://cdn.azul.com/zulu/bin/zulu11.70.15-ca-jre11.0.22-macosx_x64.tar.gz",
     "11.0.23": "tgz+https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jre11.0.23-macosx_x64.tar.gz",
     "11.0.24": "tgz+https://cdn.azul.com/zulu/bin/zulu11.74.15-ca-jre11.0.24-macosx_x64.tar.gz",
+    "11.0.25": "tgz+https://cdn.azul.com/zulu/bin/zulu11.76.21-ca-jre11.0.25-macosx_x64.tar.gz",
     "11.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu11.31.11-ca-jre11.0.3-macosx_x64.tar.gz",
     "11.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu11.33.15-ca-jre11.0.4-macosx_x64.tar.gz",
     "11.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu11.35.13-ca-jre11.0.5-macosx_x64.tar.gz",
@@ -1600,6 +1606,7 @@
     "17.0.10": "tgz+https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jre17.0.10-macosx_x64.tar.gz",
     "17.0.11": "tgz+https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jre17.0.11-macosx_x64.tar.gz",
     "17.0.12": "tgz+https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jre17.0.12-macosx_x64.tar.gz",
+    "17.0.13": "tgz+https://cdn.azul.com/zulu/bin/zulu17.54.21-ca-jre17.0.13-macosx_x64.tar.gz",
     "17.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu17.32.13-ca-jre17.0.2-macosx_x64.tar.gz",
     "17.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu17.34.19-ca-jre17.0.3-macosx_x64.tar.gz",
     "17.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu17.36.13-ca-jre17.0.4-macosx_x64.tar.gz",
@@ -1622,10 +1629,12 @@
     "21.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu21.32.17-ca-jre21.0.2-macosx_x64.tar.gz",
     "21.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu21.34.19-ca-jre21.0.3-macosx_x64.tar.gz",
     "21.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu21.36.17-ca-jre21.0.4-macosx_x64.tar.gz",
+    "21.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu21.38.21-ca-jre21.0.5-macosx_x64.tar.gz",
     "22.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jre22.0.0-macosx_x64.tar.gz",
     "22.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jre22.0.1-macosx_x64.tar.gz",
     "22.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu22.32.15-ca-jre22.0.2-macosx_x64.tar.gz",
     "23.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu23.28.85-ca-jre23.0.0-macosx_x64.tar.gz",
+    "23.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu23.30.13-ca-jre23.0.1-macosx_x64.tar.gz",
     "7.0.252": "tgz+https://cdn.azul.com/zulu/bin/zulu7.36.0.5-ca-jre7.0.252-macosx_x64.tar.gz",
     "7.0.262": "tgz+https://cdn.azul.com/zulu/bin/zulu7.38.0.11-ca-jre7.0.262-macosx_x64.tar.gz",
     "7.0.272": "tgz+https://cdn.azul.com/zulu/bin/zulu7.40.0.15-ca-jre7.0.272-macosx_x64.tar.gz",
@@ -1663,6 +1672,7 @@
     "8.0.402": "tgz+https://cdn.azul.com/zulu/bin/zulu8.76.0.17-ca-jre8.0.402-macosx_x64.tar.gz",
     "8.0.412": "tgz+https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jre8.0.412-macosx_x64.tar.gz",
     "8.0.422": "tgz+https://cdn.azul.com/zulu/bin/zulu8.80.0.17-ca-jre8.0.422-macosx_x64.tar.gz",
+    "8.0.432": "tgz+https://cdn.azul.com/zulu/bin/zulu8.82.0.21-ca-jre8.0.432-macosx_x64.tar.gz",
     "9.0.0": "tgz+https://cdn.azul.com/zulu/bin/zre9.0.0.15-jre9.0.0-macosx_x64.tar.gz"
   }
 }
