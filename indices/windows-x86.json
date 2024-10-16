@@ -996,6 +996,7 @@
     "11.0.22": "zip+https://cdn.azul.com/zulu/bin/zulu11.70.15-ca-jdk11.0.22-win_i686.zip",
     "11.0.23": "zip+https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jdk11.0.23-win_i686.zip",
     "11.0.24": "zip+https://cdn.azul.com/zulu/bin/zulu11.74.15-ca-jdk11.0.24-win_i686.zip",
+    "11.0.25": "zip+https://cdn.azul.com/zulu/bin/zulu11.76.21-ca-jdk11.0.25-win_i686.zip",
     "11.0.6": "zip+https://cdn.azul.com/zulu/bin/zulu11.37.17-ca-jdk11.0.6-win_i686.zip",
     "11.0.7": "zip+https://cdn.azul.com/zulu/bin/zulu11.39.15-ca-jdk11.0.7-win_i686.zip",
     "11.0.8": "zip+https://cdn.azul.com/zulu/bin/zulu11.41.23-ca-jdk11.0.8-win_i686.zip",
@@ -1040,6 +1041,7 @@
     "17.0.10": "zip+https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jdk17.0.10-win_i686.zip",
     "17.0.11": "zip+https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jdk17.0.11-win_i686.zip",
     "17.0.12": "zip+https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jdk17.0.12-win_i686.zip",
+    "17.0.13": "zip+https://cdn.azul.com/zulu/bin/zulu17.54.21-ca-jdk17.0.13-win_i686.zip",
     "17.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu17.32.13-ca-jdk17.0.2-win_i686.zip",
     "17.0.3": "zip+https://cdn.azul.com/zulu/bin/zulu17.34.19-ca-jdk17.0.3-win_i686.zip",
     "17.0.4": "zip+https://cdn.azul.com/zulu/bin/zulu17.36.15-ca-jdk17.0.4-win_i686.zip",
@@ -1097,6 +1099,7 @@
     "8.0.402": "zip+https://cdn.azul.com/zulu/bin/zulu8.76.0.17-ca-jdk8.0.402-win_i686.zip",
     "8.0.412": "zip+https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jdk8.0.412-win_i686.zip",
     "8.0.422": "zip+https://cdn.azul.com/zulu/bin/zulu8.80.0.17-ca-jdk8.0.422-win_i686.zip",
+    "8.0.432": "zip+https://cdn.azul.com/zulu/bin/zulu8.82.0.21-ca-jdk8.0.432-win_i686.zip",
     "9.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu9.0.1.3-jdk9.0.1-win_i686.zip",
     "9.0.4": "zip+https://cdn.azul.com/zulu/bin/zulu9.0.4.1-ca-jdk9.0.4-win_i686.zip",
     "9.0.7": "zip+https://cdn.azul.com/zulu/bin/zulu9.0.7.1-ca-jdk9.0.7-win_i686.zip"
@@ -1117,6 +1120,7 @@
     "11.0.22": "zip+https://cdn.azul.com/zulu/bin/zulu11.70.15-ca-jre11.0.22-win_i686.zip",
     "11.0.23": "zip+https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jre11.0.23-win_i686.zip",
     "11.0.24": "zip+https://cdn.azul.com/zulu/bin/zulu11.74.15-ca-jre11.0.24-win_i686.zip",
+    "11.0.25": "zip+https://cdn.azul.com/zulu/bin/zulu11.76.21-ca-jre11.0.25-win_i686.zip",
     "11.0.6": "zip+https://cdn.azul.com/zulu/bin/zulu11.37.17-ca-jre11.0.6-win_i686.zip",
     "11.0.7": "zip+https://cdn.azul.com/zulu/bin/zulu11.39.15-ca-jre11.0.7-win_i686.zip",
     "11.0.8": "zip+https://cdn.azul.com/zulu/bin/zulu11.41.23-ca-jre11.0.8-win_i686.zip",
@@ -1156,6 +1160,7 @@
     "17.0.10": "zip+https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jre17.0.10-win_i686.zip",
     "17.0.11": "zip+https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jre17.0.11-win_i686.zip",
     "17.0.12": "zip+https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jre17.0.12-win_i686.zip",
+    "17.0.13": "zip+https://cdn.azul.com/zulu/bin/zulu17.54.21-ca-jre17.0.13-win_i686.zip",
     "17.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu17.32.13-ca-jre17.0.2-win_i686.zip",
     "17.0.3": "zip+https://cdn.azul.com/zulu/bin/zulu17.34.19-ca-jre17.0.3-win_i686.zip",
     "17.0.4": "zip+https://cdn.azul.com/zulu/bin/zulu17.36.15-ca-jre17.0.4-win_i686.zip",
@@ -1204,6 +1209,7 @@
     "8.0.392": "zip+https://cdn.azul.com/zulu/bin/zulu8.74.0.17-ca-jre8.0.392-win_i686.zip",
     "8.0.402": "zip+https://cdn.azul.com/zulu/bin/zulu8.76.0.17-ca-jre8.0.402-win_i686.zip",
     "8.0.412": "zip+https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jre8.0.412-win_i686.zip",
-    "8.0.422": "zip+https://cdn.azul.com/zulu/bin/zulu8.80.0.17-ca-jre8.0.422-win_i686.zip"
+    "8.0.422": "zip+https://cdn.azul.com/zulu/bin/zulu8.80.0.17-ca-jre8.0.422-win_i686.zip",
+    "8.0.432": "zip+https://cdn.azul.com/zulu/bin/zulu8.82.0.21-ca-jre8.0.432-win_i686.zip"
   }
 }
