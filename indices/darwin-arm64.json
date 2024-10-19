@@ -17,6 +17,7 @@
     "1.17.0.10": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.10_7.tar.gz",
     "1.17.0.11": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.11_9.tar.gz",
     "1.17.0.12": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.12_7.tar.gz",
+    "1.17.0.13": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.13_11.tar.gz",
     "1.17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.2_8.tar.gz",
     "1.17.0.3": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.3_7.tar.gz",
     "1.17.0.4": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.tar.gz",
@@ -46,7 +47,8 @@
     "1.22": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_aarch64_mac_hotspot_22_36.tar.gz",
     "1.22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jdk_aarch64_mac_hotspot_22.0.1_8.tar.gz",
     "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_aarch64_mac_hotspot_22.0.2_9.tar.gz",
-    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_aarch64_mac_hotspot_23_37.tar.gz"
+    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_aarch64_mac_hotspot_23_37.tar.gz",
+    "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_aarch64_mac_hotspot_23.0.1_11.tar.gz"
   },
   "jdk@adoptium-debugimage": {
     "1.11.0.15": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.15_10.tar.gz",
@@ -66,6 +68,7 @@
     "1.17.0.10": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.10_7.tar.gz",
     "1.17.0.11": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.11_9.tar.gz",
     "1.17.0.12": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.12_7.tar.gz",
+    "1.17.0.13": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.13_11.tar.gz",
     "1.17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.2_8.tar.gz",
     "1.17.0.3": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.3_7.tar.gz",
     "1.17.0.4": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.4_8.tar.gz",
@@ -95,7 +98,8 @@
     "1.22": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_aarch64_mac_hotspot_22_36.tar.gz",
     "1.22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-debugimage_aarch64_mac_hotspot_22.0.1_8.tar.gz",
     "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-debugimage_aarch64_mac_hotspot_22.0.2_9.tar.gz",
-    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_aarch64_mac_hotspot_23_37.tar.gz"
+    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_aarch64_mac_hotspot_23_37.tar.gz",
+    "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-debugimage_aarch64_mac_hotspot_23.0.1_11.tar.gz"
   },
   "jdk@adoptium-jre": {
     "1.11.0.15": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.15_10.tar.gz",
@@ -114,6 +118,7 @@
     "1.17.0.10": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.10_7.tar.gz",
     "1.17.0.11": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.11_9.tar.gz",
     "1.17.0.12": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.12_7.tar.gz",
+    "1.17.0.13": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.13_11.tar.gz",
     "1.17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.2_8.tar.gz",
     "1.17.0.3": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.3_7.tar.gz",
     "1.17.0.4": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.tar.gz",
@@ -142,7 +147,8 @@
     "1.22": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_aarch64_mac_hotspot_22_36.tar.gz",
     "1.22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jre_aarch64_mac_hotspot_22.0.1_8.tar.gz",
     "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_aarch64_mac_hotspot_22.0.2_9.tar.gz",
-    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_aarch64_mac_hotspot_23_37.tar.gz"
+    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_aarch64_mac_hotspot_23_37.tar.gz",
+    "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_aarch64_mac_hotspot_23.0.1_11.tar.gz"
   },
   "jdk@adoptium-testimage": {
     "1.11.0.18": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.18%2B10/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.18_10.tar.gz",
@@ -157,6 +163,7 @@
     "1.17.0.10": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.10_7.tar.gz",
     "1.17.0.11": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.11_9.tar.gz",
     "1.17.0.12": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.12_7.tar.gz",
+    "1.17.0.13": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.13_11.tar.gz",
     "1.17.0.6": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.6_10.tar.gz",
     "1.17.0.8": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.8_7.tar.gz",
     "1.17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.8.1_1.tar.gz",
@@ -173,7 +180,8 @@
     "1.22": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-testimage_aarch64_mac_hotspot_22_36.tar.gz",
     "1.22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-testimage_aarch64_mac_hotspot_22.0.1_8.tar.gz",
     "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-testimage_aarch64_mac_hotspot_22.0.2_9.tar.gz",
-    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_aarch64_mac_hotspot_23_37.tar.gz"
+    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_aarch64_mac_hotspot_23_37.tar.gz",
+    "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-testimage_aarch64_mac_hotspot_23.0.1_11.tar.gz"
   },
   "jdk@corretto": {
     "11.0.15.9.1": "tgz+https://corretto.aws/downloads/resources/11.0.15.9.1/amazon-corretto-11.0.15.9.1-macosx-aarch64.tar.gz",
@@ -764,6 +772,7 @@
     "1.17.0.10": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.10_7.tar.gz",
     "1.17.0.11": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.11_9.tar.gz",
     "1.17.0.12": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.12_7.tar.gz",
+    "1.17.0.13": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.13_11.tar.gz",
     "1.17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.2_8.tar.gz",
     "1.17.0.3": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.3_7.tar.gz",
     "1.17.0.4": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.tar.gz",
@@ -793,7 +802,8 @@
     "1.22": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_aarch64_mac_hotspot_22_36.tar.gz",
     "1.22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jdk_aarch64_mac_hotspot_22.0.1_8.tar.gz",
     "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_aarch64_mac_hotspot_22.0.2_9.tar.gz",
-    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_aarch64_mac_hotspot_23_37.tar.gz"
+    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_aarch64_mac_hotspot_23_37.tar.gz",
+    "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_aarch64_mac_hotspot_23.0.1_11.tar.gz"
   },
   "jdk@temurin-debugimage": {
     "1.11.0.15": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.15_10.tar.gz",
@@ -813,6 +823,7 @@
     "1.17.0.10": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.10_7.tar.gz",
     "1.17.0.11": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.11_9.tar.gz",
     "1.17.0.12": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.12_7.tar.gz",
+    "1.17.0.13": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.13_11.tar.gz",
     "1.17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.2_8.tar.gz",
     "1.17.0.3": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.3_7.tar.gz",
     "1.17.0.4": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.4_8.tar.gz",
@@ -842,7 +853,8 @@
     "1.22": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_aarch64_mac_hotspot_22_36.tar.gz",
     "1.22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-debugimage_aarch64_mac_hotspot_22.0.1_8.tar.gz",
     "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-debugimage_aarch64_mac_hotspot_22.0.2_9.tar.gz",
-    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_aarch64_mac_hotspot_23_37.tar.gz"
+    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_aarch64_mac_hotspot_23_37.tar.gz",
+    "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-debugimage_aarch64_mac_hotspot_23.0.1_11.tar.gz"
   },
   "jdk@temurin-jre": {
     "1.11.0.15": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.15_10.tar.gz",
@@ -861,6 +873,7 @@
     "1.17.0.10": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.10_7.tar.gz",
     "1.17.0.11": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.11_9.tar.gz",
     "1.17.0.12": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.12_7.tar.gz",
+    "1.17.0.13": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.13_11.tar.gz",
     "1.17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.2_8.tar.gz",
     "1.17.0.3": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.3_7.tar.gz",
     "1.17.0.4": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.tar.gz",
@@ -889,7 +902,8 @@
     "1.22": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_aarch64_mac_hotspot_22_36.tar.gz",
     "1.22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jre_aarch64_mac_hotspot_22.0.1_8.tar.gz",
     "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_aarch64_mac_hotspot_22.0.2_9.tar.gz",
-    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_aarch64_mac_hotspot_23_37.tar.gz"
+    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_aarch64_mac_hotspot_23_37.tar.gz",
+    "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_aarch64_mac_hotspot_23.0.1_11.tar.gz"
   },
   "jdk@temurin-testimage": {
     "1.11.0.18": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.18%2B10/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.18_10.tar.gz",
@@ -904,6 +918,7 @@
     "1.17.0.10": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.10_7.tar.gz",
     "1.17.0.11": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.11_9.tar.gz",
     "1.17.0.12": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.12_7.tar.gz",
+    "1.17.0.13": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.13_11.tar.gz",
     "1.17.0.6": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.6_10.tar.gz",
     "1.17.0.8": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.8_7.tar.gz",
     "1.17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.8.1_1.tar.gz",
@@ -920,7 +935,8 @@
     "1.22": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-testimage_aarch64_mac_hotspot_22_36.tar.gz",
     "1.22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-testimage_aarch64_mac_hotspot_22.0.1_8.tar.gz",
     "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-testimage_aarch64_mac_hotspot_22.0.2_9.tar.gz",
-    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_aarch64_mac_hotspot_23_37.tar.gz"
+    "1.23": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_aarch64_mac_hotspot_23_37.tar.gz",
+    "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-testimage_aarch64_mac_hotspot_23.0.1_11.tar.gz"
   },
   "jdk@zulu": {
     "11.0.10": "tgz+https://cdn.azul.com/zulu/bin/zulu11.45.27-ca-jdk11.0.10-macosx_aarch64.tar.gz",
