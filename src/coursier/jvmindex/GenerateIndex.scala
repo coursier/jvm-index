@@ -3,6 +3,7 @@
 //> using dep com.lihaoyi::ujson:4.0.2
 //> using dep com.lihaoyi::os-lib:0.11.3
 //> using dep com.lihaoyi::pprint:0.9.0
+//> using dep io.get-coursier:versions_2.13:0.3.3
 //> using options -Wunused:all -deprecation
 
 package coursier.jvmindex

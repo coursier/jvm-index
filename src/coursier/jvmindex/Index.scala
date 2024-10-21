@@ -206,10 +206,14 @@ object Index {
   ) = {
     val l = map
       .toVector
+      .map {
+        case (k, v) =>
+          coursier.version.Version(k) -> v
+      }
       .sortBy(_._1)
       .map {
         case (k, v) =>
-          k -> ujson.Str(v)
+          k.repr -> ujson.Str(v)
       }
     if (l.isEmpty)
       ujson.Obj()
