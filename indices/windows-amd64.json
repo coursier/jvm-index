@@ -199,6 +199,7 @@
     "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jdk_x64_windows_hotspot_8u402b06.zip",
     "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u412b08.zip",
     "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk_x64_windows_hotspot_8u422b05.zip",
+    "1.8.0-432": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jdk_x64_windows_hotspot_8u432b06.zip",
     "1.9": "zip+https://github.com/AdoptOpenJDK/openjdk9-binaries/releases/download/jdk-9%2B181/OpenJDK9U-jdk_x64_windows_hotspot_9_181.zip",
     "1.9.0.4": "zip+https://github.com/AdoptOpenJDK/openjdk9-binaries/releases/download/jdk-9.0.4%2B11/OpenJDK9U-jdk_x64_windows_hotspot_9.0.4_11.zip"
   },
@@ -270,7 +271,8 @@
     "1.8.0-392": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-debugimage_x64_windows_hotspot_8u392b08.zip",
     "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-debugimage_x64_windows_hotspot_8u402b06.zip",
     "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_x64_windows_hotspot_8u412b08.zip",
-    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-debugimage_x64_windows_hotspot_8u422b05.zip"
+    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-debugimage_x64_windows_hotspot_8u422b05.zip",
+    "1.8.0-432": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-debugimage_x64_windows_hotspot_8u432b06.zip"
   },
   "jdk@adoptium-jre": {
     "1.10.0.2": "zip+https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jre_x64_windows_hotspot_10.0.2_13.zip",
@@ -351,6 +353,7 @@
     "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_x64_windows_hotspot_8u402b06.zip",
     "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_x64_windows_hotspot_8u412b08.zip",
     "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jre_x64_windows_hotspot_8u422b05.zip",
+    "1.8.0-432": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jre_x64_windows_hotspot_8u432b06.zip",
     "1.9": "zip+https://github.com/AdoptOpenJDK/openjdk9-binaries/releases/download/jdk-9%2B181/OpenJDK9U-jre_x64_windows_hotspot_9_181.zip",
     "1.9.0.4": "zip+https://github.com/AdoptOpenJDK/openjdk9-binaries/releases/download/jdk-9.0.4%2B11/OpenJDK9U-jre_x64_windows_hotspot_9.0.4_11.zip"
   },
@@ -609,6 +612,7 @@
   },
   "jdk@graalvm-oracle": {
     "21": "zip+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip",
+    "22": "zip+https://download.oracle.com/graalvm/22/latest/graalvm-jdk-22_windows-x64_bin.zip",
     "23": "zip+https://download.oracle.com/graalvm/23/latest/graalvm-jdk-23_windows-x64_bin.zip"
   },
   "jdk@ibm-semeru-openj9-java11": {
@@ -1250,7 +1254,8 @@
     "1.8.0-392": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u392b08.zip",
     "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jdk_x64_windows_hotspot_8u402b06.zip",
     "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u412b08.zip",
-    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk_x64_windows_hotspot_8u422b05.zip"
+    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jdk_x64_windows_hotspot_8u422b05.zip",
+    "1.8.0-432": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jdk_x64_windows_hotspot_8u432b06.zip"
   },
   "jdk@temurin-debugimage": {
     "1.11.0.12": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_x64_windows_hotspot_11.0.12_7.zip",
@@ -1320,7 +1325,8 @@
     "1.8.0-392": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-debugimage_x64_windows_hotspot_8u392b08.zip",
     "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-debugimage_x64_windows_hotspot_8u402b06.zip",
     "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-debugimage_x64_windows_hotspot_8u412b08.zip",
-    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-debugimage_x64_windows_hotspot_8u422b05.zip"
+    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-debugimage_x64_windows_hotspot_8u422b05.zip",
+    "1.8.0-432": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-debugimage_x64_windows_hotspot_8u432b06.zip"
   },
   "jdk@temurin-jre": {
     "1.11.0.12": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jre_x64_windows_hotspot_11.0.12_7.zip",
@@ -1387,7 +1393,8 @@
     "1.8.0-392": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jre_x64_windows_hotspot_8u392b08.zip",
     "1.8.0-402": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_x64_windows_hotspot_8u402b06.zip",
     "1.8.0-412": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_x64_windows_hotspot_8u412b08.zip",
-    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jre_x64_windows_hotspot_8u422b05.zip"
+    "1.8.0-422": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05/OpenJDK8U-jre_x64_windows_hotspot_8u422b05.zip",
+    "1.8.0-432": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jre_x64_windows_hotspot_8u432b06.zip"
   },
   "jdk@temurin-testimage": {
     "1.11.0.12": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_x64_windows_hotspot_11.0.12_7.zip",

@@ -623,6 +623,7 @@
   },
   "jdk@graalvm-oracle": {
     "21": "tgz+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_linux-x64_bin.tar.gz",
+    "22": "tgz+https://download.oracle.com/graalvm/22/latest/graalvm-jdk-22_linux-x64_bin.tar.gz",
     "23": "tgz+https://download.oracle.com/graalvm/23/latest/graalvm-jdk-23_linux-x64_bin.tar.gz"
   },
   "jdk@ibm-semeru-openj9-java11": {
