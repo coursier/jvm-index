@@ -50,11 +50,11 @@ object Corretto {
       Index(indexOs, indexArch, "jdk@corretto", jdkTagVersion, url)
   }
 
-  def fullIndex(ghToken: String): Index = {
-    val javaVersions = Seq("8", "11", "17", "18", "19", "20", "21")
-    val indices = javaVersions.map(v => index(ghToken, v))
-    indices.foldLeft(Index.empty)(_ + _)
-  }
+  def fullIndex(ghToken: String): Index =
+    (Iterator("8", "11") ++ Iterator.from(17).map(_.toString))
+      .map(v => index(ghToken, v))
+      .takeWhile(!_.isEmpty)
+      .foldLeft(Index.empty)(_ + _)
 
   def index(
     ghToken: String,
