@@ -1,6 +1,6 @@
 package coursier.jvmindex
 
-import Index.Os
+import Index.{Arch, Os}
 
 object Temurin {
 
@@ -49,15 +49,15 @@ object Temurin {
       s"OpenJDK$baseVersion-${jdkStr}_"
     )
 
-    def archOpt(input: String): Option[(String, String)] =
+    def archOpt(input: String): Option[(Arch, String)] =
       Map(
-        "amd64"   -> "x64_",
-        "x86"     -> "x86-32_",
-        "arm64"   -> "aarch64_",
-        "arm"     -> "arm_",
-        "s390x"   -> "s390x_",
-        "ppc64"   -> "ppc64_",
-        "ppc64le" -> "ppc64le_"
+        Arch("amd64")   -> "x64_",
+        Arch("x86")     -> "x86-32_",
+        Arch("arm64")   -> "aarch64_",
+        Arch("arm")     -> "arm_",
+        Arch("s390x")   -> "s390x_",
+        Arch("ppc64")   -> "ppc64_",
+        Arch("ppc64le") -> "ppc64le_"
       ).collectFirst {
         case (k, v) if input.startsWith(v) =>
           k -> input.stripPrefix(v)

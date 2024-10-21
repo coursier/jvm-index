@@ -1,6 +1,6 @@
 package coursier.jvmindex
 
-import Index.Os
+import Index.{Arch, Os}
 import sttp.client3.quick.*
 
 import scala.math.Ordering.Implicits.seqOrdering
@@ -8,7 +8,7 @@ import scala.math.Ordering.Implicits.seqOrdering
 object Zulu {
   final case class ZuluParams(
     indexOs: Os,
-    indexArch: String,
+    indexArch: Arch,
     indexArchiveType: String,
     bundleType: String = "jdk",
     releaseStatus: String = "ga"
@@ -23,12 +23,12 @@ object Zulu {
     }
 
     lazy val (arch, bitness) = indexArch match {
-      case "arm"   => ("arm", "32")
-      case "arm64" => ("arm", "64")
-      case "x86"   => ("x86", "32")
-      case "amd64" => ("x86", "64")
-      case "ppc64" => ("ppc", "64")
-      case _       => ???
+      case Arch("arm")   => (Arch("arm"), "32")
+      case Arch("arm64") => (Arch("arm"), "64")
+      case Arch("x86")   => (Arch("x86"), "32")
+      case Arch("amd64") => (Arch("x86"), "64")
+      case Arch("ppc64") => (Arch("ppc"), "64")
+      case _             => ???
     }
 
     lazy val ext = indexArchiveType match {
@@ -51,7 +51,7 @@ object Zulu {
 
     val oses =
       Seq(Os("darwin"), Os("linux"), Os("windows"), Os("linux-musl")) // Add "solaris", "qnx"?
-    val cpus        = Seq("x86", "amd64", "arm", "arm64", "ppc64")
+    val cpus        = Seq(Arch("x86"), Arch("amd64"), Arch("arm"), Arch("arm64"), Arch("ppc64"))
     val bundleTypes = Seq("jdk", "jre")
     val allParams = for {
       os  <- oses

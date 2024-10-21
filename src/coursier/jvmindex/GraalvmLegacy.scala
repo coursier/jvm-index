@@ -1,6 +1,6 @@
 package coursier.jvmindex
 
-import Index.Os
+import Index.{Arch, Os}
 
 object GraalvmLegacy {
 
@@ -46,11 +46,11 @@ object GraalvmLegacy {
       else
         None
 
-    def archOpt(input: String): Option[(String, String)] =
+    def archOpt(input: String): Option[(Arch, String)] =
       if (input.startsWith("amd64-"))
-        Some(("amd64", input.stripPrefix("amd64-")))
+        Some((Arch("amd64"), input.stripPrefix("amd64-")))
       else if (input.startsWith("aarch64-"))
-        Some(("arm64", input.stripPrefix("aarch64-")))
+        Some((Arch("arm64"), input.stripPrefix("aarch64-")))
       else
         None
 

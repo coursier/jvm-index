@@ -1,7 +1,7 @@
 package coursier.jvmindex
 
 import sttp.client3.quick._
-import Index.Os
+import Index.{Arch, Os}
 
 /*
 - Latest Corretto binaries are listed at https://docs.aws.amazon.com/corretto/
@@ -21,7 +21,7 @@ object Corretto {
 
   final case class CorrettoParams(
     indexOs: Os,
-    indexArch: String,
+    indexArch: Arch,
     indexArchiveType: String
   ) {
     lazy val os = indexOs match {
@@ -36,9 +36,9 @@ object Corretto {
     }
 
     lazy val arch = indexArch match {
-      case "arm64" => "aarch64"
-      case "amd64" => "x64"
-      case _       => ???
+      case Arch("arm64") => "aarch64"
+      case Arch("amd64") => "x64"
+      case _             => ???
     }
 
     lazy val jdk = indexOs match {
@@ -69,7 +69,7 @@ object Corretto {
       .flatMap { release =>
         // See https://github.com/corretto/corretto-17/releases/tag/17.0.6.10.1 for os/cpu combinations
         val oses: Seq[Os] = Seq(Os("darwin"), Os("linux"), Os("windows"), Os("alpine-linux"))
-        val cpus          = Seq("amd64", "arm64")
+        val cpus          = Seq(Arch("amd64"), Arch("arm64"))
         val allParams = for {
           os  <- oses
           cpu <- cpus

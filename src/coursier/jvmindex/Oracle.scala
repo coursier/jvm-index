@@ -1,12 +1,12 @@
 package coursier.jvmindex
 
 import sttp.client3.quick._
-import Index.Os
+import Index.{Arch, Os}
 
 object Oracle {
   final case class Params(
     indexOs: Os,
-    indexArch: String,
+    indexArch: Arch,
     indexJdkName: String,
     jdkVersion: String,
     indexArchiveType: String
@@ -27,9 +27,9 @@ object Oracle {
     }
 
     lazy val arch = indexArch match {
-      case "aarch64" => "arm64"
-      case "x64"     => "amd64"
-      case _         => ???
+      case Arch("aarch64") => Arch("arm64")
+      case Arch("x64")     => Arch("amd64")
+      case _               => ???
     }
 
     lazy val ext = indexArchiveType match {
@@ -48,7 +48,7 @@ object Oracle {
     val jdkNames = Seq("java", "graalvm")
     val allParams = for {
       os      <- oses
-      cpu     <- if (os == Os("windows")) Seq("x64") else Seq("x64", "aarch64")
+      cpu     <- if (os == Os("windows")) Seq(Arch("x64")) else Seq(Arch("x64"), Arch("aarch64"))
       jdk     <- jdks
       jdkName <- jdkNames
       ext = if (os == Os("windows")) "zip" else "tgz"
