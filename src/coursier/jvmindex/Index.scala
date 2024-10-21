@@ -32,6 +32,12 @@ final case class Index(map: Map[Os, Map[String, Map[String, Map[String, String]]
             ((os, arch), OsArchIndex(osArchMap))
         }
     }
+
+  def isEmpty: Boolean =
+    map.isEmpty ||
+      map.forall(_._2.isEmpty) ||
+      map.forall(_._2.forall(_._2.isEmpty)) ||
+      map.forall(_._2.forall(_._2.forall(_._2.isEmpty)))
 }
 
 object Index {
