@@ -23,7 +23,12 @@ jobs:
       - run: ./scala-cli.sh src
         env:
           GH_TOKEN: ${{ secrets.INDEX_GITHUB_TOKEN }}
+
+      - name: Print diff
+        run: git diff --color
+
       - name: Create Pull Request
+        if: github.ref == 'refs/heads/master'
         id: cpr
         uses: peter-evans/create-pull-request@v7.0.5
         with:
@@ -32,6 +37,7 @@ jobs:
           delete-branch: true
           title: Update index
       - name: Generate Job Summary
+        if: github.ref == 'refs/heads/master'
         run: |-
           PR_NUMBER=$(echo "${{ steps.cpr.outputs.pull-request-number }}")
           PR_URL=$(echo "${{ steps.cpr.outputs.pull-request-url }}")
