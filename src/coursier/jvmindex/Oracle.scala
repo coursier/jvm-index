@@ -4,6 +4,9 @@ import sttp.client3.quick._
 import Index.{Arch, Os}
 
 object Oracle {
+
+  private def minJavaVersion = 21
+
   final case class Params(
     indexOs: Os,
     indexArch: Arch,
@@ -44,7 +47,7 @@ object Oracle {
 
   def index(): Index = {
     val oses     = Seq(Os("darwin"), Os("linux"), Os("windows"))
-    val jdks     = Seq("21", "23")
+    val jdks     = (0 until 10).map(minJavaVersion + _).map(_.toString)
     val jdkNames = Seq("java", "graalvm")
     val allParams = for {
       os      <- oses
