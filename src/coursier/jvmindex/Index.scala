@@ -1,3 +1,5 @@
+package coursier.jvmindex
+
 import Index.Os
 
 final case class Index(map: Map[Os, Map[String, Map[String, Map[String, String]]]]) {

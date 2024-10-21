@@ -1,3 +1,5 @@
+package coursier.jvmindex
+
 import sttp.client3.quick._
 
 import scala.util.control.NonFatal
