@@ -4,6 +4,8 @@
 //> using dep com.lihaoyi::os-lib:0.10.3
 //> using options -Wunused:all -deprecation
 
+package coursier.jvmindex
+
 object GenerateIndex {
 
   def main(args: Array[String]): Unit = {
