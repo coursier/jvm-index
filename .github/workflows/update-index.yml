@@ -15,7 +15,8 @@ jobs:
       - uses: coursier/cache-action@v6.4
       - uses: coursier/setup-action@v1.3
         with:
-          jvm: 11
+          jvm: 17
+
       - run: ./scala-cli.sh .
         env:
           GH_TOKEN: ${{ secrets.INDEX_GITHUB_TOKEN }}
