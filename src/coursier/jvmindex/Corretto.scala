@@ -51,14 +51,9 @@ object Corretto {
   }
 
   def fullIndex(ghToken: String): Index = {
-    val correttoIndex0      = index(ghToken, "8")
-    val correttoJdk11Index0 = index(ghToken, "11")
-    val correttoJdk17Index0 = index(ghToken, "17")
-    val correttoJdk18Index0 = index(ghToken, "18") // public archive, 3 tags
-    val correttoJdk19Index0 = index(ghToken, "19")
-    val correttoJdk20Index0 = index(ghToken, "20")
-    val correttoJdk21Index0 = index(ghToken, "21")
-    correttoIndex0 + correttoJdk11Index0 + correttoJdk17Index0 + correttoJdk18Index0 + correttoJdk19Index0 + correttoJdk20Index0 + correttoJdk21Index0
+    val javaVersions = Seq("8", "11", "17", "18", "19", "20", "21")
+    val indices = javaVersions.map(v => index(ghToken, v))
+    indices.foldLeft(Index.empty)(_ + _)
   }
 
   def index(
