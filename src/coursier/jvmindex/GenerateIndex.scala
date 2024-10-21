@@ -6,6 +6,11 @@
 
 package coursier.jvmindex
 
+import java.util.concurrent.Executors
+
+import scala.concurrent.{Await, ExecutionContext, Future}
+import scala.concurrent.duration.Duration
+
 object GenerateIndex {
 
   def main(args: Array[String]): Unit = {
@@ -14,23 +19,29 @@ object GenerateIndex {
 
     val dest = os.pwd / s"$baseName.json"
 
-    val correttoIndex0      = Corretto.fullIndex(GhToken.token)
-    val graalvmLegacyIndex0 = GraalvmLegacy.fullIndex(GhToken.token)
-    val graalvmIndex0       = Graalvm.fullIndex(GhToken.token)
-    val oracleIndex0        = Oracle.index()
-    val adoptIndex0         = Temurin.fullIndex(GhToken.token)
-    val zuluIndex0          = Zulu.index()
-    val libericaIndex0      = Liberica.index()
-    val ibmsemeruIndex0     = IbmSemeru.fullIndex(GhToken.token)
+    val pool = Executors.newFixedThreadPool(6)
 
-    val index = graalvmLegacyIndex0 +
-      graalvmIndex0 +
-      oracleIndex0 +
-      adoptIndex0 +
-      zuluIndex0 +
-      libericaIndex0 +
-      correttoIndex0 +
-      ibmsemeruIndex0
+    val index =
+      try {
+        implicit val ec: ExecutionContext = ExecutionContext.fromExecutorService(pool)
+
+        val futures = Seq(
+          Future(Corretto.fullIndex(GhToken.token)),
+          Future(GraalvmLegacy.fullIndex(GhToken.token)),
+          Future(Graalvm.fullIndex(GhToken.token)),
+          Future(Oracle.index()),
+          Future(Temurin.fullIndex(GhToken.token)),
+          Future(Zulu.index()),
+          Future(Liberica.index()),
+          Future(IbmSemeru.fullIndex(GhToken.token))
+        )
+
+        futures
+          .map(f => Await.result(f, Duration.Inf))
+          .foldLeft(Index.empty)(_ + _)
+      }
+      finally
+        pool.shutdown()
 
     val json = index.json
     os.write.over(dest, json)
