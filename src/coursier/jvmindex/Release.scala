@@ -27,23 +27,26 @@ object Release {
             |}""".stripMargin
       }
 
-      val json = resp("releases")
-
-      val res =
-        try json("nodes").arr.map { obj =>
-            Release(obj("tagName").str, obj("isPrerelease").bool)
+      if (resp.isNull)
+        Iterator.empty
+      else {
+        val json = resp("releases")
+        val res =
+          try json("nodes").arr.map { obj =>
+              Release(obj("tagName").str, obj("isPrerelease").bool)
+            }
+          catch {
+            case NonFatal(e) =>
+              System.err.println(json)
+              throw e
           }
-        catch {
-          case NonFatal(e) =>
-            System.err.println(json)
-            throw e
-        }
 
-      val pageInfo = json("pageInfo")
-      if (pageInfo("hasPreviousPage").bool)
-        res.iterator ++ helper(Some(pageInfo("startCursor").str))
-      else
-        res.iterator
+        val pageInfo = json("pageInfo")
+        if (pageInfo("hasPreviousPage").bool)
+          res.iterator ++ helper(Some(pageInfo("startCursor").str))
+        else
+          res.iterator
+      }
     }
 
     helper(None)
