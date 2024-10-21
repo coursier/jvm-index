@@ -1,3 +1,5 @@
+package coursier.jvmindex
+
 import sttp.client3.quick._
 import Index.Os
 
@@ -42,7 +44,7 @@ object Oracle {
 
   def index(): Index = {
     val oses     = Seq(Os("darwin"), Os("linux"), Os("windows"))
-    val jdks     = Seq("17", "21")
+    val jdks     = Seq("21", "23")
     val jdkNames = Seq("java", "graalvm")
     val allParams = for {
       os      <- oses

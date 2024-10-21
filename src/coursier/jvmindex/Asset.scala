@@ -1,3 +1,5 @@
+package coursier.jvmindex
+
 import scala.util.control.NonFatal
 
 final case class Asset(

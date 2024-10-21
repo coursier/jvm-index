@@ -1,3 +1,5 @@
+package coursier.jvmindex
+
 import Index.Os
 import sttp.client3.quick.*
 

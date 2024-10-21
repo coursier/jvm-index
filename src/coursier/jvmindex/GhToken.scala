@@ -1,3 +1,5 @@
+package coursier.jvmindex
+
 object GhToken {
 
   lazy val token = Option(System.getenv("GH_TOKEN")).getOrElse {
