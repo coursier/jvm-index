@@ -4,34 +4,35 @@ import Index.Os
 
 object GraalvmLegacy {
 
+  private def ghOrg  = "graalvm"
+  private def ghProj = "graalvm-ce-builds"
+
+  private def javaVersions = Seq("8", "11", "16", "17", "19")
+
   def fullIndex(ghToken: String): Index = {
-    val graalvmIndex0      = index(ghToken, "8")
-    val graalvmJdk11Index0 = index(ghToken, "11")
-    val graalvmJdk16Index0 = index(ghToken, "16")
-    val graalvmJdk17Index0 = index(ghToken, "17")
-    val graalvmJdk19Index0 = index(ghToken, "19")
-    graalvmIndex0 + graalvmJdk11Index0 + graalvmJdk16Index0 + graalvmJdk17Index0 + graalvmJdk19Index0
+
+    val releases = Release.releaseIds(ghOrg, ghProj, ghToken)
+      .filter(!_.prerelease)
+      .map(_.tagName)
+      .toVector
+
+    val indices = javaVersions.map(v => index(releases, ghToken, v))
+
+    indices.foldLeft(Index.empty)(_ + _)
   }
 
   def index(
+    releases: Seq[String],
     ghToken: String,
-    javaVersion: String,
-    javaVersionInName: java.lang.Boolean = null
+    javaVersion: String
   ): Index = {
 
-    val javaVersionInName0 = Option(javaVersionInName)
-      .map(x => x: Boolean)
-      .getOrElse(javaVersion != "8")
+    val javaVersionInName0 = javaVersion != "8"
     val name =
       if (javaVersionInName0)
         s"jdk@graalvm-java$javaVersion"
       else
         "jdk@graalvm"
-
-    val ghOrg  = "graalvm"
-    val ghProj = "graalvm-ce-builds"
-    val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken)
-      .filter(!_.prerelease)
 
     val assetNamePrefix = s"graalvm-ce-java$javaVersion-"
 
@@ -58,11 +59,11 @@ object GraalvmLegacy {
       else if (input == "tar.gz") Some("tgz")
       else None
 
-    val indices = releases0
-      .filter(release => release.tagName.startsWith("vm-"))
-      .flatMap { release =>
-        val version = release.tagName.stripPrefix("vm-")
-        val assets  = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.tagName)
+    val indices = releases
+      .filter(_.startsWith("vm-"))
+      .flatMap { tagName =>
+        val version = tagName.stripPrefix("vm-")
+        val assets  = Asset.releaseAssets(ghOrg, ghProj, ghToken, tagName)
         assets
           .filter(asset => asset.name.startsWith(assetNamePrefix))
           .flatMap { asset =>

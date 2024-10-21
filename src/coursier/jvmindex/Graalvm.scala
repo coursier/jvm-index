@@ -4,21 +4,27 @@ import Index.Os
 
 object Graalvm {
 
-  def fullIndex(ghToken: String): Index =
+  private def ghOrg  = "graalvm"
+  private def ghProj = "graalvm-ce-builds"
+
+  def fullIndex(ghToken: String): Index = {
+
+    val releases = Release.releaseIds(ghOrg, ghProj, ghToken)
+      .filter(!_.prerelease)
+      .map(_.tagName)
+      .toVector
+
     (Iterator(17) ++ Iterator.from(20))
-      .map(v => index(ghToken, v.toString))
+      .map(v => index(releases, ghToken, v.toString))
       .takeWhile(!_.isEmpty)
       .foldLeft(Index.empty)(_ + _)
+  }
 
   def index(
+    releases: Seq[String],
     ghToken: String,
     javaVersion: String
   ): Index = {
-
-    val ghOrg  = "graalvm"
-    val ghProj = "graalvm-ce-builds"
-    val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken)
-      .filter(!_.prerelease)
 
     def osOpt(input: String): Option[(Os, String)] =
       if (input.startsWith("linux-"))
@@ -43,12 +49,12 @@ object Graalvm {
       else if (input == "tar.gz") Some("tgz")
       else None
 
-    val indices = releases0
-      .filter(release => release.tagName.startsWith(s"jdk-$javaVersion"))
-      .flatMap { release =>
-        val version         = release.tagName.stripPrefix("jdk-")
+    val indices = releases
+      .filter(_.startsWith(s"jdk-$javaVersion"))
+      .flatMap { tagName =>
+        val version         = tagName.stripPrefix("jdk-")
         val assetNamePrefix = s"graalvm-community-jdk-${version}_"
-        val assets          = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.tagName)
+        val assets          = Asset.releaseAssets(ghOrg, ghProj, ghToken, tagName)
         assets
           .filter(asset => asset.name.startsWith(assetNamePrefix))
           .flatMap { asset =>
