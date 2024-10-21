@@ -45,7 +45,7 @@ object Index {
   opaque type Os = String
   object Os:
     def apply(value: String): Os        = value
-    def unapply(os: Os): Option[String] = Some(os.toString())
+    def unapply(os: Os): Option[String] = Some(os)
 
     given Ordering[Os] with
       def compare(a: Os, b: Os) = a.compareTo(b)
