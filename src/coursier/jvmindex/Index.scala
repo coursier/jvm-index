@@ -204,21 +204,32 @@ object Index {
   private def json1(
     map: Map[String, String]
   ) = {
-    val l = map
+    val list = map
       .toVector
       .map {
         case (k, v) =>
           coursier.version.Version(k) -> v
       }
       .sortBy(_._1)
-      .map {
-        case (k, v) =>
-          k.repr -> ujson.Str(v)
-      }
-    if (l.isEmpty)
+    val requiredVersionLengthOpt = {
+      val versionLengthMap =
+        list.groupMap(_._1.items.length)(_ => ()).view.mapValues(_.length).toMap
+      if (versionLengthMap.size > 1) Some(versionLengthMap.maxBy(_._2)._1.min(4))
+      else None
+    }
+    val list0 = list.map {
+      case (k, v) =>
+        val version = requiredVersionLengthOpt match {
+          case Some(requiredVersionLength) if k.items.length < requiredVersionLength =>
+            k.repr + (".0" * (requiredVersionLength - k.items.length))
+          case _ => k.repr
+        }
+        version -> ujson.Str(v)
+    }
+    if (list0.isEmpty)
       ujson.Obj()
     else
-      ujson.Obj(l.head, l.tail*)
+      ujson.Obj(list0.head, list0.tail*)
   }
 
 }
