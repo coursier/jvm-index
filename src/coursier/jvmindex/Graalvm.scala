@@ -1,6 +1,6 @@
 package coursier.jvmindex
 
-import Index.Os
+import Index.{Arch, Os}
 
 object Graalvm {
 
@@ -36,11 +36,11 @@ object Graalvm {
       else
         None
 
-    def archOpt(input: String): Option[(String, String)] =
+    def archOpt(input: String): Option[(Arch, String)] =
       if (input.startsWith("x64_"))
-        Some(("amd64", input.stripPrefix("x64_bin")))
+        Some((Arch("amd64"), input.stripPrefix("x64_bin")))
       else if (input.startsWith("aarch64_"))
-        Some(("arm64", input.stripPrefix("aarch64_bin")))
+        Some((Arch("arm64"), input.stripPrefix("aarch64_bin")))
       else
         None
 

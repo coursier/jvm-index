@@ -2,7 +2,7 @@ package coursier.jvmindex
 
 import sttp.client3.quick._
 import scala.util.control.NonFatal
-import Index.Os
+import Index.{Arch, Os}
 
 object Liberica {
 
@@ -27,11 +27,11 @@ object Liberica {
       case x       => Os(x)
     }
     def indexArchOpt = (architecture, bitness) match {
-      case ("arm", 32) => Some("arm")
-      case ("arm", 64) => Some("arm64")
-      case ("x86", 32) => Some("x86")
-      case ("x86", 64) => Some("amd64")
-      case ("ppc", 64) => Some("ppc64")
+      case ("arm", 32) => Some(Arch("arm"))
+      case ("arm", 64) => Some(Arch("arm64"))
+      case ("x86", 32) => Some(Arch("x86"))
+      case ("x86", 64) => Some(Arch("amd64"))
+      case ("ppc", 64) => Some(Arch("ppc64"))
       case _           => None
     }
 

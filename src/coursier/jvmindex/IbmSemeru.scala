@@ -1,6 +1,6 @@
 package coursier.jvmindex
 
-import Index.Os
+import Index.{Arch, Os}
 
 object IbmSemeru {
 
@@ -30,15 +30,18 @@ object IbmSemeru {
         case input if input.startsWith("aix") => Some((Os("aix"), input.stripPrefix("aix_")))
         case _                                => None
 
-    def archOpt(input: String): Option[(String, String)] =
+    def archOpt(input: String): Option[(Arch, String)] =
       input match
-        case input if input.startsWith("x64")     => Some(("amd64", input.stripPrefix("x64_")))
-        case input if input.startsWith("aarch64") => Some(("arm64", input.stripPrefix("aarch64_")))
+        case input if input.startsWith("x64") => Some((Arch("amd64"), input.stripPrefix("x64_")))
+        case input if input.startsWith("aarch64") =>
+          Some((Arch("arm64"), input.stripPrefix("aarch64_")))
         case input if input.startsWith("ppc64le") =>
-          Some(("ppc64le", input.stripPrefix("ppc64le_")))
-        case input if input.startsWith("ppc64") => Some(("ppc64", input.stripPrefix("ppc64_")))
-        case input if input.startsWith("s390x") => Some(("s390x", input.stripPrefix("s390x_")))
-        case _                                  => None
+          Some((Arch("ppc64le"), input.stripPrefix("ppc64le_")))
+        case input if input.startsWith("ppc64") =>
+          Some((Arch("ppc64"), input.stripPrefix("ppc64_")))
+        case input if input.startsWith("s390x") =>
+          Some((Arch("s390x"), input.stripPrefix("s390x_")))
+        case _ => None
 
     def archiveTypeOpt(input: String): Option[(String, String)] =
       input match

@@ -1,8 +1,8 @@
 package coursier.jvmindex
 
-import Index.Os
+import Index.{Arch, Os}
 
-final case class Index(map: Map[Os, Map[String, Map[String, Map[String, String]]]]) {
+final case class Index(map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]) {
 
   def mapJdkName(f: String => String): Index =
     Index(
@@ -24,7 +24,7 @@ final case class Index(map: Map[Os, Map[String, Map[String, Map[String, String]]
   def json: String =
     Index.json4(map).render(indent = 2)
 
-  def osArchIndices: Map[(Os, String), OsArchIndex] =
+  def osArchIndices: Map[(Os, Arch), OsArchIndex] =
     map.flatMap {
       case (os, osMap) =>
         osMap.map {
@@ -50,11 +50,19 @@ object Index {
     given Ordering[Os] with
       def compare(a: Os, b: Os) = a.compareTo(b)
 
+  opaque type Arch = String
+  object Arch:
+    def apply(value: String): Arch          = value
+    def unapply(arch: Arch): Option[String] = Some(arch)
+
+    given Ordering[Arch] with
+      def compare(a: Arch, b: Arch) = a.compareTo(b)
+
   def empty: Index =
     Index(Map.empty)
   def apply(
     os: Os,
-    architecture: String,
+    architecture: Arch,
     jdkName: String,
     jdkVersion: String,
     url: String
@@ -62,9 +70,9 @@ object Index {
     Index(Map(os -> Map(architecture -> Map(jdkName -> Map(jdkVersion -> url)))))
 
   private def merge4(
-    a: Map[Os, Map[String, Map[String, Map[String, String]]]],
-    b: Map[Os, Map[String, Map[String, Map[String, String]]]]
-  ): Map[Os, Map[String, Map[String, Map[String, String]]]] =
+    a: Map[Os, Map[Arch, Map[String, Map[String, String]]]],
+    b: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
+  ): Map[Os, Map[Arch, Map[String, Map[String, String]]]] =
     (a.keySet ++ b.keySet)
       .iterator
       .map { key =>
@@ -146,7 +154,7 @@ object Index {
       .toMap
 
   private def json4(
-    map: Map[Os, Map[String, Map[String, Map[String, String]]]]
+    map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
   ) = {
     val l = map
       .toVector
@@ -162,7 +170,7 @@ object Index {
   }
 
   private def json3(
-    map: Map[String, Map[String, Map[String, String]]]
+    map: Map[Arch, Map[String, Map[String, String]]]
   ) = {
     val l = map
       .toVector
