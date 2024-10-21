@@ -4,12 +4,11 @@ import Index.Os
 
 object Graalvm {
 
-  def majorVersions = Seq(17, 20, 21, 22, 23)
-
-  def fullIndex(ghToken: String): Index = {
-    val indices = majorVersions.map(v => index(ghToken, v.toString))
-    indices.foldLeft(Index.empty)(_ + _)
-  }
+  def fullIndex(ghToken: String): Index =
+    (Iterator(17) ++ Iterator.from(20))
+      .map(v => index(ghToken, v.toString))
+      .takeWhile(!_.isEmpty)
+      .foldLeft(Index.empty)(_ + _)
 
   def index(
     ghToken: String,
