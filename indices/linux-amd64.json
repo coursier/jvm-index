@@ -466,6 +466,12 @@
     "21.0.3.9.1": "tgz+https://corretto.aws/downloads/resources/21.0.3.9.1/amazon-corretto-21.0.3.9.1-linux-x64.tar.gz",
     "21.0.4.7.1": "tgz+https://corretto.aws/downloads/resources/21.0.4.7.1/amazon-corretto-21.0.4.7.1-linux-x64.tar.gz",
     "21.0.5.11.1": "tgz+https://corretto.aws/downloads/resources/21.0.5.11.1/amazon-corretto-21.0.5.11.1-linux-x64.tar.gz",
+    "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-linux-x64.tar.gz",
+    "22.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/22.0.0.37.1/amazon-corretto-22.0.0.37.1-linux-x64.tar.gz",
+    "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-linux-x64.tar.gz",
+    "22.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/22.0.2.9.1/amazon-corretto-22.0.2.9.1-linux-x64.tar.gz",
+    "23.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/23.0.0.37.1/amazon-corretto-23.0.0.37.1-linux-x64.tar.gz",
+    "23.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/23.0.1.8.1/amazon-corretto-23.0.1.8.1-linux-x64.tar.gz",
     "8.222.10.1": "tgz+https://corretto.aws/downloads/resources/8.222.10.1/amazon-corretto-8.222.10.1-linux-x64.tar.gz",
     "8.232.09.1": "tgz+https://corretto.aws/downloads/resources/8.232.09.1/amazon-corretto-8.232.09.1-linux-x64.tar.gz",
     "8.242.07.1": "tgz+https://corretto.aws/downloads/resources/8.242.07.1/amazon-corretto-8.242.07.1-linux-x64.tar.gz",
@@ -616,7 +622,8 @@
     "23.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.1/graalvm-community-jdk-23.0.1_linux-x64_bin.tar.gz"
   },
   "jdk@graalvm-oracle": {
-    "21": "tgz+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_linux-x64_bin.tar.gz"
+    "21": "tgz+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_linux-x64_bin.tar.gz",
+    "23": "tgz+https://download.oracle.com/graalvm/23/latest/graalvm-jdk-23_linux-x64_bin.tar.gz"
   },
   "jdk@ibm-semeru-openj9-java11": {
     "11.0.12+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_linux_11.0.12_7_openj9-0.27.0.tar.gz",
@@ -662,7 +669,8 @@
     "21.0.4+7_openj9-0.46.1": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.4%2B7_openj9-0.46.1/ibm-semeru-open-jdk_x64_linux_21.0.4_7_openj9-0.46.1.tar.gz"
   },
   "jdk@java-oracle": {
-    "21": "tgz+https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz"
+    "21": "tgz+https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz",
+    "23": "tgz+https://download.oracle.com/java/23/latest/jdk-23_linux-x64_bin.tar.gz"
   },
   "jdk@liberica": {
     "10.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/10.0.2.amd64/bellsoft-jdk10.0.2-linux-amd64.tar.gz",

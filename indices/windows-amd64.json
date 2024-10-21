@@ -455,6 +455,11 @@
     "21.0.3.9.1": "zip+https://corretto.aws/downloads/resources/21.0.3.9.1/amazon-corretto-21.0.3.9.1-windows-x64-jdk.zip",
     "21.0.4.7.1": "zip+https://corretto.aws/downloads/resources/21.0.4.7.1/amazon-corretto-21.0.4.7.1-windows-x64-jdk.zip",
     "21.0.5.11.1": "zip+https://corretto.aws/downloads/resources/21.0.5.11.1/amazon-corretto-21.0.5.11.1-windows-x64-jdk.zip",
+    "22.0.0.36.2": "zip+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-windows-x64-jdk.zip",
+    "22.0.1.8.1": "zip+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-windows-x64-jdk.zip",
+    "22.0.2.9.1": "zip+https://corretto.aws/downloads/resources/22.0.2.9.1/amazon-corretto-22.0.2.9.1-windows-x64-jdk.zip",
+    "23.0.0.37.1": "zip+https://corretto.aws/downloads/resources/23.0.0.37.1/amazon-corretto-23.0.0.37.1-windows-x64-jdk.zip",
+    "23.0.1.8.1": "zip+https://corretto.aws/downloads/resources/23.0.1.8.1/amazon-corretto-23.0.1.8.1-windows-x64-jdk.zip",
     "8.232.09.1": "zip+https://corretto.aws/downloads/resources/8.232.09.1/amazon-corretto-8.232.09.1-windows-x64-jdk.zip",
     "8.242.07.1": "zip+https://corretto.aws/downloads/resources/8.242.07.1/amazon-corretto-8.242.07.1-windows-x64-jdk.zip",
     "8.242.08.1": "zip+https://corretto.aws/downloads/resources/8.242.08.1/amazon-corretto-8.242.08.1-windows-x64-jdk.zip",
@@ -603,7 +608,8 @@
     "23.0.1": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.1/graalvm-community-jdk-23.0.1_windows-x64_bin.zip"
   },
   "jdk@graalvm-oracle": {
-    "21": "zip+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip"
+    "21": "zip+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip",
+    "23": "zip+https://download.oracle.com/graalvm/23/latest/graalvm-jdk-23_windows-x64_bin.zip"
   },
   "jdk@ibm-semeru-openj9-java11": {
     "11.0.12+7_openj9-0.27.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_11.0.12_7_openj9-0.27.0.zip",
@@ -649,7 +655,8 @@
     "21.0.4+7_openj9-0.46.1": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.4%2B7_openj9-0.46.1/ibm-semeru-open-jdk_x64_windows_21.0.4_7_openj9-0.46.1.zip"
   },
   "jdk@java-oracle": {
-    "21": "zip+https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.zip"
+    "21": "zip+https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.zip",
+    "23": "zip+https://download.oracle.com/java/23/latest/jdk-23_windows-x64_bin.zip"
   },
   "jdk@liberica": {
     "11.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-windows-amd64.zip",
