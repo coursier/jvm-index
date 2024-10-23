@@ -4,12 +4,11 @@ import Index.{Arch, Os}
 
 object IbmSemeru {
 
-  def fullIndex(ghToken: String): Index = {
-    val ibmsemeruJdk11Index0 = index(ghToken, "11")
-    val ibmsemeruJdk17Index0 = index(ghToken, "17")
-    val ibmsemeruJdk21Index0 = index(ghToken, "21")
-    ibmsemeruJdk11Index0 + ibmsemeruJdk17Index0 + ibmsemeruJdk21Index0
-  }
+  def fullIndex(ghToken: String): Index =
+    (Iterator("8", "11") ++ Iterator.from(16).map(_.toString))
+      .map(index(ghToken, _))
+      .takeWhile(!_.isEmpty)
+      .foldLeft(Index.empty)(_ + _)
 
   def index(
     ghToken: String,
@@ -50,11 +49,17 @@ object IbmSemeru {
         case _                                  => None
 
     val indices = releases0
-      .filter(release => release.tagName.startsWith(s"jdk-$javaVersion"))
+      .filter { release =>
+        release.tagName.startsWith((if (javaVersion == "8") "jdk" else "jdk-") + javaVersion)
+      }
       .flatMap { release =>
-        val version         = release.tagName.stripPrefix("jdk-")
-        val shortVersion    = release.tagName.stripPrefix("jdk-").takeWhile(_ != '+')
-        val assetNamePrefix = s"ibm-semeru-open-jdk_"
+        val version =
+          if (javaVersion == "8")
+            release.tagName.stripPrefix("jdk").split("-b").apply(0).replace("8u", "8.0.")
+          else
+            release.tagName.stripPrefix("jdk-")
+        val shortVersion    = version.takeWhile(_ != '+')
+        val assetNamePrefix = "ibm-semeru-open-jdk_"
         val assets          = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.tagName)
         assets
           .filter(asset => asset.name.startsWith(assetNamePrefix))
@@ -64,9 +69,9 @@ object IbmSemeru {
             val shortName = "jdk@ibm-semeru"
             val opt =
               for {
-                (arch, rem)        <- archOpt(assetName).toSeq
-                (os, rem0)         <- osOpt(rem).toSeq
-                (archiveType, ver) <- archiveTypeOpt(rem0).toSeq
+                (arch, rem)      <- archOpt(assetName).toSeq
+                (os, rem0)       <- osOpt(rem).toSeq
+                (archiveType, _) <- archiveTypeOpt(rem0).toSeq
               } yield Seq(
                 Index(os, arch, name, version, archiveType + "+" + asset.downloadUrl),
                 Index(os, arch, shortName, shortVersion, archiveType + "+" + asset.downloadUrl)
