@@ -1,5 +1,5 @@
 {
-  "jdk@liberica": {
+  "liberica": {
     "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-linux-i586.tar.gz",
     "8.0.212": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jdk8u212-linux-i586.tar.gz",
     "8.0.222": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u222/bellsoft-jdk8u222-linux-i586.tar.gz",
@@ -110,7 +110,7 @@
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-i586.tar.gz",
     "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-i586.tar.gz"
   },
-  "jdk@liberica-full": {
+  "liberica-full": {
     "8.0.242": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-linux-i586-full.tar.gz",
     "8.0.252": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jdk8u252+9-linux-i586-full.tar.gz",
     "8.0.262": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jdk8u262+10-linux-i586-full.tar.gz",
@@ -136,7 +136,7 @@
     "8.0.422": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jdk8u422+6-linux-i586-full.tar.gz",
     "8.0.432": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u432+7/bellsoft-jdk8u432+7-linux-i586-full.tar.gz"
   },
-  "jdk@liberica-jre": {
+  "liberica-jre": {
     "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-linux-i586.tar.gz",
     "8.0.212": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jre8u212-linux-i586.tar.gz",
     "8.0.222": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u222/bellsoft-jre8u222-linux-i586.tar.gz",
@@ -241,7 +241,7 @@
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-i586.tar.gz",
     "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jre23.0.1+13-linux-i586.tar.gz"
   },
-  "jdk@liberica-jre-full": {
+  "liberica-jre-full": {
     "8.0.242": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-linux-i586-full.tar.gz",
     "8.0.252": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jre8u252+9-linux-i586-full.tar.gz",
     "8.0.262": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jre8u262+10-linux-i586-full.tar.gz",
@@ -267,7 +267,7 @@
     "8.0.422": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jre8u422+6-linux-i586-full.tar.gz",
     "8.0.432": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u432+7/bellsoft-jre8u432+7-linux-i586-full.tar.gz"
   },
-  "jdk@liberica-lite": {
+  "liberica-lite": {
     "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-i586-lite.tar.gz",
     "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-i586-lite.tar.gz",
     "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-i586-lite.tar.gz",
@@ -366,7 +366,7 @@
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-i586-lite.tar.gz",
     "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-i586-lite.tar.gz"
   },
-  "jdk@zulu": {
+  "zulu": {
     "7.0.262": "tgz+https://cdn.azul.com/zulu/bin/zulu7.38.0.11-ca-jdk7.0.262-linux_i686.tar.gz",
     "7.0.272": "tgz+https://cdn.azul.com/zulu/bin/zulu7.40.0.15-ca-jdk7.0.272-linux_i686.tar.gz",
     "7.0.282": "tgz+https://cdn.azul.com/zulu/bin/zulu7.42.0.13-ca-jdk7.0.282-linux_i686.tar.gz",
@@ -491,7 +491,7 @@
     "18.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jdk18.0.2-linux_i686.tar.gz",
     "19.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu19.28.81-ca-jdk19.0.0-linux_i686.tar.gz"
   },
-  "jdk@zulu-jre": {
+  "zulu-jre": {
     "7.0.262": "tgz+https://cdn.azul.com/zulu/bin/zulu7.38.0.11-ca-jre7.0.262-linux_i686.tar.gz",
     "7.0.272": "tgz+https://cdn.azul.com/zulu/bin/zulu7.40.0.15-ca-jre7.0.272-linux_i686.tar.gz",
     "7.0.282": "tgz+https://cdn.azul.com/zulu/bin/zulu7.42.0.13-ca-jre7.0.282-linux_i686.tar.gz",

@@ -1,5 +1,5 @@
 {
-  "jdk@liberica": {
+  "liberica": {
     "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-solaris-x64.tar.gz",
     "8.0.212": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jdk8u212-solaris-x64.tar.gz",
     "8.0.222": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u222/bellsoft-jdk8u222-solaris-x64.tar.gz",
@@ -62,7 +62,7 @@
     "12.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/12.0.2/bellsoft-jdk12.0.2-solaris-x64.tar.gz",
     "13.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jdk13.0.1+10-solaris-x64.tar.gz"
   },
-  "jdk@liberica-jre": {
+  "liberica-jre": {
     "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-solaris-x64.tar.gz",
     "8.0.212": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jre8u212-solaris-x64.tar.gz",
     "8.0.222": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u222/bellsoft-jre8u222-solaris-x64.tar.gz",
@@ -115,7 +115,7 @@
     "11.1.16": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-solaris-x64.tar.gz",
     "11.1.20": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-solaris-x64.tar.gz"
   },
-  "jdk@liberica-lite": {
+  "liberica-lite": {
     "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-solaris-x64-lite.tar.gz",
     "8.0.312": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-solaris-x64-lite.tar.gz",
     "8.0.322": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-solaris-x64-lite.tar.gz",
