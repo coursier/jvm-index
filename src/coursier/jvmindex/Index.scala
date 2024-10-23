@@ -29,7 +29,14 @@ final case class Index(map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
       case (os, osMap) =>
         osMap.map {
           case (arch, osArchMap) =>
-            ((os, arch), OsArchIndex(osArchMap))
+            val cleanedUp = osArchMap.map {
+              case (jdkName, map) =>
+                jdkName.stripPrefix("jdk@") -> map.map {
+                  case (version, url) =>
+                    (version.stripPrefix("1."), url)
+                }
+            }
+            ((os, arch), OsArchIndex(cleanedUp))
         }
     }
 
