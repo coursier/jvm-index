@@ -1,5 +1,5 @@
 {
-  "jdk@liberica": {
+  "liberica": {
     "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-windows-aarch64.zip",
     "11.0.12": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.12+7/bellsoft-jdk11.0.12+7-windows-aarch64.zip",
     "11.0.13": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.13+8/bellsoft-jdk11.0.13+8-windows-aarch64.zip",
@@ -61,7 +61,7 @@
     "23.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jdk23+38-windows-aarch64.zip",
     "23.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-windows-aarch64.zip"
   },
-  "jdk@liberica-full": {
+  "liberica-full": {
     "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-windows-aarch64-full.zip",
     "11.0.12": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.12+7/bellsoft-jdk11.0.12+7-windows-aarch64-full.zip",
     "11.0.13": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.13+8/bellsoft-jdk11.0.13+8-windows-aarch64-full.zip",
@@ -123,7 +123,7 @@
     "23.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jdk23+38-windows-aarch64-full.zip",
     "23.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-windows-aarch64-full.zip"
   },
-  "jdk@liberica-jre": {
+  "liberica-jre": {
     "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jre11.0.11+9-windows-aarch64.zip",
     "11.0.12": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.12+7/bellsoft-jre11.0.12+7-windows-aarch64.zip",
     "11.0.13": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.13+8/bellsoft-jre11.0.13+8-windows-aarch64.zip",
@@ -185,7 +185,7 @@
     "23.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jre23+38-windows-aarch64.zip",
     "23.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jre23.0.1+13-windows-aarch64.zip"
   },
-  "jdk@liberica-jre-full": {
+  "liberica-jre-full": {
     "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jre11.0.11+9-windows-aarch64-full.zip",
     "11.0.12": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.12+7/bellsoft-jre11.0.12+7-windows-aarch64-full.zip",
     "11.0.13": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.13+8/bellsoft-jre11.0.13+8-windows-aarch64-full.zip",
@@ -247,7 +247,7 @@
     "23.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jre23+38-windows-aarch64-full.zip",
     "23.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jre23.0.1+13-windows-aarch64-full.zip"
   },
-  "jdk@liberica-lite": {
+  "liberica-lite": {
     "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-windows-aarch64-lite.zip",
     "11.0.12": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.12+7/bellsoft-jdk11.0.12+7-windows-aarch64-lite.zip",
     "11.0.13": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.13+8/bellsoft-jdk11.0.13+8-windows-aarch64-lite.zip",
@@ -309,7 +309,7 @@
     "23.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jdk23+38-windows-aarch64-lite.zip",
     "23.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-windows-aarch64-lite.zip"
   },
-  "jdk@zulu": {
+  "zulu": {
     "16.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu16.30.17-ca-jdk16.0.1-win_aarch64.zip",
     "16.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu16.32.15-ca-jdk16.0.2-win_aarch64.zip",
     "17.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu17.28.13-ca-jdk17.0.0-win_aarch64.zip",
@@ -334,7 +334,7 @@
     "21.0.4": "zip+https://cdn.azul.com/zulu/bin/zulu21.36.17-ca-jdk21.0.4-win_aarch64.zip",
     "21.0.5": "zip+https://cdn.azul.com/zulu/bin/zulu21.38.21-ca-jdk21.0.5-win_aarch64.zip"
   },
-  "jdk@zulu-jre": {
+  "zulu-jre": {
     "16.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu16.30.17-ca-jre16.0.1-win_aarch64.zip",
     "16.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu16.32.15-ca-jre16.0.2-win_aarch64.zip"
   }
