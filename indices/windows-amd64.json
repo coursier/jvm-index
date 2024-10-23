@@ -201,7 +201,8 @@
     "1.22": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_x64_windows_hotspot_22_36.zip",
     "1.22.0.1": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jdk_x64_windows_hotspot_22.0.1_8.zip",
     "1.22.0.2": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_x64_windows_hotspot_22.0.2_9.zip",
-    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_x64_windows_hotspot_23_37.zip"
+    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_x64_windows_hotspot_23_37.zip",
+    "1.23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_x64_windows_hotspot_23.0.1_11.zip"
   },
   "jdk@adoptium-debugimage": {
     "1.8.0-302": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-debugimage_x64_windows_hotspot_8u302b08.zip",
@@ -272,7 +273,8 @@
     "1.22": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_x64_windows_hotspot_22_36.zip",
     "1.22.0.1": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-debugimage_x64_windows_hotspot_22.0.1_8.zip",
     "1.22.0.2": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-debugimage_x64_windows_hotspot_22.0.2_9.zip",
-    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_x64_windows_hotspot_23_37.zip"
+    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_x64_windows_hotspot_23_37.zip",
+    "1.23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-debugimage_x64_windows_hotspot_23.0.1_11.zip"
   },
   "jdk@adoptium-jre": {
     "1.8.0-302": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jre_x64_windows_hotspot_8u302b08.zip",
@@ -355,7 +357,8 @@
     "1.22": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_x64_windows_hotspot_22_36.zip",
     "1.22.0.1": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jre_x64_windows_hotspot_22.0.1_8.zip",
     "1.22.0.2": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_x64_windows_hotspot_22.0.2_9.zip",
-    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_x64_windows_hotspot_23_37.zip"
+    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_x64_windows_hotspot_23_37.zip",
+    "1.23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_x64_windows_hotspot_23.0.1_11.zip"
   },
   "jdk@adoptium-testimage": {
     "1.11.0.12": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_x64_windows_hotspot_11.0.12_7.zip",
@@ -398,7 +401,8 @@
     "1.22": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-testimage_x64_windows_hotspot_22_36.zip",
     "1.22.0.1": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-testimage_x64_windows_hotspot_22.0.1_8.zip",
     "1.22.0.2": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-testimage_x64_windows_hotspot_22.0.2_9.zip",
-    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_x64_windows_hotspot_23_37.zip"
+    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_x64_windows_hotspot_23_37.zip",
+    "1.23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-testimage_x64_windows_hotspot_23.0.1_11.zip"
   },
   "jdk@corretto": {
     "8.232.09.1": "zip+https://corretto.aws/downloads/resources/8.232.09.1/amazon-corretto-8.232.09.1-windows-x64-jdk.zip",
@@ -1255,7 +1259,8 @@
     "1.22": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_x64_windows_hotspot_22_36.zip",
     "1.22.0.1": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jdk_x64_windows_hotspot_22.0.1_8.zip",
     "1.22.0.2": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_x64_windows_hotspot_22.0.2_9.zip",
-    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_x64_windows_hotspot_23_37.zip"
+    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_x64_windows_hotspot_23_37.zip",
+    "1.23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_x64_windows_hotspot_23.0.1_11.zip"
   },
   "jdk@temurin-debugimage": {
     "1.8.0-302": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-debugimage_x64_windows_hotspot_8u302b08.zip",
@@ -1326,7 +1331,8 @@
     "1.22": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_x64_windows_hotspot_22_36.zip",
     "1.22.0.1": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-debugimage_x64_windows_hotspot_22.0.1_8.zip",
     "1.22.0.2": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-debugimage_x64_windows_hotspot_22.0.2_9.zip",
-    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_x64_windows_hotspot_23_37.zip"
+    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_x64_windows_hotspot_23_37.zip",
+    "1.23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-debugimage_x64_windows_hotspot_23.0.1_11.zip"
   },
   "jdk@temurin-jre": {
     "1.8.0-302": "zip+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jre_x64_windows_hotspot_8u302b08.zip",
@@ -1394,7 +1400,8 @@
     "1.22": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_x64_windows_hotspot_22_36.zip",
     "1.22.0.1": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jre_x64_windows_hotspot_22.0.1_8.zip",
     "1.22.0.2": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_x64_windows_hotspot_22.0.2_9.zip",
-    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_x64_windows_hotspot_23_37.zip"
+    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_x64_windows_hotspot_23_37.zip",
+    "1.23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_x64_windows_hotspot_23.0.1_11.zip"
   },
   "jdk@temurin-testimage": {
     "1.11.0.12": "zip+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_x64_windows_hotspot_11.0.12_7.zip",
@@ -1428,7 +1435,8 @@
     "1.22": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-testimage_x64_windows_hotspot_22_36.zip",
     "1.22.0.1": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-testimage_x64_windows_hotspot_22.0.1_8.zip",
     "1.22.0.2": "zip+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-testimage_x64_windows_hotspot_22.0.2_9.zip",
-    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_x64_windows_hotspot_23_37.zip"
+    "1.23": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_x64_windows_hotspot_23_37.zip",
+    "1.23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-testimage_x64_windows_hotspot_23.0.1_11.zip"
   },
   "jdk@zulu": {
     "6.0.47": "zip+https://cdn.azul.com/zulu/bin/zulu6.3.0.3-ca-jdk6.0.47-win_x64.zip",
