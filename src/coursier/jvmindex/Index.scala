@@ -25,23 +25,32 @@ final case class Index(map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
     Index.json4(map).render(indent = 2)
 
   def osArchIndices: Map[(Os, Arch), OsArchIndex] =
-    map.flatMap {
-      case (os, osMap) =>
-        osMap.map {
-          case (arch, osArchMap) =>
-            val cleanedUpOs =
-              if (os == Os("alpine-linux")) Os("linux-musl")
-              else os
-            val cleanedUp = osArchMap.map {
-              case (jdkName, map) =>
-                jdkName.stripPrefix("jdk@") -> map.map {
-                  case (version, url) =>
-                    (version.stripPrefix("1."), url)
-                }
-            }
-            ((cleanedUpOs, arch), OsArchIndex(cleanedUp))
-        }
-    }
+    map
+      .toSeq
+      .flatMap {
+        case (os, osMap) =>
+          osMap.toSeq.map {
+            case (arch, osArchMap) =>
+              val cleanedUpOs =
+                if (os == Os("alpine-linux")) Os("linux-musl")
+                else os
+              val cleanedUp = osArchMap.map {
+                case (jdkName, map) =>
+                  jdkName.stripPrefix("jdk@") -> map.map {
+                    case (version, url) =>
+                      (version.stripPrefix("1."), url)
+                  }
+              }
+              ((cleanedUpOs, arch), OsArchIndex(cleanedUp))
+          }
+      }
+      .groupBy(_._1)
+      .map {
+        case (k, Seq()) => sys.error("Cannot happen after a groupMap")
+        case (k, Seq((_, v))) => k -> v
+        case (k, Seq(h, t @ _*)) =>
+          k -> OsArchIndex(t.map(_._2.map).foldLeft(h._2.map)(Index.merge2))
+      }
 
   def isEmpty: Boolean =
     map.isEmpty ||
