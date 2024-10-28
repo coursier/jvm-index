@@ -29,6 +29,9 @@ final case class Index(map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
       case (os, osMap) =>
         osMap.map {
           case (arch, osArchMap) =>
+            val cleanedUpOs =
+              if (os == Os("alpine-linux")) Os("linux-musl")
+              else os
             val cleanedUp = osArchMap.map {
               case (jdkName, map) =>
                 jdkName.stripPrefix("jdk@") -> map.map {
@@ -36,7 +39,7 @@ final case class Index(map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
                     (version.stripPrefix("1."), url)
                 }
             }
-            ((os, arch), OsArchIndex(cleanedUp))
+            ((cleanedUpOs, arch), OsArchIndex(cleanedUp))
         }
     }
 
