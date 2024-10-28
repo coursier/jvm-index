@@ -19,7 +19,7 @@ object GenerateIndex {
 
     val baseName = "index"
 
-    val dest = os.pwd / s"$baseName.json"
+    val dest = os.sub / s"$baseName.json"
 
     val pool = Executors.newFixedThreadPool(6)
 
@@ -46,13 +46,17 @@ object GenerateIndex {
         pool.shutdown()
 
     val json = index.json
-    os.write.over(dest, json)
+    os.write.over(os.pwd / dest, json)
     System.err.println(s"Wrote $dest")
 
+    val indicesDir = os.sub / "indices"
+
+    System.err.println(s"Removed $indicesDir")
+    os.remove.all(os.pwd / indicesDir)
     for (((os0, arch), osArchIndex) <- index.osArchIndices.toVector.sortBy(_._1)) {
-      val dest0 = os.pwd / "indices" / s"$os0-$arch.json"
+      val dest0 = indicesDir / s"$os0-$arch.json"
       val json0 = osArchIndex.json
-      os.write.over(dest0, json0, createFolders = true)
+      os.write.over(os.pwd / dest0, json0, createFolders = true)
       System.err.println(s"Wrote $dest0")
     }
   }
