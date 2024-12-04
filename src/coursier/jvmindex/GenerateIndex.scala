@@ -35,6 +35,7 @@ object GenerateIndex {
           Future(Temurin.fullIndex(GhToken.token)),
           Future(Zulu.index()),
           Future(Liberica.index()),
+          Future(LibericaNik.index()),
           Future(IbmSemeru.fullIndex(GhToken.token))
         )
 

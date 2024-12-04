@@ -8,22 +8,23 @@ capabilities of coursier.
 
 ## Available JDKs
 
-| JDK | id in index |
-|--------|-----|
-| [Eclipse Temurin](https://adoptium.net/temurin/releases) (recommended / default) | `temurin` |
-| [GraalVM community](https://github.com/graalvm/graalvm-ce-builds/releases) | `graalvm-community` |
-| [Oracle JDKs](https://www.oracle.com/java/technologies/downloads/) | `oracle` |
-| [Azul Zulu](https://www.azul.com/downloads/?package=jdk#zulu) | `zulu` |
-| [bellsoft Liberica](https://bell-sw.com/pages/downloads/) | `liberica` |
-| [Amazon Corretto](https://aws.amazon.com/corretto/) | `corretto` |
-| [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes/) | `ibm-semeru` |
+| JDK                                                                                  | id in index         |
+| ------------------------------------------------------------------------------------ | ------------------- |
+| [Eclipse Temurin](https://adoptium.net/temurin/releases) (recommended / default)     | `temurin`           |
+| [GraalVM community](https://github.com/graalvm/graalvm-ce-builds/releases)           | `graalvm-community` |
+| [Oracle JDKs](https://www.oracle.com/java/technologies/downloads/)                   | `oracle`            |
+| [Azul Zulu](https://www.azul.com/downloads/?package=jdk#zulu)                        | `zulu`              |
+| [bellsoft Liberica](https://bell-sw.com/pages/downloads/)                            | `liberica`          |
+| [bellsoft Liberica Native Image Kit](https://bell-sw.com/liberica-native-image-kit/) | `liberica-nik`      |
+| [Amazon Corretto](https://aws.amazon.com/corretto/)                                  | `corretto`          |
+| [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes/)              | `ibm-semeru`        |
 
 ## Legacy JDKs
 
-| JDK | id in index |
-|--------|-----|
-| AdoptOpenJDK | `adopt` |
-| Merge of AdoptOpenJDK and Eclipse Temurin JDKs | `adoptium` |
+| JDK                                            | id in index |
+| ---------------------------------------------- | ----------- |
+| AdoptOpenJDK                                   | `adopt`     |
+| Merge of AdoptOpenJDK and Eclipse Temurin JDKs | `adoptium`  |
 
 ## Index structure
 
@@ -57,6 +58,7 @@ That index consists in 4 nested JSON objects, with the successive keys of these 
   - `jdk@temurin`
   - `jdk@graalvm-community`
   - `jdk@liberica`
+  - `jdk@liberica-nik`
   - `jdk@zulu`
   - `jdk@corretto`
   - `jdk@java-oracle`
