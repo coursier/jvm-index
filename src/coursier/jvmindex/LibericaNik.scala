@@ -38,7 +38,7 @@ object LibericaNik {
 
     def indexJdkName = bundleType match {
       case "core"     => "jdk@liberica-nik-core"
-      case "standard" => "jdk@liberica-nik-std"
+      case "standard" => "jdk@liberica-nik"
       case "full"     => "jdk@liberica-nik-full"
       case x          => s"jdk@liberica-nik-$x"
     }
