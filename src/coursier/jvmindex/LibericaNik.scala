@@ -7,10 +7,7 @@ import Index.{Arch, Os}
 object LibericaNik {
 
   final case class LibericaNikEntry(
-    featureVersion: Int,
-    patchVersion: Int,
-    updateVersion: Int,
-    buildVersion: Int,
+    version: String,
     jdkVersion: String,
     bitness: Int,
     os: String,
@@ -19,7 +16,8 @@ object LibericaNik {
     packageType: String,
     architecture: String
   ) {
-    lazy val sortKey = (featureVersion, patchVersion, updateVersion, buildVersion, packageType)
+    lazy val sortKey =
+      (coursier.version.Version(version), coursier.version.Version(jdkVersion), packageType)
 
     def indexOs: Os = os match {
       case "macos" => Os("darwin")
@@ -39,10 +37,10 @@ object LibericaNik {
       semver.split('.').head.toInt
 
     def indexJdkName = bundleType match {
-      case "core"     => "jdk@liberica-nik-core-java" + javaVersion
-      case "standard" => "jdk@liberica-nik-std-java" + javaVersion
-      case "full"     => "jdk@liberica-nik-full-java" + javaVersion
-      case x          => s"jdk@liberica-nik-$x-java" + javaVersion
+      case "core"     => "jdk@liberica-nik-core"
+      case "standard" => "jdk@liberica-nik"
+      case "full"     => "jdk@liberica-nik-full"
+      case x          => s"jdk@liberica-nik-$x"
     }
 
     def indexUrl = {
@@ -56,57 +54,32 @@ object LibericaNik {
     def indexOpt: Option[Index] =
       if packageType == "zip" || packageType == "tar.gz" then
         indexArchOpt.map { indexArch =>
-          Index(indexOs, indexArch, indexJdkName, jdkVersion, indexUrl)
+          Index(indexOs, indexArch, indexJdkName, jdkVersion.takeWhile(_ != '+'), indexUrl)
         }
       else
         None
   }
 
   object LibericaNikEntry {
-    def couldNotFindJdkVersion(obj: ujson.Obj) =
-      throw Exception(s"Could not find jdkVersion in '$obj'")
+    def apply(obj: ujson.Obj): Option[LibericaNikEntry] =
+      val jdkVersionOpt = obj("components")
+        .arr
+        .filter(_.obj("component").str == "liberica")
+        .headOption
+        .map(_.obj("version").str)
 
-    def apply(obj: ujson.Obj): LibericaNikEntry =
-      val versionStr = obj("version").str
-
-      val buildVersionMaybe = versionStr.split('+')
-      val semver            = buildVersionMaybe(0)
-      val buildVersion = if buildVersionMaybe.length == 2 then buildVersionMaybe(1).toInt else 0
-      val (updateVersion, featureVersion, patchVersion) =
-        semver.split('.') match {
-          case Array(updateVersion, featureVersion, patchVersion, _) =>
-            (updateVersion.toInt, featureVersion.toInt, patchVersion.toInt)
-          case Array(updateVersion, featureVersion, patchVersion) =>
-            (updateVersion.toInt, featureVersion.toInt, patchVersion.toInt)
-          case Array(updateVersion, featureVersion) =>
-            (updateVersion.toInt, featureVersion.toInt, 0)
-          case Array(updateVersion) =>
-            (updateVersion.toInt, 0, 0)
-          case _ =>
-            throw Exception(s"Could not parse '$semver'")
-        }
-
-      val jdkVersion =
-        obj("components")
-          .arr
-          .filter(_.obj("component").str == "liberica")
-          .headOption
-          .map(_.obj("version").str)
-          .getOrElse(couldNotFindJdkVersion(obj))
-
-      LibericaNikEntry(
-        featureVersion = featureVersion,
-        patchVersion = patchVersion,
-        updateVersion = updateVersion,
-        buildVersion = buildVersion,
-        jdkVersion = jdkVersion,
-        bitness = obj("bitness").num.toInt,
-        os = obj("os").str,
-        url = obj("downloadUrl").str,
-        bundleType = obj("bundleType").str,
-        packageType = obj("packageType").str,
-        architecture = obj("architecture").str
-      )
+      jdkVersionOpt.map { jdkVersion =>
+        LibericaNikEntry(
+          version = obj("version").str.split('+').head,
+          jdkVersion = jdkVersion,
+          bitness = obj("bitness").num.toInt,
+          os = obj("os").str,
+          url = obj("downloadUrl").str,
+          bundleType = obj("bundleType").str,
+          packageType = obj("packageType").str,
+          architecture = obj("architecture").str
+        )
+      }
   }
 
   def index(): Index = {
@@ -133,7 +106,7 @@ object LibericaNik {
     json
       .arr
       .toArray
-      .map(elem => LibericaNikEntry(elem.obj))
+      .flatMap(elem => LibericaNikEntry(elem.obj).toSeq)
       .sortBy(_.sortKey)
       .iterator
       .flatMap(_.indexOpt.iterator)
