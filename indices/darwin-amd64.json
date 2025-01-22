@@ -430,6 +430,7 @@
     "8.412.08.1": "tgz+https://corretto.aws/downloads/resources/8.412.08.1/amazon-corretto-8.412.08.1-macosx-x64.tar.gz",
     "8.422.05.1": "tgz+https://corretto.aws/downloads/resources/8.422.05.1/amazon-corretto-8.422.05.1-macosx-x64.tar.gz",
     "8.432.06.1": "tgz+https://corretto.aws/downloads/resources/8.432.06.1/amazon-corretto-8.432.06.1-macosx-x64.tar.gz",
+    "8.442.06.1": "tgz+https://corretto.aws/downloads/resources/8.442.06.1/amazon-corretto-8.442.06.1-macosx-x64.tar.gz",
     "11.0.4.11.1": "tgz+https://corretto.aws/downloads/resources/11.0.4.11.1/amazon-corretto-11.0.4.11.1-macosx-x64.tar.gz",
     "11.0.5.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.5.10.1/amazon-corretto-11.0.5.10.1-macosx-x64.tar.gz",
     "11.0.5.10.2": "tgz+https://corretto.aws/downloads/resources/11.0.5.10.2/amazon-corretto-11.0.5.10.2-macosx-x64.tar.gz",
@@ -459,6 +460,7 @@
     "11.0.23.9.1": "tgz+https://corretto.aws/downloads/resources/11.0.23.9.1/amazon-corretto-11.0.23.9.1-macosx-x64.tar.gz",
     "11.0.24.8.1": "tgz+https://corretto.aws/downloads/resources/11.0.24.8.1/amazon-corretto-11.0.24.8.1-macosx-x64.tar.gz",
     "11.0.25.9.1": "tgz+https://corretto.aws/downloads/resources/11.0.25.9.1/amazon-corretto-11.0.25.9.1-macosx-x64.tar.gz",
+    "11.0.26.4.1": "tgz+https://corretto.aws/downloads/resources/11.0.26.4.1/amazon-corretto-11.0.26.4.1-macosx-x64.tar.gz",
     "17.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-macosx-x64.tar.gz",
     "17.0.0.35.2": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.2/amazon-corretto-17.0.0.35.2-macosx-x64.tar.gz",
     "17.0.1.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.1.12.1/amazon-corretto-17.0.1.12.1-macosx-x64.tar.gz",
@@ -476,6 +478,7 @@
     "17.0.11.9.1": "tgz+https://corretto.aws/downloads/resources/17.0.11.9.1/amazon-corretto-17.0.11.9.1-macosx-x64.tar.gz",
     "17.0.12.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.12.7.1/amazon-corretto-17.0.12.7.1-macosx-x64.tar.gz",
     "17.0.13.11.1": "tgz+https://corretto.aws/downloads/resources/17.0.13.11.1/amazon-corretto-17.0.13.11.1-macosx-x64.tar.gz",
+    "17.0.14.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.14.7.1/amazon-corretto-17.0.14.7.1-macosx-x64.tar.gz",
     "18.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-macosx-x64.tar.gz",
     "18.0.1.10.1": "tgz+https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-macosx-x64.tar.gz",
     "18.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/18.0.2.9.1/amazon-corretto-18.0.2.9.1-macosx-x64.tar.gz",
@@ -492,11 +495,13 @@
     "21.0.3.9.1": "tgz+https://corretto.aws/downloads/resources/21.0.3.9.1/amazon-corretto-21.0.3.9.1-macosx-x64.tar.gz",
     "21.0.4.7.1": "tgz+https://corretto.aws/downloads/resources/21.0.4.7.1/amazon-corretto-21.0.4.7.1-macosx-x64.tar.gz",
     "21.0.5.11.1": "tgz+https://corretto.aws/downloads/resources/21.0.5.11.1/amazon-corretto-21.0.5.11.1-macosx-x64.tar.gz",
+    "21.0.6.7.1": "tgz+https://corretto.aws/downloads/resources/21.0.6.7.1/amazon-corretto-21.0.6.7.1-macosx-x64.tar.gz",
     "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-macosx-x64.tar.gz",
     "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-macosx-x64.tar.gz",
     "22.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/22.0.2.9.1/amazon-corretto-22.0.2.9.1-macosx-x64.tar.gz",
     "23.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/23.0.0.37.1/amazon-corretto-23.0.0.37.1-macosx-x64.tar.gz",
-    "23.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/23.0.1.8.1/amazon-corretto-23.0.1.8.1-macosx-x64.tar.gz"
+    "23.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/23.0.1.8.1/amazon-corretto-23.0.1.8.1-macosx-x64.tar.gz",
+    "23.0.2.7.1": "tgz+https://corretto.aws/downloads/resources/23.0.2.7.1/amazon-corretto-23.0.2.7.1-macosx-x64.tar.gz"
   },
   "graalvm": {
     "19.3.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java8-darwin-amd64-19.3.0.tar.gz",
@@ -528,7 +533,8 @@
     "22.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.1/graalvm-community-jdk-22.0.1_macos-x64_bin.tar.gz",
     "22.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-22.0.2/graalvm-community-jdk-22.0.2_macos-x64_bin.tar.gz",
     "23.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.0/graalvm-community-jdk-23.0.0_macos-x64_bin.tar.gz",
-    "23.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.1/graalvm-community-jdk-23.0.1_macos-x64_bin.tar.gz"
+    "23.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.1/graalvm-community-jdk-23.0.1_macos-x64_bin.tar.gz",
+    "23.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.2/graalvm-community-jdk-23.0.2_macos-x64_bin.tar.gz"
   },
   "graalvm-java11": {
     "19.3.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java11-darwin-amd64-19.3.0.tar.gz",
@@ -608,7 +614,8 @@
   },
   "graalvm-java23": {
     "23.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.0/graalvm-community-jdk-23.0.0_macos-x64_bin.tar.gz",
-    "23.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.1/graalvm-community-jdk-23.0.1_macos-x64_bin.tar.gz"
+    "23.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.1/graalvm-community-jdk-23.0.1_macos-x64_bin.tar.gz",
+    "23.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.2/graalvm-community-jdk-23.0.2_macos-x64_bin.tar.gz"
   },
   "graalvm-oracle": {
     "21": "tgz+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_macos-x64_bin.tar.gz",
@@ -747,7 +754,8 @@
     "22.0.2+9_openj9-0.46.0": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_x64_mac_22.0.2_9_openj9-0.46.0.tar.gz"
   },
   "ibm-semeru-openj9-java23": {
-    "23+37_openj9-0.47.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_x64_mac_23_37_openj9-0.47.0.tar.gz",
+    "23+37_openj9-0.47.0.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_x64_mac_23_37_openj9-0.47.0.tar.gz",
+    "23.0.1+11_openj9-0.49.0-m2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.49.0-m2/ibm-semeru-open-jdk_x64_mac_23.0.1_11_openj9-0.49.0-m2.tar.gz",
     "23.0.1+11_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_mac_23.0.1_11_openj9-0.48.0.tar.gz"
   },
   "ibm-semeru-openj9-java8": {
@@ -1758,6 +1766,7 @@
     "8.0.412": "tgz+https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jdk8.0.412-macosx_x64.tar.gz",
     "8.0.422": "tgz+https://cdn.azul.com/zulu/bin/zulu8.80.0.17-ca-jdk8.0.422-macosx_x64.tar.gz",
     "8.0.432": "tgz+https://cdn.azul.com/zulu/bin/zulu8.82.0.21-ca-jdk8.0.432-macosx_x64.tar.gz",
+    "8.0.442": "tgz+https://cdn.azul.com/zulu/bin/zulu8.84.0.15-ca-jdk8.0.442-macosx_x64.tar.gz",
     "9.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu9.0.0.15-ca-jdk9.0.0-macosx_x64.tar.gz",
     "9.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu9.0.1.3-jdk9.0.1-macosx_x64.tar.gz",
     "9.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu9.0.4.1-ca-jdk9.0.4-macosx_x64.tar.gz",
@@ -1790,6 +1799,7 @@
     "11.0.23": "tgz+https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jdk11.0.23-macosx_x64.tar.gz",
     "11.0.24": "tgz+https://cdn.azul.com/zulu/bin/zulu11.74.15-ca-jdk11.0.24-macosx_x64.tar.gz",
     "11.0.25": "tgz+https://cdn.azul.com/zulu/bin/zulu11.76.21-ca-jdk11.0.25-macosx_x64.tar.gz",
+    "11.0.26": "tgz+https://cdn.azul.com/zulu/bin/zulu11.78.15-ca-jdk11.0.26-macosx_x64.tar.gz",
     "12.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu12.1.3-ca-jdk12.0.0-macosx_x64.tar.gz",
     "12.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu12.2.3-ca-jdk12.0.1-macosx_x64.tar.gz",
     "12.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu12.3.11-ca-jdk12.0.2-macosx_x64.tar.gz",
@@ -1839,6 +1849,7 @@
     "17.0.11": "tgz+https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jdk17.0.11-macosx_x64.tar.gz",
     "17.0.12": "tgz+https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jdk17.0.12-macosx_x64.tar.gz",
     "17.0.13": "tgz+https://cdn.azul.com/zulu/bin/zulu17.54.21-ca-jdk17.0.13-macosx_x64.tar.gz",
+    "17.0.14": "tgz+https://cdn.azul.com/zulu/bin/zulu17.56.15-ca-jdk17.0.14-macosx_x64.tar.gz",
     "18.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jdk18.0.0-macosx_x64.tar.gz",
     "18.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu18.30.11-ca-jdk18.0.1-macosx_x64.tar.gz",
     "18.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jdk18.0.2-macosx_x64.tar.gz",
@@ -1854,11 +1865,13 @@
     "21.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-macosx_x64.tar.gz",
     "21.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu21.36.17-ca-jdk21.0.4-macosx_x64.tar.gz",
     "21.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu21.38.21-ca-jdk21.0.5-macosx_x64.tar.gz",
+    "21.0.6": "tgz+https://cdn.azul.com/zulu/bin/zulu21.40.17-ca-jdk21.0.6-macosx_x64.tar.gz",
     "22.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jdk22.0.0-macosx_x64.tar.gz",
     "22.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jdk22.0.1-macosx_x64.tar.gz",
     "22.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu22.32.17-ca-crac-jdk22.0.2-macosx_x64.tar.gz",
     "23.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu23.28.85-ca-crac-jdk23.0.0-macosx_x64.tar.gz",
-    "23.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu23.30.13-ca-jdk23.0.1-macosx_x64.tar.gz"
+    "23.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu23.30.13-ca-jdk23.0.1-macosx_x64.tar.gz",
+    "23.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu23.32.11-ca-jdk23.0.2-macosx_x64.tar.gz"
   },
   "zulu-jre": {
     "7.0.252": "tgz+https://cdn.azul.com/zulu/bin/zulu7.36.0.5-ca-jre7.0.252-macosx_x64.tar.gz",
@@ -1899,6 +1912,7 @@
     "8.0.412": "tgz+https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jre8.0.412-macosx_x64.tar.gz",
     "8.0.422": "tgz+https://cdn.azul.com/zulu/bin/zulu8.80.0.17-ca-jre8.0.422-macosx_x64.tar.gz",
     "8.0.432": "tgz+https://cdn.azul.com/zulu/bin/zulu8.82.0.21-ca-jre8.0.432-macosx_x64.tar.gz",
+    "8.0.442": "tgz+https://cdn.azul.com/zulu/bin/zulu8.84.0.15-ca-jre8.0.442-macosx_x64.tar.gz",
     "9.0.0": "tgz+https://cdn.azul.com/zulu/bin/zre9.0.0.15-jre9.0.0-macosx_x64.tar.gz",
     "11.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu11.31.11-ca-jre11.0.3-macosx_x64.tar.gz",
     "11.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu11.33.15-ca-jre11.0.4-macosx_x64.tar.gz",
@@ -1923,6 +1937,7 @@
     "11.0.23": "tgz+https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jre11.0.23-macosx_x64.tar.gz",
     "11.0.24": "tgz+https://cdn.azul.com/zulu/bin/zulu11.74.15-ca-jre11.0.24-macosx_x64.tar.gz",
     "11.0.25": "tgz+https://cdn.azul.com/zulu/bin/zulu11.76.21-ca-jre11.0.25-macosx_x64.tar.gz",
+    "11.0.26": "tgz+https://cdn.azul.com/zulu/bin/zulu11.78.15-ca-jre11.0.26-macosx_x64.tar.gz",
     "13.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu13.28.11-ca-jre13.0.1-macosx_x64.tar.gz",
     "13.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu13.29.9-ca-jre13.0.2-macosx_x64.tar.gz",
     "13.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu13.31.11-ca-jre13.0.3-macosx_x64.tar.gz",
@@ -1967,6 +1982,7 @@
     "17.0.11": "tgz+https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jre17.0.11-macosx_x64.tar.gz",
     "17.0.12": "tgz+https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jre17.0.12-macosx_x64.tar.gz",
     "17.0.13": "tgz+https://cdn.azul.com/zulu/bin/zulu17.54.21-ca-jre17.0.13-macosx_x64.tar.gz",
+    "17.0.14": "tgz+https://cdn.azul.com/zulu/bin/zulu17.56.15-ca-jre17.0.14-macosx_x64.tar.gz",
     "18.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jre18.0.0-macosx_x64.tar.gz",
     "18.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu18.30.11-ca-jre18.0.1-macosx_x64.tar.gz",
     "18.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jre18.0.2-macosx_x64.tar.gz",
@@ -1982,10 +1998,12 @@
     "21.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu21.34.19-ca-jre21.0.3-macosx_x64.tar.gz",
     "21.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu21.36.17-ca-jre21.0.4-macosx_x64.tar.gz",
     "21.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu21.38.21-ca-jre21.0.5-macosx_x64.tar.gz",
+    "21.0.6": "tgz+https://cdn.azul.com/zulu/bin/zulu21.40.17-ca-jre21.0.6-macosx_x64.tar.gz",
     "22.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jre22.0.0-macosx_x64.tar.gz",
     "22.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jre22.0.1-macosx_x64.tar.gz",
     "22.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu22.32.15-ca-jre22.0.2-macosx_x64.tar.gz",
     "23.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu23.28.85-ca-jre23.0.0-macosx_x64.tar.gz",
-    "23.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu23.30.13-ca-jre23.0.1-macosx_x64.tar.gz"
+    "23.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu23.30.13-ca-jre23.0.1-macosx_x64.tar.gz",
+    "23.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu23.32.11-ca-jre23.0.2-macosx_x64.tar.gz"
   }
 }
