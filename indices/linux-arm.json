@@ -399,7 +399,8 @@
     "22.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-arm32-vfp-hflt.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-arm32-vfp-hflt.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-arm32-vfp-hflt.tar.gz",
-    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-arm32-vfp-hflt.tar.gz"
+    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-arm32-vfp-hflt.tar.gz",
+    "23.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-linux-arm32-vfp-hflt.tar.gz"
   },
   "liberica-full": {
     "11.0.6": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jdk11.0.6+10-linux-arm32-vfp-hflt-full.tar.gz",
@@ -476,7 +477,8 @@
     "22.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-arm32-vfp-hflt-full.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-arm32-vfp-hflt-full.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-arm32-vfp-hflt-full.tar.gz",
-    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-arm32-vfp-hflt-full.tar.gz"
+    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-arm32-vfp-hflt-full.tar.gz",
+    "23.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-linux-arm32-vfp-hflt-full.tar.gz"
   },
   "liberica-jre": {
     "9.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/9.0.1/bellsoft-jre9.0.1-linux-arm32-vfp-hflt.tar.gz",
@@ -560,7 +562,8 @@
     "22.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-linux-arm32-vfp-hflt.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jre22.0.1+12-linux-arm32-vfp-hflt.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-arm32-vfp-hflt.tar.gz",
-    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jre23.0.1+13-linux-arm32-vfp-hflt.tar.gz"
+    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jre23.0.1+13-linux-arm32-vfp-hflt.tar.gz",
+    "23.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jre23.0.2+9-linux-arm32-vfp-hflt.tar.gz"
   },
   "liberica-jre-full": {
     "11.0.6": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jre11.0.6+10-linux-arm32-vfp-hflt-full.tar.gz",
@@ -637,7 +640,8 @@
     "22.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-linux-arm32-vfp-hflt-full.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jre22.0.1+12-linux-arm32-vfp-hflt-full.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-arm32-vfp-hflt-full.tar.gz",
-    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jre23.0.1+13-linux-arm32-vfp-hflt-full.tar.gz"
+    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jre23.0.1+13-linux-arm32-vfp-hflt-full.tar.gz",
+    "23.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jre23.0.2+9-linux-arm32-vfp-hflt-full.tar.gz"
   },
   "liberica-lite": {
     "11.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-linux-arm32-vfp-hflt-lite.tar.gz",
@@ -725,7 +729,8 @@
     "22.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-arm32-vfp-hflt-lite.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-arm32-vfp-hflt-lite.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-arm32-vfp-hflt-lite.tar.gz",
-    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-arm32-vfp-hflt-lite.tar.gz"
+    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-arm32-vfp-hflt-lite.tar.gz",
+    "23.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-linux-arm32-vfp-hflt-lite.tar.gz"
   },
   "temurin": {
     "8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_arm_linux_hotspot_8u302b08.tar.gz",
