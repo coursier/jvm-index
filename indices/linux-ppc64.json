@@ -106,7 +106,8 @@
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-ppc64le.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-ppc64le.tar.gz",
     "23.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jdk23+38-linux-ppc64le.tar.gz",
-    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-ppc64le.tar.gz"
+    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-ppc64le.tar.gz",
+    "23.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-linux-ppc64le.tar.gz"
   },
   "liberica-jre": {
     "8.0.232": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u232+10/bellsoft-jre8u232+10-linux-ppc64le.tar.gz",
@@ -213,7 +214,8 @@
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jre22.0.1+12-linux-ppc64le.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-ppc64le.tar.gz",
     "23.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jre23+38-linux-ppc64le.tar.gz",
-    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jre23.0.1+13-linux-ppc64le.tar.gz"
+    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jre23.0.1+13-linux-ppc64le.tar.gz",
+    "23.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jre23.0.2+9-linux-ppc64le.tar.gz"
   },
   "liberica-lite": {
     "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-ppc64le-lite.tar.gz",
@@ -313,7 +315,8 @@
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-ppc64le-lite.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-ppc64le-lite.tar.gz",
     "23.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/23+38/bellsoft-jdk23+38-linux-ppc64le-lite.tar.gz",
-    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-ppc64le-lite.tar.gz"
+    "23.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-ppc64le-lite.tar.gz",
+    "23.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-linux-ppc64le-lite.tar.gz"
   },
   "zulu": {
     "8.0.232": "tgz+https://cdn.azul.com/zulu/bin/zulu8.42.0.196-ca-hl-jdk1.8.0_232-linux_ppc64.tar.gz",
