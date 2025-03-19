@@ -518,7 +518,8 @@
     "22.0.2.9.1": "zip+https://corretto.aws/downloads/resources/22.0.2.9.1/amazon-corretto-22.0.2.9.1-windows-x64-jdk.zip",
     "23.0.0.37.1": "zip+https://corretto.aws/downloads/resources/23.0.0.37.1/amazon-corretto-23.0.0.37.1-windows-x64-jdk.zip",
     "23.0.1.8.1": "zip+https://corretto.aws/downloads/resources/23.0.1.8.1/amazon-corretto-23.0.1.8.1-windows-x64-jdk.zip",
-    "23.0.2.7.1": "zip+https://corretto.aws/downloads/resources/23.0.2.7.1/amazon-corretto-23.0.2.7.1-windows-x64-jdk.zip"
+    "23.0.2.7.1": "zip+https://corretto.aws/downloads/resources/23.0.2.7.1/amazon-corretto-23.0.2.7.1-windows-x64-jdk.zip",
+    "24.0.0.36.2": "zip+https://corretto.aws/downloads/resources/24.0.0.36.2/amazon-corretto-24.0.0.36.2-windows-x64-jdk.zip"
   },
   "graalvm": {
     "19.3.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java8-windows-amd64-19.3.0.zip",
@@ -1992,7 +1993,8 @@
     "22.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu22.32.17-ca-crac-jdk22.0.2-win_x64.zip",
     "23.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu23.28.85-ca-jdk23.0.0-win_x64.zip",
     "23.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu23.30.13-ca-jdk23.0.1-win_x64.zip",
-    "23.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu23.32.11-ca-jdk23.0.2-win_x64.zip"
+    "23.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu23.32.11-ca-jdk23.0.2-win_x64.zip",
+    "24.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu24.28.83-ca-jdk24.0.0-win_x64.zip"
   },
   "zulu-jre": {
     "8.0.212": "zip+https://cdn.azul.com/zulu/bin/zulu8.38.0.13-ca-jre8.0.212-win_x64.zip",
@@ -2113,6 +2115,7 @@
     "22.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu22.32.15-ca-jre22.0.2-win_x64.zip",
     "23.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu23.28.85-ca-jre23.0.0-win_x64.zip",
     "23.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu23.30.13-ca-jre23.0.1-win_x64.zip",
-    "23.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu23.32.11-ca-jre23.0.2-win_x64.zip"
+    "23.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu23.32.11-ca-jre23.0.2-win_x64.zip",
+    "24.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu24.28.83-ca-jre24.0.0-win_x64.zip"
   }
 }
