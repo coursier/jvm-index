@@ -1448,7 +1448,8 @@
     "22.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.2+1-22.0.2+11/bellsoft-liberica-vm-openjdk22.0.2+11-24.0.2+1-linux-amd64.tar.gz",
     "23.0.0": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.0+1-23+38/bellsoft-liberica-vm-openjdk23+38-24.1.0+1-linux-amd64.tar.gz",
     "23.0.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.1+1-23.0.1+13/bellsoft-liberica-vm-openjdk23.0.1+13-24.1.1+1-linux-amd64.tar.gz",
-    "23.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.2+1-23.0.2+9/bellsoft-liberica-vm-openjdk23.0.2+9-24.1.2+1-linux-amd64.tar.gz"
+    "23.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.2+1-23.0.2+9/bellsoft-liberica-vm-openjdk23.0.2+9-24.1.2+1-linux-amd64.tar.gz",
+    "24.0.0": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.2.0+1-24+37/bellsoft-liberica-vm-openjdk24+37-24.2.0+1-linux-amd64.tar.gz"
   },
   "liberica-nik-core": {
     "11.0.11": "tgz+https://download.bell-sw.com/vm/21.1.0/bellsoft-liberica-vm-core-openjdk11-21.1.0-linux-amd64.tar.gz",
@@ -1538,7 +1539,8 @@
     "22.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.2+1-22.0.2+11/bellsoft-liberica-vm-full-openjdk22.0.2+11-24.0.2+1-linux-amd64.tar.gz",
     "23.0.0": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.0+1-23+38/bellsoft-liberica-vm-full-openjdk23+38-24.1.0+1-linux-amd64.tar.gz",
     "23.0.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.1+1-23.0.1+13/bellsoft-liberica-vm-full-openjdk23.0.1+13-24.1.1+1-linux-amd64.tar.gz",
-    "23.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.2+1-23.0.2+9/bellsoft-liberica-vm-full-openjdk23.0.2+9-24.1.2+1-linux-amd64.tar.gz"
+    "23.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.2+1-23.0.2+9/bellsoft-liberica-vm-full-openjdk23.0.2+9-24.1.2+1-linux-amd64.tar.gz",
+    "24.0.0": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.2.0+1-24+37/bellsoft-liberica-vm-full-openjdk24+37-24.2.0+1-linux-amd64.tar.gz"
   },
   "temurin": {
     "8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u302b08.tar.gz",

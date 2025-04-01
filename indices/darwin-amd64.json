@@ -1418,7 +1418,8 @@
     "22.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.2+1-22.0.2+11/bellsoft-liberica-vm-openjdk22.0.2+11-24.0.2+1-macos-amd64.zip",
     "23.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.0+1-23+38/bellsoft-liberica-vm-openjdk23+38-24.1.0+1-macos-amd64.zip",
     "23.0.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.1+1-23.0.1+13/bellsoft-liberica-vm-openjdk23.0.1+13-24.1.1+1-macos-amd64.zip",
-    "23.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.2+1-23.0.2+9/bellsoft-liberica-vm-openjdk23.0.2+9-24.1.2+1-macos-amd64.zip"
+    "23.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.2+1-23.0.2+9/bellsoft-liberica-vm-openjdk23.0.2+9-24.1.2+1-macos-amd64.zip",
+    "24.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.2.0+1-24+37/bellsoft-liberica-vm-openjdk24+37-24.2.0+1-macos-amd64.zip"
   },
   "liberica-nik-core": {
     "11.0.11": "zip+https://download.bell-sw.com/vm/21.1.0/bellsoft-liberica-vm-core-openjdk11-21.1.0-macos-amd64.zip",
@@ -1506,7 +1507,8 @@
     "22.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.2+1-22.0.2+11/bellsoft-liberica-vm-full-openjdk22.0.2+11-24.0.2+1-macos-amd64.zip",
     "23.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.0+1-23+38/bellsoft-liberica-vm-full-openjdk23+38-24.1.0+1-macos-amd64.zip",
     "23.0.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.1+1-23.0.1+13/bellsoft-liberica-vm-full-openjdk23.0.1+13-24.1.1+1-macos-amd64.zip",
-    "23.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.2+1-23.0.2+9/bellsoft-liberica-vm-full-openjdk23.0.2+9-24.1.2+1-macos-amd64.zip"
+    "23.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.2+1-23.0.2+9/bellsoft-liberica-vm-full-openjdk23.0.2+9-24.1.2+1-macos-amd64.zip",
+    "24.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.2.0+1-24+37/bellsoft-liberica-vm-full-openjdk24+37-24.2.0+1-macos-amd64.zip"
   },
   "temurin": {
     "8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_x64_mac_hotspot_8u302b08.tar.gz",
