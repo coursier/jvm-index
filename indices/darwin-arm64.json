@@ -223,6 +223,7 @@
     "8.422.05.1": "tgz+https://corretto.aws/downloads/resources/8.422.05.1/amazon-corretto-8.422.05.1-macosx-aarch64.tar.gz",
     "8.432.06.1": "tgz+https://corretto.aws/downloads/resources/8.432.06.1/amazon-corretto-8.432.06.1-macosx-aarch64.tar.gz",
     "8.442.06.1": "tgz+https://corretto.aws/downloads/resources/8.442.06.1/amazon-corretto-8.442.06.1-macosx-aarch64.tar.gz",
+    "8.452.09.1": "tgz+https://corretto.aws/downloads/resources/8.452.09.1/amazon-corretto-8.452.09.1-macosx-aarch64.tar.gz",
     "11.0.15.9.1": "tgz+https://corretto.aws/downloads/resources/11.0.15.9.1/amazon-corretto-11.0.15.9.1-macosx-aarch64.tar.gz",
     "11.0.16.8.1": "tgz+https://corretto.aws/downloads/resources/11.0.16.8.1/amazon-corretto-11.0.16.8.1-macosx-aarch64.tar.gz",
     "11.0.16.8.3": "tgz+https://corretto.aws/downloads/resources/11.0.16.8.3/amazon-corretto-11.0.16.8.3-macosx-aarch64.tar.gz",
@@ -238,6 +239,7 @@
     "11.0.24.8.1": "tgz+https://corretto.aws/downloads/resources/11.0.24.8.1/amazon-corretto-11.0.24.8.1-macosx-aarch64.tar.gz",
     "11.0.25.9.1": "tgz+https://corretto.aws/downloads/resources/11.0.25.9.1/amazon-corretto-11.0.25.9.1-macosx-aarch64.tar.gz",
     "11.0.26.4.1": "tgz+https://corretto.aws/downloads/resources/11.0.26.4.1/amazon-corretto-11.0.26.4.1-macosx-aarch64.tar.gz",
+    "11.0.27.6.1": "tgz+https://corretto.aws/downloads/resources/11.0.27.6.1/amazon-corretto-11.0.27.6.1-macosx-aarch64.tar.gz",
     "17.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-macosx-aarch64.tar.gz",
     "17.0.0.35.2": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.2/amazon-corretto-17.0.0.35.2-macosx-aarch64.tar.gz",
     "17.0.1.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.1.12.1/amazon-corretto-17.0.1.12.1-macosx-aarch64.tar.gz",
@@ -256,6 +258,7 @@
     "17.0.12.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.12.7.1/amazon-corretto-17.0.12.7.1-macosx-aarch64.tar.gz",
     "17.0.13.11.1": "tgz+https://corretto.aws/downloads/resources/17.0.13.11.1/amazon-corretto-17.0.13.11.1-macosx-aarch64.tar.gz",
     "17.0.14.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.14.7.1/amazon-corretto-17.0.14.7.1-macosx-aarch64.tar.gz",
+    "17.0.15.6.1": "tgz+https://corretto.aws/downloads/resources/17.0.15.6.1/amazon-corretto-17.0.15.6.1-macosx-aarch64.tar.gz",
     "18.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-macosx-aarch64.tar.gz",
     "18.0.1.10.1": "tgz+https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-macosx-aarch64.tar.gz",
     "18.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/18.0.2.9.1/amazon-corretto-18.0.2.9.1-macosx-aarch64.tar.gz",
@@ -273,13 +276,15 @@
     "21.0.4.7.1": "tgz+https://corretto.aws/downloads/resources/21.0.4.7.1/amazon-corretto-21.0.4.7.1-macosx-aarch64.tar.gz",
     "21.0.5.11.1": "tgz+https://corretto.aws/downloads/resources/21.0.5.11.1/amazon-corretto-21.0.5.11.1-macosx-aarch64.tar.gz",
     "21.0.6.7.1": "tgz+https://corretto.aws/downloads/resources/21.0.6.7.1/amazon-corretto-21.0.6.7.1-macosx-aarch64.tar.gz",
+    "21.0.7.6.1": "tgz+https://corretto.aws/downloads/resources/21.0.7.6.1/amazon-corretto-21.0.7.6.1-macosx-aarch64.tar.gz",
     "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-macosx-aarch64.tar.gz",
     "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-macosx-aarch64.tar.gz",
     "22.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/22.0.2.9.1/amazon-corretto-22.0.2.9.1-macosx-aarch64.tar.gz",
     "23.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/23.0.0.37.1/amazon-corretto-23.0.0.37.1-macosx-aarch64.tar.gz",
     "23.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/23.0.1.8.1/amazon-corretto-23.0.1.8.1-macosx-aarch64.tar.gz",
     "23.0.2.7.1": "tgz+https://corretto.aws/downloads/resources/23.0.2.7.1/amazon-corretto-23.0.2.7.1-macosx-aarch64.tar.gz",
-    "24.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/24.0.0.36.2/amazon-corretto-24.0.0.36.2-macosx-aarch64.tar.gz"
+    "24.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/24.0.0.36.2/amazon-corretto-24.0.0.36.2-macosx-aarch64.tar.gz",
+    "24.0.1.9.1": "tgz+https://corretto.aws/downloads/resources/24.0.1.9.1/amazon-corretto-24.0.1.9.1-macosx-aarch64.tar.gz"
   },
   "graalvm-community": {
     "17.0.7": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-17.0.7/graalvm-community-jdk-17.0.7_macos-aarch64_bin.tar.gz",
@@ -296,7 +301,8 @@
     "23.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.0/graalvm-community-jdk-23.0.0_macos-aarch64_bin.tar.gz",
     "23.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.1/graalvm-community-jdk-23.0.1_macos-aarch64_bin.tar.gz",
     "23.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.2/graalvm-community-jdk-23.0.2_macos-aarch64_bin.tar.gz",
-    "24.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.0/graalvm-community-jdk-24.0.0_macos-aarch64_bin.tar.gz"
+    "24.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.0/graalvm-community-jdk-24.0.0_macos-aarch64_bin.tar.gz",
+    "24.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.1/graalvm-community-jdk-24.0.1_macos-aarch64_bin.tar.gz"
   },
   "graalvm-java11": {
     "22.1.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.1.0/graalvm-ce-java11-darwin-aarch64-22.1.0.tar.gz",
@@ -337,7 +343,8 @@
     "23.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.2/graalvm-community-jdk-23.0.2_macos-aarch64_bin.tar.gz"
   },
   "graalvm-java24": {
-    "24.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.0/graalvm-community-jdk-24.0.0_macos-aarch64_bin.tar.gz"
+    "24.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.0/graalvm-community-jdk-24.0.0_macos-aarch64_bin.tar.gz",
+    "24.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.1/graalvm-community-jdk-24.0.1_macos-aarch64_bin.tar.gz"
   },
   "graalvm-oracle": {
     "21": "tgz+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_macos-aarch64_bin.tar.gz",
@@ -360,7 +367,6 @@
     "11.0.24": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.24%2B8_openj9-0.46.0/ibm-semeru-open-jdk_aarch64_mac_11.0.24_8_openj9-0.46.0.tar.gz",
     "11.0.25": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.25%2B9_openj9-0.48.0/ibm-semeru-open-jdk_aarch64_mac_11.0.25_9_openj9-0.48.0.tar.gz",
     "11.0.26": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.26%2B4_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_11.0.26_4_openj9-0.49.0.tar.gz",
-    "11.0.27": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B5_openj9-0.51.0-m2/ibm-semeru-open-jdk_aarch64_mac_11.0.27_5_openj9-0.51.0-m2.tar.gz",
     "17.0.3": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.3%2B7_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_17.0.3_7_openj9-0.32.0.tar.gz",
     "17.0.4": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.4%2B8_openj9-0.33.0/ibm-semeru-open-jdk_aarch64_mac_17.0.4_8_openj9-0.33.0.tar.gz",
     "17.0.4.1": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.4.1%2B1_openj9-0.33.1/ibm-semeru-open-jdk_aarch64_mac_17.0.4.1_1_openj9-0.33.1.tar.gz",
@@ -375,7 +381,6 @@
     "17.0.12": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.12%2B7_openj9-0.46.0/ibm-semeru-open-jdk_aarch64_mac_17.0.12_7_openj9-0.46.0.tar.gz",
     "17.0.13": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.13%2B11_openj9-0.48.0/ibm-semeru-open-jdk_aarch64_mac_17.0.13_11_openj9-0.48.0.tar.gz",
     "17.0.14": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.14%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_17.0.14_7_openj9-0.49.0.tar.gz",
-    "17.0.15": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B5_openj9-0.51.0-m2/ibm-semeru-open-jdk_aarch64_mac_17.0.15_5_openj9-0.51.0-m2.tar.gz",
     "18.0.1": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_18.0.1_10_openj9-0.32.0.tar.gz",
     "18.0.1.1": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1.1%2B2_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_18.0.1.1_2_openj9-0.32.0.tar.gz",
     "18.0.2": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.2%2B9_openj9-0.33.0/ibm-semeru-open-jdk_aarch64_mac_18.0.2_9_openj9-0.33.0.tar.gz",
@@ -388,7 +393,6 @@
     "21.0.4": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.4%2B7_openj9-0.46.0/ibm-semeru-open-jdk_aarch64_mac_21.0.4_7_openj9-0.46.0.tar.gz",
     "21.0.5": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.5%2B11_openj9-0.48.0/ibm-semeru-open-jdk_aarch64_mac_21.0.5_11_openj9-0.48.0.tar.gz",
     "21.0.6": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.6%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_21.0.6_7_openj9-0.49.0.tar.gz",
-    "21.0.7": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B5_openj9-0.51.0-m2/ibm-semeru-open-jdk_aarch64_mac_21.0.7_5_openj9-0.51.0-m2.tar.gz",
     "22.0.1": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_aarch64_mac_22.0.1_8_openj9-0.45.0.tar.gz",
     "22.0.2": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_aarch64_mac_22.0.2_9_openj9-0.46.0.tar.gz",
     "23.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_aarch64_mac_23_37_openj9-0.47.0.tar.gz",
@@ -410,8 +414,7 @@
     "11.0.24+8_openj9-0.46.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.24%2B8_openj9-0.46.0/ibm-semeru-open-jdk_aarch64_mac_11.0.24_8_openj9-0.46.0.tar.gz",
     "11.0.24+8_openj9-0.46.1": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.24%2B8_openj9-0.46.1/ibm-semeru-open-jdk_aarch64_mac_11.0.24_8_openj9-0.46.1.tar.gz",
     "11.0.25+9_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.25%2B9_openj9-0.48.0/ibm-semeru-open-jdk_aarch64_mac_11.0.25_9_openj9-0.48.0.tar.gz",
-    "11.0.26+4_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.26%2B4_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_11.0.26_4_openj9-0.49.0.tar.gz",
-    "11.0.27+5_openj9-0.51.0-m2": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B5_openj9-0.51.0-m2/ibm-semeru-open-jdk_aarch64_mac_11.0.27_5_openj9-0.51.0-m2.tar.gz"
+    "11.0.26+4_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.26%2B4_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_11.0.26_4_openj9-0.49.0.tar.gz"
   },
   "ibm-semeru-openj9-java17": {
     "17.0.3+7_openj9-0.32.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.3%2B7_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_17.0.3_7_openj9-0.32.0.tar.gz",
@@ -428,8 +431,7 @@
     "17.0.12+7_openj9-0.46.1": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.12%2B7_openj9-0.46.1/ibm-semeru-open-jdk_aarch64_mac_17.0.12_7_openj9-0.46.1.tar.gz",
     "17.0.12+7_openj9-0.46.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.12%2B7_openj9-0.46.0/ibm-semeru-open-jdk_aarch64_mac_17.0.12_7_openj9-0.46.0.tar.gz",
     "17.0.13+11_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.13%2B11_openj9-0.48.0/ibm-semeru-open-jdk_aarch64_mac_17.0.13_11_openj9-0.48.0.tar.gz",
-    "17.0.14+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.14%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_17.0.14_7_openj9-0.49.0.tar.gz",
-    "17.0.15+5_openj9-0.51.0-m2": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B5_openj9-0.51.0-m2/ibm-semeru-open-jdk_aarch64_mac_17.0.15_5_openj9-0.51.0-m2.tar.gz"
+    "17.0.14+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.14%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_17.0.14_7_openj9-0.49.0.tar.gz"
   },
   "ibm-semeru-openj9-java18": {
     "18.0.1+10_openj9-0.32.0": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_18.0.1_10_openj9-0.32.0.tar.gz",
@@ -451,8 +453,7 @@
     "21.0.4+7_openj9-0.46.1": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.4%2B7_openj9-0.46.1/ibm-semeru-open-jdk_aarch64_mac_21.0.4_7_openj9-0.46.1.tar.gz",
     "21.0.4+7_openj9-0.46.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.4%2B7_openj9-0.46.0/ibm-semeru-open-jdk_aarch64_mac_21.0.4_7_openj9-0.46.0.tar.gz",
     "21.0.5+11_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.5%2B11_openj9-0.48.0/ibm-semeru-open-jdk_aarch64_mac_21.0.5_11_openj9-0.48.0.tar.gz",
-    "21.0.6+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.6%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_21.0.6_7_openj9-0.49.0.tar.gz",
-    "21.0.7+5_openj9-0.51.0-m2": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B5_openj9-0.51.0-m2/ibm-semeru-open-jdk_aarch64_mac_21.0.7_5_openj9-0.51.0-m2.tar.gz"
+    "21.0.6+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.6%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_21.0.6_7_openj9-0.49.0.tar.gz"
   },
   "ibm-semeru-openj9-java22": {
     "22.0.1+8_openj9-0.45.0": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_aarch64_mac_22.0.1_8_openj9-0.45.0.tar.gz",
@@ -467,7 +468,6 @@
   },
   "java-oracle": {
     "21": "tgz+https://download.oracle.com/java/21/latest/jdk-21_macos-aarch64_bin.tar.gz",
-    "23": "tgz+https://download.oracle.com/java/23/latest/jdk-23_macos-aarch64_bin.tar.gz",
     "24": "tgz+https://download.oracle.com/java/24/latest/jdk-24_macos-aarch64_bin.tar.gz"
   },
   "liberica": {
