@@ -73,6 +73,7 @@
     "8.422.05.1": "tgz+https://corretto.aws/downloads/resources/8.422.05.1/amazon-corretto-8.422.05.1-alpine-linux-aarch64.tar.gz",
     "8.432.06.1": "tgz+https://corretto.aws/downloads/resources/8.432.06.1/amazon-corretto-8.432.06.1-alpine-linux-aarch64.tar.gz",
     "8.442.06.1": "tgz+https://corretto.aws/downloads/resources/8.442.06.1/amazon-corretto-8.442.06.1-alpine-linux-aarch64.tar.gz",
+    "8.452.09.1": "tgz+https://corretto.aws/downloads/resources/8.452.09.1/amazon-corretto-8.452.09.1-alpine-linux-aarch64.tar.gz",
     "11.0.19.7.1": "tgz+https://corretto.aws/downloads/resources/11.0.19.7.1/amazon-corretto-11.0.19.7.1-alpine-linux-aarch64.tar.gz",
     "11.0.20.8.1": "tgz+https://corretto.aws/downloads/resources/11.0.20.8.1/amazon-corretto-11.0.20.8.1-alpine-linux-aarch64.tar.gz",
     "11.0.20.9.1": "tgz+https://corretto.aws/downloads/resources/11.0.20.9.1/amazon-corretto-11.0.20.9.1-alpine-linux-aarch64.tar.gz",
@@ -82,6 +83,7 @@
     "11.0.24.8.1": "tgz+https://corretto.aws/downloads/resources/11.0.24.8.1/amazon-corretto-11.0.24.8.1-alpine-linux-aarch64.tar.gz",
     "11.0.25.9.1": "tgz+https://corretto.aws/downloads/resources/11.0.25.9.1/amazon-corretto-11.0.25.9.1-alpine-linux-aarch64.tar.gz",
     "11.0.26.4.1": "tgz+https://corretto.aws/downloads/resources/11.0.26.4.1/amazon-corretto-11.0.26.4.1-alpine-linux-aarch64.tar.gz",
+    "11.0.27.6.1": "tgz+https://corretto.aws/downloads/resources/11.0.27.6.1/amazon-corretto-11.0.27.6.1-alpine-linux-aarch64.tar.gz",
     "17.0.6.10.1": "tgz+https://corretto.aws/downloads/resources/17.0.6.10.1/amazon-corretto-17.0.6.10.1-alpine-linux-aarch64.tar.gz",
     "17.0.7.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.7.7.1/amazon-corretto-17.0.7.7.1-alpine-linux-aarch64.tar.gz",
     "17.0.8.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.8.7.1/amazon-corretto-17.0.8.7.1-alpine-linux-aarch64.tar.gz",
@@ -93,6 +95,7 @@
     "17.0.12.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.12.7.1/amazon-corretto-17.0.12.7.1-alpine-linux-aarch64.tar.gz",
     "17.0.13.11.1": "tgz+https://corretto.aws/downloads/resources/17.0.13.11.1/amazon-corretto-17.0.13.11.1-alpine-linux-aarch64.tar.gz",
     "17.0.14.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.14.7.1/amazon-corretto-17.0.14.7.1-alpine-linux-aarch64.tar.gz",
+    "17.0.15.6.1": "tgz+https://corretto.aws/downloads/resources/17.0.15.6.1/amazon-corretto-17.0.15.6.1-alpine-linux-aarch64.tar.gz",
     "19.0.2.7.1": "tgz+https://corretto.aws/downloads/resources/19.0.2.7.1/amazon-corretto-19.0.2.7.1-alpine-linux-aarch64.tar.gz",
     "20.0.0.36.1": "tgz+https://corretto.aws/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-alpine-linux-aarch64.tar.gz",
     "20.0.1.9.1": "tgz+https://corretto.aws/downloads/resources/20.0.1.9.1/amazon-corretto-20.0.1.9.1-alpine-linux-aarch64.tar.gz",
@@ -106,6 +109,7 @@
     "21.0.4.7.1": "tgz+https://corretto.aws/downloads/resources/21.0.4.7.1/amazon-corretto-21.0.4.7.1-alpine-linux-aarch64.tar.gz",
     "21.0.5.11.1": "tgz+https://corretto.aws/downloads/resources/21.0.5.11.1/amazon-corretto-21.0.5.11.1-alpine-linux-aarch64.tar.gz",
     "21.0.6.7.1": "tgz+https://corretto.aws/downloads/resources/21.0.6.7.1/amazon-corretto-21.0.6.7.1-alpine-linux-aarch64.tar.gz",
+    "21.0.7.6.1": "tgz+https://corretto.aws/downloads/resources/21.0.7.6.1/amazon-corretto-21.0.7.6.1-alpine-linux-aarch64.tar.gz",
     "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-alpine-linux-aarch64.tar.gz",
     "22.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/22.0.0.37.1/amazon-corretto-22.0.0.37.1-alpine-linux-aarch64.tar.gz",
     "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-alpine-linux-aarch64.tar.gz",
@@ -113,7 +117,8 @@
     "23.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/23.0.0.37.1/amazon-corretto-23.0.0.37.1-alpine-linux-aarch64.tar.gz",
     "23.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/23.0.1.8.1/amazon-corretto-23.0.1.8.1-alpine-linux-aarch64.tar.gz",
     "23.0.2.7.1": "tgz+https://corretto.aws/downloads/resources/23.0.2.7.1/amazon-corretto-23.0.2.7.1-alpine-linux-aarch64.tar.gz",
-    "24.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/24.0.0.36.2/amazon-corretto-24.0.0.36.2-alpine-linux-aarch64.tar.gz"
+    "24.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/24.0.0.36.2/amazon-corretto-24.0.0.36.2-alpine-linux-aarch64.tar.gz",
+    "24.0.1.9.1": "tgz+https://corretto.aws/downloads/resources/24.0.1.9.1/amazon-corretto-24.0.1.9.1-alpine-linux-aarch64.tar.gz"
   },
   "liberica": {
     "8.0.282": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-linux-aarch64-musl.tar.gz",
