@@ -63,19 +63,24 @@ object Temurin {
           k -> input.stripPrefix(v)
       }
 
-    def osOpt(input: String): Option[(Os, String)] =
+    def oses(input: String): Seq[(Os, String)] =
       if (input.startsWith("linux_"))
-        Some((Os("linux"), input.stripPrefix("linux_")))
-      else if (input.startsWith("alpine-linux_"))
-        Some((Os("alpine-linux"), input.stripPrefix("alpine-linux_")))
+        Seq((Os("linux"), input.stripPrefix("linux_")))
+      else if (input.startsWith("alpine-linux_")) {
+        val remaining = input.stripPrefix("alpine-linux_")
+        Seq(
+          (Os("alpine-linux"), remaining), // deprecated, use linux-musl instead
+          (Os("linux-musl"), remaining)
+        )
+      }
       else if (input.startsWith("mac_"))
-        Some((Os("darwin"), input.stripPrefix("mac_")))
+        Seq((Os("darwin"), input.stripPrefix("mac_")))
       else if (input.startsWith("windows_"))
-        Some((Os("windows"), input.stripPrefix("windows_")))
+        Seq((Os("windows"), input.stripPrefix("windows_")))
       else if (input.startsWith("aix_"))
-        Some((Os("aix"), input.stripPrefix("aix_")))
+        Seq((Os("aix"), input.stripPrefix("aix_")))
       else
-        None
+        Nil
 
     def archiveTypeOpt(input: String): Option[String] =
       if (input == "zip") Some("zip")
@@ -104,18 +109,23 @@ object Temurin {
           .filter(asset => assetNamePrefix.exists(asset.name.startsWith))
           .flatMap { asset =>
             val name0 = assetNamePrefix.foldLeft(asset.name)(_ stripPrefix _)
-            val opt = for {
-              (arch, rem) <- archOpt(name0)
-              (os, rem0)  <- osOpt(rem)
+            for {
+              (arch, rem) <- archOpt(name0).toSeq
+              (os, rem0)  <- oses(rem)
               ext <- {
                 val prefix = "hotspot_" + versionInFileName.filter(_ != '-') + "."
-                Some(rem0)
+                Seq(rem0)
                   .filter(_.startsWith(prefix))
                   .map(_.stripPrefix(prefix))
               }
-              archiveType <- archiveTypeOpt(ext)
-            } yield Index(os, arch, jdkName, "1." + version0.takeWhile(c => c != '-' && c != '+' && c != '_').replace("u", ".0-"), archiveType + "+" + asset.downloadUrl)
-            opt.toSeq
+              archiveType <- archiveTypeOpt(ext).toSeq
+            } yield Index(
+              os,
+              arch,
+              jdkName,
+              "1." + version0.takeWhile(c => c != '-' && c != '+' && c != '_').replace("u", ".0-"),
+              archiveType + "+" + asset.downloadUrl
+            )
           }
         def releaseIndex = index(jdkName(), assetNamePrefix("jdk"))
         def debugIndex   = index(jdkName("-debugimage"), assetNamePrefix("debugimage"))

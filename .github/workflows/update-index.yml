@@ -1,8 +1,6 @@
 name: Update index
 on:
   push:
-    branches:
-      - master
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
@@ -25,7 +23,7 @@ jobs:
           GH_TOKEN: ${{ secrets.INDEX_GITHUB_TOKEN }}
 
       - name: Print diff
-        run: git diff --color
+        run: git diff --color --diff-algorithm=patience
 
       - name: Create Pull Request
         if: github.ref == 'refs/heads/master'
