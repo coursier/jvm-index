@@ -693,6 +693,7 @@
     "8.0.422": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u422-b05_openj9-0.46.0/ibm-semeru-open-jdk_x64_mac_8u422b05_openj9-0.46.0.tar.gz",
     "8.0.432": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u432-b06_openj9-0.48.0/ibm-semeru-open-jdk_x64_mac_8u432b06_openj9-0.48.0.tar.gz",
     "8.0.442": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u442-b06_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_8u442b06_openj9-0.49.0.tar.gz",
+    "8.0.452": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u452-b09/ibm-semeru-open-jdk_x64_mac_8u452b09_openj9-0.51.0.tar.gz",
     "11.0.12": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_mac_11.0.12_7_openj9-0.27.0.tar.gz",
     "11.0.13": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.13%2B8_openj9-0.29.0/ibm-semeru-open-jdk_x64_mac_11.0.13_8_openj9-0.29.0.tar.gz",
     "11.0.14": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.14%2B9_openj9-0.30.0/ibm-semeru-open-jdk_x64_mac_11.0.14_9_openj9-0.30.0.tar.gz",
@@ -711,6 +712,7 @@
     "11.0.24": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.24%2B8_openj9-0.46.0/ibm-semeru-open-jdk_x64_mac_11.0.24_8_openj9-0.46.0.tar.gz",
     "11.0.25": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.25%2B9_openj9-0.48.0/ibm-semeru-open-jdk_x64_mac_11.0.25_9_openj9-0.48.0.tar.gz",
     "11.0.26": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.26%2B4_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_11.0.26_4_openj9-0.49.0.tar.gz",
+    "11.0.27": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B6/ibm-semeru-open-jdk_x64_mac_11.0.27_6_openj9-0.51.0.tar.gz",
     "16.0.2": "tgz+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_mac_16.0.2_7_openj9-0.27.0.tar.gz",
     "17.0.1": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.1%2B12_openj9-0.29.1/ibm-semeru-open-jdk_x64_mac_17.0.1_12_openj9-0.29.1.tar.gz",
     "17.0.2": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.2%2B8_openj9-0.30.0/ibm-semeru-open-jdk_x64_mac_17.0.2_8_openj9-0.30.0.tar.gz",
@@ -728,6 +730,7 @@
     "17.0.12": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.12%2B7_openj9-0.46.0/ibm-semeru-open-jdk_x64_mac_17.0.12_7_openj9-0.46.0.tar.gz",
     "17.0.13": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.13%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_mac_17.0.13_11_openj9-0.48.0.tar.gz",
     "17.0.14": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.14%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_17.0.14_7_openj9-0.49.0.tar.gz",
+    "17.0.15": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6/ibm-semeru-open-jdk_x64_mac_17.0.15_6_openj9-0.51.0.tar.gz",
     "18.0.1": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_x64_mac_18.0.1_10_openj9-0.32.0.tar.gz",
     "18.0.1.1": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1.1%2B2_openj9-0.32.0/ibm-semeru-open-jdk_x64_mac_18.0.1.1_2_openj9-0.32.0.tar.gz",
     "18.0.2": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.2%2B9_openj9-0.33.0/ibm-semeru-open-jdk_x64_mac_18.0.2_9_openj9-0.33.0.tar.gz",
@@ -740,6 +743,7 @@
     "21.0.4": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.4%2B7_openj9-0.46.0/ibm-semeru-open-jdk_x64_mac_21.0.4_7_openj9-0.46.0.tar.gz",
     "21.0.5": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.5%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_mac_21.0.5_11_openj9-0.48.0.tar.gz",
     "21.0.6": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.6%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_21.0.6_7_openj9-0.49.0.tar.gz",
+    "21.0.7": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6/ibm-semeru-open-jdk_x64_mac_21.0.7_6_openj9-0.51.0.tar.gz",
     "22.0.1": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_x64_mac_22.0.1_8_openj9-0.45.0.tar.gz",
     "22.0.2": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_x64_mac_22.0.2_9_openj9-0.46.0.tar.gz",
     "23.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_x64_mac_23_37_openj9-0.47.0.tar.gz",
@@ -765,7 +769,8 @@
     "11.0.24+8_openj9-0.46.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.24%2B8_openj9-0.46.0/ibm-semeru-open-jdk_x64_mac_11.0.24_8_openj9-0.46.0.tar.gz",
     "11.0.24+8_openj9-0.46.1": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.24%2B8_openj9-0.46.1/ibm-semeru-open-jdk_x64_mac_11.0.24_8_openj9-0.46.1.tar.gz",
     "11.0.25+9_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.25%2B9_openj9-0.48.0/ibm-semeru-open-jdk_x64_mac_11.0.25_9_openj9-0.48.0.tar.gz",
-    "11.0.26+4_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.26%2B4_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_11.0.26_4_openj9-0.49.0.tar.gz"
+    "11.0.26+4_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.26%2B4_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_11.0.26_4_openj9-0.49.0.tar.gz",
+    "11.0.27+6": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B6/ibm-semeru-open-jdk_x64_mac_11.0.27_6_openj9-0.51.0.tar.gz"
   },
   "ibm-semeru-openj9-java16": {
     "16.0.2+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_mac_16.0.2_7_openj9-0.27.0.tar.gz"
@@ -787,7 +792,8 @@
     "17.0.12+7_openj9-0.46.1": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.12%2B7_openj9-0.46.1/ibm-semeru-open-jdk_x64_mac_17.0.12_7_openj9-0.46.1.tar.gz",
     "17.0.12+7_openj9-0.46.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.12%2B7_openj9-0.46.0/ibm-semeru-open-jdk_x64_mac_17.0.12_7_openj9-0.46.0.tar.gz",
     "17.0.13+11_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.13%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_mac_17.0.13_11_openj9-0.48.0.tar.gz",
-    "17.0.14+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.14%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_17.0.14_7_openj9-0.49.0.tar.gz"
+    "17.0.14+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.14%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_17.0.14_7_openj9-0.49.0.tar.gz",
+    "17.0.15+6": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6/ibm-semeru-open-jdk_x64_mac_17.0.15_6_openj9-0.51.0.tar.gz"
   },
   "ibm-semeru-openj9-java18": {
     "18.0.1+10_openj9-0.32.0": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_x64_mac_18.0.1_10_openj9-0.32.0.tar.gz",
@@ -809,7 +815,8 @@
     "21.0.4+7_openj9-0.46.1": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.4%2B7_openj9-0.46.1/ibm-semeru-open-jdk_x64_mac_21.0.4_7_openj9-0.46.1.tar.gz",
     "21.0.4+7_openj9-0.46.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.4%2B7_openj9-0.46.0/ibm-semeru-open-jdk_x64_mac_21.0.4_7_openj9-0.46.0.tar.gz",
     "21.0.5+11_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.5%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_mac_21.0.5_11_openj9-0.48.0.tar.gz",
-    "21.0.6+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.6%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_21.0.6_7_openj9-0.49.0.tar.gz"
+    "21.0.6+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.6%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_21.0.6_7_openj9-0.49.0.tar.gz",
+    "21.0.7+6": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6/ibm-semeru-open-jdk_x64_mac_21.0.7_6_openj9-0.51.0.tar.gz"
   },
   "ibm-semeru-openj9-java22": {
     "22.0.1+8_openj9-0.45.0": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_x64_mac_22.0.1_8_openj9-0.45.0.tar.gz",
@@ -837,7 +844,8 @@
     "8.0.412": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u412-b08_openj9-0.44.0/ibm-semeru-open-jdk_x64_mac_8u412b08_openj9-0.44.0.tar.gz",
     "8.0.422": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u422-b05_openj9-0.46.0/ibm-semeru-open-jdk_x64_mac_8u422b05_openj9-0.46.0.tar.gz",
     "8.0.432": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u432-b06_openj9-0.48.0/ibm-semeru-open-jdk_x64_mac_8u432b06_openj9-0.48.0.tar.gz",
-    "8.0.442": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u442-b06_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_8u442b06_openj9-0.49.0.tar.gz"
+    "8.0.442": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u442-b06_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_8u442b06_openj9-0.49.0.tar.gz",
+    "8.0.452": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u452-b09/ibm-semeru-open-jdk_x64_mac_8u452b09_openj9-0.51.0.tar.gz"
   },
   "java-oracle": {
     "21": "tgz+https://download.oracle.com/java/21/latest/jdk-21_macos-x64_bin.tar.gz",
@@ -1454,6 +1462,7 @@
     "17.0.12": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.5+1-17.0.12+10/bellsoft-liberica-vm-openjdk17.0.12+10-23.0.5+1-macos-amd64.zip",
     "17.0.13": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.6+1-17.0.13+12/bellsoft-liberica-vm-openjdk17.0.13+12-23.0.6+1-macos-amd64.zip",
     "17.0.14": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.7+1-17.0.14+10/bellsoft-liberica-vm-openjdk17.0.14+10-23.0.7+1-macos-amd64.zip",
+    "17.0.15": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.8+1-17.0.15+10/bellsoft-liberica-vm-openjdk17.0.15+10-23.0.8+1-macos-amd64.zip",
     "20.0.1": "zip+https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-openjdk20.0.1+10-23.0.0+1-macos-amd64.zip",
     "20.0.2": "zip+https://download.bell-sw.com/vm/23.0.1/bellsoft-liberica-vm-openjdk20.0.2+10-23.0.1+1-macos-amd64.zip",
     "21.0.0": "zip+https://download.bell-sw.com/vm/23.1.0/bellsoft-liberica-vm-openjdk21+37-23.1.0+1-macos-amd64.zip",
@@ -1463,13 +1472,15 @@
     "21.0.4": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.4+1-21.0.4+9/bellsoft-liberica-vm-openjdk21.0.4+9-23.1.4+1-macos-amd64.zip",
     "21.0.5": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.5+1-21.0.5+11/bellsoft-liberica-vm-openjdk21.0.5+11-23.1.5+1-macos-amd64.zip",
     "21.0.6": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.6+1-21.0.6+10/bellsoft-liberica-vm-openjdk21.0.6+10-23.1.6+1-macos-amd64.zip",
+    "21.0.7": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.7+1-21.0.7+9/bellsoft-liberica-vm-openjdk21.0.7+9-23.1.7+1-macos-amd64.zip",
     "22.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-openjdk22+37-24.0.0+1-macos-amd64.zip",
     "22.0.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.1+1-22.0.1+10/bellsoft-liberica-vm-openjdk22.0.1+10-24.0.1+1-macos-amd64.zip",
     "22.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.2+1-22.0.2+11/bellsoft-liberica-vm-openjdk22.0.2+11-24.0.2+1-macos-amd64.zip",
     "23.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.0+1-23+38/bellsoft-liberica-vm-openjdk23+38-24.1.0+1-macos-amd64.zip",
     "23.0.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.1+1-23.0.1+13/bellsoft-liberica-vm-openjdk23.0.1+13-24.1.1+1-macos-amd64.zip",
     "23.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.2+1-23.0.2+9/bellsoft-liberica-vm-openjdk23.0.2+9-24.1.2+1-macos-amd64.zip",
-    "24.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.2.0+1-24+37/bellsoft-liberica-vm-openjdk24+37-24.2.0+1-macos-amd64.zip"
+    "24.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.2.0+1-24+37/bellsoft-liberica-vm-openjdk24+37-24.2.0+1-macos-amd64.zip",
+    "24.0.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.2.1+1-24.0.1+11/bellsoft-liberica-vm-openjdk24.0.1+11-24.2.1+1-macos-amd64.zip"
   },
   "liberica-nik-core": {
     "11.0.11": "zip+https://download.bell-sw.com/vm/21.1.0/bellsoft-liberica-vm-core-openjdk11-21.1.0-macos-amd64.zip",
@@ -1504,6 +1515,7 @@
     "17.0.12": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.5+1-17.0.12+10/bellsoft-liberica-vm-core-openjdk17.0.12+10-23.0.5+1-macos-amd64.zip",
     "17.0.13": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.6+1-17.0.13+12/bellsoft-liberica-vm-core-openjdk17.0.13+12-23.0.6+1-macos-amd64.zip",
     "17.0.14": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.7+1-17.0.14+10/bellsoft-liberica-vm-core-openjdk17.0.14+10-23.0.7+1-macos-amd64.zip",
+    "17.0.15": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.8+1-17.0.15+10/bellsoft-liberica-vm-core-openjdk17.0.15+10-23.0.8+1-macos-amd64.zip",
     "20.0.1": "zip+https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-core-openjdk20.0.1+10-23.0.0+1-macos-amd64.zip",
     "20.0.2": "zip+https://download.bell-sw.com/vm/23.0.1/bellsoft-liberica-vm-core-openjdk20.0.2+10-23.0.1+1-macos-amd64.zip",
     "21.0.0": "zip+https://download.bell-sw.com/vm/23.1.0/bellsoft-liberica-vm-core-openjdk21+37-23.1.0+1-macos-amd64.zip",
@@ -1512,7 +1524,8 @@
     "21.0.3": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.3+1-21.0.3+10/bellsoft-liberica-vm-core-openjdk21.0.3+10-23.1.3+1-macos-amd64.zip",
     "21.0.4": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.4+1-21.0.4+9/bellsoft-liberica-vm-core-openjdk21.0.4+9-23.1.4+1-macos-amd64.zip",
     "21.0.5": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.5+1-21.0.5+11/bellsoft-liberica-vm-core-openjdk21.0.5+11-23.1.5+1-macos-amd64.zip",
-    "21.0.6": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.6+1-21.0.6+10/bellsoft-liberica-vm-core-openjdk21.0.6+10-23.1.6+1-macos-amd64.zip"
+    "21.0.6": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.6+1-21.0.6+10/bellsoft-liberica-vm-core-openjdk21.0.6+10-23.1.6+1-macos-amd64.zip",
+    "21.0.7": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.7+1-21.0.7+9/bellsoft-liberica-vm-core-openjdk21.0.7+9-23.1.7+1-macos-amd64.zip"
   },
   "liberica-nik-full": {
     "11.0.14.1": "zip+https://download.bell-sw.com/vm/22.0.0.2/bellsoft-liberica-vm-full-openjdk11-22.0.0.2-macos-amd64.zip",
@@ -1543,6 +1556,7 @@
     "17.0.12": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.5+1-17.0.12+10/bellsoft-liberica-vm-full-openjdk17.0.12+10-23.0.5+1-macos-amd64.zip",
     "17.0.13": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.6+1-17.0.13+12/bellsoft-liberica-vm-full-openjdk17.0.13+12-23.0.6+1-macos-amd64.zip",
     "17.0.14": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.7+1-17.0.14+10/bellsoft-liberica-vm-full-openjdk17.0.14+10-23.0.7+1-macos-amd64.zip",
+    "17.0.15": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.8+1-17.0.15+10/bellsoft-liberica-vm-full-openjdk17.0.15+10-23.0.8+1-macos-amd64.zip",
     "20.0.1": "zip+https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-full-openjdk20.0.1+10-23.0.0+1-macos-amd64.zip",
     "20.0.2": "zip+https://download.bell-sw.com/vm/23.0.1/bellsoft-liberica-vm-full-openjdk20.0.2+10-23.0.1+1-macos-amd64.zip",
     "21.0.0": "zip+https://download.bell-sw.com/vm/23.1.0/bellsoft-liberica-vm-full-openjdk21+37-23.1.0+1-macos-amd64.zip",
@@ -1552,13 +1566,15 @@
     "21.0.4": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.4+1-21.0.4+9/bellsoft-liberica-vm-full-openjdk21.0.4+9-23.1.4+1-macos-amd64.zip",
     "21.0.5": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.5+1-21.0.5+11/bellsoft-liberica-vm-full-openjdk21.0.5+11-23.1.5+1-macos-amd64.zip",
     "21.0.6": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.6+1-21.0.6+10/bellsoft-liberica-vm-full-openjdk21.0.6+10-23.1.6+1-macos-amd64.zip",
+    "21.0.7": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.7+1-21.0.7+9/bellsoft-liberica-vm-full-openjdk21.0.7+9-23.1.7+1-macos-amd64.zip",
     "22.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-full-openjdk22+37-24.0.0+1-macos-amd64.zip",
     "22.0.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.1+1-22.0.1+10/bellsoft-liberica-vm-full-openjdk22.0.1+10-24.0.1+1-macos-amd64.zip",
     "22.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.2+1-22.0.2+11/bellsoft-liberica-vm-full-openjdk22.0.2+11-24.0.2+1-macos-amd64.zip",
     "23.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.0+1-23+38/bellsoft-liberica-vm-full-openjdk23+38-24.1.0+1-macos-amd64.zip",
     "23.0.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.1+1-23.0.1+13/bellsoft-liberica-vm-full-openjdk23.0.1+13-24.1.1+1-macos-amd64.zip",
     "23.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.1.2+1-23.0.2+9/bellsoft-liberica-vm-full-openjdk23.0.2+9-24.1.2+1-macos-amd64.zip",
-    "24.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.2.0+1-24+37/bellsoft-liberica-vm-full-openjdk24+37-24.2.0+1-macos-amd64.zip"
+    "24.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.2.0+1-24+37/bellsoft-liberica-vm-full-openjdk24+37-24.2.0+1-macos-amd64.zip",
+    "24.0.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.2.1+1-24.0.1+11/bellsoft-liberica-vm-full-openjdk24.0.1+11-24.2.1+1-macos-amd64.zip"
   },
   "temurin": {
     "8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_x64_mac_hotspot_8u302b08.tar.gz",
