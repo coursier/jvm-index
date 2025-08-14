@@ -782,7 +782,8 @@
     "22.0.2": "zip+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_x64_windows_22.0.2_9_openj9-0.46.0.zip",
     "23.0.0": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_x64_windows_23_37_openj9-0.47.0.zip",
     "23.0.1": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_windows_23.0.1_11_openj9-0.48.0.zip",
-    "23.0.2": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_windows_23.0.2_7_openj9-0.49.0.zip"
+    "23.0.2": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_windows_23.0.2_7_openj9-0.49.0.zip",
+    "24.0.2": "zip+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_x64_windows_24.0.2_12_openj9-0.54.0.zip"
   },
   "ibm-semeru-openj9-java11": {
     "11.0.12+7_openj9-0.27.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_11.0.12_7_openj9-0.27.0.zip",
@@ -865,6 +866,9 @@
     "23.0.1+11_openj9-0.49.0-m2": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.49.0-m2/ibm-semeru-open-jdk_x64_windows_23.0.1_11_openj9-0.49.0-m2.zip",
     "23.0.1+11_openj9-0.48.0": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_windows_23.0.1_11_openj9-0.48.0.zip",
     "23.0.2+7_openj9-0.49.0": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_windows_23.0.2_7_openj9-0.49.0.zip"
+  },
+  "ibm-semeru-openj9-java24": {
+    "24.0.2+12_openj9-0.54.0": "zip+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_x64_windows_24.0.2_12_openj9-0.54.0.zip"
   },
   "ibm-semeru-openj9-java8": {
     "8.0.302": "zip+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_8u302b08_openj9-0.27.0.zip",

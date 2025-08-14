@@ -162,7 +162,8 @@
         "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_ppc64_aix_hotspot_22.0.2_9.tar.gz",
         "1.23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_ppc64_aix_hotspot_23_37.tar.gz",
         "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_ppc64_aix_hotspot_23.0.1_11.tar.gz",
-        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jdk_ppc64_aix_hotspot_23.0.2_7.tar.gz"
+        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jdk_ppc64_aix_hotspot_23.0.2_7.tar.gz",
+        "1.24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jdk_ppc64_aix_hotspot_24.0.2_12.tar.gz"
       },
       "jdk@adoptium-debugimage": {
         "1.8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u302b08.tar.gz",
@@ -217,7 +218,8 @@
         "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-debugimage_ppc64_aix_hotspot_22.0.2_9.tar.gz",
         "1.23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_ppc64_aix_hotspot_23_37.tar.gz",
         "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-debugimage_ppc64_aix_hotspot_23.0.1_11.tar.gz",
-        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-debugimage_ppc64_aix_hotspot_23.0.2_7.tar.gz"
+        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-debugimage_ppc64_aix_hotspot_23.0.2_7.tar.gz",
+        "1.24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-debugimage_ppc64_aix_hotspot_24.0.2_12.tar.gz"
       },
       "jdk@adoptium-jre": {
         "1.8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u302b08.tar.gz",
@@ -283,7 +285,8 @@
         "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_ppc64_aix_hotspot_22.0.2_9.tar.gz",
         "1.23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_ppc64_aix_hotspot_23_37.tar.gz",
         "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_ppc64_aix_hotspot_23.0.1_11.tar.gz",
-        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_ppc64_aix_hotspot_23.0.2_7.tar.gz"
+        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_ppc64_aix_hotspot_23.0.2_7.tar.gz",
+        "1.24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jre_ppc64_aix_hotspot_24.0.2_12.tar.gz"
       },
       "jdk@adoptium-testimage": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
@@ -321,7 +324,8 @@
         "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-testimage_ppc64_aix_hotspot_22.0.2_9.tar.gz",
         "1.23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_ppc64_aix_hotspot_23_37.tar.gz",
         "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-testimage_ppc64_aix_hotspot_23.0.1_11.tar.gz",
-        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-testimage_ppc64_aix_hotspot_23.0.2_7.tar.gz"
+        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-testimage_ppc64_aix_hotspot_23.0.2_7.tar.gz",
+        "1.24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-testimage_ppc64_aix_hotspot_24.0.2_12.tar.gz"
       },
       "jdk@ibm-semeru": {
         "8.0.302": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_ppc64_aix_8u302b08_openj9-0.27.0.tar.gz",
@@ -398,7 +402,8 @@
         "22.0.2": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_ppc64_aix_22.0.2_9_openj9-0.46.0.tar.gz",
         "23.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_ppc64_aix_23_37_openj9-0.47.0.tar.gz",
         "23.0.1": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_ppc64_aix_23.0.1_11_openj9-0.48.0.tar.gz",
-        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_ppc64_aix_23.0.2_7_openj9-0.49.0.tar.gz"
+        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_ppc64_aix_23.0.2_7_openj9-0.49.0.tar.gz",
+        "24.0.2": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_ppc64_aix_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java11": {
         "11.0.12+7_openj9-0.27.1": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.1/ibm-semeru-open-jdk_ppc64_aix_11.0.12_7_openj9-0.27.1.tar.gz",
@@ -484,6 +489,9 @@
         "23.0.1+11_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_ppc64_aix_23.0.1_11_openj9-0.48.0.tar.gz",
         "23.0.2+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_ppc64_aix_23.0.2_7_openj9-0.49.0.tar.gz"
       },
+      "jdk@ibm-semeru-openj9-java24": {
+        "24.0.2+12_openj9-0.54.0": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_ppc64_aix_24.0.2_12_openj9-0.54.0.tar.gz"
+      },
       "jdk@ibm-semeru-openj9-java8": {
         "8.0.302": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_ppc64_aix_8u302b08_openj9-0.27.0.tar.gz",
         "8.0.312": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u312-b07_openj9-0.29.0/ibm-semeru-open-jdk_ppc64_aix_8u312b07_openj9-0.29.0.tar.gz",
@@ -556,7 +564,8 @@
         "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_ppc64_aix_hotspot_22.0.2_9.tar.gz",
         "1.23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_ppc64_aix_hotspot_23_37.tar.gz",
         "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_ppc64_aix_hotspot_23.0.1_11.tar.gz",
-        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jdk_ppc64_aix_hotspot_23.0.2_7.tar.gz"
+        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jdk_ppc64_aix_hotspot_23.0.2_7.tar.gz",
+        "1.24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jdk_ppc64_aix_hotspot_24.0.2_12.tar.gz"
       },
       "jdk@temurin-debugimage": {
         "1.8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u302b08.tar.gz",
@@ -611,7 +620,8 @@
         "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-debugimage_ppc64_aix_hotspot_22.0.2_9.tar.gz",
         "1.23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_ppc64_aix_hotspot_23_37.tar.gz",
         "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-debugimage_ppc64_aix_hotspot_23.0.1_11.tar.gz",
-        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-debugimage_ppc64_aix_hotspot_23.0.2_7.tar.gz"
+        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-debugimage_ppc64_aix_hotspot_23.0.2_7.tar.gz",
+        "1.24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-debugimage_ppc64_aix_hotspot_24.0.2_12.tar.gz"
       },
       "jdk@temurin-jre": {
         "1.8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u302b08.tar.gz",
@@ -666,7 +676,8 @@
         "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_ppc64_aix_hotspot_22.0.2_9.tar.gz",
         "1.23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_ppc64_aix_hotspot_23_37.tar.gz",
         "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_ppc64_aix_hotspot_23.0.1_11.tar.gz",
-        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_ppc64_aix_hotspot_23.0.2_7.tar.gz"
+        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_ppc64_aix_hotspot_23.0.2_7.tar.gz",
+        "1.24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jre_ppc64_aix_hotspot_24.0.2_12.tar.gz"
       },
       "jdk@temurin-testimage": {
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
@@ -696,7 +707,8 @@
         "1.22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-testimage_ppc64_aix_hotspot_22.0.2_9.tar.gz",
         "1.23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_ppc64_aix_hotspot_23_37.tar.gz",
         "1.23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-testimage_ppc64_aix_hotspot_23.0.1_11.tar.gz",
-        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-testimage_ppc64_aix_hotspot_23.0.2_7.tar.gz"
+        "1.23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-testimage_ppc64_aix_hotspot_23.0.2_7.tar.gz",
+        "1.24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-testimage_ppc64_aix_hotspot_24.0.2_12.tar.gz"
       }
     }
   },
@@ -2432,7 +2444,8 @@
         "22.0.2": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_x64_mac_22.0.2_9_openj9-0.46.0.tar.gz",
         "23.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_x64_mac_23_37_openj9-0.47.0.tar.gz",
         "23.0.1": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_mac_23.0.1_11_openj9-0.48.0.tar.gz",
-        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_23.0.2_7_openj9-0.49.0.tar.gz"
+        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_23.0.2_7_openj9-0.49.0.tar.gz",
+        "24.0.2": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_x64_mac_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java11": {
         "11.0.12+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_mac_11.0.12_7_openj9-0.27.0.tar.gz",
@@ -2515,6 +2528,9 @@
         "23.0.1+11_openj9-0.49.0-m2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.49.0-m2/ibm-semeru-open-jdk_x64_mac_23.0.1_11_openj9-0.49.0-m2.tar.gz",
         "23.0.1+11_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_mac_23.0.1_11_openj9-0.48.0.tar.gz",
         "23.0.2+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_mac_23.0.2_7_openj9-0.49.0.tar.gz"
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+        "24.0.2+12_openj9-0.54.0": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_x64_mac_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java8": {
         "8.0.302": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_x64_mac_8u302b08_openj9-0.27.0.tar.gz",
@@ -4401,7 +4417,8 @@
         "22.0.2": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_aarch64_mac_22.0.2_9_openj9-0.46.0.tar.gz",
         "23.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_aarch64_mac_23_37_openj9-0.47.0.tar.gz",
         "23.0.1": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_aarch64_mac_23.0.1_11_openj9-0.48.0.tar.gz",
-        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_23.0.2_7_openj9-0.49.0.tar.gz"
+        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_23.0.2_7_openj9-0.49.0.tar.gz",
+        "24.0.2": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_aarch64_mac_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java11": {
         "11.0.15+10_openj9-0.32.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.15%2B10_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_11.0.15_10_openj9-0.32.0.tar.gz",
@@ -4475,6 +4492,9 @@
         "23.0.1+11_openj9-0.49.0-m2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.49.0-m2/ibm-semeru-open-jdk_aarch64_mac_23.0.1_11_openj9-0.49.0-m2.tar.gz",
         "23.0.1+11_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_aarch64_mac_23.0.1_11_openj9-0.48.0.tar.gz",
         "23.0.2+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_23.0.2_7_openj9-0.49.0.tar.gz"
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+        "24.0.2+12_openj9-0.54.0": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_aarch64_mac_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@java-oracle": {
         "21": "tgz+https://download.oracle.com/java/21/latest/jdk-21_macos-aarch64_bin.tar.gz",
@@ -6353,7 +6373,8 @@
         "22.0.2": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_x64_linux_22.0.2_9_openj9-0.46.0.tar.gz",
         "23.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_x64_linux_23_37_openj9-0.47.0.tar.gz",
         "23.0.1": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_linux_23.0.1_11_openj9-0.48.0.tar.gz",
-        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_linux_23.0.2_7_openj9-0.49.0.tar.gz"
+        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_linux_23.0.2_7_openj9-0.49.0.tar.gz",
+        "24.0.2": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_x64_linux_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java11": {
         "11.0.12+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_linux_11.0.12_7_openj9-0.27.0.tar.gz",
@@ -6436,6 +6457,9 @@
         "23.0.1+11_openj9-0.49.0-m2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.49.0-m2/ibm-semeru-open-jdk_x64_linux_23.0.1_11_openj9-0.49.0-m2.tar.gz",
         "23.0.1+11_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_linux_23.0.1_11_openj9-0.48.0.tar.gz",
         "23.0.2+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_linux_23.0.2_7_openj9-0.49.0.tar.gz"
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+        "24.0.2+12_openj9-0.54.0": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_x64_linux_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java8": {
         "8.0.302": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_x64_linux_8u302b08_openj9-0.27.0.tar.gz",
@@ -9753,7 +9777,8 @@
         "22.0.2": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_aarch64_linux_22.0.2_9_openj9-0.46.0.tar.gz",
         "23.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_aarch64_linux_23_37_openj9-0.47.0.tar.gz",
         "23.0.1": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_aarch64_linux_23.0.1_11_openj9-0.48.0.tar.gz",
-        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_linux_23.0.2_7_openj9-0.49.0.tar.gz"
+        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_linux_23.0.2_7_openj9-0.49.0.tar.gz",
+        "24.0.2": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_aarch64_linux_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java11": {
         "11.0.12+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_aarch64_linux_11.0.12_7_openj9-0.27.0.tar.gz",
@@ -9836,6 +9861,9 @@
         "23.0.1+11_openj9-0.49.0-m2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.49.0-m2/ibm-semeru-open-jdk_aarch64_linux_23.0.1_11_openj9-0.49.0-m2.tar.gz",
         "23.0.1+11_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_aarch64_linux_23.0.1_11_openj9-0.48.0.tar.gz",
         "23.0.2+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_linux_23.0.2_7_openj9-0.49.0.tar.gz"
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+        "24.0.2+12_openj9-0.54.0": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_aarch64_linux_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java8": {
         "8.0.302": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_aarch64_linux_8u302b08_openj9-0.27.0.tar.gz",
@@ -11984,7 +12012,8 @@
         "22.0.2": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_ppc64le_linux_22.0.2_9_openj9-0.46.0.tar.gz",
         "23.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_ppc64le_linux_23_37_openj9-0.47.0.tar.gz",
         "23.0.1": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_ppc64le_linux_23.0.1_11_openj9-0.48.0.tar.gz",
-        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_ppc64le_linux_23.0.2_7_openj9-0.49.0.tar.gz"
+        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_ppc64le_linux_23.0.2_7_openj9-0.49.0.tar.gz",
+        "24.0.2": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_ppc64le_linux_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java11": {
         "11.0.12+7_openj9-0.27.1": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.1/ibm-semeru-open-jdk_ppc64le_linux_11.0.12_7_openj9-0.27.1.tar.gz",
@@ -12069,6 +12098,9 @@
         "23.0.1+11_openj9-0.49.0-m2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.49.0-m2/ibm-semeru-open-jdk_ppc64le_linux_23.0.1_11_openj9-0.49.0-m2.tar.gz",
         "23.0.1+11_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_ppc64le_linux_23.0.1_11_openj9-0.48.0.tar.gz",
         "23.0.2+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_ppc64le_linux_23.0.2_7_openj9-0.49.0.tar.gz"
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+        "24.0.2+12_openj9-0.54.0": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_ppc64le_linux_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java8": {
         "8.0.302": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_ppc64le_linux_8u302b08_openj9-0.27.0.tar.gz",
@@ -12847,7 +12879,8 @@
         "22.0.2": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_s390x_linux_22.0.2_9_openj9-0.46.0.tar.gz",
         "23.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_s390x_linux_23_37_openj9-0.47.0.tar.gz",
         "23.0.1": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_s390x_linux_23.0.1_11_openj9-0.48.0.tar.gz",
-        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_s390x_linux_23.0.2_7_openj9-0.49.0.tar.gz"
+        "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_s390x_linux_23.0.2_7_openj9-0.49.0.tar.gz",
+        "24.0.2": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_s390x_linux_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java11": {
         "11.0.12+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_s390x_linux_11.0.12_7_openj9-0.27.0.tar.gz",
@@ -12930,6 +12963,9 @@
         "23.0.1+11_openj9-0.49.0-m2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.49.0-m2/ibm-semeru-open-jdk_s390x_linux_23.0.1_11_openj9-0.49.0-m2.tar.gz",
         "23.0.1+11_openj9-0.48.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_s390x_linux_23.0.1_11_openj9-0.48.0.tar.gz",
         "23.0.2+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_s390x_linux_23.0.2_7_openj9-0.49.0.tar.gz"
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+        "24.0.2+12_openj9-0.54.0": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_s390x_linux_24.0.2_12_openj9-0.54.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java8": {
         "8.0.302": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_s390x_linux_8u302b08_openj9-0.27.0.tar.gz",
@@ -17079,7 +17115,8 @@
         "22.0.2": "zip+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_x64_windows_22.0.2_9_openj9-0.46.0.zip",
         "23.0.0": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_x64_windows_23_37_openj9-0.47.0.zip",
         "23.0.1": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_windows_23.0.1_11_openj9-0.48.0.zip",
-        "23.0.2": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_windows_23.0.2_7_openj9-0.49.0.zip"
+        "23.0.2": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_windows_23.0.2_7_openj9-0.49.0.zip",
+        "24.0.2": "zip+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_x64_windows_24.0.2_12_openj9-0.54.0.zip"
       },
       "jdk@ibm-semeru-openj9-java11": {
         "11.0.12+7_openj9-0.27.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_11.0.12_7_openj9-0.27.0.zip",
@@ -17162,6 +17199,9 @@
         "23.0.1+11_openj9-0.49.0-m2": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.49.0-m2/ibm-semeru-open-jdk_x64_windows_23.0.1_11_openj9-0.49.0-m2.zip",
         "23.0.1+11_openj9-0.48.0": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.1%2B11_openj9-0.48.0/ibm-semeru-open-jdk_x64_windows_23.0.1_11_openj9-0.48.0.zip",
         "23.0.2+7_openj9-0.49.0": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_windows_23.0.2_7_openj9-0.49.0.zip"
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+        "24.0.2+12_openj9-0.54.0": "zip+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_x64_windows_24.0.2_12_openj9-0.54.0.zip"
       },
       "jdk@ibm-semeru-openj9-java8": {
         "8.0.302": "zip+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_8u302b08_openj9-0.27.0.zip",
