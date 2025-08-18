@@ -23,7 +23,7 @@ jobs:
         run: cd publish && ./mill -i mill.scalalib.SonatypeCentralPublishModule/
         if: github.ref == 'refs/heads/master'
         env:
-          PUBLISH_SECRET_KEY: ${{ secrets.PUBLISH_SECRET_KEY }}
-          PUBLISH_SECRET_KEY_PASSWORD: ${{ secrets.PUBLISH_SECRET_KEY_PASSWORD }}
-          PUBLISH_PASSWORD: ${{ secrets.PUBLISH_PASSWORD }}
-          PUBLISH_USER: ${{ secrets.PUBLISH_USER }}
+          MILL_PGP_SECRET_BASE64: ${{ secrets.PUBLISH_SECRET_KEY }}
+          MILL_PGP_PASSPHRASE: ${{ secrets.PUBLISH_SECRET_KEY_PASSWORD }}
+          MILL_SONATYPE_USERNAME: ${{ secrets.PUBLISH_USER }}
+          MILL_SONATYPE_PASSWORD: ${{ secrets.PUBLISH_PASSWORD }}
