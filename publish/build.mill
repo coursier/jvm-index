@@ -1,0 +1,52 @@
+import $ivy.`de.tototec::de.tobiasroeser.mill.vcs.version::0.4.0`
+
+import de.tobiasroeser.mill.vcs.version.VcsVersion
+import mill._
+import mill.api.WorkspaceRoot
+import mill.scalalib._
+import mill.scalalib.publish._
+
+import scala.concurrent.duration._
+
+trait IndexModule extends Cross.Module[String] with PublishModule {
+  def moduleName = s"index-$crossValue"
+  def pomSettings = PomSettings(
+    description = s"JVM index for $crossValue",
+    organization = "io.get-coursier.jvm.indices",
+    url = "https://github.com/coursier/jvm-index",
+    licenses = Seq(License.`Apache-2.0`),
+    versionControl = VersionControl.github("io.get-coursier", "jvm-index"),
+    developers = Seq(
+      Developer("alexarchambault", "Alex Archambault", "https://github.com/alexarchambault")
+    )
+  )
+  def publishVersion      = VcsVersion.vcsState().format()
+  def sonatypeUri         = "https://s01.oss.sonatype.org/service/local"
+  def sonatypeSnapshotUri = "https://s01.oss.sonatype.org/content/repositories/snapshots"
+
+  def indexFile = T.source {
+    PathRef(T.workspace / os.up / "indices" / s"$crossValue.json")
+  }
+
+  def indexResourceDir = T {
+    val dest = T.dest
+    os.copy.over(
+      indexFile().path,
+      dest / "coursier/jvm/indices/v1" / s"$crossValue.json",
+      createFolders = true
+    )
+    PathRef(dest)
+  }
+
+  def resources = T.sources(
+    Seq(indexResourceDir())
+  )
+}
+
+lazy val osCpus =
+  os.list(WorkspaceRoot.workspaceRoot / os.up / "indices")
+    .filter(_.last.endsWith(".json"))
+    .filter(os.isFile)
+    .map(_.last.stripSuffix(".json"))
+
+object index extends Cross[IndexModule](osCpus)
