@@ -571,7 +571,8 @@
     "23.0.2.7.1": "zip+https://corretto.aws/downloads/resources/23.0.2.7.1/amazon-corretto-23.0.2.7.1-windows-x64-jdk.zip",
     "24.0.0.36.2": "zip+https://corretto.aws/downloads/resources/24.0.0.36.2/amazon-corretto-24.0.0.36.2-windows-x64-jdk.zip",
     "24.0.1.9.1": "zip+https://corretto.aws/downloads/resources/24.0.1.9.1/amazon-corretto-24.0.1.9.1-windows-x64-jdk.zip",
-    "24.0.2.12.1": "zip+https://corretto.aws/downloads/resources/24.0.2.12.1/amazon-corretto-24.0.2.12.1-windows-x64-jdk.zip"
+    "24.0.2.12.1": "zip+https://corretto.aws/downloads/resources/24.0.2.12.1/amazon-corretto-24.0.2.12.1-windows-x64-jdk.zip",
+    "25.0.0.36.2": "zip+https://corretto.aws/downloads/resources/25.0.0.36.2/amazon-corretto-25.0.0.36.2-windows-x64-jdk.zip"
   },
   "graalvm": {
     "19.3.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java8-windows-amd64-19.3.0.zip",
@@ -613,7 +614,8 @@
     "23.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-23.0.2/graalvm-community-jdk-23.0.2_windows-x64_bin.zip",
     "24.0.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.0/graalvm-community-jdk-24.0.0_windows-x64_bin.zip",
     "24.0.1": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.1/graalvm-community-jdk-24.0.1_windows-x64_bin.zip",
-    "24.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.2/graalvm-community-jdk-24.0.2_windows-x64_bin.zip"
+    "24.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.2/graalvm-community-jdk-24.0.2_windows-x64_bin.zip",
+    "25.0.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.0/graalvm-community-jdk-25.0.0_windows-x64_bin.zip"
   },
   "graalvm-java11": {
     "19.3.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java11-windows-amd64-19.3.0.zip",
@@ -701,11 +703,15 @@
     "24.0.1": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.1/graalvm-community-jdk-24.0.1_windows-x64_bin.zip",
     "24.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.2/graalvm-community-jdk-24.0.2_windows-x64_bin.zip"
   },
+  "graalvm-java25": {
+    "25.0.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.0/graalvm-community-jdk-25.0.0_windows-x64_bin.zip"
+  },
   "graalvm-oracle": {
     "21": "zip+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip",
     "22": "zip+https://download.oracle.com/graalvm/22/latest/graalvm-jdk-22_windows-x64_bin.zip",
     "23": "zip+https://download.oracle.com/graalvm/23/latest/graalvm-jdk-23_windows-x64_bin.zip",
-    "24": "zip+https://download.oracle.com/graalvm/24/latest/graalvm-jdk-24_windows-x64_bin.zip"
+    "24": "zip+https://download.oracle.com/graalvm/24/latest/graalvm-jdk-24_windows-x64_bin.zip",
+    "25": "zip+https://download.oracle.com/graalvm/25/latest/graalvm-jdk-25_windows-x64_bin.zip"
   },
   "ibm-semeru": {
     "8.0.302": "zip+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_8u302b08_openj9-0.27.0.zip",
@@ -891,7 +897,8 @@
   },
   "java-oracle": {
     "21": "zip+https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.zip",
-    "24": "zip+https://download.oracle.com/java/24/latest/jdk-24_windows-x64_bin.zip"
+    "24": "zip+https://download.oracle.com/java/24/latest/jdk-24_windows-x64_bin.zip",
+    "25": "zip+https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.zip"
   },
   "liberica": {
     "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-windows-amd64.zip",
@@ -1022,7 +1029,8 @@
     "23.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-windows-amd64.zip",
     "24.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/24+37/bellsoft-jdk24+37-windows-amd64.zip",
     "24.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jdk24.0.1+11-windows-amd64.zip",
-    "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-windows-amd64.zip"
+    "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-windows-amd64.zip",
+    "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jdk25+37-windows-amd64.zip"
   },
   "liberica-full": {
     "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-windows-amd64-full.zip",
@@ -1138,7 +1146,8 @@
     "23.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-windows-amd64-full.zip",
     "24.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/24+37/bellsoft-jdk24+37-windows-amd64-full.zip",
     "24.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jdk24.0.1+11-windows-amd64-full.zip",
-    "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-windows-amd64-full.zip"
+    "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-windows-amd64-full.zip",
+    "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jdk25+37-windows-amd64-full.zip"
   },
   "liberica-jre": {
     "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-windows-amd64.zip",
@@ -1260,7 +1269,8 @@
     "23.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jre23.0.2+9-windows-amd64.zip",
     "24.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/24+37/bellsoft-jre24+37-windows-amd64.zip",
     "24.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jre24.0.1+11-windows-amd64.zip",
-    "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jre24.0.2+12-windows-amd64.zip"
+    "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jre24.0.2+12-windows-amd64.zip",
+    "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jre25+37-windows-amd64.zip"
   },
   "liberica-jre-full": {
     "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-windows-amd64-full.zip",
@@ -1376,7 +1386,8 @@
     "23.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jre23.0.2+9-windows-amd64-full.zip",
     "24.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/24+37/bellsoft-jre24+37-windows-amd64-full.zip",
     "24.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jre24.0.1+11-windows-amd64-full.zip",
-    "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jre24.0.2+12-windows-amd64-full.zip"
+    "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jre24.0.2+12-windows-amd64-full.zip",
+    "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jre25+37-windows-amd64-full.zip"
   },
   "liberica-lite": {
     "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-windows-amd64-lite.zip",
@@ -1495,7 +1506,8 @@
     "23.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-windows-amd64-lite.zip",
     "24.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/24+37/bellsoft-jdk24+37-windows-amd64-lite.zip",
     "24.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jdk24.0.1+11-windows-amd64-lite.zip",
-    "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-windows-amd64-lite.zip"
+    "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-windows-amd64-lite.zip",
+    "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jdk25+37-windows-amd64-lite.zip"
   },
   "liberica-nik": {
     "11.0.11": "zip+https://download.bell-sw.com/vm/21.1.0/bellsoft-liberica-vm-openjdk11-21.1.0-windows-amd64.zip",
@@ -2194,7 +2206,8 @@
     "23.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu23.32.11-ca-jdk23.0.2-win_x64.zip",
     "24.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu24.28.83-ca-jdk24.0.0-win_x64.zip",
     "24.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu24.30.11-ca-jdk24.0.1-win_x64.zip",
-    "24.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu24.32.13-ca-jdk24.0.2-win_x64.zip"
+    "24.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu24.32.13-ca-jdk24.0.2-win_x64.zip",
+    "25.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu25.28.85-ca-crac-jdk25.0.0-win_x64.zip"
   },
   "zulu-jre": {
     "8.0.212": "zip+https://cdn.azul.com/zulu/bin/zulu8.38.0.13-ca-jre8.0.212-win_x64.zip",
@@ -2326,6 +2339,7 @@
     "23.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu23.32.11-ca-jre23.0.2-win_x64.zip",
     "24.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu24.28.83-ca-jre24.0.0-win_x64.zip",
     "24.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu24.30.11-ca-jre24.0.1-win_x64.zip",
-    "24.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu24.32.13-ca-jre24.0.2-win_x64.zip"
+    "24.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu24.32.13-ca-jre24.0.2-win_x64.zip",
+    "25.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu25.28.85-ca-jre25.0.0-win_x64.zip"
   }
 }
