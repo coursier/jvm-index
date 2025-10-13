@@ -21,8 +21,6 @@ trait IndexModule extends Cross.Module[String] with PublishModule {
     )
   )
   def publishVersion      = VcsVersion.vcsState().format()
-  def sonatypeUri         = "https://s01.oss.sonatype.org/service/local"
-  def sonatypeSnapshotUri = "https://s01.oss.sonatype.org/content/repositories/snapshots"
 
   def indexFile = T.source {
     PathRef(T.workspace / os.up / "indices" / s"$crossValue.json")
