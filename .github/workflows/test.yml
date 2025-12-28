@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: coursier/cache-action@v7.0
-      - uses: coursier/setup-action@v1.3
+      - uses: coursier/setup-action@v2.0
         with:
           jvm: 11
       - run: ./scala-cli.sh compile src
@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: coursier/cache-action@v7.0
-      - uses: coursier/setup-action@v1.3
+      - uses: coursier/setup-action@v2.0
         with:
           jvm: 11
           apps: scalafmt
