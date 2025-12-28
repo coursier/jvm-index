@@ -94,7 +94,6 @@ $ cat "$(cs get https://github.com/coursier/jvm-index/raw/refs/heads/master/inde
     jq 'keys'
 [
   "aix",
-  "alpine-linux",
   "darwin",
   "linux",
   "linux-musl",
