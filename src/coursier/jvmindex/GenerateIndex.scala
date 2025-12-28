@@ -4,6 +4,8 @@
 //> using dep com.lihaoyi::os-lib:0.11.3
 //> using dep com.lihaoyi::pprint:0.9.0
 //> using dep io.get-coursier:versions_2.13:0.3.3
+//> using dep io.get-coursier:interface:1.0.29-M3
+//> using dep org.jsoup:jsoup:1.20.1
 //> using options -Wunused:all -deprecation
 
 package coursier.jvmindex
@@ -36,7 +38,8 @@ object GenerateIndex {
           Future(Zulu.index()),
           Future(Liberica.index()),
           Future(LibericaNik.index()),
-          Future(IbmSemeru.fullIndex(GhToken.token))
+          Future(IbmSemeru.fullIndex(GhToken.token)),
+          Future(Microsoft.fullIndex())
         )
 
         futures

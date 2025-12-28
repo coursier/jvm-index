@@ -19,6 +19,7 @@ capabilities of coursier.
 | [bellsoft Liberica Native Image Kit](https://bell-sw.com/liberica-native-image-kit/) | `liberica-nik`      |
 | [Amazon Corretto](https://aws.amazon.com/corretto/)                                  | `corretto`          |
 | [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes/)              | `ibm-semeru`        |
+| [Microsoft OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/download)         | `microsoft-openjdk` |
 
 ## Legacy JDKs
 
