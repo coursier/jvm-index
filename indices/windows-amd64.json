@@ -521,6 +521,7 @@
     "8.452.09.1": "zip+https://corretto.aws/downloads/resources/8.452.09.1/amazon-corretto-8.452.09.1-windows-x64-jdk.zip",
     "8.462.08.1": "zip+https://corretto.aws/downloads/resources/8.462.08.1/amazon-corretto-8.462.08.1-windows-x64-jdk.zip",
     "8.472.08.1": "zip+https://corretto.aws/downloads/resources/8.472.08.1/amazon-corretto-8.472.08.1-windows-x64-jdk.zip",
+    "8.482.08.1": "zip+https://corretto.aws/downloads/resources/8.482.08.1/amazon-corretto-8.482.08.1-windows-x64-jdk.zip",
     "11.0.6.10.1": "zip+https://corretto.aws/downloads/resources/11.0.6.10.1/amazon-corretto-11.0.6.10.1-windows-x64-jdk.zip",
     "11.0.7.10.1": "zip+https://corretto.aws/downloads/resources/11.0.7.10.1/amazon-corretto-11.0.7.10.1-windows-x64-jdk.zip",
     "11.0.8.10.1": "zip+https://corretto.aws/downloads/resources/11.0.8.10.1/amazon-corretto-11.0.8.10.1-windows-x64-jdk.zip",
@@ -550,6 +551,7 @@
     "11.0.27.6.1": "zip+https://corretto.aws/downloads/resources/11.0.27.6.1/amazon-corretto-11.0.27.6.1-windows-x64-jdk.zip",
     "11.0.28.6.1": "zip+https://corretto.aws/downloads/resources/11.0.28.6.1/amazon-corretto-11.0.28.6.1-windows-x64-jdk.zip",
     "11.0.29.7.1": "zip+https://corretto.aws/downloads/resources/11.0.29.7.1/amazon-corretto-11.0.29.7.1-windows-x64-jdk.zip",
+    "11.0.30.7.1": "zip+https://corretto.aws/downloads/resources/11.0.30.7.1/amazon-corretto-11.0.30.7.1-windows-x64-jdk.zip",
     "17.0.0.35.1": "zip+https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-windows-x64-jdk.zip",
     "17.0.1.12.1": "zip+https://corretto.aws/downloads/resources/17.0.1.12.1/amazon-corretto-17.0.1.12.1-windows-x64-jdk.zip",
     "17.0.2.8.1": "zip+https://corretto.aws/downloads/resources/17.0.2.8.1/amazon-corretto-17.0.2.8.1-windows-x64-jdk.zip",
@@ -570,6 +572,7 @@
     "17.0.15.6.1": "zip+https://corretto.aws/downloads/resources/17.0.15.6.1/amazon-corretto-17.0.15.6.1-windows-x64-jdk.zip",
     "17.0.16.8.1": "zip+https://corretto.aws/downloads/resources/17.0.16.8.1/amazon-corretto-17.0.16.8.1-windows-x64-jdk.zip",
     "17.0.17.10.1": "zip+https://corretto.aws/downloads/resources/17.0.17.10.1/amazon-corretto-17.0.17.10.1-windows-x64-jdk.zip",
+    "17.0.18.8.1": "zip+https://corretto.aws/downloads/resources/17.0.18.8.1/amazon-corretto-17.0.18.8.1-windows-x64-jdk.zip",
     "18.0.0.37.1": "zip+https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-windows-x64-jdk.zip",
     "18.0.1.10.1": "zip+https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-windows-x64-jdk.zip",
     "18.0.2.9.1": "zip+https://corretto.aws/downloads/resources/18.0.2.9.1/amazon-corretto-18.0.2.9.1-windows-x64-jdk.zip",
@@ -590,6 +593,7 @@
     "21.0.7.6.1": "zip+https://corretto.aws/downloads/resources/21.0.7.6.1/amazon-corretto-21.0.7.6.1-windows-x64-jdk.zip",
     "21.0.8.9.1": "zip+https://corretto.aws/downloads/resources/21.0.8.9.1/amazon-corretto-21.0.8.9.1-windows-x64-jdk.zip",
     "21.0.9.10.1": "zip+https://corretto.aws/downloads/resources/21.0.9.10.1/amazon-corretto-21.0.9.10.1-windows-x64-jdk.zip",
+    "21.0.10.7.1": "zip+https://corretto.aws/downloads/resources/21.0.10.7.1/amazon-corretto-21.0.10.7.1-windows-x64-jdk.zip",
     "22.0.0.36.2": "zip+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-windows-x64-jdk.zip",
     "22.0.1.8.1": "zip+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-windows-x64-jdk.zip",
     "22.0.2.9.1": "zip+https://corretto.aws/downloads/resources/22.0.2.9.1/amazon-corretto-22.0.2.9.1-windows-x64-jdk.zip",
@@ -600,7 +604,8 @@
     "24.0.1.9.1": "zip+https://corretto.aws/downloads/resources/24.0.1.9.1/amazon-corretto-24.0.1.9.1-windows-x64-jdk.zip",
     "24.0.2.12.1": "zip+https://corretto.aws/downloads/resources/24.0.2.12.1/amazon-corretto-24.0.2.12.1-windows-x64-jdk.zip",
     "25.0.0.36.2": "zip+https://corretto.aws/downloads/resources/25.0.0.36.2/amazon-corretto-25.0.0.36.2-windows-x64-jdk.zip",
-    "25.0.1.8.1": "zip+https://corretto.aws/downloads/resources/25.0.1.8.1/amazon-corretto-25.0.1.8.1-windows-x64-jdk.zip"
+    "25.0.1.8.1": "zip+https://corretto.aws/downloads/resources/25.0.1.8.1/amazon-corretto-25.0.1.8.1-windows-x64-jdk.zip",
+    "25.0.2.10.1": "zip+https://corretto.aws/downloads/resources/25.0.2.10.1/amazon-corretto-25.0.2.10.1-windows-x64-jdk.zip"
   },
   "graalvm": {
     "19.3.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java8-windows-amd64-19.3.0.zip",
@@ -644,7 +649,8 @@
     "24.0.1": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.1/graalvm-community-jdk-24.0.1_windows-x64_bin.zip",
     "24.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.2/graalvm-community-jdk-24.0.2_windows-x64_bin.zip",
     "25.0.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.0/graalvm-community-jdk-25.0.0_windows-x64_bin.zip",
-    "25.0.1": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.1/graalvm-community-jdk-25.0.1_windows-x64_bin.zip"
+    "25.0.1": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.1/graalvm-community-jdk-25.0.1_windows-x64_bin.zip",
+    "25.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.2/graalvm-community-jdk-25.0.2_windows-x64_bin.zip"
   },
   "graalvm-java11": {
     "19.3.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java11-windows-amd64-19.3.0.zip",
@@ -734,7 +740,8 @@
   },
   "graalvm-java25": {
     "25.0.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.0/graalvm-community-jdk-25.0.0_windows-x64_bin.zip",
-    "25.0.1": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.1/graalvm-community-jdk-25.0.1_windows-x64_bin.zip"
+    "25.0.1": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.1/graalvm-community-jdk-25.0.1_windows-x64_bin.zip",
+    "25.0.2": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.2/graalvm-community-jdk-25.0.2_windows-x64_bin.zip"
   },
   "graalvm-oracle": {
     "21": "zip+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip",
@@ -976,6 +983,7 @@
     "8.0.452": "zip+https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jdk8u452+11-windows-amd64.zip",
     "8.0.462": "zip+https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jdk8u462+11-windows-amd64.zip",
     "8.0.472": "zip+https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jdk8u472+11-windows-amd64.zip",
+    "8.0.482": "zip+https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jdk8u482+10-windows-amd64.zip",
     "11.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-windows-amd64.zip",
     "11.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.1/bellsoft-jdk11.0.1-windows-amd64.zip",
     "11.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.2/bellsoft-jdk11.0.2-windows-amd64.zip",
@@ -1006,6 +1014,7 @@
     "11.0.27": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jdk11.0.27+9-windows-amd64.zip",
     "11.0.28": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jdk11.0.28+12-windows-amd64.zip",
     "11.0.29": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jdk11.0.29+12-windows-amd64.zip",
+    "11.0.30": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jdk11.0.30+9-windows-amd64.zip",
     "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-amd64.zip",
     "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-amd64.zip",
     "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-amd64.zip",
@@ -1044,6 +1053,7 @@
     "17.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jdk17.0.15+10-windows-amd64.zip",
     "17.0.16": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jdk17.0.16+12-windows-amd64.zip",
     "17.0.17": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jdk17.0.17+15-windows-amd64.zip",
+    "17.0.18": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jdk17.0.18+10-windows-amd64.zip",
     "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-amd64.zip",
     "17.1.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-windows-amd64.zip",
     "17.1.8": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-windows-amd64.zip",
@@ -1068,6 +1078,7 @@
     "21.0.7": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jdk21.0.7+9-windows-amd64.zip",
     "21.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jdk21.0.8+12-windows-amd64.zip",
     "21.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jdk21.0.9+15-windows-amd64.zip",
+    "21.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-windows-amd64.zip",
     "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-windows-amd64.zip",
     "22.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-windows-amd64.zip",
     "22.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-windows-amd64.zip",
@@ -1078,7 +1089,8 @@
     "24.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jdk24.0.1+11-windows-amd64.zip",
     "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-windows-amd64.zip",
     "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jdk25+37-windows-amd64.zip",
-    "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-windows-amd64.zip"
+    "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-windows-amd64.zip",
+    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-windows-amd64.zip"
   },
   "liberica-full": {
     "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-windows-amd64-full.zip",
@@ -1109,6 +1121,7 @@
     "8.0.452": "zip+https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jdk8u452+11-windows-amd64-full.zip",
     "8.0.462": "zip+https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jdk8u462+11-windows-amd64-full.zip",
     "8.0.472": "zip+https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jdk8u472+11-windows-amd64-full.zip",
+    "8.0.482": "zip+https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jdk8u482+10-windows-amd64-full.zip",
     "11.0.6": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jdk11.0.6+10-windows-amd64-full.zip",
     "11.0.7": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.7+10/bellsoft-jdk11.0.7+10-windows-amd64-full.zip",
     "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-windows-amd64-full.zip",
@@ -1133,6 +1146,7 @@
     "11.0.27": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jdk11.0.27+9-windows-amd64-full.zip",
     "11.0.28": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jdk11.0.28+12-windows-amd64-full.zip",
     "11.0.29": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jdk11.0.29+12-windows-amd64-full.zip",
+    "11.0.30": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jdk11.0.30+9-windows-amd64-full.zip",
     "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-amd64-full.zip",
     "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-amd64-full.zip",
     "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-amd64-full.zip",
@@ -1166,6 +1180,7 @@
     "17.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jdk17.0.15+10-windows-amd64-full.zip",
     "17.0.16": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jdk17.0.16+12-windows-amd64-full.zip",
     "17.0.17": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jdk17.0.17+15-windows-amd64-full.zip",
+    "17.0.18": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jdk17.0.18+10-windows-amd64-full.zip",
     "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-amd64-full.zip",
     "17.1.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-windows-amd64-full.zip",
     "17.1.8": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-windows-amd64-full.zip",
@@ -1190,6 +1205,7 @@
     "21.0.7": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jdk21.0.7+9-windows-amd64-full.zip",
     "21.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jdk21.0.8+12-windows-amd64-full.zip",
     "21.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jdk21.0.9+15-windows-amd64-full.zip",
+    "21.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-windows-amd64-full.zip",
     "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-windows-amd64-full.zip",
     "22.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-windows-amd64-full.zip",
     "22.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-windows-amd64-full.zip",
@@ -1200,7 +1216,8 @@
     "24.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jdk24.0.1+11-windows-amd64-full.zip",
     "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-windows-amd64-full.zip",
     "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jdk25+37-windows-amd64-full.zip",
-    "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-windows-amd64-full.zip"
+    "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-windows-amd64-full.zip",
+    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-windows-amd64-full.zip"
   },
   "liberica-jre": {
     "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-windows-amd64.zip",
@@ -1235,6 +1252,7 @@
     "8.0.452": "zip+https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jre8u452+11-windows-amd64.zip",
     "8.0.462": "zip+https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jre8u462+11-windows-amd64.zip",
     "8.0.472": "zip+https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jre8u472+11-windows-amd64.zip",
+    "8.0.482": "zip+https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jre8u482+10-windows-amd64.zip",
     "11.0.5": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jre11.0.5+11-windows-amd64.zip",
     "11.0.6": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jre11.0.6+10-windows-amd64.zip",
     "11.0.7": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.7+10/bellsoft-jre11.0.7+10-windows-amd64.zip",
@@ -1260,6 +1278,7 @@
     "11.0.27": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jre11.0.27+9-windows-amd64.zip",
     "11.0.28": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jre11.0.28+12-windows-amd64.zip",
     "11.0.29": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jre11.0.29+12-windows-amd64.zip",
+    "11.0.30": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jre11.0.30+9-windows-amd64.zip",
     "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-windows-amd64.zip",
     "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-amd64.zip",
     "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-amd64.zip",
@@ -1294,6 +1313,7 @@
     "17.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jre17.0.15+10-windows-amd64.zip",
     "17.0.16": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jre17.0.16+12-windows-amd64.zip",
     "17.0.17": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jre17.0.17+15-windows-amd64.zip",
+    "17.0.18": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jre17.0.18+10-windows-amd64.zip",
     "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-windows-amd64.zip",
     "17.1.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-windows-amd64.zip",
     "17.1.8": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-windows-amd64.zip",
@@ -1318,6 +1338,7 @@
     "21.0.7": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jre21.0.7+9-windows-amd64.zip",
     "21.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jre21.0.8+12-windows-amd64.zip",
     "21.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jre21.0.9+15-windows-amd64.zip",
+    "21.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jre21.0.10+10-windows-amd64.zip",
     "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-windows-amd64.zip",
     "22.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jre22.0.1+12-windows-amd64.zip",
     "22.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-windows-amd64.zip",
@@ -1328,7 +1349,8 @@
     "24.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jre24.0.1+11-windows-amd64.zip",
     "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jre24.0.2+12-windows-amd64.zip",
     "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jre25+37-windows-amd64.zip",
-    "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-windows-amd64.zip"
+    "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-windows-amd64.zip",
+    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jre25.0.2+12-windows-amd64.zip"
   },
   "liberica-jre-full": {
     "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-windows-amd64-full.zip",
@@ -1359,6 +1381,7 @@
     "8.0.452": "zip+https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jre8u452+11-windows-amd64-full.zip",
     "8.0.462": "zip+https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jre8u462+11-windows-amd64-full.zip",
     "8.0.472": "zip+https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jre8u472+11-windows-amd64-full.zip",
+    "8.0.482": "zip+https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jre8u482+10-windows-amd64-full.zip",
     "11.0.6": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jre11.0.6+10-windows-amd64-full.zip",
     "11.0.7": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.7+10/bellsoft-jre11.0.7+10-windows-amd64-full.zip",
     "11.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-windows-amd64-full.zip",
@@ -1383,6 +1406,7 @@
     "11.0.27": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jre11.0.27+9-windows-amd64-full.zip",
     "11.0.28": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jre11.0.28+12-windows-amd64-full.zip",
     "11.0.29": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jre11.0.29+12-windows-amd64-full.zip",
+    "11.0.30": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jre11.0.30+9-windows-amd64-full.zip",
     "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-windows-amd64-full.zip",
     "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-amd64-full.zip",
     "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-amd64-full.zip",
@@ -1416,6 +1440,7 @@
     "17.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jre17.0.15+10-windows-amd64-full.zip",
     "17.0.16": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jre17.0.16+12-windows-amd64-full.zip",
     "17.0.17": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jre17.0.17+15-windows-amd64-full.zip",
+    "17.0.18": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jre17.0.18+10-windows-amd64-full.zip",
     "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-windows-amd64-full.zip",
     "17.1.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-windows-amd64-full.zip",
     "17.1.8": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-windows-amd64-full.zip",
@@ -1440,6 +1465,7 @@
     "21.0.7": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jre21.0.7+9-windows-amd64-full.zip",
     "21.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jre21.0.8+12-windows-amd64-full.zip",
     "21.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jre21.0.9+15-windows-amd64-full.zip",
+    "21.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jre21.0.10+10-windows-amd64-full.zip",
     "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-windows-amd64-full.zip",
     "22.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jre22.0.1+12-windows-amd64-full.zip",
     "22.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-windows-amd64-full.zip",
@@ -1450,7 +1476,8 @@
     "24.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jre24.0.1+11-windows-amd64-full.zip",
     "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jre24.0.2+12-windows-amd64-full.zip",
     "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jre25+37-windows-amd64-full.zip",
-    "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-windows-amd64-full.zip"
+    "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-windows-amd64-full.zip",
+    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jre25.0.2+12-windows-amd64-full.zip"
   },
   "liberica-lite": {
     "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-windows-amd64-lite.zip",
@@ -1473,6 +1500,7 @@
     "8.0.452": "zip+https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jdk8u452+11-windows-amd64-lite.zip",
     "8.0.462": "zip+https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jdk8u462+11-windows-amd64-lite.zip",
     "8.0.472": "zip+https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jdk8u472+11-windows-amd64-lite.zip",
+    "8.0.482": "zip+https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jdk8u482+10-windows-amd64-lite.zip",
     "11.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-windows-amd64-lite.zip",
     "11.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.1/bellsoft-jdk11.0.1-windows-amd64-lite.zip",
     "11.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.2/bellsoft-jdk11.0.2-windows-amd64-lite.zip",
@@ -1503,6 +1531,7 @@
     "11.0.27": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jdk11.0.27+9-windows-amd64-lite.zip",
     "11.0.28": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jdk11.0.28+12-windows-amd64-lite.zip",
     "11.0.29": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jdk11.0.29+12-windows-amd64-lite.zip",
+    "11.0.30": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jdk11.0.30+9-windows-amd64-lite.zip",
     "11.1.9": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-amd64-lite.zip",
     "11.1.14": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-amd64-lite.zip",
     "11.1.15": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-amd64-lite.zip",
@@ -1541,6 +1570,7 @@
     "17.0.15": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jdk17.0.15+10-windows-amd64-lite.zip",
     "17.0.16": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jdk17.0.16+12-windows-amd64-lite.zip",
     "17.0.17": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jdk17.0.17+15-windows-amd64-lite.zip",
+    "17.0.18": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jdk17.0.18+10-windows-amd64-lite.zip",
     "17.1.3": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-amd64-lite.zip",
     "17.1.4": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-windows-amd64-lite.zip",
     "17.1.8": "zip+https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-windows-amd64-lite.zip",
@@ -1565,6 +1595,7 @@
     "21.0.7": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jdk21.0.7+9-windows-amd64-lite.zip",
     "21.0.8": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jdk21.0.8+12-windows-amd64-lite.zip",
     "21.0.9": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jdk21.0.9+15-windows-amd64-lite.zip",
+    "21.0.10": "zip+https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-windows-amd64-lite.zip",
     "22.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-windows-amd64-lite.zip",
     "22.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-windows-amd64-lite.zip",
     "22.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-windows-amd64-lite.zip",
@@ -1575,7 +1606,8 @@
     "24.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jdk24.0.1+11-windows-amd64-lite.zip",
     "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-windows-amd64-lite.zip",
     "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jdk25+37-windows-amd64-lite.zip",
-    "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-windows-amd64-lite.zip"
+    "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-windows-amd64-lite.zip",
+    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-windows-amd64-lite.zip"
   },
   "liberica-nik": {
     "11.0.11": "zip+https://download.bell-sw.com/vm/21.1.0/bellsoft-liberica-vm-openjdk11-21.1.0-windows-amd64.zip",
@@ -2248,6 +2280,7 @@
     "8.0.452": "zip+https://cdn.azul.com/zulu/bin/zulu8.86.0.25-ca-jdk8.0.452-win_x64.zip",
     "8.0.462": "zip+https://cdn.azul.com/zulu/bin/zulu8.88.0.19-ca-jdk8.0.462-win_x64.zip",
     "8.0.472": "zip+https://cdn.azul.com/zulu/bin/zulu8.90.0.19-ca-jdk8.0.472-win_x64.zip",
+    "8.0.482": "zip+https://cdn.azul.com/zulu/bin/zulu8.92.0.19-ca-jdk8.0.482-win_x64.zip",
     "9.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu9.0.0.15-ca-jdk9.0.0-win_x64.zip",
     "9.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu9.0.1.3-jdk9.0.1-win_x64.zip",
     "9.0.4": "zip+https://cdn.azul.com/zulu/bin/zulu9.0.4.1-jdk9.0.4-win_x64.zip",
@@ -2284,6 +2317,7 @@
     "11.0.27": "zip+https://cdn.azul.com/zulu/bin/zulu11.80.21-ca-jdk11.0.27-win_x64.zip",
     "11.0.28": "zip+https://cdn.azul.com/zulu/bin/zulu11.82.19-ca-jdk11.0.28-win_x64.zip",
     "11.0.29": "zip+https://cdn.azul.com/zulu/bin/zulu11.84.17-ca-jdk11.0.29-win_x64.zip",
+    "11.0.30": "zip+https://cdn.azul.com/zulu/bin/zulu11.86.19-ca-jdk11.0.30-win_x64.zip",
     "12.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu12.1.3-ca-jdk12.0.0-win_x64.zip",
     "12.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu12.2.3-ca-jdk12.0.1-win_x64.zip",
     "12.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu12.3.11-ca-jdk12.0.2-win_x64.zip",
@@ -2337,6 +2371,7 @@
     "17.0.15": "zip+https://cdn.azul.com/zulu/bin/zulu17.58.21-ca-jdk17.0.15-win_x64.zip",
     "17.0.16": "zip+https://cdn.azul.com/zulu/bin/zulu17.60.17-ca-jdk17.0.16-win_x64.zip",
     "17.0.17": "zip+https://cdn.azul.com/zulu/bin/zulu17.62.17-ca-jdk17.0.17-win_x64.zip",
+    "17.0.18": "zip+https://cdn.azul.com/zulu/bin/zulu17.64.15-ca-jdk17.0.18-win_x64.zip",
     "18.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jdk18.0.0-win_x64.zip",
     "18.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu18.30.11-ca-jdk18.0.1-win_x64.zip",
     "18.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jdk18.0.2-win_x64.zip",
@@ -2356,6 +2391,7 @@
     "21.0.7": "zip+https://cdn.azul.com/zulu/bin/zulu21.42.19-ca-jdk21.0.7-win_x64.zip",
     "21.0.8": "zip+https://cdn.azul.com/zulu/bin/zulu21.44.17-ca-jdk21.0.8-win_x64.zip",
     "21.0.9": "zip+https://cdn.azul.com/zulu/bin/zulu21.46.19-ca-jdk21.0.9-win_x64.zip",
+    "21.0.10": "zip+https://cdn.azul.com/zulu/bin/zulu21.48.15-ca-jdk21.0.10-win_x64.zip",
     "22.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jdk22.0.0-win_x64.zip",
     "22.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jdk22.0.1-win_x64.zip",
     "22.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu22.32.17-ca-crac-jdk22.0.2-win_x64.zip",
@@ -2366,7 +2402,8 @@
     "24.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu24.30.11-ca-jdk24.0.1-win_x64.zip",
     "24.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu24.32.13-ca-jdk24.0.2-win_x64.zip",
     "25.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu25.28.85-ca-crac-jdk25.0.0-win_x64.zip",
-    "25.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu25.30.17-ca-jdk25.0.1-win_x64.zip"
+    "25.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu25.30.17-ca-jdk25.0.1-win_x64.zip",
+    "25.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu25.32.17-ca-jdk25.0.2-win_x64.zip"
   },
   "zulu-jre": {
     "8.0.212": "zip+https://cdn.azul.com/zulu/bin/zulu8.38.0.13-ca-jre8.0.212-win_x64.zip",
@@ -2399,6 +2436,7 @@
     "8.0.452": "zip+https://cdn.azul.com/zulu/bin/zulu8.86.0.25-ca-jre8.0.452-win_x64.zip",
     "8.0.462": "zip+https://cdn.azul.com/zulu/bin/zulu8.88.0.19-ca-jre8.0.462-win_x64.zip",
     "8.0.472": "zip+https://cdn.azul.com/zulu/bin/zulu8.90.0.19-ca-jre8.0.472-win_x64.zip",
+    "8.0.482": "zip+https://cdn.azul.com/zulu/bin/zulu8.92.0.19-ca-jre8.0.482-win_x64.zip",
     "11.0.3": "zip+https://cdn.azul.com/zulu/bin/zulu11.31.11-ca-jre11.0.3-win_x64.zip",
     "11.0.4": "zip+https://cdn.azul.com/zulu/bin/zulu11.33.15-ca-jre11.0.4-win_x64.zip",
     "11.0.5": "zip+https://cdn.azul.com/zulu/bin/zulu11.35.13-ca-jre11.0.5-win_x64.zip",
@@ -2426,6 +2464,7 @@
     "11.0.27": "zip+https://cdn.azul.com/zulu/bin/zulu11.80.21-ca-jre11.0.27-win_x64.zip",
     "11.0.28": "zip+https://cdn.azul.com/zulu/bin/zulu11.82.19-ca-jre11.0.28-win_x64.zip",
     "11.0.29": "zip+https://cdn.azul.com/zulu/bin/zulu11.84.17-ca-jre11.0.29-win_x64.zip",
+    "11.0.30": "zip+https://cdn.azul.com/zulu/bin/zulu11.86.19-ca-jre11.0.30-win_x64.zip",
     "12.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu12.1.3-ca-jre12.0.0-win_x64.zip",
     "13.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu13.28.11-ca-jre13.0.1-win_x64.zip",
     "13.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu13.29.9-ca-jre13.0.2-win_x64.zip",
@@ -2475,6 +2514,7 @@
     "17.0.15": "zip+https://cdn.azul.com/zulu/bin/zulu17.58.21-ca-jre17.0.15-win_x64.zip",
     "17.0.16": "zip+https://cdn.azul.com/zulu/bin/zulu17.60.17-ca-jre17.0.16-win_x64.zip",
     "17.0.17": "zip+https://cdn.azul.com/zulu/bin/zulu17.62.17-ca-jre17.0.17-win_x64.zip",
+    "17.0.18": "zip+https://cdn.azul.com/zulu/bin/zulu17.64.15-ca-jre17.0.18-win_x64.zip",
     "18.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jre18.0.0-win_x64.zip",
     "18.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu18.30.11-ca-jre18.0.1-win_x64.zip",
     "18.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jre18.0.2-win_x64.zip",
@@ -2494,6 +2534,7 @@
     "21.0.7": "zip+https://cdn.azul.com/zulu/bin/zulu21.42.19-ca-jre21.0.7-win_x64.zip",
     "21.0.8": "zip+https://cdn.azul.com/zulu/bin/zulu21.44.17-ca-jre21.0.8-win_x64.zip",
     "21.0.9": "zip+https://cdn.azul.com/zulu/bin/zulu21.46.19-ca-jre21.0.9-win_x64.zip",
+    "21.0.10": "zip+https://cdn.azul.com/zulu/bin/zulu21.48.15-ca-jre21.0.10-win_x64.zip",
     "22.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jre22.0.0-win_x64.zip",
     "22.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jre22.0.1-win_x64.zip",
     "22.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu22.32.15-ca-jre22.0.2-win_x64.zip",
@@ -2504,6 +2545,7 @@
     "24.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu24.30.11-ca-jre24.0.1-win_x64.zip",
     "24.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu24.32.13-ca-jre24.0.2-win_x64.zip",
     "25.0.0": "zip+https://cdn.azul.com/zulu/bin/zulu25.28.85-ca-jre25.0.0-win_x64.zip",
-    "25.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu25.30.17-ca-jre25.0.1-win_x64.zip"
+    "25.0.1": "zip+https://cdn.azul.com/zulu/bin/zulu25.30.17-ca-jre25.0.1-win_x64.zip",
+    "25.0.2": "zip+https://cdn.azul.com/zulu/bin/zulu25.32.17-ca-jre25.0.2-win_x64.zip"
   }
 }
