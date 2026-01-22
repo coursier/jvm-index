@@ -13,7 +13,7 @@ jobs:
       - uses: coursier/cache-action@v7.0
       - uses: coursier/setup-action@v2.0
         with:
-          jvm: 11
+          jvm: 21
       - run: ./scala-cli.sh compile src
 
   fmt:
@@ -23,6 +23,6 @@ jobs:
       - uses: coursier/cache-action@v7.0
       - uses: coursier/setup-action@v2.0
         with:
-          jvm: 11
+          jvm: 21
           apps: scalafmt
       - run: scalafmt --test
