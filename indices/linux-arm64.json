@@ -507,6 +507,7 @@
     "8.452.09.1": "tgz+https://corretto.aws/downloads/resources/8.452.09.1/amazon-corretto-8.452.09.1-linux-aarch64.tar.gz",
     "8.462.08.1": "tgz+https://corretto.aws/downloads/resources/8.462.08.1/amazon-corretto-8.462.08.1-linux-aarch64.tar.gz",
     "8.472.08.1": "tgz+https://corretto.aws/downloads/resources/8.472.08.1/amazon-corretto-8.472.08.1-linux-aarch64.tar.gz",
+    "8.482.08.1": "tgz+https://corretto.aws/downloads/resources/8.482.08.1/amazon-corretto-8.482.08.1-linux-aarch64.tar.gz",
     "11.0.4.11.1": "tgz+https://corretto.aws/downloads/resources/11.0.4.11.1/amazon-corretto-11.0.4.11.1-linux-aarch64.tar.gz",
     "11.0.5.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.5.10.1/amazon-corretto-11.0.5.10.1-linux-aarch64.tar.gz",
     "11.0.6.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.6.10.1/amazon-corretto-11.0.6.10.1-linux-aarch64.tar.gz",
@@ -537,6 +538,7 @@
     "11.0.27.6.1": "tgz+https://corretto.aws/downloads/resources/11.0.27.6.1/amazon-corretto-11.0.27.6.1-linux-aarch64.tar.gz",
     "11.0.28.6.1": "tgz+https://corretto.aws/downloads/resources/11.0.28.6.1/amazon-corretto-11.0.28.6.1-linux-aarch64.tar.gz",
     "11.0.29.7.1": "tgz+https://corretto.aws/downloads/resources/11.0.29.7.1/amazon-corretto-11.0.29.7.1-linux-aarch64.tar.gz",
+    "11.0.30.7.1": "tgz+https://corretto.aws/downloads/resources/11.0.30.7.1/amazon-corretto-11.0.30.7.1-linux-aarch64.tar.gz",
     "17.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-linux-aarch64.tar.gz",
     "17.0.1.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.1.12.1/amazon-corretto-17.0.1.12.1-linux-aarch64.tar.gz",
     "17.0.2.8.1": "tgz+https://corretto.aws/downloads/resources/17.0.2.8.1/amazon-corretto-17.0.2.8.1-linux-aarch64.tar.gz",
@@ -558,6 +560,7 @@
     "17.0.15.6.1": "tgz+https://corretto.aws/downloads/resources/17.0.15.6.1/amazon-corretto-17.0.15.6.1-linux-aarch64.tar.gz",
     "17.0.16.8.1": "tgz+https://corretto.aws/downloads/resources/17.0.16.8.1/amazon-corretto-17.0.16.8.1-linux-aarch64.tar.gz",
     "17.0.17.10.1": "tgz+https://corretto.aws/downloads/resources/17.0.17.10.1/amazon-corretto-17.0.17.10.1-linux-aarch64.tar.gz",
+    "17.0.18.8.1": "tgz+https://corretto.aws/downloads/resources/17.0.18.8.1/amazon-corretto-17.0.18.8.1-linux-aarch64.tar.gz",
     "18.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-linux-aarch64.tar.gz",
     "18.0.1.10.1": "tgz+https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-linux-aarch64.tar.gz",
     "18.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/18.0.2.9.1/amazon-corretto-18.0.2.9.1-linux-aarch64.tar.gz",
@@ -580,6 +583,7 @@
     "21.0.8.9.1": "tgz+https://corretto.aws/downloads/resources/21.0.8.9.1/amazon-corretto-21.0.8.9.1-linux-aarch64.tar.gz",
     "21.0.9.10.1": "tgz+https://corretto.aws/downloads/resources/21.0.9.10.1/amazon-corretto-21.0.9.10.1-linux-aarch64.tar.gz",
     "21.0.9.11.1": "tgz+https://corretto.aws/downloads/resources/21.0.9.11.1/amazon-corretto-21.0.9.11.1-linux-aarch64.tar.gz",
+    "21.0.10.7.1": "tgz+https://corretto.aws/downloads/resources/21.0.10.7.1/amazon-corretto-21.0.10.7.1-linux-aarch64.tar.gz",
     "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-linux-aarch64.tar.gz",
     "22.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/22.0.0.37.1/amazon-corretto-22.0.0.37.1-linux-aarch64.tar.gz",
     "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-linux-aarch64.tar.gz",
@@ -593,7 +597,8 @@
     "24.0.2.12.1": "tgz+https://corretto.aws/downloads/resources/24.0.2.12.1/amazon-corretto-24.0.2.12.1-linux-aarch64.tar.gz",
     "25.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/25.0.0.36.2/amazon-corretto-25.0.0.36.2-linux-aarch64.tar.gz",
     "25.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/25.0.1.8.1/amazon-corretto-25.0.1.8.1-linux-aarch64.tar.gz",
-    "25.0.1.9.1": "tgz+https://corretto.aws/downloads/resources/25.0.1.9.1/amazon-corretto-25.0.1.9.1-linux-aarch64.tar.gz"
+    "25.0.1.9.1": "tgz+https://corretto.aws/downloads/resources/25.0.1.9.1/amazon-corretto-25.0.1.9.1-linux-aarch64.tar.gz",
+    "25.0.2.10.1": "tgz+https://corretto.aws/downloads/resources/25.0.2.10.1/amazon-corretto-25.0.2.10.1-linux-aarch64.tar.gz"
   },
   "graalvm-community": {
     "17.0.7": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-17.0.7/graalvm-community-jdk-17.0.7_linux-aarch64_bin.tar.gz",
@@ -614,7 +619,8 @@
     "24.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.1/graalvm-community-jdk-24.0.1_linux-aarch64_bin.tar.gz",
     "24.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-24.0.2/graalvm-community-jdk-24.0.2_linux-aarch64_bin.tar.gz",
     "25.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.0/graalvm-community-jdk-25.0.0_linux-aarch64_bin.tar.gz",
-    "25.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.1/graalvm-community-jdk-25.0.1_linux-aarch64_bin.tar.gz"
+    "25.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.1/graalvm-community-jdk-25.0.1_linux-aarch64_bin.tar.gz",
+    "25.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.2/graalvm-community-jdk-25.0.2_linux-aarch64_bin.tar.gz"
   },
   "graalvm-java11": {
     "19.3.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java11-linux-aarch64-19.3.0.tar.gz",
@@ -698,7 +704,8 @@
   },
   "graalvm-java25": {
     "25.0.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.0/graalvm-community-jdk-25.0.0_linux-aarch64_bin.tar.gz",
-    "25.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.1/graalvm-community-jdk-25.0.1_linux-aarch64_bin.tar.gz"
+    "25.0.1": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.1/graalvm-community-jdk-25.0.1_linux-aarch64_bin.tar.gz",
+    "25.0.2": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.2/graalvm-community-jdk-25.0.2_linux-aarch64_bin.tar.gz"
   },
   "graalvm-oracle": {
     "21": "tgz+https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_linux-aarch64_bin.tar.gz",
@@ -940,6 +947,7 @@
     "8.0.452": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jdk8u452+11-linux-aarch64.tar.gz",
     "8.0.462": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jdk8u462+11-linux-aarch64.tar.gz",
     "8.0.472": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jdk8u472+11-linux-aarch64.tar.gz",
+    "8.0.482": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jdk8u482+10-linux-aarch64.tar.gz",
     "10.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/10.0.2.ARMv8/bellsoft-jdk10.0.2-linux-aarch64.tar.gz",
     "11.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-linux-aarch64.tar.gz",
     "11.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.1/bellsoft-jdk11.0.1-linux-aarch64.tar.gz",
@@ -971,6 +979,7 @@
     "11.0.27": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jdk11.0.27+9-linux-aarch64.tar.gz",
     "11.0.28": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jdk11.0.28+12-linux-aarch64.tar.gz",
     "11.0.29": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jdk11.0.29+12-linux-aarch64.tar.gz",
+    "11.0.30": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jdk11.0.30+9-linux-aarch64.tar.gz",
     "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-aarch64.tar.gz",
     "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64.tar.gz",
     "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64.tar.gz",
@@ -1009,6 +1018,7 @@
     "17.0.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jdk17.0.15+10-linux-aarch64.tar.gz",
     "17.0.16": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jdk17.0.16+12-linux-aarch64.tar.gz",
     "17.0.17": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jdk17.0.17+15-linux-aarch64.tar.gz",
+    "17.0.18": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jdk17.0.18+10-linux-aarch64.tar.gz",
     "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64.tar.gz",
     "17.1.4": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-aarch64.tar.gz",
     "17.1.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-aarch64.tar.gz",
@@ -1033,6 +1043,7 @@
     "21.0.7": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jdk21.0.7+9-linux-aarch64.tar.gz",
     "21.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jdk21.0.8+12-linux-aarch64.tar.gz",
     "21.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jdk21.0.9+15-linux-aarch64.tar.gz",
+    "21.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-linux-aarch64.tar.gz",
     "22.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-aarch64.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-aarch64.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-aarch64.tar.gz",
@@ -1043,7 +1054,8 @@
     "24.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jdk24.0.1+11-linux-aarch64.tar.gz",
     "24.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-linux-aarch64.tar.gz",
     "25.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jdk25+37-linux-aarch64.tar.gz",
-    "25.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-linux-aarch64.tar.gz"
+    "25.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-linux-aarch64.tar.gz",
+    "25.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-linux-aarch64.tar.gz"
   },
   "liberica-crac": {
     "17.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.9+16/bellsoft-jdk17.0.9+16-linux-aarch64-crac.tar.gz",
@@ -1088,6 +1100,7 @@
     "11.0.27": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jdk11.0.27+9-linux-aarch64-full.tar.gz",
     "11.0.28": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jdk11.0.28+12-linux-aarch64-full.tar.gz",
     "11.0.29": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jdk11.0.29+12-linux-aarch64-full.tar.gz",
+    "11.0.30": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jdk11.0.30+9-linux-aarch64-full.tar.gz",
     "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-aarch64-full.tar.gz",
     "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64-full.tar.gz",
     "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64-full.tar.gz",
@@ -1121,6 +1134,7 @@
     "17.0.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jdk17.0.15+10-linux-aarch64-full.tar.gz",
     "17.0.16": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jdk17.0.16+12-linux-aarch64-full.tar.gz",
     "17.0.17": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jdk17.0.17+15-linux-aarch64-full.tar.gz",
+    "17.0.18": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jdk17.0.18+10-linux-aarch64-full.tar.gz",
     "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64-full.tar.gz",
     "17.1.4": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-aarch64-full.tar.gz",
     "17.1.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-aarch64-full.tar.gz",
@@ -1145,6 +1159,7 @@
     "21.0.7": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jdk21.0.7+9-linux-aarch64-full.tar.gz",
     "21.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jdk21.0.8+12-linux-aarch64-full.tar.gz",
     "21.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jdk21.0.9+15-linux-aarch64-full.tar.gz",
+    "21.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-linux-aarch64-full.tar.gz",
     "22.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-aarch64-full.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-aarch64-full.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-aarch64-full.tar.gz",
@@ -1155,7 +1170,8 @@
     "24.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jdk24.0.1+11-linux-aarch64-full.tar.gz",
     "24.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-linux-aarch64-full.tar.gz",
     "25.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jdk25+37-linux-aarch64-full.tar.gz",
-    "25.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-linux-aarch64-full.tar.gz"
+    "25.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-linux-aarch64-full.tar.gz",
+    "25.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-linux-aarch64-full.tar.gz"
   },
   "liberica-jre": {
     "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-linux-aarch64.tar.gz",
@@ -1190,6 +1206,7 @@
     "8.0.452": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jre8u452+11-linux-aarch64.tar.gz",
     "8.0.462": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jre8u462+11-linux-aarch64.tar.gz",
     "8.0.472": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jre8u472+11-linux-aarch64.tar.gz",
+    "8.0.482": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jre8u482+10-linux-aarch64.tar.gz",
     "10.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/10.0.2.ARMv8/bellsoft-jre10.0.2-linux-aarch64.tar.gz",
     "11.0.5": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jre11.0.5+11-linux-aarch64.tar.gz",
     "11.0.6": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jre11.0.6+10-linux-aarch64.tar.gz",
@@ -1216,6 +1233,7 @@
     "11.0.27": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jre11.0.27+9-linux-aarch64.tar.gz",
     "11.0.28": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jre11.0.28+12-linux-aarch64.tar.gz",
     "11.0.29": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jre11.0.29+12-linux-aarch64.tar.gz",
+    "11.0.30": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jre11.0.30+9-linux-aarch64.tar.gz",
     "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-aarch64.tar.gz",
     "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-aarch64.tar.gz",
     "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-aarch64.tar.gz",
@@ -1250,6 +1268,7 @@
     "17.0.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jre17.0.15+10-linux-aarch64.tar.gz",
     "17.0.16": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jre17.0.16+12-linux-aarch64.tar.gz",
     "17.0.17": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jre17.0.17+15-linux-aarch64.tar.gz",
+    "17.0.18": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jre17.0.18+10-linux-aarch64.tar.gz",
     "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-aarch64.tar.gz",
     "17.1.4": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-linux-aarch64.tar.gz",
     "17.1.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-aarch64.tar.gz",
@@ -1274,6 +1293,7 @@
     "21.0.7": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jre21.0.7+9-linux-aarch64.tar.gz",
     "21.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jre21.0.8+12-linux-aarch64.tar.gz",
     "21.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jre21.0.9+15-linux-aarch64.tar.gz",
+    "21.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jre21.0.10+10-linux-aarch64.tar.gz",
     "22.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-linux-aarch64.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jre22.0.1+12-linux-aarch64.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-aarch64.tar.gz",
@@ -1284,7 +1304,8 @@
     "24.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jre24.0.1+11-linux-aarch64.tar.gz",
     "24.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jre24.0.2+12-linux-aarch64.tar.gz",
     "25.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jre25+37-linux-aarch64.tar.gz",
-    "25.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-linux-aarch64.tar.gz"
+    "25.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-linux-aarch64.tar.gz",
+    "25.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jre25.0.2+12-linux-aarch64.tar.gz"
   },
   "liberica-jre-full": {
     "11.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-linux-aarch64-full.tar.gz",
@@ -1309,6 +1330,7 @@
     "11.0.27": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jre11.0.27+9-linux-aarch64-full.tar.gz",
     "11.0.28": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jre11.0.28+12-linux-aarch64-full.tar.gz",
     "11.0.29": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jre11.0.29+12-linux-aarch64-full.tar.gz",
+    "11.0.30": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jre11.0.30+9-linux-aarch64-full.tar.gz",
     "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-aarch64-full.tar.gz",
     "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-aarch64-full.tar.gz",
     "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-aarch64-full.tar.gz",
@@ -1342,6 +1364,7 @@
     "17.0.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jre17.0.15+10-linux-aarch64-full.tar.gz",
     "17.0.16": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jre17.0.16+12-linux-aarch64-full.tar.gz",
     "17.0.17": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jre17.0.17+15-linux-aarch64-full.tar.gz",
+    "17.0.18": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jre17.0.18+10-linux-aarch64-full.tar.gz",
     "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-aarch64-full.tar.gz",
     "17.1.4": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-linux-aarch64-full.tar.gz",
     "17.1.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-aarch64-full.tar.gz",
@@ -1366,6 +1389,7 @@
     "21.0.7": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jre21.0.7+9-linux-aarch64-full.tar.gz",
     "21.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jre21.0.8+12-linux-aarch64-full.tar.gz",
     "21.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jre21.0.9+15-linux-aarch64-full.tar.gz",
+    "21.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jre21.0.10+10-linux-aarch64-full.tar.gz",
     "22.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-linux-aarch64-full.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jre22.0.1+12-linux-aarch64-full.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-aarch64-full.tar.gz",
@@ -1376,7 +1400,8 @@
     "24.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jre24.0.1+11-linux-aarch64-full.tar.gz",
     "24.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jre24.0.2+12-linux-aarch64-full.tar.gz",
     "25.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jre25+37-linux-aarch64-full.tar.gz",
-    "25.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-linux-aarch64-full.tar.gz"
+    "25.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-linux-aarch64-full.tar.gz",
+    "25.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jre25.0.2+12-linux-aarch64-full.tar.gz"
   },
   "liberica-lite": {
     "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-aarch64-lite.tar.gz",
@@ -1399,6 +1424,7 @@
     "8.0.452": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jdk8u452+11-linux-aarch64-lite.tar.gz",
     "8.0.462": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jdk8u462+11-linux-aarch64-lite.tar.gz",
     "8.0.472": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jdk8u472+11-linux-aarch64-lite.tar.gz",
+    "8.0.482": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jdk8u482+10-linux-aarch64-lite.tar.gz",
     "11.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-linux-aarch64-lite.tar.gz",
     "11.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.1/bellsoft-jdk11.0.1-linux-aarch64-lite.tar.gz",
     "11.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.2/bellsoft-jdk11.0.2-linux-aarch64-lite.tar.gz",
@@ -1429,6 +1455,7 @@
     "11.0.27": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jdk11.0.27+9-linux-aarch64-lite.tar.gz",
     "11.0.28": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jdk11.0.28+12-linux-aarch64-lite.tar.gz",
     "11.0.29": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jdk11.0.29+12-linux-aarch64-lite.tar.gz",
+    "11.0.30": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jdk11.0.30+9-linux-aarch64-lite.tar.gz",
     "11.1.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-aarch64-lite.tar.gz",
     "11.1.14": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64-lite.tar.gz",
     "11.1.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64-lite.tar.gz",
@@ -1467,6 +1494,7 @@
     "17.0.15": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jdk17.0.15+10-linux-aarch64-lite.tar.gz",
     "17.0.16": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jdk17.0.16+12-linux-aarch64-lite.tar.gz",
     "17.0.17": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jdk17.0.17+15-linux-aarch64-lite.tar.gz",
+    "17.0.18": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jdk17.0.18+10-linux-aarch64-lite.tar.gz",
     "17.1.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64-lite.tar.gz",
     "17.1.4": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-aarch64-lite.tar.gz",
     "17.1.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-aarch64-lite.tar.gz",
@@ -1491,6 +1519,7 @@
     "21.0.7": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jdk21.0.7+9-linux-aarch64-lite.tar.gz",
     "21.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jdk21.0.8+12-linux-aarch64-lite.tar.gz",
     "21.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jdk21.0.9+15-linux-aarch64-lite.tar.gz",
+    "21.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-linux-aarch64-lite.tar.gz",
     "22.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-aarch64-lite.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-aarch64-lite.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-aarch64-lite.tar.gz",
@@ -1501,7 +1530,8 @@
     "24.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/24.0.1+11/bellsoft-jdk24.0.1+11-linux-aarch64-lite.tar.gz",
     "24.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-linux-aarch64-lite.tar.gz",
     "25.0.0": "tgz+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jdk25+37-linux-aarch64-lite.tar.gz",
-    "25.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-linux-aarch64-lite.tar.gz"
+    "25.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-linux-aarch64-lite.tar.gz",
+    "25.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-linux-aarch64-lite.tar.gz"
   },
   "liberica-nik": {
     "11.0.10": "tgz+https://download.bell-sw.com/vm/21.0.0.2/bellsoft-liberica-vm-openjdk11-21.0.0.2-linux-aarch64.tar.gz",
@@ -2032,6 +2062,7 @@
     "8.0.452": "tgz+https://cdn.azul.com/zulu/bin/zulu8.86.0.25-ca-jdk8.0.452-linux_aarch64.tar.gz",
     "8.0.462": "tgz+https://cdn.azul.com/zulu/bin/zulu8.88.0.19-ca-jdk8.0.462-linux_aarch64.tar.gz",
     "8.0.472": "tgz+https://cdn.azul.com/zulu/bin/zulu8.90.0.19-ca-jdk8.0.472-linux_aarch64.tar.gz",
+    "8.0.482": "tgz+https://cdn.azul.com/zulu/bin/zulu8.92.0.19-ca-jdk8.0.482-linux_aarch64.tar.gz",
     "11.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu11.1.8-ca-jdk11.0.0-linux_aarch64.tar.gz",
     "11.0.3": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.31.15-ca-jdk11.0.3-linux_aarch64.tar.gz",
     "11.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu11.33.21-ca-jdk11.0.4-c2-linux_aarch64.tar.gz",
@@ -2060,6 +2091,7 @@
     "11.0.27": "tgz+https://cdn.azul.com/zulu/bin/zulu11.80.21-ca-jdk11.0.27-linux_aarch64.tar.gz",
     "11.0.28": "tgz+https://cdn.azul.com/zulu/bin/zulu11.82.19-ca-jdk11.0.28-linux_aarch64.tar.gz",
     "11.0.29": "tgz+https://cdn.azul.com/zulu/bin/zulu11.84.17-ca-jdk11.0.29-linux_aarch64.tar.gz",
+    "11.0.30": "tgz+https://cdn.azul.com/zulu/bin/zulu11.86.19-ca-jdk11.0.30-linux_aarch64.tar.gz",
     "13.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu13.29.10-ca-jdk13.0.2-linux_aarch64.tar.gz",
     "13.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu13.31.25-ca-jdk13.0.3-linux_aarch64.tar.gz",
     "13.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu13.33.38-ca-jdk13.0.4-linux_aarch64.tar.gz",
@@ -2105,6 +2137,7 @@
     "17.0.15": "tgz+https://cdn.azul.com/zulu/bin/zulu17.58.21-ca-jdk17.0.15-linux_aarch64.tar.gz",
     "17.0.16": "tgz+https://cdn.azul.com/zulu/bin/zulu17.60.17-ca-jdk17.0.16-linux_aarch64.tar.gz",
     "17.0.17": "tgz+https://cdn.azul.com/zulu/bin/zulu17.62.17-ca-jdk17.0.17-linux_aarch64.tar.gz",
+    "17.0.18": "tgz+https://cdn.azul.com/zulu/bin/zulu17.64.15-ca-jdk17.0.18-linux_aarch64.tar.gz",
     "18.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jdk18.0.0-linux_aarch64.tar.gz",
     "18.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu18.30.11-ca-jdk18.0.1-linux_aarch64.tar.gz",
     "18.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jdk18.0.2-linux_aarch64.tar.gz",
@@ -2124,6 +2157,7 @@
     "21.0.7": "tgz+https://cdn.azul.com/zulu/bin/zulu21.42.19-ca-jdk21.0.7-linux_aarch64.tar.gz",
     "21.0.8": "tgz+https://cdn.azul.com/zulu/bin/zulu21.44.17-ca-jdk21.0.8-linux_aarch64.tar.gz",
     "21.0.9": "tgz+https://cdn.azul.com/zulu/bin/zulu21.46.19-ca-jdk21.0.9-linux_aarch64.tar.gz",
+    "21.0.10": "tgz+https://cdn.azul.com/zulu/bin/zulu21.48.15-ca-jdk21.0.10-linux_aarch64.tar.gz",
     "22.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jdk22.0.0-linux_aarch64.tar.gz",
     "22.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jdk22.0.1-linux_aarch64.tar.gz",
     "22.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu22.32.17-ca-crac-jdk22.0.2-linux_aarch64.tar.gz",
@@ -2134,7 +2168,8 @@
     "24.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu24.30.11-ca-jdk24.0.1-linux_aarch64.tar.gz",
     "24.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu24.32.13-ca-jdk24.0.2-linux_aarch64.tar.gz",
     "25.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu25.28.85-ca-crac-jdk25.0.0-linux_aarch64.tar.gz",
-    "25.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu25.30.17-ca-jdk25.0.1-linux_aarch64.tar.gz"
+    "25.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu25.30.17-ca-jdk25.0.1-linux_aarch64.tar.gz",
+    "25.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu25.32.17-ca-jdk25.0.2-linux_aarch64.tar.gz"
   },
   "zulu-jre": {
     "8.0.345": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.64.0.19-ca-jre8.0.345-linux_aarch64.tar.gz",
@@ -2151,6 +2186,7 @@
     "8.0.452": "tgz+https://cdn.azul.com/zulu/bin/zulu8.86.0.25-ca-jre8.0.452-linux_aarch64.tar.gz",
     "8.0.462": "tgz+https://cdn.azul.com/zulu/bin/zulu8.88.0.19-ca-jre8.0.462-linux_aarch64.tar.gz",
     "8.0.472": "tgz+https://cdn.azul.com/zulu/bin/zulu8.90.0.19-ca-jre8.0.472-linux_aarch64.tar.gz",
+    "8.0.482": "tgz+https://cdn.azul.com/zulu/bin/zulu8.92.0.19-ca-jre8.0.482-linux_aarch64.tar.gz",
     "11.0.16": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.58.23-ca-jre11.0.16.1-linux_aarch64.tar.gz",
     "11.0.17": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.60.19-ca-jre11.0.17-linux_aarch64.tar.gz",
     "11.0.18": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.62.17-ca-jre11.0.18-linux_aarch64.tar.gz",
@@ -2165,6 +2201,7 @@
     "11.0.27": "tgz+https://cdn.azul.com/zulu/bin/zulu11.80.21-ca-jre11.0.27-linux_aarch64.tar.gz",
     "11.0.28": "tgz+https://cdn.azul.com/zulu/bin/zulu11.82.19-ca-jre11.0.28-linux_aarch64.tar.gz",
     "11.0.29": "tgz+https://cdn.azul.com/zulu/bin/zulu11.84.17-ca-jre11.0.29-linux_aarch64.tar.gz",
+    "11.0.30": "tgz+https://cdn.azul.com/zulu/bin/zulu11.86.19-ca-jre11.0.30-linux_aarch64.tar.gz",
     "13.0.5": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu13.35.100-ca-jre13.0.5.1-linux_aarch64.tar.gz",
     "13.0.6": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu13.37.21-ca-jre13.0.6-linux_aarch64.tar.gz",
     "13.0.7": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu13.40.15-ca-jre13.0.7-linux_aarch64.tar.gz",
@@ -2207,6 +2244,7 @@
     "17.0.15": "tgz+https://cdn.azul.com/zulu/bin/zulu17.58.21-ca-jre17.0.15-linux_aarch64.tar.gz",
     "17.0.16": "tgz+https://cdn.azul.com/zulu/bin/zulu17.60.17-ca-jre17.0.16-linux_aarch64.tar.gz",
     "17.0.17": "tgz+https://cdn.azul.com/zulu/bin/zulu17.62.17-ca-jre17.0.17-linux_aarch64.tar.gz",
+    "17.0.18": "tgz+https://cdn.azul.com/zulu/bin/zulu17.64.15-ca-jre17.0.18-linux_aarch64.tar.gz",
     "18.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jre18.0.0-linux_aarch64.tar.gz",
     "18.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu18.30.11-ca-jre18.0.1-linux_aarch64.tar.gz",
     "18.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jre18.0.2-linux_aarch64.tar.gz",
@@ -2226,6 +2264,7 @@
     "21.0.7": "tgz+https://cdn.azul.com/zulu/bin/zulu21.42.19-ca-jre21.0.7-linux_aarch64.tar.gz",
     "21.0.8": "tgz+https://cdn.azul.com/zulu/bin/zulu21.44.17-ca-jre21.0.8-linux_aarch64.tar.gz",
     "21.0.9": "tgz+https://cdn.azul.com/zulu/bin/zulu21.46.19-ca-jre21.0.9-linux_aarch64.tar.gz",
+    "21.0.10": "tgz+https://cdn.azul.com/zulu/bin/zulu21.48.15-ca-jre21.0.10-linux_aarch64.tar.gz",
     "22.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jre22.0.0-linux_aarch64.tar.gz",
     "22.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jre22.0.1-linux_aarch64.tar.gz",
     "22.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu22.32.17-ca-crac-jre22.0.2-linux_aarch64.tar.gz",
@@ -2236,6 +2275,7 @@
     "24.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu24.30.11-ca-jre24.0.1-linux_aarch64.tar.gz",
     "24.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu24.32.13-ca-jre24.0.2-linux_aarch64.tar.gz",
     "25.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu25.28.85-ca-crac-jre25.0.0-linux_aarch64.tar.gz",
-    "25.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu25.30.17-ca-jre25.0.1-linux_aarch64.tar.gz"
+    "25.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu25.30.17-ca-jre25.0.1-linux_aarch64.tar.gz",
+    "25.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu25.32.17-ca-jre25.0.2-linux_aarch64.tar.gz"
   }
 }
