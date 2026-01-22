@@ -1,4 +1,4 @@
-//> using scala 3
+//> using scala 3.8.1
 //> using dep com.softwaremill.sttp.client3::core:3.10.1
 //> using dep com.lihaoyi::ujson:4.0.2
 //> using dep com.lihaoyi::os-lib:0.11.3
