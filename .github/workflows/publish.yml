@@ -15,7 +15,7 @@ jobs:
       - uses: coursier/cache-action@v7.0
       - uses: coursier/setup-action@v2.0
         with:
-          jvm: 17
+          jvm: 21
       - name: Publish local
         run: cd publish && ./mill -i __.publishLocal
         if: github.ref != 'refs/heads/master'
