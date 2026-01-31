@@ -475,6 +475,7 @@
     "11.0.27": "zip+https://aka.ms/download-jdk/microsoft-jdk-11.0.27-windows-aarch64.zip",
     "11.0.28": "zip+https://aka.ms/download-jdk/microsoft-jdk-11.0.28-windows-aarch64.zip",
     "11.0.29": "zip+https://aka.ms/download-jdk/microsoft-jdk-11.0.29-windows-aarch64.zip",
+    "11.0.30": "zip+https://aka.ms/download-jdk/microsoft-jdk-11.0.30-windows-aarch64.zip",
     "17.0.1.12.1": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.0.1.12.1-windows-aarch64.zip",
     "17.0.2.8.1": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.0.2.8.1-windows-aarch64.zip",
     "17.0.3": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.0.3-windows-aarch64.zip",
@@ -493,6 +494,7 @@
     "17.0.15": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.0.15-windows-aarch64.zip",
     "17.0.16": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.0.16-windows-aarch64.zip",
     "17.0.17": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.0.17-windows-aarch64.zip",
+    "17.0.18": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.0.18-windows-aarch64.zip",
     "17.35.1": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.35.1-windows-aarch64.zip",
     "21.0.0": "zip+https://aka.ms/download-jdk/microsoft-jdk-21.0.0-windows-aarch64.zip",
     "21.0.1": "zip+https://aka.ms/download-jdk/microsoft-jdk-21.0.1-windows-aarch64.zip",
@@ -504,8 +506,10 @@
     "21.0.7": "zip+https://aka.ms/download-jdk/microsoft-jdk-21.0.7-windows-aarch64.zip",
     "21.0.8": "zip+https://aka.ms/download-jdk/microsoft-jdk-21.0.8-windows-aarch64.zip",
     "21.0.9": "zip+https://aka.ms/download-jdk/microsoft-jdk-21.0.9-windows-aarch64.zip",
+    "21.0.10": "zip+https://aka.ms/download-jdk/microsoft-jdk-21.0.10-windows-aarch64.zip",
     "25.0.0": "zip+https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-aarch64.zip",
-    "25.0.1": "zip+https://aka.ms/download-jdk/microsoft-jdk-25.0.1-windows-aarch64.zip"
+    "25.0.1": "zip+https://aka.ms/download-jdk/microsoft-jdk-25.0.1-windows-aarch64.zip",
+    "25.0.2": "zip+https://aka.ms/download-jdk/microsoft-jdk-25.0.2-windows-aarch64.zip"
   },
   "temurin": {
     "21.0.5": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.5%2B11/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.5_11.zip",
