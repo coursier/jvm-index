@@ -114,6 +114,7 @@
     "8.0-452": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u452-b09/OpenJDK8U-jdk_ppc64_aix_hotspot_8u452b09.tar.gz",
     "8.0-462": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u462-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u462b08.tar.gz",
     "8.0-472": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u472-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u472b08.tar.gz",
+    "8.0-482": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u482-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u482b08.tar.gz",
     "9.0.4": "tgz+https://github.com/AdoptOpenJDK/openjdk9-binaries/releases/download/jdk-9.0.4%2B11/OpenJDK9U-jdk_ppc64_aix_hotspot_9.0.4_11.tar.gz",
     "10.0.2": "tgz+https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jdk_ppc64_aix_hotspot_10.0.2_13.tar.gz",
     "11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.12_7.tar.gz",
@@ -133,6 +134,7 @@
     "11.0.27": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.27%2B6/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.27_6.tar.gz",
     "11.0.28": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.28%2B6/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.28_6.tar.gz",
     "11.0.29": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.29%2B7/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.29_7.tar.gz",
+    "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.30_7.tar.gz",
     "12.0.0": "tgz+https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12%2B33/OpenJDK12U-jdk_ppc64_aix_hotspot_12_33.tar.gz",
     "12.0.1": "tgz+https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12.0.1%2B12/OpenJDK12U-jdk_ppc64_aix_hotspot_12.0.1_12.tar.gz",
     "13.0.0": "tgz+https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13%2B33/OpenJDK13U-jdk_ppc64_aix_hotspot_13_33.tar.gz",
@@ -153,6 +155,7 @@
     "17.0.15": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.15%2B6/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.15_6.tar.gz",
     "17.0.16": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.16_8.tar.gz",
     "17.0.17": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.17_10.tar.gz",
+    "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.18_8.tar.gz",
     "21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.2_13.tar.gz",
     "21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.3_9.tar.gz",
     "21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.4_7.tar.gz",
@@ -161,13 +164,15 @@
     "21.0.7": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.7_6.tar.gz",
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.9_10.tar.gz",
+    "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.10_7.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_ppc64_aix_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_ppc64_aix_hotspot_23_37.tar.gz",
     "23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_ppc64_aix_hotspot_23.0.1_11.tar.gz",
     "23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jdk_ppc64_aix_hotspot_23.0.2_7.tar.gz",
     "24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jdk_ppc64_aix_hotspot_24.0.2_12.tar.gz",
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jdk_ppc64_aix_hotspot_25_36.tar.gz",
-    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.1_8.tar.gz"
+    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.1_8.tar.gz",
+    "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.2_10.tar.gz"
   },
   "adoptium-debugimage": {
     "8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u302b08.tar.gz",
@@ -188,6 +193,7 @@
     "8.0-452": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u452-b09/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u452b09.tar.gz",
     "8.0-462": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u462-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u462b08.tar.gz",
     "8.0-472": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u472-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u472b08.tar.gz",
+    "8.0-482": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u482-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u482b08.tar.gz",
     "11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
     "11.0.13": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.13_8.tar.gz",
     "11.0.14": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14%2B9/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.14_9.tar.gz",
@@ -205,6 +211,7 @@
     "11.0.27": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.27%2B6/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.27_6.tar.gz",
     "11.0.28": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.28%2B6/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.28_6.tar.gz",
     "11.0.29": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.29%2B7/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.29_7.tar.gz",
+    "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.30_7.tar.gz",
     "17.0.6": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.6_10.tar.gz",
     "17.0.7": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.7%2B7/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.7_7.tar.gz",
     "17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
@@ -215,6 +222,7 @@
     "17.0.15": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.15%2B6/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.15_6.tar.gz",
     "17.0.16": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.16_8.tar.gz",
     "17.0.17": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.17_10.tar.gz",
+    "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.18_8.tar.gz",
     "21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.2_13.tar.gz",
     "21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.3_9.tar.gz",
     "21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.4_7.tar.gz",
@@ -223,13 +231,15 @@
     "21.0.7": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.7_6.tar.gz",
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.9_10.tar.gz",
+    "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.10_7.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-debugimage_ppc64_aix_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_ppc64_aix_hotspot_23_37.tar.gz",
     "23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-debugimage_ppc64_aix_hotspot_23.0.1_11.tar.gz",
     "23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-debugimage_ppc64_aix_hotspot_23.0.2_7.tar.gz",
     "24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-debugimage_ppc64_aix_hotspot_24.0.2_12.tar.gz",
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-debugimage_ppc64_aix_hotspot_25_36.tar.gz",
-    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.1_8.tar.gz"
+    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.1_8.tar.gz",
+    "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.2_10.tar.gz"
   },
   "adoptium-jre": {
     "8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u302b08.tar.gz",
@@ -250,6 +260,7 @@
     "8.0-452": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u452-b09/OpenJDK8U-jre_ppc64_aix_hotspot_8u452b09.tar.gz",
     "8.0-462": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u462-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u462b08.tar.gz",
     "8.0-472": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u472-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u472b08.tar.gz",
+    "8.0-482": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u482-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u482b08.tar.gz",
     "10.0.2": "tgz+https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jre_ppc64_aix_hotspot_10.0.2_13.tar.gz",
     "11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.12_7.tar.gz",
     "11.0.13": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.13_8.tar.gz",
@@ -268,6 +279,7 @@
     "11.0.27": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.27%2B6/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.27_6.tar.gz",
     "11.0.28": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.28%2B6/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.28_6.tar.gz",
     "11.0.29": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.29%2B7/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.29_7.tar.gz",
+    "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.30_7.tar.gz",
     "12.0.0": "tgz+https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12%2B33/OpenJDK12U-jre_ppc64_aix_hotspot_12_33.tar.gz",
     "12.0.1": "tgz+https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12.0.1%2B12/OpenJDK12U-jre_ppc64_aix_hotspot_12.0.1_12.tar.gz",
     "13.0.0": "tgz+https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13%2B33/OpenJDK13U-jre_ppc64_aix_hotspot_13_33.tar.gz",
@@ -288,6 +300,7 @@
     "17.0.15": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.15%2B6/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.15_6.tar.gz",
     "17.0.16": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.16_8.tar.gz",
     "17.0.17": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.17_10.tar.gz",
+    "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.18_8.tar.gz",
     "21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.2_13.tar.gz",
     "21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.3_9.tar.gz",
     "21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.4_7.tar.gz",
@@ -296,13 +309,15 @@
     "21.0.7": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.7_6.tar.gz",
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.9_10.tar.gz",
+    "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.10_7.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_ppc64_aix_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_ppc64_aix_hotspot_23_37.tar.gz",
     "23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_ppc64_aix_hotspot_23.0.1_11.tar.gz",
     "23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_ppc64_aix_hotspot_23.0.2_7.tar.gz",
     "24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jre_ppc64_aix_hotspot_24.0.2_12.tar.gz",
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jre_ppc64_aix_hotspot_25_36.tar.gz",
-    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.1_8.tar.gz"
+    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.1_8.tar.gz",
+    "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.2_10.tar.gz"
   },
   "adoptium-testimage": {
     "11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
@@ -314,6 +329,7 @@
     "11.0.27": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.27%2B6/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.27_6.tar.gz",
     "11.0.28": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.28%2B6/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.28_6.tar.gz",
     "11.0.29": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.29%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.29_7.tar.gz",
+    "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.30_7.tar.gz",
     "13.0.0": "tgz+https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13%2B33/OpenJDK13U-testimage_ppc64_aix_hotspot_13_33.tar.gz",
     "13.0.2": "tgz+https://github.com/AdoptOpenJDK/openjdk13-binaries/releases/download/jdk-13.0.2%2B8/OpenJDK13U-testimage_ppc64_aix_hotspot_13.0.2_8.tar.gz",
     "14.0.0": "tgz+https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14%2B36/OpenJDK14U-testimage_ppc64_aix_hotspot_14_36.tar.gz",
@@ -331,6 +347,7 @@
     "17.0.15": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.15%2B6/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.15_6.tar.gz",
     "17.0.16": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.16_8.tar.gz",
     "17.0.17": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.17_10.tar.gz",
+    "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.18_8.tar.gz",
     "19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_ppc64_aix_hotspot_19.0.2_7.tar.gz",
     "21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.2_13.tar.gz",
     "21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.3_9.tar.gz",
@@ -340,13 +357,15 @@
     "21.0.7": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.7_6.tar.gz",
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.9_10.tar.gz",
+    "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.10_7.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-testimage_ppc64_aix_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_ppc64_aix_hotspot_23_37.tar.gz",
     "23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-testimage_ppc64_aix_hotspot_23.0.1_11.tar.gz",
     "23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-testimage_ppc64_aix_hotspot_23.0.2_7.tar.gz",
     "24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-testimage_ppc64_aix_hotspot_24.0.2_12.tar.gz",
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-testimage_ppc64_aix_hotspot_25_36.tar.gz",
-    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.1_8.tar.gz"
+    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.1_8.tar.gz",
+    "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.2_10.tar.gz"
   },
   "ibm-semeru": {
     "8.0.302": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_ppc64_aix_8u302b08_openj9-0.27.0.tar.gz",
@@ -367,6 +386,7 @@
     "8.0.452": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u452-b09_openj9-0.51.0/ibm-semeru-open-jdk_ppc64_aix_8u452b09_openj9-0.51.0.tar.gz",
     "8.0.462": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u462-b08_openj9-0.53.0/ibm-semeru-open-jdk_ppc64_aix_8u462b08_openj9-0.53.0.tar.gz",
     "8.0.472": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u472-b08_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_8u472b08_openj9-0.56.0.tar.gz",
+    "8.0.482": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u482-b08_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_8u482b08_openj9-0.57.0.tar.gz",
     "11.0.12": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_ppc64_aix_11.0.12_7_openj9-0.27.0.tar.gz",
     "11.0.13": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.13%2B8_openj9-0.29.0/ibm-semeru-open-jdk_ppc64_aix_11.0.13_8_openj9-0.29.0.tar.gz",
     "11.0.14": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.14%2B9_openj9-0.30.0/ibm-semeru-open-jdk_ppc64_aix_11.0.14_9_openj9-0.30.0.tar.gz",
@@ -388,6 +408,7 @@
     "11.0.27": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B6_openj9-0.51.0/ibm-semeru-open-jdk_ppc64_aix_11.0.27_6_openj9-0.51.0.tar.gz",
     "11.0.28": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.28%2B6_openj9-0.53.0/ibm-semeru-open-jdk_ppc64_aix_11.0.28_6_openj9-0.53.0.tar.gz",
     "11.0.29": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B7_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_11.0.29_7_openj9-0.56.0.tar.gz",
+    "11.0.30": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_11.0.30_7_openj9-0.57.0.tar.gz",
     "16.0.2": "tgz+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_ppc64_aix_16.0.2_7_openj9-0.27.0.tar.gz",
     "17.0.1": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.1%2B12_openj9-0.29.1/ibm-semeru-open-jdk_ppc64_aix_17.0.1_12_openj9-0.29.1.tar.gz",
     "17.0.2": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.2%2B8_openj9-0.30.0/ibm-semeru-open-jdk_ppc64_aix_17.0.2_8_openj9-0.30.0.tar.gz",
@@ -408,6 +429,7 @@
     "17.0.15": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-jdk_ppc64_aix_17.0.15_6_openj9-0.51.0.tar.gz",
     "17.0.16": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16%2B8_openj9-0.53.0/ibm-semeru-open-jdk_ppc64_aix_17.0.16_8_openj9-0.53.0.tar.gz",
     "17.0.17": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B10_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_17.0.17_10_openj9-0.56.0.tar.gz",
+    "17.0.18": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_17.0.18_8_openj9-0.57.0.tar.gz",
     "18.0.1": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_ppc64_aix_18.0.1_10_openj9-0.32.0.tar.gz",
     "18.0.1.1": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1.1%2B2_openj9-0.32.0/ibm-semeru-open-jdk_ppc64_aix_18.0.1.1_2_openj9-0.32.0.tar.gz",
     "18.0.2": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.2%2B9_openj9-0.33.0/ibm-semeru-open-jdk_ppc64_aix_18.0.2_9_openj9-0.33.0.tar.gz",
@@ -423,6 +445,7 @@
     "21.0.7": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6_openj9-0.51.0/ibm-semeru-open-jdk_ppc64_aix_21.0.7_6_openj9-0.51.0.tar.gz",
     "21.0.8": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.8%2B9_openj9-0.53.0/ibm-semeru-open-jdk_ppc64_aix_21.0.8_9_openj9-0.53.0.tar.gz",
     "21.0.9": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B10_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_21.0.9_10_openj9-0.56.0.tar.gz",
+    "21.0.10": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_21.0.10_7_openj9-0.57.0.tar.gz",
     "22.0.1": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_ppc64_aix_22.0.1_8_openj9-0.45.0.tar.gz",
     "22.0.2": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_ppc64_aix_22.0.2_9_openj9-0.46.0.tar.gz",
     "23.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_ppc64_aix_23_37_openj9-0.47.0.tar.gz",
@@ -430,7 +453,8 @@
     "23.0.2": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_ppc64_aix_23.0.2_7_openj9-0.49.0.tar.gz",
     "24.0.2": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_ppc64_aix_24.0.2_12_openj9-0.54.0.tar.gz",
     "25.0.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0/ibm-semeru-open-jdk_ppc64_aix_25_36_openj9-0.55.0.tar.gz",
-    "25.0.1": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_25.0.1_8_openj9-0.56.0.tar.gz"
+    "25.0.1": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_25.0.1_8_openj9-0.56.0.tar.gz",
+    "25.0.2": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_25.0.2_10_openj9-0.57.0.tar.gz"
   },
   "ibm-semeru-openj9-java11": {
     "11.0.12+7_openj9-0.27.1": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.1/ibm-semeru-open-jdk_ppc64_aix_11.0.12_7_openj9-0.27.1.tar.gz",
@@ -455,7 +479,8 @@
     "11.0.26+4_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.26%2B4_openj9-0.49.0/ibm-semeru-open-jdk_ppc64_aix_11.0.26_4_openj9-0.49.0.tar.gz",
     "11.0.27+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B6_openj9-0.51.0/ibm-semeru-open-jdk_ppc64_aix_11.0.27_6_openj9-0.51.0.tar.gz",
     "11.0.28+6_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.28%2B6_openj9-0.53.0/ibm-semeru-open-jdk_ppc64_aix_11.0.28_6_openj9-0.53.0.tar.gz",
-    "11.0.29+7_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B7_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_11.0.29_7_openj9-0.56.0.tar.gz"
+    "11.0.29+7_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B7_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_11.0.29_7_openj9-0.56.0.tar.gz",
+    "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_11.0.30_7_openj9-0.57.0.tar.gz"
   },
   "ibm-semeru-openj9-java16": {
     "16.0.2+7_openj9-0.27.1": "tgz+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.1/ibm-semeru-open-jdk_ppc64_aix_16.0.2_7_openj9-0.27.1.tar.gz",
@@ -481,7 +506,8 @@
     "17.0.14+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.14%2B7_openj9-0.49.0/ibm-semeru-open-jdk_ppc64_aix_17.0.14_7_openj9-0.49.0.tar.gz",
     "17.0.15+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-jdk_ppc64_aix_17.0.15_6_openj9-0.51.0.tar.gz",
     "17.0.16+8_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16%2B8_openj9-0.53.0/ibm-semeru-open-jdk_ppc64_aix_17.0.16_8_openj9-0.53.0.tar.gz",
-    "17.0.17+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B10_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_17.0.17_10_openj9-0.56.0.tar.gz"
+    "17.0.17+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B10_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_17.0.17_10_openj9-0.56.0.tar.gz",
+    "17.0.18+8_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_17.0.18_8_openj9-0.57.0.tar.gz"
   },
   "ibm-semeru-openj9-java18": {
     "18.0.1+10_openj9-0.32.0": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_ppc64_aix_18.0.1_10_openj9-0.32.0.tar.gz",
@@ -506,7 +532,8 @@
     "21.0.6+7_openj9-0.49.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.6%2B7_openj9-0.49.0/ibm-semeru-open-jdk_ppc64_aix_21.0.6_7_openj9-0.49.0.tar.gz",
     "21.0.7+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6_openj9-0.51.0/ibm-semeru-open-jdk_ppc64_aix_21.0.7_6_openj9-0.51.0.tar.gz",
     "21.0.8+9_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.8%2B9_openj9-0.53.0/ibm-semeru-open-jdk_ppc64_aix_21.0.8_9_openj9-0.53.0.tar.gz",
-    "21.0.9+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B10_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_21.0.9_10_openj9-0.56.0.tar.gz"
+    "21.0.9+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B10_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_21.0.9_10_openj9-0.56.0.tar.gz",
+    "21.0.10+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_21.0.10_7_openj9-0.57.0.tar.gz"
   },
   "ibm-semeru-openj9-java22": {
     "22.0.1+8_openj9-0.45.0": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_ppc64_aix_22.0.1_8_openj9-0.45.0.tar.gz",
@@ -523,8 +550,9 @@
     "24.0.2+12_openj9-0.54.0": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_ppc64_aix_24.0.2_12_openj9-0.54.0.tar.gz"
   },
   "ibm-semeru-openj9-java25": {
-    "25+36_openj9-0.55.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0/ibm-semeru-open-jdk_ppc64_aix_25_36_openj9-0.55.0.tar.gz",
-    "25.0.1+8_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_25.0.1_8_openj9-0.56.0.tar.gz"
+    "25+36_openj9-0.55.0.0.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0/ibm-semeru-open-jdk_ppc64_aix_25_36_openj9-0.55.0.tar.gz",
+    "25.0.1+8_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_25.0.1_8_openj9-0.56.0.tar.gz",
+    "25.0.2+10_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_25.0.2_10_openj9-0.57.0.tar.gz"
   },
   "ibm-semeru-openj9-java8": {
     "8.0.302": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_ppc64_aix_8u302b08_openj9-0.27.0.tar.gz",
@@ -544,7 +572,8 @@
     "8.0.442": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u442-b06_openj9-0.49.0/ibm-semeru-open-jdk_ppc64_aix_8u442b06_openj9-0.49.0.tar.gz",
     "8.0.452": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u452-b09_openj9-0.51.0/ibm-semeru-open-jdk_ppc64_aix_8u452b09_openj9-0.51.0.tar.gz",
     "8.0.462": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u462-b08_openj9-0.53.0/ibm-semeru-open-jdk_ppc64_aix_8u462b08_openj9-0.53.0.tar.gz",
-    "8.0.472": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u472-b08_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_8u472b08_openj9-0.56.0.tar.gz"
+    "8.0.472": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u472-b08_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_8u472b08_openj9-0.56.0.tar.gz",
+    "8.0.482": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u482-b08_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_8u482b08_openj9-0.57.0.tar.gz"
   },
   "temurin": {
     "8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u302b08.tar.gz",
@@ -565,6 +594,7 @@
     "8.0-452": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u452-b09/OpenJDK8U-jdk_ppc64_aix_hotspot_8u452b09.tar.gz",
     "8.0-462": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u462-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u462b08.tar.gz",
     "8.0-472": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u472-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u472b08.tar.gz",
+    "8.0-482": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u482-b08/OpenJDK8U-jdk_ppc64_aix_hotspot_8u482b08.tar.gz",
     "11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.12_7.tar.gz",
     "11.0.13": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.13_8.tar.gz",
     "11.0.14": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14%2B9/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.14_9.tar.gz",
@@ -582,6 +612,7 @@
     "11.0.27": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.27%2B6/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.27_6.tar.gz",
     "11.0.28": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.28%2B6/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.28_6.tar.gz",
     "11.0.29": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.29%2B7/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.29_7.tar.gz",
+    "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.30_7.tar.gz",
     "17.0.6": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.6_10.tar.gz",
     "17.0.7": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.7%2B7/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.7_7.tar.gz",
     "17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
@@ -592,6 +623,7 @@
     "17.0.15": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.15%2B6/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.15_6.tar.gz",
     "17.0.16": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.16_8.tar.gz",
     "17.0.17": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.17_10.tar.gz",
+    "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.18_8.tar.gz",
     "21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.2_13.tar.gz",
     "21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.3_9.tar.gz",
     "21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.4_7.tar.gz",
@@ -600,13 +632,15 @@
     "21.0.7": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.7_6.tar.gz",
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.9_10.tar.gz",
+    "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_ppc64_aix_hotspot_21.0.10_7.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_ppc64_aix_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_ppc64_aix_hotspot_23_37.tar.gz",
     "23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_ppc64_aix_hotspot_23.0.1_11.tar.gz",
     "23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jdk_ppc64_aix_hotspot_23.0.2_7.tar.gz",
     "24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jdk_ppc64_aix_hotspot_24.0.2_12.tar.gz",
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jdk_ppc64_aix_hotspot_25_36.tar.gz",
-    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.1_8.tar.gz"
+    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.1_8.tar.gz",
+    "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.2_10.tar.gz"
   },
   "temurin-debugimage": {
     "8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u302b08.tar.gz",
@@ -627,6 +661,7 @@
     "8.0-452": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u452-b09/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u452b09.tar.gz",
     "8.0-462": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u462-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u462b08.tar.gz",
     "8.0-472": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u472-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u472b08.tar.gz",
+    "8.0-482": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u482-b08/OpenJDK8U-debugimage_ppc64_aix_hotspot_8u482b08.tar.gz",
     "11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
     "11.0.13": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.13_8.tar.gz",
     "11.0.14": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14%2B9/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.14_9.tar.gz",
@@ -644,6 +679,7 @@
     "11.0.27": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.27%2B6/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.27_6.tar.gz",
     "11.0.28": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.28%2B6/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.28_6.tar.gz",
     "11.0.29": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.29%2B7/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.29_7.tar.gz",
+    "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.30_7.tar.gz",
     "17.0.6": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.6_10.tar.gz",
     "17.0.7": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.7%2B7/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.7_7.tar.gz",
     "17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
@@ -654,6 +690,7 @@
     "17.0.15": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.15%2B6/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.15_6.tar.gz",
     "17.0.16": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.16_8.tar.gz",
     "17.0.17": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.17_10.tar.gz",
+    "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.18_8.tar.gz",
     "21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.2_13.tar.gz",
     "21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.3_9.tar.gz",
     "21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.4_7.tar.gz",
@@ -662,13 +699,15 @@
     "21.0.7": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.7_6.tar.gz",
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.9_10.tar.gz",
+    "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-debugimage_ppc64_aix_hotspot_21.0.10_7.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-debugimage_ppc64_aix_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_ppc64_aix_hotspot_23_37.tar.gz",
     "23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-debugimage_ppc64_aix_hotspot_23.0.1_11.tar.gz",
     "23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-debugimage_ppc64_aix_hotspot_23.0.2_7.tar.gz",
     "24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-debugimage_ppc64_aix_hotspot_24.0.2_12.tar.gz",
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-debugimage_ppc64_aix_hotspot_25_36.tar.gz",
-    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.1_8.tar.gz"
+    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.1_8.tar.gz",
+    "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.2_10.tar.gz"
   },
   "temurin-jre": {
     "8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u302b08.tar.gz",
@@ -689,6 +728,7 @@
     "8.0-452": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u452-b09/OpenJDK8U-jre_ppc64_aix_hotspot_8u452b09.tar.gz",
     "8.0-462": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u462-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u462b08.tar.gz",
     "8.0-472": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u472-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u472b08.tar.gz",
+    "8.0-482": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u482-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u482b08.tar.gz",
     "11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.12_7.tar.gz",
     "11.0.13": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.13_8.tar.gz",
     "11.0.14": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14%2B9/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.14_9.tar.gz",
@@ -706,6 +746,7 @@
     "11.0.27": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.27%2B6/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.27_6.tar.gz",
     "11.0.28": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.28%2B6/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.28_6.tar.gz",
     "11.0.29": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.29%2B7/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.29_7.tar.gz",
+    "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.30_7.tar.gz",
     "17.0.6": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.6_10.tar.gz",
     "17.0.7": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.7%2B7/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.7_7.tar.gz",
     "17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
@@ -716,6 +757,7 @@
     "17.0.15": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.15%2B6/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.15_6.tar.gz",
     "17.0.16": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.16_8.tar.gz",
     "17.0.17": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.17_10.tar.gz",
+    "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.18_8.tar.gz",
     "21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.2_13.tar.gz",
     "21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.3_9.tar.gz",
     "21.0.4": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.4_7.tar.gz",
@@ -724,13 +766,15 @@
     "21.0.7": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.7_6.tar.gz",
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.9_10.tar.gz",
+    "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_ppc64_aix_hotspot_21.0.10_7.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_ppc64_aix_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_ppc64_aix_hotspot_23_37.tar.gz",
     "23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_ppc64_aix_hotspot_23.0.1_11.tar.gz",
     "23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_ppc64_aix_hotspot_23.0.2_7.tar.gz",
     "24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jre_ppc64_aix_hotspot_24.0.2_12.tar.gz",
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jre_ppc64_aix_hotspot_25_36.tar.gz",
-    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.1_8.tar.gz"
+    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.1_8.tar.gz",
+    "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.2_10.tar.gz"
   },
   "temurin-testimage": {
     "11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
@@ -742,6 +786,7 @@
     "11.0.27": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.27%2B6/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.27_6.tar.gz",
     "11.0.28": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.28%2B6/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.28_6.tar.gz",
     "11.0.29": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.29%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.29_7.tar.gz",
+    "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.30_7.tar.gz",
     "17.0.6": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.6_10.tar.gz",
     "17.0.8.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8.1%2B1/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.8.1_1.tar.gz",
     "17.0.11": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.11_9.tar.gz",
@@ -751,6 +796,7 @@
     "17.0.15": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.15%2B6/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.15_6.tar.gz",
     "17.0.16": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.16_8.tar.gz",
     "17.0.17": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.17_10.tar.gz",
+    "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-testimage_ppc64_aix_hotspot_17.0.18_8.tar.gz",
     "19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_ppc64_aix_hotspot_19.0.2_7.tar.gz",
     "21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.2_13.tar.gz",
     "21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.3_9.tar.gz",
@@ -760,12 +806,14 @@
     "21.0.7": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.7_6.tar.gz",
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.9_10.tar.gz",
+    "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-testimage_ppc64_aix_hotspot_21.0.10_7.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-testimage_ppc64_aix_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_ppc64_aix_hotspot_23_37.tar.gz",
     "23.0.1": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-testimage_ppc64_aix_hotspot_23.0.1_11.tar.gz",
     "23.0.2": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-testimage_ppc64_aix_hotspot_23.0.2_7.tar.gz",
     "24.0.2": "tgz+https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-testimage_ppc64_aix_hotspot_24.0.2_12.tar.gz",
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-testimage_ppc64_aix_hotspot_25_36.tar.gz",
-    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.1_8.tar.gz"
+    "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.1_8.tar.gz",
+    "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.2_10.tar.gz"
   }
 }
