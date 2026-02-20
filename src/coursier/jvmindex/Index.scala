@@ -46,7 +46,7 @@ final case class Index(map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
       }
       .groupBy(_._1)
       .map {
-        case (k, Seq())       => sys.error("Cannot happen after a groupMap")
+        case (_, Seq())       => sys.error("Cannot happen after a groupMap")
         case (k, Seq((_, v))) => k -> v
         case (k, Seq(h, t @ _*)) =>
           k -> OsArchIndex(t.map(_._2.map).foldLeft(h._2.map)(Index.merge2))
