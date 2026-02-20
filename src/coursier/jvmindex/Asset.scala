@@ -5,7 +5,9 @@ import scala.util.control.NonFatal
 final case class Asset(
   name: String,
   downloadUrl: String
-)
+) {
+  def thing = name + downloadUrl
+}
 
 object Asset {
 
