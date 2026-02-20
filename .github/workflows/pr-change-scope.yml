@@ -1,0 +1,38 @@
+# OpenAI GPT-5.2 Codex generated slop
+name: PR change scope
+on:
+  pull_request:
+
+jobs:
+  enforce-scope:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Validate index vs code changes
+        run: |
+          set -euo pipefail
+          base_ref="origin/${{ github.base_ref }}"
+          git fetch origin "${{ github.base_ref }}" --depth=1
+          changed_files=$(git diff --name-only "${base_ref}"...HEAD)
+          if [ -z "${changed_files}" ]; then
+            echo "No changed files detected."
+            exit 0
+          fi
+
+          index_changes=$(echo "${changed_files}" | grep -E '^(index\.json|indices/)' || true)
+          other_changes=$(echo "${changed_files}" | grep -v -E '^(index\.json|indices/)' || true)
+
+          if [ -n "${index_changes}" ] && [ -n "${other_changes}" ]; then
+            echo "Mixed changes detected."
+            echo "Index-related changes:"
+            echo "${index_changes}"
+            echo "Other changes:"
+            echo "${other_changes}"
+            echo "Standard PRs must not modify index.json or indices/."
+            echo "CI generated index-updating PRs can only modify index.json or indices/."
+            exit 1
+          fi
+
+          echo "Change scope is valid."
