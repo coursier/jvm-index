@@ -1,12 +1,12 @@
 //> using scala 3.8.1
 //> using jvm 21
-//> using dep com.softwaremill.sttp.client3::core:3.10.1
-//> using dep com.lihaoyi::ujson:4.0.2
-//> using dep com.lihaoyi::os-lib:0.11.3
-//> using dep com.lihaoyi::pprint:0.9.0
-//> using dep io.get-coursier:versions_2.13:0.3.3
+//> using dep com.softwaremill.sttp.client3::core:3.11.0
+//> using dep com.lihaoyi::ujson:4.4.3
+//> using dep com.lihaoyi::os-lib:0.11.8
+//> using dep com.lihaoyi::pprint:0.9.6
+//> using dep io.get-coursier:versions_2.13:0.5.1
 //> using dep io.get-coursier:interface:1.0.29-M3
-//> using dep org.jsoup:jsoup:1.20.1
+//> using dep org.jsoup:jsoup:1.22.1
 //> using options -Wunused:all -deprecation
 
 package coursier.jvmindex
