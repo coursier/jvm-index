@@ -7,7 +7,7 @@
 //> using dep io.get-coursier:versions_2.13:0.5.1
 //> using dep io.get-coursier:interface:1.0.29-M3
 //> using dep org.jsoup:jsoup:1.22.1
-//> using options -Wunused:all -deprecation
+//> using options -Wunused:all -deprecation -Werror
 
 package coursier.jvmindex
 
