@@ -2,6 +2,7 @@
 
 [![Update index](https://github.com/coursier/jvm-index/actions/workflows/update-index.yml/badge.svg)](https://github.com/coursier/jvm-index/actions/workflows/update-index.yml)
 [![Publish](https://github.com/coursier/jvm-index/actions/workflows/publish.yml/badge.svg)](https://github.com/coursier/jvm-index/actions/workflows/publish.yml)
+[![Maven Central](https://img.shields.io/maven-central/v/io.get-coursier.jvm.indices/index-linux-arm64.svg)](https://maven-badges.herokuapp.com/maven-central/io.get-coursier.jvm.indices/index-linux-arm64)
 
 This repository hosts and manages the JVM index used by the `cs java` and `cs java-home`
 commands of [coursier](https://get-coursier.io), and more generally, the JVM management
