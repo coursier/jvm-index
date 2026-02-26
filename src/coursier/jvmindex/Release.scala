@@ -31,7 +31,7 @@ object Release {
         Iterator.empty
       else {
         val json = resp("releases")
-        val res =
+        val res  =
           try json("nodes").arr.map { obj =>
               Release(obj("tagName").str, obj("isPrerelease").bool)
             }

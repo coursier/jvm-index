@@ -61,11 +61,11 @@ object Graalvm {
             val name0       = asset.name.stripPrefix(assetNamePrefix)
             val nameGlobal  = "jdk@graalvm-community"
             val nameVersion = s"jdk@graalvm-java$javaVersion"
-            val opt =
+            val opt         =
               for {
                 (os, rem)    <- osOpt(name0)
                 (arch, rem0) <- archOpt(rem)
-                ext <- Some(rem0)
+                ext          <- Some(rem0)
                   .filter(_.startsWith("."))
                   .map(_.stripPrefix("."))
                 archiveType <- archiveTypeOpt(ext)

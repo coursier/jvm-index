@@ -46,9 +46,9 @@ object Oracle {
   }
 
   def index(): Index = {
-    val oses     = Seq(Os("darwin"), Os("linux"), Os("windows"))
-    val jdks     = (0 until 10).map(minJavaVersion + _).map(_.toString)
-    val jdkNames = Seq("java", "graalvm")
+    val oses      = Seq(Os("darwin"), Os("linux"), Os("windows"))
+    val jdks      = (0 until 10).map(minJavaVersion + _).map(_.toString)
+    val jdkNames  = Seq("java", "graalvm")
     val allParams = for {
       os      <- oses
       cpu     <- if (os == Os("windows")) Seq(Arch("x64")) else Seq(Arch("x64"), Arch("aarch64"))

@@ -50,18 +50,17 @@ object Corretto {
       Index(indexOs, indexArch, "jdk@corretto", jdkTagVersion, url)
   }
 
-  def fullIndex(ghToken: String): Index =
-    (Iterator("8", "11") ++ Iterator.from(17).map(_.toString))
-      .map(v => index(ghToken, v))
-      .takeWhile(!_.isEmpty)
-      .foldLeft(Index.empty)(_ + _)
+  def fullIndex(ghToken: String): Index = (Iterator("8", "11") ++ Iterator.from(17).map(_.toString))
+    .map(v => index(ghToken, v))
+    .takeWhile(!_.isEmpty)
+    .foldLeft(Index.empty)(_ + _)
 
   def index(
     ghToken: String,
     javaVersion: String
   ): Index = {
-    val ghOrg  = "corretto"
-    val ghProj = s"corretto-$javaVersion"
+    val ghOrg     = "corretto"
+    val ghProj    = s"corretto-$javaVersion"
     val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken)
       .filter(!_.prerelease)
 
@@ -75,7 +74,7 @@ object Corretto {
           Os("alpine-linux"), // deprecated, use linux-musl instead
           Os("linux-musl")
         )
-        val cpus = Seq(Arch("amd64"), Arch("arm64"))
+        val cpus      = Seq(Arch("amd64"), Arch("arm64"))
         val allParams = for {
           os  <- oses
           cpu <- cpus
