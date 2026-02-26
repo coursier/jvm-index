@@ -4,19 +4,18 @@ import Index.{Arch, Os}
 
 object IbmSemeru {
 
-  def fullIndex(ghToken: String): Index =
-    (Iterator("8", "11") ++ Iterator.from(16).map(_.toString))
-      .map(index(ghToken, _))
-      .takeWhile(!_.isEmpty)
-      .foldLeft(Index.empty)(_ + _)
+  def fullIndex(ghToken: String): Index = (Iterator("8", "11") ++ Iterator.from(16).map(_.toString))
+    .map(index(ghToken, _))
+    .takeWhile(!_.isEmpty)
+    .foldLeft(Index.empty)(_ + _)
 
   def index(
     ghToken: String,
     javaVersion: String
   ): Index = {
 
-    val ghOrg  = "ibmruntimes"
-    val ghProj = s"semeru$javaVersion-binaries"
+    val ghOrg     = "ibmruntimes"
+    val ghProj    = s"semeru$javaVersion-binaries"
     val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken)
       .filter(!_.prerelease)
 
@@ -67,7 +66,7 @@ object IbmSemeru {
             val assetName = asset.name.stripPrefix(assetNamePrefix)
             val name      = s"jdk@ibm-semeru-openj9-java$javaVersion"
             val shortName = "jdk@ibm-semeru"
-            val opt =
+            val opt       =
               for {
                 (arch, rem)      <- archOpt(assetName).toSeq
                 (os, rem0)       <- osOpt(rem).toSeq

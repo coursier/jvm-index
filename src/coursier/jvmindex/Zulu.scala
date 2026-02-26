@@ -53,7 +53,7 @@ object Zulu {
       Seq(Os("darwin"), Os("linux"), Os("windows"), Os("linux-musl")) // Add "solaris", "qnx"?
     val cpus        = Seq(Arch("x86"), Arch("amd64"), Arch("arm"), Arch("arm64"), Arch("ppc64"))
     val bundleTypes = Seq("jdk", "jre")
-    val allParams = for {
+    val allParams   = for {
       os  <- oses
       cpu <- cpus
       ext = if (os == Os("windows")) "zip" else "tgz"

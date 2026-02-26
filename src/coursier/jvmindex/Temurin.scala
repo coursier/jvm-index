@@ -5,7 +5,7 @@ import Index.{Arch, Os}
 object Temurin {
 
   def fullIndex(ghToken: String): Index = {
-    val adoptIndices = (8 to 16).map(ver => ver -> index(ghToken, ver, adopt = true))
+    val adoptIndices   = (8 to 16).map(ver => ver -> index(ghToken, ver, adopt = true))
     val temurinIndices = (Iterator(8, 11) ++ Iterator.from(16))
       .map(ver => ver -> index(ghToken, ver, adopt = false))
       .takeWhile(!_._2.isEmpty)
@@ -38,7 +38,7 @@ object Temurin {
     val ghOrg         = if (adopt) "AdoptOpenJDK" else "adoptium"
     val projectPrefix = if (adopt) "openjdk" else "temurin"
     val ghProj        = s"$projectPrefix$baseVersion-binaries"
-    val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken)
+    val releases0     = Release.releaseIds(ghOrg, ghProj, ghToken)
       .filter(!_.prerelease)
 
     def jdkName(suffix: String = ""): String =
@@ -95,7 +95,7 @@ object Temurin {
         prefixes.exists(prefix => release.tagName.startsWith(prefix))
       }
       .flatMap { release =>
-        val version0 = release.tagName.stripPrefix("jdk-").stripPrefix("jdk")
+        val version0          = release.tagName.stripPrefix("jdk-").stripPrefix("jdk")
         val versionInFileName =
           if (version0.contains("+"))
             version0.split('+') match {
@@ -112,7 +112,7 @@ object Temurin {
             for {
               (arch, rem) <- archOpt(name0).toSeq
               (os, rem0)  <- oses(rem)
-              ext <- {
+              ext         <- {
                 val prefix = "hotspot_" + versionInFileName.filter(_ != '-') + "."
                 Seq(rem0)
                   .filter(_.startsWith(prefix))

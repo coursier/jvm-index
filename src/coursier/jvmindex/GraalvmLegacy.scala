@@ -28,7 +28,7 @@ object GraalvmLegacy {
   ): Index = {
 
     val javaVersionInName0 = javaVersion != "8"
-    val name =
+    val name               =
       if (javaVersionInName0)
         s"jdk@graalvm-java$javaVersion"
       else
@@ -68,10 +68,10 @@ object GraalvmLegacy {
           .filter(asset => asset.name.startsWith(assetNamePrefix))
           .flatMap { asset =>
             val name0 = asset.name.stripPrefix(assetNamePrefix)
-            val opt = for {
+            val opt   = for {
               (os, rem)    <- osOpt(name0)
               (arch, rem0) <- archOpt(rem)
-              ext <- Some(rem0)
+              ext          <- Some(rem0)
                 .filter(_.startsWith(version + "."))
                 .map(_.stripPrefix(version + "."))
               archiveType <- archiveTypeOpt(ext)

@@ -46,8 +46,8 @@ final case class Index(map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
       }
       .groupBy(_._1)
       .map {
-        case (_, Seq())       => sys.error("Cannot happen after a groupMap")
-        case (k, Seq((_, v))) => k -> v
+        case (_, Seq())          => sys.error("Cannot happen after a groupMap")
+        case (k, Seq((_, v)))    => k -> v
         case (k, Seq(h, t @ _*)) =>
           k -> OsArchIndex(t.map(_._2.map).foldLeft(h._2.map)(Index.merge2))
       }
@@ -91,86 +91,82 @@ object Index {
   private def merge4(
     a: Map[Os, Map[Arch, Map[String, Map[String, String]]]],
     b: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
-  ): Map[Os, Map[Arch, Map[String, Map[String, String]]]] =
-    (a.keySet ++ b.keySet)
-      .iterator
-      .map { key =>
-        val m = (a.get(key), b.get(key)) match {
-          case (Some(a0), Some(b0)) =>
-            merge3(a0, b0)
-          case (Some(a0), None) =>
-            a0
-          case (None, Some(b0)) =>
-            b0
-          case (None, None) =>
-            sys.error("cannot happen")
-        }
-        key -> m
+  ): Map[Os, Map[Arch, Map[String, Map[String, String]]]] = (a.keySet ++ b.keySet)
+    .iterator
+    .map { key =>
+      val m = (a.get(key), b.get(key)) match {
+        case (Some(a0), Some(b0)) =>
+          merge3(a0, b0)
+        case (Some(a0), None) =>
+          a0
+        case (None, Some(b0)) =>
+          b0
+        case (None, None) =>
+          sys.error("cannot happen")
       }
-      .toMap
+      key -> m
+    }
+    .toMap
 
   private def merge3(
     a: Map[String, Map[String, Map[String, String]]],
     b: Map[String, Map[String, Map[String, String]]]
-  ): Map[String, Map[String, Map[String, String]]] =
-    (a.keySet ++ b.keySet)
-      .iterator
-      .map { key =>
-        val m = (a.get(key), b.get(key)) match {
-          case (Some(a0), Some(b0)) =>
-            merge2(a0, b0)
-          case (Some(a0), None) =>
-            a0
-          case (None, Some(b0)) =>
-            b0
-          case (None, None) =>
-            sys.error("cannot happen")
-        }
-        key -> m
+  ): Map[String, Map[String, Map[String, String]]] = (a.keySet ++ b.keySet)
+    .iterator
+    .map { key =>
+      val m = (a.get(key), b.get(key)) match {
+        case (Some(a0), Some(b0)) =>
+          merge2(a0, b0)
+        case (Some(a0), None) =>
+          a0
+        case (None, Some(b0)) =>
+          b0
+        case (None, None) =>
+          sys.error("cannot happen")
       }
-      .toMap
+      key -> m
+    }
+    .toMap
 
   private def merge2(
     a: Map[String, Map[String, String]],
     b: Map[String, Map[String, String]]
-  ): Map[String, Map[String, String]] =
-    (a.keySet ++ b.keySet)
-      .iterator
-      .map { key =>
-        val m = (a.get(key), b.get(key)) match {
-          case (Some(a0), Some(b0)) =>
-            merge1(a0, b0)
-          case (Some(a0), None) =>
-            a0
-          case (None, Some(b0)) =>
-            b0
-          case (None, None) =>
-            sys.error("cannot happen")
-        }
-        key -> m
+  ): Map[String, Map[String, String]] = (a.keySet ++ b.keySet)
+    .iterator
+    .map { key =>
+      val m = (a.get(key), b.get(key)) match {
+        case (Some(a0), Some(b0)) =>
+          merge1(a0, b0)
+        case (Some(a0), None) =>
+          a0
+        case (None, Some(b0)) =>
+          b0
+        case (None, None) =>
+          sys.error("cannot happen")
       }
-      .toMap
+      key -> m
+    }
+    .toMap
 
   private def merge1(
     a: Map[String, String],
     b: Map[String, String]
-  ): Map[String, String] =
-    (a.keySet ++ b.keySet)
-      .iterator
-      .map { key =>
-        val m = (a.get(key), b.get(key)) match {
-          case (Some(_), Some(b0)) =>
-            b0 // keeping value from the map on the right
-          case (Some(a0), None) =>
-            a0
-          case (None, Some(b0)) =>
-            b0
-          case (None, None) =>
-            sys.error("cannot happen")
-        }
-        key -> m
+  ): Map[String, String] = (a.keySet ++ b.keySet)
+    .iterator
+    .map { key =>
+      val m = (a.get(key), b.get(key)) match {
+        case (Some(_), Some(b0)) =>
+          b0 // keeping value from the map on the right
+        case (Some(a0), None) =>
+          a0
+        case (None, Some(b0)) =>
+          b0
+        case (None, None) =>
+          sys.error("cannot happen")
       }
-      .toMap
+      key -> m
+    }
+    .toMap
 
   private def json4(
     map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]

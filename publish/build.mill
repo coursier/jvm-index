@@ -9,7 +9,7 @@ import mill.scalalib.publish._
 import scala.concurrent.duration._
 
 trait IndexModule extends Cross.Module[String] with PublishModule {
-  def moduleName = s"index-$crossValue"
+  def moduleName  = s"index-$crossValue"
   def pomSettings = PomSettings(
     description = s"JVM index for $crossValue",
     organization = "io.get-coursier.jvm.indices",
@@ -20,7 +20,7 @@ trait IndexModule extends Cross.Module[String] with PublishModule {
       Developer("alexarchambault", "Alex Archambault", "https://github.com/alexarchambault")
     )
   )
-  def publishVersion      = VcsVersion.vcsState().format()
+  def publishVersion = VcsVersion.vcsState().format()
 
   def indexFile = T.source {
     PathRef(T.workspace / os.up / "indices" / s"$crossValue.json")

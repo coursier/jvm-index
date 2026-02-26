@@ -67,8 +67,8 @@ object Microsoft {
         .filter(!_.endsWith(".exe"))
         .filter(!_.endsWith(".pkg"))
     }
-    val latest = list("https://learn.microsoft.com/en-us/java/openjdk/download")
-    val older  = list("https://learn.microsoft.com/en-us/java/openjdk/older-releases")
+    val latest  = list("https://learn.microsoft.com/en-us/java/openjdk/download")
+    val older   = list("https://learn.microsoft.com/en-us/java/openjdk/older-releases")
     val indices = (latest ++ older).flatMap(url => detailsOpt(url).iterator.map((_, url))).map {
       case ((os, arch, ver), url) =>
         val url0 =
