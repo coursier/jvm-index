@@ -26,7 +26,7 @@ object Microsoft {
           Some((Os("linux"), Arch("amd64"), version))
         case Array(version, "alpine", "x64") =>
           Some((Os("linux-musl"), Arch("amd64"), version))
-        case Array(version, "macos", "x64") =>
+        case Array(version, "macos" | "macOS", "x64") =>
           Some((Os("darwin"), Arch("amd64"), version))
         case Array(version, "windows", "x64") =>
           Some((Os("windows"), Arch("amd64"), version))
@@ -34,7 +34,7 @@ object Microsoft {
           Some((Os("linux"), Arch("arm64"), version))
         case Array(version, "alpine", "aarch64") =>
           Some((Os("linux-musl"), Arch("arm64"), version))
-        case Array(version, "macos", "aarch64") =>
+        case Array(version, "macos" | "macOS", "aarch64") =>
           Some((Os("darwin"), Arch("arm64"), version))
         case Array(version, "windows", "aarch64") =>
           Some((Os("windows"), Arch("arm64"), version))
