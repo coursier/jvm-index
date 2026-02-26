@@ -74,16 +74,28 @@ object SummarizeIndexChanges:
       val baseMap = readIndex(baseDir / file)
       val prMap   = readIndex(prDir / file)
 
-      val allJvms    = (baseMap.keySet ++ prMap.keySet).toSeq.sorted
-      val jvmChanges = allJvms.flatMap: jvm =>
+      val allJvms = (baseMap.keySet ++ prMap.keySet).toSeq.sorted
+
+      // Collect (displayName, urls) pairs, stripping -java<N> suffixes
+      val jvmAddedUrls = allJvms.flatMap: jvm =>
         val baseVersions  = baseMap.getOrElse(jvm, Map.empty)
         val prVersions    = prMap.getOrElse(jvm, Map.empty)
         val addedVersions = prVersions.filter((k, _) => !baseVersions.contains(k))
         if addedVersions.isEmpty then None
         else
-          val urls   = addedVersions.values.toSeq.map(url => url.dropWhile(_ != '+').drop(1))
-          val prefix = longestCommonPrefix(urls)
-          Some((jvm, addedVersions.size, prefix))
+          val urls       = addedVersions.values.toSeq.map(url => url.dropWhile(_ != '+').drop(1))
+          val displayJvm = jvm.replaceAll("-java\\d+$", "")
+          Some((displayJvm, urls))
+
+      // Merge entries sharing the same display name, preserving first-occurrence order
+      val jvmChanges = jvmAddedUrls
+        .foldLeft(Vector.empty[(String, Seq[String])]): (acc, pair) =>
+          val (name, urls) = pair
+          acc.indexWhere(_._1 == name) match
+            case -1 => acc :+ pair
+            case i  => acc.updated(i, (name, acc(i)._2 ++ urls))
+        .map: (name, urls) =>
+          (name, urls.size, longestCommonPrefix(urls))
 
       if jvmChanges.nonEmpty then
         hasChanges = true
