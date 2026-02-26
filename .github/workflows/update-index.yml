@@ -18,6 +18,13 @@ jobs:
       - uses: coursier/setup-action@v2.0
         with:
           jvm: 21
+
+      # That's for the "Post index summary comment" step below
+      # Claude Sonnet 4.6 generated
+      - name: Snapshot base indices
+        if: github.ref == 'refs/heads/master'
+        run: cp -r indices/ /tmp/base-indices
+
       - run: ./scala-cli.sh src
         env:
           GH_TOKEN: ${{ secrets.INDEX_GITHUB_TOKEN }}
@@ -34,6 +41,30 @@ jobs:
           author: GitHub <noreply@github.com>
           delete-branch: true
           title: Update index
+
+      # Claude Sonnet 4.6 generated
+      - name: Post index summary comment
+        if: github.ref == 'refs/heads/master' && steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.INDEX_GITHUB_TOKEN }}
+        run: |
+          SUMMARY=$(./scala-cli.sh .github/scripts/summarize-index-changes.scala -- /tmp/base-indices indices/)
+          MARKER="<!-- pr-index-summary -->"
+          BODY="${MARKER}
+          ## Index Changes Summary
+
+          ${SUMMARY}"
+          PR_NUMBER="${{ steps.cpr.outputs.pull-request-number }}"
+          EXISTING_ID=$(gh api "repos/${{ github.repository }}/issues/${PR_NUMBER}/comments" \
+            --jq ".[] | select(.body | startswith(\"${MARKER}\")) | .id")
+          if [ -n "$EXISTING_ID" ]; then
+            gh api "repos/${{ github.repository }}/issues/comments/${EXISTING_ID}" \
+              -X PATCH -f body="$BODY"
+          else
+            gh api "repos/${{ github.repository }}/issues/${PR_NUMBER}/comments" \
+              -X POST -f body="$BODY"
+          fi
+
       - name: Generate Job Summary
         if: github.ref == 'refs/heads/master'
         run: |-
