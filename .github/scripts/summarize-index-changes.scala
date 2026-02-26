@@ -39,6 +39,17 @@ object SummarizeIndexChanges:
     val baseDir = os.Path(args(0), os.pwd)
     val prDir   = os.Path(args(1), os.pwd)
 
+    val preferredOrder = Seq(
+      "linux-arm64.json",
+      "linux-amd64.json",
+      "darwin-arm64.json",
+      "darwin-amd64.json",
+      "windows-arm64.json",
+      "windows-amd64.json",
+      "linux-musl-arm64.json",
+      "linux-musl-amd64.json",
+    )
+
     val allFiles =
       (
         (if os.exists(baseDir) then os.list(baseDir) else Seq.empty) ++
@@ -47,7 +58,13 @@ object SummarizeIndexChanges:
         .map(_.last)
         .filter(_.endsWith(".json"))
         .distinct
-        .sorted
+        .sortWith: (a, b) =>
+          val ai = preferredOrder.indexOf(a)
+          val bi = preferredOrder.indexOf(b)
+          if ai >= 0 && bi >= 0 then ai < bi
+          else if ai >= 0 then true
+          else if bi >= 0 then false
+          else a < b
 
     val sb         = new StringBuilder
     var hasChanges = false
@@ -64,7 +81,7 @@ object SummarizeIndexChanges:
         val addedVersions = prVersions.filter((k, _) => !baseVersions.contains(k))
         if addedVersions.isEmpty then None
         else
-          val urls   = addedVersions.values.toSeq
+          val urls   = addedVersions.values.toSeq.map(url => url.dropWhile(_ != '+').drop(1))
           val prefix = longestCommonPrefix(urls)
           Some((jvm, addedVersions.size, prefix))
 
