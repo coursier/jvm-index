@@ -41,7 +41,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
       - name: Post or update PR comment
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           SUMMARY: ${{ steps.summary.outputs.summary }}
         with:
