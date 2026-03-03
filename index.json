@@ -482,7 +482,8 @@
         "11.0.27+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B6_openj9-0.51.0/ibm-semeru-open-jdk_ppc64_aix_11.0.27_6_openj9-0.51.0.tar.gz",
         "11.0.28+6_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.28%2B6_openj9-0.53.0/ibm-semeru-open-jdk_ppc64_aix_11.0.28_6_openj9-0.53.0.tar.gz",
         "11.0.29+7_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B7_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_11.0.29_7_openj9-0.56.0.tar.gz",
-        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_11.0.30_7_openj9-0.57.0.tar.gz"
+        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_11.0.30_7_openj9-0.57.0.tar.gz",
+        "11.0.30+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_11.0.30.1.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java16": {
         "16.0.2+7_openj9-0.27.1": "tgz+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.1/ibm-semeru-open-jdk_ppc64_aix_16.0.2_7_openj9-0.27.1.tar.gz",
@@ -509,6 +510,7 @@
         "17.0.15+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-jdk_ppc64_aix_17.0.15_6_openj9-0.51.0.tar.gz",
         "17.0.16+8_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16%2B8_openj9-0.53.0/ibm-semeru-open-jdk_ppc64_aix_17.0.16_8_openj9-0.53.0.tar.gz",
         "17.0.17+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B10_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_17.0.17_10_openj9-0.56.0.tar.gz",
+        "17.0.18+8.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8.1_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_17.0.18.1.tar.gz",
         "17.0.18+8_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_17.0.18_8_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java18": {
@@ -535,6 +537,7 @@
         "21.0.7+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6_openj9-0.51.0/ibm-semeru-open-jdk_ppc64_aix_21.0.7_6_openj9-0.51.0.tar.gz",
         "21.0.8+9_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.8%2B9_openj9-0.53.0/ibm-semeru-open-jdk_ppc64_aix_21.0.8_9_openj9-0.53.0.tar.gz",
         "21.0.9+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B10_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_21.0.9_10_openj9-0.56.0.tar.gz",
+        "21.0.10+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_21.0.10.1.tar.gz",
         "21.0.10+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_21.0.10_7_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java22": {
@@ -554,6 +557,7 @@
       "jdk@ibm-semeru-openj9-java25": {
         "25+36_openj9-0.55.0.0.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0/ibm-semeru-open-jdk_ppc64_aix_25_36_openj9-0.55.0.tar.gz",
         "25.0.1+8_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_ppc64_aix_25.0.1_8_openj9-0.56.0.tar.gz",
+        "25.0.2+10.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_25.0.2.1.tar.gz",
         "25.0.2+10_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_ppc64_aix_25.0.2_10_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java8": {
@@ -2802,7 +2806,8 @@
         "11.0.27+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B6_openj9-0.51.0/ibm-semeru-open-jdk_x64_mac_11.0.27_6_openj9-0.51.0.tar.gz",
         "11.0.28+6_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.28%2B6_openj9-0.53.0/ibm-semeru-open-jdk_x64_mac_11.0.28_6_openj9-0.53.0.tar.gz",
         "11.0.29+7_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B7_openj9-0.56.0/ibm-semeru-open-jdk_x64_mac_11.0.29_7_openj9-0.56.0.tar.gz",
-        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_11.0.30_7_openj9-0.57.0.tar.gz"
+        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_11.0.30_7_openj9-0.57.0.tar.gz",
+        "11.0.30+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_11.0.30.1.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java16": {
         "16.0.2+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_mac_16.0.2_7_openj9-0.27.0.tar.gz"
@@ -2828,6 +2833,7 @@
         "17.0.15+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-jdk_x64_mac_17.0.15_6_openj9-0.51.0.tar.gz",
         "17.0.16+8_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16%2B8_openj9-0.53.0/ibm-semeru-open-jdk_x64_mac_17.0.16_8_openj9-0.53.0.tar.gz",
         "17.0.17+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B10_openj9-0.56.0/ibm-semeru-open-jdk_x64_mac_17.0.17_10_openj9-0.56.0.tar.gz",
+        "17.0.18+8.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_17.0.18.1.tar.gz",
         "17.0.18+8_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_17.0.18_8_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java18": {
@@ -2854,6 +2860,7 @@
         "21.0.7+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6_openj9-0.51.0/ibm-semeru-open-jdk_x64_mac_21.0.7_6_openj9-0.51.0.tar.gz",
         "21.0.8+9_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.8%2B9_openj9-0.53.0/ibm-semeru-open-jdk_x64_mac_21.0.8_9_openj9-0.53.0.tar.gz",
         "21.0.9+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B10_openj9-0.56.0/ibm-semeru-open-jdk_x64_mac_21.0.9_10_openj9-0.56.0.tar.gz",
+        "21.0.10+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_21.0.10.1.tar.gz",
         "21.0.10+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_21.0.10_7_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java22": {
@@ -2873,6 +2880,7 @@
       "jdk@ibm-semeru-openj9-java25": {
         "25+36_openj9-0.55.0.0.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0/ibm-semeru-open-jdk_x64_mac_25_36_openj9-0.55.0.tar.gz",
         "25.0.1+8_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_x64_mac_25.0.1_8_openj9-0.56.0.tar.gz",
+        "25.0.2+10.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_25.0.2.1.tar.gz",
         "25.0.2+10_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_25.0.2_10_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java8": {
@@ -4455,6 +4463,18 @@
         "25.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu25.32.17-ca-jre25.0.2-macosx_x64.tar.gz"
       },
       "microsoft-openjdk": {
+        "11.0.11.9.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.11.9.1-macOS-x64.tar.gz",
+        "11.0.12.7.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.12.7.1-macOS-x64.tar.gz",
+        "11.0.13.8.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.13.8.1-macOS-x64.tar.gz",
+        "11.0.14.9.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.14.9.1-macOS-x64.tar.gz",
+        "11.0.15": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.15-macOS-x64.tar.gz",
+        "11.0.16": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.16-macOS-x64.tar.gz",
+        "11.0.17": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.17-macOS-x64.tar.gz",
+        "11.0.18": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.18-macOS-x64.tar.gz",
+        "11.0.19": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.19-macOS-x64.tar.gz",
+        "11.0.20": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.20-macOS-x64.tar.gz",
+        "11.0.20.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.20.1-macOS-x64.tar.gz",
+        "11.0.21": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.21-macOS-x64.tar.gz",
         "11.0.22": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.22-macos-x64.tar.gz",
         "11.0.23": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.23-macos-x64.tar.gz",
         "11.0.24": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.24-macos-x64.tar.gz",
@@ -4464,6 +4484,16 @@
         "11.0.28": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.28-macos-x64.tar.gz",
         "11.0.29": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.29-macos-x64.tar.gz",
         "11.0.30": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.30-macos-x64.tar.gz",
+        "17.0.1.12.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.1.12.1-macOS-x64.tar.gz",
+        "17.0.2.8.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.2.8.1-macOS-x64.tar.gz",
+        "17.0.3": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.3-macOS-x64.tar.gz",
+        "17.0.4": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.4-macOS-x64.tar.gz",
+        "17.0.5": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.5-macOS-x64.tar.gz",
+        "17.0.6": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.6-macOS-x64.tar.gz",
+        "17.0.7": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.7-macOS-x64.tar.gz",
+        "17.0.8": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.8-macOS-x64.tar.gz",
+        "17.0.8.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.8.1-macOS-x64.tar.gz",
+        "17.0.9": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.9-macOS-x64.tar.gz",
         "17.0.10": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.10-macos-x64.tar.gz",
         "17.0.11": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.11-macos-x64.tar.gz",
         "17.0.12": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.12-macos-x64.tar.gz",
@@ -4473,6 +4503,9 @@
         "17.0.16": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.16-macos-x64.tar.gz",
         "17.0.17": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.17-macos-x64.tar.gz",
         "17.0.18": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.18-macos-x64.tar.gz",
+        "17.35.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.35.1-macOS-x64.tar.gz",
+        "21.0.0": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.0-macOS-x64.tar.gz",
+        "21.0.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.1-macOS-x64.tar.gz",
         "21.0.2": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.2-macos-x64.tar.gz",
         "21.0.3": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.3-macos-x64.tar.gz",
         "21.0.4": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.4-macos-x64.tar.gz",
@@ -5019,7 +5052,8 @@
         "11.0.27+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B6_openj9-0.51.0/ibm-semeru-open-jdk_aarch64_mac_11.0.27_6_openj9-0.51.0.tar.gz",
         "11.0.28+6_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.28%2B6_openj9-0.53.0/ibm-semeru-open-jdk_aarch64_mac_11.0.28_6_openj9-0.53.0.tar.gz",
         "11.0.29+7_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B7_openj9-0.56.0/ibm-semeru-open-jdk_aarch64_mac_11.0.29_7_openj9-0.56.0.tar.gz",
-        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_11.0.30_7_openj9-0.57.0.tar.gz"
+        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_11.0.30_7_openj9-0.57.0.tar.gz",
+        "11.0.30+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_11.0.30.1.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java17": {
         "17.0.3+7_openj9-0.32.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.3%2B7_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_17.0.3_7_openj9-0.32.0.tar.gz",
@@ -5040,6 +5074,7 @@
         "17.0.15+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-jdk_aarch64_mac_17.0.15_6_openj9-0.51.0.tar.gz",
         "17.0.16+8_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16%2B8_openj9-0.53.0/ibm-semeru-open-jdk_aarch64_mac_17.0.16_8_openj9-0.53.0.tar.gz",
         "17.0.17+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B10_openj9-0.56.0/ibm-semeru-open-jdk_aarch64_mac_17.0.17_10_openj9-0.56.0.tar.gz",
+        "17.0.18+8.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8.1_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_17.0.18.1.tar.gz",
         "17.0.18+8_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_17.0.18_8_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java18": {
@@ -5066,6 +5101,7 @@
         "21.0.7+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6_openj9-0.51.0/ibm-semeru-open-jdk_aarch64_mac_21.0.7_6_openj9-0.51.0.tar.gz",
         "21.0.8+9_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.8%2B9_openj9-0.53.0/ibm-semeru-open-jdk_aarch64_mac_21.0.8_9_openj9-0.53.0.tar.gz",
         "21.0.9+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B10_openj9-0.56.0/ibm-semeru-open-jdk_aarch64_mac_21.0.9_10_openj9-0.56.0.tar.gz",
+        "21.0.10+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_21.0.10.1.tar.gz",
         "21.0.10+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_21.0.10_7_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java22": {
@@ -5085,6 +5121,7 @@
       "jdk@ibm-semeru-openj9-java25": {
         "25+36_openj9-0.55.0.0.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0/ibm-semeru-open-jdk_aarch64_mac_25_36_openj9-0.55.0.tar.gz",
         "25.0.1+8_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_aarch64_mac_25.0.1_8_openj9-0.56.0.tar.gz",
+        "25.0.2+10.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_25.0.2.1.tar.gz",
         "25.0.2+10_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_25.0.2_10_openj9-0.57.0.tar.gz"
       },
       "jdk@java-oracle": {
@@ -6301,6 +6338,14 @@
         "25.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu25.32.17-ca-jre25.0.2-macosx_aarch64.tar.gz"
       },
       "microsoft-openjdk": {
+        "11.0.15": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.15-macOS-aarch64.tar.gz",
+        "11.0.16": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.16-macOS-aarch64.tar.gz",
+        "11.0.17": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.17-macOS-aarch64.tar.gz",
+        "11.0.18": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.18-macOS-aarch64.tar.gz",
+        "11.0.19": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.19-macOS-aarch64.tar.gz",
+        "11.0.20": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.20-macOS-aarch64.tar.gz",
+        "11.0.20.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.20.1-macOS-aarch64.tar.gz",
+        "11.0.21": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.21-macOS-aarch64.tar.gz",
         "11.0.22": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.22-macos-aarch64.tar.gz",
         "11.0.23": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.23-macos-aarch64.tar.gz",
         "11.0.24": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.24-macos-aarch64.tar.gz",
@@ -6310,6 +6355,16 @@
         "11.0.28": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.28-macos-aarch64.tar.gz",
         "11.0.29": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.29-macos-aarch64.tar.gz",
         "11.0.30": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.30-macos-aarch64.tar.gz",
+        "17.0.1.12.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.1.12.1-macOS-aarch64.tar.gz",
+        "17.0.2.8.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.2.8.1-macOS-aarch64.tar.gz",
+        "17.0.3": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.3-macOS-aarch64.tar.gz",
+        "17.0.4": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.4-macOS-aarch64.tar.gz",
+        "17.0.5": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.5-macOS-aarch64.tar.gz",
+        "17.0.6": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.6-macOS-aarch64.tar.gz",
+        "17.0.7": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.7-macOS-aarch64.tar.gz",
+        "17.0.8": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.8-macOS-aarch64.tar.gz",
+        "17.0.8.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.8.1-macOS-aarch64.tar.gz",
+        "17.0.9": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.9-macOS-aarch64.tar.gz",
         "17.0.10": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.10-macos-aarch64.tar.gz",
         "17.0.11": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.11-macos-aarch64.tar.gz",
         "17.0.12": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.12-macos-aarch64.tar.gz",
@@ -6319,6 +6374,9 @@
         "17.0.16": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.16-macos-aarch64.tar.gz",
         "17.0.17": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.17-macos-aarch64.tar.gz",
         "17.0.18": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.18-macos-aarch64.tar.gz",
+        "17.35.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.35.1-macOS-aarch64.tar.gz",
+        "21.0.0": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.0-macOS-aarch64.tar.gz",
+        "21.0.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.1-macOS-aarch64.tar.gz",
         "21.0.2": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.2-macos-aarch64.tar.gz",
         "21.0.3": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.3-macos-aarch64.tar.gz",
         "21.0.4": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.4-macos-aarch64.tar.gz",
@@ -7229,7 +7287,8 @@
         "11.0.27+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B6_openj9-0.51.0/ibm-semeru-open-jdk_x64_linux_11.0.27_6_openj9-0.51.0.tar.gz",
         "11.0.28+6_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.28%2B6_openj9-0.53.0/ibm-semeru-open-jdk_x64_linux_11.0.28_6_openj9-0.53.0.tar.gz",
         "11.0.29+7_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B7_openj9-0.56.0/ibm-semeru-open-jdk_x64_linux_11.0.29_7_openj9-0.56.0.tar.gz",
-        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_11.0.30_7_openj9-0.57.0.tar.gz"
+        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_11.0.30_7_openj9-0.57.0.tar.gz",
+        "11.0.30+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_11.0.30.1.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java16": {
         "16.0.2+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_linux_16.0.2_7_openj9-0.27.0.tar.gz"
@@ -7255,6 +7314,7 @@
         "17.0.15+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-jdk_x64_linux_17.0.15_6_openj9-0.51.0.tar.gz",
         "17.0.16+8_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16%2B8_openj9-0.53.0/ibm-semeru-open-jdk_x64_linux_17.0.16_8_openj9-0.53.0.tar.gz",
         "17.0.17+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B10_openj9-0.56.0/ibm-semeru-open-jdk_x64_linux_17.0.17_10_openj9-0.56.0.tar.gz",
+        "17.0.18+8.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_17.0.18.1.tar.gz",
         "17.0.18+8_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_17.0.18_8_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java18": {
@@ -7281,6 +7341,7 @@
         "21.0.7+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6_openj9-0.51.0/ibm-semeru-open-jdk_x64_linux_21.0.7_6_openj9-0.51.0.tar.gz",
         "21.0.8+9_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.8%2B9_openj9-0.53.0/ibm-semeru-open-jdk_x64_linux_21.0.8_9_openj9-0.53.0.tar.gz",
         "21.0.9+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B10_openj9-0.56.0/ibm-semeru-open-jdk_x64_linux_21.0.9_10_openj9-0.56.0.tar.gz",
+        "21.0.10+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_21.0.10.1.tar.gz",
         "21.0.10+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_21.0.10_7_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java22": {
@@ -7300,6 +7361,7 @@
       "jdk@ibm-semeru-openj9-java25": {
         "25+36_openj9-0.55.0.0.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0/ibm-semeru-open-jdk_x64_linux_25_36_openj9-0.55.0.tar.gz",
         "25.0.1+8_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_x64_linux_25.0.1_8_openj9-0.56.0.tar.gz",
+        "25.0.2+10.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_25.0.2.1.tar.gz",
         "25.0.2+10_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_25.0.2_10_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java8": {
@@ -11002,7 +11064,8 @@
         "11.0.27+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B6_openj9-0.51.0/ibm-semeru-open-jdk_aarch64_linux_11.0.27_6_openj9-0.51.0.tar.gz",
         "11.0.28+6_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.28%2B6_openj9-0.53.0/ibm-semeru-open-jdk_aarch64_linux_11.0.28_6_openj9-0.53.0.tar.gz",
         "11.0.29+7_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B7_openj9-0.56.0/ibm-semeru-open-jdk_aarch64_linux_11.0.29_7_openj9-0.56.0.tar.gz",
-        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_linux_11.0.30_7_openj9-0.57.0.tar.gz"
+        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_linux_11.0.30_7_openj9-0.57.0.tar.gz",
+        "11.0.30+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_linux_11.0.30.1.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java16": {
         "16.0.2+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_aarch64_linux_16.0.2_7_openj9-0.27.0.tar.gz"
@@ -11028,6 +11091,7 @@
         "17.0.15+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-jdk_aarch64_linux_17.0.15_6_openj9-0.51.0.tar.gz",
         "17.0.16+8_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16%2B8_openj9-0.53.0/ibm-semeru-open-jdk_aarch64_linux_17.0.16_8_openj9-0.53.0.tar.gz",
         "17.0.17+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B10_openj9-0.56.0/ibm-semeru-open-jdk_aarch64_linux_17.0.17_10_openj9-0.56.0.tar.gz",
+        "17.0.18+8.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8.1_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_linux_17.0.18.1.tar.gz",
         "17.0.18+8_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_linux_17.0.18_8_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java18": {
@@ -11054,6 +11118,7 @@
         "21.0.7+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6_openj9-0.51.0/ibm-semeru-open-jdk_aarch64_linux_21.0.7_6_openj9-0.51.0.tar.gz",
         "21.0.8+9_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.8%2B9_openj9-0.53.0/ibm-semeru-open-jdk_aarch64_linux_21.0.8_9_openj9-0.53.0.tar.gz",
         "21.0.9+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B10_openj9-0.56.0/ibm-semeru-open-jdk_aarch64_linux_21.0.9_10_openj9-0.56.0.tar.gz",
+        "21.0.10+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_linux_21.0.10.1.tar.gz",
         "21.0.10+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_linux_21.0.10_7_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java22": {
@@ -11073,6 +11138,7 @@
       "jdk@ibm-semeru-openj9-java25": {
         "25+36_openj9-0.55.0.0.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0/ibm-semeru-open-jdk_aarch64_linux_25_36_openj9-0.55.0.tar.gz",
         "25.0.1+8_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_aarch64_linux_25.0.1_8_openj9-0.56.0.tar.gz",
+        "25.0.2+10.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_linux_25.0.2.1.tar.gz",
         "25.0.2+10_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_linux_25.0.2_10_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java8": {
@@ -13524,7 +13590,8 @@
         "11.0.27+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B6_openj9-0.51.0/ibm-semeru-open-jdk_ppc64le_linux_11.0.27_6_openj9-0.51.0.tar.gz",
         "11.0.28+6_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.28%2B6_openj9-0.53.0/ibm-semeru-open-jdk_ppc64le_linux_11.0.28_6_openj9-0.53.0.tar.gz",
         "11.0.29+7_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B7_openj9-0.56.0/ibm-semeru-open-jdk_ppc64le_linux_11.0.29_7_openj9-0.56.0.tar.gz",
-        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_ppc64le_linux_11.0.30_7_openj9-0.57.0.tar.gz"
+        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_ppc64le_linux_11.0.30_7_openj9-0.57.0.tar.gz",
+        "11.0.30+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_ppc64le_linux_11.0.30.1.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java16": {
         "16.0.2+7_openj9-0.27.1": "tgz+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.1/ibm-semeru-open-jdk_ppc64le_linux_16.0.2_7_openj9-0.27.1.tar.gz",
@@ -13551,6 +13618,7 @@
         "17.0.15+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-jdk_ppc64le_linux_17.0.15_6_openj9-0.51.0.tar.gz",
         "17.0.16+8_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16%2B8_openj9-0.53.0/ibm-semeru-open-jdk_ppc64le_linux_17.0.16_8_openj9-0.53.0.tar.gz",
         "17.0.17+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B10_openj9-0.56.0/ibm-semeru-open-jdk_ppc64le_linux_17.0.17_10_openj9-0.56.0.tar.gz",
+        "17.0.18+8.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8.1_openj9-0.57.0/ibm-semeru-open-jdk_ppc64le_linux_17.0.18.1.tar.gz",
         "17.0.18+8_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_ppc64le_linux_17.0.18_8_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java18": {
@@ -13577,6 +13645,7 @@
         "21.0.7+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6_openj9-0.51.0/ibm-semeru-open-jdk_ppc64le_linux_21.0.7_6_openj9-0.51.0.tar.gz",
         "21.0.8+9_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.8%2B9_openj9-0.53.0/ibm-semeru-open-jdk_ppc64le_linux_21.0.8_9_openj9-0.53.0.tar.gz",
         "21.0.9+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B10_openj9-0.56.0/ibm-semeru-open-jdk_ppc64le_linux_21.0.9_10_openj9-0.56.0.tar.gz",
+        "21.0.10+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_ppc64le_linux_21.0.10.1.tar.gz",
         "21.0.10+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_ppc64le_linux_21.0.10_7_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java22": {
@@ -13596,6 +13665,7 @@
       "jdk@ibm-semeru-openj9-java25": {
         "25+36_openj9-0.55.0.0.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0/ibm-semeru-open-jdk_ppc64le_linux_25_36_openj9-0.55.0.tar.gz",
         "25.0.1+8_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_ppc64le_linux_25.0.1_8_openj9-0.56.0.tar.gz",
+        "25.0.2+10.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_ppc64le_linux_25.0.2.1.tar.gz",
         "25.0.2+10_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_ppc64le_linux_25.0.2_10_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java8": {
@@ -14492,7 +14562,8 @@
         "11.0.27+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B6_openj9-0.51.0/ibm-semeru-open-jdk_s390x_linux_11.0.27_6_openj9-0.51.0.tar.gz",
         "11.0.28+6_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.28%2B6_openj9-0.53.0/ibm-semeru-open-jdk_s390x_linux_11.0.28_6_openj9-0.53.0.tar.gz",
         "11.0.29+7_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B7_openj9-0.56.0/ibm-semeru-open-jdk_s390x_linux_11.0.29_7_openj9-0.56.0.tar.gz",
-        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_11.0.30_7_openj9-0.57.0.tar.gz"
+        "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_11.0.30_7_openj9-0.57.0.tar.gz",
+        "11.0.30+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_11.0.30.1.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java16": {
         "16.0.2+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_s390x_linux_16.0.2_7_openj9-0.27.0.tar.gz"
@@ -14518,6 +14589,7 @@
         "17.0.15+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-jdk_s390x_linux_17.0.15_6_openj9-0.51.0.tar.gz",
         "17.0.16+8_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16%2B8_openj9-0.53.0/ibm-semeru-open-jdk_s390x_linux_17.0.16_8_openj9-0.53.0.tar.gz",
         "17.0.17+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B10_openj9-0.56.0/ibm-semeru-open-jdk_s390x_linux_17.0.17_10_openj9-0.56.0.tar.gz",
+        "17.0.18+8.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8.1_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_17.0.18.1.tar.gz",
         "17.0.18+8_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_17.0.18_8_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java18": {
@@ -14544,6 +14616,7 @@
         "21.0.7+6_openj9-0.51.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6_openj9-0.51.0/ibm-semeru-open-jdk_s390x_linux_21.0.7_6_openj9-0.51.0.tar.gz",
         "21.0.8+9_openj9-0.53.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.8%2B9_openj9-0.53.0/ibm-semeru-open-jdk_s390x_linux_21.0.8_9_openj9-0.53.0.tar.gz",
         "21.0.9+10_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B10_openj9-0.56.0/ibm-semeru-open-jdk_s390x_linux_21.0.9_10_openj9-0.56.0.tar.gz",
+        "21.0.10+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_21.0.10.1.tar.gz",
         "21.0.10+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_21.0.10_7_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java22": {
@@ -14563,6 +14636,7 @@
       "jdk@ibm-semeru-openj9-java25": {
         "25+36_openj9-0.55.0.0.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0/ibm-semeru-open-jdk_s390x_linux_25_36_openj9-0.55.0.tar.gz",
         "25.0.1+8_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_s390x_linux_25.0.1_8_openj9-0.56.0.tar.gz",
+        "25.0.2+10.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_25.0.2.1.tar.gz",
         "25.0.2+10_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_25.0.2_10_openj9-0.57.0.tar.gz"
       },
       "jdk@ibm-semeru-openj9-java8": {
@@ -19233,7 +19307,8 @@
         "11.0.27+6_openj9-0.51.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.27%2B6_openj9-0.51.0/ibm-semeru-open-jdk_x64_windows_11.0.27_6_openj9-0.51.0.zip",
         "11.0.28+6_openj9-0.53.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.28%2B6_openj9-0.53.0/ibm-semeru-open-jdk_x64_windows_11.0.28_6_openj9-0.53.0.zip",
         "11.0.29+7_openj9-0.56.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.29%2B7_openj9-0.56.0/ibm-semeru-open-jdk_x64_windows_11.0.29_7_openj9-0.56.0.zip",
-        "11.0.30+7_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_11.0.30_7_openj9-0.57.0.zip"
+        "11.0.30+7_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_11.0.30_7_openj9-0.57.0.zip",
+        "11.0.30+7.1_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_11.0.30.1.zip"
       },
       "jdk@ibm-semeru-openj9-java16": {
         "16.0.2+7_openj9-0.27.0": "zip+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_16.0.2_7_openj9-0.27.0.zip"
@@ -19259,6 +19334,7 @@
         "17.0.15+6_openj9-0.51.0": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B6_openj9-0.51.0/ibm-semeru-open-jdk_x64_windows_17.0.15_6_openj9-0.51.0.zip",
         "17.0.16+8_openj9-0.53.0": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16%2B8_openj9-0.53.0/ibm-semeru-open-jdk_x64_windows_17.0.16_8_openj9-0.53.0.zip",
         "17.0.17+10_openj9-0.56.0": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.17%2B10_openj9-0.56.0/ibm-semeru-open-jdk_x64_windows_17.0.17_10_openj9-0.56.0.zip",
+        "17.0.18+8.1_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_17.0.18.1.zip",
         "17.0.18+8_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_17.0.18_8_openj9-0.57.0.zip"
       },
       "jdk@ibm-semeru-openj9-java18": {
@@ -19285,6 +19361,7 @@
         "21.0.7+6_openj9-0.51.0": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B6_openj9-0.51.0/ibm-semeru-open-jdk_x64_windows_21.0.7_6_openj9-0.51.0.zip",
         "21.0.8+9_openj9-0.53.0": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.8%2B9_openj9-0.53.0/ibm-semeru-open-jdk_x64_windows_21.0.8_9_openj9-0.53.0.zip",
         "21.0.9+10_openj9-0.56.0": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.9%2B10_openj9-0.56.0/ibm-semeru-open-jdk_x64_windows_21.0.9_10_openj9-0.56.0.zip",
+        "21.0.10+7.1_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_21.0.10.1.zip",
         "21.0.10+7_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_21.0.10_7_openj9-0.57.0.zip"
       },
       "jdk@ibm-semeru-openj9-java22": {
@@ -19304,6 +19381,7 @@
       "jdk@ibm-semeru-openj9-java25": {
         "25+36_openj9-0.55.0.0.0": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0/ibm-semeru-open-jdk_x64_windows_25_36_openj9-0.55.0.zip",
         "25.0.1+8_openj9-0.56.0": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_x64_windows_25.0.1_8_openj9-0.56.0.zip",
+        "25.0.2+10.1_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_25.0.2.1.zip",
         "25.0.2+10_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_25.0.2_10_openj9-0.57.0.zip"
       },
       "jdk@ibm-semeru-openj9-java8": {
