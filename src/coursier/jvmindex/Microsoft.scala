@@ -75,7 +75,7 @@ object Microsoft {
           if (url.endsWith(".zip")) s"zip+$url"
           else if (url.endsWith(".tar.gz")) s"tgz+$url"
           else sys.error(s"Unexpected extension in $url")
-        Index(os, arch, "microsoft-openjdk", ver, url0)
+        Index(os, arch, "jdk@microsoft-openjdk", ver, url0)
     }
     indices.foldLeft(Index.empty)(_ + _)
   }
