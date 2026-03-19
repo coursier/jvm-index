@@ -852,7 +852,8 @@
     "24.0.2": "tgz+https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_x64_mac_24.0.2_12_openj9-0.54.0.tar.gz",
     "25.0.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25%2B36_openj9-0.55.0/ibm-semeru-open-jdk_x64_mac_25_36_openj9-0.55.0.tar.gz",
     "25.0.1": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_x64_mac_25.0.1_8_openj9-0.56.0.tar.gz",
-    "25.0.2": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_25.0.2_10_openj9-0.57.0.tar.gz"
+    "25.0.2": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_25.0.2_10_openj9-0.57.0.tar.gz",
+    "26.0.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jdk_x64_mac_26.0.0.0.tar.gz"
   },
   "ibm-semeru-openj9-java11": {
     "11.0.12+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_mac_11.0.12_7_openj9-0.27.0.tar.gz",
@@ -953,6 +954,9 @@
     "25.0.1+8_openj9-0.56.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.1%2B8_openj9-0.56.0/ibm-semeru-open-jdk_x64_mac_25.0.1_8_openj9-0.56.0.tar.gz",
     "25.0.2+10.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_25.0.2.1.tar.gz",
     "25.0.2+10_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_x64_mac_25.0.2_10_openj9-0.57.0.tar.gz"
+  },
+  "ibm-semeru-openj9-java26": {
+    "26+35_openj9-0.58.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jdk_x64_mac_26.0.0.0.tar.gz"
   },
   "ibm-semeru-openj9-java8": {
     "8.0.302": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_x64_mac_8u302b08_openj9-0.27.0.tar.gz",
@@ -1119,7 +1123,8 @@
     "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-macos-amd64.zip",
     "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jdk25+37-macos-amd64.zip",
     "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-macos-amd64.zip",
-    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-macos-amd64.zip"
+    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-macos-amd64.zip",
+    "26.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jdk26+37-macos-amd64.zip"
   },
   "liberica-full": {
     "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-macos-amd64-full.zip",
@@ -1246,7 +1251,8 @@
     "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-macos-amd64-full.zip",
     "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jdk25+37-macos-amd64-full.zip",
     "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-macos-amd64-full.zip",
-    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-macos-amd64-full.zip"
+    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-macos-amd64-full.zip",
+    "26.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jdk26+37-macos-amd64-full.zip"
   },
   "liberica-jre": {
     "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-macos-amd64.zip",
@@ -1379,7 +1385,8 @@
     "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jre24.0.2+12-macos-amd64.zip",
     "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jre25+37-macos-amd64.zip",
     "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-macos-amd64.zip",
-    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jre25.0.2+12-macos-amd64.zip"
+    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jre25.0.2+12-macos-amd64.zip",
+    "26.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jre26+37-macos-amd64.zip"
   },
   "liberica-jre-full": {
     "8.0.242": "zip+https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-macos-amd64-full.zip",
@@ -1506,7 +1513,8 @@
     "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jre24.0.2+12-macos-amd64-full.zip",
     "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jre25+37-macos-amd64-full.zip",
     "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jre25.0.1+13-macos-amd64-full.zip",
-    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jre25.0.2+12-macos-amd64-full.zip"
+    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jre25.0.2+12-macos-amd64-full.zip",
+    "26.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jre26+37-macos-amd64-full.zip"
   },
   "liberica-lite": {
     "8.0.302": "zip+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-macos-amd64-lite.zip",
@@ -1635,7 +1643,8 @@
     "24.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/24.0.2+12/bellsoft-jdk24.0.2+12-macos-amd64-lite.zip",
     "25.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/25+37/bellsoft-jdk25+37-macos-amd64-lite.zip",
     "25.0.1": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.1+13/bellsoft-jdk25.0.1+13-macos-amd64-lite.zip",
-    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-macos-amd64-lite.zip"
+    "25.0.2": "zip+https://github.com/bell-sw/Liberica/releases/download/25.0.2+12/bellsoft-jdk25.0.2+12-macos-amd64-lite.zip",
+    "26.0.0": "zip+https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jdk26+37-macos-amd64-lite.zip"
   },
   "liberica-nik": {
     "11.0.10": "zip+https://download.bell-sw.com/vm/21.0.0.2/bellsoft-liberica-vm-openjdk11-21.0.0.2-macos-amd64.zip",
