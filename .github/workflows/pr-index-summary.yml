@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: coursier/cache-action@v8.0
+      - uses: coursier/cache-action@v8.1
       - uses: coursier/setup-action@v2.0
         with:
           jvm: 21
