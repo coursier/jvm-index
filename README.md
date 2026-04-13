@@ -49,6 +49,11 @@ That index consists in 4 nested JSON objects, with the successive keys of these 
   - `linux-musl` (for [musl libc](https://www.musl-libc.org)-based systems, like Alpine Linux),
   - `aix`
   - `solaris`
+
+  Note: BSD systems (OpenBSD, FreeBSD, NetBSD, etc.) are not currently listed here. None of
+  the JDK vendors indexed here provide standalone downloadable JDK packages for BSD systems.
+  On OpenBSD, the recommended way to install a JDK is through the system package manager
+  (e.g. `pkg_add jdk%21` for Java 21, where `%21` is OpenBSD's package name suffix for Java 21).
 - the CPU architecture
   - `amd64`
   - `arm64` (a.k.a. `aarch64`, Raspberry PI or Mac M1-M4 CPUs)
@@ -192,6 +197,8 @@ io.get-coursier.jvm.indices:index-${OS}-${CPU}:${INDEX_VERSION}
   - `linux-musl` (for [musl libc](https://www.musl-libc.org)-based systems, like Alpine Linux),
   - `aix`
   - `solaris`
+
+  (BSD systems like OpenBSD are not currently supported — see the note above.)
 
 `${CPU}` being one of:
   - `amd64`
