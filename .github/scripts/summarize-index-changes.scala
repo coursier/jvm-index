@@ -102,14 +102,22 @@ object SummarizeIndexChanges:
               prefix.substring(0, prefix.indexOf(marker) + marker.length)
             else prefix
           (name, urls.size, displayPrefix)
+        .foldLeft(Vector.empty[(Vector[String], Int, String)]): (acc, row) =>
+          val (name, count, prefix) = row
+          acc.indexWhere(_._3 == prefix) match
+            case -1 => acc :+ (Vector(name), count, prefix)
+            case i =>
+              val (names, c, p) = acc(i)
+              acc.updated(i, (names :+ name, c + count, p))
 
       if jvmChanges.nonEmpty then
         hasChanges = true
         sb.append(s"### `$osArch`\n\n")
-        sb.append("| JVM | Versions added | URL prefix |\n")
-        sb.append("|-----|----------------|------------|\n")
-        for (jvm, count, prefix) <- jvmChanges do
-          sb.append(s"| `$jvm` | $count | `$prefix` |\n")
+        sb.append("| JVM | Entries added | URL prefix |\n")
+        sb.append("|-----|---------------|------------|\n")
+        for (jvms, count, prefix) <- jvmChanges do
+          val jvmCol = jvms.map(j => s"`$j`").mkString(", ")
+          sb.append(s"| $jvmCol | $count | `$prefix` |\n")
         sb.append("\n")
 
     if !hasChanges then
