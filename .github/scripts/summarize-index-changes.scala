@@ -95,7 +95,13 @@ object SummarizeIndexChanges:
             case -1 => acc :+ pair
             case i  => acc.updated(i, (name, acc(i)._2 ++ urls))
         .map: (name, urls) =>
-          (name, urls.size, longestCommonPrefix(urls))
+          val prefix = longestCommonPrefix(urls)
+          val marker = "/releases/download/"
+          val displayPrefix =
+            if prefix.startsWith("https://github.com/") && prefix.contains(marker) then
+              prefix.substring(0, prefix.indexOf(marker) + marker.length)
+            else prefix
+          (name, urls.size, displayPrefix)
 
       if jvmChanges.nonEmpty then
         hasChanges = true
