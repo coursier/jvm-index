@@ -116,7 +116,7 @@ object SummarizeIndexChanges:
         sb.append("| JVM | Entries added | URL prefix |\n")
         sb.append("|-----|---------------|------------|\n")
         for (jvms, count, prefix) <- jvmChanges do
-          val jvmCol = jvms.map(j => s"`$j`").mkString(", ")
+          val jvmCol = jvms.map(j => s"<p>`$j`</p>").mkString
           sb.append(s"| $jvmCol | $count | `$prefix` |\n")
         sb.append("\n")
 
