@@ -95,8 +95,8 @@ object SummarizeIndexChanges:
             case -1 => acc :+ pair
             case i  => acc.updated(i, (name, acc(i)._2 ++ urls))
         .map: (name, urls) =>
-          val prefix = longestCommonPrefix(urls)
-          val marker = "/releases/download/"
+          val prefix        = longestCommonPrefix(urls)
+          val marker        = "/releases/download/"
           val displayPrefix =
             if prefix.startsWith("https://github.com/") && prefix.contains(marker) then
               prefix.substring(0, prefix.indexOf(marker) + marker.length)
@@ -106,19 +106,19 @@ object SummarizeIndexChanges:
           val (name, count, prefix) = row
           acc.indexWhere(_._3 == prefix) match
             case -1 => acc :+ (Vector(name), count, prefix)
-            case i =>
+            case i  =>
               val (names, c, p) = acc(i)
               acc.updated(i, (names :+ name, c + count, p))
 
       if jvmChanges.nonEmpty then
         hasChanges = true
-        sb.append(s"### `$osArch`\n\n")
-        sb.append("| JVM | Entries added | URL prefix |\n")
-        sb.append("|-----|---------------|------------|\n")
-        for (jvms, count, prefix) <- jvmChanges do
-          val jvmCol = jvms.map(j => s"<p>`$j`</p>").mkString
-          sb.append(s"| $jvmCol | $count | `$prefix` |\n")
-        sb.append("\n")
+      sb.append(s"### `$osArch`\n\n")
+      sb.append("| JVM | Entries added | URL prefix |\n")
+      sb.append("|-----|---------------|------------|\n")
+      for (jvms, count, prefix) <- jvmChanges do
+        val jvmCol = jvms.map(j => s"<p>`$j`</p>").mkString
+        sb.append(s"| $jvmCol | $count | `$prefix` |\n")
+      sb.append("\n")
 
     if !hasChanges then
       sb.append("No new JVM versions were added.\n")
