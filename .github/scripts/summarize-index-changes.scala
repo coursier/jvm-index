@@ -105,12 +105,12 @@ object SummarizeIndexChanges:
 
       if jvmChanges.nonEmpty then
         hasChanges = true
-      sb.append(s"### `$osArch`\n\n")
-      sb.append("| JVM | Versions added | URL prefix |\n")
-      sb.append("|-----|----------------|------------|\n")
-      for (jvm, count, prefix) <- jvmChanges do
-        sb.append(s"| `$jvm` | $count | `$prefix` |\n")
-      sb.append("\n")
+        sb.append(s"### `$osArch`\n\n")
+        sb.append("| JVM | Versions added | URL prefix |\n")
+        sb.append("|-----|----------------|------------|\n")
+        for (jvm, count, prefix) <- jvmChanges do
+          sb.append(s"| `$jvm` | $count | `$prefix` |\n")
+        sb.append("\n")
 
     if !hasChanges then
       sb.append("No new JVM versions were added.\n")
