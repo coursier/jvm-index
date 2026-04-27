@@ -4,6 +4,7 @@ name: PR Index Summary
 
 on:
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
     paths:
       - 'index.json'
       - 'indices/**'

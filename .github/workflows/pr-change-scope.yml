@@ -2,6 +2,7 @@
 name: PR change scope
 on:
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
 
 jobs:
   enforce-scope:

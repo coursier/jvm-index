@@ -41,6 +41,7 @@ jobs:
           author: GitHub <noreply@github.com>
           delete-branch: true
           title: Update index
+          draft: always-true
 
       - name: Generate Job Summary
         if: github.ref == 'refs/heads/master'
