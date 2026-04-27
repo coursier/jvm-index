@@ -11,6 +11,7 @@
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.9_10.tar.gz",
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.10_7.tar.gz",
+    "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz",
     "22.0.0": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_aarch64_alpine-linux_hotspot_22_36.tar.gz",
     "22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jdk_aarch64_alpine-linux_hotspot_22.0.1_8.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_aarch64_alpine-linux_hotspot_22.0.2_9.tar.gz",
@@ -23,6 +24,7 @@
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25_36.tar.gz",
     "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.1_8.tar.gz",
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.2_10.tar.gz",
+    "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26_35.tar.gz"
   },
   "adoptium-debugimage": {
@@ -37,6 +39,7 @@
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.9_10.tar.gz",
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.10_7.tar.gz",
+    "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz",
     "22.0.0": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_aarch64_alpine-linux_hotspot_22_36.tar.gz",
     "22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-debugimage_aarch64_alpine-linux_hotspot_22.0.1_8.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-debugimage_aarch64_alpine-linux_hotspot_22.0.2_9.tar.gz",
@@ -49,6 +52,7 @@
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25_36.tar.gz",
     "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.1_8.tar.gz",
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.2_10.tar.gz",
+    "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26_35.tar.gz"
   },
   "adoptium-jre": {
@@ -63,6 +67,7 @@
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.9_10.tar.gz",
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.10_7.tar.gz",
+    "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz",
     "22.0.0": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_aarch64_alpine-linux_hotspot_22_36.tar.gz",
     "22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jre_aarch64_alpine-linux_hotspot_22.0.1_8.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_aarch64_alpine-linux_hotspot_22.0.2_9.tar.gz",
@@ -75,6 +80,7 @@
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25_36.tar.gz",
     "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.1_8.tar.gz",
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.2_10.tar.gz",
+    "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26_35.tar.gz"
   },
   "adoptium-testimage": {
@@ -89,6 +95,7 @@
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.9_10.tar.gz",
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.10_7.tar.gz",
+    "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz",
     "22.0.0": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-testimage_aarch64_alpine-linux_hotspot_22_36.tar.gz",
     "22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-testimage_aarch64_alpine-linux_hotspot_22.0.1_8.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-testimage_aarch64_alpine-linux_hotspot_22.0.2_9.tar.gz",
@@ -101,6 +108,7 @@
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25_36.tar.gz",
     "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.1_8.tar.gz",
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.2_10.tar.gz",
+    "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26_35.tar.gz"
   },
   "corretto": {
@@ -313,6 +321,7 @@
     "17.0.16": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.16+13/bellsoft-jdk17.0.16+13-linux-aarch64-musl-crac.tar.gz",
     "17.0.17": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.17+16/bellsoft-jdk17.0.17+16-linux-aarch64-musl-crac.tar.gz",
     "17.0.18": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.18+11/bellsoft-jdk17.0.18+11-linux-aarch64-musl-crac.tar.gz",
+    "17.0.19": "tgz+https://github.com/bell-sw/Liberica/releases/download/17.0.19+12/bellsoft-jdk17.0.19+12-linux-aarch64-musl-crac.tar.gz",
     "21.0.2": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.2+15/bellsoft-jdk21.0.2+15-linux-aarch64-musl-crac.tar.gz",
     "21.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.3+13/bellsoft-jdk21.0.3+13-linux-aarch64-musl-crac.tar.gz",
     "21.0.4": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.4+10/bellsoft-jdk21.0.4+10-linux-aarch64-musl-crac.tar.gz",
@@ -321,7 +330,8 @@
     "21.0.7": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.7+12/bellsoft-jdk21.0.7+12-linux-aarch64-musl-crac.tar.gz",
     "21.0.8": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.8+13/bellsoft-jdk21.0.8+13-linux-aarch64-musl-crac.tar.gz",
     "21.0.9": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.9+16/bellsoft-jdk21.0.9+16-linux-aarch64-musl-crac.tar.gz",
-    "21.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.10+11/bellsoft-jdk21.0.10+11-linux-aarch64-musl-crac.tar.gz"
+    "21.0.10": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.10+11/bellsoft-jdk21.0.10+11-linux-aarch64-musl-crac.tar.gz",
+    "21.0.11": "tgz+https://github.com/bell-sw/Liberica/releases/download/21.0.11+12/bellsoft-jdk21.0.11+12-linux-aarch64-musl-crac.tar.gz"
   },
   "liberica-jre": {
     "8.0.282": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jre8u282+8-linux-aarch64-musl.tar.gz",
@@ -682,6 +692,7 @@
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.9_10.tar.gz",
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.10_7.tar.gz",
+    "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz",
     "22.0.0": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_aarch64_alpine-linux_hotspot_22_36.tar.gz",
     "22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jdk_aarch64_alpine-linux_hotspot_22.0.1_8.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_aarch64_alpine-linux_hotspot_22.0.2_9.tar.gz",
@@ -694,6 +705,7 @@
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25_36.tar.gz",
     "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.1_8.tar.gz",
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.2_10.tar.gz",
+    "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26_35.tar.gz"
   },
   "temurin-debugimage": {
@@ -708,6 +720,7 @@
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.9_10.tar.gz",
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.10_7.tar.gz",
+    "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz",
     "22.0.0": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_aarch64_alpine-linux_hotspot_22_36.tar.gz",
     "22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-debugimage_aarch64_alpine-linux_hotspot_22.0.1_8.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-debugimage_aarch64_alpine-linux_hotspot_22.0.2_9.tar.gz",
@@ -720,6 +733,7 @@
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25_36.tar.gz",
     "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.1_8.tar.gz",
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.2_10.tar.gz",
+    "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26_35.tar.gz"
   },
   "temurin-jre": {
@@ -734,6 +748,7 @@
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.9_10.tar.gz",
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.10_7.tar.gz",
+    "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz",
     "22.0.0": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_aarch64_alpine-linux_hotspot_22_36.tar.gz",
     "22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jre_aarch64_alpine-linux_hotspot_22.0.1_8.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_aarch64_alpine-linux_hotspot_22.0.2_9.tar.gz",
@@ -746,6 +761,7 @@
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25_36.tar.gz",
     "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.1_8.tar.gz",
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.2_10.tar.gz",
+    "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26_35.tar.gz"
   },
   "temurin-testimage": {
@@ -760,6 +776,7 @@
     "21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.8_9.tar.gz",
     "21.0.9": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.9_10.tar.gz",
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.10_7.tar.gz",
+    "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz",
     "22.0.0": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-testimage_aarch64_alpine-linux_hotspot_22_36.tar.gz",
     "22.0.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-testimage_aarch64_alpine-linux_hotspot_22.0.1_8.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-testimage_aarch64_alpine-linux_hotspot_22.0.2_9.tar.gz",
@@ -772,6 +789,7 @@
     "25.0.0": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25_36.tar.gz",
     "25.0.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.1_8.tar.gz",
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.2_10.tar.gz",
+    "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26_35.tar.gz"
   },
   "zulu": {
