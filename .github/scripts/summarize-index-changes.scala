@@ -110,15 +110,17 @@ object SummarizeIndexChanges:
               val (names, c, p) = acc(i)
               acc.updated(i, (names :+ name, c + count, p))
 
-      if jvmChanges.nonEmpty then
+      if (jvmChanges.nonEmpty) {
         hasChanges = true
-      sb.append(s"### `$osArch`\n\n")
-      sb.append("| JVM | Entries added | URL prefix |\n")
-      sb.append("|-----|---------------|------------|\n")
-      for (jvms, count, prefix) <- jvmChanges do
-        val jvmCol = jvms.map(j => s"<p>`$j`</p>").mkString
-        sb.append(s"| $jvmCol | $count | `$prefix` |\n")
-      sb.append("\n")
+        sb.append(s"### `$osArch`\n\n")
+        sb.append("| JVM | Entries added | URL prefix |\n")
+        sb.append("|-----|---------------|------------|\n")
+        for ((jvms, count, prefix) <- jvmChanges) {
+          val jvmCol = jvms.map(j => s"<p>`$j`</p>").mkString
+          sb.append(s"| $jvmCol | $count | `$prefix` |\n")
+        }
+        sb.append("\n")
+      }
 
     if !hasChanges then
       sb.append("No new JVM versions were added.\n")
