@@ -1794,6 +1794,7 @@
     "17.0.16": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.9+1-17.0.16+13/bellsoft-liberica-vm-openjdk17.0.16+13-23.0.9+1-linux-amd64.tar.gz",
     "17.0.17": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.10+1-17.0.17+12/bellsoft-liberica-vm-openjdk17.0.17+12-23.0.10+1-linux-amd64.tar.gz",
     "17.0.18": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.11+1-17.0.18+11/bellsoft-liberica-vm-openjdk17.0.18+11-23.0.11+1-linux-amd64.tar.gz",
+    "17.0.19": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.12+1-17.0.19+12/bellsoft-liberica-vm-openjdk17.0.19+12-23.0.12+1-linux-amd64.tar.gz",
     "20.0.1": "tgz+https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-openjdk20.0.1+10-23.0.0+1-linux-amd64.tar.gz",
     "20.0.2": "tgz+https://download.bell-sw.com/vm/23.0.1/bellsoft-liberica-vm-openjdk20.0.2+10-23.0.1+1-linux-amd64.tar.gz",
     "21.0.0": "tgz+https://download.bell-sw.com/vm/23.1.0/bellsoft-liberica-vm-openjdk21+37-23.1.0+1-linux-amd64.tar.gz",
@@ -1807,6 +1808,7 @@
     "21.0.8": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.8+1-21.0.8+13/bellsoft-liberica-vm-openjdk21.0.8+13-23.1.8+1-linux-amd64.tar.gz",
     "21.0.9": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.9+1-21.0.9+12/bellsoft-liberica-vm-openjdk21.0.9+12-23.1.9+1-linux-amd64.tar.gz",
     "21.0.10": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.10+1-21.0.10+11/bellsoft-liberica-vm-openjdk21.0.10+11-23.1.10+1-linux-amd64.tar.gz",
+    "21.0.11": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.11+1-21.0.11+12/bellsoft-liberica-vm-openjdk21.0.11+12-23.1.11+1-linux-amd64.tar.gz",
     "22.0.0": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-openjdk22+37-24.0.0+1-linux-amd64.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.1+1-22.0.1+10/bellsoft-liberica-vm-openjdk22.0.1+10-24.0.1+1-linux-amd64.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.2+1-22.0.2+11/bellsoft-liberica-vm-openjdk22.0.2+11-24.0.2+1-linux-amd64.tar.gz",
@@ -1818,7 +1820,8 @@
     "24.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.2.2+1-24.0.2+13/bellsoft-liberica-vm-openjdk24.0.2+13-24.2.2+1-linux-amd64.tar.gz",
     "25.0.0": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.0+1-25+37/bellsoft-liberica-vm-openjdk25+37-25.0.0+1-linux-amd64.tar.gz",
     "25.0.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.1+1-25.0.1+12/bellsoft-liberica-vm-openjdk25.0.1+12-25.0.1+1-linux-amd64.tar.gz",
-    "25.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.2+1-25.0.2+13/bellsoft-liberica-vm-openjdk25.0.2+13-25.0.2+1-linux-amd64.tar.gz"
+    "25.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.2+1-25.0.2+13/bellsoft-liberica-vm-openjdk25.0.2+13-25.0.2+1-linux-amd64.tar.gz",
+    "25.0.3": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.3+1-25.0.3+12/bellsoft-liberica-vm-openjdk25.0.3+12-25.0.3+1-linux-amd64.tar.gz"
   },
   "liberica-nik-core": {
     "11.0.11": "tgz+https://download.bell-sw.com/vm/21.1.0/bellsoft-liberica-vm-core-openjdk11-21.1.0-linux-amd64.tar.gz",
@@ -1857,6 +1860,7 @@
     "17.0.16": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.9+1-17.0.16+13/bellsoft-liberica-vm-core-openjdk17.0.16+13-23.0.9+1-linux-amd64.tar.gz",
     "17.0.17": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.10+1-17.0.17+12/bellsoft-liberica-vm-core-openjdk17.0.17+12-23.0.10+1-linux-amd64.tar.gz",
     "17.0.18": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.11+1-17.0.18+11/bellsoft-liberica-vm-core-openjdk17.0.18+11-23.0.11+1-linux-amd64.tar.gz",
+    "17.0.19": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.12+1-17.0.19+12/bellsoft-liberica-vm-core-openjdk17.0.19+12-23.0.12+1-linux-amd64.tar.gz",
     "20.0.1": "tgz+https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-core-openjdk20.0.1+10-23.0.0+1-linux-amd64.tar.gz",
     "20.0.2": "tgz+https://download.bell-sw.com/vm/23.0.1/bellsoft-liberica-vm-core-openjdk20.0.2+10-23.0.1+1-linux-amd64.tar.gz",
     "21.0.0": "tgz+https://download.bell-sw.com/vm/23.1.0/bellsoft-liberica-vm-core-openjdk21+37-23.1.0+1-linux-amd64.tar.gz",
@@ -1869,7 +1873,8 @@
     "21.0.7": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.7+1-21.0.7+9/bellsoft-liberica-vm-core-openjdk21.0.7+9-23.1.7+1-linux-amd64.tar.gz",
     "21.0.8": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.8+1-21.0.8+13/bellsoft-liberica-vm-core-openjdk21.0.8+13-23.1.8+1-linux-amd64.tar.gz",
     "21.0.9": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.9+1-21.0.9+12/bellsoft-liberica-vm-core-openjdk21.0.9+12-23.1.9+1-linux-amd64.tar.gz",
-    "21.0.10": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.10+1-21.0.10+11/bellsoft-liberica-vm-core-openjdk21.0.10+11-23.1.10+1-linux-amd64.tar.gz"
+    "21.0.10": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.10+1-21.0.10+11/bellsoft-liberica-vm-core-openjdk21.0.10+11-23.1.10+1-linux-amd64.tar.gz",
+    "21.0.11": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.11+1-21.0.11+12/bellsoft-liberica-vm-core-openjdk21.0.11+12-23.1.11+1-linux-amd64.tar.gz"
   },
   "liberica-nik-full": {
     "11.0.13": "tgz+https://download.bell-sw.com/vm/21.3.0/bellsoft-liberica-vm-full-openjdk11-21.3.0-linux-amd64.tar.gz",
@@ -1906,6 +1911,7 @@
     "17.0.16": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.9+1-17.0.16+13/bellsoft-liberica-vm-full-openjdk17.0.16+13-23.0.9+1-linux-amd64.tar.gz",
     "17.0.17": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.10+1-17.0.17+12/bellsoft-liberica-vm-full-openjdk17.0.17+12-23.0.10+1-linux-amd64.tar.gz",
     "17.0.18": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.11+1-17.0.18+11/bellsoft-liberica-vm-full-openjdk17.0.18+11-23.0.11+1-linux-amd64.tar.gz",
+    "17.0.19": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.12+1-17.0.19+12/bellsoft-liberica-vm-full-openjdk17.0.19+12-23.0.12+1-linux-amd64.tar.gz",
     "20.0.1": "tgz+https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-full-openjdk20.0.1+10-23.0.0+1-linux-amd64.tar.gz",
     "20.0.2": "tgz+https://download.bell-sw.com/vm/23.0.1/bellsoft-liberica-vm-full-openjdk20.0.2+10-23.0.1+1-linux-amd64.tar.gz",
     "21.0.0": "tgz+https://download.bell-sw.com/vm/23.1.0/bellsoft-liberica-vm-full-openjdk21+37-23.1.0+1-linux-amd64.tar.gz",
@@ -1919,6 +1925,7 @@
     "21.0.8": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.8+1-21.0.8+13/bellsoft-liberica-vm-full-openjdk21.0.8+13-23.1.8+1-linux-amd64.tar.gz",
     "21.0.9": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.9+1-21.0.9+12/bellsoft-liberica-vm-full-openjdk21.0.9+12-23.1.9+1-linux-amd64.tar.gz",
     "21.0.10": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.10+1-21.0.10+11/bellsoft-liberica-vm-full-openjdk21.0.10+11-23.1.10+1-linux-amd64.tar.gz",
+    "21.0.11": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.11+1-21.0.11+12/bellsoft-liberica-vm-full-openjdk21.0.11+12-23.1.11+1-linux-amd64.tar.gz",
     "22.0.0": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-full-openjdk22+37-24.0.0+1-linux-amd64.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.1+1-22.0.1+10/bellsoft-liberica-vm-full-openjdk22.0.1+10-24.0.1+1-linux-amd64.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.2+1-22.0.2+11/bellsoft-liberica-vm-full-openjdk22.0.2+11-24.0.2+1-linux-amd64.tar.gz",
@@ -1930,7 +1937,8 @@
     "24.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.2.2+1-24.0.2+13/bellsoft-liberica-vm-full-openjdk24.0.2+13-24.2.2+1-linux-amd64.tar.gz",
     "25.0.0": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.0+1-25+37/bellsoft-liberica-vm-full-openjdk25+37-25.0.0+1-linux-amd64.tar.gz",
     "25.0.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.1+1-25.0.1+12/bellsoft-liberica-vm-full-openjdk25.0.1+12-25.0.1+1-linux-amd64.tar.gz",
-    "25.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.2+1-25.0.2+13/bellsoft-liberica-vm-full-openjdk25.0.2+13-25.0.2+1-linux-amd64.tar.gz"
+    "25.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.2+1-25.0.2+13/bellsoft-liberica-vm-full-openjdk25.0.2+13-25.0.2+1-linux-amd64.tar.gz",
+    "25.0.3": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.3+1-25.0.3+12/bellsoft-liberica-vm-full-openjdk25.0.3+12-25.0.3+1-linux-amd64.tar.gz"
   },
   "microsoft-openjdk": {
     "11.0.11.9.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.11.9.1-linux-x64.tar.gz",
@@ -1954,6 +1962,7 @@
     "11.0.28": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.28-linux-x64.tar.gz",
     "11.0.29": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.29-linux-x64.tar.gz",
     "11.0.30": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.30-linux-x64.tar.gz",
+    "11.0.31": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.31-linux-x64.tar.gz",
     "17.0.1.12.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.1.12.1-linux-x64.tar.gz",
     "17.0.2.8.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.2.8.1-linux-x64.tar.gz",
     "17.0.3": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.3-linux-x64.tar.gz",
@@ -1973,6 +1982,7 @@
     "17.0.16": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.16-linux-x64.tar.gz",
     "17.0.17": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.17-linux-x64.tar.gz",
     "17.0.18": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.18-linux-x64.tar.gz",
+    "17.0.19": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.0.19-linux-x64.tar.gz",
     "17.35.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-17.35.1-linux-x64.tar.gz",
     "21.0.0": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.0-linux-x64.tar.gz",
     "21.0.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.1-linux-x64.tar.gz",
@@ -1985,9 +1995,11 @@
     "21.0.8": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.8-linux-x64.tar.gz",
     "21.0.9": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.9-linux-x64.tar.gz",
     "21.0.10": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.10-linux-x64.tar.gz",
+    "21.0.11": "tgz+https://aka.ms/download-jdk/microsoft-jdk-21.0.11-linux-x64.tar.gz",
     "25.0.0": "tgz+https://aka.ms/download-jdk/microsoft-jdk-25.0.0-linux-x64.tar.gz",
     "25.0.1": "tgz+https://aka.ms/download-jdk/microsoft-jdk-25.0.1-linux-x64.tar.gz",
-    "25.0.2": "tgz+https://aka.ms/download-jdk/microsoft-jdk-25.0.2-linux-x64.tar.gz"
+    "25.0.2": "tgz+https://aka.ms/download-jdk/microsoft-jdk-25.0.2-linux-x64.tar.gz",
+    "25.0.3": "tgz+https://aka.ms/download-jdk/microsoft-jdk-25.0.3-linux-x64.tar.gz"
   },
   "temurin": {
     "8.0-302": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u302b08.tar.gz",
