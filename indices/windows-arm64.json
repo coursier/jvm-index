@@ -6,6 +6,7 @@
     "21.0.8": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.8_9.zip",
     "21.0.9": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.9_10.zip",
     "21.0.10": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.10_7.zip",
+    "21.0.11": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.11_10.zip",
     "23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_aarch64_windows_hotspot_23.0.1_11.zip",
     "23.0.2": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jdk_aarch64_windows_hotspot_23.0.2_7.zip"
   },
@@ -16,6 +17,7 @@
     "21.0.8": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-debugimage_aarch64_windows_hotspot_21.0.8_9.zip",
     "21.0.9": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-debugimage_aarch64_windows_hotspot_21.0.9_10.zip",
     "21.0.10": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-debugimage_aarch64_windows_hotspot_21.0.10_7.zip",
+    "21.0.11": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-debugimage_aarch64_windows_hotspot_21.0.11_10.zip",
     "23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-debugimage_aarch64_windows_hotspot_23.0.1_11.zip",
     "23.0.2": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-debugimage_aarch64_windows_hotspot_23.0.2_7.zip"
   },
@@ -26,6 +28,7 @@
     "21.0.8": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.8_9.zip",
     "21.0.9": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.9_10.zip",
     "21.0.10": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.10_7.zip",
+    "21.0.11": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.11_10.zip",
     "23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_aarch64_windows_hotspot_23.0.1_11.zip",
     "23.0.2": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_aarch64_windows_hotspot_23.0.2_7.zip"
   },
@@ -36,6 +39,7 @@
     "21.0.8": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-testimage_aarch64_windows_hotspot_21.0.8_9.zip",
     "21.0.9": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-testimage_aarch64_windows_hotspot_21.0.9_10.zip",
     "21.0.10": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-testimage_aarch64_windows_hotspot_21.0.10_7.zip",
+    "21.0.11": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-testimage_aarch64_windows_hotspot_21.0.11_10.zip",
     "23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-testimage_aarch64_windows_hotspot_23.0.1_11.zip",
     "23.0.2": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-testimage_aarch64_windows_hotspot_23.0.2_7.zip"
   },
@@ -556,6 +560,7 @@
     "21.0.8": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.8_9.zip",
     "21.0.9": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.9_10.zip",
     "21.0.10": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.10_7.zip",
+    "21.0.11": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.11_10.zip",
     "23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_aarch64_windows_hotspot_23.0.1_11.zip",
     "23.0.2": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jdk_aarch64_windows_hotspot_23.0.2_7.zip"
   },
@@ -566,6 +571,7 @@
     "21.0.8": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-debugimage_aarch64_windows_hotspot_21.0.8_9.zip",
     "21.0.9": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-debugimage_aarch64_windows_hotspot_21.0.9_10.zip",
     "21.0.10": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-debugimage_aarch64_windows_hotspot_21.0.10_7.zip",
+    "21.0.11": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-debugimage_aarch64_windows_hotspot_21.0.11_10.zip",
     "23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-debugimage_aarch64_windows_hotspot_23.0.1_11.zip",
     "23.0.2": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-debugimage_aarch64_windows_hotspot_23.0.2_7.zip"
   },
@@ -576,6 +582,7 @@
     "21.0.8": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.8_9.zip",
     "21.0.9": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.9_10.zip",
     "21.0.10": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.10_7.zip",
+    "21.0.11": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.11_10.zip",
     "23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_aarch64_windows_hotspot_23.0.1_11.zip",
     "23.0.2": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_aarch64_windows_hotspot_23.0.2_7.zip"
   },
@@ -586,6 +593,7 @@
     "21.0.8": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-testimage_aarch64_windows_hotspot_21.0.8_9.zip",
     "21.0.9": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-testimage_aarch64_windows_hotspot_21.0.9_10.zip",
     "21.0.10": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-testimage_aarch64_windows_hotspot_21.0.10_7.zip",
+    "21.0.11": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-testimage_aarch64_windows_hotspot_21.0.11_10.zip",
     "23.0.1": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-testimage_aarch64_windows_hotspot_23.0.1_11.zip",
     "23.0.2": "zip+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-testimage_aarch64_windows_hotspot_23.0.2_7.zip"
   },
