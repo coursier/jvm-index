@@ -36,7 +36,10 @@ jobs:
       - name: Generate summary
         id: summary
         run: |
-          SUMMARY=$(./scala-cli.sh .github/scripts/summarize-index-changes.scala -- /tmp/base/indices indices/)
+          TMP_SUMMARY="$(mktemp)"
+          ./scala-cli.sh .github/scripts/summarize-index-changes.scala -- /tmp/base/indices indices/ | tee "$TMP_SUMMARY"
+          SUMMARY=$(sed -E '/^Downloading https:\/\/github\.com\/VirtusLab\/scala-cli\/releases\/download\/v[^\/]+\/scala-cli-.*\.gz$/d' "$TMP_SUMMARY")
+          rm -f "$TMP_SUMMARY"
           {
             echo 'summary<<EOF'
             echo "$SUMMARY"
