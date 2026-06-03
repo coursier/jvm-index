@@ -40,7 +40,7 @@ jobs:
           ./scala-cli.sh .github/scripts/summarize-index-changes.scala -- /tmp/base/indices indices/ | tee "$TMP_SUMMARY"
           SUMMARY=$(
             while IFS= read -r line; do
-              if [[ "$line" =~ ^Downloading\ https://github.com/VirtusLab/scala-cli/releases/download/.*/scala-cli-.*\.gz$ ]]; then
+              if [[ "$line" =~ ^Downloading[[:space:]]https://github\.com/VirtusLab/scala-cli/releases/download/.*/scala-cli-.*\.gz$ ]]; then
                 continue
               fi
               printf '%s\n' "$line"
