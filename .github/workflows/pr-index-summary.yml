@@ -38,7 +38,14 @@ jobs:
         run: |
           TMP_SUMMARY="$(mktemp)"
           ./scala-cli.sh .github/scripts/summarize-index-changes.scala -- /tmp/base/indices indices/ | tee "$TMP_SUMMARY"
-          SUMMARY=$(sed -E '/^Downloading https:\/\/github\.com\/VirtusLab\/scala-cli\/releases\/download\/v[^\/]+\/scala-cli-.*\.gz$/d' "$TMP_SUMMARY")
+          SUMMARY=$(
+            while IFS= read -r line; do
+              if [[ "$line" == Downloading\ https://github.com/VirtusLab/scala-cli/releases/download/*/scala-cli-*.gz ]]; then
+                continue
+              fi
+              printf '%s\n' "$line"
+            done < "$TMP_SUMMARY"
+          )
           rm -f "$TMP_SUMMARY"
           {
             echo 'summary<<EOF'
