@@ -406,8 +406,8 @@
     "26.0.1": "tgz+https://github.com/bell-sw/Liberica/releases/download/26.0.1+10/bellsoft-jdk26.0.1+10-linux-ppc64le-lite.tar.gz"
   },
   "zulu": {
-    "8.0.232": "tgz+https://cdn.azul.com/zulu/bin/zulu8.42.0.196-ca-hl-jdk1.8.0_232-linux_ppc64.tar.gz",
-    "8.0.242": "tgz+https://cdn.azul.com/zulu/bin/zulu8.44.0.213-ca-hl-jdk1.8.0_242-linux_ppc64.tar.gz",
+    "8.0.232": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.42.0.196-ca-hl-jdk1.8.0_232-linux_ppc64.tar.gz",
+    "8.0.242": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.44.0.213-ca-hl-jdk1.8.0_242-linux_ppc64.tar.gz",
     "8.0.252": "tgz+https://cdn.azul.com/zulu/bin/zulu8.46.0.225-ca-hl-jdk8.0.252-linux_ppc64.tar.gz",
     "8.0.265": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.48.3.247-ca-hl-jdk8.0.265-linux_ppc64.tar.gz",
     "8.0.272": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.50.0.261-ca-hl-jdk8.0.272-linux_ppc64.tar.gz",
