@@ -3,7 +3,24 @@ package coursier.jvmindex
 import coursier.jvmindex.Index.{Arch, Os}
 import sttp.client3.quick.*
 
+import java.net.URI
+import java.net.http.{HttpClient, HttpRequest, HttpResponse}
+import java.util.concurrent.Executors
+
+import scala.concurrent.duration.Duration
+import scala.concurrent.{Await, ExecutionContext, Future}
+import scala.util.control.NonFatal
+
 object Foojay {
+
+  private final case class Package(
+    os: Os,
+    arch: Arch,
+    name: String,
+    version: String,
+    archive: String,
+    redirectUrl: String
+  )
 
   // Distributions already fetched from their upstream sources are deliberately omitted here.
   // Keeping the mapping explicit also makes the public names in the coursier index stable if
@@ -52,6 +69,48 @@ object Foojay {
     case _        => None
   }
 
+  private def isExpiring(uri: URI): Boolean =
+    Option(uri.getRawQuery).exists { query =>
+      val keys = query.split('&').iterator.map(_.takeWhile(_ != '=')).toSet
+      keys.contains("sig") && keys.contains("jwt") ||
+      keys.exists(_.startsWith("X-Amz-"))
+    }
+
+  private def resolveRedirect(client: HttpClient, url: String): Option[String] =
+    try {
+      def follow(current: URI, previous: Option[URI], redirectsLeft: Int): Option[String] = {
+        val request = HttpRequest.newBuilder(current).method(
+          "HEAD",
+          HttpRequest.BodyPublishers.noBody()
+        ).build()
+        val response = client.send(request, HttpResponse.BodyHandlers.discarding())
+        if (response.statusCode() / 100 == 2)
+          Some(
+            if (isExpiring(current)) previous.getOrElse(current).toString
+            else current.toString
+          )
+        else if (response.statusCode() / 100 == 3 && redirectsLeft > 0) {
+          val location = response.headers().firstValue("location")
+          if (location.isPresent)
+            follow(current.resolve(location.get()), Some(current), redirectsLeft - 1)
+          else {
+            System.err.println(s"Ignoring $url (redirect without a Location header)")
+            None
+          }
+        }
+        else {
+          System.err.println(s"Ignoring $url (status code ${response.statusCode()})")
+          None
+        }
+      }
+      follow(URI.create(url), None, redirectsLeft = 10)
+    }
+    catch {
+      case NonFatal(exception) =>
+        System.err.println(s"Ignoring $url (${exception.getMessage})")
+        None
+    }
+
   def index(): Index = {
     val distributions = distributionNames.keys.toVector.sorted.mkString(",")
     val url           =
@@ -61,7 +120,7 @@ object Foojay {
     val packages = ujson.read(response.body)("result").arr
     System.err.println(s"Found ${packages.length} Foojay packages")
 
-    packages.iterator.flatMap { value =>
+    val candidates = packages.iterator.flatMap { value =>
       val obj          = value.obj
       val distribution = obj("distribution").str
       for {
@@ -72,8 +131,45 @@ object Foojay {
         redirectUrl <- obj("links").obj.get("pkg_download_redirect").iterator.map(_.str)
       } yield {
         val version = obj("java_version").str.takeWhile(_ != '+')
-        Index(os, arch, s"jdk@$name", s"1.$version", s"$archive+$redirectUrl")
+        Package(os, arch, name, s"1.$version", archive, redirectUrl)
       }
-    }.foldLeft(Index.empty)(_ + _)
+    }.toVector
+
+    // Multiple Disco packages can describe the same index coordinate. Resolve only the one that
+    // will be retained, preferring the archive native to the target operating system.
+    val selected = candidates
+      .groupBy(pkg => (pkg.os, pkg.arch, pkg.name, pkg.version))
+      .valuesIterator
+      .map { alternatives =>
+        alternatives.minBy { pkg =>
+          val preferredArchive =
+            if (pkg.os == Os("windows")) "zip"
+            else "tgz"
+          (pkg.archive != preferredArchive, pkg.redirectUrl)
+        }
+      }
+      .toVector
+
+    System.err.println(s"Resolving ${selected.length} Foojay download redirects")
+    val client   = HttpClient.newBuilder().followRedirects(HttpClient.Redirect.NEVER).build()
+    val pool     = Executors.newFixedThreadPool(16)
+    val resolved =
+      try {
+        implicit val ec: ExecutionContext = ExecutionContext.fromExecutorService(pool)
+        Await.result(
+          Future.traverse(selected) { pkg =>
+            Future(resolveRedirect(client, pkg.redirectUrl).map(pkg -> _))
+          },
+          Duration.Inf
+        )
+      }
+      finally pool.shutdown()
+
+    resolved.iterator.flatten
+      .map {
+        case (pkg, url) =>
+          Index(pkg.os, pkg.arch, s"jdk@${pkg.name}", pkg.version, s"${pkg.archive}+$url")
+      }
+      .foldLeft(Index.empty)(_ + _)
   }
 }
