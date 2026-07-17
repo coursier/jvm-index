@@ -28,18 +28,14 @@ object Foojay {
   private val distributionNames = Map(
     "bisheng"          -> "bisheng",
     "dragonwell"       -> "dragonwell",
-    "eliya"            -> "eliya",
-    "gluon_graalvm"    -> "gluon-graalvm",
     "jetbrains"        -> "jetbrains",
     "kona"             -> "kona",
     "mandrel"          -> "mandrel",
-    "ojdk_build"       -> "ojdk-build",
     "openlogic"        -> "openlogic",
     "oracle_open_jdk"  -> "oracle-openjdk",
     "redhat"           -> "redhat",
     "sap_machine"      -> "sapmachine",
-    "semeru_certified" -> "ibm-semeru-certified",
-    "trava"            -> "trava"
+    "semeru_certified" -> "ibm-semeru-certified"
   )
 
   private def indexOs(value: String): Option[Os] = value match {
@@ -131,7 +127,7 @@ object Foojay {
         redirectUrl <- obj("links").obj.get("pkg_download_redirect").iterator.map(_.str)
       } yield {
         val version = obj("java_version").str.takeWhile(_ != '+')
-        Package(os, arch, name, s"1.$version", archive, redirectUrl)
+        Package(os, arch, name, version, archive, redirectUrl)
       }
     }.toVector
 
