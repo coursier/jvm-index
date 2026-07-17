@@ -1,8 +1,8 @@
 name: Publish
 on:
   push:
-    branches:
-    - master
+    tags:
+    - '*'
   pull_request:
 
 jobs:
@@ -18,10 +18,10 @@ jobs:
           jvm: 21
       - name: Publish local
         run: cd publish && ./mill -i __.publishLocal
-        if: github.ref != 'refs/heads/master'
+        if: github.ref_type != 'tag'
       - name: Publish
         run: cd publish && ./mill -i mill.scalalib.SonatypeCentralPublishModule/
-        if: github.ref == 'refs/heads/master'
+        if: github.ref_type == 'tag'
         env:
           MILL_PGP_SECRET_BASE64: ${{ secrets.PUBLISH_SECRET_KEY }}
           MILL_PGP_PASSPHRASE: ${{ secrets.PUBLISH_SECRET_KEY_PASSWORD }}
