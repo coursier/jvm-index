@@ -176,6 +176,7 @@
     "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.18_8.tar.gz",
     "17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.19_10.tar.gz",
     "17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.20_8.tar.gz",
+    "17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.20.1_1.tar.gz",
     "18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_s390x_linux_hotspot_18_36.tar.gz",
     "18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jdk_s390x_linux_hotspot_18.0.1_10.tar.gz",
     "18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jdk_s390x_linux_hotspot_18.0.2_9.tar.gz",
@@ -194,6 +195,7 @@
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.10_7.tar.gz",
     "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.11_10.tar.gz",
     "21.0.12": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12%2B8/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.12_8.tar.gz",
+    "21.0.12.1": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.12.1_1.tar.gz",
     "22.0.1.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1.1%2B1/OpenJDK22U-jdk_s390x_linux_hotspot_22.0.1.1_1.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_s390x_linux_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_s390x_linux_hotspot_23_37.tar.gz",
@@ -207,6 +209,7 @@
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.2_10.tar.gz",
     "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.3_9.tar.gz",
     "25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.4_7.tar.gz",
+    "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_s390x_linux_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_s390x_linux_hotspot_26.0.1_8.tar.gz",
     "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_s390x_linux_hotspot_26.0.2_10.tar.gz"
@@ -260,6 +263,7 @@
     "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.18_8.tar.gz",
     "17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.19_10.tar.gz",
     "17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.20_8.tar.gz",
+    "17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.20.1_1.tar.gz",
     "18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_s390x_linux_hotspot_18_36.tar.gz",
     "18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-debugimage_s390x_linux_hotspot_18.0.1_10.tar.gz",
     "18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-debugimage_s390x_linux_hotspot_18.0.2_9.tar.gz",
@@ -278,6 +282,7 @@
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-debugimage_s390x_linux_hotspot_21.0.10_7.tar.gz",
     "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-debugimage_s390x_linux_hotspot_21.0.11_10.tar.gz",
     "21.0.12": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12%2B8/OpenJDK21U-debugimage_s390x_linux_hotspot_21.0.12_8.tar.gz",
+    "21.0.12.1": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-debugimage_s390x_linux_hotspot_21.0.12.1_1.tar.gz",
     "22.0.1.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1.1%2B1/OpenJDK22U-debugimage_s390x_linux_hotspot_22.0.1.1_1.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-debugimage_s390x_linux_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_s390x_linux_hotspot_23_37.tar.gz",
@@ -291,6 +296,7 @@
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-debugimage_s390x_linux_hotspot_25.0.2_10.tar.gz",
     "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_s390x_linux_hotspot_25.0.3_9.tar.gz",
     "25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-debugimage_s390x_linux_hotspot_25.0.4_7.tar.gz",
+    "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_s390x_linux_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_s390x_linux_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_s390x_linux_hotspot_26.0.1_8.tar.gz",
     "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_s390x_linux_hotspot_26.0.2_10.tar.gz"
@@ -356,6 +362,7 @@
     "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-jre_s390x_linux_hotspot_17.0.18_8.tar.gz",
     "17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_s390x_linux_hotspot_17.0.19_10.tar.gz",
     "17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_s390x_linux_hotspot_17.0.20_8.tar.gz",
+    "17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_s390x_linux_hotspot_17.0.20.1_1.tar.gz",
     "18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_s390x_linux_hotspot_18.0.1_10.tar.gz",
     "18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jre_s390x_linux_hotspot_18.0.2_9.tar.gz",
     "18.0.2.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jre_s390x_linux_hotspot_18.0.2.1_1.tar.gz",
@@ -373,6 +380,7 @@
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_s390x_linux_hotspot_21.0.10_7.tar.gz",
     "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_s390x_linux_hotspot_21.0.11_10.tar.gz",
     "21.0.12": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12%2B8/OpenJDK21U-jre_s390x_linux_hotspot_21.0.12_8.tar.gz",
+    "21.0.12.1": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jre_s390x_linux_hotspot_21.0.12.1_1.tar.gz",
     "22.0.1.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1.1%2B1/OpenJDK22U-jre_s390x_linux_hotspot_22.0.1.1_1.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_s390x_linux_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_s390x_linux_hotspot_23_37.tar.gz",
@@ -386,6 +394,7 @@
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jre_s390x_linux_hotspot_25.0.2_10.tar.gz",
     "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_s390x_linux_hotspot_25.0.3_9.tar.gz",
     "25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_s390x_linux_hotspot_25.0.4_7.tar.gz",
+    "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_s390x_linux_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_s390x_linux_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_s390x_linux_hotspot_26.0.1_8.tar.gz",
     "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_s390x_linux_hotspot_26.0.2_10.tar.gz"
@@ -433,6 +442,7 @@
     "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.18_8.tar.gz",
     "17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.19_10.tar.gz",
     "17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.20_8.tar.gz",
+    "17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.20.1_1.tar.gz",
     "19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_s390x_linux_hotspot_19.0.2_7.tar.gz",
     "21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-testimage_s390x_linux_hotspot_21.0.2_13.tar.gz",
     "21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-testimage_s390x_linux_hotspot_21.0.3_9.tar.gz",
@@ -445,6 +455,7 @@
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-testimage_s390x_linux_hotspot_21.0.10_7.tar.gz",
     "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-testimage_s390x_linux_hotspot_21.0.11_10.tar.gz",
     "21.0.12": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12%2B8/OpenJDK21U-testimage_s390x_linux_hotspot_21.0.12_8.tar.gz",
+    "21.0.12.1": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-testimage_s390x_linux_hotspot_21.0.12.1_1.tar.gz",
     "22.0.1.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1.1%2B1/OpenJDK22U-testimage_s390x_linux_hotspot_22.0.1.1_1.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-testimage_s390x_linux_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_s390x_linux_hotspot_23_37.tar.gz",
@@ -458,6 +469,7 @@
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-testimage_s390x_linux_hotspot_25.0.2_10.tar.gz",
     "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_s390x_linux_hotspot_25.0.3_9.tar.gz",
     "25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-testimage_s390x_linux_hotspot_25.0.4_7.tar.gz",
+    "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_s390x_linux_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_s390x_linux_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_s390x_linux_hotspot_26.0.1_8.tar.gz",
     "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_s390x_linux_hotspot_26.0.2_10.tar.gz"
@@ -506,6 +518,7 @@
     "11.0.30": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_11.0.30_7_openj9-0.57.0.tar.gz",
     "11.0.31.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.31.0/ibm-semeru-open-jdk_s390x_linux_11.0.31.0.tar.gz",
     "11.0.32.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jdk_s390x_linux_11.0.32.0.tar.gz",
+    "11.0.32.10": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.10/ibm-semeru-open-jdk_s390x_linux_11.0.32.10.tar.gz",
     "16.0.2": "tgz+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_s390x_linux_16.0.2_7_openj9-0.27.0.tar.gz",
     "17.0.1": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.1%2B12_openj9-0.29.1/ibm-semeru-open-jdk_s390x_linux_17.0.1_12_openj9-0.29.1.tar.gz",
     "17.0.2": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.2%2B8_openj9-0.30.0/ibm-semeru-open-jdk_s390x_linux_17.0.2_8_openj9-0.30.0.tar.gz",
@@ -529,6 +542,7 @@
     "17.0.18": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_17.0.18_8_openj9-0.57.0.tar.gz",
     "17.0.19.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.19.0/ibm-semeru-open-jdk_s390x_linux_17.0.19.0.tar.gz",
     "17.0.20.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0/ibm-semeru-open-jdk_s390x_linux_17.0.20.0.tar.gz",
+    "17.0.20.10": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.10/ibm-semeru-open-jdk_s390x_linux_17.0.20.10.tar.gz",
     "18.0.1": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_s390x_linux_18.0.1_10_openj9-0.32.0.tar.gz",
     "18.0.1.1": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1.1%2B2_openj9-0.32.0/ibm-semeru-open-jdk_s390x_linux_18.0.1.1_2_openj9-0.32.0.tar.gz",
     "18.0.2": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.2%2B9_openj9-0.33.0/ibm-semeru-open-jdk_s390x_linux_18.0.2_9_openj9-0.33.0.tar.gz",
@@ -547,6 +561,7 @@
     "21.0.10": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_21.0.10_7_openj9-0.57.0.tar.gz",
     "21.0.11.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jdk_s390x_linux_21.0.11.0.tar.gz",
     "21.0.12.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0/ibm-semeru-open-jdk_s390x_linux_21.0.12.0.tar.gz",
+    "21.0.12.10": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.10/ibm-semeru-open-jdk_s390x_linux_21.0.12.10.tar.gz",
     "22.0.1": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_s390x_linux_22.0.1_8_openj9-0.45.0.tar.gz",
     "22.0.2": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_s390x_linux_22.0.2_9_openj9-0.46.0.tar.gz",
     "23.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_s390x_linux_23_37_openj9-0.47.0.tar.gz",
@@ -558,9 +573,11 @@
     "25.0.2": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_25.0.2_10_openj9-0.57.0.tar.gz",
     "25.0.3.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.3.0/ibm-semeru-open-jdk_s390x_linux_25.0.3.0.tar.gz",
     "25.0.4.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.0/ibm-semeru-open-jdk_s390x_linux_25.0.4.0.tar.gz",
+    "25.0.4.10": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.10/ibm-semeru-open-jdk_s390x_linux_25.0.4.10.tar.gz",
     "26.0.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jdk_s390x_linux_26.0.0.0.tar.gz",
     "26.0.1.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.1.0/ibm-semeru-open-jdk_s390x_linux_26.0.1.0.tar.gz",
-    "26.0.2.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.0/ibm-semeru-open-jdk_s390x_linux_26.0.2.0.tar.gz"
+    "26.0.2.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.0/ibm-semeru-open-jdk_s390x_linux_26.0.2.0.tar.gz",
+    "26.0.2.10": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.10/ibm-semeru-open-jdk_s390x_linux_26.0.2.10.tar.gz"
   },
   "ibm-semeru-openj9-java11": {
     "11.0.12+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_s390x_linux_11.0.12_7_openj9-0.27.0.tar.gz",
@@ -588,7 +605,8 @@
     "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_11.0.30_7_openj9-0.57.0.tar.gz",
     "11.0.30+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_11.0.30.1.tar.gz",
     "11.0.31.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.31.0/ibm-semeru-open-jdk_s390x_linux_11.0.31.0.tar.gz",
-    "11.0.32.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jdk_s390x_linux_11.0.32.0.tar.gz"
+    "11.0.32.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jdk_s390x_linux_11.0.32.0.tar.gz",
+    "11.0.32.10": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.10/ibm-semeru-open-jdk_s390x_linux_11.0.32.10.tar.gz"
   },
   "ibm-semeru-openj9-java16": {
     "16.0.2+7_openj9-0.27.0": "tgz+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_s390x_linux_16.0.2_7_openj9-0.27.0.tar.gz"
@@ -617,7 +635,8 @@
     "17.0.18+8.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8.1_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_17.0.18.1.tar.gz",
     "17.0.18+8_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_17.0.18_8_openj9-0.57.0.tar.gz",
     "17.0.19.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.19.0/ibm-semeru-open-jdk_s390x_linux_17.0.19.0.tar.gz",
-    "17.0.20.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0/ibm-semeru-open-jdk_s390x_linux_17.0.20.0.tar.gz"
+    "17.0.20.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0/ibm-semeru-open-jdk_s390x_linux_17.0.20.0.tar.gz",
+    "17.0.20.10": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.10/ibm-semeru-open-jdk_s390x_linux_17.0.20.10.tar.gz"
   },
   "ibm-semeru-openj9-java18": {
     "18.0.1+10_openj9-0.32.0": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_s390x_linux_18.0.1_10_openj9-0.32.0.tar.gz",
@@ -646,7 +665,8 @@
     "21.0.10+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_21.0.10.1.tar.gz",
     "21.0.10+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_21.0.10_7_openj9-0.57.0.tar.gz",
     "21.0.11.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jdk_s390x_linux_21.0.11.0.tar.gz",
-    "21.0.12.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0/ibm-semeru-open-jdk_s390x_linux_21.0.12.0.tar.gz"
+    "21.0.12.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0/ibm-semeru-open-jdk_s390x_linux_21.0.12.0.tar.gz",
+    "21.0.12.10": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.10/ibm-semeru-open-jdk_s390x_linux_21.0.12.10.tar.gz"
   },
   "ibm-semeru-openj9-java22": {
     "22.0.1+8_openj9-0.45.0": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_s390x_linux_22.0.1_8_openj9-0.45.0.tar.gz",
@@ -668,12 +688,14 @@
     "25.0.2+10_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_25.0.2_10_openj9-0.57.0.tar.gz",
     "25.0.2+10.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_s390x_linux_25.0.2.1.tar.gz",
     "25.0.3.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.3.0/ibm-semeru-open-jdk_s390x_linux_25.0.3.0.tar.gz",
-    "25.0.4.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.0/ibm-semeru-open-jdk_s390x_linux_25.0.4.0.tar.gz"
+    "25.0.4.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.0/ibm-semeru-open-jdk_s390x_linux_25.0.4.0.tar.gz",
+    "25.0.4.10": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.10/ibm-semeru-open-jdk_s390x_linux_25.0.4.10.tar.gz"
   },
   "ibm-semeru-openj9-java26": {
     "26+35_openj9-0.58.0.0.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jdk_s390x_linux_26.0.0.0.tar.gz",
     "26.0.1.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.1.0/ibm-semeru-open-jdk_s390x_linux_26.0.1.0.tar.gz",
-    "26.0.2.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.0/ibm-semeru-open-jdk_s390x_linux_26.0.2.0.tar.gz"
+    "26.0.2.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.0/ibm-semeru-open-jdk_s390x_linux_26.0.2.0.tar.gz",
+    "26.0.2.10": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.10/ibm-semeru-open-jdk_s390x_linux_26.0.2.10.tar.gz"
   },
   "ibm-semeru-openj9-java8": {
     "8.0.302": "tgz+https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u302-b08_openj9-0.27.0/ibm-semeru-open-jdk_s390x_linux_8u302b08_openj9-0.27.0.tar.gz",
@@ -745,6 +767,7 @@
     "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.18_8.tar.gz",
     "17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.19_10.tar.gz",
     "17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.20_8.tar.gz",
+    "17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.20.1_1.tar.gz",
     "18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_s390x_linux_hotspot_18_36.tar.gz",
     "18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jdk_s390x_linux_hotspot_18.0.1_10.tar.gz",
     "18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jdk_s390x_linux_hotspot_18.0.2_9.tar.gz",
@@ -763,6 +786,7 @@
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.10_7.tar.gz",
     "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.11_10.tar.gz",
     "21.0.12": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12%2B8/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.12_8.tar.gz",
+    "21.0.12.1": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.12.1_1.tar.gz",
     "22.0.1.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1.1%2B1/OpenJDK22U-jdk_s390x_linux_hotspot_22.0.1.1_1.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jdk_s390x_linux_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jdk_s390x_linux_hotspot_23_37.tar.gz",
@@ -776,6 +800,7 @@
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.2_10.tar.gz",
     "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.3_9.tar.gz",
     "25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.4_7.tar.gz",
+    "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_s390x_linux_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_s390x_linux_hotspot_26.0.1_8.tar.gz",
     "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_s390x_linux_hotspot_26.0.2_10.tar.gz"
@@ -829,6 +854,7 @@
     "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.18_8.tar.gz",
     "17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.19_10.tar.gz",
     "17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.20_8.tar.gz",
+    "17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.20.1_1.tar.gz",
     "18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_s390x_linux_hotspot_18_36.tar.gz",
     "18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-debugimage_s390x_linux_hotspot_18.0.1_10.tar.gz",
     "18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-debugimage_s390x_linux_hotspot_18.0.2_9.tar.gz",
@@ -847,6 +873,7 @@
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-debugimage_s390x_linux_hotspot_21.0.10_7.tar.gz",
     "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-debugimage_s390x_linux_hotspot_21.0.11_10.tar.gz",
     "21.0.12": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12%2B8/OpenJDK21U-debugimage_s390x_linux_hotspot_21.0.12_8.tar.gz",
+    "21.0.12.1": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-debugimage_s390x_linux_hotspot_21.0.12.1_1.tar.gz",
     "22.0.1.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1.1%2B1/OpenJDK22U-debugimage_s390x_linux_hotspot_22.0.1.1_1.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-debugimage_s390x_linux_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-debugimage_s390x_linux_hotspot_23_37.tar.gz",
@@ -860,6 +887,7 @@
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-debugimage_s390x_linux_hotspot_25.0.2_10.tar.gz",
     "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_s390x_linux_hotspot_25.0.3_9.tar.gz",
     "25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-debugimage_s390x_linux_hotspot_25.0.4_7.tar.gz",
+    "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_s390x_linux_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_s390x_linux_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_s390x_linux_hotspot_26.0.1_8.tar.gz",
     "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_s390x_linux_hotspot_26.0.2_10.tar.gz"
@@ -911,6 +939,7 @@
     "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-jre_s390x_linux_hotspot_17.0.18_8.tar.gz",
     "17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_s390x_linux_hotspot_17.0.19_10.tar.gz",
     "17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_s390x_linux_hotspot_17.0.20_8.tar.gz",
+    "17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_s390x_linux_hotspot_17.0.20.1_1.tar.gz",
     "18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_s390x_linux_hotspot_18.0.1_10.tar.gz",
     "18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jre_s390x_linux_hotspot_18.0.2_9.tar.gz",
     "18.0.2.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jre_s390x_linux_hotspot_18.0.2.1_1.tar.gz",
@@ -928,6 +957,7 @@
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_s390x_linux_hotspot_21.0.10_7.tar.gz",
     "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_s390x_linux_hotspot_21.0.11_10.tar.gz",
     "21.0.12": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12%2B8/OpenJDK21U-jre_s390x_linux_hotspot_21.0.12_8.tar.gz",
+    "21.0.12.1": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jre_s390x_linux_hotspot_21.0.12.1_1.tar.gz",
     "22.0.1.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1.1%2B1/OpenJDK22U-jre_s390x_linux_hotspot_22.0.1.1_1.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_s390x_linux_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_s390x_linux_hotspot_23_37.tar.gz",
@@ -941,6 +971,7 @@
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jre_s390x_linux_hotspot_25.0.2_10.tar.gz",
     "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_s390x_linux_hotspot_25.0.3_9.tar.gz",
     "25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_s390x_linux_hotspot_25.0.4_7.tar.gz",
+    "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_s390x_linux_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_s390x_linux_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_s390x_linux_hotspot_26.0.1_8.tar.gz",
     "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_s390x_linux_hotspot_26.0.2_10.tar.gz"
@@ -979,6 +1010,7 @@
     "17.0.18": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.18_8.tar.gz",
     "17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.19_10.tar.gz",
     "17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.20_8.tar.gz",
+    "17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.20.1_1.tar.gz",
     "19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_s390x_linux_hotspot_19.0.2_7.tar.gz",
     "21.0.2": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-testimage_s390x_linux_hotspot_21.0.2_13.tar.gz",
     "21.0.3": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-testimage_s390x_linux_hotspot_21.0.3_9.tar.gz",
@@ -991,6 +1023,7 @@
     "21.0.10": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-testimage_s390x_linux_hotspot_21.0.10_7.tar.gz",
     "21.0.11": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-testimage_s390x_linux_hotspot_21.0.11_10.tar.gz",
     "21.0.12": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12%2B8/OpenJDK21U-testimage_s390x_linux_hotspot_21.0.12_8.tar.gz",
+    "21.0.12.1": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-testimage_s390x_linux_hotspot_21.0.12.1_1.tar.gz",
     "22.0.1.1": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1.1%2B1/OpenJDK22U-testimage_s390x_linux_hotspot_22.0.1.1_1.tar.gz",
     "22.0.2": "tgz+https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-testimage_s390x_linux_hotspot_22.0.2_9.tar.gz",
     "23.0.0": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-testimage_s390x_linux_hotspot_23_37.tar.gz",
@@ -1004,6 +1037,7 @@
     "25.0.2": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-testimage_s390x_linux_hotspot_25.0.2_10.tar.gz",
     "25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_s390x_linux_hotspot_25.0.3_9.tar.gz",
     "25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-testimage_s390x_linux_hotspot_25.0.4_7.tar.gz",
+    "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_s390x_linux_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_s390x_linux_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_s390x_linux_hotspot_26.0.1_8.tar.gz",
     "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_s390x_linux_hotspot_26.0.2_10.tar.gz"

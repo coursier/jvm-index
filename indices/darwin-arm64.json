@@ -20,6 +20,7 @@
     "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.30_7.tar.gz",
     "11.0.31": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.31_11.tar.gz",
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.32_9.tar.gz",
+    "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "17.0.0": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_aarch64_mac_hotspot_17_35.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.2_8.tar.gz",
@@ -85,7 +86,8 @@
     "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_aarch64_mac_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_aarch64_mac_hotspot_26.0.1_8.tar.gz",
-    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_aarch64_mac_hotspot_26.0.2_10.tar.gz"
+    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_aarch64_mac_hotspot_26.0.2_10.tar.gz",
+    "26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jdk_aarch64_mac_hotspot_26.0.2.1_1.tar.gz"
   },
   "adoptium-debugimage": {
     "11.0.15": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.15_10.tar.gz",
@@ -108,6 +110,7 @@
     "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.30_7.tar.gz",
     "11.0.31": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.31_11.tar.gz",
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.32_9.tar.gz",
+    "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "17.0.0": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-debugimage_aarch64_mac_hotspot_17_35.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.2_8.tar.gz",
@@ -173,7 +176,8 @@
     "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_aarch64_mac_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_aarch64_mac_hotspot_26.0.1_8.tar.gz",
-    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_aarch64_mac_hotspot_26.0.2_10.tar.gz"
+    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_aarch64_mac_hotspot_26.0.2_10.tar.gz",
+    "26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-debugimage_aarch64_mac_hotspot_26.0.2.1_1.tar.gz"
   },
   "adoptium-jre": {
     "11.0.15": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.15_10.tar.gz",
@@ -196,6 +200,7 @@
     "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.30_7.tar.gz",
     "11.0.31": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.31_11.tar.gz",
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.32_9.tar.gz",
+    "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.2_8.tar.gz",
     "17.0.3": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.3_7.tar.gz",
@@ -259,7 +264,8 @@
     "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_aarch64_mac_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_aarch64_mac_hotspot_26.0.1_8.tar.gz",
-    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_aarch64_mac_hotspot_26.0.2_10.tar.gz"
+    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_aarch64_mac_hotspot_26.0.2_10.tar.gz",
+    "26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jre_aarch64_mac_hotspot_26.0.2.1_1.tar.gz"
   },
   "adoptium-testimage": {
     "11.0.18": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.18%2B10/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.18_10.tar.gz",
@@ -277,6 +283,7 @@
     "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.30_7.tar.gz",
     "11.0.31": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.31_11.tar.gz",
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.32_9.tar.gz",
+    "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "17.0.0": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-testimage_aarch64_mac_hotspot_17_35.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.6": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.6_10.tar.gz",
@@ -329,7 +336,8 @@
     "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_aarch64_mac_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_aarch64_mac_hotspot_26.0.1_8.tar.gz",
-    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_aarch64_mac_hotspot_26.0.2_10.tar.gz"
+    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_aarch64_mac_hotspot_26.0.2_10.tar.gz",
+    "26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-testimage_aarch64_mac_hotspot_26.0.2.1_1.tar.gz"
   },
   "corretto": {
     "8.322.06.4": "tgz+https://corretto.aws/downloads/resources/8.322.06.4/amazon-corretto-8.322.06.4-macosx-aarch64.tar.gz",
@@ -545,6 +553,7 @@
     "11.0.30": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_11.0.30_7_openj9-0.57.0.tar.gz",
     "11.0.31.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.31.0/ibm-semeru-open-jdk_aarch64_mac_11.0.31.0.tar.gz",
     "11.0.32.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jdk_aarch64_mac_11.0.32.0.tar.gz",
+    "11.0.32.10": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.10/ibm-semeru-open-jdk_aarch64_mac_11.0.32.10.tar.gz",
     "17.0.3": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.3%2B7_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_17.0.3_7_openj9-0.32.0.tar.gz",
     "17.0.4": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.4%2B8_openj9-0.33.0/ibm-semeru-open-jdk_aarch64_mac_17.0.4_8_openj9-0.33.0.tar.gz",
     "17.0.4.1": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.4.1%2B1_openj9-0.33.1/ibm-semeru-open-jdk_aarch64_mac_17.0.4.1_1_openj9-0.33.1.tar.gz",
@@ -565,6 +574,7 @@
     "17.0.18": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_17.0.18_8_openj9-0.57.0.tar.gz",
     "17.0.19.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.19.0/ibm-semeru-open-jdk_aarch64_mac_17.0.19.0.tar.gz",
     "17.0.20.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0/ibm-semeru-open-jdk_aarch64_mac_17.0.20.0.tar.gz",
+    "17.0.20.10": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.10/ibm-semeru-open-jdk_aarch64_mac_17.0.20.10.tar.gz",
     "18.0.1": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_18.0.1_10_openj9-0.32.0.tar.gz",
     "18.0.1.1": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1.1%2B2_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_18.0.1.1_2_openj9-0.32.0.tar.gz",
     "18.0.2": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.2%2B9_openj9-0.33.0/ibm-semeru-open-jdk_aarch64_mac_18.0.2_9_openj9-0.33.0.tar.gz",
@@ -583,6 +593,7 @@
     "21.0.10": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_21.0.10_7_openj9-0.57.0.tar.gz",
     "21.0.11.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jdk_aarch64_mac_21.0.11.0.tar.gz",
     "21.0.12.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0/ibm-semeru-open-jdk_aarch64_mac_21.0.12.0.tar.gz",
+    "21.0.12.10": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.10/ibm-semeru-open-jdk_aarch64_mac_21.0.12.10.tar.gz",
     "22.0.1": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_aarch64_mac_22.0.1_8_openj9-0.45.0.tar.gz",
     "22.0.2": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_aarch64_mac_22.0.2_9_openj9-0.46.0.tar.gz",
     "23.0.0": "tgz+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_aarch64_mac_23_37_openj9-0.47.0.tar.gz",
@@ -594,9 +605,11 @@
     "25.0.2": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_25.0.2_10_openj9-0.57.0.tar.gz",
     "25.0.3.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.3.0/ibm-semeru-open-jdk_aarch64_mac_25.0.3.0.tar.gz",
     "25.0.4.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.0/ibm-semeru-open-jdk_aarch64_mac_25.0.4.0.tar.gz",
+    "25.0.4.10": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.10/ibm-semeru-open-jdk_aarch64_mac_25.0.4.10.tar.gz",
     "26.0.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jdk_aarch64_mac_26.0.0.0.tar.gz",
     "26.0.1.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.1.0/ibm-semeru-open-jdk_aarch64_mac_26.0.1.0.tar.gz",
-    "26.0.2.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.0/ibm-semeru-open-jdk_aarch64_mac_26.0.2.0.tar.gz"
+    "26.0.2.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.0/ibm-semeru-open-jdk_aarch64_mac_26.0.2.0.tar.gz",
+    "26.0.2.10": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.10/ibm-semeru-open-jdk_aarch64_mac_26.0.2.10.tar.gz"
   },
   "ibm-semeru-openj9-java11": {
     "11.0.15+10_openj9-0.32.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.15%2B10_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_11.0.15_10_openj9-0.32.0.tar.gz",
@@ -620,7 +633,8 @@
     "11.0.30+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_11.0.30_7_openj9-0.57.0.tar.gz",
     "11.0.30+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_11.0.30.1.tar.gz",
     "11.0.31.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.31.0/ibm-semeru-open-jdk_aarch64_mac_11.0.31.0.tar.gz",
-    "11.0.32.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jdk_aarch64_mac_11.0.32.0.tar.gz"
+    "11.0.32.0": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jdk_aarch64_mac_11.0.32.0.tar.gz",
+    "11.0.32.10": "tgz+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.10/ibm-semeru-open-jdk_aarch64_mac_11.0.32.10.tar.gz"
   },
   "ibm-semeru-openj9-java17": {
     "17.0.3+7_openj9-0.32.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.3%2B7_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_17.0.3_7_openj9-0.32.0.tar.gz",
@@ -644,7 +658,8 @@
     "17.0.18+8.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8.1_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_17.0.18.1.tar.gz",
     "17.0.18+8_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_17.0.18_8_openj9-0.57.0.tar.gz",
     "17.0.19.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.19.0/ibm-semeru-open-jdk_aarch64_mac_17.0.19.0.tar.gz",
-    "17.0.20.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0/ibm-semeru-open-jdk_aarch64_mac_17.0.20.0.tar.gz"
+    "17.0.20.0": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0/ibm-semeru-open-jdk_aarch64_mac_17.0.20.0.tar.gz",
+    "17.0.20.10": "tgz+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.10/ibm-semeru-open-jdk_aarch64_mac_17.0.20.10.tar.gz"
   },
   "ibm-semeru-openj9-java18": {
     "18.0.1+10_openj9-0.32.0": "tgz+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_18.0.1_10_openj9-0.32.0.tar.gz",
@@ -673,7 +688,8 @@
     "21.0.10+7.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_21.0.10.1.tar.gz",
     "21.0.10+7_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_21.0.10_7_openj9-0.57.0.tar.gz",
     "21.0.11.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jdk_aarch64_mac_21.0.11.0.tar.gz",
-    "21.0.12.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0/ibm-semeru-open-jdk_aarch64_mac_21.0.12.0.tar.gz"
+    "21.0.12.0": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0/ibm-semeru-open-jdk_aarch64_mac_21.0.12.0.tar.gz",
+    "21.0.12.10": "tgz+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.10/ibm-semeru-open-jdk_aarch64_mac_21.0.12.10.tar.gz"
   },
   "ibm-semeru-openj9-java22": {
     "22.0.1+8_openj9-0.45.0": "tgz+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_aarch64_mac_22.0.1_8_openj9-0.45.0.tar.gz",
@@ -695,12 +711,14 @@
     "25.0.2+10_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_25.0.2_10_openj9-0.57.0.tar.gz",
     "25.0.2+10.1_openj9-0.57.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_aarch64_mac_25.0.2.1.tar.gz",
     "25.0.3.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.3.0/ibm-semeru-open-jdk_aarch64_mac_25.0.3.0.tar.gz",
-    "25.0.4.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.0/ibm-semeru-open-jdk_aarch64_mac_25.0.4.0.tar.gz"
+    "25.0.4.0": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.0/ibm-semeru-open-jdk_aarch64_mac_25.0.4.0.tar.gz",
+    "25.0.4.10": "tgz+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.10/ibm-semeru-open-jdk_aarch64_mac_25.0.4.10.tar.gz"
   },
   "ibm-semeru-openj9-java26": {
     "26+35_openj9-0.58.0.0.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jdk_aarch64_mac_26.0.0.0.tar.gz",
     "26.0.1.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.1.0/ibm-semeru-open-jdk_aarch64_mac_26.0.1.0.tar.gz",
-    "26.0.2.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.0/ibm-semeru-open-jdk_aarch64_mac_26.0.2.0.tar.gz"
+    "26.0.2.0": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.0/ibm-semeru-open-jdk_aarch64_mac_26.0.2.0.tar.gz",
+    "26.0.2.10": "tgz+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.10/ibm-semeru-open-jdk_aarch64_mac_26.0.2.10.tar.gz"
   },
   "java-oracle": {
     "21": "tgz+https://download.oracle.com/java/21/latest/jdk-21_macos-aarch64_bin.tar.gz",
@@ -1605,6 +1623,7 @@
     "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.30_7.tar.gz",
     "11.0.31": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.31_11.tar.gz",
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.32_9.tar.gz",
+    "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "17.0.0": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_aarch64_mac_hotspot_17_35.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.2_8.tar.gz",
@@ -1670,7 +1689,8 @@
     "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_aarch64_mac_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_aarch64_mac_hotspot_26.0.1_8.tar.gz",
-    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_aarch64_mac_hotspot_26.0.2_10.tar.gz"
+    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_aarch64_mac_hotspot_26.0.2_10.tar.gz",
+    "26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jdk_aarch64_mac_hotspot_26.0.2.1_1.tar.gz"
   },
   "temurin-debugimage": {
     "11.0.15": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.15_10.tar.gz",
@@ -1693,6 +1713,7 @@
     "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.30_7.tar.gz",
     "11.0.31": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.31_11.tar.gz",
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.32_9.tar.gz",
+    "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "17.0.0": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-debugimage_aarch64_mac_hotspot_17_35.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.2_8.tar.gz",
@@ -1758,7 +1779,8 @@
     "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_aarch64_mac_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_aarch64_mac_hotspot_26.0.1_8.tar.gz",
-    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_aarch64_mac_hotspot_26.0.2_10.tar.gz"
+    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_aarch64_mac_hotspot_26.0.2_10.tar.gz",
+    "26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-debugimage_aarch64_mac_hotspot_26.0.2.1_1.tar.gz"
   },
   "temurin-jre": {
     "11.0.15": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.15_10.tar.gz",
@@ -1781,6 +1803,7 @@
     "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.30_7.tar.gz",
     "11.0.31": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.31_11.tar.gz",
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.32_9.tar.gz",
+    "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.2_8.tar.gz",
     "17.0.3": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.3_7.tar.gz",
@@ -1844,7 +1867,8 @@
     "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_aarch64_mac_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_aarch64_mac_hotspot_26.0.1_8.tar.gz",
-    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_aarch64_mac_hotspot_26.0.2_10.tar.gz"
+    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_aarch64_mac_hotspot_26.0.2_10.tar.gz",
+    "26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jre_aarch64_mac_hotspot_26.0.2.1_1.tar.gz"
   },
   "temurin-testimage": {
     "11.0.18": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.18%2B10/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.18_10.tar.gz",
@@ -1862,6 +1886,7 @@
     "11.0.30": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%2B7/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.30_7.tar.gz",
     "11.0.31": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.31_11.tar.gz",
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.32_9.tar.gz",
+    "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "17.0.0": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-testimage_aarch64_mac_hotspot_17_35.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.6": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.6_10.tar.gz",
@@ -1914,7 +1939,8 @@
     "25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
     "26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_aarch64_mac_hotspot_26_35.tar.gz",
     "26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_aarch64_mac_hotspot_26.0.1_8.tar.gz",
-    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_aarch64_mac_hotspot_26.0.2_10.tar.gz"
+    "26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_aarch64_mac_hotspot_26.0.2_10.tar.gz",
+    "26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-testimage_aarch64_mac_hotspot_26.0.2.1_1.tar.gz"
   },
   "zulu": {
     "8.0.275": "tgz+https://cdn.azul.com/zulu/bin/zulu8.50.0.1017-ca-jdk8.0.275-macos_aarch64.tar.gz",
