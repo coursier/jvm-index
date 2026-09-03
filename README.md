@@ -21,6 +21,16 @@ capabilities of coursier.
 | [Amazon Corretto](https://aws.amazon.com/corretto/)                                  | `corretto`          |
 | [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes/)              | `ibm-semeru`        |
 | [Microsoft OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/download)         | `microsoft-openjdk` |
+| [Huawei Bi Sheng](https://www.hikunpeng.com/en/developer/devkit/compiler/jdk)        | `bisheng`           |
+| [Alibaba Dragonwell](https://dragonwell-jdk.io/)                                     | `dragonwell`        |
+| [JetBrains Runtime](https://github.com/JetBrains/JetBrainsRuntime)                   | `jetbrains`         |
+| [Tencent Kona](https://github.com/Tencent/TencentKona-8)                             | `kona`              |
+| [Mandrel](https://github.com/graalvm/mandrel)                                        | `mandrel`           |
+| [OpenLogic OpenJDK](https://www.openlogic.com/openjdk-downloads)                     | `openlogic`         |
+| [Oracle OpenJDK](https://jdk.java.net/)                                               | `oracle-openjdk`    |
+| [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)           | `redhat`            |
+| [SAP Machine](https://sap.github.io/SapMachine/)                                     | `sapmachine`        |
+| [IBM Semeru Certified](https://developer.ibm.com/languages/java/semeru-runtimes/)    | `ibm-semeru-certified` |
 
 ## Legacy JDKs
 
