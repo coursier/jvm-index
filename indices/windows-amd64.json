@@ -909,6 +909,7 @@
     "11.0.31.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.31.0/ibm-semeru-open-jdk_x64_windows_11.0.31.0.zip",
     "11.0.32.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jdk_x64_windows_11.0.32.0.zip",
     "11.0.32.10": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.10/ibm-semeru-open-jdk_x64_windows_11.0.32.10.zip",
+    "11.0.32.15": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.15/ibm-semeru-open-jdk_x64_windows_11.0.32.15.zip",
     "16.0.2": "zip+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_16.0.2_7_openj9-0.27.0.zip",
     "17.0.1": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.1%2B12_openj9-0.29.1/ibm-semeru-open-jdk_x64_windows_17.0.1_12_openj9-0.29.1.zip",
     "17.0.2": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.2%2B8_openj9-0.30.0/ibm-semeru-open-jdk_x64_windows_17.0.2_8_openj9-0.30.0.zip",
@@ -933,6 +934,7 @@
     "17.0.19.0": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.19.0/ibm-semeru-open-jdk_x64_windows_17.0.19.0.zip",
     "17.0.20.0": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0/ibm-semeru-open-jdk_x64_windows_17.0.20.0.zip",
     "17.0.20.10": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.10/ibm-semeru-open-jdk_x64_windows_17.0.20.10.zip",
+    "17.0.20.15": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.15/ibm-semeru-open-jdk_x64_windows_17.0.20.15.zip",
     "18.0.1": "zip+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_x64_windows_18.0.1_10_openj9-0.32.0.zip",
     "18.0.1.1": "zip+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1.1%2B2_openj9-0.32.0/ibm-semeru-open-jdk_x64_windows_18.0.1.1_2_openj9-0.32.0.zip",
     "18.0.2": "zip+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.2%2B9_openj9-0.33.0/ibm-semeru-open-jdk_x64_windows_18.0.2_9_openj9-0.33.0.zip",
@@ -952,6 +954,7 @@
     "21.0.11.0": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jdk_x64_windows_21.0.11.0.zip",
     "21.0.12.0": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0/ibm-semeru-open-jdk_x64_windows_21.0.12.0.zip",
     "21.0.12.10": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.10/ibm-semeru-open-jdk_x64_windows_21.0.12.10.zip",
+    "21.0.12.15": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.15/ibm-semeru-open-jdk_x64_windows_21.0.12.15.zip",
     "22.0.1": "zip+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_x64_windows_22.0.1_8_openj9-0.45.0.zip",
     "22.0.2": "zip+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2%2B9_openj9-0.46.0/ibm-semeru-open-jdk_x64_windows_22.0.2_9_openj9-0.46.0.zip",
     "23.0.0": "zip+https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23%2B37_openj9-0.47.0/ibm-semeru-open-jdk_x64_windows_23_37_openj9-0.47.0.zip",
@@ -964,6 +967,7 @@
     "25.0.3.0": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.3.0/ibm-semeru-open-jdk_x64_windows_25.0.3.0.zip",
     "25.0.4.0": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.0/ibm-semeru-open-jdk_x64_windows_25.0.4.0.zip",
     "25.0.4.10": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.10/ibm-semeru-open-jdk_x64_windows_25.0.4.10.zip",
+    "25.0.4.15": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.15/ibm-semeru-open-jdk_x64_windows_25.0.4.15.zip",
     "26.0.0": "zip+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jdk_x64_windows_26.0.0.0.zip",
     "26.0.1.0": "zip+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.1.0/ibm-semeru-open-jdk_x64_windows_26.0.1.0.zip",
     "26.0.2.0": "zip+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26.0.2.0/ibm-semeru-open-jdk_x64_windows_26.0.2.0.zip",
@@ -997,7 +1001,8 @@
     "11.0.30+7.1_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.30%2B7.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_11.0.30.1.zip",
     "11.0.31.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.31.0/ibm-semeru-open-jdk_x64_windows_11.0.31.0.zip",
     "11.0.32.0": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jdk_x64_windows_11.0.32.0.zip",
-    "11.0.32.10": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.10/ibm-semeru-open-jdk_x64_windows_11.0.32.10.zip"
+    "11.0.32.10": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.10/ibm-semeru-open-jdk_x64_windows_11.0.32.10.zip",
+    "11.0.32.15": "zip+https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.15/ibm-semeru-open-jdk_x64_windows_11.0.32.15.zip"
   },
   "ibm-semeru-openj9-java16": {
     "16.0.2+7_openj9-0.27.0": "zip+https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_16.0.2_7_openj9-0.27.0.zip"
@@ -1027,7 +1032,8 @@
     "17.0.18+8_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.18%2B8_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_17.0.18_8_openj9-0.57.0.zip",
     "17.0.19.0": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.19.0/ibm-semeru-open-jdk_x64_windows_17.0.19.0.zip",
     "17.0.20.0": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.0/ibm-semeru-open-jdk_x64_windows_17.0.20.0.zip",
-    "17.0.20.10": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.10/ibm-semeru-open-jdk_x64_windows_17.0.20.10.zip"
+    "17.0.20.10": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.10/ibm-semeru-open-jdk_x64_windows_17.0.20.10.zip",
+    "17.0.20.15": "zip+https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.15/ibm-semeru-open-jdk_x64_windows_17.0.20.15.zip"
   },
   "ibm-semeru-openj9-java18": {
     "18.0.1+10_openj9-0.32.0": "zip+https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_x64_windows_18.0.1_10_openj9-0.32.0.zip",
@@ -1057,7 +1063,8 @@
     "21.0.10+7_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.10%2B7_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_21.0.10_7_openj9-0.57.0.zip",
     "21.0.11.0": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jdk_x64_windows_21.0.11.0.zip",
     "21.0.12.0": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0/ibm-semeru-open-jdk_x64_windows_21.0.12.0.zip",
-    "21.0.12.10": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.10/ibm-semeru-open-jdk_x64_windows_21.0.12.10.zip"
+    "21.0.12.10": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.10/ibm-semeru-open-jdk_x64_windows_21.0.12.10.zip",
+    "21.0.12.15": "zip+https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.15/ibm-semeru-open-jdk_x64_windows_21.0.12.15.zip"
   },
   "ibm-semeru-openj9-java22": {
     "22.0.1+8_openj9-0.45.0": "zip+https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_x64_windows_22.0.1_8_openj9-0.45.0.zip",
@@ -1080,7 +1087,8 @@
     "25.0.2+10.1_openj9-0.57.0": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.2%2B10.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_windows_25.0.2.1.zip",
     "25.0.3.0": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.3.0/ibm-semeru-open-jdk_x64_windows_25.0.3.0.zip",
     "25.0.4.0": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.0/ibm-semeru-open-jdk_x64_windows_25.0.4.0.zip",
-    "25.0.4.10": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.10/ibm-semeru-open-jdk_x64_windows_25.0.4.10.zip"
+    "25.0.4.10": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.10/ibm-semeru-open-jdk_x64_windows_25.0.4.10.zip",
+    "25.0.4.15": "zip+https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.15/ibm-semeru-open-jdk_x64_windows_25.0.4.15.zip"
   },
   "ibm-semeru-openj9-java26": {
     "26+35_openj9-0.58.0.0.0": "zip+https://github.com/ibmruntimes/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jdk_x64_windows_26.0.0.0.zip",
