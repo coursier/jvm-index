@@ -40,7 +40,8 @@ object GenerateIndex {
           Future(Liberica.index()),
           Future(LibericaNik.index()),
           Future(IbmSemeru.fullIndex(GhToken.token)),
-          Future(Microsoft.fullIndex())
+          Future(Microsoft.fullIndex()),
+          Future(Foojay.index())
         )
 
         futures
