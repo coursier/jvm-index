@@ -21,6 +21,7 @@ capabilities of coursier.
 | [Amazon Corretto](https://aws.amazon.com/corretto/)                                  | `corretto`          |
 | [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes/)              | `ibm-semeru`        |
 | [Microsoft OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/download)         | `microsoft-openjdk` |
+| [JetBrains Runtime](https://github.com/JetBrains/JetBrainsRuntime)                   | `jetbrains`         |
 
 ## Legacy JDKs
 
