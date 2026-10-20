@@ -4,10 +4,36 @@ import scala.util.control.NonFatal
 
 final case class Asset(
   name: String,
-  downloadUrl: String
+  downloadUrl: String,
+  digest: Option[String]
 )
 
 object Asset {
+
+  private def checksumFileSuffixes = Seq(".sha256.txt", ".sha256")
+
+  /** Index entry for an asset
+    *
+    * Its checksum is taken from the GitHub digest of the asset if it has one. Older assets don't
+    * have one, so we point to the checksum file alongside them in that case, if there's one.
+    *
+    * @param assetsByName
+    *   all the assets of the release of `asset`, by name
+    */
+  def indexEntry(
+    asset: Asset,
+    archiveType: String,
+    assetsByName: Map[String, Asset]
+  ): IndexEntry =
+    IndexEntry(
+      archiveType,
+      asset.downloadUrl,
+      checksums = asset.digest.map(Checksums.fromGitHubDigest).getOrElse(Map.empty),
+      checksumFileUrl = checksumFileSuffixes
+        .flatMap(suffix => assetsByName.get(asset.name + suffix))
+        .headOption
+        .map(_.downloadUrl)
+    )
 
   def releaseAssets(
     ghOrg: String,
@@ -26,7 +52,7 @@ object Asset {
             |    ${before.fold("")(cursor => s"before: \"$cursor\"")}
             |    last: 100
             |  ) {
-            |    nodes { name downloadUrl }
+            |    nodes { name downloadUrl digest }
             |    pageInfo { hasPreviousPage, startCursor }
             |  }
             |}""".stripMargin
@@ -35,7 +61,7 @@ object Asset {
 
       val res =
         try json("nodes").arr.map { obj =>
-            Asset(obj("name").str, obj("downloadUrl").str)
+            Asset(obj("name").str, obj("downloadUrl").str, obj("digest").strOpt)
           }
         catch {
           case NonFatal(e) =>

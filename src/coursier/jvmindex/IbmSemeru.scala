@@ -59,7 +59,8 @@ object IbmSemeru {
             release.tagName.stripPrefix("jdk-")
         val shortVersion    = version.takeWhile(_ != '+')
         val assetNamePrefix = "ibm-semeru-open-jdk_"
-        val assets          = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.tagName)
+        val assets          = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.tagName).toVector
+        val assetsByName    = assets.map(asset => asset.name -> asset).toMap
         assets
           .filter(asset => asset.name.startsWith(assetNamePrefix))
           .flatMap { asset =>
@@ -71,9 +72,10 @@ object IbmSemeru {
                 (arch, rem)      <- archOpt(assetName).toSeq
                 (os, rem0)       <- osOpt(rem).toSeq
                 (archiveType, _) <- archiveTypeOpt(rem0).toSeq
+                entry = Asset.indexEntry(asset, archiveType, assetsByName)
               } yield Seq(
-                Index(os, arch, name, version, archiveType + "+" + asset.downloadUrl),
-                Index(os, arch, shortName, shortVersion, archiveType + "+" + asset.downloadUrl)
+                Index(os, arch, name, version, entry),
+                Index(os, arch, shortName, shortVersion, entry)
               )
             opt.flatten
           }

@@ -24,9 +24,16 @@ object GenerateIndex {
 
     val dest = os.sub / s"$baseName.json"
 
+    val indicesV2Dir = os.sub / "indices-v2"
+
+    // Checksums of archives already in the v2 indices, so that we don't download
+    // their checksum files again
+    val knownChecksums = Checksums.fromV2Indices(os.pwd / indicesV2Dir)
+    System.err.println(s"Read ${knownChecksums.size} checksums from $indicesV2Dir")
+
     val pool = Executors.newFixedThreadPool(6)
 
-    val index =
+    val index0 =
       try {
         implicit val ec: ExecutionContext = ExecutionContext.fromExecutorService(pool)
 
@@ -51,6 +58,8 @@ object GenerateIndex {
       finally
         pool.shutdown()
 
+    val index = Checksums.resolve(index0, knownChecksums)
+
     val json = index.json
     os.write.over(os.pwd / dest, json)
     System.err.println(s"Wrote $dest")
@@ -59,11 +68,18 @@ object GenerateIndex {
 
     System.err.println(s"Removed $indicesDir")
     os.remove.all(os.pwd / indicesDir)
+    System.err.println(s"Removed $indicesV2Dir")
+    os.remove.all(os.pwd / indicesV2Dir)
     for (((os0, arch), osArchIndex) <- index.osArchIndices.toVector.sortBy(_._1)) {
       val dest0 = indicesDir / s"$os0-$arch.json"
       val json0 = osArchIndex.json
       os.write.over(os.pwd / dest0, json0, createFolders = true)
       System.err.println(s"Wrote $dest0")
+
+      val destV2 = indicesV2Dir / s"$os0-$arch.json"
+      val jsonV2 = osArchIndex.jsonV2
+      os.write.over(os.pwd / destV2, jsonV2, createFolders = true)
+      System.err.println(s"Wrote $destV2")
     }
   }
 }

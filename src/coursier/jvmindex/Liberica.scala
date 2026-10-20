@@ -14,6 +14,7 @@ object Liberica {
     bitness: Int,
     os: String,
     url: String,
+    sha1: Option[String],
     bundleType: String,
     packageType: String,
     architecture: String
@@ -41,18 +42,18 @@ object Liberica {
       case x                             => s"jdk@liberica-$x"
     }
 
-    def indexUrl = {
-      val packageTypePrefix = packageType match {
+    def indexEntry = {
+      val archiveType = packageType match {
         case "tar.gz" => "tgz"
         case x        => x
       }
-      s"$packageTypePrefix+$url"
+      IndexEntry(archiveType, url, checksums = sha1.map("sha1" -> _).toMap)
     }
 
     def indexOpt: Option[Index] =
       if (packageType == "zip" || packageType == "tar.gz")
         indexArchOpt.map { indexArch =>
-          Index(indexOs, indexArch, indexJdkName, jdkVersion, indexUrl)
+          Index(indexOs, indexArch, indexJdkName, jdkVersion, indexEntry)
         }
       else
         None
@@ -68,6 +69,7 @@ object Liberica {
         bitness = obj("bitness").num.toInt,
         os = obj("os").str,
         url = obj("downloadUrl").str,
+        sha1 = obj.value.get("sha1").flatMap(_.strOpt).filter(_.nonEmpty),
         bundleType = obj("bundleType").str,
         packageType = obj("packageType").str,
         architecture = obj("architecture").str

@@ -32,12 +32,14 @@ capabilities of coursier.
 
 ## Index structure
 
-The index comes in 2 shapes:
+The index comes in 3 shapes:
 - a [Jabba](https://github.com/shyiko/jabba)-compatible single JSON file, [`index.json`](https://github.com/coursier/jvm-index/blob/master/index.json)
 - per-OS and CPU architecture indices, under [`indices/`](https://github.com/coursier/jvm-index/tree/master/indices)
+- per-OS and CPU architecture indices with archive checksums, under [`indices-v2/`](https://github.com/coursier/jvm-index/tree/master/indices-v2)
 
-While the former is only available on GitHub, the latter is also pushed to Maven Central,
-under the [`io.get-coursier.jvm.indices`](https://repo1.maven.org/maven2/io/get-coursier/jvm/indices/)
+While the first one is only available on GitHub, the per-OS and CPU architecture indices under
+`indices/` are also pushed to Maven Central, under the
+[`io.get-coursier.jvm.indices`](https://repo1.maven.org/maven2/io/get-coursier/jvm/indices/)
 organization.
 
 ### Jabba-compatible index
@@ -262,6 +264,33 @@ $ unzip -p "$(cs get https://repo1.maven.org/maven2/io/get-coursier/jvm/indices/
 "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_aarch64_mac_hotspot_23.0.1_11.tar.gz"
 ```
 
+### Per-OS and CPU architecture indices with checksums
+
+These live under [`indices-v2/`](https://github.com/coursier/jvm-index/tree/master/indices-v2),
+with the same file names, JDK names, and JDK versions as the
+[per-OS and CPU architecture indices](#per-os-and-cpu-architecture-indices) under `indices/`.
+
+Their values are JSON objects, with the following fields:
+- `url`: the URL of the JDK archive, with no `tgz+` or `zip+` prefix
+- `checksums`: a JSON object whose keys are checksum types (`sha256`, `sha512`, `sha1`, or `md5`),
+  and whose values are hex-encoded checksums of the archive
+
+Value example
+```json
+{
+  "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_aarch64_mac_hotspot_23.0.1_11.tar.gz",
+  "checksums": {
+    "sha256": "9e69810a50c8183e01429243d0bb112e381a122c6e7be936b7c13c3cfe7b29a0"
+  }
+}
+```
+
+Checksums come from the JDK providers themselves (their APIs, release notes, or checksum files
+published alongside archives), and the archives themselves are never downloaded to compute them.
+Most entries have a SHA-256 checksum. Liberica and Liberica NIK entries only have a SHA-1 one,
+JetBrains Runtime entries have a SHA-512 one, and older Corretto entries only have an MD5 one.
+`checksums` is empty for the few archives whose provider doesn't publish any checksum.
+
 ## Use by coursier
 
 ### API
@@ -347,7 +376,11 @@ rate-limited by the GitHub API. You can read more about creating a token
 [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
 Just having the `public_repo` scope will be enough for the access you need.
 
-The index is written in `index.json` in the current directory.
+The index is written in `index.json` in the current directory, and the per-OS and CPU
+architecture indices are written under `indices/` and `indices-v2/`.
+
+Checksums of the archives listed in `indices-v2/` are re-used when re-generating it, so that
+checksum files that were already downloaded aren't downloaded again.
 
 ## About
 

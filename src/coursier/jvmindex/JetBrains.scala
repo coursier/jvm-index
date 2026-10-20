@@ -73,7 +73,16 @@ object JetBrains {
     build: String,
     archiveType: String,
     url: String
-  )
+  ) {
+    // Release descriptions link to a checksum file alongside most archives,
+    // like https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-x64-b635.75.tar.gz.checksum
+    def indexEntry(checksumFileUrls: Set[String]): IndexEntry =
+      IndexEntry(
+        archiveType,
+        url,
+        checksumFileUrl = Some(url + ".checksum").filter(checksumFileUrls)
+      )
+  }
 
   private def entryOpt(url: String): Option[Entry] = {
     val fileName = url.substring(url.lastIndexOf('/') + 1)
@@ -112,11 +121,13 @@ object JetBrains {
 
   def fullIndex(ghToken: String): Index = {
 
-    val entries = releases(ghToken)
+    val urls = releases(ghToken)
       .filter(!_.prerelease)
       .flatMap(release => urlRegex.findAllIn(release.description))
-      .flatMap(entryOpt(_).iterator)
       .toVector
+    val entries = urls.flatMap(entryOpt(_).iterator)
+
+    val checksumFileUrls = urls.filter(_.endsWith(".checksum")).toSet
 
     // The same JDK version can be published in several releases, with different build numbers.
     // We only keep the most recent build that can actually be downloaded (some archives,
@@ -134,7 +145,7 @@ object JetBrains {
       }
 
     retained
-      .map(e => Index(e.os, e.arch, e.jdkName, e.version, s"${e.archiveType}+${e.url}"))
+      .map(e => Index(e.os, e.arch, e.jdkName, e.version, e.indexEntry(checksumFileUrls)))
       .foldLeft(Index.empty)(_ + _)
   }
 
