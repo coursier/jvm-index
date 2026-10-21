@@ -62,8 +62,9 @@ object GraalvmLegacy {
     val indices = releases
       .filter(_.startsWith("vm-"))
       .flatMap { tagName =>
-        val version = tagName.stripPrefix("vm-")
-        val assets  = Asset.releaseAssets(ghOrg, ghProj, ghToken, tagName)
+        val version      = tagName.stripPrefix("vm-")
+        val assets       = Asset.releaseAssets(ghOrg, ghProj, ghToken, tagName).toVector
+        val assetsByName = assets.map(asset => asset.name -> asset).toMap
         assets
           .filter(asset => asset.name.startsWith(assetNamePrefix))
           .flatMap { asset =>
@@ -75,7 +76,13 @@ object GraalvmLegacy {
                 .filter(_.startsWith(version + "."))
                 .map(_.stripPrefix(version + "."))
               archiveType <- archiveTypeOpt(ext)
-            } yield Index(os, arch, name, version, archiveType + "+" + asset.downloadUrl)
+            } yield Index(
+              os,
+              arch,
+              name,
+              version,
+              Asset.indexEntry(asset, archiveType, assetsByName)
+            )
             opt.toSeq
           }
       }

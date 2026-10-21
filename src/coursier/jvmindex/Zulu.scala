@@ -41,10 +41,40 @@ object Zulu {
       case x     => s"jdk@zulu-$x"
     }
 
-    def index(jdkVersion: Seq[Int], url: String): Index = {
-      val indexUrl = s"$indexArchiveType+$url"
-      Index(indexOs, indexArch, indexJdkName, jdkVersion.take(3).mkString("."), indexUrl)
+    // Packages of the metadata API that may correspond to these params.
+    // Unlike the v1.0 API, the metadata API gives the checksums of the packages.
+    def metadataKey: (String, String, String) =
+      (os.toString, ext, bundleType)
+
+    def index(jdkVersion: Seq[Int], url: String, checksums: Map[String, String]): Index = {
+      val entry = IndexEntry(indexArchiveType, url, checksums = checksums)
+      Index(indexOs, indexArch, indexJdkName, jdkVersion.take(3).mkString("."), entry)
     }
+  }
+
+  /** SHA-256 checksums of Zulu packages, by download URL, from the metadata API */
+  private def metadataChecksums(
+    os: String,
+    ext: String,
+    bundleType: String
+  ): Map[String, String] = {
+    val pageSize                       = 1000
+    def page(n: Int): Seq[ujson.Value] = {
+      val url =
+        uri"https://api.azul.com/metadata/v1/zulu/packages/?os=$os&archive_type=$ext&java_package_type=$bundleType&page=$n&page_size=$pageSize&include_fields=sha256_hash"
+      System.err.println(s"Getting $url")
+      val resp = quickRequest.get(url).send(backend)
+      // Pages past the last one return a 404 error, as a JSON object
+      ujson.read(resp.body).arrOpt.map(_.toSeq).getOrElse(Nil)
+    }
+    Iterator.from(1)
+      .map(page)
+      .takeWhile(_.nonEmpty)
+      .flatMap(_.iterator)
+      .flatMap { pkg =>
+        pkg("sha256_hash").strOpt.filter(_.nonEmpty).map(pkg("download_url").str -> _)
+      }
+      .toMap
   }
 
   def index(): Index = {
@@ -59,6 +89,15 @@ object Zulu {
       ext = if (os == Os("windows")) "zip" else "tgz"
       bundleType <- bundleTypes
     } yield ZuluParams(os, cpu, ext, bundleType = bundleType)
+
+    val checksums = allParams
+      .map(_.metadataKey)
+      .distinct
+      .map {
+        case key @ (os, ext, bundleType) =>
+          key -> metadataChecksums(os, ext, bundleType)
+      }
+      .toMap
 
     allParams
       .flatMap { params =>
@@ -79,7 +118,10 @@ object Zulu {
           .map { obj =>
             val url        = obj("url").str
             val jdkVersion = obj("jdk_version").arr.toList.map(_.num.toInt)
-            params.index(jdkVersion, url)
+            val checksums0 = checksums(params.metadataKey).get(url).map("sha256" -> _).toMap
+            if (checksums0.isEmpty)
+              System.err.println(s"Warning: no checksum found for $url")
+            params.index(jdkVersion, url, checksums0)
           }
       }
       .foldLeft(Index.empty)(_ + _)

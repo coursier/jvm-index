@@ -61,21 +61,28 @@ object Microsoft {
         .iterator
         .map(_.attr("href"))
         .filter(_.startsWith("https://aka.ms/download-jdk/"))
-        .filter(!_.endsWith(".sha256sum.txt"))
         .filter(!_.endsWith(".sig"))
         .filter(!_.endsWith(".msi"))
         .filter(!_.endsWith(".exe"))
         .filter(!_.endsWith(".pkg"))
     }
-    val latest  = list("https://learn.microsoft.com/en-us/java/openjdk/download")
-    val older   = list("https://learn.microsoft.com/en-us/java/openjdk/older-releases")
-    val indices = (latest ++ older).flatMap(url => detailsOpt(url).iterator.map((_, url))).map {
+    val latest = list("https://learn.microsoft.com/en-us/java/openjdk/download")
+    val older  = list("https://learn.microsoft.com/en-us/java/openjdk/older-releases")
+    val urls   = (latest ++ older).toVector
+    // like https://aka.ms/download-jdk/microsoft-jdk-21.0.5-linux-x64.tar.gz.sha256sum.txt
+    val checksumFileUrls = urls.filter(_.endsWith(".sha256sum.txt")).toSet
+    val indices = urls.iterator.flatMap(url => detailsOpt(url).iterator.map((_, url))).map {
       case ((os, arch, ver), url) =>
-        val url0 =
-          if (url.endsWith(".zip")) s"zip+$url"
-          else if (url.endsWith(".tar.gz")) s"tgz+$url"
+        val archiveType =
+          if (url.endsWith(".zip")) "zip"
+          else if (url.endsWith(".tar.gz")) "tgz"
           else sys.error(s"Unexpected extension in $url")
-        Index(os, arch, "jdk@microsoft-openjdk", ver, url0)
+        val entry = IndexEntry(
+          archiveType,
+          url,
+          checksumFileUrl = Some(url + ".sha256sum.txt").filter(checksumFileUrls)
+        )
+        Index(os, arch, "jdk@microsoft-openjdk", ver, entry)
     }
     indices.foldLeft(Index.empty)(_ + _)
   }

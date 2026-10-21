@@ -22,8 +22,8 @@ jobs:
             exit 0
           fi
 
-          index_changes=$(echo "${changed_files}" | grep -E '^(index\.json|indices/)' || true)
-          other_changes=$(echo "${changed_files}" | grep -v -E '^(index\.json|indices/)' || true)
+          index_changes=$(echo "${changed_files}" | grep -E '^(index\.json|indices/|indices-v2/)' || true)
+          other_changes=$(echo "${changed_files}" | grep -v -E '^(index\.json|indices/|indices-v2/)' || true)
 
           if [ -n "${index_changes}" ] && [ -n "${other_changes}" ]; then
             echo "Mixed changes detected."
@@ -31,8 +31,8 @@ jobs:
             echo "${index_changes}"
             echo "Other changes:"
             echo "${other_changes}"
-            echo "Standard PRs must not modify index.json or indices/."
-            echo "CI generated index-updating PRs can only modify index.json or indices/."
+            echo "Standard PRs must not modify index.json, indices/, or indices-v2/."
+            echo "CI generated index-updating PRs can only modify index.json, indices/, or indices-v2/."
             exit 1
           fi
 

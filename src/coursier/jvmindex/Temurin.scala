@@ -104,6 +104,7 @@ object Temurin {
             }
           else version0
         val assets = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.tagName).to(LazyList)
+        lazy val assetsByName = assets.map(asset => asset.name -> asset).toMap
         def index(jdkName: String, assetNamePrefix: Seq[String]) = assets
           .iterator
           .filter(asset => assetNamePrefix.exists(asset.name.startsWith))
@@ -124,7 +125,7 @@ object Temurin {
               arch,
               jdkName,
               "1." + version0.takeWhile(c => c != '-' && c != '+' && c != '_').replace("u", ".0-"),
-              archiveType + "+" + asset.downloadUrl
+              Asset.indexEntry(asset, archiveType, assetsByName)
             )
           }
         def releaseIndex = index(jdkName(), assetNamePrefix("jdk"))

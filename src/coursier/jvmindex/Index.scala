@@ -2,7 +2,7 @@ package coursier.jvmindex
 
 import Index.{Arch, Os}
 
-final case class Index(map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]) {
+final case class Index(map: Map[Os, Map[Arch, Map[String, Map[String, IndexEntry]]]]) {
 
   def mapJdkName(f: String => String): Index =
     Index(
@@ -22,7 +22,16 @@ final case class Index(map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
     Index(Index.merge4(map, other.map))
 
   def json: String =
-    Index.json4(map).render(indent = 2)
+    Index.json4(map, _.v1Value).render(indent = 2)
+
+  def entries: Iterator[IndexEntry] =
+    map.valuesIterator.flatMap(_.valuesIterator).flatMap(_.valuesIterator).flatMap(_.valuesIterator)
+
+  def mapEntries(f: IndexEntry => IndexEntry): Index =
+    Index(
+      map.view.mapValues(_.view.mapValues(_.view.mapValues(_.view.mapValues(f).toMap).toMap).toMap)
+        .toMap
+    )
 
   def osArchIndices: Map[(Os, Arch), OsArchIndex] =
     map
@@ -37,8 +46,8 @@ final case class Index(map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
               val cleanedUp = osArchMap.map {
                 case (jdkName, map) =>
                   jdkName.stripPrefix("jdk@") -> map.map {
-                    case (version, url) =>
-                      (version.stripPrefix("1."), url)
+                    case (version, entry) =>
+                      (version.stripPrefix("1."), entry)
                   }
               }
               ((cleanedUpOs, arch), OsArchIndex(cleanedUp))
@@ -84,14 +93,14 @@ object Index {
     architecture: Arch,
     jdkName: String,
     jdkVersion: String,
-    url: String
+    entry: IndexEntry
   ): Index =
-    Index(Map(os -> Map(architecture -> Map(jdkName -> Map(jdkVersion -> url)))))
+    Index(Map(os -> Map(architecture -> Map(jdkName -> Map(jdkVersion -> entry)))))
 
   private def merge4(
-    a: Map[Os, Map[Arch, Map[String, Map[String, String]]]],
-    b: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
-  ): Map[Os, Map[Arch, Map[String, Map[String, String]]]] = (a.keySet ++ b.keySet)
+    a: Map[Os, Map[Arch, Map[String, Map[String, IndexEntry]]]],
+    b: Map[Os, Map[Arch, Map[String, Map[String, IndexEntry]]]]
+  ): Map[Os, Map[Arch, Map[String, Map[String, IndexEntry]]]] = (a.keySet ++ b.keySet)
     .iterator
     .map { key =>
       val m = (a.get(key), b.get(key)) match {
@@ -109,9 +118,9 @@ object Index {
     .toMap
 
   private def merge3(
-    a: Map[String, Map[String, Map[String, String]]],
-    b: Map[String, Map[String, Map[String, String]]]
-  ): Map[String, Map[String, Map[String, String]]] = (a.keySet ++ b.keySet)
+    a: Map[String, Map[String, Map[String, IndexEntry]]],
+    b: Map[String, Map[String, Map[String, IndexEntry]]]
+  ): Map[String, Map[String, Map[String, IndexEntry]]] = (a.keySet ++ b.keySet)
     .iterator
     .map { key =>
       val m = (a.get(key), b.get(key)) match {
@@ -129,9 +138,9 @@ object Index {
     .toMap
 
   private def merge2(
-    a: Map[String, Map[String, String]],
-    b: Map[String, Map[String, String]]
-  ): Map[String, Map[String, String]] = (a.keySet ++ b.keySet)
+    a: Map[String, Map[String, IndexEntry]],
+    b: Map[String, Map[String, IndexEntry]]
+  ): Map[String, Map[String, IndexEntry]] = (a.keySet ++ b.keySet)
     .iterator
     .map { key =>
       val m = (a.get(key), b.get(key)) match {
@@ -149,9 +158,9 @@ object Index {
     .toMap
 
   private def merge1(
-    a: Map[String, String],
-    b: Map[String, String]
-  ): Map[String, String] = (a.keySet ++ b.keySet)
+    a: Map[String, IndexEntry],
+    b: Map[String, IndexEntry]
+  ): Map[String, IndexEntry] = (a.keySet ++ b.keySet)
     .iterator
     .map { key =>
       val m = (a.get(key), b.get(key)) match {
@@ -169,14 +178,15 @@ object Index {
     .toMap
 
   private def json4(
-    map: Map[Os, Map[Arch, Map[String, Map[String, String]]]]
+    map: Map[Os, Map[Arch, Map[String, Map[String, IndexEntry]]]],
+    render: IndexEntry => ujson.Value
   ) = {
     val l = map
       .toVector
       .sortBy(_._1)
       .map {
         case (os, m) =>
-          os.toString() -> json3(m)
+          os.toString() -> json3(m, render)
       }
     if (l.isEmpty)
       ujson.Obj()
@@ -185,14 +195,15 @@ object Index {
   }
 
   private def json3(
-    map: Map[Arch, Map[String, Map[String, String]]]
+    map: Map[Arch, Map[String, Map[String, IndexEntry]]],
+    render: IndexEntry => ujson.Value
   ) = {
     val l = map
       .toVector
       .sortBy(_._1)
       .map {
         case (k, m) =>
-          k -> json2(m)
+          k -> json2(m, render)
       }
     if (l.isEmpty)
       ujson.Obj()
@@ -201,14 +212,15 @@ object Index {
   }
 
   def json2(
-    map: Map[String, Map[String, String]]
+    map: Map[String, Map[String, IndexEntry]],
+    render: IndexEntry => ujson.Value
   ) = {
     val l = map
       .toVector
       .sortBy(_._1)
       .map {
         case (k, m) =>
-          k -> json1(m)
+          k -> json1(m, render)
       }
     if (l.isEmpty)
       ujson.Obj()
@@ -217,7 +229,8 @@ object Index {
   }
 
   private def json1(
-    map: Map[String, String]
+    map: Map[String, IndexEntry],
+    render: IndexEntry => ujson.Value
   ) = {
     val list = map
       .toVector
@@ -239,7 +252,7 @@ object Index {
             k.repr + (".0" * (requiredVersionLength - k.items.length))
           case _ => k.repr
         }
-        version -> ujson.Str(v)
+        version -> render(v)
     }
     if (list0.isEmpty)
       ujson.Obj()

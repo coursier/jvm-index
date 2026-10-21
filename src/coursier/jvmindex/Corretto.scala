@@ -46,9 +46,24 @@ object Corretto {
       case _             => ""
     }
 
-    def index(jdkTagVersion: String, url: String): Index =
-      Index(indexOs, indexArch, "jdk@corretto", jdkTagVersion, url)
+    def index(jdkTagVersion: String, entry: IndexEntry): Index =
+      Index(indexOs, indexArch, "jdk@corretto", jdkTagVersion, entry)
   }
+
+  private val backQuotedHexRegex = "`([0-9a-f]+)`".r
+
+  // Release descriptions have a table listing the downloads, with their checksums, like
+  // |[Linux x64](…)|JDK|[amazon-corretto-….tar.gz](https://corretto.aws/…/amazon-corretto-….tar.gz)|`md5` /<br /> `sha256`|[Download](….sig)|
+  // Older releases only list MD5 checksums, and the oldest ones don't list checksums at all.
+  private def checksums(description: String, url: String): Map[String, String] =
+    description
+      .linesIterator
+      .find(_.contains(s"($url)"))
+      .iterator
+      .flatMap(backQuotedHexRegex.findAllMatchIn(_))
+      .map(_.group(1))
+      .flatMap(hex => Checksums.checksumTypeOpt(hex).map(_ -> hex))
+      .toMap
 
   def fullIndex(ghToken: String): Index = (Iterator("8", "11") ++ Iterator.from(17).map(_.toString))
     .map(v => index(ghToken, v))
@@ -61,7 +76,7 @@ object Corretto {
   ): Index = {
     val ghOrg     = "corretto"
     val ghProj    = s"corretto-$javaVersion"
-    val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken)
+    val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken, withDescription = true)
       .filter(!_.prerelease)
 
     releases0
@@ -97,7 +112,11 @@ object Corretto {
               System.err.println(s"Valid url (status code $code): $url")
               Some(params.index(
                 jdkTagVersion = release.tagName,
-                url = s"${params.indexArchiveType}+${url.toString}"
+                entry = IndexEntry(
+                  params.indexArchiveType,
+                  url.toString,
+                  checksums = checksums(release.description, url.toString)
+                )
               ))
             }
             else {

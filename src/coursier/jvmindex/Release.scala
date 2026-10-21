@@ -4,7 +4,8 @@ import scala.util.control.NonFatal
 
 final case class Release(
   tagName: String,
-  prerelease: Boolean
+  prerelease: Boolean,
+  description: String = ""
 )
 
 object Release {
@@ -12,7 +13,8 @@ object Release {
   def releaseIds(
     ghOrg: String,
     ghProj: String,
-    ghToken: String
+    ghToken: String,
+    withDescription: Boolean = false
   ): Iterator[Release] = {
     def helper(before: Option[String]): Iterator[Release] = {
       System.err.println(s"Getting releases of $ghOrg/$ghProj${before.fold("")(" before " + _)} …")
@@ -22,7 +24,7 @@ object Release {
             |  orderBy: {field: CREATED_AT, direction: DESC}
             |  last: 100
             |) {
-            |  nodes { tagName isPrerelease }
+            |  nodes { tagName isPrerelease${if (withDescription) " description" else ""} }
             |  pageInfo { hasPreviousPage, startCursor }
             |}""".stripMargin
       }
@@ -33,7 +35,11 @@ object Release {
         val json = resp("releases")
         val res  =
           try json("nodes").arr.map { obj =>
-              Release(obj("tagName").str, obj("isPrerelease").bool)
+              Release(
+                obj("tagName").str,
+                obj("isPrerelease").bool,
+                obj.obj.get("description").flatMap(_.strOpt).getOrElse("")
+              )
             }
           catch {
             case NonFatal(e) =>

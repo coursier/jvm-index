@@ -54,7 +54,8 @@ object Graalvm {
       .flatMap { tagName =>
         val version         = tagName.stripPrefix("jdk-")
         val assetNamePrefix = s"graalvm-community-jdk-${version}_"
-        val assets          = Asset.releaseAssets(ghOrg, ghProj, ghToken, tagName)
+        val assets          = Asset.releaseAssets(ghOrg, ghProj, ghToken, tagName).toVector
+        val assetsByName    = assets.map(asset => asset.name -> asset).toMap
         assets
           .filter(asset => asset.name.startsWith(assetNamePrefix))
           .flatMap { asset =>
@@ -69,9 +70,10 @@ object Graalvm {
                   .filter(_.startsWith("."))
                   .map(_.stripPrefix("."))
                 archiveType <- archiveTypeOpt(ext)
+                entry = Asset.indexEntry(asset, archiveType, assetsByName)
               } yield Seq(
-                Index(os, arch, nameGlobal, version, archiveType + "+" + asset.downloadUrl),
-                Index(os, arch, nameVersion, version, archiveType + "+" + asset.downloadUrl)
+                Index(os, arch, nameGlobal, version, entry),
+                Index(os, arch, nameVersion, version, entry)
               )
             opt.toSeq.flatten
           }

@@ -41,8 +41,10 @@ object Oracle {
     }
 
     def index(url: String) =
-      val indexUrl = s"$indexArchiveType+$url"
-      Index(indexOs, arch, s"jdk@$indexJdkName-oracle", jdkVersion, indexUrl)
+      // Archives behind these URLs change with each new release, so we always get their
+      // checksums afresh, rather than letting Checksums.resolve re-use already known ones
+      val entry = IndexEntry(indexArchiveType, url, checksums = Checksums.fetch(url + ".sha256"))
+      Index(indexOs, arch, s"jdk@$indexJdkName-oracle", jdkVersion, entry)
   }
 
   def index(): Index = {
