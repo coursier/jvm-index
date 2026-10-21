@@ -1,0 +1,4772 @@
+{
+  "jetbrains": {
+    "11.0.11": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-11_0_11-linux-x86-b1536.2.tar.gz",
+      "checksums": {
+        "sha256": "e69027a1ed479acff0a52d8818a3a691cbc54f6a38a3d9223f649737ec9d6bfd"
+      }
+    },
+    "11.0.12": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-11_0_12-linux-x86-b1751.11.tar.gz",
+      "checksums": {
+        "sha256": "0ee189a04d1867e927802a496a30d4f47dfa5d43edab917555195bdd63f0e6c7"
+      }
+    },
+    "11.0.13": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-11_0_13-linux-x86-b1890.3.tar.gz",
+      "checksums": {
+        "sha256": "79fd985eb4a1308ec3046a27830afeb4963e9cf2c5dc8dea284fad1e8fa28652"
+      }
+    },
+    "11.0.14": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-11_0_14-linux-x86-b2043.2.tar.gz",
+      "checksums": {
+        "sha256": "5293136a32f4c55eba65a124e5e0c5fb75e283300112d2a4e3fb1b6302bf0f6d"
+      }
+    },
+    "11.0.14.1": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-11_0_14_1-linux-x86-b2043.45.tar.gz",
+      "checksums": {
+        "sha256": "d481a59a04ade59759e0b48124ee1daf6aff7ee91a55f837af9bd1cd3a99227f"
+      }
+    },
+    "11.0.15": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-11_0_15-linux-x86-b2043.56.tar.gz",
+      "checksums": {
+        "sha256": "4d77f53f902931c09421bf470a2fba55c67fac9f857dd0689fe236b0de6a087f"
+      }
+    },
+    "11.0.16": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-11_0_16-linux-x86-b2043.64.tar.gz",
+      "checksums": {
+        "sha256": "ffd4863531fdd752c3195ebd83672b04836615210cea9df1b7aca12c473b6174"
+      }
+    },
+    "17.0.7": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-17.0.7-linux-x86-b1000.6.tar.gz",
+      "checksums": {
+        "sha512": "f7f7247f94793995d734dc6f179c6089d89af34f36f2298877ab15e4776b1dccc3a3f038c924862705a5f426a87167013138babd2e5fa73cd98d88d1b0e59055"
+      }
+    },
+    "17.0.8": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-17.0.8-linux-x86-b1000.22.tar.gz",
+      "checksums": {
+        "sha512": "5347d90834a94c5cc38633d13abece7ebe67eb8da441fcddf28a7e8459b040720b0c0d1c7ca7533673e6dbd41c1354178f8a5a94d1da97f002fc7abc48b2fc29"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-17.0.8.1-linux-x86-b1080.1.tar.gz",
+      "checksums": {
+        "sha512": "1ef370c23d5caa8900d30a52bfd6d982abc346365823f4f880fcdc886871cb5a40137a50be5614a9d3f743dc346cccb8e62c57e26d2b6d8ce2c895f72720e7ad"
+      }
+    },
+    "17.0.9": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-17.0.9-linux-x86-b1166.2.tar.gz",
+      "checksums": {
+        "sha512": "a5098e89a1c19a79017e0568444a9619d90c2f0bed315aa4af2cfe3a822d7b3d3683fb38626e4b4f03977547e2b02f2bbf1a3c485445d5541069860c9eb92ecb"
+      }
+    },
+    "17.0.10": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-17.0.10-linux-x86-b1207.14.tar.gz",
+      "checksums": {
+        "sha512": "9aa80bb0eacb995ea04498c7420fbbdacc3ab93e463a91023be3d12f9e887d3e083b099d9f0c0b31b38e82e5c1ea18a14005a3d43f2011ee18973807d8548a4c"
+      }
+    },
+    "17.0.11": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-17.0.11-linux-x86-b1312.2.tar.gz",
+      "checksums": {
+        "sha512": "e6f8bb6cddf2ec0c6dde0503a755bd5c87b79d0b7361052a5b77d8e8ef7aa663b7b6c2a938c8488038141c8d16bd33b875fe301934d027933efe4478c7baf531"
+      }
+    },
+    "17.0.12": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-17.0.12-linux-x86-b1207.37.tar.gz",
+      "checksums": {
+        "sha512": "0e449a81343712d1ce6e5d7923273beb9c430ee9b4cf4ac19834b402b8c50a41775db916693d1bfa95a416d4d1042b3c62f2f5fcf3b71d031b0d0cc3d9744d3d"
+      }
+    },
+    "17.0.14": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-17.0.14-linux-x86-b1367.22.tar.gz",
+      "checksums": {
+        "sha512": "f18238966594d4ef490c77ca9bbfdc432fab93fcf279435d9436895b73ef1679550e96c7a7d1a0cc25ffbb608f16d35b48301e226942e422a23e716e5d2b5fda"
+      }
+    },
+    "21.0.2": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.2-linux-x86-b375.1.tar.gz",
+      "checksums": {
+        "sha512": "437d9ead377cdb9c4a13bffd932ca0175d866f72348c8ab1f98cf049dbf2129c6cf71da6816e90969a4fff2f5e1bbdcc42204293554954796d746f6f43c34449"
+      }
+    },
+    "21.0.3": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.3-linux-x86-b509.15.tar.gz",
+      "checksums": {
+        "sha512": "ccf87574ec565c3deecfe7287198502028f7fdc02f1d24e806f2f8799c92c90cab28b48979b373d51d67cb3fd02a7a3ab219e65b57abfe3dbfa5a23a2a891b0a"
+      }
+    },
+    "21.0.4": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.4-linux-x86-b631.2.tar.gz",
+      "checksums": {
+        "sha512": "82c864d36835da6408b10153a2601140bce48c3a19bfe5c9ab9518f3b43c744c14a620aa4b22b9d82dc505480dcdc28eec83a8b4b273d8a12e76a6456a4e19da"
+      }
+    },
+    "21.0.5": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.5-linux-x86-b792.48.tar.gz",
+      "checksums": {
+        "sha512": "05fbf6983e02d7f505363016d052d1a5fc35d2318e82b38b9b7af904bef23349518ad0140f5c915e7b84a5de4d848f09061bd9abc83be4139636948f1c82e9a0"
+      }
+    },
+    "21.0.6": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.6-linux-x86-b895.109.tar.gz",
+      "checksums": {
+        "sha512": "116b3bb7fba3dd8c40968866082b301d0a2455c95ecd8d8a6f7868d95920bab9987f4cff05a9a8e2105bb93fd2f92179ae3c5281a543f0dbd52cef234572e096"
+      }
+    },
+    "21.0.7": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.7-linux-x86-b1038.58.tar.gz",
+      "checksums": {
+        "sha512": "1943bdf5e99f3bf5151c18008c1f25ce913587ea6c82ea6fe1988a21733c5697411a6b67fcae599b2d00a3586ea4c2db8e061bb45e29b4a4ccc46efe6505913f"
+      }
+    },
+    "21.0.8": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.8-linux-x86-b1115.48.tar.gz",
+      "checksums": {
+        "sha512": "fd63bd3b3acec18772a949718d80e02f2c6ccf2fd7f0530759bdfd3fc8464dd610ac76bba6c30888b71cc32653ee96ccb74f33eea0c7d88abb422299f8b3143a"
+      }
+    },
+    "21.0.9": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.9-linux-x86-b1038.78.tar.gz",
+      "checksums": {
+        "sha512": "bac47d5d0befca733dcb20692879191928f61dcf6c1fb70883c314fa6245ec579d94f1fd050525fe8a8ef83947110f4111502adc8b5d8e96c9d0c014cf0ffb2b"
+      }
+    },
+    "21.0.10": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.10-linux-x86-b1163.110.tar.gz",
+      "checksums": {
+        "sha512": "ebb81bdd4bb9fa03c7e0aa1c28847c0392a69a357908694c0036722b2c06bd7fc32570418910e3b7727e5b3027f44e1fcb3b827d2e2977d17e915d60177daf90"
+      }
+    },
+    "21.0.11": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.11-linux-x86-b1163.116.tar.gz",
+      "checksums": {
+        "sha512": "2d3d51d90c7be31f329b35dc9278a861f930c87bb6a918568baca24cecddfb6b550d03584e79ecaecda3e7480c5e394f6366b81d42a93c43a52997e04edd7dac"
+      }
+    }
+  },
+  "jetbrains-jre": {
+    "11.0.11": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-11_0_11-linux-x86-b1536.2.tar.gz",
+      "checksums": {
+        "sha256": "c930432ae89fe78f000ba04df6e121db6fc15d6e339f88fe91dbcccae4e6bdbe"
+      }
+    },
+    "11.0.12": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-11_0_12-linux-x86-b1751.11.tar.gz",
+      "checksums": {
+        "sha256": "aa47bd591151ce13a354ea063e52ad85b2484ff09a72fbb6a4ebbfc8aa3e2733"
+      }
+    },
+    "11.0.13": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-11_0_13-linux-x86-b1890.3.tar.gz",
+      "checksums": {
+        "sha256": "d6930def6bfb6351f42e1826c43e69f835450e9aa7ffcba64b37e41c7cb0cf9a"
+      }
+    },
+    "11.0.14": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-11_0_14-linux-x86-b2043.2.tar.gz",
+      "checksums": {
+        "sha256": "86729769ff41238786141f6f4a09e2b0e3e0726594ca89011ebd726640a47c7e"
+      }
+    },
+    "11.0.14.1": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-11_0_14_1-linux-x86-b2043.45.tar.gz",
+      "checksums": {
+        "sha256": "82d1d83bb84a866bc33778f3dbee68b040cc6bcdf7b447baa560ee8ea8de43ad"
+      }
+    },
+    "11.0.15": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-11_0_15-linux-x86-b2043.56.tar.gz",
+      "checksums": {
+        "sha256": "fc3482c9b44fad946c9768b53187d6eaa60d004cbd34c75e8953579f4a05b6d2"
+      }
+    },
+    "11.0.16": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-11_0_16-linux-x86-b2043.64.tar.gz",
+      "checksums": {
+        "sha256": "d3e4d488bb8e0edf4fa0832a4ff5b5dcac69e646640ae06afb1b49e419536762"
+      }
+    },
+    "17.0.7": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.7-linux-x86-b1000.6.tar.gz",
+      "checksums": {
+        "sha512": "e526aaaddce422cae540d7f37764aa34c634a4638e99b4c4b798c6f588c9a113cfe3cfcfe24b0601b40193f72fd58e1d9f0a009648b75443cdaf8537d986c9c1"
+      }
+    },
+    "17.0.8": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.8-linux-x86-b1000.22.tar.gz",
+      "checksums": {
+        "sha512": "bcffa999a5cdae150b7d45328f22212076349c2f175f44d27588457abe4fd411237a1fe2c6539dd6fbe5ccd034106ce2038e87178ef38d0f275fa5e62b549a51"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.8.1-linux-x86-b1080.1.tar.gz",
+      "checksums": {
+        "sha512": "5e5d920cff2752ec26e25536a8e468e19c5b86397671d233dcbbd31bf5b0af4fc5c244051d521117d0913e2c8e01305dfbc2961d3acfcd62538a40e7f531b939"
+      }
+    },
+    "17.0.9": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.9-linux-x86-b1166.2.tar.gz",
+      "checksums": {
+        "sha512": "21a11790f75189588218e8f129a67bdbdac38f003f80137f42ef0f75c4c8b092481985aa2cd05bae8adc2f897115b9a52f0a5da48bef83fd9a2518fd5f9e9957"
+      }
+    },
+    "17.0.10": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.10-linux-x86-b1207.14.tar.gz",
+      "checksums": {
+        "sha512": "dcdb5f7469f0da4343d6db62850c0a4e48b04e2317bc025ae02ac8889a9b290e7a2d9e438f1a27914996b93e21a3ab26d75945d837dcb3d81ef94f4972a1a572"
+      }
+    },
+    "17.0.11": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.11-linux-x86-b1312.2.tar.gz",
+      "checksums": {
+        "sha512": "a04a03c2689dafaa38c2d78c52825b47b26437b907b9887b2b3f3258a31180cf4cf9d44dd6ff833b4932cb33a53fe2e4d0bb890a868c1cff7c3c9b3c76527a25"
+      }
+    },
+    "17.0.12": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.12-linux-x86-b1207.37.tar.gz",
+      "checksums": {
+        "sha512": "ceeec33a73be04753d89269c3515cc6ed2d6e739a7b1503daa2a71a979bad029e1b1be09b478344c80afa5e18075450d9fa12be610d95d314e55b0246fd8acc3"
+      }
+    },
+    "17.0.14": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.14-linux-x86-b1367.22.tar.gz",
+      "checksums": {
+        "sha512": "b751d475fca7aae30416ef90194e9815861a2a26f6ec9073d0a373ce2fd824b6a5f435ebbb9ce7694fc0f64cb3cf1874f8c8731780005fa556c6eeb989860baf"
+      }
+    },
+    "21.0.2": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.2-linux-x86-b375.1.tar.gz",
+      "checksums": {
+        "sha512": "9195f08a6e5cc14d56cc337f21c273b11fbae9e4c3ccc2542891a2eec93da3ce7f13cd6c109ec073dbc6e65eea9b4fdf0d571a4cf6df51d69b6bbdb801d8455f"
+      }
+    },
+    "21.0.3": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.3-linux-x86-b509.15.tar.gz",
+      "checksums": {
+        "sha512": "c49d33ca43101fffde129eb3ab670ee9ded02036a3a527c7c297cdc97a361c248cb9e03ede5c1d63ebe2e7b4ed9b0383f964d386aa4ce733be4184cef7ddd863"
+      }
+    },
+    "21.0.4": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.4-linux-x86-b631.2.tar.gz",
+      "checksums": {
+        "sha512": "ed9e91c4c12823b295e5136b5e459a7c5dc3396d5b0180696e888808844290dece2db26f91db9d12462776daa3a912d1d9c7fd8f58fd45c4733795a0f0112876"
+      }
+    },
+    "21.0.5": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.5-linux-x86-b792.48.tar.gz",
+      "checksums": {
+        "sha512": "bbb9617d11720bbfd847c353c44d2b5e12b07cce309cbda3ee717dcf9dbc0a0339e5d549797b7ac6075a0f6fe1db49c36a87976335a5fd7c6044ec1b7d934633"
+      }
+    },
+    "21.0.6": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.6-linux-x86-b895.109.tar.gz",
+      "checksums": {
+        "sha512": "2731d88fb196d3376e5b463b21833c9e1d87fe2ae485c31d5e14f88676b0278edb501912d56c89e9716efad3ae4858d0e9106c905e28848d6accff2388724149"
+      }
+    },
+    "21.0.7": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.7-linux-x86-b1038.58.tar.gz",
+      "checksums": {
+        "sha512": "5aef0560aaa20564931d99f16ffdfc8c309cdfc66096a6d2ba8e022350e44931e6dc0872174c2436f258d59d7ac3c338e3c18d714271cb1dbdedbcbe1baa8681"
+      }
+    },
+    "21.0.8": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.8-linux-x86-b1115.48.tar.gz",
+      "checksums": {
+        "sha512": "de50e7ac7325505255b8c3e11f897a1ea2ab2cd3fd71c6fe815d48ad70ba5a9dbc1190ecffe6749b5c64c944eab044407b35fe618cd13ca307391d02c0aa47e3"
+      }
+    },
+    "21.0.9": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.9-linux-x86-b1038.78.tar.gz",
+      "checksums": {
+        "sha512": "be579b6e59362f3126ee84aaaa7bc1fba8700a9ff0a260219c48cba0b434475070cbd8409dab75bb6e4c4f322db28343f9c7c0ee7d70bf6c03cbcf74350a59c3"
+      }
+    },
+    "21.0.10": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.10-linux-x86-b1163.110.tar.gz",
+      "checksums": {
+        "sha512": "963ebe605d89872566b6d788a61f7d019f8e070130792bd955fd2e3be331553d61e7c519c384c6fa09a6c03a477e6f96687d6fe7f7315e3f6703e16170e656af"
+      }
+    },
+    "21.0.11": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.11-linux-x86-b1163.116.tar.gz",
+      "checksums": {
+        "sha512": "e9f889bc76483e5ac134253e32ebb78bd2187af4627b14b9b724df41df92cede1e0170b7e71b27fa2245a4fa14d45c3fa7f9abc4788504d714ff5b437e9ff254"
+      }
+    }
+  },
+  "liberica": {
+    "8.0.202": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "aa9d091c54b1070881b0a88ac649c398164f314b"
+      }
+    },
+    "8.0.212": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jdk8u212-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9415e90182dc548a71cadaa76eaebd2073c970f7"
+      }
+    },
+    "8.0.222": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u222/bellsoft-jdk8u222-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "3caddfff740a984d1c2a77009b8cc3a2e04ede6e"
+      }
+    },
+    "8.0.232": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u232+10/bellsoft-jdk8u232+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "5617c0333061653230ca266d64370313eb578d0e"
+      }
+    },
+    "8.0.242": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "fb6508f3743e9c53e44ac073e80a54cb7aea03ec"
+      }
+    },
+    "8.0.252": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jdk8u252+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f701b17bef9a60bf68534908337358d0ffa595a1"
+      }
+    },
+    "8.0.262": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jdk8u262+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "72dd8e7d596d55e7f0adb01b8e931c69001e5c27"
+      }
+    },
+    "8.0.265": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u265+1/bellsoft-jdk8u265+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "225719981f4a381750204a8e90aed750526b3dc8"
+      }
+    },
+    "8.0.272": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u272+10/bellsoft-jdk8u272+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "8bb17c2c2d219fdfa73534e466818bc2d308602d"
+      }
+    },
+    "8.0.275": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u275+1/bellsoft-jdk8u275+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9fe86cc06af2caeb870b493e9ac179c0c428e77f"
+      }
+    },
+    "8.0.282": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "8ca4fb49c9c5ec9171b9d8b2558d135d1a13ee5c"
+      }
+    },
+    "8.0.292": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u292+10/bellsoft-jdk8u292+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b5606c1309aaae6dd5f2d5549b29852316aca3af"
+      }
+    },
+    "8.0.302": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c2d5cfccc2027c8239216a01f99be42adb61deb4"
+      }
+    },
+    "8.0.312": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b5d5d321ab04a864d1c55e2dec1f1da44cfd0cac"
+      }
+    },
+    "8.0.322": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d077f13b43c05733e644793d91b1135b354396f5"
+      }
+    },
+    "8.0.332": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "40b3863515418e47370ac1a8763e3260c6dccba7"
+      }
+    },
+    "8.0.333": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "8562518a5f01cdee8c5bf5107b018bb233619cab"
+      }
+    },
+    "8.0.342": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u342+7/bellsoft-jdk8u342+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "47e4bb7145829f15f9a45f7e08dcb2dc8c9c3f85"
+      }
+    },
+    "8.0.345": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u345+1/bellsoft-jdk8u345+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f8036a576b1982c43e4d8c555c6e1e6c135a335a"
+      }
+    },
+    "8.0.352": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u352+8/bellsoft-jdk8u352+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "e1b86a8fc14457b46a4799f1fe293a9f5e323512"
+      }
+    },
+    "8.0.362": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u362+9/bellsoft-jdk8u362+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f3bbb13731bb91cf0ba5a831536b107e9680152c"
+      }
+    },
+    "8.0.372": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u372+7/bellsoft-jdk8u372+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "baff71cba593e5d50d69038ed5af408f5088d61a"
+      }
+    },
+    "8.0.382": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jdk8u382+6-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "2c81d4787a1265c1d33718cc99a9a774b58acd37"
+      }
+    },
+    "8.0.392": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jdk8u392+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b6696be58bbecadde206a1a469f2b97f098082b8"
+      }
+    },
+    "8.0.402": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jdk8u402+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "6b913c7c6404a7ecf03a4a83b385cb905b5f5639"
+      }
+    },
+    "8.0.412": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jdk8u412+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b2d428f95fcc5a1b51612d4b944245844a9dedf4"
+      }
+    },
+    "8.0.422": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jdk8u422+6-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f4fea410222c3ccd0553cbc17aeb86306cb8b5f1"
+      }
+    },
+    "8.0.432": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u432+7/bellsoft-jdk8u432+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "6d7ebb3fd5c6f0ee527de27a01d27ae6628e6ee0"
+      }
+    },
+    "8.0.442": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u442+7/bellsoft-jdk8u442+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "01e756321e3dd0bd09fde7d403c284687527eb60"
+      }
+    },
+    "8.0.452": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jdk8u452+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "903f4c587253b8abd5b7b7618dc18a5664e3b5be"
+      }
+    },
+    "8.0.462": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jdk8u462+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "5a290da71f47408dcfe30e2cd1fb3a54f526fe34"
+      }
+    },
+    "8.0.472": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jdk8u472+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f7acabed69fac8f18d41e80dccf18b1eb9d38c4e"
+      }
+    },
+    "8.0.482": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jdk8u482+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "0608d05fa9ef5663091316788ce925d22453e64a"
+      }
+    },
+    "8.0.492": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u492+9/bellsoft-jdk8u492+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "2db3aa774e0c9d48150d95ec6d30efb6a75c28ac"
+      }
+    },
+    "8.0.502": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u502+9/bellsoft-jdk8u502+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "3752ed758fb99249f15c62c143f4d8a780bfd764"
+      }
+    },
+    "8.0.504": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jdk8u504+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9a879637079661fe6a230525f868e2f71e8c7116"
+      }
+    },
+    "11.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.3/bellsoft-jdk11.0.3-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "25ded65014a419af064a9ffb4eda44ce017f5081"
+      }
+    },
+    "11.0.4": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.4/bellsoft-jdk11.0.4-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "93fc0e319c5b67421888a6d47c898b11d43165ac"
+      }
+    },
+    "11.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jdk11.0.5+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "324f6c5263a61a51e1ad33cd15e6604b9fe73879"
+      }
+    },
+    "11.0.6": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jdk11.0.6+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "dc6a0a5022edd57cddb0428cdf904db4df50c0e1"
+      }
+    },
+    "11.0.7": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.7+10/bellsoft-jdk11.0.7+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b69ec71393d49867ce1057cafd96e2c6b58ff4f5"
+      }
+    },
+    "11.0.8": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9808dd04787e1ab89c758bea1c3a24a514226745"
+      }
+    },
+    "11.0.9": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "324339fafe08abf656399960d28f1fed54cb7f14"
+      }
+    },
+    "11.0.10": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "301b8efbf861f823b8f44cc22385020cf85d4be3"
+      }
+    },
+    "11.0.11": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "bd2be8e4a4d44762c5b0628f1813731c74dd972d"
+      }
+    },
+    "11.0.12": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.12+7/bellsoft-jdk11.0.12+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "bcb8b4a17b77bbe0751f98c895fe5777ee60deee"
+      }
+    },
+    "11.0.13": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.13+8/bellsoft-jdk11.0.13+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d169a3fa5b8b4c26c6bf6d91e3eb050c66ca43ea"
+      }
+    },
+    "11.0.14": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jdk11.0.14+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9a52602dc6a2eddaa6d0d25b321746f1c965ab27"
+      }
+    },
+    "11.0.15": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "65e2274cf09a37a043068e40fe85a632e6a992b3"
+      }
+    },
+    "11.0.16": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "4411b2f10156deb87541d271018464d66a44b047"
+      }
+    },
+    "11.0.17": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.17+7/bellsoft-jdk11.0.17+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "6da6bae56ff33be29bf24e2219fdf1556cc3d428"
+      }
+    },
+    "11.0.18": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.18+10/bellsoft-jdk11.0.18+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "944f29f52d4a7daf7dfb3dc69a01edd63369450a"
+      }
+    },
+    "11.0.19": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.19+7/bellsoft-jdk11.0.19+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "caad5acac008d36c769bbd15b93a0c79155089bc"
+      }
+    },
+    "11.0.20": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f885e71403daf848f408134581a374243dfbd5ed"
+      }
+    },
+    "11.0.21": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jdk11.0.21+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "3533df1f7f71e70c2df0b0c656809baf71ba76dc"
+      }
+    },
+    "11.0.22": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jdk11.0.22+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "8fa663e20c509a7c35673a0716864438dc497dd9"
+      }
+    },
+    "11.0.23": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.23+12/bellsoft-jdk11.0.23+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "accb5effccaca7050bec1ed3b0e104151d9d4cd1"
+      }
+    },
+    "11.0.24": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.24+9/bellsoft-jdk11.0.24+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "709cb2ffb5b33a75adc4bac98ae103217990016f"
+      }
+    },
+    "11.0.25": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.25+11/bellsoft-jdk11.0.25+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "7e64a918e1bd483ffdb06fb8593be6c134ffae41"
+      }
+    },
+    "11.0.26": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.26+9/bellsoft-jdk11.0.26+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "fc81f56674b5a79b63daccf0dc2f23ceb504f91a"
+      }
+    },
+    "11.0.27": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jdk11.0.27+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "679ae631a3205171c4f1e990cb46bbcacaaa67d6"
+      }
+    },
+    "11.0.28": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jdk11.0.28+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9017668b64cd8a1cff0c5c9436c8ece1433a5d07"
+      }
+    },
+    "11.0.29": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jdk11.0.29+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "223fba1da5921b005599ba146451c5398ff3fe28"
+      }
+    },
+    "11.0.30": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jdk11.0.30+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "0a8525d54466a47e473334394e374e31e886a94c"
+      }
+    },
+    "11.0.31": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.31+11/bellsoft-jdk11.0.31+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "641f814c1acf4adae717895f00b8068006944de7"
+      }
+    },
+    "11.0.32": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32+11/bellsoft-jdk11.0.32+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "2244e87c177837d2165ca6a24e2d04a9a8283896"
+      }
+    },
+    "11.1.9": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c0f4b88813593c537c685ca9be1ba7db82469cdc"
+      }
+    },
+    "11.1.14": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "e6ca92dc7cbd33fb35298dcdc87374693b84b126"
+      }
+    },
+    "11.1.15": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "dc1f1d602c5f4124e4d075f8c81b7d2651c75e52"
+      }
+    },
+    "11.1.16": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "463a3d911ffc56ae2ae28a112a3d27beda120a34"
+      }
+    },
+    "11.1.20": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f178b9d13c0bd1adfb4eebb574be76027912b685"
+      }
+    },
+    "11.1.32": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "1358450100eefd5e0dfd5d613101ab4f0af17fc0"
+      }
+    },
+    "12.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "4d8a4561bc77628f98d187546979456747e6ab26"
+      }
+    },
+    "12.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "668fde1c89ec694fcd25c0e74674e1773e9b762f"
+      }
+    },
+    "12.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/12.0.2/bellsoft-jdk12.0.2-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "4f834a94670751c58bbf7e8f9066e009486a8540"
+      }
+    },
+    "13.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/13/bellsoft-jdk13-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c7660c78e22c0781a5c10260edd1a9440b673203"
+      }
+    },
+    "13.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jdk13.0.1+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "337bf94e0064457fd66610b8179c722021cbc415"
+      }
+    },
+    "13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "61fa0cdb11aaac5d5e4af1cc15ab8dab5a032f90"
+      }
+    },
+    "14.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jdk14+36-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "4a5f804c3c90916fb11ebe6cc88cf27821961510"
+      }
+    },
+    "14.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/14.0.1+8/bellsoft-jdk14.0.1+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "eaff04ff1975a8193829386b1b274152b47243ae"
+      }
+    },
+    "14.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/14.0.2+13/bellsoft-jdk14.0.2+13-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "bbad7b3e604187f692ebac455842cba0c0d7b1e8"
+      }
+    },
+    "15.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/15+36/bellsoft-jdk15+36-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "0989a653d24f5e9308932d82e8fce723ba9e0e14"
+      }
+    },
+    "15.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.1+9/bellsoft-jdk15.0.1+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d521410134a001bb5399b834f6b79ac43157b8bb"
+      }
+    },
+    "15.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "95cf3931193d33205c133503e9dc5a79060b6f9c"
+      }
+    },
+    "16.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "920508f10b1d93f9855607c010edc5d56527b930"
+      }
+    },
+    "16.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f24b57b9f66a6863855f08b57f950d56150302ba"
+      }
+    },
+    "16.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jdk16.0.2+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "0b06f5670af7f6bb7fb36a359586bd990213321b"
+      }
+    },
+    "17.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jdk17+35-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "913f11eb3084b95e75b68f17b0769dbcfde600bd"
+      }
+    },
+    "17.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "a3e29c4fe9c4cf4e55447dbafb7c194b5d40cdaa"
+      }
+    },
+    "17.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9f083e4f46ee5eeced3c842c49f9c320decd16e8"
+      }
+    },
+    "17.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b4b436edc3427d0c1aa944cb17c2de9ab8211091"
+      }
+    },
+    "17.0.4": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "788befeb14ea853ad171da72c15dcce6c6aefb05"
+      }
+    },
+    "17.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.5+8/bellsoft-jdk17.0.5+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "0dc79e329adf3f395b9555c5a8444bde17e4ed3f"
+      }
+    },
+    "17.0.6": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.6+10/bellsoft-jdk17.0.6+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d411ba0d51cd988f4935c82e8e2acf8633b21ae5"
+      }
+    },
+    "17.0.7": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.7+7/bellsoft-jdk17.0.7+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "3dc42539d460b2a882b70c4ee0d024d8169b41d5"
+      }
+    },
+    "17.0.8": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "cb9720a1b88bbc95fbb6e204c51032c6c2abcf18"
+      }
+    },
+    "17.0.9": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.9+11/bellsoft-jdk17.0.9+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c6e4104cadaa4557828781ec2e3945e5452d9d08"
+      }
+    },
+    "17.0.10": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jdk17.0.10+13-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "8d03c079fa205892e3df1655f488cdc44ef40422"
+      }
+    },
+    "17.0.11": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.11+12/bellsoft-jdk17.0.11+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "5a1636fd330bc4f0ed589fcc4b03a6eb79497572"
+      }
+    },
+    "17.0.12": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.12+10/bellsoft-jdk17.0.12+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "16ac2baaa4f570a0d4f7bf14e91e2cc41bdf89b3"
+      }
+    },
+    "17.0.13": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.13+12/bellsoft-jdk17.0.13+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "8ca96547e39c662bd839ce69eceb7388a5c1f652"
+      }
+    },
+    "17.0.14": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.14+10/bellsoft-jdk17.0.14+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "4027df1708cbca492cadacfeb69039dabf1c6154"
+      }
+    },
+    "17.0.15": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jdk17.0.15+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "0884f349833131cda283abee55fe8c9ec553202d"
+      }
+    },
+    "17.0.16": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jdk17.0.16+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "16b64732f85be3e6e1873209c3b5b50861394485"
+      }
+    },
+    "17.0.17": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jdk17.0.17+15-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "7479f7d0896e349456619834941e447a1c7d9e65"
+      }
+    },
+    "17.0.18": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jdk17.0.18+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d73dcb8778ee91f4795181797853151628ef1c3e"
+      }
+    },
+    "17.0.19": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.19+11/bellsoft-jdk17.0.19+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "358cad63c781078d387fe06b1ca6854a68fb4c62"
+      }
+    },
+    "17.0.20": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20+10/bellsoft-jdk17.0.20+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "72086a4603b32256ec08fb9ed201b2711792a5a8"
+      }
+    },
+    "17.1.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "88360fa93b8ed786524894e1dcd6ea064a43f973"
+      }
+    },
+    "17.1.4": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "516d7f80f8f093ffea5b3b7c340f85188983e7ab"
+      }
+    },
+    "17.1.8": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "6d735990011fd96faec42ce8f36ac73f15f7d7b6"
+      }
+    },
+    "17.1.20": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "748c76d0a4428ef1a6a202d49ec0437820edb098"
+      }
+    },
+    "18.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "1e52eb97160b62dbcec0739bb09bf9c783da5756"
+      }
+    },
+    "18.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b8b50fcc84eda0316a56b70327e031d9f6dafbbf"
+      }
+    },
+    "18.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "acacf23470fe4443641518af0185c5a3db7c8b07"
+      }
+    },
+    "18.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "1c56a56c795facb3da385ab96659f1ee25274aee"
+      }
+    },
+    "18.1.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "bff5c654289e48f945acc5f96ac5926f588c54b9"
+      }
+    },
+    "19.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/19+37/bellsoft-jdk19+37-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "0def7f72e5be55a1e011fac2351569234147f8b1"
+      }
+    },
+    "19.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.1+11/bellsoft-jdk19.0.1+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "6b192ed1833db50764a7a94432873e319403f770"
+      }
+    },
+    "19.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.2+9/bellsoft-jdk19.0.2+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9d111a1a9f8e406544e70b7887ee3b1d0530be5f"
+      }
+    },
+    "20.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jdk20+37-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "29f49dd1f87c76182443e6ac39598f8b1f86931b"
+      }
+    },
+    "20.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.1+10/bellsoft-jdk20.0.1+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "674e66ac1042301b3736a04a974f5c5f2c551bb6"
+      }
+    },
+    "20.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jdk20.0.2+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "00d0ff8a6cf8d6ab8738b334b56bf9eeb51228c5"
+      }
+    },
+    "21.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jdk21+37-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d50deb8e458003d15245593ae1b919a79c117eb7"
+      }
+    },
+    "21.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jdk21.0.1+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "e564ed13b2596ef7c5738cf299b3bff347576e44"
+      }
+    },
+    "21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jdk21.0.2+14-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "32594aa002f25cecb413ef045201bf6aeddfe1da"
+      }
+    },
+    "21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.3+12/bellsoft-jdk21.0.3+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "851501a7543ffa722061e1342a122c6281571493"
+      }
+    },
+    "21.0.4": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.4+9/bellsoft-jdk21.0.4+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "896a171d3c5f55e66b64d88ddd4271c9429ebae4"
+      }
+    },
+    "21.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.5+11/bellsoft-jdk21.0.5+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "0434b54fcd37faa7d0b0beeb753b5397441fbbfa"
+      }
+    },
+    "21.0.6": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.6+10/bellsoft-jdk21.0.6+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "5045106cc6649aa97b219e1de6f58fd8e3ff5de4"
+      }
+    },
+    "21.0.7": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jdk21.0.7+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "2af53cb05e5a847d79432693a8675b403384d926"
+      }
+    },
+    "21.0.8": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jdk21.0.8+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "eec3532c4865869ce72a23ca36e3c7e4a9d8a843"
+      }
+    },
+    "21.0.9": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jdk21.0.9+15-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "4a7349377b297f6b864adc62285c855b08c6abf6"
+      }
+    },
+    "21.0.10": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "e25f52bcfeeac5831b5e458fd1b177299c5fea02"
+      }
+    },
+    "21.0.11": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.11+11/bellsoft-jdk21.0.11+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "8aefb609ee754811d19d4b250a7d2c0994c30c42"
+      }
+    },
+    "21.0.12": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12+10/bellsoft-jdk21.0.12+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "855791d366b70ceb0a23a2b56b000b47912f78ef"
+      }
+    },
+    "21.1.12": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "604d8e4440bff81ee9c69d0bc28b85adac7cf7e2"
+      }
+    },
+    "22.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "43f2652a134b489be1167ee29904b12819806267"
+      }
+    },
+    "22.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "4a71d269c8fb68854bfc339f01bacfee8e92af78"
+      }
+    },
+    "22.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "7aa16380374e109dcb079d3d0d4ff5a20b5cb36c"
+      }
+    },
+    "23.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d5385b4b855ee1e15c26d402154f4224acd5be25"
+      }
+    },
+    "23.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "6bbce3d723cc8e1425c8bae37700c2713721d288"
+      }
+    }
+  },
+  "liberica-full": {
+    "8.0.242": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jdk8u242+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "fc73c45f9ab1de9ca4b2bc59cace2257a93e13d5"
+      }
+    },
+    "8.0.252": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jdk8u252+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "c5f470b99b77ae54b4c1948105a3bb2cb001c145"
+      }
+    },
+    "8.0.262": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jdk8u262+10-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "0f5c79cab7bcd0bc8d74e60715366714d8e9d783"
+      }
+    },
+    "8.0.265": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u265+1/bellsoft-jdk8u265+1-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "e31a1447c6acee203bef75ca8a084d040ff7cd84"
+      }
+    },
+    "8.0.272": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u272+10/bellsoft-jdk8u272+10-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "5053f97552c2ddd5bcfdc4520ccb71e8eb88ee52"
+      }
+    },
+    "8.0.275": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u275+1/bellsoft-jdk8u275+1-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "e4ffbab229a08a3d472bbabd88396c40c2174098"
+      }
+    },
+    "8.0.282": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "7c8c83fb9cd1c554a9df69db80bc936d6218a568"
+      }
+    },
+    "8.0.292": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u292+10/bellsoft-jdk8u292+10-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "e4e64ef1fe86ac4c4d38ba2ffcb31d2deba42628"
+      }
+    },
+    "8.0.302": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "12ecb147cb10f67150527448cc14182682f1c217"
+      }
+    },
+    "8.0.312": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "89d507c908ae302631ca01abb3bc748fa96fb9fc"
+      }
+    },
+    "8.0.322": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "399af6c802eb86d56ee30d5c08c8250e1998e138"
+      }
+    },
+    "8.0.332": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "69eeb670e45271ac535ed52c580de1ddab377782"
+      }
+    },
+    "8.0.333": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "0d3a5d32f4ef5888d5de82a32f75eca3d5c54b68"
+      }
+    },
+    "8.0.342": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u342+7/bellsoft-jdk8u342+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "f09b94e319807f8be21abf26179682fd60222cb8"
+      }
+    },
+    "8.0.345": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u345+1/bellsoft-jdk8u345+1-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "3b09bed17727d9215e638817c88750610f1d76a0"
+      }
+    },
+    "8.0.352": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u352+8/bellsoft-jdk8u352+8-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "f0b79dbc6fdb760c48d5c6c314c049446bb39bfd"
+      }
+    },
+    "8.0.362": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u362+9/bellsoft-jdk8u362+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "67488d8d7f908381cbe6441024909fb3a86fc2b4"
+      }
+    },
+    "8.0.372": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u372+7/bellsoft-jdk8u372+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "98da3605ad50d08f8d1582d30604b7f88a8cab53"
+      }
+    },
+    "8.0.382": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jdk8u382+6-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "aff631bc81e40c35b2c4c4a561b27668ca7629f0"
+      }
+    },
+    "8.0.392": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jdk8u392+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "12248e46c2183903fbc192a257df9ba151921089"
+      }
+    },
+    "8.0.402": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jdk8u402+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "77729c26fe0cff69c0e7d0b4016cda6f44b4aedb"
+      }
+    },
+    "8.0.412": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jdk8u412+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "92287930b53506ce97750e89009cda68ccd6dd39"
+      }
+    },
+    "8.0.422": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jdk8u422+6-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "4667f44d2f1b58954da8cec1eb7765db46891537"
+      }
+    },
+    "8.0.432": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u432+7/bellsoft-jdk8u432+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "56342b743c77262d827a1bf0405238b3dd560e10"
+      }
+    },
+    "8.0.442": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u442+7/bellsoft-jdk8u442+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "d8edf1d1b01726be993d0d4cfb6d50e11093d20b"
+      }
+    },
+    "8.0.452": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jdk8u452+11-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "d2ef2e6bfa8eda225513789ca6a8eb8c6578ca22"
+      }
+    },
+    "8.0.462": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jdk8u462+11-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "9ad4ee6b9813a8aa3040f912c05eb484d3d23f4c"
+      }
+    },
+    "8.0.472": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jdk8u472+11-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "b92215070fbe8eb7e1c9f7b013b498b838c66b75"
+      }
+    },
+    "8.0.482": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jdk8u482+10-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "a9798b6b57fe9e2c1eab0375b33788ef29efac99"
+      }
+    },
+    "8.0.492": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u492+9/bellsoft-jdk8u492+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "bf6d47bd22bea9f6ba402db072ba7454c10bdc43"
+      }
+    },
+    "8.0.502": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u502+9/bellsoft-jdk8u502+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "466523aa383b7591dca4cdb9c21216a49199637e"
+      }
+    },
+    "8.0.504": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jdk8u504+1-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "d96b6e8546ee6ded7bdaaed6faeccfe71e0b5caf"
+      }
+    }
+  },
+  "liberica-jre": {
+    "8.0.202": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "443955b6d7b4d41d9aa9c846fa7b9ee6a7f1400d"
+      }
+    },
+    "8.0.212": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u212/bellsoft-jre8u212-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9c377cce23ba07f88767c67e434ca72134c83d2d"
+      }
+    },
+    "8.0.222": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u222/bellsoft-jre8u222-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "91ef22c5fbd534b56ed6504bc1c50e1e780c63d4"
+      }
+    },
+    "8.0.232": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u232+10/bellsoft-jre8u232+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "aa990845798ba97ca82b8a6201b4a5715007af2f"
+      }
+    },
+    "8.0.242": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "24ed932e589182a88c0efc05519c0a8d59cd6087"
+      }
+    },
+    "8.0.252": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jre8u252+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "a82afb56bdb2d67af5cd91cc632d76a82f80e484"
+      }
+    },
+    "8.0.262": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jre8u262+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "4d49f7110590030d75fcdc5f16bf3ed4b9c0f874"
+      }
+    },
+    "8.0.265": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u265+1/bellsoft-jre8u265+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "aa96363a675c1d01b678f12bfd1360a1c3c69123"
+      }
+    },
+    "8.0.272": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u272+10/bellsoft-jre8u272+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "ada4547d1419312bebd04d0387792c6619228761"
+      }
+    },
+    "8.0.275": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u275+1/bellsoft-jre8u275+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "2cb8b9dd90395f9ef9efd335a61e974d38c4f6da"
+      }
+    },
+    "8.0.282": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jre8u282+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "a446619e1ad7561baad9963dc590a4922516019a"
+      }
+    },
+    "8.0.292": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u292+10/bellsoft-jre8u292+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c3da9118315ae9231a3d9aa1710527515ae6d1c7"
+      }
+    },
+    "8.0.302": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "0b926d165389cb6621dd0f00e3dfeab5d3354368"
+      }
+    },
+    "8.0.312": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "a7e021d89a5738e484582914d6fdc32f8f4aff2e"
+      }
+    },
+    "8.0.322": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "2d92a2b04368d1359a97b87584ea60ab94a0648f"
+      }
+    },
+    "8.0.332": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "bb62ef70ba7ca478ac8f198cf6b2be9e70d01062"
+      }
+    },
+    "8.0.333": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "04d726497354d4c8ba62689f818483ff70fc6eda"
+      }
+    },
+    "8.0.342": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u342+7/bellsoft-jre8u342+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c512ae9d937e37e4b0ef0a84633451ca77760b43"
+      }
+    },
+    "8.0.345": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u345+1/bellsoft-jre8u345+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "a52ea900d1d0460c6c1a722bb694ad5cefca0fef"
+      }
+    },
+    "8.0.352": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u352+8/bellsoft-jre8u352+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b2f03a2897d0eb4a8be1be02fe01f8c26a310299"
+      }
+    },
+    "8.0.362": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u362+9/bellsoft-jre8u362+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b53ea9abcaa38196a8edd9068fc758ad91ca2f61"
+      }
+    },
+    "8.0.372": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u372+7/bellsoft-jre8u372+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c388906601515495368c8ff6bf347834718f7080"
+      }
+    },
+    "8.0.382": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jre8u382+6-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "1ae4bbd8afcb89640c67ce00ea6f6dcf9b3e53f9"
+      }
+    },
+    "8.0.392": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jre8u392+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c572006e0245e42950c007711c5f7880fd46c1aa"
+      }
+    },
+    "8.0.402": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jre8u402+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "3b3cef6248e5a01160c408ec117cd488a24e4f6d"
+      }
+    },
+    "8.0.412": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jre8u412+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d69714452b1b8d2a1706a2b0b18d859e7b78f2c4"
+      }
+    },
+    "8.0.422": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jre8u422+6-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "6fcece2e65aaf457b1c5d9df65bf8179b7341d77"
+      }
+    },
+    "8.0.432": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u432+7/bellsoft-jre8u432+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "89c24ba2aac03fc48efe5ff86407e8cf6d208c78"
+      }
+    },
+    "8.0.442": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u442+7/bellsoft-jre8u442+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d9b428bf24703e99afcb8f9fcf61e97bc6308dbe"
+      }
+    },
+    "8.0.452": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jre8u452+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "a2528b0007f6d526b04efe7b01bd9997f14bf249"
+      }
+    },
+    "8.0.462": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jre8u462+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f084bc1f94a57c1acfc84a1d6b9f65bb7049d639"
+      }
+    },
+    "8.0.472": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jre8u472+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c8befe7c1efc5518b56d28c5163a8d6ef5b958af"
+      }
+    },
+    "8.0.482": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jre8u482+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f53418fb2875311a7087b0c655a21bec659f0539"
+      }
+    },
+    "8.0.492": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u492+9/bellsoft-jre8u492+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "3b6eef10390c1dd4ea79b9abf551210be9726d89"
+      }
+    },
+    "8.0.502": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u502+9/bellsoft-jre8u502+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "7824139624506bb0eb87346d38078fadf1fa9a75"
+      }
+    },
+    "8.0.504": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jre8u504+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d7058bfee47fcec8c88984a5fc805545af7b34dc"
+      }
+    },
+    "11.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jre11.0.5+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "3983cffc67a5b2b1ab84028f8d37fbf0bef7eb5e"
+      }
+    },
+    "11.0.6": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jre11.0.6+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "78c32fcf939a56bb4e144fff22fa5e9d71fb052e"
+      }
+    },
+    "11.0.7": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.7+10/bellsoft-jre11.0.7+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "6f2f6945921990406894ebd844c9b0f15982e27d"
+      }
+    },
+    "11.0.8": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jre11.0.8+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c663344243cebda96b660219dd6497e555004331"
+      }
+    },
+    "11.0.9": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "582230fd4ab781f19653a349a4eeba9f7d3460c1"
+      }
+    },
+    "11.0.10": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b8f8f138fac641ec3a56b7376857d39542335f00"
+      }
+    },
+    "11.0.11": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jre11.0.11+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9bf7062bc63bf0ae77981879cb2738288437f647"
+      }
+    },
+    "11.0.12": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.12+7/bellsoft-jre11.0.12+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "a018bc0bd4ed5a4c3f50898baf635c028989a31e"
+      }
+    },
+    "11.0.13": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.13+8/bellsoft-jre11.0.13+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "45ff4a1f7dc41f0eba13da709de66c569e3a826e"
+      }
+    },
+    "11.0.14": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jre11.0.14+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f56d1117be3bd0f2b8fb5ba8c7b9eda6335e925f"
+      }
+    },
+    "11.0.15": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "7246df68bd5365f01a02b13a8d8bf9dd5c9f9305"
+      }
+    },
+    "11.0.16": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jre11.0.16+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f6653c9e71d7e4c9f4d5e440768d81f76cc77c0c"
+      }
+    },
+    "11.0.17": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.17+7/bellsoft-jre11.0.17+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c399b6e698933b74403b8b716aea79f0f10c1dbb"
+      }
+    },
+    "11.0.18": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.18+10/bellsoft-jre11.0.18+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "6933d24aaf440fbe57d9593bd7ed4ae01ffb8847"
+      }
+    },
+    "11.0.19": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.19+7/bellsoft-jre11.0.19+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "0e63b93c621c7be344b4a3dce1231769e5991bf3"
+      }
+    },
+    "11.0.20": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "e2fdff56d5ecfee68ea532adc5dd43655d0257cd"
+      }
+    },
+    "11.0.21": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jre11.0.21+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "085414a4bf590b1b4bbeba44ec149835695950e1"
+      }
+    },
+    "11.0.22": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jre11.0.22+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "3d302391cd93449fff90eca1b692dc0848cc61d1"
+      }
+    },
+    "11.0.23": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.23+12/bellsoft-jre11.0.23+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "a329bf49f3070b0dea26479ed55211794bd6d0b3"
+      }
+    },
+    "11.0.24": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.24+9/bellsoft-jre11.0.24+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d95f764a04041f15bbc3459a736fc0c75a13d92d"
+      }
+    },
+    "11.0.25": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.25+11/bellsoft-jre11.0.25+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "ac278b3d5ccdf6d73d6372beed32c4371bb7bfd0"
+      }
+    },
+    "11.0.26": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.26+9/bellsoft-jre11.0.26+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "e858e15a69d30d24053b216917e07a55d36890b9"
+      }
+    },
+    "11.0.27": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jre11.0.27+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "ee132485cd8d89cde9b002a6dfebeab062d9d656"
+      }
+    },
+    "11.0.28": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jre11.0.28+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "5db330d12c1f8c9ccf826ef48e283a50dec2e948"
+      }
+    },
+    "11.0.29": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jre11.0.29+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "7c58b3ea001ddb37f1e8af2d17fb77a8faa7a041"
+      }
+    },
+    "11.0.30": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jre11.0.30+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "17a0be8bc8fc1665466d001d7070637f0f2eccfe"
+      }
+    },
+    "11.0.31": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.31+11/bellsoft-jre11.0.31+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "720b28624f64d062f2c7343dfd0081b7e92ffe11"
+      }
+    },
+    "11.0.32": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32+11/bellsoft-jre11.0.32+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "e9a094a4033907579fa5ae6429c2349ca50ffb82"
+      }
+    },
+    "11.1.9": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "73f58177d2e3f99432dc6faf65e77945c7f3dc8a"
+      }
+    },
+    "11.1.14": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "21ff08cc6619c24af195de3db69721858942a7ab"
+      }
+    },
+    "11.1.15": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "3640dca07278678ab30881fbb24e91442cc36187"
+      }
+    },
+    "11.1.16": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f65849283be0503281b0a779ede5b107bf5ec0f9"
+      }
+    },
+    "11.1.20": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "300fdc8b4bac10d9950b659ee258c419013644b2"
+      }
+    },
+    "11.1.32": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "43a5c7ddab6e3a60593b2204aa66fe7806b90998"
+      }
+    },
+    "13.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jre13.0.1+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "df8585dd72c085d62605540950b47eebbc465008"
+      }
+    },
+    "13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jre13.0.2+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "7b26d17a8f6b2899c7ae8e6cc040f96045ef66f8"
+      }
+    },
+    "14.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jre14+36-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d4788fb06ca5b363e4a8e6cd37864c2302682ee2"
+      }
+    },
+    "14.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/14.0.1+8/bellsoft-jre14.0.1+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "bd97b42e89e930d6a9e423c8a85017e0c62f078a"
+      }
+    },
+    "14.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/14.0.2+13/bellsoft-jre14.0.2+13-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "ac9545eedf740bf9d5242a35eb792a63c5a3e725"
+      }
+    },
+    "15.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/15+36/bellsoft-jre15+36-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "e2ccd6cdac71845b20eede75f82a57477dd28af0"
+      }
+    },
+    "15.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.1+9/bellsoft-jre15.0.1+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "633c87335ea1a39c676f6681fb7571b6a7fdea74"
+      }
+    },
+    "15.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jre15.0.2+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "bb0643e083e6cca605c0833d138ecce9ae927a85"
+      }
+    },
+    "16.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jre16+36-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "dfa4cc89769069a5a4b8c0f6fbc302c56c8e2a9c"
+      }
+    },
+    "16.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jre16.0.1+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "848131df709d4f1eb6f7a71c0db34c153b9cff22"
+      }
+    },
+    "16.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jre16.0.2+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f842f9f3bae6167cde9bd88ee1b7b00c3eed34cf"
+      }
+    },
+    "17.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jre17+35-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "dc006444ef860fdc91f528d2c74d8aa7034354f4"
+      }
+    },
+    "17.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jre17.0.1+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "34b009b7c6660aa1c4a5b40955b754d662161b78"
+      }
+    },
+    "17.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jre17.0.2+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "a6f99b9cfd897f13df47905836dce4e366b96b53"
+      }
+    },
+    "17.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jre17.0.3+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "ffffc78c655eb807ca33350bff63e0f4f1b782ef"
+      }
+    },
+    "17.0.4": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9abdcba355c0ea49bc6adad3daae8091e6b3b655"
+      }
+    },
+    "17.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.5+8/bellsoft-jre17.0.5+8-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "2b8ff71991b733249f8204cfebe46918790b9e18"
+      }
+    },
+    "17.0.6": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.6+10/bellsoft-jre17.0.6+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "e51cb06d7a0040b778552e7d5493432de344a989"
+      }
+    },
+    "17.0.7": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.7+7/bellsoft-jre17.0.7+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "fbac3deae3e628c20236919416efe663c1d1208c"
+      }
+    },
+    "17.0.8": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jre17.0.8+7-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "30401b5864c733a9e3867531e395230fe557c5a5"
+      }
+    },
+    "17.0.9": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.9+11/bellsoft-jre17.0.9+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "8f2ab639795fe10adfa90fa4859c1a58d49d11d9"
+      }
+    },
+    "17.0.10": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jre17.0.10+13-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "62b021af70f85a4625911341259da6274fbdbfc8"
+      }
+    },
+    "17.0.11": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.11+12/bellsoft-jre17.0.11+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b3f5f8ed257dbcad067f0b653bd0a8f6d3b09c0b"
+      }
+    },
+    "17.0.12": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.12+10/bellsoft-jre17.0.12+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "28f1a0a1e1b03deb221e7c8e9eb36d1d70025ddc"
+      }
+    },
+    "17.0.13": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.13+12/bellsoft-jre17.0.13+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "91d5b7bc6f415f816137b743f4b138eab4b9c8c7"
+      }
+    },
+    "17.0.14": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.14+10/bellsoft-jre17.0.14+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c70be0d1bb0dd6d3ac020774e70216b7aa435348"
+      }
+    },
+    "17.0.15": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jre17.0.15+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b90f819af895e3a0a7af427f21c2df2e3a24f773"
+      }
+    },
+    "17.0.16": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jre17.0.16+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "7ab29b6f63e7cd501f6f8a62186ad7b5b46c7896"
+      }
+    },
+    "17.0.17": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jre17.0.17+15-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "ff0e620e9fcb1fb5a8ecd11e25bd4f359a9b0eae"
+      }
+    },
+    "17.0.18": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jre17.0.18+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "8c708c8a911d20761d1df452c6a84d8213e061b9"
+      }
+    },
+    "17.0.19": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.19+11/bellsoft-jre17.0.19+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "362bd041248f62be888e6494893707dffe3a4e9e"
+      }
+    },
+    "17.0.20": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20+10/bellsoft-jre17.0.20+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "8fea4304646ee0e11b719d3e461dae028e42885d"
+      }
+    },
+    "17.1.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f2f3fcac1bb4c2c56fead026ae28c9c8dcac45d5"
+      }
+    },
+    "17.1.4": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "85c8490f0427534c965fb925e84227364c326cd2"
+      }
+    },
+    "17.1.8": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "5bdb6417bb9e11c9adc0710b5369cb5c16fb56b3"
+      }
+    },
+    "17.1.20": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "1c466e74393299736039f0a9a168d01ad7d90477"
+      }
+    },
+    "18.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c760c3cdca253e34c4c901830350f72a6f4e6f83"
+      }
+    },
+    "18.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jre18.0.1+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "18d30a80b17e2e74173ba4f5e3238b35800fccde"
+      }
+    },
+    "18.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jre18.0.2+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9c865f1e0e733d7d47a86d7c220b77b4a280f236"
+      }
+    },
+    "18.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "cda9062ac433b53ad91df24da57611ef56e95685"
+      }
+    },
+    "18.1.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jre18.0.2.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "1afa9bfc3546eb65be51986befd6e9cd956d4990"
+      }
+    },
+    "19.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/19+37/bellsoft-jre19+37-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "cb102241a30e6296daa67864a24ba643cf1e1cb9"
+      }
+    },
+    "19.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.1+11/bellsoft-jre19.0.1+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "17a90dfb17bbce8def2a69f234f7a927ea35fb15"
+      }
+    },
+    "19.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.2+9/bellsoft-jre19.0.2+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d8f89c72ca794e173087ee4b405c131032615c38"
+      }
+    },
+    "20.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jre20+37-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "def6a32e895c7538347c8cf18281d583e8e3cf9e"
+      }
+    },
+    "20.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.1+10/bellsoft-jre20.0.1+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "8c57572e5b6462e4e0073ceaece865ebff98d164"
+      }
+    },
+    "20.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jre20.0.2+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "162b7a9ff72738261d1a09a572b0392c79931ef5"
+      }
+    },
+    "21.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jre21+37-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "0861bffb4376123d445555d23bd1f1eac67224bb"
+      }
+    },
+    "21.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jre21.0.1+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "1f2f1cbfda4928b23d82a7cff8905abf4b6cc3e0"
+      }
+    },
+    "21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jre21.0.2+14-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c052650abb1ec15ca996de40f37d27c35c85f037"
+      }
+    },
+    "21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.3+12/bellsoft-jre21.0.3+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d350bc6c40b3bf9df7bdef27323956f5f2fdf4cd"
+      }
+    },
+    "21.0.4": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.4+9/bellsoft-jre21.0.4+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "ab81c6f8484eaf05f8b31bc122a3e04ab7776184"
+      }
+    },
+    "21.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.5+11/bellsoft-jre21.0.5+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "29ea021d3518528ba1b164a7c6fd92506fa4b524"
+      }
+    },
+    "21.0.6": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.6+10/bellsoft-jre21.0.6+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f230b6648a6d83d90f9b785483b44b78bce2ba0b"
+      }
+    },
+    "21.0.7": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jre21.0.7+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "58128f0fb4b7d1a9e486130358eb8f545212d380"
+      }
+    },
+    "21.0.8": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jre21.0.8+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "af76a5547fc03619bd0db22622b9402e0f9bee05"
+      }
+    },
+    "21.0.9": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jre21.0.9+15-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "a51152578bea583cfdd850142c3dedbf45b1bb0a"
+      }
+    },
+    "21.0.10": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jre21.0.10+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "0c2a9d4f44429aa7a7be7f209bddd44d4eb22b97"
+      }
+    },
+    "21.0.11": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.11+11/bellsoft-jre21.0.11+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "2a6f7cd4cb6dac941e0154e9f54d225176bf1d6d"
+      }
+    },
+    "21.0.12": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12+10/bellsoft-jre21.0.12+10-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "e5807278cb98a94b63c53c00509adcea71b307e1"
+      }
+    },
+    "21.1.12": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "f7c8da955067e7ecda9851c7fde7f760f2a6d66b"
+      }
+    },
+    "22.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "4590a0621cc8a1722a465fe9394a1d71f45d73c2"
+      }
+    },
+    "22.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jre22.0.1+12-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "6c1090af6d775a5bd1c408bb8e28b6ab07c90915"
+      }
+    },
+    "22.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jre22.0.2+11-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "bdd6dced3982975482caf36891dd564c76e5d430"
+      }
+    },
+    "23.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jre23.0.1+13-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "d6ba02cebc15c9ed1b6768998bea52d608ddef90"
+      }
+    },
+    "23.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jre23.0.2+9-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "c1f9f137fd55f8c1a86a0e895cf83384ea4cb715"
+      }
+    }
+  },
+  "liberica-jre-full": {
+    "8.0.242": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u242+7/bellsoft-jre8u242+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "e3c36ac90d573f76a81e8913c6969b1e970beaff"
+      }
+    },
+    "8.0.252": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u252+9/bellsoft-jre8u252+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "69cd0e93dad3c6d3631fd28ec479db03556e474b"
+      }
+    },
+    "8.0.262": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jre8u262+10-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "52ae687dd4bdcd7944d1054d1e45eb0fd6931a1f"
+      }
+    },
+    "8.0.265": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u265+1/bellsoft-jre8u265+1-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "c3f92921d390536dfb128922a732ee53e30ccd31"
+      }
+    },
+    "8.0.272": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u272+10/bellsoft-jre8u272+10-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "66ed49692fcf14a3c033a2f24a93a3016c7508ea"
+      }
+    },
+    "8.0.275": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u275+1/bellsoft-jre8u275+1-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "32acd9a9dcc88283ecd44535a4e24327b1882f98"
+      }
+    },
+    "8.0.282": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jre8u282+8-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "e68e935aec8c77d80a239f39aae5ed17af02c968"
+      }
+    },
+    "8.0.292": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u292+10/bellsoft-jre8u292+10-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "aa073f41199142909f4bc2c165aa0de830c14593"
+      }
+    },
+    "8.0.302": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jre8u302+8-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "b40771bd1a1d00ce2b4a9164af7b2e87faf5c122"
+      }
+    },
+    "8.0.312": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jre8u312+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "8f9e1d145640acc49fa1a9ed91293c525d195039"
+      }
+    },
+    "8.0.322": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jre8u322+6-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "01787aba9a84fc9adeeba76152147b6ab7315dac"
+      }
+    },
+    "8.0.332": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jre8u332+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "eff55cb1743ec995df9703a620d285621b81b2e4"
+      }
+    },
+    "8.0.333": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jre8u333+2-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "8d79ab19ad189c902d5a3e7c69f4628a817a4c0a"
+      }
+    },
+    "8.0.342": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u342+7/bellsoft-jre8u342+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "439d0e7764fc1be6971ebd17e9f6ca8c562aa059"
+      }
+    },
+    "8.0.345": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u345+1/bellsoft-jre8u345+1-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "47db0a7f6f4186c908d36bfa83beac5109dc91f3"
+      }
+    },
+    "8.0.352": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u352+8/bellsoft-jre8u352+8-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "ddf7a396b076c007432ff889fafb67175a0f54d1"
+      }
+    },
+    "8.0.362": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u362+9/bellsoft-jre8u362+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "c8ad2fe0df83215f3f249908a9ba9b8082eb3afb"
+      }
+    },
+    "8.0.372": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u372+7/bellsoft-jre8u372+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "05ba8a79f10bc7ec3febd174d090377e9c151cc3"
+      }
+    },
+    "8.0.382": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jre8u382+6-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "33373ca8a60efd22ae68b948cf13dc7e117ae08d"
+      }
+    },
+    "8.0.392": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jre8u392+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "fc4e961aa27be1cd2d167dcca084097d9b468cd3"
+      }
+    },
+    "8.0.402": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jre8u402+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "568fef159ebb619c520c18a0a705b33d5dd66b24"
+      }
+    },
+    "8.0.412": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jre8u412+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "95f9131635b7bfc4240c5a2d3e4e8ea794604a00"
+      }
+    },
+    "8.0.422": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jre8u422+6-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "174656e1febbb84e8f40aaab364e3c1ce664adb9"
+      }
+    },
+    "8.0.432": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u432+7/bellsoft-jre8u432+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "6dc4c043861a470b6d9521fd7eea126926a5f648"
+      }
+    },
+    "8.0.442": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u442+7/bellsoft-jre8u442+7-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "806f1065be6b0f5501260975856a0e032d46bead"
+      }
+    },
+    "8.0.452": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jre8u452+11-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "bc18cd3d85d37134f7ca76b1f42e10dbfa842f6b"
+      }
+    },
+    "8.0.462": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jre8u462+11-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "fb139100fce48049c5dec8e6ba2281550cee992d"
+      }
+    },
+    "8.0.472": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jre8u472+11-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "87b93eb5c640e681ab4f53eab22317314e38f470"
+      }
+    },
+    "8.0.482": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jre8u482+10-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "b3a67bf2adfe303af6c9d9e9360150e6f192aede"
+      }
+    },
+    "8.0.492": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u492+9/bellsoft-jre8u492+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "f527f2d3d57469b91dd01095e71c616cfff685e6"
+      }
+    },
+    "8.0.502": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u502+9/bellsoft-jre8u502+9-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "c08f6af39dff4fb06c5ebd5323a93a2e39e9c2e0"
+      }
+    },
+    "8.0.504": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jre8u504+1-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "c487c2e6f8ce861977def78651be98351340f8fb"
+      }
+    }
+  },
+  "liberica-lite": {
+    "8.0.302": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "977f5a3ae183035bca3554f451abd2f7243f4c60"
+      }
+    },
+    "8.0.312": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u312+7/bellsoft-jdk8u312+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "7a1987f7069466d23016542ae09dba5acdcc656a"
+      }
+    },
+    "8.0.322": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u322+6/bellsoft-jdk8u322+6-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "f6bb1e4dcd14da9822b8f743800ffff3ad513cd6"
+      }
+    },
+    "8.0.332": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u332+9/bellsoft-jdk8u332+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "e7cc501ba164c36dd109b6dc9ef739e061c354c0"
+      }
+    },
+    "8.0.333": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u333+2/bellsoft-jdk8u333+2-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "275158a28f42ca0e565585d660c3aeb5a17db83d"
+      }
+    },
+    "8.0.342": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u342+7/bellsoft-jdk8u342+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "164c035fa2cef57fa68e4e0260ea5115a8a8ebcb"
+      }
+    },
+    "8.0.345": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u345+1/bellsoft-jdk8u345+1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "c1ce6354e470c8737965459bd3741f9a58d0d68a"
+      }
+    },
+    "8.0.352": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u352+8/bellsoft-jdk8u352+8-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "f2b8ec40614213f8b8ff3eea2d837f959ffad9a4"
+      }
+    },
+    "8.0.362": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u362+9/bellsoft-jdk8u362+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "16cd869d6936d96ff1d0b0675999531fb96b1221"
+      }
+    },
+    "8.0.372": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u372+7/bellsoft-jdk8u372+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "0b8e57c0429482f69d0d94e47a7d9066e48d5344"
+      }
+    },
+    "8.0.382": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u382+6/bellsoft-jdk8u382+6-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "ab5f5faf65a87cc556f67dafc5f8e1f665c87a1b"
+      }
+    },
+    "8.0.392": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u392+9/bellsoft-jdk8u392+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "ed2f29e9b9795aa73da5abecbcbad7fa8c7c1342"
+      }
+    },
+    "8.0.402": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u402+7/bellsoft-jdk8u402+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "75499c8302c8bc6db27e47071bef9a034fd65a87"
+      }
+    },
+    "8.0.412": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u412+9/bellsoft-jdk8u412+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "89b43f74f04a48cf02f21563c03a02fbd909a1c2"
+      }
+    },
+    "8.0.422": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u422+6/bellsoft-jdk8u422+6-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "52541556410810c84d5ad7a1cf7e86326edacf1f"
+      }
+    },
+    "8.0.432": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u432+7/bellsoft-jdk8u432+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "0edf1ec7a1055bdc0c85c7ef53b6b68fb0206e7e"
+      }
+    },
+    "8.0.442": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u442+7/bellsoft-jdk8u442+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "3c144ef0c74097c8b19380f3df24df43a1839aa8"
+      }
+    },
+    "8.0.452": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u452+11/bellsoft-jdk8u452+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "88fb28ee1f77d1b279382f7e7db836ab31cad1e5"
+      }
+    },
+    "8.0.462": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u462+11/bellsoft-jdk8u462+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "b0ce5c6828c26501776a94c2d98412bcd84ee3b4"
+      }
+    },
+    "8.0.472": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u472+11/bellsoft-jdk8u472+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "3025cddb5058d884f79eb0069abdf71fec17a42a"
+      }
+    },
+    "8.0.482": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u482+10/bellsoft-jdk8u482+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "23304086908d802d17f7246df7666c1bd446f45d"
+      }
+    },
+    "8.0.492": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u492+9/bellsoft-jdk8u492+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "096584eab3b62d731d68d4184ad577c1c2968d40"
+      }
+    },
+    "8.0.502": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u502+9/bellsoft-jdk8u502+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "665d7803f1b9c52293bcf13cdadbb885704907e1"
+      }
+    },
+    "8.0.504": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jdk8u504+1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "fabd6a92a0f163b5df8ed68d370014ed4a85ce66"
+      }
+    },
+    "11.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.3/bellsoft-jdk11.0.3-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "6a7ee30a92ae675289fbe59566c4006d0808eb93"
+      }
+    },
+    "11.0.4": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.4/bellsoft-jdk11.0.4-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "836eb2fd2c59bc53746964e0bacc0c8b833107cf"
+      }
+    },
+    "11.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jdk11.0.5+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "ef3904f1b6538716c4497942922642ef11045f7a"
+      }
+    },
+    "11.0.6": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jdk11.0.6+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "a4b7f6ae148b351584e8cbb150163b10333b9cc6"
+      }
+    },
+    "11.0.7": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.7+10/bellsoft-jdk11.0.7+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "689c4a7477973dc79111130351717625fce22469"
+      }
+    },
+    "11.0.8": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.8+10/bellsoft-jdk11.0.8+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "e834bac6ea44beeffc21bce0c69ca0379124ac87"
+      }
+    },
+    "11.0.9": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "5853cdfecf4d3bb8bceda844be764474221207a1"
+      }
+    },
+    "11.0.10": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "b6a504b1b5534893fc0ca11462d4ca23b5ef5149"
+      }
+    },
+    "11.0.11": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "7b819a3d32f0ed0da1de0244b780153776a3d316"
+      }
+    },
+    "11.0.12": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.12+7/bellsoft-jdk11.0.12+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "580caf1b1df50848c51d90b08fcfcb58307e0232"
+      }
+    },
+    "11.0.13": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.13+8/bellsoft-jdk11.0.13+8-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "c676c513dd6ff948aceb93ce07363a7c2492c1bd"
+      }
+    },
+    "11.0.14": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14+9/bellsoft-jdk11.0.14+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "0ffb692220725ad09388d886bc13b456a91da7ea"
+      }
+    },
+    "11.0.15": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "c61028d9eee41469609d6c7ea8f73df6e841b099"
+      }
+    },
+    "11.0.16": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "a126e1c179d99e5e855ae4c9388360a6b87acd7e"
+      }
+    },
+    "11.0.17": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.17+7/bellsoft-jdk11.0.17+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "591b8dd4de80ca6ab2a950181a7d42d6c19afa59"
+      }
+    },
+    "11.0.18": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.18+10/bellsoft-jdk11.0.18+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "7408136c32213573e2fc69a73bd026e83b22ca00"
+      }
+    },
+    "11.0.19": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.19+7/bellsoft-jdk11.0.19+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "d73a56403eefea5310e77a10584604c612924ebf"
+      }
+    },
+    "11.0.20": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "d0832a1cdef7b92525fb244c56b840dcf235e8a7"
+      }
+    },
+    "11.0.21": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.21+10/bellsoft-jdk11.0.21+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "2d3ef6b8b646b8512c5bc48a2a33c435976817b7"
+      }
+    },
+    "11.0.22": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.22+12/bellsoft-jdk11.0.22+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "7394782e248058dfec5caf01eee5fa9d3cf2b3d3"
+      }
+    },
+    "11.0.23": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.23+12/bellsoft-jdk11.0.23+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "9ef6813d78c32af6783628bed057aaed9d67e10e"
+      }
+    },
+    "11.0.24": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.24+9/bellsoft-jdk11.0.24+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "629cbeef14246ce74ecb60f21f39829e9802423f"
+      }
+    },
+    "11.0.25": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.25+11/bellsoft-jdk11.0.25+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "a44bb1e73a8dd587bd1720be6657118dddabbd21"
+      }
+    },
+    "11.0.26": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.26+9/bellsoft-jdk11.0.26+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "4ede1e58b4a985c0f2e965ac518c646142517032"
+      }
+    },
+    "11.0.27": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.27+9/bellsoft-jdk11.0.27+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "cae2ee3e051fa2da9dc000f3b239cad0a2dd09a6"
+      }
+    },
+    "11.0.28": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.28+12/bellsoft-jdk11.0.28+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "0d4769e0b69001119983d16485f25177f9ab0f3a"
+      }
+    },
+    "11.0.29": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.29+12/bellsoft-jdk11.0.29+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "220e10a52214e89bcff16fc9279145faca3fedd2"
+      }
+    },
+    "11.0.30": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.30+9/bellsoft-jdk11.0.30+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "ff84d2efc67f46f3cbcf647683d4a703f3bc54e2"
+      }
+    },
+    "11.0.31": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.31+11/bellsoft-jdk11.0.31+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "73887901f12a32574d61b6021dc7bcd6b798d2ff"
+      }
+    },
+    "11.0.32": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32+11/bellsoft-jdk11.0.32+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "bb56fef3152d6961a7d4f9a0ce6487899db5a5ca"
+      }
+    },
+    "11.1.9": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "57f05b1ff6ab3b2a647eaacdb56b9820ed72124d"
+      }
+    },
+    "11.1.14": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "129db2a4abab0acdda17d82cc74d781dfcdff9fa"
+      }
+    },
+    "11.1.15": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "11fa0782442812b1fec3febba60e89f200ac9a24"
+      }
+    },
+    "11.1.16": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "56424940c7e930a39f6490f854684d801db3a978"
+      }
+    },
+    "11.1.20": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "a6861d621a7d09fe7e15d685ad99a461c42f2579"
+      }
+    },
+    "11.1.32": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "7bbb07c47cacaffc2b25d66120f32b3465dffbd9"
+      }
+    },
+    "12.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/12/bellsoft-jdk12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "37cb400d0a048ec18cec9547109bc197448457d0"
+      }
+    },
+    "12.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/12.0.1/bellsoft-jdk12.0.1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "091453af29c2b0df77a1e340587784d6868bc287"
+      }
+    },
+    "12.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/12.0.2/bellsoft-jdk12.0.2-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "32ed0ea2c1bd4941ef5c8fb9cce0794580839143"
+      }
+    },
+    "13.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/13/bellsoft-jdk13-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "f8517d0672375d7a1b16a58be47fbceb7c219196"
+      }
+    },
+    "13.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.1+10/bellsoft-jdk13.0.1+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "74f6a88a3f9796172c9e3c21a71aab27336f3cc2"
+      }
+    },
+    "13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/13.0.2+9/bellsoft-jdk13.0.2+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "9983ff008935ed995c3248045d2e64aa43c408f8"
+      }
+    },
+    "14.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/14+36/bellsoft-jdk14+36-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "489155b16e2d45d015e4b5a3c610de77b95fb97a"
+      }
+    },
+    "14.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/14.0.1+8/bellsoft-jdk14.0.1+8-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "1dc071b7883d0efa00148d1b83cf8d564404fc62"
+      }
+    },
+    "14.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/14.0.2+13/bellsoft-jdk14.0.2+13-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "bf0c7405bc4032620b6a9e09af0d13df999ad4ea"
+      }
+    },
+    "15.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/15+36/bellsoft-jdk15+36-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "61545de6dccc6cf6a135b04df2ad26eea90e104c"
+      }
+    },
+    "15.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.1+9/bellsoft-jdk15.0.1+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "4e2dd59038e5c0bf8d32ea9b5dee9593da2bd459"
+      }
+    },
+    "15.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/15.0.2+10/bellsoft-jdk15.0.2+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "ed228cd508ee189114fc893760ee01c48f008f20"
+      }
+    },
+    "16.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/16+36/bellsoft-jdk16+36-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "40ad9a96230ffa8e6f65bf40e211d5e19465aa9f"
+      }
+    },
+    "16.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.1+9/bellsoft-jdk16.0.1+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "2039cf7bf78de3c7144b1705dbc1af229bb95958"
+      }
+    },
+    "16.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/16.0.2+7/bellsoft-jdk16.0.2+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "227825e2b36c04ffff9d8b0fa133e44952f77deb"
+      }
+    },
+    "17.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17+35/bellsoft-jdk17+35-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "d9c92633077030f035c428e8257ba0834f0c15c3"
+      }
+    },
+    "17.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.1+12/bellsoft-jdk17.0.1+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "2ca1a5345f40c3a7edad7f8cd9924ad3a8092f8f"
+      }
+    },
+    "17.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.2+9/bellsoft-jdk17.0.2+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "2f2fd3df977133297b1a1c77a94b707dc75c5be5"
+      }
+    },
+    "17.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3+7/bellsoft-jdk17.0.3+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "5a7254a86b8afcbfb85bec44ea8d49609778e763"
+      }
+    },
+    "17.0.4": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "7b127293829df9f2189466c81c79f626d60eaf47"
+      }
+    },
+    "17.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.5+8/bellsoft-jdk17.0.5+8-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "50a4b71d9d2d2193e94e329cbae28a7d2e653305"
+      }
+    },
+    "17.0.6": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.6+10/bellsoft-jdk17.0.6+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "f7df03ce4e91d0a37ce42ca5415c560e53b52340"
+      }
+    },
+    "17.0.7": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.7+7/bellsoft-jdk17.0.7+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "c5c917d85f84eaaf50f3ba33ce61cb207fab0643"
+      }
+    },
+    "17.0.8": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "9cbf5925ebfea69177a6a807338e227acc783779"
+      }
+    },
+    "17.0.9": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.9+11/bellsoft-jdk17.0.9+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "3de1f00dd7ac927f3025db45486b12dfbd5b9a39"
+      }
+    },
+    "17.0.10": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.10+13/bellsoft-jdk17.0.10+13-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "11251bc05ac5496f6c9e7832d52f2393c2c58099"
+      }
+    },
+    "17.0.11": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.11+12/bellsoft-jdk17.0.11+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "afe5beb8a32f0a99c4179fafbffeaf2d59e44f2a"
+      }
+    },
+    "17.0.12": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.12+10/bellsoft-jdk17.0.12+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "26bfabfcdeea9ad80e096bd3904e176df3ef87ff"
+      }
+    },
+    "17.0.13": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.13+12/bellsoft-jdk17.0.13+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "1da7ae31cc9e490cda96913c20ac7c7a7816ed61"
+      }
+    },
+    "17.0.14": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.14+10/bellsoft-jdk17.0.14+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "583dcedb2056486ea47faeaf7db75d952d9f2b6a"
+      }
+    },
+    "17.0.15": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.15+10/bellsoft-jdk17.0.15+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "5f19d7f0d5427bf70612a381ba675c4645773f03"
+      }
+    },
+    "17.0.16": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.16+12/bellsoft-jdk17.0.16+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "16248a432e7624f1b9e33341fa88b56cd6d94aaf"
+      }
+    },
+    "17.0.17": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.17+15/bellsoft-jdk17.0.17+15-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "a6547b28e5b3d2168a9d4ebabcfef4f7465f4f02"
+      }
+    },
+    "17.0.18": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.18+10/bellsoft-jdk17.0.18+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "193b04f1a12b182a0e227167a7002771684e795d"
+      }
+    },
+    "17.0.19": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.19+11/bellsoft-jdk17.0.19+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "daab54134c18f7e29bc462fafffb0e86badafde3"
+      }
+    },
+    "17.0.20": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20+10/bellsoft-jdk17.0.20+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "c355009f8fd9320f85a5fca585b746521ddb7e2f"
+      }
+    },
+    "17.1.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "77f5ca12661c717a7c16954dc0ae25cc0181a7f5"
+      }
+    },
+    "17.1.4": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "076ac3953fd126d9f53f97f19f3923e4a70b036a"
+      }
+    },
+    "17.1.8": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "297fcddead950ee69ab6821c38707f42702a540c"
+      }
+    },
+    "17.1.20": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "38d303fea198d127b859cc79a663ff4bdf29f24e"
+      }
+    },
+    "18.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "a449913ad90e9f8c54cd7f09185f0412993075b3"
+      }
+    },
+    "18.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1+12/bellsoft-jdk18.0.1+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "315fd6f961d189a5eaf7959d130d7931bd636032"
+      }
+    },
+    "18.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "18ac79bc0de349afd18ae73463addfe33a828d70"
+      }
+    },
+    "18.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "b6baff07a0b383e6648d2c4a51888a8186b8559f"
+      }
+    },
+    "18.1.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "e05c3012c4eb2d8988bf52ce568549bbe014878f"
+      }
+    },
+    "19.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/19+37/bellsoft-jdk19+37-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "484e76b4e3165a32e405a3d34a3fca753639aebb"
+      }
+    },
+    "19.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.1+11/bellsoft-jdk19.0.1+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "5f56b9053fb4236e75501f3751994aa7645c82af"
+      }
+    },
+    "19.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/19.0.2+9/bellsoft-jdk19.0.2+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "951125c7f322e852b0c67228cf3be60ec7571f1c"
+      }
+    },
+    "20.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/20+37/bellsoft-jdk20+37-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "8dcebbeafcc9a515ade581954e7eb50cac3fac79"
+      }
+    },
+    "20.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.1+10/bellsoft-jdk20.0.1+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "108569f9f51c639792a2c5a1235783cf1e3085bd"
+      }
+    },
+    "20.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/20.0.2+10/bellsoft-jdk20.0.2+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "90d7b8902b168a4fb9067745efa78ca1b7f8e1e3"
+      }
+    },
+    "21.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21+37/bellsoft-jdk21+37-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "4589185adab223adba0dfcd88ee909f1b238a903"
+      }
+    },
+    "21.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jdk21.0.1+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "c7c0ee300f2cbdd34ba1b2b16facdfa98aac7064"
+      }
+    },
+    "21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.2+14/bellsoft-jdk21.0.2+14-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "bdff5bb7bdab0dd91f97832c71776767dd61994e"
+      }
+    },
+    "21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.3+12/bellsoft-jdk21.0.3+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "733f0bf1b4a0282044967788d5ffe103922f3c47"
+      }
+    },
+    "21.0.4": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.4+9/bellsoft-jdk21.0.4+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "32651fd43d99f4f24aaf7474a8bd7b581113aca4"
+      }
+    },
+    "21.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.5+11/bellsoft-jdk21.0.5+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "cf339fd944424fad466c6c28ddf14c59611b3e61"
+      }
+    },
+    "21.0.6": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.6+10/bellsoft-jdk21.0.6+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "471129591b04ced63f63e73b5801b6e9f815fd27"
+      }
+    },
+    "21.0.7": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.7+9/bellsoft-jdk21.0.7+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "202549191b6adc0c75f83c6ac566f91ff1d5f227"
+      }
+    },
+    "21.0.8": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.8+12/bellsoft-jdk21.0.8+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "e1de9ae0d43383d36467483d1da569a0118a101c"
+      }
+    },
+    "21.0.9": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.9+15/bellsoft-jdk21.0.9+15-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "f8173df85005b7b019ee4bb5417b9d0193020cee"
+      }
+    },
+    "21.0.10": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.10+10/bellsoft-jdk21.0.10+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "15145f30f2e44aa6a327cba26c30e8ff1d1b0575"
+      }
+    },
+    "21.0.11": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.11+11/bellsoft-jdk21.0.11+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "59eba53df514943a07ae23b4d594a2e3196c3a79"
+      }
+    },
+    "21.0.12": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12+10/bellsoft-jdk21.0.12+10-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "39911482990f71d000fe1b9053230eff5529c785"
+      }
+    },
+    "21.1.12": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "99bf170abe01c5722cd0f7c54e5745b9d0c52afd"
+      }
+    },
+    "22.0.0": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "c1bf95ae762ce7e5b3c767898a82af525d42c085"
+      }
+    },
+    "22.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.1+12/bellsoft-jdk22.0.1+12-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "fb2e5716d552c9fd9b2d7a6f3d4dadff9c456671"
+      }
+    },
+    "22.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/22.0.2+11/bellsoft-jdk22.0.2+11-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "5ff97920ce3b373dbf23b0807d68ff54832722e8"
+      }
+    },
+    "23.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.1+13/bellsoft-jdk23.0.1+13-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "afa2615feb169b40c44e072abc6ebc1b0cc287d1"
+      }
+    },
+    "23.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/23.0.2+9/bellsoft-jdk23.0.2+9-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "ba717ad9404a3f3472b7152de7d1eade4b545888"
+      }
+    }
+  },
+  "zulu": {
+    "7.0.262": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.38.0.11-ca-jdk7.0.262-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ca938bb49c131b9d842ca1d2a54475c5da70f7b8a95539bcaa49e23e5c3ab91a"
+      }
+    },
+    "7.0.272": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.40.0.15-ca-jdk7.0.272-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "168b0220c982c8e481441026603ae6349856b62af847b3e555919dcc86c28aa2"
+      }
+    },
+    "7.0.282": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.42.0.13-ca-jdk7.0.282-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "5053bf91a68f3df4089c5bfee0492dec73c5915a172aa9bb0994e5ab999f5a26"
+      }
+    },
+    "7.0.285": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.42.0.51-ca-jdk7.0.285-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "45eaf6b2b97b2d92b8e90c7932f4265e6fa2fb2fb5535f7be6cd9ba5e60dc56d"
+      }
+    },
+    "7.0.292": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.44.0.11-ca-jdk7.0.292-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1d40d532ef3dba3dec7b0d65b12a700d2e0fcb8a74496e169e6ddbea0950daef"
+      }
+    },
+    "7.0.302": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.46.0.11-ca-jdk7.0.302-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "0a9e8ba84b0f9dc6a93a87fc15085fa88a07cd373f16714e10877b6f06e891cd"
+      }
+    },
+    "7.0.312": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.48.0.11-ca-jdk7.0.312-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d8c4fa5d2546d6853c5316f9d8ee95e78f111cd28082d90f6414d7e47c7e813d"
+      }
+    },
+    "7.0.322": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.50.0.11-ca-jdk7.0.322-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "53402779719237d8eeeea2e72d12ac56071cc26139f8345fee5cc67ba1fef588"
+      }
+    },
+    "7.0.332": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.52.0.11-ca-jdk7.0.332-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "0250c4ef306605a425c89e17af7c466d7c507d6770ae75e539499218cb0a8578"
+      }
+    },
+    "7.0.342": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.54.0.13-ca-jdk7.0.342-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "3197e633b097dab805f2e2770add1f0a956b84bd6453aa5fb541f450c98ba25a"
+      }
+    },
+    "7.0.352": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.56.0.11-ca-jdk7.0.352-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "8aabe41f89615def0121d51b050af68dd501ecb7d99f9c788cdd95d5fa466b1f"
+      }
+    },
+    "8.0.153": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.25.0.3-jdk8.0.153-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1a12eae6d8497ec001d1fbbc7dad68d1c2c687d52cf28671b427ff788c1c6ef8"
+      }
+    },
+    "8.0.162": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.27.0.7-ca-jdk8.0.162-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "93530a63891864612c0fd75085cc8b49ed973f03c6c0557783175443605e536e"
+      }
+    },
+    "8.0.163": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.28.0.1-ca-jdk8.0.163-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ebea832f7386d316a9029e38c47d3caa290c6765cf020c57f498522f9ee2004b"
+      }
+    },
+    "8.0.172": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.30.0.1-ca-jdk8.0.172-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d31277ea99a5db28821bf04b8b60a7ce7cab53cf4f569bc1c19b262831996f14"
+      }
+    },
+    "8.0.181": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.31.0.1-ca-jdk8.0.181-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "11c96c4befafe519727a72d1e54545a80d52cd16170f8a72964c9d19cba9ca31"
+      }
+    },
+    "8.0.192": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.33.0.1-jdk8.0.192-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "dc08383e76e2c6e7b02359871bedfd8fc88213b494c3aa9108c259f99795ddf8"
+      }
+    },
+    "8.0.201": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.34.0.1-ca-jdk8.0.201-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "7202d77a485d16446aa9b111f349a986b33e16587012fc7670e1aa0c28fa716c"
+      }
+    },
+    "8.0.202": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.36.0.5-ca-jdk8.0.202-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "7e881a0560f727fe2ef66cac92ffc152515fca77556d7f6b5efbce05dfab665e"
+      }
+    },
+    "8.0.212": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.38.0.13-ca-jdk8.0.212-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "46510895f56f6a0ac2ab4912620f1af79a7ae72cad6b13037c2cdead8d91b5c2"
+      }
+    },
+    "8.0.222": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.40.0.25-ca-jdk8.0.222-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "180ec76456417a88c7603147f91261694389e42097c012075629326d0931e978"
+      }
+    },
+    "8.0.232": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.42.0.21-ca-jdk8.0.232-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "dcc345fc5312aeb88e42f7946b70970b6c80f408baf1c5bf0b6d9212b5fd578a"
+      }
+    },
+    "8.0.242": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.44.0.9-ca-jdk8.0.242-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "3d9c8fd14560d92ef21c0c09995168a7ab41a20d5ef6cae3b870a073a0f1ea36"
+      }
+    },
+    "8.0.252": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.46.0.19-ca-jdk8.0.252-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "bba0ec1606823515172e3eee9fcaa9ea29d51be49ee903c4b1e708af3e60a29f"
+      }
+    },
+    "8.0.262": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.48.0.51-ca-jdk8.0.262-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "7ca151fdafb7c9ee6191c1b68fed19ae4ac6e5d33b2f58fe29dad1fcc3611fd0"
+      }
+    },
+    "8.0.265": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.48.0.53-ca-jdk8.0.265-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "4ec1407cd2af589331558a3f4be225725f8ed2be4c2c75a8453222ff1a66c3fa"
+      }
+    },
+    "8.0.272": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.50.0.21-ca-jdk8.0.272-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "103756af3b8531497a63d481932c6b609bb93b1a6bf2c09c7a17f8381666dc81"
+      }
+    },
+    "8.0.275": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.50.0.51-ca-jdk8.0.275-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "f96342def10ce5d6f5b9e3048de31064167f6f364e5f976464749c2dbc63a63d"
+      }
+    },
+    "8.0.282": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.52.0.23-ca-jdk8.0.282-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d68bd05d36a4da4774a5211eaca2870eda632410df19fe1dabb5adf9906c54c3"
+      }
+    },
+    "8.0.292": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.54.0.21-ca-jdk8.0.292-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "088012d877f8d080d4e728df918ef16bc73a5aa89f6dee31c0d3ede21284dfe5"
+      }
+    },
+    "8.0.302": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.56.0.21-ca-jdk8.0.302-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "e8775ed63daf12e4c481d4a26b3b849e0caefc5ecec3534c2de18df72d1662aa"
+      }
+    },
+    "8.0.312": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.58.0.13-ca-jdk8.0.312-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "3718a47bb272c93a3eb0cb9a44ec571aa95799ca6e0f998e668aec6ef925744b"
+      }
+    },
+    "8.0.322": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.60.0.21-ca-jdk8.0.322-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "52c76aa10203cad319d5737076ccadef95ba345cf6a1b097f0358e0683f9b0aa"
+      }
+    },
+    "8.0.332": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.62.0.19-ca-jdk8.0.332-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "9a755765d58e4d8ab14cf080a206815c7070cc719086f1fe41a22cdbf1374b05"
+      }
+    },
+    "8.0.342": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.64.0.15-ca-jdk8.0.342-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1e45717ce5ccda529bafd791036d02e2a5a1084e6da8030ed0f344b01a59f549"
+      }
+    },
+    "8.0.345": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.64.0.19-ca-jdk8.0.345-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "87ee29b0dd1d16e98b12ec55f5351d4001ba30d686fa5fccb67ca04f6db94496"
+      }
+    },
+    "8.0.352": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.66.0.15-ca-jdk8.0.352-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "4c2f52f43aae28c70c44064382db062f2cf55dd22d7aeb960f56e5c5873c4720"
+      }
+    },
+    "8.0.362": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.68.0.21-ca-jdk8.0.362-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "a34e3817ce709cb3fc0bd1f9a37c8c22b1392a2a91b108464c09bf20ee6dbb62"
+      }
+    },
+    "8.0.372": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.70.0.23-ca-jdk8.0.372-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "9ab5b252a8287a39f2cddac9c5d931e5179a4e2f298de5060d2ee2e76868c017"
+      }
+    },
+    "8.0.382": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.72.0.17-ca-jdk8.0.382-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "13d44f00a96221a5f486c38a32d6f8a2e407d3d391993db1eea4c2eb9c7d2a66"
+      }
+    },
+    "8.0.392": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.74.0.17-ca-jdk8.0.392-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "bf49bdeae46ecba5035eac8790c9ac0521bfbf3393389e9a432d658abd71e26b"
+      }
+    },
+    "8.0.402": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.76.0.17-ca-jdk8.0.402-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "f3cfd84b0d16564f4b176a6c416a7d89d72e5537626bb9083586afbdb938a34b"
+      }
+    },
+    "8.0.412": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jdk8.0.412-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "5e0e76819c6462fc6038dd8589c2d85833da2fa7c728eda8c201937b3ce7a354"
+      }
+    },
+    "8.0.422": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.80.0.17-ca-jdk8.0.422-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "dfdd8dab11640b93bc3df5cc06cf964e02a67f2f0a5baf28d9d7f8b2f66e7b18"
+      }
+    },
+    "8.0.432": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.82.0.21-ca-jdk8.0.432-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "b5358cebc351d859077819d69411e91f15d75654afadb361e31962472cbebc49"
+      }
+    },
+    "8.0.442": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.84.0.15-ca-jdk8.0.442-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "8faf02ad698373d24b71e35640fef1a0086c5ed6fe8fa3c18abec3348cdcf812"
+      }
+    },
+    "8.0.452": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.86.0.25-ca-jdk8.0.452-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "506e2865fd390adb230360a12c075fd10aee78a297f04a39d372ba15e44f743d"
+      }
+    },
+    "8.0.462": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.88.0.19-ca-jdk8.0.462-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "3e611b22e86c3de6c5ac15b7e0f51171f29fdd31bb81f08faaae2c9970f59e29"
+      }
+    },
+    "8.0.472": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.90.0.19-ca-jdk8.0.472-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "396ae342a40766657585c09cef68f4baa2427029d17ea70644788a3b1d3de5c7"
+      }
+    },
+    "8.0.482": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.92.0.19-ca-jdk8.0.482-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "a1ff064b7d8c79b2f2f1448f1e7c5f93909bd76d2495dffad579e8e662ca461d"
+      }
+    },
+    "8.0.492": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.94.0.17-ca-jdk8.0.492-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "245127d7752d231713a980418befdb9ca29ee86302e4c9846586ad8a4c43f50d"
+      }
+    },
+    "8.0.502": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.96.0.19-ca-jdk8.0.502-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "f0afe30e623593c12dafd761f15175702f0cd26d7c82f93539b3d8501f95a51a"
+      }
+    },
+    "8.0.504": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.96.0.205-ca-jdk8.0.504-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "a4797bc4a1d19c286f69fe7ac7d5f9dd2da7919a0bbd9e892fe83c9063391af1"
+      }
+    },
+    "9.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu9.0.1.3-ca-jdk9.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "0809f46c91ec83a259d93edd4fbcc16c0fabec739b6691a1cd68f079ee944bad"
+      }
+    },
+    "9.0.4": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu9.0.4.1-jdk9.0.4-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d2725191d794b328b82500286cf39e1a0296736abd810729221a541e2d23f50b"
+      }
+    },
+    "9.0.7": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu9.0.7.1-jdk9.0.7-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "3b1a013c7e04e3301c93998a3bac5aec96fcf9415410853b4fe4cfcfcda0503a"
+      }
+    },
+    "10.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu10.2+3-jdk10.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "4f6ccc37f3f200063d897deaac372faf022be2a173485e428def7c030b265de7"
+      }
+    },
+    "10.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu10.3+5-jdk10.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "8d02f273df518477905fe79dbfefe8850ae6ee1428788576199af6891f5151eb"
+      }
+    },
+    "11.0.6": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.37.17-ca-jdk11.0.6-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "75da3ec61e9c18d7763f132fb04269a92a850778251cbbc39d98d7140201c1b4"
+      }
+    },
+    "11.0.7": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.39.15-ca-jdk11.0.7-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "2aa639a44575fcc8c7997dac1d9c1d622b0d57e8498ddd71497906b25d5d2e60"
+      }
+    },
+    "11.0.8": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.41.23-ca-jdk11.0.8-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d8f0b64b06577f03f8b9892d38234d6e56b41efea9941f83e376f5228506d17b"
+      }
+    },
+    "11.0.9": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.43.21-ca-jdk11.0.9-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "b34aad4754b626016f93f6badd733019445d1e68d1a828acb85f08415a622272"
+      }
+    },
+    "11.0.10": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.45.27-ca-jdk11.0.10-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1656bf4d3ba11ecd277c3d684de3da5b465cbd85b359f5ca664e5412d8554400"
+      }
+    },
+    "11.0.11": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.48.21-ca-jdk11.0.11-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "620f49eb34f9144fa6c93625e86b3c21504ea5d8bbf9a7924d84fda0bdaac347"
+      }
+    },
+    "11.0.12": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.50.19-ca-jdk11.0.12-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d063cb6c0f4f5530d30073894baebb7475801e865ea83915e78017f88d84fca0"
+      }
+    },
+    "11.0.13": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.52.13-ca-jdk11.0.13-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "fd64644c815875e5a3e6f009fcfd3972f17afd724c280daf8d6d27c66cf8c6a9"
+      }
+    },
+    "11.0.14": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.54.23-ca-jdk11.0.14-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "50b420f9b39eea76244e32e5abb18ae12646e4bddc035b2fdaca8d3cb48d8d52"
+      }
+    },
+    "11.0.15": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.56.19-ca-jdk11.0.15-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1ee1654aa592f48ce2920092638d70bee4b6997dc42cf629a9717fb11e468d58"
+      }
+    },
+    "11.0.16": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.58.17-ca-jdk11.0.16-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "efd9e90435a836c49d368293375bcafdecc9f7b1d96f697d6024579bd258d206"
+      }
+    },
+    "11.0.17": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.60.19-ca-jdk11.0.17-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "78ce988091f50a1f153909770872ad8e514d447ba663e6de688a82c9884ce6c2"
+      }
+    },
+    "11.0.18": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.62.17-ca-jdk11.0.18-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "f79c37ff6873f0eb3b82cf1e8bc302ee078c658631eade9d6ba9bdc69728e113"
+      }
+    },
+    "11.0.19": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.64.19-ca-jdk11.0.19-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "80ce9d9eb1dcd313b2393fa847f244b69af50f08fc0e38ad7b66cc845ee1f455"
+      }
+    },
+    "11.0.20": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.66.15-ca-jdk11.0.20-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "0589901c9311cfa570961a88717aae058b5839f3aef17bd98692f4b2e273292d"
+      }
+    },
+    "11.0.21": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.68.17-ca-jdk11.0.21-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "e0a8e9d8a8f5bab7caeab347fa9934761de79cb91967a9f8582f901b6b606eda"
+      }
+    },
+    "11.0.22": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.70.15-ca-jdk11.0.22-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "e48c8060de5d4c4e2c1be476fcc57f22c77df3195ecdeba3049674d9922491a7"
+      }
+    },
+    "11.0.23": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jdk11.0.23-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "57237463f815b7fe4e3ca330f483a7660ac5c1c099c908d93f5dc65ec039c86d"
+      }
+    },
+    "11.0.24": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.74.15-ca-jdk11.0.24-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d6e9f14562b6a6b89e37bc740e0700de8f831e81a64ce701ab0c5d6ba4fc1b71"
+      }
+    },
+    "11.0.25": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.76.21-ca-jdk11.0.25-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "dec3dd696bab39869a52cbd6f6e019dd80cae7db2e9ecb4feaad1da35eee5398"
+      }
+    },
+    "11.0.26": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.78.15-ca-jdk11.0.26-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "9b4fdfaf72bf0bee23404ce670189572b757010e3d8de2c8ba6fbc2516ecfcec"
+      }
+    },
+    "11.0.27": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.80.21-ca-jdk11.0.27-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ab9f52bba51e27dcb0aa2147ef4eb1bea7f6f5293d1a37bd12989af8a8375911"
+      }
+    },
+    "11.0.28": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.82.19-ca-jdk11.0.28-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "b9ea10d17ba97fce306d530b0119b2090824c698f7c1ae139cf7946e53e02611"
+      }
+    },
+    "11.0.29": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.84.17-ca-jdk11.0.29-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "91f8c36c1967dec2fb8f0893a22c4c20d54a271f738f64a2bf5a9294e1b3d603"
+      }
+    },
+    "11.0.30": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.86.19-ca-jdk11.0.30-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "4a87875925a64b640f18ca9cc70baf7054d8c2642e3f749102b1ba139cb1c25c"
+      }
+    },
+    "11.0.31": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.88.17-ca-jdk11.0.31-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "cb202387ec3a53be729750d969e63f045f124cb9f40d7e1295e1c0cde47a0978"
+      }
+    },
+    "11.0.32": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jdk11.0.32-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ae6de7be808501d85e1adb2f7e93d22ad05eb4028ee26502d274ec2eff7f1aa5"
+      }
+    },
+    "12.0.0": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu12.1.3-ca-jdk12.0.0-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "cb2ec1fcbb34f58d4143e2138357bf0f6e204a103a93c6bf5961e7f4a10c96e6"
+      }
+    },
+    "12.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu12.2.3-ca-jdk12.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "b706875164fdf9f4ef32fb6fab0d5d1ea28b95dc6cafb2123ddd2e1fb29ea8c9"
+      }
+    },
+    "12.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu12.3.11-ca-jdk12.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "57a7e66b1f85b00acceba6a8e8a18c091d4b90b4e938bb8e12b5016d470dae19"
+      }
+    },
+    "13.0.0": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.27.9-ca-jdk13.0.0-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "cf08df04c7e86e4f0547418ca8e162593e36784b11b811e9ccadd0801aa75656"
+      }
+    },
+    "13.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.28.11-ca-jdk13.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "8c134b1efa452409fa3ebf6bcef4df6fd521c8b2a0d1d68da7d3ffdcb5ab0c79"
+      }
+    },
+    "13.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.29.9-ca-jdk13.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "5a8b226d672bfcc27c5f44aa5fc20ce3ec4d8478f97448f89628297c882430b1"
+      }
+    },
+    "13.0.3": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.31.11-ca-jdk13.0.3-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "fc3a7961391c8604994e373b4492e01612dfb00bf7104782ab8796033f876df4"
+      }
+    },
+    "13.0.4": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.33.25-ca-jdk13.0.4-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "f16048df91a09ed6c039cf994de4af490445bf06580197fa746d583145baa4a2"
+      }
+    },
+    "13.0.5": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.35.17-ca-jdk13.0.5-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1b291e24eea6a7de53b260006e94247864c05290c6c048fa51cf9a4751afcb75"
+      }
+    },
+    "13.0.6": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.37.21-ca-jdk13.0.6-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "864b89c76fa1f7224eeaf398c4d2c270730b71eccdcf21f0e5e47257cebbd3fa"
+      }
+    },
+    "13.0.7": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.40.15-ca-jdk13.0.7-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "380ac13ad6dc30fbff62eac7ccb5d9cb006d13045bd3fd4e84cd2930f3a1790d"
+      }
+    },
+    "13.0.8": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.42.17-ca-jdk13.0.8-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "927029373b5326a4f5577bdc8606540cb753a4b3e7acf6d34d6de9a0bf4476a7"
+      }
+    },
+    "13.0.9": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.44.13-ca-jdk13.0.9-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "57f4fc2676d1bf6e50429897d045ce660514594f0303d2f0164a8daff8d48ad8"
+      }
+    },
+    "13.0.10": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.46.15-ca-jdk13.0.10-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "900fd39c37536cc48be43902fc16d0d65aa90e623081247551a2bf965efed8f6"
+      }
+    },
+    "13.0.11": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.48.19-ca-jdk13.0.11-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "2f52c9a91512f974ef6680e52f24d9728a1934ca965a840eaaae831181e765c6"
+      }
+    },
+    "13.0.12": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.50.15-ca-jdk13.0.12-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "660cb520bcd8150ca16265a10390af569dad22472b922e61be3855fb8e8cf860"
+      }
+    },
+    "13.0.13": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.52.15-ca-jdk13.0.13-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "c38c377435f72b1e062d99181f2327bc4f21fbf38c1cd962ac19540116ce356d"
+      }
+    },
+    "13.0.14": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.54.17-ca-jdk13.0.14-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "a4c851dd7b24c577c2489b56f91b0448a504add518e6edf5d3da82fa3ba565e3"
+      }
+    },
+    "14.0.0": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu14.27.1-ca-jdk14.0.0-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "751cfb6c439b718e8346357623e7882cd798ca4fb70a2efd23a712fcfd892d22"
+      }
+    },
+    "14.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu14.28.21-ca-jdk14.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "bc29244e547d5301ac2054d581cfefb37c33e427c58acc12b56fbb3c91ad3d60"
+      }
+    },
+    "14.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu14.29.23-ca-jdk14.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "e1111709c5fb1ecabff8080f7974ffba0b782246a77272f2fcbedd2d15adee45"
+      }
+    },
+    "15.0.0": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.27.17-ca-jdk15.0.0-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "387ac0c807dbe4e4772e61a1b5508cc700f57cb19f3cee2a80bc38caf3e6da32"
+      }
+    },
+    "15.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.28.51-ca-jdk15.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "97952dce54084f3831f229d856c5956197530473dce7031454ae93c87f73ce68"
+      }
+    },
+    "15.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.29.15-ca-jdk15.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ed80734ae91d86849a42a6131bffe9d00df685c2dfd2484109f71de7eda1e4b9"
+      }
+    },
+    "15.0.3": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.32.15-ca-jdk15.0.3-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ec4b79d40934836363c028c7e0872ddfb110d9fabf61f3f127c51614dffeee88"
+      }
+    },
+    "15.0.4": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.34.17-ca-jdk15.0.4-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "42b2aa94431ce863edbf8331b16f4995a7484d577566241fcaa5c2f4f6c76c98"
+      }
+    },
+    "15.0.5": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.36.13-ca-jdk15.0.5-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "37b5bde441d1b271c2277edafedd72ac8bc2f8513acb3bab81ec6abab2a9066a"
+      }
+    },
+    "15.0.6": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.38.17-ca-jdk15.0.6-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d09f5650fafd2cd6bc997c3f2db7eb980361a61894b0c2ab83d341e17a44645d"
+      }
+    },
+    "15.0.7": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.40.19-ca-jdk15.0.7-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ac0a73cb015485c73aa073b9e808dcea35f213ae21f35476457bcb80d5f0782f"
+      }
+    },
+    "15.0.8": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.42.15-ca-jdk15.0.8-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "655aaafc99dab91c0899837eee0fbee014600a3218997c60dc32a5d09a31b655"
+      }
+    },
+    "15.0.9": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.44.13-ca-jdk15.0.9-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "fff77fc7abb074623e34844cf58e6ec403d5b733f1867c959882958be6b5e42a"
+      }
+    },
+    "15.0.10": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.46.17-ca-jdk15.0.10-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "92e6cb731edaf72f848b6f65c0994cee2d02954d6644c24dc9f66383e1087415"
+      }
+    },
+    "16.0.0": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu16.28.11-ca-jdk16.0.0-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "59388921a64b61bbd065782626b8c4f64150dc59b0e2f09263d2fe42f39085f4"
+      }
+    },
+    "16.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu16.30.15-ca-jdk16.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "f36c9fef25022ddc6736815d79ddd5a5e7d0b00652cbbba0bcea912ed72ad5d0"
+      }
+    },
+    "16.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu16.32.15-ca-jdk16.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "2486eefac65b000e0f841c9787b27a260d1c7114fa13cf40499628426971805a"
+      }
+    },
+    "17.0.0": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.28.13-ca-jdk17.0.0-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "7a36fa1d03dbb2906832e0e4a25efe02e148305f7e14bcad51659c5f3fbb3341"
+      }
+    },
+    "17.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.30.15-ca-jdk17.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "31db6972e14c33f4f2136f3ea8fc016d2265d840b914bfbf6446473605aefdda"
+      }
+    },
+    "17.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.32.13-ca-jdk17.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "582611374e247ff751da7cf806413fdc5f765648b25f25c5e68fa287003f6a9a"
+      }
+    },
+    "17.0.3": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.34.19-ca-jdk17.0.3-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1c35c374ba0001e675d6e80819d5be900c4e141636d5e484992a8c550be14481"
+      }
+    },
+    "17.0.4": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.36.15-ca-jdk17.0.4-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d9a226e0942c4acbb21ea74e89dc7a075694b3a230bfb20134a0e3137edfb06f"
+      }
+    },
+    "17.0.5": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.38.21-ca-jdk17.0.5-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "4468c90b5c98b1d2989703617a3101fbe8b44234c7e7aed6b1de3394356e4345"
+      }
+    },
+    "17.0.6": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.40.19-ca-jdk17.0.6-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "7466df603829fd075298181c2a3adb11aadffa134746b9bb96e69c44e1844a3e"
+      }
+    },
+    "17.0.7": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.42.19-ca-jdk17.0.7-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "53a66b711d828deae801870143b00be2cf4563ce283d393b08b7b96a846dabd8"
+      }
+    },
+    "17.0.8": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.44.15-ca-jdk17.0.8-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "bc84c25f53f6961c5649f1fd363e944d48113ead07020ba90a2b3d53cea1b5eb"
+      }
+    },
+    "17.0.9": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.46.19-ca-jdk17.0.9-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "3ccac20693901dd61b26dd66e0f010c7c27b9e99463d06ee213de7085a1d4b2e"
+      }
+    },
+    "17.0.10": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jdk17.0.10-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "7d9e8ad489b8d09c8f58c09e5f42e19f1eb0a0aef55814f2c4bb1deedb34b543"
+      }
+    },
+    "17.0.11": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jdk17.0.11-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "6cbbae9dc7b2c1abd5a87bfd71890456080c68004bfa722c32957f6b2c307616"
+      }
+    },
+    "17.0.12": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jdk17.0.12-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "fd4cda7f9646a455fd8f511efb9e342306f2b3e3077aaa2cdb5ccd0172ede437"
+      }
+    },
+    "17.0.13": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.54.21-ca-jdk17.0.13-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ff43f023c73441f0b2f9a180a85a02a649ca89c0f28017a00e42c0ba2c3b1fa7"
+      }
+    },
+    "17.0.14": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.56.15-ca-jdk17.0.14-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "28d4797a883d886b00eb0c7225267920c51ccafec93d699427eca4feb138c63a"
+      }
+    },
+    "17.0.15": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.58.21-ca-jdk17.0.15-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "38f2538d74699eeb2dc6b2e599aa0e219af7508c9b52303b07c41c4294e48361"
+      }
+    },
+    "17.0.16": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.60.17-ca-jdk17.0.16-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "38c9435861639b21bbcd4cc5db4159ab10c16005a387bd7d4bda474f01bf777a"
+      }
+    },
+    "17.0.17": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.62.17-ca-jdk17.0.17-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "6f1e4c9a7c9924d0322505fadcabcd750a2bfc98f3b51cf39ddad92e6e05ec2e"
+      }
+    },
+    "17.0.18": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.64.15-ca-jdk17.0.18-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "473f89250a27f55d3490140565d881a1a3e5911d624bd4f791cf79e3c95d2f8c"
+      }
+    },
+    "17.0.19": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.66.19-ca-jdk17.0.19-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "e449f522be5fa4df98d80bbf92a2800a1270c5fef0b86b919cc2968a36339d53"
+      }
+    },
+    "17.0.20": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.68.17-ca-jdk17.0.20-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "fc51a5a4551c697a56324bf63052e76302d9491407a6bbf48a43f57a1e4f2e88"
+      }
+    },
+    "18.0.0": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jdk18.0.0-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "2128ed6c699fe020fbbc55aa039619f9cbfb9fd06a57615cb4c58fe188bdd6f2"
+      }
+    },
+    "18.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu18.30.11-ca-jdk18.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "51ddac7a5fb4ad52fb76cc01dfb1a3b117a53f32dccc9d335aaea32d63671ae2"
+      }
+    },
+    "18.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jdk18.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "425480c471d5400f8d622d4530fa7d6c8d92bc62253d3af7950ff8e08d27686c"
+      }
+    },
+    "19.0.0": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu19.28.81-ca-jdk19.0.0-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "2ad3386e696507b55245811b1d6bce3bdcd5b29e8cd19a0395615c2d8ebe2e64"
+      }
+    }
+  },
+  "zulu-jre": {
+    "7.0.262": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.38.0.11-ca-jre7.0.262-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "6b5e34d9bd77a110d501967db67c009773f1814a2817034e8053c43086fb09b8"
+      }
+    },
+    "7.0.272": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.40.0.15-ca-jre7.0.272-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "dcdb9665050065ae492f3a7c2eb3ac074b6a8aecd4dd43c0ad5174029b423703"
+      }
+    },
+    "7.0.282": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.42.0.13-ca-jre7.0.282-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "da1c66b1ee24f12d995ceabba1a3067c92db0c22c469f9146b37d7762a7cdbcf"
+      }
+    },
+    "7.0.285": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.42.0.51-ca-jre7.0.285-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "2717632d52f285b943200254de86233070739f5fbf0ccb5d4b033c6425627f22"
+      }
+    },
+    "7.0.292": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.44.0.11-ca-jre7.0.292-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "179045781b1e927ca0fba52b96fea3d929aedf9e24483f5802bdd16071449d0f"
+      }
+    },
+    "7.0.302": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.46.0.11-ca-jre7.0.302-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "2b2eb1eedba6a41535142a9a6614fe08092b0a84608591e1488cc649a552d7f2"
+      }
+    },
+    "7.0.312": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.48.0.11-ca-jre7.0.312-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "fb85155ff1cc234d22580a0a4008c58756cf68d94363a1a2202be7ceff73bb46"
+      }
+    },
+    "7.0.322": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.50.0.11-ca-jre7.0.322-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "e3fbe849633fd384e7d20e71bd53673f4bc6322e350af983237ed4f8ece86e2f"
+      }
+    },
+    "7.0.332": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.52.0.11-ca-jre7.0.332-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "15817d2f74853c0e39127aec0cce81e52250e9a227fa19336c68024768daf0f5"
+      }
+    },
+    "7.0.342": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.54.0.13-ca-jre7.0.342-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "5ef5948d13dd5aec47e1f2a617f03a384f3a01cab4c26b9de16d0719742eb4e9"
+      }
+    },
+    "7.0.352": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu7.56.0.11-ca-jre7.0.352-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "3397716174a9b6f019dec543bd30f0da3bf481351770de82bea95b8d94cf63b4"
+      }
+    },
+    "8.0.144": {
+      "url": "https://cdn.azul.com/zulu-embedded/bin/zre8.23.0.3-cp3-wr-jre8.0.144-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "5157c204a26597473877656c5e2a8899f4497df01a5b0b9804f5ce2f8bf154bd"
+      }
+    },
+    "8.0.212": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.38.0.13-ca-jre8.0.212-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "6d3b8b5237aab6e573bbfbd6a0964b4f7227679338647ddfc1718c498d4acfbf"
+      }
+    },
+    "8.0.222": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.40.0.25-ca-jre8.0.222-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "98a2198867e781654d90bc79394dda589a71e307cddc9feb939ee83da00ac9fd"
+      }
+    },
+    "8.0.232": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.42.0.21-ca-jre8.0.232-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "069b3624cd7a3ce6aa2b6c24c3180b369ce5f9a8878993d859f732075b3c185a"
+      }
+    },
+    "8.0.242": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.44.0.9-ca-jre8.0.242-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "b5d7dc0fd39177b22288e55174a4be0cb9e52b1a681072e4ae9ae9096c2edf80"
+      }
+    },
+    "8.0.252": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.46.0.19-ca-jre8.0.252-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "01e47bf6b59b7af59ad6bac0793b9761342aa7d46dee229f70970e80a14806fc"
+      }
+    },
+    "8.0.262": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.48.0.51-ca-jre8.0.262-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "25c36b269fa366fa3b2cd67a4345b4814cb41dfa38537efcec4a9c72464986e4"
+      }
+    },
+    "8.0.265": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.48.0.53-ca-jre8.0.265-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "dbda34e94b5c3e8d71cb4e5821f906a129f998f65b75a0e277f42e7a985dc8a7"
+      }
+    },
+    "8.0.272": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.50.0.21-ca-jre8.0.272-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "b928ef664831824d33605ed10fdddf26295c5fb31b40406fd5b22d8fb158bccb"
+      }
+    },
+    "8.0.275": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.50.0.51-ca-jre8.0.275-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "90e172956246961fd56e58c1d49bbac3f972e14aa304c293880a89f91e2f9cd1"
+      }
+    },
+    "8.0.282": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.52.0.23-ca-jre8.0.282-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "13e7343667951f967bc6fe794353e351167145ec085ef1942eaa141704b88da8"
+      }
+    },
+    "8.0.292": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.54.0.21-ca-jre8.0.292-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "5f6942cb73630b8fb35b713e30cbdd4bf27fd2a844d249df47dbfcadfc6e8209"
+      }
+    },
+    "8.0.302": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.56.0.21-ca-jre8.0.302-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "5733817e2c56c25b1b40b97b08bf49c7e999e1d9b6e85075a8373b9b10b70182"
+      }
+    },
+    "8.0.312": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.58.0.13-ca-jre8.0.312-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d76850b3a7cfd9930b26879ef89b89dc1f1f2de063504fdbce212c7facca7735"
+      }
+    },
+    "8.0.322": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.60.0.21-ca-jre8.0.322-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "dc0e07c4c7f00546b244d9685d595bf01e449641df5f3dde33ef39bf4cc648e1"
+      }
+    },
+    "8.0.332": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.62.0.19-ca-jre8.0.332-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d8ec59daa7fcb7e438887ef3d66599789b50197afe25eb548522e5077a567692"
+      }
+    },
+    "8.0.342": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.64.0.15-ca-jre8.0.342-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "cbd146573fb1220fb2b71776447c483da5f57ed8858cfd22714f487ffdaced15"
+      }
+    },
+    "8.0.345": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.64.0.19-ca-jre8.0.345-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "a7e51eee4b7f3a49e27f844ddffc170250fdc81825fe9b3d78901851810cf3c9"
+      }
+    },
+    "8.0.352": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.66.0.15-ca-jre8.0.352-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "cd3daf1432b1787429fe505187157f31a4d9cf4740a64a893afe7d5ef1fccb2d"
+      }
+    },
+    "8.0.362": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.68.0.21-ca-jre8.0.362-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "7559181297279956a1a86b1272a8977e23b882440e9fe5e5f5af2b602f789331"
+      }
+    },
+    "8.0.372": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.70.0.23-ca-jre8.0.372-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "3b3eea1d99b5aa7e515e86badfe322621a114e3f06b480e402322528f7a3887d"
+      }
+    },
+    "8.0.382": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.72.0.17-ca-jre8.0.382-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "4f107722b0797fc6294207309d38608f12f1c7357b7e0625949332465f55eaeb"
+      }
+    },
+    "8.0.392": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.74.0.17-ca-jre8.0.392-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "98cd32c60de081788b8672ac10adc755c00e7a100020c33c5c41e83dd1dc0614"
+      }
+    },
+    "8.0.402": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.76.0.17-ca-jre8.0.402-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "c04bc91a5bab41e7bea878626f3cea7de84b3bc07412272329b2303e12ea72a3"
+      }
+    },
+    "8.0.412": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jre8.0.412-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "943bed739acb6e1fb8f445664f8f78e7142aeea538698e2afbec0e13820889a6"
+      }
+    },
+    "8.0.422": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.80.0.17-ca-jre8.0.422-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "7e7b10e37ec4d3afa873f42c0b329366de195aef695d79850a1f7595bdc12936"
+      }
+    },
+    "8.0.432": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.82.0.21-ca-jre8.0.432-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "858b1fc13834f09a039e8cef61d0637aed322cea7bc11f8efa42c5b344ab79f0"
+      }
+    },
+    "8.0.442": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.84.0.15-ca-jre8.0.442-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ebc370de5c3ebc0470059f902ef3ee8eee8c7c94f0b8bcef6db0bd3e4511f0db"
+      }
+    },
+    "8.0.452": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.86.0.25-ca-jre8.0.452-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "c79ab8571c2f4352376203bc4022ed98af9ef4fa69a44abebb0c166912d9b5b0"
+      }
+    },
+    "8.0.462": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.88.0.19-ca-jre8.0.462-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "0d00e3a916f8160e077c99f6270a8174e386c9fe1ae699262550d8c349ae9ca3"
+      }
+    },
+    "8.0.472": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.90.0.19-ca-jre8.0.472-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "df75342c3497e19c7cca1e2bfd53342bde8ad751495366b97401de3dbc5eadf9"
+      }
+    },
+    "8.0.482": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.92.0.19-ca-jre8.0.482-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "396abd3bf36512bdbc1e13d9627d73c95461811fc4f41488e231febe7b6771e9"
+      }
+    },
+    "8.0.492": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.94.0.17-ca-jre8.0.492-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ec8b13e39a789908b49005dc1a2110d2fa6e9ad34a1290e227e8161c14f1df60"
+      }
+    },
+    "8.0.502": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.96.0.19-ca-jre8.0.502-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "c7c508220a0dc5edfb70adc0298e21a71c8e9de728454cd4c23b60f223f209d9"
+      }
+    },
+    "8.0.504": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.96.0.205-ca-jre8.0.504-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "5d68856e1b78c2e3bf7e55721cad5cf9977c4fa73659d328b413e5d3ac4fff06"
+      }
+    },
+    "11.0.6": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.37.17-ca-jre11.0.6-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ba60a574d7869feb9095e02bd8fb45057d14d50dfe67cf9dd91a1be9de246601"
+      }
+    },
+    "11.0.7": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.39.15-ca-jre11.0.7-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "97a125da8f46b6fd992b5288366d015f4c1df07a490d5871215ba2aeb8c41e58"
+      }
+    },
+    "11.0.8": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.41.23-ca-jre11.0.8-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d113e9577049707f5bff59cccb2da2ceea3946ca06deaab7bc7970703782eb42"
+      }
+    },
+    "11.0.9": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.43.21-ca-jre11.0.9-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "bd22e3e85af855413676028af99d50b6207669d8c11631467382a7f5bab0f668"
+      }
+    },
+    "11.0.10": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.45.27-ca-jre11.0.10-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "c54e2d2a05d3d4f5b8c992287a18dbd20cbbc86aa604c608e4bb515c91f0f40e"
+      }
+    },
+    "11.0.11": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.48.21-ca-jre11.0.11-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ae03a7f08eb80a3d2868808ae6d20050d3b71bcc73d3ca1e8ed5152b69fcbe02"
+      }
+    },
+    "11.0.12": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.50.19-ca-jre11.0.12-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "cf05f1598d8587bf262d3f0451b0405d98aa33b846c1e90c52981dd8c84aa5c9"
+      }
+    },
+    "11.0.13": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.52.13-ca-jre11.0.13-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "f130e473e01360a0e73cf179e2f01d482790626d81d6332b9389ad87ccfd5a52"
+      }
+    },
+    "11.0.14": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.54.23-ca-jre11.0.14-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "96c718b868c45306f1c365cdceec60c36486aaf3530954f550c3a11ea984a166"
+      }
+    },
+    "11.0.15": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.56.19-ca-jre11.0.15-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "31a0f163b7f26b5d550a49052bb7ef50c937acc9886e0352b490c33948f81eac"
+      }
+    },
+    "11.0.16": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.58.17-ca-jre11.0.16-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "bc3a040749414c58bfbb984293d8a28a20d5f91dbbc70aaf9dda8b027065aef4"
+      }
+    },
+    "11.0.17": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.60.19-ca-jre11.0.17-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "001419fb8ae8dc0f294bb1a5d13d0a46c8025e769562a79f42082562d1ab6913"
+      }
+    },
+    "11.0.18": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.62.17-ca-jre11.0.18-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "2071ec6b9922c82cfe948de77eb1dfbe99ff92e73e8fb5cca15c1cf77ba38106"
+      }
+    },
+    "11.0.19": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.64.19-ca-jre11.0.19-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "64f797773d624be771389d6306359e15eb40beb69c791344c6b04b4d01bcde59"
+      }
+    },
+    "11.0.20": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.66.15-ca-jre11.0.20-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "405567a8e50a74ceb5b2de25d30aee33f642ca18174702f75d1a4dd9330e530d"
+      }
+    },
+    "11.0.21": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.68.17-ca-jre11.0.21-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "b2474f1e58d4a5495e1505d11bb5aa4307ccceb1d1201c1e6211a66b8a21d8c6"
+      }
+    },
+    "11.0.22": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.70.15-ca-jre11.0.22-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "b6e258e330a9bc28d457dd701eeb8170db282498a867b98ea1bae005292ba99e"
+      }
+    },
+    "11.0.23": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jre11.0.23-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "acbf99718e7f3e0e933488e81096fbdacafaf34ec341b9692643ecc3ccf6ea6f"
+      }
+    },
+    "11.0.24": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.74.15-ca-jre11.0.24-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "7b68da55af649c33abc11c29eeeb17febb69ada1b8d5d66344dca851f68c45ba"
+      }
+    },
+    "11.0.25": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.76.21-ca-jre11.0.25-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "94fad577fff66fcd31ed6a39b97a1a45de5cd46e8cee850694b55b46845ba52a"
+      }
+    },
+    "11.0.26": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.78.15-ca-jre11.0.26-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "5d2b7be8e6c5454eff491003089fde784709cc88c52d16b056def6bef3fe9015"
+      }
+    },
+    "11.0.27": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.80.21-ca-jre11.0.27-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "967272607809685b62c5fe8732c9954ba25bfe366512fb6934892d7e062b576d"
+      }
+    },
+    "11.0.28": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.82.19-ca-jre11.0.28-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "63b605381c3f7e37c5ec37eddb4a01b91801e0408b5af37d7827376c8baea206"
+      }
+    },
+    "11.0.29": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.84.17-ca-jre11.0.29-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "844d38b09f542b35cb2a81f5171368dbbf4f526e5027bc8e0538d576fc664ac3"
+      }
+    },
+    "11.0.30": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.86.19-ca-jre11.0.30-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "650ddaf3207078317b5f19b53b517dd84cd07c68142e30432581971778489ae1"
+      }
+    },
+    "11.0.31": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.88.17-ca-jre11.0.31-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "2b57dcbc72f13f4155c3bb29d48dfa5f04c409e5a5416f03c37cc382777192b9"
+      }
+    },
+    "11.0.32": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jre11.0.32-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "6a475c345e6ca8ae19b2146e64a5f767518990f3fe264f4d3690e2abf775db2d"
+      }
+    },
+    "13.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.28.11-ca-jre13.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ed96c0a62c4a45a3a8ce89b5155683ffdd17ae4ab839c5a11b3d5477978a522e"
+      }
+    },
+    "13.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.29.9-ca-jre13.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "5808c36f2f3536013590f0ffd8eccfb2c7349a49a139253fdeaf83e2689cfe7d"
+      }
+    },
+    "13.0.3": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.31.11-ca-jre13.0.3-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "6547b82c3271d5f1bd27d8f8ba99ee836800961ce4cd137ec8bfcfd5e5a03542"
+      }
+    },
+    "13.0.4": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.33.25-ca-jre13.0.4-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "0759c8a2af1e0c55946e4bd909f42f436dbe1086d302a2ef7c5149db7ce37247"
+      }
+    },
+    "13.0.5": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.35.17-ca-jre13.0.5-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "dc88f1aa64acbc9df0a5f7f8dea0ae79a8cdfe81733de098e9ab4bf8e9a0572f"
+      }
+    },
+    "13.0.6": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.37.21-ca-jre13.0.6-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "4a91dfc233891add9fd54690146d3edd2fc0f78f49f1ec3558d441ec1ad0d1ac"
+      }
+    },
+    "13.0.7": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.40.15-ca-jre13.0.7-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "f3f8e60e8f3009c9781eb2124edb78c017c4273dce2a296095e6afd9ba0a784a"
+      }
+    },
+    "13.0.8": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.42.17-ca-jre13.0.8-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "19fefbd2c2c3e2215ff5bdc21d0b81586ad5238047367c194548c358cc8ae002"
+      }
+    },
+    "13.0.9": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.44.13-ca-jre13.0.9-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "6a39ce495833de689c5a867b23e67e33baf240afee285352a3b73d3f15581722"
+      }
+    },
+    "13.0.10": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.46.15-ca-jre13.0.10-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "7ed872c7668bae6e129dd33a76c9d46a95d0668cda806997c33cd80325c23567"
+      }
+    },
+    "13.0.11": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.48.19-ca-jre13.0.11-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "0de4cf6aa44937fe2430ac52c5206e1e8e0476e0fc58caa6899be0c2d697362d"
+      }
+    },
+    "13.0.12": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.50.15-ca-jre13.0.12-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "0ea528092362815e9c0564d6d92ec57f27ce55908634a2a3300b6fd8ffefa6e5"
+      }
+    },
+    "13.0.13": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.52.15-ca-jre13.0.13-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "01c1cd203f978815bab5cfe6702e69cbba2426065e973314afdd174773eff6f1"
+      }
+    },
+    "13.0.14": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu13.54.17-ca-jre13.0.14-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "400f064f0ef7575388cacd432e60851299bb4660a671475ffc129fec49c94b6c"
+      }
+    },
+    "14.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu14.28.21-ca-jre14.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "b27545baf394ac9fed7eccb982d73278316c68d9b261e481822e2c7cc1dbef0a"
+      }
+    },
+    "14.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu14.29.23-ca-jre14.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "0744ab3a68d81a8c0ed4fb752f40de48be76eb8d8979c696fd5413183bd32df8"
+      }
+    },
+    "15.0.0": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.27.17-ca-jre15.0.0-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "e610ca6ab4f1aa43e57f8f21895e96c8d700cacfa189c075078a5c2374090cfa"
+      }
+    },
+    "15.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.28.51-ca-jre15.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "0e5c4d0d78278b3aad331c49c5b85c51506adb57aa776f76a31e49d9e0fbd1a6"
+      }
+    },
+    "15.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.29.15-ca-jre15.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "0cfafd2d3b1034eef0fbf2b1eec758b3abdb3d59708ca91d536693f1c3c99a07"
+      }
+    },
+    "15.0.3": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.32.15-ca-jre15.0.3-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "cbb2b9393c1140818d34bb353452f83f223ce9fd16a4d4e7057ccd7ef163d118"
+      }
+    },
+    "15.0.4": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.34.17-ca-jre15.0.4-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1d4040dc0558aa3912bcbb1cf15125df888a1de2df08ada8aba21fbfb0a3d523"
+      }
+    },
+    "15.0.5": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.36.13-ca-jre15.0.5-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "9fe70cda2dee4093eaf9ff4d5d56796a86652c2898c059b833c84b0aec3533d5"
+      }
+    },
+    "15.0.6": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.38.17-ca-jre15.0.6-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "b59ec16de4cd037335eafacf7a624fccd1158d613652e185e2bbba25b226afcf"
+      }
+    },
+    "15.0.7": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.40.19-ca-jre15.0.7-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "d6880e906b581dbae44bffedbb708e301a23189776ab8646c67401a21c15120e"
+      }
+    },
+    "15.0.8": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.42.15-ca-jre15.0.8-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1d1e7a7374615ab78f0572b220c8b520868e49888880cfd35209f0d63587539c"
+      }
+    },
+    "15.0.9": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.44.13-ca-jre15.0.9-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "c5c72e720c71097e71c435254b3429df2fb9bc59b10bbc8cb1ca241ec810490d"
+      }
+    },
+    "15.0.10": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu15.46.17-ca-jre15.0.10-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "001883886a13533363e6e04e69adfd07a4f028ac3f8593d7c1799f1f9424d089"
+      }
+    },
+    "17.0.0": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.28.13-ca-jre17.0.0-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "0ac5389c5f9f7517625b884ef0781c46dbf63051c61bf9d8732f941f082476ea"
+      }
+    },
+    "17.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.30.15-ca-jre17.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "b061befb2d75729afb4d740e7d2b84eaf2016ac19bca5d624e75886c4d94eb32"
+      }
+    },
+    "17.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.32.13-ca-jre17.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1144302b7148b45c7e9e9605767b8ef5476e3783e83bd3b43d1f5a9ff482ecf7"
+      }
+    },
+    "17.0.3": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.34.19-ca-jre17.0.3-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1af81332ffa38a2997d74782dbcfd31a57a6ee46ab053bdead0c1f54756107fa"
+      }
+    },
+    "17.0.4": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.36.15-ca-jre17.0.4-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "55d02b6f5d2e766c515796c432717a1025458b37117041206b5973e58c36fdcf"
+      }
+    },
+    "17.0.5": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.38.21-ca-jre17.0.5-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1e57e7868ec0dddff133fe41d5fa6446e867e6ee00f7b95565f60e4728b46fd8"
+      }
+    },
+    "17.0.6": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.40.19-ca-jre17.0.6-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "06c8c1d402855cd3111e950746a206487d3e3fa5736f42d7e86126a9488fd26a"
+      }
+    },
+    "17.0.7": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.42.19-ca-jre17.0.7-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "738a2461530daf806af3bef359948a406115b8ea37352ee4fae600a99acef067"
+      }
+    },
+    "17.0.8": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.44.15-ca-jre17.0.8-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "29e19aa79e9931b1d750c860152987e46a5a3a183aa43d66937c547c0d53f0e7"
+      }
+    },
+    "17.0.9": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.46.19-ca-jre17.0.9-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "7a5c794d4a13fa4fee3ecef047e8a8ce78049159e34c1ddbc52646a657ca3c9d"
+      }
+    },
+    "17.0.10": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jre17.0.10-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "8f2481f621437287f97cdc68b98fda7c750e03aff03a359008f060ca85ad15dd"
+      }
+    },
+    "17.0.11": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jre17.0.11-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "337bbe2dd30e84cda7b15653f546d434faf4d9df96e3a3165cfe3b0801daf189"
+      }
+    },
+    "17.0.12": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jre17.0.12-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "82b92256e7e20fd6cb1f6eae2a9901a5f60d828b48342176bc511614ca5d5f27"
+      }
+    },
+    "17.0.13": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.54.21-ca-jre17.0.13-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "ecfc0bafd03876420d769cfb6084eb4c2e5f2cf2f49f4b6b766ef7ea6b61558b"
+      }
+    },
+    "17.0.14": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.56.15-ca-jre17.0.14-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "1993a931b6a846ff58c3282713fa12062100d753733cc0ad87f78eded880a39e"
+      }
+    },
+    "17.0.15": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.58.21-ca-jre17.0.15-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "f9e8713551950ab45adc43e25e9189fe71ed8c743e2878c8c4fe73888b68f9c0"
+      }
+    },
+    "17.0.16": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.60.17-ca-jre17.0.16-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "9e0b5292f7fede3ead0aad345446a50eb675f5b8266889dbca9b38a85b03cf59"
+      }
+    },
+    "17.0.17": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.62.17-ca-jre17.0.17-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "2c379356d00327dc0928eaa33d69f3508c29baec4eaec931641fe5c130ba18a8"
+      }
+    },
+    "17.0.18": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.64.15-ca-jre17.0.18-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "c50aa0062b226f808a28998ecaab3f0fd8344838afd270262a1d3c4a5581fb1a"
+      }
+    },
+    "17.0.19": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.66.19-ca-jre17.0.19-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "01988951ede56bb3733258de0494df3e5269d1a0fb540aaa60056f16c25d92b8"
+      }
+    },
+    "17.0.20": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.68.17-ca-jre17.0.20-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "946b02fe10d6b9832aac69a7ec6670574b4c6e5c9d2e87b9b16c334922981260"
+      }
+    },
+    "18.0.0": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jre18.0.0-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "15ab8b5b99d39f80933f85d0a5b3f732662da3ae41e67b204b975ce19d8bff58"
+      }
+    },
+    "18.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu18.30.11-ca-jre18.0.1-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "9a2ef1100919ee3237e0b447582a5ad314ff30a2f8e6c22373e01ccc7c06b56b"
+      }
+    },
+    "18.0.2": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jre18.0.2-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "4dfddf8d93dead723ea56415875ba1dd0c1245e46a5dc940c9188ed05f35b296"
+      }
+    },
+    "19.0.0": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu19.28.81-ca-jre19.0.0-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "89e2cc503f0b8c127fc528368af8b0893526b9ec304c19e01c6f2ff73a2df22e"
+      }
+    }
+  }
+}
