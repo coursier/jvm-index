@@ -16,6 +16,34 @@ jobs:
           jvm: 21
       - run: ./scala-cli.sh compile src
 
+  check-indices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: coursier/cache-action@v8.2
+      - uses: coursier/setup-action@v3.0
+        with:
+          jvm: 21
+      # Selective execution only runs the check if the indices, or the code of
+      # the check itself, changed since the base commit. If the base commit
+      # can't be prepared (checkIndices doesn't exist there, base commit not
+      # available, …), the check is run unconditionally.
+      - name: Check that indices are consistent
+        working-directory: publish
+        run: |
+          if git checkout --quiet "$BASE_SHA" && ./mill -i selective.prepare checkIndices.check; then
+            git checkout --quiet "$GITHUB_SHA"
+            ./mill -i selective.run checkIndices.check
+          else
+            echo "Could not prepare selective execution on $BASE_SHA, running the check unconditionally"
+            git checkout --quiet "$GITHUB_SHA"
+            ./mill -i checkIndices.check
+          fi
+        env:
+          BASE_SHA: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+
   fmt:
     runs-on: ubuntu-latest
     steps:

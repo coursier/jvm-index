@@ -96,3 +96,120 @@ lazy val osCpus = BuildCtx.withFilesystemCheckerDisabled {
 }
 
 object index extends Cross[IndexModule](osCpus)
+
+// Checks that index.json, indices/, and indices-v2/ list the same OS / CPU
+// pairs, JVMs, versions, and URLs. Meant to be run via selective execution on
+// CI (see .github/workflows/test.yml), so that it only runs when indices change.
+object checkIndices extends Module {
+  def indexJson    = Task.Source(BuildCtx.workspaceRoot / os.up / "index.json")
+  def indicesV1Dir = Task.Source(BuildCtx.workspaceRoot / os.up / "indices")
+  def indicesV2Dir = Task.Source(BuildCtx.workspaceRoot / os.up / "indices-v2")
+
+  def check() = Task.Command {
+    val errors = IndexConsistency.errors(
+      indexJson().path,
+      indicesV1Dir().path,
+      indicesV2Dir().path
+    )
+    if (errors.isEmpty)
+      println("index.json, indices/, and indices-v2/ are consistent")
+    else {
+      val maxErrors = 200
+      val shown     = errors.take(maxErrors)
+      val more      =
+        if (errors.length > maxErrors) Seq(s"... and ${errors.length - maxErrors} more")
+        else Nil
+      Task.fail(
+        (s"Found ${errors.length} inconsistencies between indices:" +: (shown ++ more))
+          .mkString(System.lineSeparator())
+      )
+    }
+  }
+}
+
+private object IndexConsistency {
+
+  // OS-CPU (like "linux-amd64") -> JVM name -> JVM version -> URL
+  type Entries = Map[String, Map[String, Map[String, String]]]
+
+  def errors(indexJson: os.Path, indicesV1Dir: os.Path, indicesV2Dir: os.Path): Seq[String] = {
+    val (fromIndexJson, indexJsonErrors) = readIndexJson(indexJson)
+    val v1                               = readIndicesDir(indicesV1Dir)(_.str)
+    val v2                               = readIndicesDir(indicesV2Dir)(_("url").str)
+    // v1 values look like "tgz+https://…", while v2 ones only have the URL
+    val v1Urls = mapValues(v1)(_.split("\\+", 2).last)
+    indexJsonErrors ++
+      compare("index.json", fromIndexJson, "indices/", v1) ++
+      compare("indices/", v1Urls, "indices-v2/", v2)
+  }
+
+  private def mapValues(entries: Entries)(f: String => String): Entries =
+    entries.view.mapValues(_.view.mapValues(_.view.mapValues(f).toMap).toMap).toMap
+
+  // Applies the same transformations as coursier.jvmindex.Index.osArchIndices,
+  // that generates indices/ and indices-v2/ from the same data as index.json
+  private def readIndexJson(path: os.Path): (Entries, Seq[String]) = {
+    val flattened = for {
+      (os0, archs)       <- ujson.read(os.read(path)).obj.toVector
+      (arch, jvms)       <- archs.obj.toVector
+      (jvmName, entries) <- jvms.obj.toVector
+      (version, value)   <- entries.obj.toVector
+    } yield {
+      val os1 = if (os0 == "alpine-linux") "linux-musl" else os0
+      ((s"$os1-$arch", jvmName.stripPrefix("jdk@"), version.stripPrefix("1.")), value.str)
+    }
+    val grouped = flattened.groupMap(_._1)(_._2)
+    val errors  = grouped.toVector.sortBy(_._1).collect {
+      case ((osCpu, jvmName, version), values) if values.distinct.length > 1 =>
+        s"index.json: conflicting values for $jvmName $version on $osCpu: " +
+          values.distinct.mkString(", ")
+    }
+    val entries = grouped.toVector
+      .map { case ((osCpu, jvmName, version), values) => (osCpu, jvmName, version, values.head) }
+      .groupBy(_._1)
+      .map {
+        case (osCpu, l) =>
+          osCpu -> l.groupBy(_._2).map {
+            case (jvmName, l0) => jvmName -> l0.map(t => t._3 -> t._4).toMap
+          }
+      }
+    (entries, errors)
+  }
+
+  private def readIndicesDir(dir: os.Path)(url: ujson.Value => String): Entries =
+    os.list(dir)
+      .filter(_.last.endsWith(".json"))
+      .filter(os.isFile)
+      .map { f =>
+        val entries = ujson.read(os.read(f)).obj.map {
+          case (jvmName, versions) =>
+            jvmName -> versions.obj.map { case (version, value) => version -> url(value) }.toMap
+        }
+        f.last.stripSuffix(".json") -> entries.toMap
+      }
+      .toMap
+
+  private def compare(nameA: String, a: Entries, nameB: String, b: Entries): Seq[String] = {
+    def missing(keysA: Set[String], keysB: Set[String], what: String): Seq[String] =
+      (keysA -- keysB).toVector.sorted.map(k => s"$what $k in $nameA but not in $nameB") ++
+        (keysB -- keysA).toVector.sorted.map(k => s"$what $k in $nameB but not in $nameA")
+
+    missing(a.keySet, b.keySet, "OS-CPU") ++
+      (a.keySet & b.keySet).toVector.sorted.flatMap { osCpu =>
+        val jvmsA = a(osCpu)
+        val jvmsB = b(osCpu)
+        missing(jvmsA.keySet, jvmsB.keySet, s"$osCpu: JVM") ++
+          (jvmsA.keySet & jvmsB.keySet).toVector.sorted.flatMap { jvmName =>
+            val versionsA = jvmsA(jvmName)
+            val versionsB = jvmsB(jvmName)
+            missing(versionsA.keySet, versionsB.keySet, s"$osCpu: $jvmName version") ++
+              (versionsA.keySet & versionsB.keySet).toVector.sorted.flatMap { version =>
+                val urlA = versionsA(version)
+                val urlB = versionsB(version)
+                if (urlA == urlB) Nil
+                else Seq(s"$osCpu: $jvmName $version: $urlA in $nameA but $urlB in $nameB")
+              }
+          }
+      }
+  }
+}
