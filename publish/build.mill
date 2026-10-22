@@ -1,16 +1,16 @@
-import $ivy.`de.tototec::de.tobiasroeser.mill.vcs.version::0.4.0`
+//| mill-version: 1.3.0
 
-import de.tobiasroeser.mill.vcs.version.VcsVersion
-import mill._
-import mill.api.WorkspaceRoot
-import mill.scalalib._
-import mill.scalalib.publish._
+package build
 
-import scala.concurrent.duration._
+import mill.*
+import mill.api.BuildCtx
+import mill.scalalib.*
+import mill.scalalib.publish.*
+import mill.util.Jvm
 
 trait IndexModule extends Cross.Module[String] with PublishModule {
-  def moduleName  = s"index-$crossValue"
-  def pomSettings = PomSettings(
+  def artifactName = s"index-$crossValue"
+  def pomSettings  = PomSettings(
     description = s"JVM index for $crossValue",
     organization = "io.get-coursier.jvm.indices",
     url = "https://github.com/coursier/jvm-index",
@@ -20,14 +20,42 @@ trait IndexModule extends Cross.Module[String] with PublishModule {
       Developer("alexarchambault", "Alex Archambault", "https://github.com/alexarchambault")
     )
   )
-  def publishVersion = VcsVersion.vcsState().format()
 
-  def indexFile = T.source {
-    PathRef(T.workspace / os.up / "indices" / s"$crossValue.json")
+  // Versions are deduced from the "v*" git tags: if HEAD is tagged, the tag
+  // without its leading "v" is used as is. Else, the latest tag is bumped (see
+  // nextSnapshotVersion) and published as a snapshot.
+  def publishVersion = Task.Input {
+    val workspace                               = BuildCtx.workspaceRoot
+    def versionTags(args: String*): Seq[String] =
+      os.proc("git", "tag", "-l", "v*", args)
+        .call(cwd = workspace)
+        .out.lines()
+        .map(_.trim.stripPrefix("v"))
+        .filter(_.nonEmpty)
+    def latest(tags: Seq[String]): Option[String] =
+      tags.map(coursier.version.Version(_)).sorted.lastOption.map(_.repr)
+
+    latest(versionTags("--points-at", "HEAD")) match {
+      case Some(tag) => tag
+      case None      =>
+        latest(versionTags())
+          .map(nextSnapshotVersion)
+          .getOrElse("0.0.1-SNAPSHOT")
+    }
   }
 
-  def indexResourceDir = T {
-    val dest = T.dest
+  // Maven Central requires a doc JAR to be published, but there's nothing to
+  // document here. Publish an empty JAR (just a manifest) instead.
+  def docJar = Task {
+    PathRef(Jvm.createJar(Task.dest / "out.jar", Seq.empty[os.Path], manifest()))
+  }
+
+  def indexFile = Task.Source {
+    BuildCtx.workspaceRoot / os.up / "indices" / s"$crossValue.json"
+  }
+
+  def indexResourceDir = Task {
+    val dest = Task.dest
     os.copy.over(
       indexFile().path,
       dest / "coursier/jvm/indices/v1" / s"$crossValue.json",
@@ -36,15 +64,26 @@ trait IndexModule extends Cross.Module[String] with PublishModule {
     PathRef(dest)
   }
 
-  def resources = T.sources(
+  def resources = Task {
     Seq(indexResourceDir())
-  )
+  }
 }
 
-lazy val osCpus =
-  os.list(WorkspaceRoot.workspaceRoot / os.up / "indices")
+// Keep only the first 3 components of the version, and increase the last one
+private def nextSnapshotVersion(version: String): String = {
+  val parts  = version.split('.').take(3).toVector
+  val bumped = parts.last.takeWhile(_.isDigit) match {
+    case "" => parts.last
+    case n  => (n.toInt + 1).toString
+  }
+  (parts.init :+ bumped).mkString(".") + "-SNAPSHOT"
+}
+
+lazy val osCpus = BuildCtx.withFilesystemCheckerDisabled {
+  os.list(BuildCtx.workspaceRoot / os.up / "indices")
     .filter(_.last.endsWith(".json"))
     .filter(os.isFile)
     .map(_.last.stripSuffix(".json"))
+}
 
 object index extends Cross[IndexModule](osCpus)
