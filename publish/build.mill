@@ -54,11 +54,20 @@ trait IndexModule extends Cross.Module[String] with PublishModule {
     BuildCtx.workspaceRoot / os.up / "indices" / s"$crossValue.json"
   }
 
+  def indexV2File = Task.Source {
+    BuildCtx.workspaceRoot / os.up / "indices-v2" / s"$crossValue.json"
+  }
+
   def indexResourceDir = Task {
     val dest = Task.dest
     os.copy.over(
       indexFile().path,
       dest / "coursier/jvm/indices/v1" / s"$crossValue.json",
+      createFolders = true
+    )
+    os.copy.over(
+      indexV2File().path,
+      dest / "coursier/jvm/indices/v2" / s"$crossValue.json",
       createFolders = true
     )
     PathRef(dest)
