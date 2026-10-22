@@ -414,6 +414,12 @@
         "sha256": "3623232f33a9c3baadf304480b2535f9a3cba8a58d42ecbb438ba267315d9998"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "bf036b35b071bfb2f54f2c0af8ee8d88afa95ee6eb3dce02c0f94cfc2524d04a"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_aarch64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -502,6 +508,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "61979887f7506a24a57439ff99adb8b3a7fc89977d9cfe3b8984f58a981b7b9d"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_aarch64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "36dc14d797aaff6d89aab302cd053fdba6207dfdcf772052fa7b023a94b0e857"
       }
     },
     "26.0.0": {
@@ -950,6 +962,12 @@
         "sha256": "c70b634bc877cce7b39cf34d2fa8430bb01729ebc5fc2c475a27cc50d378da06"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-debugimage_aarch64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "cb4c7db311d53fdb7e0031893ac09db218db150b0679e1d8a71d10fc07133908"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_aarch64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -1038,6 +1056,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "9e3b316ae20e48a2d0ec6addd0f8fb24a69bd22e70837de641d1570325cce9a4"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_aarch64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "2bcda0427feec454fd74b50808e6e12e4c549d0757cb865887bda9022a1e4e17"
       }
     },
     "26.0.0": {
@@ -1474,6 +1498,12 @@
         "sha256": "dec50fc6f9fcd4fe3ae8cabf5a5fa68f6afc48841f7698e468e9aa5d54beed84"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jre_aarch64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "225bab0a09491ef06835488cd942f5d2befa9a0410a2484f0c8bbcf7506ec09a"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_aarch64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -1562,6 +1592,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "5b02bcc908da092e7e00b9772d4f9bbb87f44a60b7c90f7cf5a91a1d98f37e1b"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_aarch64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "72ebd76b502c849e88dea39afae51baf5f82f2b5b1b6389c28ea707b20451bce"
       }
     },
     "26.0.0": {
@@ -1902,6 +1938,12 @@
         "sha256": "1e7ca1d480ed40b01e7796bbeab6a3f23a290ea8cfb17ef8c28725bebc713624"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-testimage_aarch64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "cc3dff5362f6ed02409755239c7128b2d7deda9ac5973dcf158fadca28e0d182"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-testimage_aarch64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -1990,6 +2032,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "34410b6aeddbbf78aec4de16ddd535fcf674fc47cbe7b2b3da1b10e55cf27ab9"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_aarch64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "8580d1877b597c3996499ceccc48ff3dcfc040eaf53f57a692b6841d13eb3832"
       }
     },
     "26.0.0": {
@@ -4288,13 +4336,13 @@
     "25": {
       "url": "https://download.oracle.com/java/25/latest/jdk-25_macos-aarch64_bin.tar.gz",
       "checksums": {
-        "sha256": "510120e30e0be1d62547112d545fe9a1820eff8e9b19262877e60aad05bf2abf"
+        "sha256": "09fdf1beb1d87e7a5bb2079bf69248f39156ab034dbfa7062670e04ef5e51ece"
       }
     },
     "27": {
       "url": "https://download.oracle.com/java/27/latest/jdk-27_macos-aarch64_bin.tar.gz",
       "checksums": {
-        "sha256": "890e7833aca8f383763f0319a3acf7547075068f5746480fd7e1471713989ff6"
+        "sha256": "a8d5816951fd601f6019a36a195d1056e34632f39db86fa5d1615355d7415b3f"
       }
     }
   },
@@ -4516,9 +4564,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-aarch64-b635.75.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-aarch64-b635.78.tar.gz",
       "checksums": {
-        "sha512": "dd3e2086ceb877dbfc7ab79a4411902fd23f9db6a79d33c5a476dfd45550c54456b21660162c72b8af414fcd20ade704a1e767c98e32d99104984479baeb2e00"
+        "sha512": "3cca83d5935a9a37cf23951b6e925ef408f9dc09cc6e4d7a152b64de91a5187f0d67ec02ac09614e039881626ed41ae67ca8dc6f21bd8d6f7b2da4c2d41057d2"
       }
     }
   },
@@ -4728,9 +4776,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-aarch64-b635.75.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-aarch64-b635.78.tar.gz",
       "checksums": {
-        "sha512": "8e6d82ae871e44d996fed519de079ca2af22abe8aa6be97e486b13597c77d069ad68a31ba3beec93dbd49b8abd16c848d1e461bc6f2b0ee58940e6d0d16f1bc9"
+        "sha512": "0f9058fb0cb650abdf2192a055a935c31b24965465173ec9685a0655348f88a2ff4e7c96fbff70ad7061a46d1a5a89193a1d0f16f7dbc75b8b72231d3f8944e5"
       }
     }
   },
@@ -4964,9 +5012,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-aarch64-b635.75.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-aarch64-b635.78.tar.gz",
       "checksums": {
-        "sha512": "e9cf5b1a172e71a7bbe0bdcfa7200cde945e09a7aaa1bb8498e1efc2ec535b67a90fa9948f173a13a1b89fac23c29eb45890dadb98922f446cc17750748305da"
+        "sha512": "cdc38036d2b02958935317c2c493bc0e024df7da87ca3df2abda395922186954177f8e47f8bfbd1328d34564b1617847fa43e967d6d1053f30be2a1a222568d6"
       }
     }
   },
@@ -5158,9 +5206,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-aarch64-b635.75.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-aarch64-b635.78.tar.gz",
       "checksums": {
-        "sha512": "24bd0c7266a3f5929ba9a111cbc2ec6d0134bb2a3c77478c8a70944884b176fb0d75967136384c2457f01f4a2b5b8cd20fc9c06a989bd82438cf1b11c763aa2f"
+        "sha512": "5a0de0de8471318c7b0aa801cafd58dd63d01a4eeb75bae2d0ed1bf1eb86a1ead8c88b92530257710470438a08db469cc4e863191c1592083153c6a2be0ae3ad"
       }
     }
   },
@@ -5321,6 +5369,12 @@
         "sha1": "6f5e4c3b4005609194e873968789819128731e4e"
       }
     },
+    "8.0.512": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jdk8u512+11-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "5e5ddee765bd895ad724faa573120fd8b9800ce6"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-macos-aarch64.zip",
       "checksums": {
@@ -5457,6 +5511,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32+11/bellsoft-jdk11.0.32+11-macos-aarch64.zip",
       "checksums": {
         "sha1": "d8230795901f5ce119cafd10735b75d7d804413e"
+      }
+    },
+    "11.0.33": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "37e00a114f6b0aeaf22fe417be5dce155dff39fc"
       }
     },
     "11.1.14": {
@@ -5639,6 +5699,12 @@
         "sha1": "ef040bd81779c3128ac570cc56c19225d92f2e68"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "8863d633f2e9c91d88793a69bfc93bf2cfe1bb22"
+      }
+    },
     "17.1.3": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-aarch64.zip",
       "checksums": {
@@ -5807,6 +5873,12 @@
         "sha1": "6046e4e15da0f775787b671a47813a5b3ee6d67e"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "7dd6659886d79c0105d6d4d0e8d6b56ba0936eb1"
+      }
+    },
     "21.1.12": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-macos-aarch64.zip",
       "checksums": {
@@ -5897,6 +5969,12 @@
         "sha1": "9440ca0afeef82838ec6fcea4f29ed3018565e31"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jdk25.0.5+11-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "da9f45cec4ddbc0501faaf734ff8f3e61977acfb"
+      }
+    },
     "25.1.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-macos-aarch64.zip",
       "checksums": {
@@ -5931,6 +6009,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27+36/bellsoft-jdk27+36-macos-aarch64.zip",
       "checksums": {
         "sha1": "2840f6014171e4ac4967dcee6c0b73dd42f37fb0"
+      }
+    },
+    "27.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jdk27.0.1+11-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "3efb8c2204023041fd65d03f22d97854a3e7c235"
       }
     }
   },
@@ -6091,6 +6175,12 @@
         "sha1": "aea4d0d3b19616ac3fea08b2435590254c9e5933"
       }
     },
+    "8.0.512": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jdk8u512+11-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "164b1ca285d96330f8c62d97afd79b6859201a63"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-macos-aarch64-full.zip",
       "checksums": {
@@ -6227,6 +6317,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32+11/bellsoft-jdk11.0.32+11-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "a8dca4a8b434c9459e6202445ce258ac2945d9e5"
+      }
+    },
+    "11.0.33": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "9b415205ace1dd1563a44e2ba7bea7543ecba089"
       }
     },
     "11.1.14": {
@@ -6409,6 +6505,12 @@
         "sha1": "eeab019810459a472decd0294c199903382949ef"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "2eafa999db221fcdb05c7a8a2b6d777165d2bbd4"
+      }
+    },
     "17.1.3": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-aarch64-full.zip",
       "checksums": {
@@ -6577,6 +6679,12 @@
         "sha1": "ca77baa16d30155677cc4082940fd8b19715ff33"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "273c34028235994fea6c1c229e902e266d6a509e"
+      }
+    },
     "21.1.12": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-macos-aarch64-full.zip",
       "checksums": {
@@ -6667,6 +6775,12 @@
         "sha1": "9e96285e98d7eaf987faa73b89e82df581f80f69"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jdk25.0.5+11-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "71a272ce08c61445ab2ded8ae9e3a19e19ef5aca"
+      }
+    },
     "25.1.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-macos-aarch64-full.zip",
       "checksums": {
@@ -6701,6 +6815,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27+36/bellsoft-jdk27+36-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "75d547c68d09d58f3f560ccbfb56adacaea3d28f"
+      }
+    },
+    "27.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jdk27.0.1+11-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "b0e54119878a8c3bb7b5e90c5008116834bd0206"
       }
     }
   },
@@ -6861,6 +6981,12 @@
         "sha1": "0c73b1a5fbeb1d29020bcc44acca1e5f9edd8138"
       }
     },
+    "8.0.512": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jre8u512+11-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "b8ae703243d2b3d8b8e68d8116d59be89d9cac7a"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-macos-aarch64.zip",
       "checksums": {
@@ -6997,6 +7123,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32+11/bellsoft-jre11.0.32+11-macos-aarch64.zip",
       "checksums": {
         "sha1": "0e696b71d3b799aa8eb84929b8fa5e46fd296a0f"
+      }
+    },
+    "11.0.33": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jre11.0.33+11-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "2c2cd7169f3bacd6058f9f0d5f6a924b5696d3fb"
       }
     },
     "11.1.14": {
@@ -7179,6 +7311,12 @@
         "sha1": "d6f0f4479d648a9bd4180a9bd79bd2b4cfb6da9c"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jre17.0.21+11-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "fd16f157b1407457d01c69031367fb1780ae98c6"
+      }
+    },
     "17.1.3": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-macos-aarch64.zip",
       "checksums": {
@@ -7347,6 +7485,12 @@
         "sha1": "4af2b70a4f6e05a189aabed866c57d0dd1207800"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jre21.0.13+11-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "3fd57f472eea959b9e461da8686d55593d2b626a"
+      }
+    },
     "21.1.12": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-macos-aarch64.zip",
       "checksums": {
@@ -7437,6 +7581,12 @@
         "sha1": "49313a265ed511be1fe6d54be8fd884d725c237a"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jre25.0.5+11-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "d6082daec9ccd486d183d7b81089b94489a878cc"
+      }
+    },
     "25.1.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-macos-aarch64.zip",
       "checksums": {
@@ -7471,6 +7621,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27+36/bellsoft-jre27+36-macos-aarch64.zip",
       "checksums": {
         "sha1": "403d6025b141a2d10cc2e0223bccbbbfe7d70501"
+      }
+    },
+    "27.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jre27.0.1+11-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "960fe34bcb2b5bb3d7dde612c9439c7f49e37442"
       }
     }
   },
@@ -7631,6 +7787,12 @@
         "sha1": "b313702eca3dbc284c465162645eb00790af91c5"
       }
     },
+    "8.0.512": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jre8u512+11-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "452c84f847c2a57285122fea279aa366b081e685"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-macos-aarch64-full.zip",
       "checksums": {
@@ -7767,6 +7929,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32+11/bellsoft-jre11.0.32+11-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "f2718cd04259c5ee5f39e0f1bcbeabd5be470887"
+      }
+    },
+    "11.0.33": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jre11.0.33+11-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "e30d4167c4d86c1538e300e4c881a205c359dbf7"
       }
     },
     "11.1.14": {
@@ -7949,6 +8117,12 @@
         "sha1": "98f5e23178cc3ec515ea8210b40caf72a3a5ae36"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jre17.0.21+11-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "23523411d785e72c9284e6467339c5e9e65889d9"
+      }
+    },
     "17.1.3": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-macos-aarch64-full.zip",
       "checksums": {
@@ -8117,6 +8291,12 @@
         "sha1": "36c7eac8b5ce4769e593b8a9310a7b519ebb12c6"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jre21.0.13+11-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "d1e412f4975d332b6de3ddcff67082b3b182b763"
+      }
+    },
     "21.1.12": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-macos-aarch64-full.zip",
       "checksums": {
@@ -8207,6 +8387,12 @@
         "sha1": "2fa3d22a25294dd1bf26bd95f61696425c6d60d2"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jre25.0.5+11-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "7d180deb2dd32cbb1c39c3bc440ce940edc5aab3"
+      }
+    },
     "25.1.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-macos-aarch64-full.zip",
       "checksums": {
@@ -8241,6 +8427,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27+36/bellsoft-jre27+36-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "54b92312424f7370ee8bf24a8c9b95900c89d870"
+      }
+    },
+    "27.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jre27.0.1+11-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "caeb1310761196b171744d432775dc9226ed1e64"
       }
     }
   },
@@ -8389,6 +8581,12 @@
         "sha1": "9fb61f9d549a504b93d729e0d764db2a1f9976ad"
       }
     },
+    "8.0.512": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jdk8u512+11-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "bacc8228b4f7046dd1b55339026277f8906f0f77"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-macos-aarch64-lite.zip",
       "checksums": {
@@ -8525,6 +8723,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32+11/bellsoft-jdk11.0.32+11-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "92f5582e54cfdc25b78be506ce223eb3b8d61cc0"
+      }
+    },
+    "11.0.33": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "dc2786e08056dbe781738318bbb414ff2c4b843c"
       }
     },
     "11.1.14": {
@@ -8707,6 +8911,12 @@
         "sha1": "896f0c34376efd568b1be6ce1021641aa6b0ddec"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "2e612f7031fb70ebf39c6358a8a52a5375fc866d"
+      }
+    },
     "17.1.3": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-aarch64-lite.zip",
       "checksums": {
@@ -8875,6 +9085,12 @@
         "sha1": "ac80ebf9b15200559359220d7780ff6a7e8e8216"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "0e60646f802e0b923314ccdfef4792e4d34fefe0"
+      }
+    },
     "21.1.12": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-macos-aarch64-lite.zip",
       "checksums": {
@@ -8965,6 +9181,12 @@
         "sha1": "62aa7e51446e7747ede05f96c2b5d6e97ac0f166"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jdk25.0.5+11-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "353070d232fad47f6eadcf7f6758288f1c69e98e"
+      }
+    },
     "25.1.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-macos-aarch64-lite.zip",
       "checksums": {
@@ -8999,6 +9221,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27+36/bellsoft-jdk27+36-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "b4a7b00d0f8fbcd57575b9b840fad754ba536ef6"
+      }
+    },
+    "27.0.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jdk27.0.1+11-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "300e84f0271d69f78103bea4cf8d63f13e172965"
       }
     }
   },
@@ -10793,6 +11021,12 @@
         "sha256": "3623232f33a9c3baadf304480b2535f9a3cba8a58d42ecbb438ba267315d9998"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "bf036b35b071bfb2f54f2c0af8ee8d88afa95ee6eb3dce02c0f94cfc2524d04a"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_aarch64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -10881,6 +11115,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "61979887f7506a24a57439ff99adb8b3a7fc89977d9cfe3b8984f58a981b7b9d"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_aarch64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "36dc14d797aaff6d89aab302cd053fdba6207dfdcf772052fa7b023a94b0e857"
       }
     },
     "26.0.0": {
@@ -11329,6 +11569,12 @@
         "sha256": "c70b634bc877cce7b39cf34d2fa8430bb01729ebc5fc2c475a27cc50d378da06"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-debugimage_aarch64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "cb4c7db311d53fdb7e0031893ac09db218db150b0679e1d8a71d10fc07133908"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_aarch64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -11417,6 +11663,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "9e3b316ae20e48a2d0ec6addd0f8fb24a69bd22e70837de641d1570325cce9a4"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_aarch64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "2bcda0427feec454fd74b50808e6e12e4c549d0757cb865887bda9022a1e4e17"
       }
     },
     "26.0.0": {
@@ -11853,6 +12105,12 @@
         "sha256": "dec50fc6f9fcd4fe3ae8cabf5a5fa68f6afc48841f7698e468e9aa5d54beed84"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jre_aarch64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "225bab0a09491ef06835488cd942f5d2befa9a0410a2484f0c8bbcf7506ec09a"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_aarch64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -11941,6 +12199,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "5b02bcc908da092e7e00b9772d4f9bbb87f44a60b7c90f7cf5a91a1d98f37e1b"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_aarch64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "72ebd76b502c849e88dea39afae51baf5f82f2b5b1b6389c28ea707b20451bce"
       }
     },
     "26.0.0": {
@@ -12281,6 +12545,12 @@
         "sha256": "1e7ca1d480ed40b01e7796bbeab6a3f23a290ea8cfb17ef8c28725bebc713624"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-testimage_aarch64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "cc3dff5362f6ed02409755239c7128b2d7deda9ac5973dcf158fadca28e0d182"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-testimage_aarch64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -12369,6 +12639,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "34410b6aeddbbf78aec4de16ddd535fcf674fc47cbe7b2b3da1b10e55cf27ab9"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_aarch64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "8580d1877b597c3996499ceccc48ff3dcfc040eaf53f57a692b6841d13eb3832"
       }
     },
     "26.0.0": {
