@@ -37,11 +37,6 @@ The index comes in 3 shapes:
 - per-OS and CPU architecture indices, under [`indices/`](https://github.com/coursier/jvm-index/tree/master/indices)
 - per-OS and CPU architecture indices with archive checksums, under [`indices-v2/`](https://github.com/coursier/jvm-index/tree/master/indices-v2)
 
-While the first one is only available on GitHub, the per-OS and CPU architecture indices under
-`indices/` are also pushed to Maven Central, under the
-[`io.get-coursier.jvm.indices`](https://repo1.maven.org/maven2/io/get-coursier/jvm/indices/)
-organization.
-
 ### Jabba-compatible index
 
 That index consists in 4 nested JSON objects, with the successive keys of these objects being:
@@ -291,6 +286,33 @@ Most entries have a SHA-256 checksum. Liberica and Liberica NIK entries only hav
 JetBrains Runtime entries have a SHA-512 one, and older Corretto entries only have an MD5 one.
 `checksums` is empty for the few archives whose provider doesn't publish any checksum.
 
+On Maven Central, these indices are published in the same JARs as the ones under `indices/`,
+as `coursier/jvm/indices/v2/${OS}-${CPU}.json` resources (alongside the
+`coursier/jvm/indices/v1/${OS}-${CPU}.json` ones). Note that releases prior to `0.0.5` don't
+have them.
+
+## Index distribution
+
+The indices are distributed in two ways:
+- **directly from GitHub**: all the index files of this repository can be downloaded from
+  GitHub, like
+  - `https://github.com/coursier/jvm-index/raw/refs/heads/master/index.json`
+  - `https://github.com/coursier/jvm-index/raw/refs/heads/master/indices/darwin-arm64.json`
+  - `https://github.com/coursier/jvm-index/raw/refs/heads/master/indices-v2/darwin-arm64.json`
+
+  This is the most up-to-date way of getting the indices: these files are updated as soon as
+  an index update PR is merged (see [Workflow](#workflow) below).
+- **from Maven Central**: the per-OS and CPU architecture indices under `indices/` and
+  `indices-v2/` are published to Maven Central, under the
+  [`io.get-coursier.jvm.indices`](https://repo1.maven.org/maven2/io/get-coursier/jvm/indices/)
+  organization (see [Per-OS and CPU architecture indices](#per-os-and-cpu-architecture-indices)
+  for their exact coordinates).
+  Releases there are cut more sparsely than updates on GitHub, so these can lag behind
+  the GitHub indices. On the other hand, they're versioned and immutable, which can be
+  useful for reproducibility.
+
+The Jabba-compatible index is only available from GitHub.
+
 ## Use by coursier
 
 ### API
@@ -353,11 +375,13 @@ change is found, a PR for it is opened.
 Maintainers need to pick the PR, check that it doesn't contain anything suspicious, approve it,
 and merge it.
 
-Upon merge, the [Jabba-compatible index](#jabba-compatible-index) is immediately up-to-date.
-The [`publish` workflow](https://github.com/coursier/jvm-index/blob/master/.github/workflows/publish.yml)
-runs and pushes updated [per-OS and CPU architecture indices](#per-os-and-cpu-architecture-indices)
-to Maven Central. Once the `publish` workflow ran successfully, up to a few hours are sometimes needed
-for the newer indices to be available on [Maven Central](https://repo1.maven.org/maven2).
+Upon merge, all the indices on GitHub are immediately up-to-date.
+
+Releases to Maven Central are cut separately, from time to time, by pushing a `v*` git tag
+(like `v0.0.5`). The [`publish` workflow](https://github.com/coursier/jvm-index/blob/master/.github/workflows/publish.yml)
+then uploads the [per-OS and CPU architecture indices](#per-os-and-cpu-architecture-indices)
+of that commit to Sonatype Central, where maintainers release them. Once released, up to a few hours
+are sometimes needed for the newer indices to be available on [Maven Central](https://repo1.maven.org/maven2).
 
 ## Generating the index locally
 
