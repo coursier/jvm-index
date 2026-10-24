@@ -1322,6 +1322,12 @@
         "sha256": "44db0f08196daf19a47f90d13388b0c943b67663cb537f998fe29e836fa842ce"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jdk_x64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "9aa1d1c17ae5467a022679e7e0af5c00797d94ac462ed1a46f4db07a8a34a6dd"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -1410,6 +1416,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "e6229d9504f7922053ab31821b9e6bee8761daf7b026a3476d1a027563009880"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "32cd4d2151c91aa00d0fc911edfd05245ed40fa6b1aa894d5f35c928cd67a59d"
       }
     },
     "26.0.0": {
@@ -2014,6 +2026,12 @@
         "sha256": "7bba6701ecfac717ddf69256c3909c0482b2c0a421588badb029cee27b01daed"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-debugimage_x64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "54a1e5a863ea81f79dd14fc1090cdbdcc8e288e5bac681e0382d8657a6089cc6"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -2102,6 +2120,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_x64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "13988bdc69e033db8eebe2e27b6cbc53132ecd183bcb493ec6ba8982a88c3b56"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_x64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "49d94ebadc6b428abfeb5f066b86a852fd67019b13b06730f5b87d701d850ce4"
       }
     },
     "26.0.0": {
@@ -2772,6 +2796,12 @@
         "sha256": "6717ec641fd9ce0bb209ca083ee23b42202ac68cb6fcc5753496e0e4a0f41989"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jre_x64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "c909674b1c10c261b9a3fb7e9c0efebd303e33f88a4fe84be7135b5e2d711f89"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -2860,6 +2890,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_x64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "099cbc182af99ab454991a4230f0bdbf2b2ee3f61ce462d637aceaa12709380d"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_x64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "806902c796c670969b7b27df73b8f0fe0924a61bd65083aa53064115e49cab2d"
       }
     },
     "26.0.0": {
@@ -3260,6 +3296,12 @@
         "sha256": "9e1a3abc6671f8dc269d3d65e8a75c55f692f08da73ee3178f02b1dc5a7942c5"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-testimage_x64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "1ab805617b7a7852e45d2352c54fc7669b2f5a7282269430a8af3ab6a4094c7a"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-testimage_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -3348,6 +3390,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_x64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "1cf91cd8c69de84a088e6adefbc2dbcf4909042f8f5394b3806654d954a0028c"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_x64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "0c30f8b6edca86399cf8617a1a862498373adff43970b0e374db7132b8020320"
       }
     },
     "26.0.0": {
@@ -3633,6 +3681,13 @@
         "sha256": "8f8fc4975487ab9cf636c826942fff65cc56b0a91bdc5a2bd91a3d8849e7a3f4"
       }
     },
+    "8.512.08.1": {
+      "url": "https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-macosx-x64.tar.gz",
+      "checksums": {
+        "md5": "9ca9e8b2bb8b41e3b160f7f2213294d6",
+        "sha256": "34f60e9278adc67da2260b1249d9d5599ec456bfdd0e928ea381139de7f1cb1b"
+      }
+    },
     "11.0.4.11.1": {
       "url": "https://corretto.aws/downloads/resources/11.0.4.11.1/amazon-corretto-11.0.4.11.1-macosx-x64.tar.gz",
       "checksums": {}
@@ -3877,6 +3932,13 @@
         "sha256": "1c6991cf895d1b12aa741f7e4b75bb9e5455d1bf654144237fa7108b7f15dd3a"
       }
     },
+    "11.0.33.0.9": {
+      "url": "https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-macosx-x64.tar.gz",
+      "checksums": {
+        "md5": "53b17cc18cfb69f595cf53977e8a9191",
+        "sha256": "8b552a9c15cbb6cb6cf54d00ddc9bdda9e8ff8547e02d88038baf4a2b2b7c547"
+      }
+    },
     "17.0.0.35.1": {
       "url": "https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-macosx-x64.tar.gz",
       "checksums": {
@@ -4063,6 +4125,13 @@
         "sha256": "cf269b31d6b987b16cf8acf3ce20aaee561858d4d424c482e686d783c63ef2d4"
       }
     },
+    "17.0.21.0.10": {
+      "url": "https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-macosx-x64.tar.gz",
+      "checksums": {
+        "md5": "39ee28ad58b54c3fcf7f0ea56d51e3c1",
+        "sha256": "f13aa9654979894dddcd448f8b95b9b355c299c137cb47367cbb01b668b65f7b"
+      }
+    },
     "18.0.0.37.1": {
       "url": "https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-macosx-x64.tar.gz",
       "checksums": {
@@ -4238,6 +4307,13 @@
         "sha256": "cc9cd6f9b8c34dc3d4df7e5468b810cdfe34ff7517a7d5df0cdbe2b5c22f1cdc"
       }
     },
+    "21.0.13.0.10": {
+      "url": "https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-macosx-x64.tar.gz",
+      "checksums": {
+        "md5": "105dda08066ead0738f6fe2387e8f2b9",
+        "sha256": "63d4587a2434930a4e57c0f9c40e0e3ffe1d7d054b29a4f8a01f83f014bdddfa"
+      }
+    },
     "22.0.0.36.2": {
       "url": "https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-macosx-x64.tar.gz",
       "checksums": {
@@ -4350,6 +4426,13 @@
         "sha256": "6ec9249a53330e0bc8b0ddd928e890a9880eebbcb214ae92bc8363932df8424f"
       }
     },
+    "25.0.5.0.9": {
+      "url": "https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-macosx-x64.tar.gz",
+      "checksums": {
+        "md5": "5080fcb824abf142b66d4b6b94e20b72",
+        "sha256": "b8addccfcfb4231a2e9bc14914b948f0b084a4bdcd384909b4feefc3e284623e"
+      }
+    },
     "26.0.0.35.2": {
       "url": "https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-macosx-x64.tar.gz",
       "checksums": {
@@ -4383,6 +4466,13 @@
       "checksums": {
         "md5": "ecfcc11bc96f7c8492c33ff5f72a57e7",
         "sha256": "8c99bcf76f7cc438893f20e28bac84313d1042074c4aab43271b2da280dc447e"
+      }
+    },
+    "27.0.1.0.10": {
+      "url": "https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-macosx-x64.tar.gz",
+      "checksums": {
+        "md5": "712a3f9f883154d1d3bac26805e7ee71",
+        "sha256": "725a5b6684b2aad5d9d3d998c64fb669b5083d0b6bb563bab3dfb5a2ed0f27e8"
       }
     }
   },
@@ -7519,6 +7609,12 @@
         "sha1": "3685cd800c358b5c6bf5010e499dfc29e82b04cc"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-macos-amd64.zip",
+      "checksums": {
+        "sha1": "ef6ce30b7824d24220f447332e31e086b9132ae9"
+      }
+    },
     "11.0.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.1/bellsoft-jdk11.0.1-macos-amd64.tar.gz",
       "checksums": {
@@ -8487,6 +8583,12 @@
         "sha1": "27e8b0d6b91e9810a8196b84c823b627eda23d3d"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-macos-amd64-full.zip",
+      "checksums": {
+        "sha1": "f43d2f9fc47ce4f21a1ad031f349b59c9303eb82"
+      }
+    },
     "11.0.6": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jdk11.0.6+10-macos-amd64-full.zip",
       "checksums": {
@@ -9419,6 +9521,12 @@
         "sha1": "37b26c07c43fe95aa2ecfdfcf96e796c4f689eee"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jre8u513+5-macos-amd64.zip",
+      "checksums": {
+        "sha1": "5b7a65bba21ac6435dd30753509409245646cb8b"
+      }
+    },
     "11.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jre11.0.5+11-macos-amd64.zip",
       "checksums": {
@@ -10339,6 +10447,12 @@
         "sha1": "c7b83203a13ab80dc4859627001eb6e8ec385514"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jre8u513+5-macos-amd64-full.zip",
+      "checksums": {
+        "sha1": "e06b84fc0eef60b58ecf22112ce5318987e1a845"
+      }
+    },
     "11.0.6": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jre11.0.6+10-macos-amd64-full.zip",
       "checksums": {
@@ -11197,6 +11311,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jdk8u512+11-macos-amd64-lite.zip",
       "checksums": {
         "sha1": "ec3978794813bf81c4685d591f972c165bec5990"
+      }
+    },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-macos-amd64-lite.zip",
+      "checksums": {
+        "sha1": "b30be3317c27e5c596703d9133269394b86df51e"
       }
     },
     "11.0.1": {
@@ -14107,6 +14227,12 @@
         "sha256": "44db0f08196daf19a47f90d13388b0c943b67663cb537f998fe29e836fa842ce"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jdk_x64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "9aa1d1c17ae5467a022679e7e0af5c00797d94ac462ed1a46f4db07a8a34a6dd"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -14195,6 +14321,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "e6229d9504f7922053ab31821b9e6bee8761daf7b026a3476d1a027563009880"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "32cd4d2151c91aa00d0fc911edfd05245ed40fa6b1aa894d5f35c928cd67a59d"
       }
     },
     "26.0.0": {
@@ -14799,6 +14931,12 @@
         "sha256": "7bba6701ecfac717ddf69256c3909c0482b2c0a421588badb029cee27b01daed"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-debugimage_x64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "54a1e5a863ea81f79dd14fc1090cdbdcc8e288e5bac681e0382d8657a6089cc6"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -14887,6 +15025,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_x64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "13988bdc69e033db8eebe2e27b6cbc53132ecd183bcb493ec6ba8982a88c3b56"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_x64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "49d94ebadc6b428abfeb5f066b86a852fd67019b13b06730f5b87d701d850ce4"
       }
     },
     "26.0.0": {
@@ -15473,6 +15617,12 @@
         "sha256": "6717ec641fd9ce0bb209ca083ee23b42202ac68cb6fcc5753496e0e4a0f41989"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jre_x64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "c909674b1c10c261b9a3fb7e9c0efebd303e33f88a4fe84be7135b5e2d711f89"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -15561,6 +15711,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_x64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "099cbc182af99ab454991a4230f0bdbf2b2ee3f61ce462d637aceaa12709380d"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_x64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "806902c796c670969b7b27df73b8f0fe0924a61bd65083aa53064115e49cab2d"
       }
     },
     "26.0.0": {
@@ -15901,6 +16057,12 @@
         "sha256": "9e1a3abc6671f8dc269d3d65e8a75c55f692f08da73ee3178f02b1dc5a7942c5"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-testimage_x64_mac_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "1ab805617b7a7852e45d2352c54fc7669b2f5a7282269430a8af3ab6a4094c7a"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-testimage_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -15989,6 +16151,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_x64_mac_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "1cf91cd8c69de84a088e6adefbc2dbcf4909042f8f5394b3806654d954a0028c"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_x64_mac_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "0c30f8b6edca86399cf8617a1a862498373adff43970b0e374db7132b8020320"
       }
     },
     "26.0.0": {
@@ -16605,6 +16773,12 @@
         "sha256": "e35bc8a4401193aa670146762bbad132bf0651fee5e3f16acbb3a5db0e0b0cff"
       }
     },
+    "8.0.512": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jdk8.0.512-macosx_x64.tar.gz",
+      "checksums": {
+        "sha256": "1f784fdee4a70970a102262fd34e6da8ab1d9755b3477a2c45906ddd8d290914"
+      }
+    },
     "9.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu9.0.0.15-ca-jdk9.0.0-macosx_x64.tar.gz",
       "checksums": {
@@ -16837,6 +17011,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jdk11.0.32-macosx_x64.tar.gz",
       "checksums": {
         "sha256": "5ba1b39cc08999645944bcfd54da48dd6c9a0891785d56cff95e92324fa841f6"
+      }
+    },
+    "11.0.33": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jdk11.0.33-macosx_x64.tar.gz",
+      "checksums": {
+        "sha256": "ae69ef573c3ad76294f079026775b3b5c70a5fa94fd2f4fccacfaf4b80ed7c13"
       }
     },
     "12.0.0": {
@@ -17175,6 +17355,12 @@
         "sha256": "b5bace4a346a7af0fe4f50904c46770e66d4b465800b038693c35e5d5b9bd52a"
       }
     },
+    "17.0.21": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jdk17.0.21-macosx_x64.tar.gz",
+      "checksums": {
+        "sha256": "2af1c17d9b2ba530328e52946fe3d4864c0670844918a1dbfb644eb2e2e3e08e"
+      }
+    },
     "18.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jdk18.0.0-macosx_x64.tar.gz",
       "checksums": {
@@ -17307,6 +17493,12 @@
         "sha256": "14e05cb1299c27cd26d3c5c6815723f63018df548dc7278c810767607902b4f4"
       }
     },
+    "21.0.13": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jdk21.0.13-macosx_x64.tar.gz",
+      "checksums": {
+        "sha256": "a6211ef2de128e72519556ea24c7ecb316ec5589b6ed705aef81c889b4233581"
+      }
+    },
     "22.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jdk22.0.0-macosx_x64.tar.gz",
       "checksums": {
@@ -17391,6 +17583,12 @@
         "sha256": "63273c6b9e2d9b250a0009ffdaa6d9f27af6ba98772516c391276106fb9f2820"
       }
     },
+    "25.0.5": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jdk25.0.5-macosx_x64.tar.gz",
+      "checksums": {
+        "sha256": "d9e9bc4cbe0872e8f71db818d6874878115efebdbd1a93f38542c521353bc81d"
+      }
+    },
     "26.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu26.28.59-ca-jdk26.0.0-macosx_x64.tar.gz",
       "checksums": {
@@ -17413,6 +17611,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu27.28.101-ca-jdk27.0.0-macosx_x64.tar.gz",
       "checksums": {
         "sha256": "b5d64393a228ad8680e5936cb114243118d3f6d87b668f0280ef8c15d674439c"
+      }
+    },
+    "27.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jdk27.0.1-macosx_x64.tar.gz",
+      "checksums": {
+        "sha256": "6cf97c408250223a9e1237da4779e04db24b075d04c6b2f1a23e273bc44ced3d"
       }
     }
   },
@@ -17693,6 +17897,12 @@
         "sha256": "87c82660534472cf7cecb33cb30ec420fd8f863b12c1d5a2cef9970ed990d64f"
       }
     },
+    "8.0.512": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jre8.0.512-macosx_x64.tar.gz",
+      "checksums": {
+        "sha256": "982152b352a7ff6850800984b7d801bf031df23f8713d3c777d7137c0baf9ded"
+      }
+    },
     "9.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu9.0.0.15-ca-jre9.0.0-macosx_x64.tar.gz",
       "checksums": {
@@ -17877,6 +18087,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jre11.0.32-macosx_x64.tar.gz",
       "checksums": {
         "sha256": "2e6e3a09b5613a591bf01d4c6289e2e2b5c4852a4042b50cab79c096ec6cfa59"
+      }
+    },
+    "11.0.33": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jre11.0.33-macosx_x64.tar.gz",
+      "checksums": {
+        "sha256": "903dc6d3020dad9c3120fdb88e8053b2552b13935bc626c397d199b8372be297"
       }
     },
     "13.0.1": {
@@ -18185,6 +18401,12 @@
         "sha256": "1d454d32c8e0eb61f64db6095292521cad011ec07217d139fc11e657b1e3f6ac"
       }
     },
+    "17.0.21": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jre17.0.21-macosx_x64.tar.gz",
+      "checksums": {
+        "sha256": "f2fc9ef10a9dbf1dc7860d0742efb4aba422473633400fef7afbf3ac01a27fe8"
+      }
+    },
     "18.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jre18.0.0-macosx_x64.tar.gz",
       "checksums": {
@@ -18317,6 +18539,12 @@
         "sha256": "29a47077cc956d793d7ff2507e5b3c1e92d4c0c6efda7b48016d5d64b1b856f9"
       }
     },
+    "21.0.13": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jre21.0.13-macosx_x64.tar.gz",
+      "checksums": {
+        "sha256": "10c993c08c0d3dd22646d06e8301428f4207b05681455db2d086f9202d58cb69"
+      }
+    },
     "22.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jre22.0.0-macosx_x64.tar.gz",
       "checksums": {
@@ -18401,6 +18629,12 @@
         "sha256": "156b4dd6d499bcd910227253fd342a1c4c3f385ef9f602a475ee867926083af7"
       }
     },
+    "25.0.5": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jre25.0.5-macosx_x64.tar.gz",
+      "checksums": {
+        "sha256": "bcc4f5b6b9c3257073e19ee427951ea923fcbd6c013e2ff7f94ec87481ea73a7"
+      }
+    },
     "26.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu26.28.59-ca-jre26.0.0-macosx_x64.tar.gz",
       "checksums": {
@@ -18423,6 +18657,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu27.28.101-ca-jre27.0.0-macosx_x64.tar.gz",
       "checksums": {
         "sha256": "752df4530e4dfed7721b4e47abb2eb65836a98db091ec0cff3e5d2b6e2bee92d"
+      }
+    },
+    "27.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jre27.0.1-macosx_x64.tar.gz",
+      "checksums": {
+        "sha256": "039c6e81a9e251b5133f48dcb4369758a89eb9c0c00aa2721dc9fada837496b2"
       }
     }
   }

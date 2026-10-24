@@ -204,6 +204,12 @@
         "sha1": "2d8096eca6a96bf99a1a2b2b0d93652b25422c18"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-linux-ppc64le.tar.gz",
+      "checksums": {
+        "sha1": "9c9a6cef00cbfa5083f303405a77fa512ca3ed69"
+      }
+    },
     "11.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jdk11.0.5+11-linux-ppc64le.tar.gz",
       "checksums": {
@@ -1142,6 +1148,12 @@
         "sha1": "e4f938f511503fe0f1f328609fd00ab6415a8a4e"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jre8u513+5-linux-ppc64le.tar.gz",
+      "checksums": {
+        "sha1": "a037214180382a9a9487f17b350f8f8fa09a6477"
+      }
+    },
     "11.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jre11.0.5+11-linux-ppc64le.tar.gz",
       "checksums": {
@@ -2012,6 +2024,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jdk8u512+11-linux-ppc64le-lite.tar.gz",
       "checksums": {
         "sha1": "7d41dcfde87b1829bb0a72c5fb9aea5e34677407"
+      }
+    },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-linux-ppc64le-lite.tar.gz",
+      "checksums": {
+        "sha1": "2e46eb37fd823dc3ff973b5e5c6f4d88dcc16467"
       }
     },
     "11.0.5": {
