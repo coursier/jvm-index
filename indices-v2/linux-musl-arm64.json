@@ -84,6 +84,12 @@
         "sha256": "8242627927adc90ac2561d0812dd39890ebc21ef09b550bc2e8b93640b8af4f8"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "a41f2d7b886ed318db51543cd045d94dd35179f66df302e6c3fd48a41a6dd9f5"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_aarch64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -288,6 +294,12 @@
       "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.12.1_1.tar.gz",
       "checksums": {
         "sha256": "e18b07ae1a354c620739d147298eb34be7ee8d0ee4e116645f2cd77a39ef0579"
+      }
+    },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "a0cd0613e9286537f79889b7b21862a312df777864f7cc4056483347255faab2"
       }
     },
     "22.0.0": {
@@ -496,6 +508,12 @@
         "sha256": "98e15ae359e1f87160ee4c0abb43336513e41712d439fd4a805a5474af32b2c7"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "382633eb2ba28cc5b97be1446eb1dd8d2a60a3795be0166a030e4cda338c490e"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_aarch64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -700,6 +718,12 @@
       "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.12.1_1.tar.gz",
       "checksums": {
         "sha256": "a451949d8b2ebf7ce8162ba2c2db592692aec493a3a996b6a669222e7ba034ad"
+      }
+    },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "7c60bf70109ba24e96fc127283df82b6675765561b1059af98b678b0bd901799"
       }
     },
     "22.0.0": {
@@ -950,6 +974,13 @@
         "sha256": "fce645bca792d183d481b0a8c115117050f77c52d6bf66cda460fe54928fdace"
       }
     },
+    "8.512.08.1": {
+      "url": "https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-alpine-linux-aarch64.tar.gz",
+      "checksums": {
+        "md5": "03e1159f2aa98e27f2b6f76c0483663c",
+        "sha256": "8f6c6e56cf6e6017cc9d59c7d9c6e16c9b14e37c2ab9f2ee7909099c625c1542"
+      }
+    },
     "11.0.19.7.1": {
       "url": "https://corretto.aws/downloads/resources/11.0.19.7.1/amazon-corretto-11.0.19.7.1-alpine-linux-aarch64.tar.gz",
       "checksums": {
@@ -1067,6 +1098,13 @@
       "checksums": {
         "md5": "17aa80a9f7507786c05e4c68079321b1",
         "sha256": "e649ca2731d3afb0612d4f6e4d78f5ae08591e563a5ff9ddbcb2e7e9cba497d1"
+      }
+    },
+    "11.0.33.0.9": {
+      "url": "https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-alpine-linux-aarch64.tar.gz",
+      "checksums": {
+        "md5": "15e752fd8370d1d1361d0ece500f6c03",
+        "sha256": "eb0cb8e6b5f6c4cfd9a0f7ae2a005e44bb387b9a259be9ea2e581833674d4e5b"
       }
     },
     "17.0.6.10.1": {
@@ -1207,6 +1245,13 @@
       "checksums": {
         "md5": "c3edca6bb01a18ac307ffb5933211c58",
         "sha256": "41f8f433a5f1c2189ca006ad810ac1090f9f80e547e0eaf9e14a0d3c1cba8930"
+      }
+    },
+    "17.0.21.0.10": {
+      "url": "https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-alpine-linux-aarch64.tar.gz",
+      "checksums": {
+        "md5": "e91fbd1c272360e08a999ab4880da071",
+        "sha256": "7d60d88e40fe1fa95814878dc12ad41697fe5fe1f88c1e1d25ec2a62d20bca7e"
       }
     },
     "19.0.2.7.1": {
@@ -1363,6 +1408,13 @@
         "sha256": "d04e612fb8ef835efa6dec2aaae1d1eb92949f097002b0d6a5543827614f93e2"
       }
     },
+    "21.0.13.0.10": {
+      "url": "https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-alpine-linux-aarch64.tar.gz",
+      "checksums": {
+        "md5": "e50b5eb5e016bbabe1fda92b409f68e9",
+        "sha256": "ff8dea45320d32310f4eaff3d3bf79eafdeb39acb1782bd130ff5f726c1d6eb8"
+      }
+    },
     "22.0.0.36.2": {
       "url": "https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-alpine-linux-aarch64.tar.gz",
       "checksums": {
@@ -1489,6 +1541,13 @@
         "sha256": "f8edada74dc8baef52e68357d564d60098d22b72905a768e0c7c3d8215bbd1e1"
       }
     },
+    "25.0.5.0.9": {
+      "url": "https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-alpine-linux-aarch64.tar.gz",
+      "checksums": {
+        "md5": "922ad25897fe0f2ce49f6e0ad17b57d9",
+        "sha256": "dfcd944f11465248f4a1d8d976c54842493fd5ee8d1cf762ecb044a9a11093fa"
+      }
+    },
     "26.0.0.35.2": {
       "url": "https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-alpine-linux-aarch64.tar.gz",
       "checksums": {
@@ -1522,6 +1581,13 @@
       "checksums": {
         "md5": "8d302c6cc14be7f69c607d23ba8b8fd9",
         "sha256": "0bd7884ec5a9c18efc6f70d1b138d37140ebcd38585463eb655bf04f030ccdb3"
+      }
+    },
+    "27.0.1.0.10": {
+      "url": "https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-alpine-linux-aarch64.tar.gz",
+      "checksums": {
+        "md5": "e56e4690bd86c7cf04b0605a2f958197",
+        "sha256": "0062e92cb1b50b7f8ef4e60a860e2f4d5c56ae88e1e20fbf4d103dda37272434"
       }
     }
   },
@@ -1942,6 +2008,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jdk8u512+11-linux-aarch64-musl.tar.gz",
       "checksums": {
         "sha1": "2d8f6836af066c71b1ce16cd69b6dd6ec8d7142f"
+      }
+    },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-linux-aarch64-musl.tar.gz",
+      "checksums": {
+        "sha1": "0a6011989421bc57bceb997a42c597af382cfe27"
       }
     },
     "11.0.10": {
@@ -2896,6 +2968,12 @@
         "sha1": "1e6e6f26c3efcce6cb113d3cee5367cb77806a93"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jre8u513+5-linux-aarch64-musl.tar.gz",
+      "checksums": {
+        "sha1": "0cc9052bebf5e52a2b28e47812586d8c593c4350"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-aarch64-musl.tar.gz",
       "checksums": {
@@ -3688,6 +3766,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jdk8u512+11-linux-aarch64-musl-lite.tar.gz",
       "checksums": {
         "sha1": "37ad2f9dcb0748048697eda003c0e0e8efe216af"
+      }
+    },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-linux-aarch64-musl-lite.tar.gz",
+      "checksums": {
+        "sha1": "4bd8db22e7a211f1cd46ef8a07d62430a541ece6"
       }
     },
     "11.0.10": {
@@ -5178,6 +5262,12 @@
         "sha256": "8242627927adc90ac2561d0812dd39890ebc21ef09b550bc2e8b93640b8af4f8"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "a41f2d7b886ed318db51543cd045d94dd35179f66df302e6c3fd48a41a6dd9f5"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_aarch64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -5382,6 +5472,12 @@
       "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.12.1_1.tar.gz",
       "checksums": {
         "sha256": "e18b07ae1a354c620739d147298eb34be7ee8d0ee4e116645f2cd77a39ef0579"
+      }
+    },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "a0cd0613e9286537f79889b7b21862a312df777864f7cc4056483347255faab2"
       }
     },
     "22.0.0": {
@@ -5590,6 +5686,12 @@
         "sha256": "98e15ae359e1f87160ee4c0abb43336513e41712d439fd4a805a5474af32b2c7"
       }
     },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "382633eb2ba28cc5b97be1446eb1dd8d2a60a3795be0166a030e4cda338c490e"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_aarch64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -5794,6 +5896,12 @@
       "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.12.1_1.tar.gz",
       "checksums": {
         "sha256": "a451949d8b2ebf7ce8162ba2c2db592692aec493a3a996b6a669222e7ba034ad"
+      }
+    },
+    "21.0.13": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.13_9.tar.gz",
+      "checksums": {
+        "sha256": "7c60bf70109ba24e96fc127283df82b6675765561b1059af98b678b0bd901799"
       }
     },
     "22.0.0": {
@@ -6032,6 +6140,12 @@
         "sha256": "e4fd7cb5444cb5d076eb74bf6e69cc5abd4c7dff57673e076270c2e7da39f486"
       }
     },
+    "8.0.512": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jdk8.0.512-linux_musl_aarch64.tar.gz",
+      "checksums": {
+        "sha256": "2a6f4140ed53df3687c7e4ca9e0d5492b4a0ece494fc59b57d999ee10990854d"
+      }
+    },
     "11.0.15": {
       "url": "https://cdn.azul.com/zulu/bin/zulu11.56.19-ca-jdk11.0.15-linux_musl_aarch64.tar.gz",
       "checksums": {
@@ -6138,6 +6252,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jdk11.0.32-linux_musl_aarch64.tar.gz",
       "checksums": {
         "sha256": "3556d62a8fb4fe99d15b670b8446ac09413d222ee7a87ff9a69732c8af766737"
+      }
+    },
+    "11.0.33": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jdk11.0.33-linux_musl_aarch64.tar.gz",
+      "checksums": {
+        "sha256": "94f1094f921c30a7176f9e72fc950add3e6bf0b34d41177e78443acfceb40b2a"
       }
     },
     "16.0.1": {
@@ -6278,6 +6398,12 @@
         "sha256": "5fef8e8d4e5d4be8133ba8b83ca05597b72a348be2a66134462e39af86cb9a6e"
       }
     },
+    "17.0.21": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jdk17.0.21-linux_musl_aarch64.tar.gz",
+      "checksums": {
+        "sha256": "87ca83fc8ca135c4ebb51f2659ac2fca22111326634001f21d905e2b7806986f"
+      }
+    },
     "18.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jdk18.0.0-linux_musl_aarch64.tar.gz",
       "checksums": {
@@ -6410,6 +6536,12 @@
         "sha256": "154c9b801c91b01935afedf48e2d7933729777ee34c81abf732e6a37c9ecd3ef"
       }
     },
+    "21.0.13": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jdk21.0.13-linux_musl_aarch64.tar.gz",
+      "checksums": {
+        "sha256": "3045ddaef70a32d47eeceb9f375667a1b3d55870b1b6ed0639790dbeb1cd5a52"
+      }
+    },
     "22.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu22.28.93-ca-crac-jdk22.0.0-linux_musl_aarch64.tar.gz",
       "checksums": {
@@ -6494,6 +6626,12 @@
         "sha256": "b0c86812a7810703dcd81805d9da7237df0dcf82dc07130787e7caa507851c96"
       }
     },
+    "25.0.5": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jdk25.0.5-linux_musl_aarch64.tar.gz",
+      "checksums": {
+        "sha256": "de2889c190b7dd5d8fc40db8523d9fdc87ad56001c5158b925d02c605407f766"
+      }
+    },
     "26.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu26.28.59-ca-jdk26.0.0-linux_musl_aarch64.tar.gz",
       "checksums": {
@@ -6516,6 +6654,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu27.28.101-ca-jdk27.0.0-linux_musl_aarch64.tar.gz",
       "checksums": {
         "sha256": "1aeb85a7f7aeae7608d4a1adfaf0768daff224a3bf46933773ea2d3a793b5057"
+      }
+    },
+    "27.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jdk27.0.1-linux_musl_aarch64.tar.gz",
+      "checksums": {
+        "sha256": "7598b879ade2ffb80f342149a6be1e019c46289f0d9f4b70783c57b04b4aa97c"
       }
     }
   },
@@ -6634,6 +6778,12 @@
         "sha256": "81351dce68e474914251ed08530fba2d95e6f756ec0817590c4bfb5b0e37bde5"
       }
     },
+    "8.0.512": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jre8.0.512-linux_musl_aarch64.tar.gz",
+      "checksums": {
+        "sha256": "1f7497de5062dd9e4d5656b690845fee2b27fd14fda196b11d7f068f0ee8dfa0"
+      }
+    },
     "11.0.15": {
       "url": "https://cdn.azul.com/zulu/bin/zulu11.56.19-ca-jre11.0.15-linux_musl_aarch64.tar.gz",
       "checksums": {
@@ -6740,6 +6890,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jre11.0.32-linux_musl_aarch64.tar.gz",
       "checksums": {
         "sha256": "e7fc1a7d49abe3ef531b289a6a3a227bc5418da2cbb4f89b32bf57f3902c6eae"
+      }
+    },
+    "11.0.33": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jre11.0.33-linux_musl_aarch64.tar.gz",
+      "checksums": {
+        "sha256": "26acdc4efdfa4fbeb734e1a2ec90ea4e5a5511f2e3b5d527382072bdf4d016d4"
       }
     },
     "16.0.1": {
@@ -6880,6 +7036,12 @@
         "sha256": "9f26b633bbf1055a1f0a1f2e2dafb6851ad69dc749bb415cbf488134b8c0bc6a"
       }
     },
+    "17.0.21": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jre17.0.21-linux_musl_aarch64.tar.gz",
+      "checksums": {
+        "sha256": "fa0be227c8e3d5fd9546502df792bd85899377d4b9d9d5c0c965820bf7ce8aad"
+      }
+    },
     "18.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jre18.0.0-linux_musl_aarch64.tar.gz",
       "checksums": {
@@ -7012,6 +7174,12 @@
         "sha256": "f00b3e99ac54f75bdd7f0013c915ee07e1b6f4199b4313e55555795937778238"
       }
     },
+    "21.0.13": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jre21.0.13-linux_musl_aarch64.tar.gz",
+      "checksums": {
+        "sha256": "6b0b9ccb4c96944820dc32df0418b3c197cf6f4cfadbb856065f8e485e96ce8b"
+      }
+    },
     "22.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu22.28.93-ca-jre22.0.0-linux_musl_aarch64.tar.gz",
       "checksums": {
@@ -7096,6 +7264,12 @@
         "sha256": "18e8273987116eedf5bf2883825053ef96ee39b785a19db31b0f392adf933ab8"
       }
     },
+    "25.0.5": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jre25.0.5-linux_musl_aarch64.tar.gz",
+      "checksums": {
+        "sha256": "2ab683cc03b565654ecd5c92cc1431739991a8387e330a926f8854d48f191e87"
+      }
+    },
     "26.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu26.28.59-ca-jre26.0.0-linux_musl_aarch64.tar.gz",
       "checksums": {
@@ -7118,6 +7292,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu27.28.101-ca-jre27.0.0-linux_musl_aarch64.tar.gz",
       "checksums": {
         "sha256": "87bf2c1f08c11f18abe16dba33291b5566aaaa3d50d0f7bafa2085bb60b2e03c"
+      }
+    },
+    "27.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jre27.0.1-linux_musl_aarch64.tar.gz",
+      "checksums": {
+        "sha256": "4588099600987534fd0a3279ea8c21b1320040ebd66a1a8eeece19c6ff88294d"
       }
     }
   }

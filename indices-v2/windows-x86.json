@@ -2712,6 +2712,12 @@
         "sha1": "28eddccfd7b77dcb418f7e6f027e617701e69017"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-windows-i586.zip",
+      "checksums": {
+        "sha1": "dffdf8dfd1524a5d456ee43804ad910bd8ada680"
+      }
+    },
     "11.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.2/bellsoft-jdk11.0.2-windows-i586.zip",
       "checksums": {
@@ -3542,6 +3548,12 @@
         "sha1": "0acb45955e783d475f96333de2faa421544b5400"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "6f3976c07e73b507f33079b4a5d9ae4a8b55fde1"
+      }
+    },
     "11.0.6": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jdk11.0.6+10-windows-i586-full.zip",
       "checksums": {
@@ -4342,6 +4354,12 @@
         "sha1": "fbc58e9daac9c4ba68e2a377982501ac54dede6f"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jre8u513+5-windows-i586.zip",
+      "checksums": {
+        "sha1": "424571c5d24e17048d365f6119b4fab4540a7673"
+      }
+    },
     "11.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jre11.0.5+11-windows-i586.zip",
       "checksums": {
@@ -5130,6 +5148,12 @@
         "sha1": "05058799880186fbdd5ba6b4be46e9939e985081"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jre8u513+5-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "39b9d968d958a8f375dc862ecbe377ce8a3a8b86"
+      }
+    },
     "11.0.6": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jre11.0.6+10-windows-i586-full.zip",
       "checksums": {
@@ -5856,6 +5880,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jdk8u512+11-windows-i586-lite.zip",
       "checksums": {
         "sha1": "280347d2364bbe3b4c6a7c80cc8f0eb5c98b47c9"
+      }
+    },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "4579c0e79a040d994ae5210b513d03beea7c66df"
       }
     },
     "11.0.2": {
@@ -8184,6 +8214,12 @@
         "sha256": "bc8fbc9057c639fb5d83167a09429dedce9243f92bae810fdb04c06bb6045016"
       }
     },
+    "8.0.512": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jdk8.0.512-win_i686.zip",
+      "checksums": {
+        "sha256": "ff5eed20ea5f56337ee435bccb50e32e623f1b8353eef2ee651b6c1d3b774476"
+      }
+    },
     "9.0.1": {
       "url": "https://cdn.azul.com/zulu/bin/zulu9.0.1.3-ca-jdk9.0.1-win_i686.zip",
       "checksums": {
@@ -8380,6 +8416,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jdk11.0.32-win_i686.zip",
       "checksums": {
         "sha256": "bfdca93856cc47b187c1f1394db90dcec3ebef3129c718f9f3fdc3685e04f353"
+      }
+    },
+    "11.0.33": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jdk11.0.33-win_i686.zip",
+      "checksums": {
+        "sha256": "fac40a9ebdc6a9fef96bbee1de3b352b68ffa827fa5b2e9c026862afe68de4a6"
       }
     },
     "12.0.0": {
@@ -8718,6 +8760,12 @@
         "sha256": "896d4122d85af4707ccca27f5a462d7286aa1c026f7a3074e74826bf13ffba7b"
       }
     },
+    "17.0.21": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jdk17.0.21-win_i686.zip",
+      "checksums": {
+        "sha256": "565049f38a946b327a69d796039227390e1df9361170594576df754269afeb30"
+      }
+    },
     "18.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jdk18.0.0-win_i686.zip",
       "checksums": {
@@ -9020,6 +9068,12 @@
         "sha256": "f77546602fafbb71ffa1af0f7fbfeda62ff4c69156212c6c35a698a1844b8b9e"
       }
     },
+    "8.0.512": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jre8.0.512-win_i686.zip",
+      "checksums": {
+        "sha256": "cb7c4fe8d444e062f11ffba69f76b77fdcb5c7a38bb98f6e658e18be86945a43"
+      }
+    },
     "11.0.6": {
       "url": "https://cdn.azul.com/zulu/bin/zulu11.37.17-ca-jre11.0.6-win_i686.zip",
       "checksums": {
@@ -9180,6 +9234,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jre11.0.32-win_i686.zip",
       "checksums": {
         "sha256": "62fbac1ab7596ccc868d39aa513550e347bca5eb9bf4a6ee3ae5c49fc930c558"
+      }
+    },
+    "11.0.33": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jre11.0.33-win_i686.zip",
+      "checksums": {
+        "sha256": "f320f9d2216a3286acf91c833e3f91476e79f0e7806f771fd8f9426217054131"
       }
     },
     "13.0.1": {
@@ -9486,6 +9546,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu17.68.17-ca-jre17.0.20-win_i686.zip",
       "checksums": {
         "sha256": "12579b084770da95eb0fb7e356e644ed6f0b0d46ed95c1a2880e1806a65fa31d"
+      }
+    },
+    "17.0.21": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jre17.0.21-win_i686.zip",
+      "checksums": {
+        "sha256": "5f669aa2267c88f3cb37a26b0f138857da8863705753b630e83c17c31ac1902e"
       }
     },
     "18.0.0": {
