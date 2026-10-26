@@ -3679,6 +3679,13 @@
         "sha256": "7eaaa3fdc72fe39b466f6d18d1e30ada75cad21363c7c2544f2177c9bb090de6"
       }
     },
+    "8.512.08.1": {
+      "url": "https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-windows-x64-jdk.zip",
+      "checksums": {
+        "md5": "3fdc4999cd4302bfd10c30f8613d2db4",
+        "sha256": "2c13b99a717f8d91bedd196afe0fb1cb36c1b6b8061de2a109791cf0c48d13e9"
+      }
+    },
     "11.0.6.10.1": {
       "url": "https://corretto.aws/downloads/resources/11.0.6.10.1/amazon-corretto-11.0.6.10.1-windows-x64-jdk.zip",
       "checksums": {}
@@ -3902,6 +3909,13 @@
         "sha256": "622e5a5d8af2ffadd63bcb51fad0599c9a9f87c5826933ce6d593ed164523823"
       }
     },
+    "11.0.33.0.9": {
+      "url": "https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-windows-x64-jdk.zip",
+      "checksums": {
+        "md5": "d05f982d66369c0e4f864b2803cfca96",
+        "sha256": "db7260b207d0ed7a1c59024b21857cfaf32796050a197799f574cab877c59815"
+      }
+    },
     "17.0.0.35.1": {
       "url": "https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-windows-x64-jdk.zip",
       "checksums": {
@@ -4082,6 +4096,13 @@
         "sha256": "1ac8d9dc48b170684ac6223113f524325bd842d14ed74dac28927f8165cffd3a"
       }
     },
+    "17.0.21.0.10": {
+      "url": "https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-windows-x64-jdk.zip",
+      "checksums": {
+        "md5": "418425bbc843288a6357993f3459daf2",
+        "sha256": "8681393133cde8d2fd0d52ccae48e8096b6eed11fc119eaf9cf1c84721311322"
+      }
+    },
     "18.0.0.37.1": {
       "url": "https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-windows-x64-jdk.zip",
       "checksums": {
@@ -4257,6 +4278,13 @@
         "sha256": "8945e414866b498f0587ee78411e0abff5071770d56eab8fe6d13eb3766a8631"
       }
     },
+    "21.0.13.0.10": {
+      "url": "https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-windows-x64-jdk.zip",
+      "checksums": {
+        "md5": "a73908091ac0cf1f5ee2af0bd9e92bd9",
+        "sha256": "abd264a79e07c64e19aaa705e5b8ea8db01d5213877b8ac0b855a94541a4b0fd"
+      }
+    },
     "22.0.0.36.2": {
       "url": "https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-windows-x64-jdk.zip",
       "checksums": {
@@ -4369,6 +4397,13 @@
         "sha256": "7055981aeda6927cfa4c8bedd619eb6809b923c47dbfd42441a70d47c3235e71"
       }
     },
+    "25.0.5.0.9": {
+      "url": "https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-windows-x64-jdk.zip",
+      "checksums": {
+        "md5": "5f40379bfa6fc7a376023e340858a8aa",
+        "sha256": "7299aa41c2c44e5764c08fe4d92c655f114cd1c1cfe3ff299181f34b65c7c58c"
+      }
+    },
     "26.0.0.35.2": {
       "url": "https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-windows-x64-jdk.zip",
       "checksums": {
@@ -4402,6 +4437,13 @@
       "checksums": {
         "md5": "a42c7e1ad490df54d21e6a4ce422a06a",
         "sha256": "4e98f43724a6bd7c20552eb124b68cf0bd69aedc06b7616fe5b050dd3f5fe689"
+      }
+    },
+    "27.0.1.0.10": {
+      "url": "https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-windows-x64-jdk.zip",
+      "checksums": {
+        "md5": "001f26caa633ed6927b1d41a63ae8931",
+        "sha256": "e39d31e11fe31932e55d4bba28486fb10c208b2f297766d4fc78364d9e58b47a"
       }
     }
   },
@@ -6487,13 +6529,13 @@
     "25": {
       "url": "https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.zip",
       "checksums": {
-        "sha256": "9b11e644a31d9775379d76a1a985b806e8457b96b4ff49516ea5f4c7cffaa6af"
+        "sha256": "ac55fd9b11dbd179075dd6f8d2d3a010408145a4443293480bfe187414e73219"
       }
     },
     "27": {
       "url": "https://download.oracle.com/java/27/latest/jdk-27_windows-x64_bin.zip",
       "checksums": {
-        "sha256": "fdd218bb972a9f6eea40210d00f16594d03e5e311f823ff8652527705c4e7835"
+        "sha256": "9655f039e3482fd365eec297fe6bd85885ea408853ca4a4e799affc2989df313"
       }
     }
   },
@@ -7610,6 +7652,12 @@
         "sha1": "2201e898366793bf317b87d94283dc8f2abce40e"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "a7f4e36a96379c92697f94ae093c7e6621dd8dc8"
+      }
+    },
     "11.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-windows-amd64.zip",
       "checksums": {
@@ -8584,6 +8632,12 @@
         "sha1": "75382c1eda3fe9e4c174cca87044962c6ac59d50"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "a672c2b14aba67090dbb90f16ad3049aa6b73d07"
+      }
+    },
     "11.0.6": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jdk11.0.6+10-windows-amd64-full.zip",
       "checksums": {
@@ -9516,6 +9570,12 @@
         "sha1": "d2add9d694c7e9ad39f2c65585a0c322507eb9e6"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jre8u513+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "a800c6b3d9b2489fa5728c95d1f0133e842b96e7"
+      }
+    },
     "11.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jre11.0.5+11-windows-amd64.zip",
       "checksums": {
@@ -10436,6 +10496,12 @@
         "sha1": "5ab755f2b57860293c2e0ffa53f039387b92a66e"
       }
     },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jre8u513+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "7c3bfa513f3ad0001babcf8954566aa27bb79502"
+      }
+    },
     "11.0.6": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jre11.0.6+10-windows-amd64-full.zip",
       "checksums": {
@@ -11294,6 +11360,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jdk8u512+11-windows-amd64-lite.zip",
       "checksums": {
         "sha1": "b7e09ecd0447e1b763d6753797242599f485d2d3"
+      }
+    },
+    "8.0.513": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-windows-amd64-lite.zip",
+      "checksums": {
+        "sha1": "eb2f764a869b920441bfea883533e7371655066b"
       }
     },
     "11.0.0": {
@@ -13512,6 +13584,12 @@
         "sha256": "3d9006956fc8af5601cd24ffc4f468bef48279c7ebd8171b9bdf90d0aabfbf1f"
       }
     },
+    "17.0.21.0.2": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.0.2-windows-x64.zip",
+      "checksums": {
+        "sha256": "49154292866386b2f4f09a3ecf3be07ab80a419149c84ec1d4419b9eec9e4b64"
+      }
+    },
     "17.35.1": {
       "url": "https://aka.ms/download-jdk/microsoft-jdk-17.35.1-windows-x64.zip",
       "checksums": {
@@ -13602,6 +13680,12 @@
         "sha256": "192441a9d27da813bada974bb88b4cf64d37a9589ed37f204374d411ca5ce07f"
       }
     },
+    "21.0.13.0.2": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.0.2-windows-x64.zip",
+      "checksums": {
+        "sha256": "c5706a9cf482ef1a0622a86eea5b13d557b07f04554572af061e2d02b58c0f99"
+      }
+    },
     "25.0.0": {
       "url": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-x64.zip",
       "checksums": {
@@ -13636,6 +13720,12 @@
       "url": "https://aka.ms/download-jdk/microsoft-jdk-25.0.4.1-windows-x64.zip",
       "checksums": {
         "sha256": "3c9099e60a82e17f5847052f50f3b107bfc1d32b366e1a20adbd1d0f303760e7"
+      }
+    },
+    "25.0.5.0.2": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-25.0.5.0.2-windows-x64.zip",
+      "checksums": {
+        "sha256": "5da7525c8268a10a66bd76a39f4e9af24d4ebc974d42800a609852c498a68460"
       }
     }
   },
@@ -16900,6 +16990,12 @@
         "sha256": "510d00a6814ee576205cdfec7efd0c9f93b066b34bf3f841b8854594dc97476b"
       }
     },
+    "8.0.512": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jdk8.0.512-win_x64.zip",
+      "checksums": {
+        "sha256": "9284148d71bff3b34d678a5159bb5688a062f5084ef14abb3daea0a173bb0bf2"
+      }
+    },
     "9.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu9.0.0.15-ca-jdk9.0.0-win_x64.zip",
       "checksums": {
@@ -17132,6 +17228,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jdk11.0.32-win_x64.zip",
       "checksums": {
         "sha256": "700a42d5764b5f41ab43adbfe3e03deac329cc10886f2312a5908fd5a3c78d46"
+      }
+    },
+    "11.0.33": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jdk11.0.33-win_x64.zip",
+      "checksums": {
+        "sha256": "fdc77ff97cca003a15b680d0782f0de9063199bbb37b6a645e20bc3ccfcda323"
       }
     },
     "12.0.0": {
@@ -17470,6 +17572,12 @@
         "sha256": "d207d8cec299f4d216bef1c7c081ba9504e79ba1cbc740de312d4a91b2d46436"
       }
     },
+    "17.0.21": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jdk17.0.21-win_x64.zip",
+      "checksums": {
+        "sha256": "ed209ff4293ff581c81d3b4268faf108fbe610e6ed43883de9e5f04308d68a72"
+      }
+    },
     "18.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jdk18.0.0-win_x64.zip",
       "checksums": {
@@ -17602,6 +17710,12 @@
         "sha256": "3c06e6693fd6fa725b985e66798a6a8293c75f52b793490754ad3c54d3d8b5a6"
       }
     },
+    "21.0.13": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jdk21.0.13-win_x64.zip",
+      "checksums": {
+        "sha256": "69e9fd7afafe0d70235884f8d9ab15cf8a4b43215b27900d710841e1fb3c7126"
+      }
+    },
     "22.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jdk22.0.0-win_x64.zip",
       "checksums": {
@@ -17686,6 +17800,12 @@
         "sha256": "a91265f0f0fb40155befe8f1cae7d1a0ae2ab4b7760f52733160d206637b50d1"
       }
     },
+    "25.0.5": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jdk25.0.5-win_x64.zip",
+      "checksums": {
+        "sha256": "636341b426cbeb02b4a30f5fe073a44d0ef64a2f91d077855e8d20f807471bf8"
+      }
+    },
     "26.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu26.28.59-ca-jdk26.0.0-win_x64.zip",
       "checksums": {
@@ -17708,6 +17828,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu27.28.101-ca-jdk27.0.0-win_x64.zip",
       "checksums": {
         "sha256": "99395b64049c2754005746c4f4b66fdb80c98c3cabaa14d4b25a7f8815c997b8"
+      }
+    },
+    "27.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jdk27.0.1-win_x64.zip",
+      "checksums": {
+        "sha256": "1ceeca99240959cb40325183b067b6c6c82d708f971f4ecc26420a6d914fed9c"
       }
     }
   },
@@ -17916,6 +18042,12 @@
         "sha256": "a4f32724c6d819c20372ac069fefa6e6c0319e1d79ba6ce4ee338d4c7e051a12"
       }
     },
+    "8.0.512": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jre8.0.512-win_x64.zip",
+      "checksums": {
+        "sha256": "885eb900690de5041597ca19972cbed85dc282b01d12b8ae6af91c85d484034c"
+      }
+    },
     "11.0.3": {
       "url": "https://cdn.azul.com/zulu/bin/zulu11.31.11-ca-jre11.0.3-win_x64.zip",
       "checksums": {
@@ -18094,6 +18226,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jre11.0.32-win_x64.zip",
       "checksums": {
         "sha256": "7a9998963ea449b647fb57a7bad425639ff50f7c0e08bd5f00572b6486ccac86"
+      }
+    },
+    "11.0.33": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jre11.0.33-win_x64.zip",
+      "checksums": {
+        "sha256": "8fc1c179d5c31bf247ffceb0a028f7dde6c39693e2e547e321a67028913fc6a1"
       }
     },
     "12.0.0": {
@@ -18408,6 +18546,12 @@
         "sha256": "a4d580f4c24c9795f185d5287917d028861ac5fbd670069631a0502cc79412bb"
       }
     },
+    "17.0.21": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jre17.0.21-win_x64.zip",
+      "checksums": {
+        "sha256": "124ebc6c81dbb2b4c4c65bdf99c75300d0ee0354118f7e856705ff421055335f"
+      }
+    },
     "18.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jre18.0.0-win_x64.zip",
       "checksums": {
@@ -18540,6 +18684,12 @@
         "sha256": "7f132f02ebcecee08de733bc8672705a3f7976488362e046118c94ffb129d5de"
       }
     },
+    "21.0.13": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jre21.0.13-win_x64.zip",
+      "checksums": {
+        "sha256": "9532e56bcf2578b4bbb82507c4e38a17c0332c5918ff6c8b25cd2f71abf42cf9"
+      }
+    },
     "22.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jre22.0.0-win_x64.zip",
       "checksums": {
@@ -18624,6 +18774,12 @@
         "sha256": "db550b4ebb8bba5284c25d1e882e3a01cbea9cba4759742f9803ca5d389ff29a"
       }
     },
+    "25.0.5": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jre25.0.5-win_x64.zip",
+      "checksums": {
+        "sha256": "0aee5f9816045d4f33207f266102d25ac7ab83b24506798130f8649d01196aac"
+      }
+    },
     "26.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu26.28.59-ca-jre26.0.0-win_x64.zip",
       "checksums": {
@@ -18646,6 +18802,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu27.28.101-ca-jre27.0.0-win_x64.zip",
       "checksums": {
         "sha256": "7020ae60b7f53cfcb328724f6587f5b778ee3e607984e45a3eef9e2f9f7684ca"
+      }
+    },
+    "27.0.1": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jre27.0.1-win_x64.zip",
+      "checksums": {
+        "sha256": "9340bdd7f7f024ea0fbc5f9cf1b0cca27d84f1d618690b436c2acfdac430fd7d"
       }
     }
   }
