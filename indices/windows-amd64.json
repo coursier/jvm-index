@@ -245,6 +245,7 @@
     "25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_x64_windows_hotspot_25.0.3_9.zip",
     "25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4_7.zip",
     "25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip",
+    "25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_windows_hotspot_25.0.5_8.zip",
     "26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_x64_windows_hotspot_26_35.zip",
     "26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_x64_windows_hotspot_26.0.1_8.zip",
     "26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_x64_windows_hotspot_26.0.2_10.zip",
@@ -364,6 +365,7 @@
     "25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.3_9.zip",
     "25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.4_7.zip",
     "25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.4.1_1.zip",
+    "25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.5_8.zip",
     "26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_x64_windows_hotspot_26_35.zip",
     "26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_x64_windows_hotspot_26.0.1_8.zip",
     "26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_x64_windows_hotspot_26.0.2_10.zip",
@@ -495,6 +497,7 @@
     "25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_x64_windows_hotspot_25.0.3_9.zip",
     "25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_x64_windows_hotspot_25.0.4_7.zip",
     "25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_x64_windows_hotspot_25.0.4.1_1.zip",
+    "25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_x64_windows_hotspot_25.0.5_8.zip",
     "26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_x64_windows_hotspot_26_35.zip",
     "26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_x64_windows_hotspot_26.0.1_8.zip",
     "26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_x64_windows_hotspot_26.0.2_10.zip",
@@ -578,6 +581,7 @@
     "25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_x64_windows_hotspot_25.0.3_9.zip",
     "25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-testimage_x64_windows_hotspot_25.0.4_7.zip",
     "25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_x64_windows_hotspot_25.0.4.1_1.zip",
+    "25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_x64_windows_hotspot_25.0.5_8.zip",
     "26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_x64_windows_hotspot_26_35.zip",
     "26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_x64_windows_hotspot_26.0.1_8.zip",
     "26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_x64_windows_hotspot_26.0.2_10.zip",
@@ -624,6 +628,7 @@
     "8.504.01.1": "zip+https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-windows-x64-jdk.zip",
     "8.504.04.1": "zip+https://corretto.aws/downloads/resources/8.504.04.1/amazon-corretto-8.504.04.1-windows-x64-jdk.zip",
     "8.512.08.1": "zip+https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-windows-x64-jdk.zip",
+    "8.512.09.1": "zip+https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-windows-x64-jdk.zip",
     "11.0.6.10.1": "zip+https://corretto.aws/downloads/resources/11.0.6.10.1/amazon-corretto-11.0.6.10.1-windows-x64-jdk.zip",
     "11.0.7.10.1": "zip+https://corretto.aws/downloads/resources/11.0.7.10.1/amazon-corretto-11.0.7.10.1-windows-x64-jdk.zip",
     "11.0.8.10.1": "zip+https://corretto.aws/downloads/resources/11.0.8.10.1/amazon-corretto-11.0.8.10.1-windows-x64-jdk.zip",
@@ -659,6 +664,7 @@
     "11.0.32.10.1": "zip+https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-windows-x64-jdk.zip",
     "11.0.32.12.1": "zip+https://corretto.aws/downloads/resources/11.0.32.12.1/amazon-corretto-11.0.32.12.1-windows-x64-jdk.zip",
     "11.0.33.0.9": "zip+https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-windows-x64-jdk.zip",
+    "11.0.33.0.10": "zip+https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-windows-x64-jdk.zip",
     "17.0.0.35.1": "zip+https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-windows-x64-jdk.zip",
     "17.0.1.12.1": "zip+https://corretto.aws/downloads/resources/17.0.1.12.1/amazon-corretto-17.0.1.12.1-windows-x64-jdk.zip",
     "17.0.2.8.1": "zip+https://corretto.aws/downloads/resources/17.0.2.8.1/amazon-corretto-17.0.2.8.1-windows-x64-jdk.zip",
@@ -686,6 +692,7 @@
     "17.0.20.10.1": "zip+https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-windows-x64-jdk.zip",
     "17.0.20.12.1": "zip+https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-windows-x64-jdk.zip",
     "17.0.21.0.10": "zip+https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-windows-x64-jdk.zip",
+    "17.0.21.0.11": "zip+https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-windows-x64-jdk.zip",
     "18.0.0.37.1": "zip+https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-windows-x64-jdk.zip",
     "18.0.1.10.1": "zip+https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-windows-x64-jdk.zip",
     "18.0.2.9.1": "zip+https://corretto.aws/downloads/resources/18.0.2.9.1/amazon-corretto-18.0.2.9.1-windows-x64-jdk.zip",
@@ -712,6 +719,7 @@
     "21.0.12.9.1": "zip+https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-windows-x64-jdk.zip",
     "21.0.12.12.1": "zip+https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-windows-x64-jdk.zip",
     "21.0.13.0.10": "zip+https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-windows-x64-jdk.zip",
+    "21.0.13.0.11": "zip+https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-windows-x64-jdk.zip",
     "22.0.0.36.2": "zip+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-windows-x64-jdk.zip",
     "22.0.1.8.1": "zip+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-windows-x64-jdk.zip",
     "22.0.2.9.1": "zip+https://corretto.aws/downloads/resources/22.0.2.9.1/amazon-corretto-22.0.2.9.1-windows-x64-jdk.zip",
@@ -729,12 +737,14 @@
     "25.0.4.8.1": "zip+https://corretto.aws/downloads/resources/25.0.4.8.1/amazon-corretto-25.0.4.8.1-windows-x64-jdk.zip",
     "25.0.4.10.1": "zip+https://corretto.aws/downloads/resources/25.0.4.10.1/amazon-corretto-25.0.4.10.1-windows-x64-jdk.zip",
     "25.0.5.0.9": "zip+https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-windows-x64-jdk.zip",
+    "25.0.5.0.10": "zip+https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-windows-x64-jdk.zip",
     "26.0.0.35.2": "zip+https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-windows-x64-jdk.zip",
     "26.0.1.8.1": "zip+https://corretto.aws/downloads/resources/26.0.1.8.1/amazon-corretto-26.0.1.8.1-windows-x64-jdk.zip",
     "26.0.2.10.1": "zip+https://corretto.aws/downloads/resources/26.0.2.10.1/amazon-corretto-26.0.2.10.1-windows-x64-jdk.zip",
     "26.0.2.11.1": "zip+https://corretto.aws/downloads/resources/26.0.2.11.1/amazon-corretto-26.0.2.11.1-windows-x64-jdk.zip",
     "27.0.0.35.1": "zip+https://corretto.aws/downloads/resources/27.0.0.35.1/amazon-corretto-27.0.0.35.1-windows-x64-jdk.zip",
-    "27.0.1.0.10": "zip+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-windows-x64-jdk.zip"
+    "27.0.1.0.10": "zip+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-windows-x64-jdk.zip",
+    "27.0.1.0.11": "zip+https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-windows-x64-jdk.zip"
   },
   "graalvm": {
     "19.3.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java8-windows-amd64-19.3.0.zip",
@@ -1177,7 +1187,7 @@
     "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-windows-x64-b432.48.zip",
     "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-windows-x64-b508.16.zip",
     "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-windows-x64-b508.27.zip",
-    "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-x64-b635.78.zip"
+    "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-x64-b635.79.zip"
   },
   "jetbrains-jcef": {
     "11.0.14.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-11_0_14_1-windows-x64-b2043.45.tar.gz",
@@ -1215,7 +1225,7 @@
     "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-windows-x64-b432.48.zip",
     "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-windows-x64-b508.16.zip",
     "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-windows-x64-b508.27.zip",
-    "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-x64-b635.78.zip"
+    "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-x64-b635.79.zip"
   },
   "jetbrains-jcef-jre": {
     "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-11_0_11-windows-x64-b1536.2.tar.gz",
@@ -1257,7 +1267,7 @@
     "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-windows-x64-b432.48.zip",
     "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-windows-x64-b508.16.zip",
     "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-windows-x64-b508.27.zip",
-    "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-x64-b635.78.zip"
+    "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-x64-b635.79.zip"
   },
   "jetbrains-jre": {
     "17.0.0": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17-windows-x64-b135.1.tar.gz",
@@ -1292,7 +1302,7 @@
     "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-windows-x64-b432.48.zip",
     "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-windows-x64-b508.16.zip",
     "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-windows-x64-b508.27.zip",
-    "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-x64-b635.78.zip"
+    "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-x64-b635.79.zip"
   },
   "liberica": {
     "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-windows-amd64.zip",
@@ -2472,6 +2482,7 @@
     "25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_x64_windows_hotspot_25.0.3_9.zip",
     "25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4_7.zip",
     "25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip",
+    "25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_windows_hotspot_25.0.5_8.zip",
     "26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_x64_windows_hotspot_26_35.zip",
     "26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_x64_windows_hotspot_26.0.1_8.zip",
     "26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_x64_windows_hotspot_26.0.2_10.zip",
@@ -2591,6 +2602,7 @@
     "25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.3_9.zip",
     "25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.4_7.zip",
     "25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.4.1_1.zip",
+    "25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.5_8.zip",
     "26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_x64_windows_hotspot_26_35.zip",
     "26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_x64_windows_hotspot_26.0.1_8.zip",
     "26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_x64_windows_hotspot_26.0.2_10.zip",
@@ -2707,6 +2719,7 @@
     "25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_x64_windows_hotspot_25.0.3_9.zip",
     "25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_x64_windows_hotspot_25.0.4_7.zip",
     "25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_x64_windows_hotspot_25.0.4.1_1.zip",
+    "25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_x64_windows_hotspot_25.0.5_8.zip",
     "26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_x64_windows_hotspot_26_35.zip",
     "26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_x64_windows_hotspot_26.0.1_8.zip",
     "26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_x64_windows_hotspot_26.0.2_10.zip",
@@ -2781,6 +2794,7 @@
     "25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_x64_windows_hotspot_25.0.3_9.zip",
     "25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-testimage_x64_windows_hotspot_25.0.4_7.zip",
     "25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_x64_windows_hotspot_25.0.4.1_1.zip",
+    "25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_x64_windows_hotspot_25.0.5_8.zip",
     "26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_x64_windows_hotspot_26_35.zip",
     "26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_x64_windows_hotspot_26.0.1_8.zip",
     "26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_x64_windows_hotspot_26.0.2_10.zip",

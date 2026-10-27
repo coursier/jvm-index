@@ -3688,6 +3688,13 @@
         "sha256": "34f60e9278adc67da2260b1249d9d5599ec456bfdd0e928ea381139de7f1cb1b"
       }
     },
+    "8.512.09.1": {
+      "url": "https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-macosx-x64.tar.gz",
+      "checksums": {
+        "md5": "5661600e2aeb14a9152512e56f15c042",
+        "sha256": "adfbe1c7a47ee98fe70f8028087614c93c137a2a54d8b010313104ef0325b656"
+      }
+    },
     "11.0.4.11.1": {
       "url": "https://corretto.aws/downloads/resources/11.0.4.11.1/amazon-corretto-11.0.4.11.1-macosx-x64.tar.gz",
       "checksums": {}
@@ -3939,6 +3946,13 @@
         "sha256": "8b552a9c15cbb6cb6cf54d00ddc9bdda9e8ff8547e02d88038baf4a2b2b7c547"
       }
     },
+    "11.0.33.0.10": {
+      "url": "https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-macosx-x64.tar.gz",
+      "checksums": {
+        "md5": "a08ad571b7a5bc857d3da8fc6eef74ee",
+        "sha256": "96a4ffe772ffc62bdc7892720ff23935b6b888d8b05273dadf191f2e0410bd04"
+      }
+    },
     "17.0.0.35.1": {
       "url": "https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-macosx-x64.tar.gz",
       "checksums": {
@@ -4132,6 +4146,13 @@
         "sha256": "f13aa9654979894dddcd448f8b95b9b355c299c137cb47367cbb01b668b65f7b"
       }
     },
+    "17.0.21.0.11": {
+      "url": "https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-macosx-x64.tar.gz",
+      "checksums": {
+        "md5": "c87cc63d684a8600e09f0e66a36f0544",
+        "sha256": "dca4175d94d404533c4230eff1a64cc3ae9f3919bfdf35902c64bfd4d3bcb70e"
+      }
+    },
     "18.0.0.37.1": {
       "url": "https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-macosx-x64.tar.gz",
       "checksums": {
@@ -4314,6 +4335,13 @@
         "sha256": "63d4587a2434930a4e57c0f9c40e0e3ffe1d7d054b29a4f8a01f83f014bdddfa"
       }
     },
+    "21.0.13.0.11": {
+      "url": "https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-macosx-x64.tar.gz",
+      "checksums": {
+        "md5": "b20885aaa58915d68cf6b3cc9002c5b0",
+        "sha256": "12cf7651ba1f2fd04357d5277b0d58a78a7df5d672bc7cfc085ccb0d60c4bc8c"
+      }
+    },
     "22.0.0.36.2": {
       "url": "https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-macosx-x64.tar.gz",
       "checksums": {
@@ -4433,6 +4461,13 @@
         "sha256": "b8addccfcfb4231a2e9bc14914b948f0b084a4bdcd384909b4feefc3e284623e"
       }
     },
+    "25.0.5.0.10": {
+      "url": "https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-macosx-x64.tar.gz",
+      "checksums": {
+        "md5": "0c63eba0f066ba7afbfa71edfcd00954",
+        "sha256": "e580a91b30fe723f3bdefcc297722d6e373a52d9a427748bcc38cdd3237ada15"
+      }
+    },
     "26.0.0.35.2": {
       "url": "https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-macosx-x64.tar.gz",
       "checksums": {
@@ -4473,6 +4508,13 @@
       "checksums": {
         "md5": "712a3f9f883154d1d3bac26805e7ee71",
         "sha256": "725a5b6684b2aad5d9d3d998c64fb669b5083d0b6bb563bab3dfb5a2ed0f27e8"
+      }
+    },
+    "27.0.1.0.11": {
+      "url": "https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-macosx-x64.tar.gz",
+      "checksums": {
+        "md5": "ae8a99669a62fe9ac927b7c1965e7ff0",
+        "sha256": "42bdbfae6cbc28761df7c8bf3887907ea3de2e95aa82eba697fd55b696e97125"
       }
     }
   },
@@ -6738,9 +6780,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-x64-b635.78.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-x64-b635.79.tar.gz",
       "checksums": {
-        "sha512": "e322739ff10d666b8204d6dbed5b83cd3b1fb41138dfdb27b7b7098d44afbc408596c6710833f465a82207467ebe36691ca1974d91d1d5be45721d78eb9aac1a"
+        "sha512": "e8c8fb1e47e3e8d9a0f1548b9b9566c40bcd056771c3052ba6512dc2bde6b65566a4890e9af9a4b27e62446c33eb9dab030b8e813a7a5598f80f72508b9cb8bf"
       }
     }
   },
@@ -6950,9 +6992,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-x64-b635.78.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-x64-b635.79.tar.gz",
       "checksums": {
-        "sha512": "faaa947c52b64d6a3bc7d79d8d6491d54f45607565eab93923ae9995d04a6f25d9d368ca9ddf992d758d0d1c9b1eac43e16fb63e936e3e54414bb0b48887ece3"
+        "sha512": "39a90c5847eb1c35ce4f3cf89944e1019a23f9b5882092ff6fb782509406be7a62c2bd9d3bbcbd96b543aefd5e3a586afe63e4076aa4c0f66876a2f4005c1a9f"
       }
     }
   },
@@ -7186,9 +7228,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-x64-b635.78.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-x64-b635.79.tar.gz",
       "checksums": {
-        "sha512": "8d8db3d92da85a0ac6aa05e1a963dbfe06c6f7d56361273ae40ded3191eac01e6330fc0f1556e9c56db1b08c01ce5f9e5071a5578f8ddf3104f68389a4e53a58"
+        "sha512": "1ebd7b3d1b26abb53d261403159df215107eb0d3f7d325870a8f4500a54f7a74df457ea7260fee0823a0192a62666c368ac0be52fd2d4137bbfdbd5840eb6e0b"
       }
     }
   },
@@ -7380,9 +7422,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-x64-b635.78.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-x64-b635.79.tar.gz",
       "checksums": {
-        "sha512": "e66ed3557c9576cb6e313b7bdaf2665d9030e32008f8561a9f000afb93f2fd9722ae24122012b25246017bc84372a05b5447edb24bab05b4c97088f73e194e78"
+        "sha512": "fc8f7404d137259bd707870b1c5fc7f7084aa940829f7156ec81144630156cbb344774e97c34d2ecd34a353f84288d60ced8c174968c9465d0b1db8d51a7f90e"
       }
     }
   },

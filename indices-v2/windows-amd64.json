@@ -1430,6 +1430,12 @@
         "sha256": "00c847d804f4a78e9f04f2683faf14fed898535b177b7fc704486cb0284e9283"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_windows_hotspot_25.0.5_8.zip",
+      "checksums": {
+        "sha256": "636bdc13dc649ddc7d5921c5c7d23cca6e44fd19d662b45cc9c02135a6c96c42"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_x64_windows_hotspot_26_35.zip",
       "checksums": {
@@ -2132,6 +2138,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.4.1_1.zip",
       "checksums": {
         "sha256": "dea8ed40c5df322921f2f21acb210c742e55673f70300c8921a53edfe77db8cc"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.5_8.zip",
+      "checksums": {
+        "sha256": "01de8bd56e5cc59933a14fa4b4d3fa6bd6ecc278b3434ddf3c13dd2e9a2e014a"
       }
     },
     "26.0.0": {
@@ -2910,6 +2922,12 @@
         "sha256": "4c95451cea98556def2c54f7782933f52a26d4a36bd85e1d59f0364464828b07"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_x64_windows_hotspot_25.0.5_8.zip",
+      "checksums": {
+        "sha256": "da78d54a2fcdbba1e92d5e3f07dd30236f96297891c4a21a781c3f38f5c0beae"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_x64_windows_hotspot_26_35.zip",
       "checksums": {
@@ -3398,6 +3416,12 @@
         "sha256": "bc14bbff7e81380af9ffc627677b67474b80da88d35e70c79168eb124a8a41c9"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_x64_windows_hotspot_25.0.5_8.zip",
+      "checksums": {
+        "sha256": "f4cc03185d9d5a96c2bbaa41dcc0ba4c02be0ff6cf06566321df15c00b237f82"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_x64_windows_hotspot_26_35.zip",
       "checksums": {
@@ -3686,6 +3710,13 @@
         "sha256": "2c13b99a717f8d91bedd196afe0fb1cb36c1b6b8061de2a109791cf0c48d13e9"
       }
     },
+    "8.512.09.1": {
+      "url": "https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-windows-x64-jdk.zip",
+      "checksums": {
+        "md5": "26a46737976a2da98364f8ecba06453a",
+        "sha256": "9c8d155623ad7d257e5ecf57452022ee12a7fef839195e8fb963e85d69598a7e"
+      }
+    },
     "11.0.6.10.1": {
       "url": "https://corretto.aws/downloads/resources/11.0.6.10.1/amazon-corretto-11.0.6.10.1-windows-x64-jdk.zip",
       "checksums": {}
@@ -3916,6 +3947,13 @@
         "sha256": "db7260b207d0ed7a1c59024b21857cfaf32796050a197799f574cab877c59815"
       }
     },
+    "11.0.33.0.10": {
+      "url": "https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-windows-x64-jdk.zip",
+      "checksums": {
+        "md5": "116fa2cd459b3016886c3e08f71451ca",
+        "sha256": "1a65d64b7837bb7439f4e3973531e50c9c52da737385066d771b52d2db461d80"
+      }
+    },
     "17.0.0.35.1": {
       "url": "https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-windows-x64-jdk.zip",
       "checksums": {
@@ -4103,6 +4141,13 @@
         "sha256": "8681393133cde8d2fd0d52ccae48e8096b6eed11fc119eaf9cf1c84721311322"
       }
     },
+    "17.0.21.0.11": {
+      "url": "https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-windows-x64-jdk.zip",
+      "checksums": {
+        "md5": "39db417b5136712dd296282c86775e1b",
+        "sha256": "59d6514305f6fab3b18955fb17185562f0a0bbf20e1466eda33a5429f3b31618"
+      }
+    },
     "18.0.0.37.1": {
       "url": "https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-windows-x64-jdk.zip",
       "checksums": {
@@ -4285,6 +4330,13 @@
         "sha256": "abd264a79e07c64e19aaa705e5b8ea8db01d5213877b8ac0b855a94541a4b0fd"
       }
     },
+    "21.0.13.0.11": {
+      "url": "https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-windows-x64-jdk.zip",
+      "checksums": {
+        "md5": "4ddf720246e751c6a54d806da23b9c9c",
+        "sha256": "2245721d8cec120ebddf60a6981a13baa89d82997dab621a0ee6a5849beee233"
+      }
+    },
     "22.0.0.36.2": {
       "url": "https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-windows-x64-jdk.zip",
       "checksums": {
@@ -4404,6 +4456,13 @@
         "sha256": "7299aa41c2c44e5764c08fe4d92c655f114cd1c1cfe3ff299181f34b65c7c58c"
       }
     },
+    "25.0.5.0.10": {
+      "url": "https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-windows-x64-jdk.zip",
+      "checksums": {
+        "md5": "ce556e26b09bcec71ae03ddc498a68a5",
+        "sha256": "4da11ba50a52e4fe7e99f30c3103e5e41314d5dcabe6fe768ff9f68e55466139"
+      }
+    },
     "26.0.0.35.2": {
       "url": "https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-windows-x64-jdk.zip",
       "checksums": {
@@ -4444,6 +4503,13 @@
       "checksums": {
         "md5": "001f26caa633ed6927b1d41a63ae8931",
         "sha256": "e39d31e11fe31932e55d4bba28486fb10c208b2f297766d4fc78364d9e58b47a"
+      }
+    },
+    "27.0.1.0.11": {
+      "url": "https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-windows-x64-jdk.zip",
+      "checksums": {
+        "md5": "957ed8dd1511240ecc37fe86253a1269",
+        "sha256": "794bd394e2adb7c20e33c909b12e858220e69501b6124f1da9930af75579f135"
       }
     }
   },
@@ -6763,9 +6829,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-x64-b635.78.zip",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-x64-b635.79.zip",
       "checksums": {
-        "sha512": "70aa7d55ee0ecf9bb73019fbf5aa602443fc0b613716e1ad2e61a1d589d803c76de6afde5b3692f7d82f3466589fc4bd3d37caf5954033ffd5dde514cbd9801f"
+        "sha512": "5cfcb1e784658ad2fba38973e1a629841491a7e05428f666c64ff6787340df7a854b7373339d6e9249d7cbe8dec9ecdd1514f54dd63eb0de86794081f9c2cddc"
       }
     }
   },
@@ -6981,9 +7047,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-x64-b635.78.zip",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-x64-b635.79.zip",
       "checksums": {
-        "sha512": "5ce6945b9724ee729bb51660bfb311e653c6610c2f2a54416adcadfeb35733bb323412fa250aa80ba99f794e6f0625c5f2beb7ba242b292868a3c0848da2b7e9"
+        "sha512": "78ca1b60e50043ca88055679f47861d64013250ce203e87772a55e6975e3c3e24b776c4eb4b17fa42eb5b47d0391efdf0300b7664293d96e43c21b4ceed0fbfa"
       }
     }
   },
@@ -7223,9 +7289,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-x64-b635.78.zip",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-x64-b635.79.zip",
       "checksums": {
-        "sha512": "48df6ada4311a0f0622d667ae073cb14db36a8eb7ab2b5a63fb73c30ea5cf3e19fd740089b3eb9a6fbba37ede25466ae59582d413e08f2cf4426151f7a99fb50"
+        "sha512": "3c282345066f1728a1cb3f09bbd0ceb6d92abc2c4f940c701d8dd5d676f36e1ea66182a16d596442cf0f169ba9601fc72fba5833b25d19567fe7d23dc59f549e"
       }
     }
   },
@@ -7423,9 +7489,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-x64-b635.78.zip",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-x64-b635.79.zip",
       "checksums": {
-        "sha512": "6f4561ac8b6615d8ff788077906488bc04d43eb2f6c003458c1aefd6c18e71fa9c78f7bef2e76efde82700b4a370a92b2803aa19f6c84b5643d4bfe9da24e5cd"
+        "sha512": "170b8ff48b7855ccaaaa2e87cbe832bba1df0f1875b46496a74e09777d1969a90b62a01e2b3406dfb9c8470739e126722907187c28a1472ff1d6a395a5607d58"
       }
     }
   },
@@ -14402,6 +14468,12 @@
         "sha256": "00c847d804f4a78e9f04f2683faf14fed898535b177b7fc704486cb0284e9283"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_windows_hotspot_25.0.5_8.zip",
+      "checksums": {
+        "sha256": "636bdc13dc649ddc7d5921c5c7d23cca6e44fd19d662b45cc9c02135a6c96c42"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_x64_windows_hotspot_26_35.zip",
       "checksums": {
@@ -15106,6 +15178,12 @@
         "sha256": "dea8ed40c5df322921f2f21acb210c742e55673f70300c8921a53edfe77db8cc"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.5_8.zip",
+      "checksums": {
+        "sha256": "01de8bd56e5cc59933a14fa4b4d3fa6bd6ecc278b3434ddf3c13dd2e9a2e014a"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_x64_windows_hotspot_26_35.zip",
       "checksums": {
@@ -15792,6 +15870,12 @@
         "sha256": "4c95451cea98556def2c54f7782933f52a26d4a36bd85e1d59f0364464828b07"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_x64_windows_hotspot_25.0.5_8.zip",
+      "checksums": {
+        "sha256": "da78d54a2fcdbba1e92d5e3f07dd30236f96297891c4a21a781c3f38f5c0beae"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_x64_windows_hotspot_26_35.zip",
       "checksums": {
@@ -16224,6 +16308,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_x64_windows_hotspot_25.0.4.1_1.zip",
       "checksums": {
         "sha256": "bc14bbff7e81380af9ffc627677b67474b80da88d35e70c79168eb124a8a41c9"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_x64_windows_hotspot_25.0.5_8.zip",
+      "checksums": {
+        "sha256": "f4cc03185d9d5a96c2bbaa41dcc0ba4c02be0ff6cf06566321df15c00b237f82"
       }
     },
     "26.0.0": {

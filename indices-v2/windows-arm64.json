@@ -441,9 +441,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-aarch64-b635.78.zip",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-aarch64-b635.79.zip",
       "checksums": {
-        "sha512": "c835ccdfcadc059d650b511a01714a30fad1dab38b71fb234a966df008a305337b92199306c6c0039704a26141068efb1f55824e41fe720cb3dab1b85e5f4c84"
+        "sha512": "55895cdaef42a4874433da13b894a56e682575e4406fc04e324b66d7ecb53b9168081c2f24fb5053ca06ec1300f54b51b2b750eed919935197955321926bd7db"
       }
     }
   },
@@ -617,9 +617,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-aarch64-b635.78.zip",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-aarch64-b635.79.zip",
       "checksums": {
-        "sha512": "3f8491a4f062fc35a155a583b5eb12020fcdd86308bc75c5a15be30d94cb32afa5aae290eaefc3e190aae808a9018cec05cd909efe30db91cf1cc025ded85a9e"
+        "sha512": "04d7548a6bfc8872c102dc3fb4e99252fb70433b01fa558ce98904f29f765df68f80070e542127aee02b073958a854fb6f78be10ce65578fdb2cdb2d4e4749a1"
       }
     }
   },
@@ -793,9 +793,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-aarch64-b635.78.zip",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-aarch64-b635.79.zip",
       "checksums": {
-        "sha512": "26692cb146676fcce37e198683924215dc33ee3a31527279c3d93f613d5647e581cddcc24b7a5ce6bfd3a4cde653e92e365f97939975133dfe59b7fe7306e1c0"
+        "sha512": "5365d8168dd9b9a6c35a28d6a106778aafbfa113c6d12c3c46dedefc9261d16dfd3a2dab72f44d59fcb998301d5a80cd3221df8e8d7e4902ab36669d221b8a45"
       }
     }
   },
@@ -969,9 +969,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-aarch64-b635.78.zip",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-aarch64-b635.79.zip",
       "checksums": {
-        "sha512": "1875be5d3ffd31a92ea38bfd6dca8015914bf204ac2b4e877bc1aeff7970dabf07a8be99760043a16978cf8cd9a883cbbe7f588922e571e01da7177f776321b2"
+        "sha512": "27c1efaddd5db6a35c66384801e864925498bd6383a44cf3858fada81974661da939a58993ffa90accc2d87d88bff1ea7d119283b3c541176d55c6d55e079028"
       }
     }
   },
@@ -4374,6 +4374,12 @@
       "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.20.1-windows-aarch64.zip",
       "checksums": {
         "sha256": "6872e702181fe88773a80bc3684281c111091e29e7f190ac5af06b0315f8b849"
+      }
+    },
+    "17.0.21.0.2": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.0.2-windows-aarch64.zip",
+      "checksums": {
+        "sha256": "2c0e7679022f1666da64b586f9941e86481c6f369212e918be3e505581085336"
       }
     },
     "17.35.1": {

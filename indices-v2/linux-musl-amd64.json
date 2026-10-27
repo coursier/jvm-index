@@ -474,6 +474,12 @@
         "sha256": "0c4fcdefa2737ccd66e049245fdb9dc431f91796182141204cd5f8192cb288e6"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "db018054d52c1c109ad128c1412ead2d84ae91052ce60ca370df17b6a89831f5"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -1176,6 +1182,12 @@
         "sha256": "33a444a2168cf62648eb514ea08db25700d312765ac820c8b18516334c42a37c"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "1180e29ef81fcba521789a9c92744a3d1e413048dadc59cebaef5732fa541547"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -1866,6 +1878,12 @@
         "sha256": "72423b1464907857f4e7ca854a2b8fd9f7cf6b9dd15bd3ea31ef6cf33b097aea"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "e42129db57e3965d9d8befdb097531d7887916690338ff0be7d1b0113287c872"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
       "checksums": {
@@ -2352,6 +2370,12 @@
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
       "checksums": {
         "sha256": "7aad30b8125293b10eb9ae6877054397fc3901337e7c528d2455918de8dc42f9"
+      }
+    },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "f995b6d678d7e71a376cc0a3c8156dbc48b9fcdbff8b746beb83bc9758abb9d1"
       }
     },
     "19.0.2": {
@@ -2842,6 +2866,13 @@
         "sha256": "5ac0af2ea3bd98034cb934237a524f47dcddf266b0bc4babe10a0ddfbbb97c21"
       }
     },
+    "8.512.09.1": {
+      "url": "https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-alpine-linux-x64.tar.gz",
+      "checksums": {
+        "md5": "691eddf5b8890629ec06aabd0119a2b7",
+        "sha256": "4d7621c45f649f7a0f3f27ec0fca7e0417c8075313f8464f09e716baf30758a0"
+      }
+    },
     "11.0.7.10.1": {
       "url": "https://corretto.aws/downloads/resources/11.0.7.10.1/amazon-corretto-11.0.7.10.1-alpine-linux-x64.tar.gz",
       "checksums": {}
@@ -3062,6 +3093,13 @@
         "sha256": "bb27090a12192ea90084f820b4edc72e24e58d5f02ec48e4f5b9e281c73efd33"
       }
     },
+    "11.0.33.0.10": {
+      "url": "https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-alpine-linux-x64.tar.gz",
+      "checksums": {
+        "md5": "68cb26ab1c5b193dd34ed085e644063c",
+        "sha256": "5faabfafe6f7e96624d3fc19e2ddd14dbfc2c2bd64b107cea5daa97e1d164e1e"
+      }
+    },
     "17.0.0.35.1": {
       "url": "https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-alpine-linux-x64.tar.gz",
       "checksums": {
@@ -3254,6 +3292,13 @@
       "checksums": {
         "md5": "e3e1c962a1b985d7be9d00394c99237c",
         "sha256": "5881ca9f1935da12a3cb6caa3ddff38577adf9b6f0f14bdfb14a044e9699643b"
+      }
+    },
+    "17.0.21.0.11": {
+      "url": "https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-alpine-linux-x64.tar.gz",
+      "checksums": {
+        "md5": "ebf0580eccf3955f8368adde34b0e7b6",
+        "sha256": "0c457166868cba83eb81c48facdc3dede3e0c78d76bbdcd83ad69b966f5280b2"
       }
     },
     "18.0.0.37.1": {
@@ -3452,6 +3497,13 @@
         "sha256": "559e262e84a6387650f56ad08bb09d6e3a5fa95be9c5fe5e8bdf05860581780c"
       }
     },
+    "21.0.13.0.11": {
+      "url": "https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-alpine-linux-x64.tar.gz",
+      "checksums": {
+        "md5": "e6e0c36b85fe14742a97c0cc2cb7b6d2",
+        "sha256": "0feb24e3fd320362bc89538f985cd144085a0febb1367b4c694174f9bed15183"
+      }
+    },
     "22.0.0.36.2": {
       "url": "https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-alpine-linux-x64.tar.gz",
       "checksums": {
@@ -3585,6 +3637,13 @@
         "sha256": "fe98c4d75854ee30584f4237c0923c5a210ef9997149619b2aa4725794011752"
       }
     },
+    "25.0.5.0.10": {
+      "url": "https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-alpine-linux-x64.tar.gz",
+      "checksums": {
+        "md5": "4145104a48a34dc214dc0b881c0b24c8",
+        "sha256": "1c416e01fa9fc039e0c8fd97f443db375d0afcf1147a1e7d6a7106ae344c0993"
+      }
+    },
     "26.0.0.35.2": {
       "url": "https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-alpine-linux-x64.tar.gz",
       "checksums": {
@@ -3625,6 +3684,13 @@
       "checksums": {
         "md5": "91386247d878e75e3a7090e1b8129c41",
         "sha256": "b43da190ec4321992c76068d260555582a16e2d253bf4f6f5d6ba6c61a5b3d28"
+      }
+    },
+    "27.0.1.0.11": {
+      "url": "https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-alpine-linux-x64.tar.gz",
+      "checksums": {
+        "md5": "e90efa925e37632fa241842af8195f63",
+        "sha256": "4160a1f87245311c5c8aa0504f528092e4404b8987e34e5b28856337e3a48e2c"
       }
     }
   },
@@ -3750,9 +3816,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-musl-x64-b635.78.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-musl-x64-b635.79.tar.gz",
       "checksums": {
-        "sha512": "b6c4871f33e0ba781f470b4897569ed6eed5253930afa090720d1f5147a5e192b87e86d1e2c1d814949af86d159be2c410d824cd8755b02460f5c78b1812bc23"
+        "sha512": "e16d19e54067545a6c6735c318cc06cbbde53c9a7a065e9530b09ae6ac9911c29e02a9f2e5225bddccfde99aa48088d9634c4f3f4a56bb502fb0f66995002566"
       }
     }
   },
@@ -3878,9 +3944,9 @@
       }
     },
     "25.0.4.1": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-musl-x64-b635.78.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-musl-x64-b635.79.tar.gz",
       "checksums": {
-        "sha512": "ecf126f4172576d0c3535ccaabce04e4546f015722387a7423ccef2d8a047c62eebdc720ef2bfeda2b4f7cebd0adb2636c00dcd32389c4533ca99d3d86851a57"
+        "sha512": "e187942900b1eae6c90967a2efec558edf4e6b2ba09258fb7b33320d3fdacf72cc234795fb52017c955a1ca54fe586da81a4f43d000947dd648523dac65b043a"
       }
     }
   },
@@ -8217,6 +8283,12 @@
         "sha256": "0c4fcdefa2737ccd66e049245fdb9dc431f91796182141204cd5f8192cb288e6"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "db018054d52c1c109ad128c1412ead2d84ae91052ce60ca370df17b6a89831f5"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -8919,6 +8991,12 @@
         "sha256": "33a444a2168cf62648eb514ea08db25700d312765ac820c8b18516334c42a37c"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "1180e29ef81fcba521789a9c92744a3d1e413048dadc59cebaef5732fa541547"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -9609,6 +9687,12 @@
         "sha256": "72423b1464907857f4e7ca854a2b8fd9f7cf6b9dd15bd3ea31ef6cf33b097aea"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "e42129db57e3965d9d8befdb097531d7887916690338ff0be7d1b0113287c872"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
       "checksums": {
@@ -10095,6 +10179,12 @@
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
       "checksums": {
         "sha256": "7aad30b8125293b10eb9ae6877054397fc3901337e7c528d2455918de8dc42f9"
+      }
+    },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "f995b6d678d7e71a376cc0a3c8156dbc48b9fcdbff8b746beb83bc9758abb9d1"
       }
     },
     "19.0.2": {
