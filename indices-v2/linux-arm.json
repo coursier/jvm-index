@@ -1010,6 +1010,12 @@
         "sha256": "e66816375d9ff7e18e622b370f0b523dd45a91ab4c6dcd17d6c8708e17ab80e9"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_arm_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "7f7aa599ab9d0a594c70e82c7c67fc97b6eb28750d0843a4db8e6fa41252fbe5"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_arm_linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -1484,6 +1490,12 @@
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.20.1_1.tar.gz",
       "checksums": {
         "sha256": "3a6791b3cfdfab0b2de7d1a14b61811c1261125785316d6443e28f3da80718a0"
+      }
+    },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "25d8b764e2ae7b243f84670d0f0ca4dc784c8185089eee3ac375e252064d2e5c"
       }
     },
     "18.0.0": {
@@ -1980,6 +1992,12 @@
         "sha256": "f31a2a481a358c67f9a035212e9514ff58b1166f0811635cb127829af1ee40ec"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_arm_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "a1f61c0a9a76af31e6954f93ba329650ce16e556d0508227a50c6203ff012357"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_arm_linux_hotspot_18.0.1_10.tar.gz",
       "checksums": {
@@ -2274,6 +2292,12 @@
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_arm_linux_hotspot_17.0.20.1_1.tar.gz",
       "checksums": {
         "sha256": "a7d3bba8a7e34471a18390dcc3290a864f58b06434bc5f003a0138f8de5aeafe"
+      }
+    },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_arm_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "a438a6d91ca1f7c709a75f9651c8861662b0226d1f61dfe6e0e12b7377003211"
       }
     },
     "19.0.2": {
@@ -6200,6 +6224,12 @@
         "sha256": "e66816375d9ff7e18e622b370f0b523dd45a91ab4c6dcd17d6c8708e17ab80e9"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_arm_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "7f7aa599ab9d0a594c70e82c7c67fc97b6eb28750d0843a4db8e6fa41252fbe5"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_arm_linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -6676,6 +6706,12 @@
         "sha256": "3a6791b3cfdfab0b2de7d1a14b61811c1261125785316d6443e28f3da80718a0"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "25d8b764e2ae7b243f84670d0f0ca4dc784c8185089eee3ac375e252064d2e5c"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_arm_linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -7134,6 +7170,12 @@
         "sha256": "f31a2a481a358c67f9a035212e9514ff58b1166f0811635cb127829af1ee40ec"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_arm_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "a1f61c0a9a76af31e6954f93ba329650ce16e556d0508227a50c6203ff012357"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_arm_linux_hotspot_18.0.1_10.tar.gz",
       "checksums": {
@@ -7374,6 +7416,12 @@
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_arm_linux_hotspot_17.0.20.1_1.tar.gz",
       "checksums": {
         "sha256": "a7d3bba8a7e34471a18390dcc3290a864f58b06434bc5f003a0138f8de5aeafe"
+      }
+    },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_arm_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "a438a6d91ca1f7c709a75f9651c8861662b0226d1f61dfe6e0e12b7377003211"
       }
     },
     "19.0.2": {

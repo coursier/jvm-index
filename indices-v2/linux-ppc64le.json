@@ -1184,6 +1184,12 @@
         "sha256": "7e3abe98a131e1e914d0cf50f3435f92c1723e4583377edb5cf8e63c8d125ca8"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "9f031f48f66350b0b976354738eac984e4863f7205cb7a1a2130272a84bb64e5"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_ppc64le_linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -1880,6 +1886,12 @@
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.20.1_1.tar.gz",
       "checksums": {
         "sha256": "2ba072a4a4e3657358ac46dbb4a8edced2dcc5a1aeef10fbe67c9bf443f94300"
+      }
+    },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "1fb8f3bf8e0e5035dc5cab031b01691b8c1fd58c44b4699c56d17f2d614e0aa4"
       }
     },
     "18.0.0": {
@@ -2658,6 +2670,12 @@
         "sha256": "a84ba93f536d2773a8f086ecf39e6fb56c1690ffbea2ead7b108fe520bf51bf6"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "7836a98346529939fc1149a59c7159d0ea721c2028fbfade620d60e58293d65f"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_ppc64le_linux_hotspot_18.0.1_10.tar.gz",
       "checksums": {
@@ -3174,6 +3192,12 @@
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.20.1_1.tar.gz",
       "checksums": {
         "sha256": "2334ee6ff3fa60cc83dc81a45a55fc0299b809e35e7d1ef5c703eda96d468226"
+      }
+    },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "1220fb3dc7334037f111960143a6a2201d4b03ec983ebfb35299085dd02ce2c1"
       }
     },
     "19.0.2": {
@@ -5236,6 +5260,12 @@
         "sha256": "7e3abe98a131e1e914d0cf50f3435f92c1723e4583377edb5cf8e63c8d125ca8"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "9f031f48f66350b0b976354738eac984e4863f7205cb7a1a2130272a84bb64e5"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_ppc64le_linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -5934,6 +5964,12 @@
         "sha256": "2ba072a4a4e3657358ac46dbb4a8edced2dcc5a1aeef10fbe67c9bf443f94300"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "1fb8f3bf8e0e5035dc5cab031b01691b8c1fd58c44b4699c56d17f2d614e0aa4"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_ppc64le_linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -6620,6 +6656,12 @@
         "sha256": "a84ba93f536d2773a8f086ecf39e6fb56c1690ffbea2ead7b108fe520bf51bf6"
       }
     },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "7836a98346529939fc1149a59c7159d0ea721c2028fbfade620d60e58293d65f"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_ppc64le_linux_hotspot_18.0.1_10.tar.gz",
       "checksums": {
@@ -7082,6 +7124,12 @@
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.20.1_1.tar.gz",
       "checksums": {
         "sha256": "2334ee6ff3fa60cc83dc81a45a55fc0299b809e35e7d1ef5c703eda96d468226"
+      }
+    },
+    "17.0.21": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
+      "checksums": {
+        "sha256": "1220fb3dc7334037f111960143a6a2201d4b03ec983ebfb35299085dd02ce2c1"
       }
     },
     "19.0.2": {

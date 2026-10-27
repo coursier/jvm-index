@@ -1113,6 +1113,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18.0.2_9.tar.gz",
@@ -1232,6 +1233,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18.0.2_9.tar.gz",
@@ -1349,6 +1351,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.2_9.tar.gz",
         "1.18.0.2.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.2.1_1.tar.gz",
@@ -1432,6 +1435,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_x64_alpine-linux_hotspot_19.0.2_7.tar.gz",
         "1.20.0.0": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-testimage_x64_alpine-linux_hotspot_20_36.tar.gz",
         "1.20.0.2": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.2%2B9/OpenJDK20U-testimage_x64_alpine-linux_hotspot_20.0.2_9.tar.gz",
@@ -1511,6 +1515,7 @@
         "8.504.01.1": "tgz+https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-alpine-linux-x64.tar.gz",
         "8.504.04.1": "tgz+https://corretto.aws/downloads/resources/8.504.04.1/amazon-corretto-8.504.04.1-alpine-linux-x64.tar.gz",
         "8.512.08.1": "tgz+https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-alpine-linux-x64.tar.gz",
+        "8.512.09.1": "tgz+https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-alpine-linux-x64.tar.gz",
         "11.0.7.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.7.10.1/amazon-corretto-11.0.7.10.1-alpine-linux-x64.tar.gz",
         "11.0.8.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.8.10.1/amazon-corretto-11.0.8.10.1-alpine-linux-x64.tar.gz",
         "11.0.9.11.1": "tgz+https://corretto.aws/downloads/resources/11.0.9.11.1/amazon-corretto-11.0.9.11.1-alpine-linux-x64.tar.gz",
@@ -1544,6 +1549,7 @@
         "11.0.32.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-alpine-linux-x64.tar.gz",
         "11.0.32.12.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.12.1/amazon-corretto-11.0.32.12.1-alpine-linux-x64.tar.gz",
         "11.0.33.0.9": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-alpine-linux-x64.tar.gz",
+        "11.0.33.0.10": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-alpine-linux-x64.tar.gz",
         "17.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-alpine-linux-x64.tar.gz",
         "17.0.1.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.1.12.1/amazon-corretto-17.0.1.12.1-alpine-linux-x64.tar.gz",
         "17.0.2.8.1": "tgz+https://corretto.aws/downloads/resources/17.0.2.8.1/amazon-corretto-17.0.2.8.1-alpine-linux-x64.tar.gz",
@@ -1572,6 +1578,7 @@
         "17.0.20.10.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-alpine-linux-x64.tar.gz",
         "17.0.20.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-alpine-linux-x64.tar.gz",
         "17.0.21.0.10": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-alpine-linux-x64.tar.gz",
+        "17.0.21.0.11": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-alpine-linux-x64.tar.gz",
         "18.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-alpine-linux-x64.tar.gz",
         "18.0.1.10.1": "tgz+https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-alpine-linux-x64.tar.gz",
         "18.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/18.0.2.9.1/amazon-corretto-18.0.2.9.1-alpine-linux-x64.tar.gz",
@@ -1600,6 +1607,7 @@
         "21.0.12.9.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-alpine-linux-x64.tar.gz",
         "21.0.12.12.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-alpine-linux-x64.tar.gz",
         "21.0.13.0.10": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-alpine-linux-x64.tar.gz",
+        "21.0.13.0.11": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-alpine-linux-x64.tar.gz",
         "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-alpine-linux-x64.tar.gz",
         "22.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/22.0.0.37.1/amazon-corretto-22.0.0.37.1-alpine-linux-x64.tar.gz",
         "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-alpine-linux-x64.tar.gz",
@@ -1619,12 +1627,14 @@
         "25.0.4.8.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.8.1/amazon-corretto-25.0.4.8.1-alpine-linux-x64.tar.gz",
         "25.0.4.10.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.10.1/amazon-corretto-25.0.4.10.1-alpine-linux-x64.tar.gz",
         "25.0.5.0.9": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-alpine-linux-x64.tar.gz",
+        "25.0.5.0.10": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-alpine-linux-x64.tar.gz",
         "26.0.0.35.2": "tgz+https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-alpine-linux-x64.tar.gz",
         "26.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/26.0.1.8.1/amazon-corretto-26.0.1.8.1-alpine-linux-x64.tar.gz",
         "26.0.2.10.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.10.1/amazon-corretto-26.0.2.10.1-alpine-linux-x64.tar.gz",
         "26.0.2.11.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.11.1/amazon-corretto-26.0.2.11.1-alpine-linux-x64.tar.gz",
         "27.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/27.0.0.35.1/amazon-corretto-27.0.0.35.1-alpine-linux-x64.tar.gz",
-        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-alpine-linux-x64.tar.gz"
+        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-alpine-linux-x64.tar.gz",
+        "27.0.1.0.11": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-alpine-linux-x64.tar.gz"
       },
       "jdk@temurin": {
         "1.8.0-322": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u322-b06/OpenJDK8U-jdk_x64_alpine-linux_hotspot_8u322b06.tar.gz",
@@ -1697,6 +1707,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18.0.2_9.tar.gz",
@@ -1816,6 +1827,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18.0.2_9.tar.gz",
@@ -1933,6 +1945,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.2_9.tar.gz",
         "1.18.0.2.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.2.1_1.tar.gz",
@@ -2016,6 +2029,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_x64_alpine-linux_hotspot_19.0.2_7.tar.gz",
         "1.20.0.0": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-testimage_x64_alpine-linux_hotspot_20_36.tar.gz",
         "1.20.0.2": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.2%2B9/OpenJDK20U-testimage_x64_alpine-linux_hotspot_20.0.2_9.tar.gz",
@@ -2090,11 +2104,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@adoptium-debugimage": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -2127,11 +2143,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-debugimage_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-debugimage_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@adoptium-jre": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -2164,11 +2182,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jre_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jre_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@adoptium-testimage": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -2201,11 +2221,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-testimage_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-testimage_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@corretto": {
         "8.372.07.1": "tgz+https://corretto.aws/downloads/resources/8.372.07.1/amazon-corretto-8.372.07.1-alpine-linux-aarch64.tar.gz",
@@ -2227,6 +2249,7 @@
         "8.504.01.1": "tgz+https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-alpine-linux-aarch64.tar.gz",
         "8.504.04.1": "tgz+https://corretto.aws/downloads/resources/8.504.04.1/amazon-corretto-8.504.04.1-alpine-linux-aarch64.tar.gz",
         "8.512.08.1": "tgz+https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-alpine-linux-aarch64.tar.gz",
+        "8.512.09.1": "tgz+https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-alpine-linux-aarch64.tar.gz",
         "11.0.19.7.1": "tgz+https://corretto.aws/downloads/resources/11.0.19.7.1/amazon-corretto-11.0.19.7.1-alpine-linux-aarch64.tar.gz",
         "11.0.20.8.1": "tgz+https://corretto.aws/downloads/resources/11.0.20.8.1/amazon-corretto-11.0.20.8.1-alpine-linux-aarch64.tar.gz",
         "11.0.20.9.1": "tgz+https://corretto.aws/downloads/resources/11.0.20.9.1/amazon-corretto-11.0.20.9.1-alpine-linux-aarch64.tar.gz",
@@ -2245,6 +2268,7 @@
         "11.0.32.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-alpine-linux-aarch64.tar.gz",
         "11.0.32.12.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.12.1/amazon-corretto-11.0.32.12.1-alpine-linux-aarch64.tar.gz",
         "11.0.33.0.9": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-alpine-linux-aarch64.tar.gz",
+        "11.0.33.0.10": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-alpine-linux-aarch64.tar.gz",
         "17.0.6.10.1": "tgz+https://corretto.aws/downloads/resources/17.0.6.10.1/amazon-corretto-17.0.6.10.1-alpine-linux-aarch64.tar.gz",
         "17.0.7.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.7.7.1/amazon-corretto-17.0.7.7.1-alpine-linux-aarch64.tar.gz",
         "17.0.8.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.8.7.1/amazon-corretto-17.0.8.7.1-alpine-linux-aarch64.tar.gz",
@@ -2266,6 +2290,7 @@
         "17.0.20.10.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-alpine-linux-aarch64.tar.gz",
         "17.0.20.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-alpine-linux-aarch64.tar.gz",
         "17.0.21.0.10": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-alpine-linux-aarch64.tar.gz",
+        "17.0.21.0.11": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-alpine-linux-aarch64.tar.gz",
         "19.0.2.7.1": "tgz+https://corretto.aws/downloads/resources/19.0.2.7.1/amazon-corretto-19.0.2.7.1-alpine-linux-aarch64.tar.gz",
         "20.0.0.36.1": "tgz+https://corretto.aws/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-alpine-linux-aarch64.tar.gz",
         "20.0.1.9.1": "tgz+https://corretto.aws/downloads/resources/20.0.1.9.1/amazon-corretto-20.0.1.9.1-alpine-linux-aarch64.tar.gz",
@@ -2289,6 +2314,7 @@
         "21.0.12.9.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-alpine-linux-aarch64.tar.gz",
         "21.0.12.12.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-alpine-linux-aarch64.tar.gz",
         "21.0.13.0.10": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-alpine-linux-aarch64.tar.gz",
+        "21.0.13.0.11": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-alpine-linux-aarch64.tar.gz",
         "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-alpine-linux-aarch64.tar.gz",
         "22.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/22.0.0.37.1/amazon-corretto-22.0.0.37.1-alpine-linux-aarch64.tar.gz",
         "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-alpine-linux-aarch64.tar.gz",
@@ -2308,12 +2334,14 @@
         "25.0.4.8.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.8.1/amazon-corretto-25.0.4.8.1-alpine-linux-aarch64.tar.gz",
         "25.0.4.10.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.10.1/amazon-corretto-25.0.4.10.1-alpine-linux-aarch64.tar.gz",
         "25.0.5.0.9": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-alpine-linux-aarch64.tar.gz",
+        "25.0.5.0.10": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-alpine-linux-aarch64.tar.gz",
         "26.0.0.35.2": "tgz+https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-alpine-linux-aarch64.tar.gz",
         "26.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/26.0.1.8.1/amazon-corretto-26.0.1.8.1-alpine-linux-aarch64.tar.gz",
         "26.0.2.10.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.10.1/amazon-corretto-26.0.2.10.1-alpine-linux-aarch64.tar.gz",
         "26.0.2.11.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.11.1/amazon-corretto-26.0.2.11.1-alpine-linux-aarch64.tar.gz",
         "27.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/27.0.0.35.1/amazon-corretto-27.0.0.35.1-alpine-linux-aarch64.tar.gz",
-        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-alpine-linux-aarch64.tar.gz"
+        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-alpine-linux-aarch64.tar.gz",
+        "27.0.1.0.11": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-alpine-linux-aarch64.tar.gz"
       },
       "jdk@temurin": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -2346,11 +2374,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@temurin-debugimage": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -2383,11 +2413,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-debugimage_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-debugimage_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@temurin-jre": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -2420,11 +2452,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jre_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jre_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@temurin-testimage": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -2457,11 +2491,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-testimage_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-testimage_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       }
     }
   },
@@ -3093,6 +3129,7 @@
         "8.504.01.1": "tgz+https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-macosx-x64.tar.gz",
         "8.504.04.1": "tgz+https://corretto.aws/downloads/resources/8.504.04.1/amazon-corretto-8.504.04.1-macosx-x64.tar.gz",
         "8.512.08.1": "tgz+https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-macosx-x64.tar.gz",
+        "8.512.09.1": "tgz+https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-macosx-x64.tar.gz",
         "11.0.4.11.1": "tgz+https://corretto.aws/downloads/resources/11.0.4.11.1/amazon-corretto-11.0.4.11.1-macosx-x64.tar.gz",
         "11.0.5.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.5.10.1/amazon-corretto-11.0.5.10.1-macosx-x64.tar.gz",
         "11.0.5.10.2": "tgz+https://corretto.aws/downloads/resources/11.0.5.10.2/amazon-corretto-11.0.5.10.2-macosx-x64.tar.gz",
@@ -3132,6 +3169,7 @@
         "11.0.32.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-macosx-x64.tar.gz",
         "11.0.32.12.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.12.1/amazon-corretto-11.0.32.12.1-macosx-x64.tar.gz",
         "11.0.33.0.9": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-macosx-x64.tar.gz",
+        "11.0.33.0.10": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-macosx-x64.tar.gz",
         "17.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-macosx-x64.tar.gz",
         "17.0.0.35.2": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.2/amazon-corretto-17.0.0.35.2-macosx-x64.tar.gz",
         "17.0.1.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.1.12.1/amazon-corretto-17.0.1.12.1-macosx-x64.tar.gz",
@@ -3160,6 +3198,7 @@
         "17.0.20.10.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-macosx-x64.tar.gz",
         "17.0.20.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-macosx-x64.tar.gz",
         "17.0.21.0.10": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-macosx-x64.tar.gz",
+        "17.0.21.0.11": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-macosx-x64.tar.gz",
         "18.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-macosx-x64.tar.gz",
         "18.0.1.10.1": "tgz+https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-macosx-x64.tar.gz",
         "18.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/18.0.2.9.1/amazon-corretto-18.0.2.9.1-macosx-x64.tar.gz",
@@ -3186,6 +3225,7 @@
         "21.0.12.9.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-macosx-x64.tar.gz",
         "21.0.12.12.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-macosx-x64.tar.gz",
         "21.0.13.0.10": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-macosx-x64.tar.gz",
+        "21.0.13.0.11": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-macosx-x64.tar.gz",
         "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-macosx-x64.tar.gz",
         "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-macosx-x64.tar.gz",
         "22.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/22.0.2.9.1/amazon-corretto-22.0.2.9.1-macosx-x64.tar.gz",
@@ -3203,12 +3243,14 @@
         "25.0.4.8.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.8.1/amazon-corretto-25.0.4.8.1-macosx-x64.tar.gz",
         "25.0.4.10.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.10.1/amazon-corretto-25.0.4.10.1-macosx-x64.tar.gz",
         "25.0.5.0.9": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-macosx-x64.tar.gz",
+        "25.0.5.0.10": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-macosx-x64.tar.gz",
         "26.0.0.35.2": "tgz+https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-macosx-x64.tar.gz",
         "26.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/26.0.1.8.1/amazon-corretto-26.0.1.8.1-macosx-x64.tar.gz",
         "26.0.2.10.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.10.1/amazon-corretto-26.0.2.10.1-macosx-x64.tar.gz",
         "26.0.2.11.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.11.1/amazon-corretto-26.0.2.11.1-macosx-x64.tar.gz",
         "27.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/27.0.0.35.1/amazon-corretto-27.0.0.35.1-macosx-x64.tar.gz",
-        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-macosx-x64.tar.gz"
+        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-macosx-x64.tar.gz",
+        "27.0.1.0.11": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-macosx-x64.tar.gz"
       },
       "jdk@graalvm": {
         "19.3.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java8-darwin-amd64-19.3.0.tar.gz",
@@ -3642,7 +3684,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-osx-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-osx-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-osx-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-x64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-x64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jcef": {
         "11.0.14.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-11_0_14_1-osx-x64-b2043.45.tar.gz",
@@ -3679,7 +3721,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-osx-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-osx-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-osx-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-x64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-x64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jcef-jre": {
         "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-11_0_11-osx-x64-b1536.2.tar.gz",
@@ -3720,7 +3762,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-osx-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-osx-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-osx-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-x64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-x64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jre": {
         "17.0.0": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17-osx-x64-b135.1.tar.gz",
@@ -3754,7 +3796,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-osx-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-osx-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-osx-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-x64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-x64-b635.79.tar.gz"
       },
       "jdk@liberica": {
         "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-macos-amd64.zip",
@@ -6049,6 +6091,7 @@
         "8.504.01.1": "tgz+https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-macosx-aarch64.tar.gz",
         "8.504.04.1": "tgz+https://corretto.aws/downloads/resources/8.504.04.1/amazon-corretto-8.504.04.1-macosx-aarch64.tar.gz",
         "8.512.08.1": "tgz+https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-macosx-aarch64.tar.gz",
+        "8.512.09.1": "tgz+https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-macosx-aarch64.tar.gz",
         "11.0.15.9.1": "tgz+https://corretto.aws/downloads/resources/11.0.15.9.1/amazon-corretto-11.0.15.9.1-macosx-aarch64.tar.gz",
         "11.0.16.8.1": "tgz+https://corretto.aws/downloads/resources/11.0.16.8.1/amazon-corretto-11.0.16.8.1-macosx-aarch64.tar.gz",
         "11.0.16.8.3": "tgz+https://corretto.aws/downloads/resources/11.0.16.8.3/amazon-corretto-11.0.16.8.3-macosx-aarch64.tar.gz",
@@ -6073,6 +6116,7 @@
         "11.0.32.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-macosx-aarch64.tar.gz",
         "11.0.32.12.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.12.1/amazon-corretto-11.0.32.12.1-macosx-aarch64.tar.gz",
         "11.0.33.0.9": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-macosx-aarch64.tar.gz",
+        "11.0.33.0.10": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-macosx-aarch64.tar.gz",
         "17.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-macosx-aarch64.tar.gz",
         "17.0.0.35.2": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.2/amazon-corretto-17.0.0.35.2-macosx-aarch64.tar.gz",
         "17.0.1.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.1.12.1/amazon-corretto-17.0.1.12.1-macosx-aarch64.tar.gz",
@@ -6101,6 +6145,7 @@
         "17.0.20.10.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-macosx-aarch64.tar.gz",
         "17.0.20.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-macosx-aarch64.tar.gz",
         "17.0.21.0.10": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-macosx-aarch64.tar.gz",
+        "17.0.21.0.11": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-macosx-aarch64.tar.gz",
         "18.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-macosx-aarch64.tar.gz",
         "18.0.1.10.1": "tgz+https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-macosx-aarch64.tar.gz",
         "18.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/18.0.2.9.1/amazon-corretto-18.0.2.9.1-macosx-aarch64.tar.gz",
@@ -6127,6 +6172,7 @@
         "21.0.12.9.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-macosx-aarch64.tar.gz",
         "21.0.12.12.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-macosx-aarch64.tar.gz",
         "21.0.13.0.10": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-macosx-aarch64.tar.gz",
+        "21.0.13.0.11": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-macosx-aarch64.tar.gz",
         "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-macosx-aarch64.tar.gz",
         "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-macosx-aarch64.tar.gz",
         "22.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/22.0.2.9.1/amazon-corretto-22.0.2.9.1-macosx-aarch64.tar.gz",
@@ -6144,12 +6190,14 @@
         "25.0.4.8.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.8.1/amazon-corretto-25.0.4.8.1-macosx-aarch64.tar.gz",
         "25.0.4.10.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.10.1/amazon-corretto-25.0.4.10.1-macosx-aarch64.tar.gz",
         "25.0.5.0.9": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-macosx-aarch64.tar.gz",
+        "25.0.5.0.10": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-macosx-aarch64.tar.gz",
         "26.0.0.35.2": "tgz+https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-macosx-aarch64.tar.gz",
         "26.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/26.0.1.8.1/amazon-corretto-26.0.1.8.1-macosx-aarch64.tar.gz",
         "26.0.2.10.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.10.1/amazon-corretto-26.0.2.10.1-macosx-aarch64.tar.gz",
         "26.0.2.11.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.11.1/amazon-corretto-26.0.2.11.1-macosx-aarch64.tar.gz",
         "27.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/27.0.0.35.1/amazon-corretto-27.0.0.35.1-macosx-aarch64.tar.gz",
-        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-macosx-aarch64.tar.gz"
+        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-macosx-aarch64.tar.gz",
+        "27.0.1.0.11": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-macosx-aarch64.tar.gz"
       },
       "jdk@graalvm-community": {
         "17.0.7": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-17.0.7/graalvm-community-jdk-17.0.7_macos-aarch64_bin.tar.gz",
@@ -6469,7 +6517,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-osx-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-osx-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-osx-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-aarch64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-aarch64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jcef": {
         "11.0.14.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-11_0_14_1-osx-aarch64-b2043.45.tar.gz",
@@ -6506,7 +6554,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-osx-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-osx-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-osx-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-aarch64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-aarch64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jcef-jre": {
         "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-11_0_11-osx-aarch64-b1536.2.tar.gz",
@@ -6547,7 +6595,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-osx-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-osx-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-osx-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-aarch64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-aarch64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jre": {
         "17.0.0": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17-osx-aarch64-b135.1.tar.gz",
@@ -6581,7 +6629,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-osx-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-osx-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-osx-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-aarch64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-aarch64-b635.79.tar.gz"
       },
       "jdk@liberica": {
         "8.0.282": "zip+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-macos-aarch64.zip",
@@ -8790,6 +8838,7 @@
         "8.504.01.1": "tgz+https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-linux-x64.tar.gz",
         "8.504.04.1": "tgz+https://corretto.aws/downloads/resources/8.504.04.1/amazon-corretto-8.504.04.1-linux-x64.tar.gz",
         "8.512.08.1": "tgz+https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-linux-x64.tar.gz",
+        "8.512.09.1": "tgz+https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-linux-x64.tar.gz",
         "11.0.4.11.1": "tgz+https://corretto.aws/downloads/resources/11.0.4.11.1/amazon-corretto-11.0.4.11.1-linux-x64.tar.gz",
         "11.0.5.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.5.10.1/amazon-corretto-11.0.5.10.1-linux-x64.tar.gz",
         "11.0.6.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.6.10.1/amazon-corretto-11.0.6.10.1-linux-x64.tar.gz",
@@ -8826,6 +8875,7 @@
         "11.0.32.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-linux-x64.tar.gz",
         "11.0.32.12.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.12.1/amazon-corretto-11.0.32.12.1-linux-x64.tar.gz",
         "11.0.33.0.9": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-linux-x64.tar.gz",
+        "11.0.33.0.10": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-linux-x64.tar.gz",
         "17.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-linux-x64.tar.gz",
         "17.0.1.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.1.12.1/amazon-corretto-17.0.1.12.1-linux-x64.tar.gz",
         "17.0.2.8.1": "tgz+https://corretto.aws/downloads/resources/17.0.2.8.1/amazon-corretto-17.0.2.8.1-linux-x64.tar.gz",
@@ -8854,6 +8904,7 @@
         "17.0.20.10.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-linux-x64.tar.gz",
         "17.0.20.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-linux-x64.tar.gz",
         "17.0.21.0.10": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-linux-x64.tar.gz",
+        "17.0.21.0.11": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-linux-x64.tar.gz",
         "18.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-linux-x64.tar.gz",
         "18.0.1.10.1": "tgz+https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-linux-x64.tar.gz",
         "18.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/18.0.2.9.1/amazon-corretto-18.0.2.9.1-linux-x64.tar.gz",
@@ -8882,6 +8933,7 @@
         "21.0.12.9.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-linux-x64.tar.gz",
         "21.0.12.12.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-linux-x64.tar.gz",
         "21.0.13.0.10": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-linux-x64.tar.gz",
+        "21.0.13.0.11": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-linux-x64.tar.gz",
         "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-linux-x64.tar.gz",
         "22.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/22.0.0.37.1/amazon-corretto-22.0.0.37.1-linux-x64.tar.gz",
         "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-linux-x64.tar.gz",
@@ -8902,12 +8954,14 @@
         "25.0.4.8.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.8.1/amazon-corretto-25.0.4.8.1-linux-x64.tar.gz",
         "25.0.4.10.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.10.1/amazon-corretto-25.0.4.10.1-linux-x64.tar.gz",
         "25.0.5.0.9": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-linux-x64.tar.gz",
+        "25.0.5.0.10": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-linux-x64.tar.gz",
         "26.0.0.35.2": "tgz+https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-linux-x64.tar.gz",
         "26.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/26.0.1.8.1/amazon-corretto-26.0.1.8.1-linux-x64.tar.gz",
         "26.0.2.10.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.10.1/amazon-corretto-26.0.2.10.1-linux-x64.tar.gz",
         "26.0.2.11.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.11.1/amazon-corretto-26.0.2.11.1-linux-x64.tar.gz",
         "27.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/27.0.0.35.1/amazon-corretto-27.0.0.35.1-linux-x64.tar.gz",
-        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-linux-x64.tar.gz"
+        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-linux-x64.tar.gz",
+        "27.0.1.0.11": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-linux-x64.tar.gz"
       },
       "jdk@graalvm": {
         "19.3.0": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java8-linux-amd64-19.3.0.tar.gz",
@@ -9350,7 +9404,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-linux-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-linux-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-linux-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-x64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-x64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jcef": {
         "11.0.14.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-11_0_14_1-linux-x64-b2043.45.tar.gz",
@@ -9388,7 +9442,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-linux-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-linux-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-linux-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-linux-x64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-linux-x64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jcef-jre": {
         "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-11_0_11-linux-x64-b1536.2.tar.gz",
@@ -9430,7 +9484,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-linux-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-linux-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-linux-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-linux-x64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-linux-x64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jre": {
         "17.0.0": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17-linux-x64-b135.1.tar.gz",
@@ -9465,7 +9519,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-linux-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-linux-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-linux-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-x64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-x64-b635.79.tar.gz"
       },
       "jdk@liberica": {
         "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-linux-amd64.tar.gz",
@@ -11583,6 +11637,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_arm_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_arm_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_arm_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_arm_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_arm_linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jdk_arm_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jdk_arm_linux_hotspot_18.0.2_9.tar.gz",
@@ -11664,6 +11719,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_arm_linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-debugimage_arm_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-debugimage_arm_linux_hotspot_18.0.2_9.tar.gz",
@@ -11748,6 +11804,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_arm_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_arm_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_arm_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_arm_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_arm_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jre_arm_linux_hotspot_18.0.2_9.tar.gz",
         "1.18.0.2.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jre_arm_linux_hotspot_18.0.2.1_1.tar.gz",
@@ -11799,6 +11856,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-testimage_arm_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-testimage_arm_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_arm_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_arm_linux_hotspot_17.0.21_9.tar.gz",
         "1.19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_arm_linux_hotspot_19.0.2_7.tar.gz"
       },
       "jdk@liberica": {
@@ -12463,6 +12521,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_arm_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_arm_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_arm_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_arm_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_arm_linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jdk_arm_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jdk_arm_linux_hotspot_18.0.2_9.tar.gz",
@@ -12544,6 +12603,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_arm_linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-debugimage_arm_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-debugimage_arm_linux_hotspot_18.0.2_9.tar.gz",
@@ -12622,6 +12682,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_arm_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_arm_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_arm_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_arm_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_arm_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jre_arm_linux_hotspot_18.0.2_9.tar.gz",
         "1.18.0.2.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jre_arm_linux_hotspot_18.0.2.1_1.tar.gz",
@@ -12664,6 +12725,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-testimage_arm_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-testimage_arm_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_arm_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_arm_linux_hotspot_17.0.21_9.tar.gz",
         "1.19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_arm_linux_hotspot_19.0.2_7.tar.gz"
       },
       "jdk@zulu": {
@@ -12969,6 +13031,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_aarch64_linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jdk_aarch64_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jdk_aarch64_linux_hotspot_18.0.2_9.tar.gz",
@@ -13090,6 +13153,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_aarch64_linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-debugimage_aarch64_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-debugimage_aarch64_linux_hotspot_18.0.2_9.tar.gz",
@@ -13223,6 +13287,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_aarch64_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jre_aarch64_linux_hotspot_18.0.2_9.tar.gz",
         "1.18.0.2.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jre_aarch64_linux_hotspot_18.0.2.1_1.tar.gz",
@@ -13315,6 +13380,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.21_9.tar.gz",
         "1.19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_aarch64_linux_hotspot_19.0.2_7.tar.gz",
         "1.20.0.0": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-testimage_aarch64_linux_hotspot_20_36.tar.gz",
         "1.20.0.2": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.2%2B9/OpenJDK20U-testimage_aarch64_linux_hotspot_20.0.2_9.tar.gz",
@@ -13397,6 +13463,7 @@
         "8.504.01.1": "tgz+https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-linux-aarch64.tar.gz",
         "8.504.04.1": "tgz+https://corretto.aws/downloads/resources/8.504.04.1/amazon-corretto-8.504.04.1-linux-aarch64.tar.gz",
         "8.512.08.1": "tgz+https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-linux-aarch64.tar.gz",
+        "8.512.09.1": "tgz+https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-linux-aarch64.tar.gz",
         "11.0.4.11.1": "tgz+https://corretto.aws/downloads/resources/11.0.4.11.1/amazon-corretto-11.0.4.11.1-linux-aarch64.tar.gz",
         "11.0.5.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.5.10.1/amazon-corretto-11.0.5.10.1-linux-aarch64.tar.gz",
         "11.0.6.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.6.10.1/amazon-corretto-11.0.6.10.1-linux-aarch64.tar.gz",
@@ -13433,6 +13500,7 @@
         "11.0.32.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-linux-aarch64.tar.gz",
         "11.0.32.12.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.12.1/amazon-corretto-11.0.32.12.1-linux-aarch64.tar.gz",
         "11.0.33.0.9": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-linux-aarch64.tar.gz",
+        "11.0.33.0.10": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-linux-aarch64.tar.gz",
         "17.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-linux-aarch64.tar.gz",
         "17.0.1.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.1.12.1/amazon-corretto-17.0.1.12.1-linux-aarch64.tar.gz",
         "17.0.2.8.1": "tgz+https://corretto.aws/downloads/resources/17.0.2.8.1/amazon-corretto-17.0.2.8.1-linux-aarch64.tar.gz",
@@ -13461,6 +13529,7 @@
         "17.0.20.10.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-linux-aarch64.tar.gz",
         "17.0.20.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-linux-aarch64.tar.gz",
         "17.0.21.0.10": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-linux-aarch64.tar.gz",
+        "17.0.21.0.11": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-linux-aarch64.tar.gz",
         "18.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-linux-aarch64.tar.gz",
         "18.0.1.10.1": "tgz+https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-linux-aarch64.tar.gz",
         "18.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/18.0.2.9.1/amazon-corretto-18.0.2.9.1-linux-aarch64.tar.gz",
@@ -13489,6 +13558,7 @@
         "21.0.12.9.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-linux-aarch64.tar.gz",
         "21.0.12.12.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-linux-aarch64.tar.gz",
         "21.0.13.0.10": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-linux-aarch64.tar.gz",
+        "21.0.13.0.11": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-linux-aarch64.tar.gz",
         "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-linux-aarch64.tar.gz",
         "22.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/22.0.0.37.1/amazon-corretto-22.0.0.37.1-linux-aarch64.tar.gz",
         "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-linux-aarch64.tar.gz",
@@ -13509,12 +13579,14 @@
         "25.0.4.8.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.8.1/amazon-corretto-25.0.4.8.1-linux-aarch64.tar.gz",
         "25.0.4.10.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.10.1/amazon-corretto-25.0.4.10.1-linux-aarch64.tar.gz",
         "25.0.5.0.9": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-linux-aarch64.tar.gz",
+        "25.0.5.0.10": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-linux-aarch64.tar.gz",
         "26.0.0.35.2": "tgz+https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-linux-aarch64.tar.gz",
         "26.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/26.0.1.8.1/amazon-corretto-26.0.1.8.1-linux-aarch64.tar.gz",
         "26.0.2.10.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.10.1/amazon-corretto-26.0.2.10.1-linux-aarch64.tar.gz",
         "26.0.2.11.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.11.1/amazon-corretto-26.0.2.11.1-linux-aarch64.tar.gz",
         "27.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/27.0.0.35.1/amazon-corretto-27.0.0.35.1-linux-aarch64.tar.gz",
-        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-linux-aarch64.tar.gz"
+        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-linux-aarch64.tar.gz",
+        "27.0.1.0.11": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-linux-aarch64.tar.gz"
       },
       "jdk@graalvm-community": {
         "17.0.7": "tgz+https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-17.0.7/graalvm-community-jdk-17.0.7_linux-aarch64_bin.tar.gz",
@@ -13930,7 +14002,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-linux-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-linux-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-linux-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-aarch64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-aarch64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jcef": {
         "17.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-17.0.3-linux-aarch64-b498.3.tar.gz",
@@ -13962,7 +14034,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-linux-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-linux-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-linux-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-linux-aarch64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-linux-aarch64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jcef-jre": {
         "17.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-17.0.3-linux-aarch64-b498.3.tar.gz",
@@ -13994,7 +14066,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-linux-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-linux-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-linux-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-linux-aarch64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-linux-aarch64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jre": {
         "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-11_0_11-linux-aarch64-b1536.2.tar.gz",
@@ -14036,7 +14108,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-linux-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-linux-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-linux-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-aarch64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-aarch64-b635.79.tar.gz"
       },
       "jdk@liberica": {
         "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-linux-aarch64.tar.gz",
@@ -15065,6 +15137,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_aarch64_linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jdk_aarch64_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jdk_aarch64_linux_hotspot_18.0.2_9.tar.gz",
@@ -15186,6 +15259,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_aarch64_linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-debugimage_aarch64_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-debugimage_aarch64_linux_hotspot_18.0.2_9.tar.gz",
@@ -15305,6 +15379,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_aarch64_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jre_aarch64_linux_hotspot_18.0.2_9.tar.gz",
         "1.18.0.2.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jre_aarch64_linux_hotspot_18.0.2.1_1.tar.gz",
@@ -15388,6 +15463,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.21_9.tar.gz",
         "1.19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_aarch64_linux_hotspot_19.0.2_7.tar.gz",
         "1.20.0.0": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-testimage_aarch64_linux_hotspot_20_36.tar.gz",
         "1.20.0.2": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.2%2B9/OpenJDK20U-testimage_aarch64_linux_hotspot_20.0.2_9.tar.gz",
@@ -16432,6 +16508,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_ppc64le_linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jdk_ppc64le_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jdk_ppc64le_linux_hotspot_18.0.2_9.tar.gz",
@@ -16550,6 +16627,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_ppc64le_linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-debugimage_ppc64le_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-debugimage_ppc64le_linux_hotspot_18.0.2_9.tar.gz",
@@ -16681,6 +16759,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_ppc64le_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jre_ppc64le_linux_hotspot_18.0.2_9.tar.gz",
         "1.18.0.2.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jre_ppc64le_linux_hotspot_18.0.2.1_1.tar.gz",
@@ -16769,6 +16848,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
         "1.19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_ppc64le_linux_hotspot_19.0.2_7.tar.gz",
         "1.20.0.0": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-testimage_ppc64le_linux_hotspot_20_36.tar.gz",
         "1.21.0.1": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.1%2B12/OpenJDK21U-testimage_ppc64le_linux_hotspot_21.0.1_12.tar.gz",
@@ -17139,6 +17219,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_ppc64le_linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jdk_ppc64le_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jdk_ppc64le_linux_hotspot_18.0.2_9.tar.gz",
@@ -17257,6 +17338,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_ppc64le_linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-debugimage_ppc64le_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-debugimage_ppc64le_linux_hotspot_18.0.2_9.tar.gz",
@@ -17373,6 +17455,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_ppc64le_linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jre_ppc64le_linux_hotspot_18.0.2_9.tar.gz",
         "1.18.0.2.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jre_ppc64le_linux_hotspot_18.0.2.1_1.tar.gz",
@@ -17452,6 +17535,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.21_9.tar.gz",
         "1.19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_ppc64le_linux_hotspot_19.0.2_7.tar.gz",
         "1.20.0.0": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-testimage_ppc64le_linux_hotspot_20_36.tar.gz",
         "1.21.0.1": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.1%2B12/OpenJDK21U-testimage_ppc64le_linux_hotspot_21.0.1_12.tar.gz",
@@ -19515,6 +19599,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18.0.2_9.tar.gz",
@@ -19634,6 +19719,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18.0.2_9.tar.gz",
@@ -19751,6 +19837,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.2_9.tar.gz",
         "1.18.0.2.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.2.1_1.tar.gz",
@@ -19834,6 +19921,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_x64_alpine-linux_hotspot_19.0.2_7.tar.gz",
         "1.20.0.0": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-testimage_x64_alpine-linux_hotspot_20_36.tar.gz",
         "1.20.0.2": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.2%2B9/OpenJDK20U-testimage_x64_alpine-linux_hotspot_20.0.2_9.tar.gz",
@@ -19913,6 +20001,7 @@
         "8.504.01.1": "tgz+https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-alpine-linux-x64.tar.gz",
         "8.504.04.1": "tgz+https://corretto.aws/downloads/resources/8.504.04.1/amazon-corretto-8.504.04.1-alpine-linux-x64.tar.gz",
         "8.512.08.1": "tgz+https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-alpine-linux-x64.tar.gz",
+        "8.512.09.1": "tgz+https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-alpine-linux-x64.tar.gz",
         "11.0.7.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.7.10.1/amazon-corretto-11.0.7.10.1-alpine-linux-x64.tar.gz",
         "11.0.8.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.8.10.1/amazon-corretto-11.0.8.10.1-alpine-linux-x64.tar.gz",
         "11.0.9.11.1": "tgz+https://corretto.aws/downloads/resources/11.0.9.11.1/amazon-corretto-11.0.9.11.1-alpine-linux-x64.tar.gz",
@@ -19946,6 +20035,7 @@
         "11.0.32.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-alpine-linux-x64.tar.gz",
         "11.0.32.12.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.12.1/amazon-corretto-11.0.32.12.1-alpine-linux-x64.tar.gz",
         "11.0.33.0.9": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-alpine-linux-x64.tar.gz",
+        "11.0.33.0.10": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-alpine-linux-x64.tar.gz",
         "17.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-alpine-linux-x64.tar.gz",
         "17.0.1.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.1.12.1/amazon-corretto-17.0.1.12.1-alpine-linux-x64.tar.gz",
         "17.0.2.8.1": "tgz+https://corretto.aws/downloads/resources/17.0.2.8.1/amazon-corretto-17.0.2.8.1-alpine-linux-x64.tar.gz",
@@ -19974,6 +20064,7 @@
         "17.0.20.10.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-alpine-linux-x64.tar.gz",
         "17.0.20.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-alpine-linux-x64.tar.gz",
         "17.0.21.0.10": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-alpine-linux-x64.tar.gz",
+        "17.0.21.0.11": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-alpine-linux-x64.tar.gz",
         "18.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-alpine-linux-x64.tar.gz",
         "18.0.1.10.1": "tgz+https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-alpine-linux-x64.tar.gz",
         "18.0.2.9.1": "tgz+https://corretto.aws/downloads/resources/18.0.2.9.1/amazon-corretto-18.0.2.9.1-alpine-linux-x64.tar.gz",
@@ -20002,6 +20093,7 @@
         "21.0.12.9.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-alpine-linux-x64.tar.gz",
         "21.0.12.12.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-alpine-linux-x64.tar.gz",
         "21.0.13.0.10": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-alpine-linux-x64.tar.gz",
+        "21.0.13.0.11": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-alpine-linux-x64.tar.gz",
         "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-alpine-linux-x64.tar.gz",
         "22.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/22.0.0.37.1/amazon-corretto-22.0.0.37.1-alpine-linux-x64.tar.gz",
         "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-alpine-linux-x64.tar.gz",
@@ -20021,12 +20113,14 @@
         "25.0.4.8.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.8.1/amazon-corretto-25.0.4.8.1-alpine-linux-x64.tar.gz",
         "25.0.4.10.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.10.1/amazon-corretto-25.0.4.10.1-alpine-linux-x64.tar.gz",
         "25.0.5.0.9": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-alpine-linux-x64.tar.gz",
+        "25.0.5.0.10": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-alpine-linux-x64.tar.gz",
         "26.0.0.35.2": "tgz+https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-alpine-linux-x64.tar.gz",
         "26.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/26.0.1.8.1/amazon-corretto-26.0.1.8.1-alpine-linux-x64.tar.gz",
         "26.0.2.10.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.10.1/amazon-corretto-26.0.2.10.1-alpine-linux-x64.tar.gz",
         "26.0.2.11.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.11.1/amazon-corretto-26.0.2.11.1-alpine-linux-x64.tar.gz",
         "27.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/27.0.0.35.1/amazon-corretto-27.0.0.35.1-alpine-linux-x64.tar.gz",
-        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-alpine-linux-x64.tar.gz"
+        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-alpine-linux-x64.tar.gz",
+        "27.0.1.0.11": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-alpine-linux-x64.tar.gz"
       },
       "jdk@jetbrains": {
         "17.0.9": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-17.0.9-linux-musl-x64-b1166.2.tar.gz",
@@ -20049,7 +20143,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-linux-musl-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-linux-musl-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-linux-musl-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-musl-x64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-musl-x64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jre": {
         "17.0.9": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.9-linux-musl-x64-b1166.2.tar.gz",
@@ -20072,7 +20166,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-linux-musl-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-linux-musl-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-linux-musl-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-musl-x64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-musl-x64-b635.79.tar.gz"
       },
       "jdk@liberica": {
         "8.0.262": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jdk8u262+10-linux-x64-musl.tar.gz",
@@ -20809,6 +20903,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18.0.2_9.tar.gz",
@@ -20928,6 +21023,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.0": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18_36.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18.0.2_9.tar.gz",
@@ -21045,6 +21141,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.18.0.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
         "1.18.0.2": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2%2B9/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.2_9.tar.gz",
         "1.18.0.2.1": "tgz+https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.2.1%2B1/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.2.1_1.tar.gz",
@@ -21128,6 +21225,7 @@
         "1.17.0.19": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.19_10.tar.gz",
         "1.17.0.20": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.20_8.tar.gz",
         "1.17.0.20.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.20.1_1.tar.gz",
+        "1.17.0.21": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.21_9.tar.gz",
         "1.19.0.2": "tgz+https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_x64_alpine-linux_hotspot_19.0.2_7.tar.gz",
         "1.20.0.0": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-testimage_x64_alpine-linux_hotspot_20_36.tar.gz",
         "1.20.0.2": "tgz+https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.2%2B9/OpenJDK20U-testimage_x64_alpine-linux_hotspot_20.0.2_9.tar.gz",
@@ -21538,11 +21636,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@adoptium-debugimage": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -21575,11 +21675,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-debugimage_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-debugimage_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@adoptium-jre": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -21612,11 +21714,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jre_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jre_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@adoptium-testimage": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -21649,11 +21753,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-testimage_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-testimage_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@corretto": {
         "8.372.07.1": "tgz+https://corretto.aws/downloads/resources/8.372.07.1/amazon-corretto-8.372.07.1-alpine-linux-aarch64.tar.gz",
@@ -21675,6 +21781,7 @@
         "8.504.01.1": "tgz+https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-alpine-linux-aarch64.tar.gz",
         "8.504.04.1": "tgz+https://corretto.aws/downloads/resources/8.504.04.1/amazon-corretto-8.504.04.1-alpine-linux-aarch64.tar.gz",
         "8.512.08.1": "tgz+https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-alpine-linux-aarch64.tar.gz",
+        "8.512.09.1": "tgz+https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-alpine-linux-aarch64.tar.gz",
         "11.0.19.7.1": "tgz+https://corretto.aws/downloads/resources/11.0.19.7.1/amazon-corretto-11.0.19.7.1-alpine-linux-aarch64.tar.gz",
         "11.0.20.8.1": "tgz+https://corretto.aws/downloads/resources/11.0.20.8.1/amazon-corretto-11.0.20.8.1-alpine-linux-aarch64.tar.gz",
         "11.0.20.9.1": "tgz+https://corretto.aws/downloads/resources/11.0.20.9.1/amazon-corretto-11.0.20.9.1-alpine-linux-aarch64.tar.gz",
@@ -21693,6 +21800,7 @@
         "11.0.32.10.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-alpine-linux-aarch64.tar.gz",
         "11.0.32.12.1": "tgz+https://corretto.aws/downloads/resources/11.0.32.12.1/amazon-corretto-11.0.32.12.1-alpine-linux-aarch64.tar.gz",
         "11.0.33.0.9": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-alpine-linux-aarch64.tar.gz",
+        "11.0.33.0.10": "tgz+https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-alpine-linux-aarch64.tar.gz",
         "17.0.6.10.1": "tgz+https://corretto.aws/downloads/resources/17.0.6.10.1/amazon-corretto-17.0.6.10.1-alpine-linux-aarch64.tar.gz",
         "17.0.7.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.7.7.1/amazon-corretto-17.0.7.7.1-alpine-linux-aarch64.tar.gz",
         "17.0.8.7.1": "tgz+https://corretto.aws/downloads/resources/17.0.8.7.1/amazon-corretto-17.0.8.7.1-alpine-linux-aarch64.tar.gz",
@@ -21714,6 +21822,7 @@
         "17.0.20.10.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-alpine-linux-aarch64.tar.gz",
         "17.0.20.12.1": "tgz+https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-alpine-linux-aarch64.tar.gz",
         "17.0.21.0.10": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-alpine-linux-aarch64.tar.gz",
+        "17.0.21.0.11": "tgz+https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-alpine-linux-aarch64.tar.gz",
         "19.0.2.7.1": "tgz+https://corretto.aws/downloads/resources/19.0.2.7.1/amazon-corretto-19.0.2.7.1-alpine-linux-aarch64.tar.gz",
         "20.0.0.36.1": "tgz+https://corretto.aws/downloads/resources/20.0.0.36.1/amazon-corretto-20.0.0.36.1-alpine-linux-aarch64.tar.gz",
         "20.0.1.9.1": "tgz+https://corretto.aws/downloads/resources/20.0.1.9.1/amazon-corretto-20.0.1.9.1-alpine-linux-aarch64.tar.gz",
@@ -21737,6 +21846,7 @@
         "21.0.12.9.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-alpine-linux-aarch64.tar.gz",
         "21.0.12.12.1": "tgz+https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-alpine-linux-aarch64.tar.gz",
         "21.0.13.0.10": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-alpine-linux-aarch64.tar.gz",
+        "21.0.13.0.11": "tgz+https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-alpine-linux-aarch64.tar.gz",
         "22.0.0.36.2": "tgz+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-alpine-linux-aarch64.tar.gz",
         "22.0.0.37.1": "tgz+https://corretto.aws/downloads/resources/22.0.0.37.1/amazon-corretto-22.0.0.37.1-alpine-linux-aarch64.tar.gz",
         "22.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-alpine-linux-aarch64.tar.gz",
@@ -21756,12 +21866,14 @@
         "25.0.4.8.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.8.1/amazon-corretto-25.0.4.8.1-alpine-linux-aarch64.tar.gz",
         "25.0.4.10.1": "tgz+https://corretto.aws/downloads/resources/25.0.4.10.1/amazon-corretto-25.0.4.10.1-alpine-linux-aarch64.tar.gz",
         "25.0.5.0.9": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-alpine-linux-aarch64.tar.gz",
+        "25.0.5.0.10": "tgz+https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-alpine-linux-aarch64.tar.gz",
         "26.0.0.35.2": "tgz+https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-alpine-linux-aarch64.tar.gz",
         "26.0.1.8.1": "tgz+https://corretto.aws/downloads/resources/26.0.1.8.1/amazon-corretto-26.0.1.8.1-alpine-linux-aarch64.tar.gz",
         "26.0.2.10.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.10.1/amazon-corretto-26.0.2.10.1-alpine-linux-aarch64.tar.gz",
         "26.0.2.11.1": "tgz+https://corretto.aws/downloads/resources/26.0.2.11.1/amazon-corretto-26.0.2.11.1-alpine-linux-aarch64.tar.gz",
         "27.0.0.35.1": "tgz+https://corretto.aws/downloads/resources/27.0.0.35.1/amazon-corretto-27.0.0.35.1-alpine-linux-aarch64.tar.gz",
-        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-alpine-linux-aarch64.tar.gz"
+        "27.0.1.0.10": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-alpine-linux-aarch64.tar.gz",
+        "27.0.1.0.11": "tgz+https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-alpine-linux-aarch64.tar.gz"
       },
       "jdk@jetbrains": {
         "17.0.9": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-17.0.9-linux-musl-aarch64-b1166.2.tar.gz",
@@ -21784,7 +21896,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-linux-musl-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-linux-musl-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-linux-musl-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-musl-aarch64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-musl-aarch64-b635.79.tar.gz"
       },
       "jdk@jetbrains-jre": {
         "17.0.9": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.9-linux-musl-aarch64-b1166.2.tar.gz",
@@ -21807,7 +21919,7 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-linux-musl-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-linux-musl-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-linux-musl-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-musl-aarch64-b635.78.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-musl-aarch64-b635.79.tar.gz"
       },
       "jdk@liberica": {
         "8.0.282": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-linux-aarch64-musl.tar.gz",
@@ -22405,11 +22517,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@temurin-debugimage": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -22442,11 +22556,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-debugimage_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-debugimage_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-debugimage_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@temurin-jre": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -22479,11 +22595,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jre_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jre_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@temurin-testimage": {
         "1.21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21_35.tar.gz",
@@ -22516,11 +22634,13 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26.0.2_10.tar.gz",
         "1.26.0.2.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-testimage_aarch64_alpine-linux_hotspot_26.0.2.1_1.tar.gz",
-        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-testimage_aarch64_alpine-linux_hotspot_27_35.tar.gz"
+        "1.27.0.0": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-testimage_aarch64_alpine-linux_hotspot_27_35.tar.gz",
+        "1.27.0.1.0.2": "tgz+https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz"
       },
       "jdk@zulu": {
         "8.0.332": "tgz+https://cdn.azul.com/zulu/bin/zulu8.62.0.19-ca-jdk8.0.332-linux_musl_aarch64.tar.gz",
@@ -23216,6 +23336,7 @@
         "1.25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_x64_windows_hotspot_25.0.3_9.zip",
         "1.25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4_7.zip",
         "1.25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip",
+        "1.25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_windows_hotspot_25.0.5_8.zip",
         "1.26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_x64_windows_hotspot_26_35.zip",
         "1.26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_x64_windows_hotspot_26.0.1_8.zip",
         "1.26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_x64_windows_hotspot_26.0.2_10.zip",
@@ -23335,6 +23456,7 @@
         "1.25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.3_9.zip",
         "1.25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.4_7.zip",
         "1.25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.4.1_1.zip",
+        "1.25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.5_8.zip",
         "1.26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_x64_windows_hotspot_26_35.zip",
         "1.26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_x64_windows_hotspot_26.0.1_8.zip",
         "1.26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_x64_windows_hotspot_26.0.2_10.zip",
@@ -23466,6 +23588,7 @@
         "1.25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_x64_windows_hotspot_25.0.3_9.zip",
         "1.25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_x64_windows_hotspot_25.0.4_7.zip",
         "1.25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_x64_windows_hotspot_25.0.4.1_1.zip",
+        "1.25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_x64_windows_hotspot_25.0.5_8.zip",
         "1.26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_x64_windows_hotspot_26_35.zip",
         "1.26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_x64_windows_hotspot_26.0.1_8.zip",
         "1.26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_x64_windows_hotspot_26.0.2_10.zip",
@@ -23549,6 +23672,7 @@
         "1.25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_x64_windows_hotspot_25.0.3_9.zip",
         "1.25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-testimage_x64_windows_hotspot_25.0.4_7.zip",
         "1.25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_x64_windows_hotspot_25.0.4.1_1.zip",
+        "1.25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_x64_windows_hotspot_25.0.5_8.zip",
         "1.26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_x64_windows_hotspot_26_35.zip",
         "1.26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_x64_windows_hotspot_26.0.1_8.zip",
         "1.26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_x64_windows_hotspot_26.0.2_10.zip",
@@ -23595,6 +23719,7 @@
         "8.504.01.1": "zip+https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-windows-x64-jdk.zip",
         "8.504.04.1": "zip+https://corretto.aws/downloads/resources/8.504.04.1/amazon-corretto-8.504.04.1-windows-x64-jdk.zip",
         "8.512.08.1": "zip+https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-windows-x64-jdk.zip",
+        "8.512.09.1": "zip+https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-windows-x64-jdk.zip",
         "11.0.6.10.1": "zip+https://corretto.aws/downloads/resources/11.0.6.10.1/amazon-corretto-11.0.6.10.1-windows-x64-jdk.zip",
         "11.0.7.10.1": "zip+https://corretto.aws/downloads/resources/11.0.7.10.1/amazon-corretto-11.0.7.10.1-windows-x64-jdk.zip",
         "11.0.8.10.1": "zip+https://corretto.aws/downloads/resources/11.0.8.10.1/amazon-corretto-11.0.8.10.1-windows-x64-jdk.zip",
@@ -23630,6 +23755,7 @@
         "11.0.32.10.1": "zip+https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-windows-x64-jdk.zip",
         "11.0.32.12.1": "zip+https://corretto.aws/downloads/resources/11.0.32.12.1/amazon-corretto-11.0.32.12.1-windows-x64-jdk.zip",
         "11.0.33.0.9": "zip+https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-windows-x64-jdk.zip",
+        "11.0.33.0.10": "zip+https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-windows-x64-jdk.zip",
         "17.0.0.35.1": "zip+https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-windows-x64-jdk.zip",
         "17.0.1.12.1": "zip+https://corretto.aws/downloads/resources/17.0.1.12.1/amazon-corretto-17.0.1.12.1-windows-x64-jdk.zip",
         "17.0.2.8.1": "zip+https://corretto.aws/downloads/resources/17.0.2.8.1/amazon-corretto-17.0.2.8.1-windows-x64-jdk.zip",
@@ -23657,6 +23783,7 @@
         "17.0.20.10.1": "zip+https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-windows-x64-jdk.zip",
         "17.0.20.12.1": "zip+https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-windows-x64-jdk.zip",
         "17.0.21.0.10": "zip+https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-windows-x64-jdk.zip",
+        "17.0.21.0.11": "zip+https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-windows-x64-jdk.zip",
         "18.0.0.37.1": "zip+https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-windows-x64-jdk.zip",
         "18.0.1.10.1": "zip+https://corretto.aws/downloads/resources/18.0.1.10.1/amazon-corretto-18.0.1.10.1-windows-x64-jdk.zip",
         "18.0.2.9.1": "zip+https://corretto.aws/downloads/resources/18.0.2.9.1/amazon-corretto-18.0.2.9.1-windows-x64-jdk.zip",
@@ -23683,6 +23810,7 @@
         "21.0.12.9.1": "zip+https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-windows-x64-jdk.zip",
         "21.0.12.12.1": "zip+https://corretto.aws/downloads/resources/21.0.12.12.1/amazon-corretto-21.0.12.12.1-windows-x64-jdk.zip",
         "21.0.13.0.10": "zip+https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-windows-x64-jdk.zip",
+        "21.0.13.0.11": "zip+https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-windows-x64-jdk.zip",
         "22.0.0.36.2": "zip+https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-windows-x64-jdk.zip",
         "22.0.1.8.1": "zip+https://corretto.aws/downloads/resources/22.0.1.8.1/amazon-corretto-22.0.1.8.1-windows-x64-jdk.zip",
         "22.0.2.9.1": "zip+https://corretto.aws/downloads/resources/22.0.2.9.1/amazon-corretto-22.0.2.9.1-windows-x64-jdk.zip",
@@ -23700,12 +23828,14 @@
         "25.0.4.8.1": "zip+https://corretto.aws/downloads/resources/25.0.4.8.1/amazon-corretto-25.0.4.8.1-windows-x64-jdk.zip",
         "25.0.4.10.1": "zip+https://corretto.aws/downloads/resources/25.0.4.10.1/amazon-corretto-25.0.4.10.1-windows-x64-jdk.zip",
         "25.0.5.0.9": "zip+https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-windows-x64-jdk.zip",
+        "25.0.5.0.10": "zip+https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-windows-x64-jdk.zip",
         "26.0.0.35.2": "zip+https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-windows-x64-jdk.zip",
         "26.0.1.8.1": "zip+https://corretto.aws/downloads/resources/26.0.1.8.1/amazon-corretto-26.0.1.8.1-windows-x64-jdk.zip",
         "26.0.2.10.1": "zip+https://corretto.aws/downloads/resources/26.0.2.10.1/amazon-corretto-26.0.2.10.1-windows-x64-jdk.zip",
         "26.0.2.11.1": "zip+https://corretto.aws/downloads/resources/26.0.2.11.1/amazon-corretto-26.0.2.11.1-windows-x64-jdk.zip",
         "27.0.0.35.1": "zip+https://corretto.aws/downloads/resources/27.0.0.35.1/amazon-corretto-27.0.0.35.1-windows-x64-jdk.zip",
-        "27.0.1.0.10": "zip+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-windows-x64-jdk.zip"
+        "27.0.1.0.10": "zip+https://corretto.aws/downloads/resources/27.0.1.0.10/amazon-corretto-27.0.1.0.10-windows-x64-jdk.zip",
+        "27.0.1.0.11": "zip+https://corretto.aws/downloads/resources/27.0.1.0.11/amazon-corretto-27.0.1.0.11-windows-x64-jdk.zip"
       },
       "jdk@graalvm": {
         "19.3.0": "zip+https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.0/graalvm-ce-java8-windows-amd64-19.3.0.zip",
@@ -24148,7 +24278,7 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-windows-x64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-windows-x64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-windows-x64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-x64-b635.78.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-x64-b635.79.zip"
       },
       "jdk@jetbrains-jcef": {
         "11.0.14.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-11_0_14_1-windows-x64-b2043.45.tar.gz",
@@ -24186,7 +24316,7 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-windows-x64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-windows-x64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-windows-x64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-x64-b635.78.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-x64-b635.79.zip"
       },
       "jdk@jetbrains-jcef-jre": {
         "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-11_0_11-windows-x64-b1536.2.tar.gz",
@@ -24228,7 +24358,7 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-windows-x64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-windows-x64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-windows-x64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-x64-b635.78.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-x64-b635.79.zip"
       },
       "jdk@jetbrains-jre": {
         "17.0.0": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17-windows-x64-b135.1.tar.gz",
@@ -24263,7 +24393,7 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-windows-x64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-windows-x64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-windows-x64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-x64-b635.78.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-x64-b635.79.zip"
       },
       "jdk@liberica": {
         "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-windows-amd64.zip",
@@ -25443,6 +25573,7 @@
         "1.25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_x64_windows_hotspot_25.0.3_9.zip",
         "1.25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4_7.zip",
         "1.25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip",
+        "1.25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_windows_hotspot_25.0.5_8.zip",
         "1.26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_x64_windows_hotspot_26_35.zip",
         "1.26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_x64_windows_hotspot_26.0.1_8.zip",
         "1.26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_x64_windows_hotspot_26.0.2_10.zip",
@@ -25562,6 +25693,7 @@
         "1.25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.3_9.zip",
         "1.25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.4_7.zip",
         "1.25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.4.1_1.zip",
+        "1.25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_x64_windows_hotspot_25.0.5_8.zip",
         "1.26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_x64_windows_hotspot_26_35.zip",
         "1.26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_x64_windows_hotspot_26.0.1_8.zip",
         "1.26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_x64_windows_hotspot_26.0.2_10.zip",
@@ -25678,6 +25810,7 @@
         "1.25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_x64_windows_hotspot_25.0.3_9.zip",
         "1.25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_x64_windows_hotspot_25.0.4_7.zip",
         "1.25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_x64_windows_hotspot_25.0.4.1_1.zip",
+        "1.25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_x64_windows_hotspot_25.0.5_8.zip",
         "1.26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_x64_windows_hotspot_26_35.zip",
         "1.26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_x64_windows_hotspot_26.0.1_8.zip",
         "1.26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_x64_windows_hotspot_26.0.2_10.zip",
@@ -25752,6 +25885,7 @@
         "1.25.0.3": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_x64_windows_hotspot_25.0.3_9.zip",
         "1.25.0.4": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-testimage_x64_windows_hotspot_25.0.4_7.zip",
         "1.25.0.4.1": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_x64_windows_hotspot_25.0.4.1_1.zip",
+        "1.25.0.5": "zip+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_x64_windows_hotspot_25.0.5_8.zip",
         "1.26.0.0": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_x64_windows_hotspot_26_35.zip",
         "1.26.0.1": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_x64_windows_hotspot_26.0.1_8.zip",
         "1.26.0.2": "zip+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_x64_windows_hotspot_26.0.2_10.zip",
@@ -26270,7 +26404,7 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-windows-aarch64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-windows-aarch64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-windows-aarch64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-aarch64-b635.78.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-aarch64-b635.79.zip"
       },
       "jdk@jetbrains-jcef": {
         "17.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-17.0.3-windows-aarch64-b498.3.tar.gz",
@@ -26301,7 +26435,7 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-windows-aarch64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-windows-aarch64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-windows-aarch64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-aarch64-b635.78.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-aarch64-b635.79.zip"
       },
       "jdk@jetbrains-jcef-jre": {
         "17.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-17.0.3-windows-aarch64-b498.3.tar.gz",
@@ -26332,7 +26466,7 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-windows-aarch64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-windows-aarch64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-windows-aarch64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-aarch64-b635.78.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-aarch64-b635.79.zip"
       },
       "jdk@jetbrains-jre": {
         "17.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.3-windows-aarch64-b498.3.tar.gz",
@@ -26363,7 +26497,7 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-windows-aarch64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-windows-aarch64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-windows-aarch64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-aarch64-b635.78.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-aarch64-b635.79.zip"
       },
       "jdk@liberica": {
         "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-windows-aarch64.zip",
@@ -26941,6 +27075,7 @@
         "17.0.19": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.0.19-windows-aarch64.zip",
         "17.0.20": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.0.20-windows-aarch64.zip",
         "17.0.20.1": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.0.20.1-windows-aarch64.zip",
+        "17.0.21.0.2": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.0.21.0.2-windows-aarch64.zip",
         "17.35.1": "zip+https://aka.ms/download-jdk/microsoft-jdk-17.35.1-windows-aarch64.zip",
         "21.0.0": "zip+https://aka.ms/download-jdk/microsoft-jdk-21.0.0-windows-aarch64.zip",
         "21.0.1": "zip+https://aka.ms/download-jdk/microsoft-jdk-21.0.1-windows-aarch64.zip",
