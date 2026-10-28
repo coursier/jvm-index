@@ -7,6 +7,15 @@ import scala.jdk.CollectionConverters.*
 
 object Microsoft {
 
+  // The Java 17 GA archives are named like microsoft-jdk-17.35.1-…, that is
+  // feature.build.respin rather than feature.interim.update, which would sort
+  // above any 17.0.x version
+  private def normalizeVersion(version: String): String =
+    version.split('.') match {
+      case Array(feature, build, _) if build != "0" => s"$feature.0.0"
+      case _                                        => version
+    }
+
   private def detailsOpt(url: String): Option[(Os, Arch, String)] =
     if (
       url.startsWith("https://aka.ms/download-jdk/microsoft-jdk-") &&
@@ -82,7 +91,7 @@ object Microsoft {
           url,
           checksumFileUrl = Some(url + ".sha256sum.txt").filter(checksumFileUrls)
         )
-        Index(os, arch, "jdk@microsoft-openjdk", ver, entry)
+        Index(os, arch, "jdk@microsoft-openjdk", normalizeVersion(ver), entry)
     }
     indices.foldLeft(Index.empty)(_ + _)
   }
