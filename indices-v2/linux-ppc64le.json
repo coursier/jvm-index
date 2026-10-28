@@ -1447,6 +1447,12 @@
       "checksums": {
         "sha256": "49a350d6e0fe41f7ee94ffaf101f0951f35042e86c52efa8a751a38fcb2126bb"
       }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_ppc64le_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "c0fd2832050eb3320334c8ee0d620ead55651059fd29d41a185d92a459e43fc2"
+      }
     }
   },
   "adoptium-debugimage": {
@@ -2150,6 +2156,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-debugimage_ppc64le_linux_hotspot_27_35.tar.gz",
       "checksums": {
         "sha256": "845c76af52f830e0c74365fc27f8b539becc33b5c1e0d60626b2714aea6e8334"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_ppc64le_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "e2387cb44f098b89e620556a5ffcadd9bcca03dbf6c5fb314c33539945418190"
       }
     }
   },
@@ -2927,6 +2939,12 @@
       "checksums": {
         "sha256": "a8e8e7e09e1b75822ce19982713b259306b82cdb1c6a4b1d1e09bf08ad4b1f3f"
       }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_ppc64le_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "3024a37374f4f73da17560907cb24e42e89148e10c47f423d26b0d70dc1ba254"
+      }
     }
   },
   "adoptium-testimage": {
@@ -3420,6 +3438,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-testimage_ppc64le_linux_hotspot_27_35.tar.gz",
       "checksums": {
         "sha256": "1eff28e2563d58cc02c20a9ca209002463007be8e10a61dc73a1072b8f578eb6"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_ppc64le_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "e7667b84257b9c422137e6d2e65cd0d00a43d5eeeb5fc06beb7cbcc542264f7a"
       }
     }
   },
@@ -5523,6 +5547,12 @@
       "checksums": {
         "sha256": "49a350d6e0fe41f7ee94ffaf101f0951f35042e86c52efa8a751a38fcb2126bb"
       }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_ppc64le_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "c0fd2832050eb3320334c8ee0d620ead55651059fd29d41a185d92a459e43fc2"
+      }
     }
   },
   "temurin-debugimage": {
@@ -6227,6 +6257,12 @@
       "checksums": {
         "sha256": "845c76af52f830e0c74365fc27f8b539becc33b5c1e0d60626b2714aea6e8334"
       }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_ppc64le_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "e2387cb44f098b89e620556a5ffcadd9bcca03dbf6c5fb314c33539945418190"
+      }
     }
   },
   "temurin-jre": {
@@ -6913,6 +6949,12 @@
       "checksums": {
         "sha256": "a8e8e7e09e1b75822ce19982713b259306b82cdb1c6a4b1d1e09bf08ad4b1f3f"
       }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_ppc64le_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "3024a37374f4f73da17560907cb24e42e89148e10c47f423d26b0d70dc1ba254"
+      }
     }
   },
   "temurin-testimage": {
@@ -7352,6 +7394,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-testimage_ppc64le_linux_hotspot_27_35.tar.gz",
       "checksums": {
         "sha256": "1eff28e2563d58cc02c20a9ca209002463007be8e10a61dc73a1072b8f578eb6"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_ppc64le_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "e7667b84257b9c422137e6d2e65cd0d00a43d5eeeb5fc06beb7cbcc542264f7a"
       }
     }
   }

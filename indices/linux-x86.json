@@ -22,9 +22,9 @@
     "21.0.6": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.6-linux-x86-b895.109.tar.gz",
     "21.0.7": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.7-linux-x86-b1038.58.tar.gz",
     "21.0.8": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.8-linux-x86-b1115.48.tar.gz",
-    "21.0.9": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.9-linux-x86-b1038.78.tar.gz",
+    "21.0.9": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.9-linux-x86-b1038.91.tar.gz",
     "21.0.10": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.10-linux-x86-b1163.110.tar.gz",
-    "21.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.11-linux-x86-b1163.116.tar.gz"
+    "21.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.11-linux-x86-b1163.125.tar.gz"
   },
   "jetbrains-jre": {
     "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-11_0_11-linux-x86-b1536.2.tar.gz",
@@ -49,9 +49,9 @@
     "21.0.6": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.6-linux-x86-b895.109.tar.gz",
     "21.0.7": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.7-linux-x86-b1038.58.tar.gz",
     "21.0.8": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.8-linux-x86-b1115.48.tar.gz",
-    "21.0.9": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.9-linux-x86-b1038.78.tar.gz",
+    "21.0.9": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.9-linux-x86-b1038.91.tar.gz",
     "21.0.10": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.10-linux-x86-b1163.110.tar.gz",
-    "21.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.11-linux-x86-b1163.116.tar.gz"
+    "21.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.11-linux-x86-b1163.125.tar.gz"
   },
   "liberica": {
     "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-linux-i586.tar.gz",
@@ -91,7 +91,7 @@
     "8.0.502": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u502+9/bellsoft-jdk8u502+9-linux-i586.tar.gz",
     "8.0.504": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jdk8u504+1-linux-i586.tar.gz",
     "8.0.512": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jdk8u512+11-linux-i586.tar.gz",
-    "8.0.513": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-linux-i586.tar.gz",
+    "8.0.513": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jdk8u513+9-linux-i586.tar.gz",
     "11.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.3/bellsoft-jdk11.0.3-linux-i586.tar.gz",
     "11.0.4": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.4/bellsoft-jdk11.0.4-linux-i586.tar.gz",
     "11.0.5": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jdk11.0.5+11-linux-i586.tar.gz",
@@ -236,7 +236,7 @@
     "8.0.502": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u502+9/bellsoft-jdk8u502+9-linux-i586-full.tar.gz",
     "8.0.504": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jdk8u504+1-linux-i586-full.tar.gz",
     "8.0.512": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jdk8u512+11-linux-i586-full.tar.gz",
-    "8.0.513": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-linux-i586-full.tar.gz"
+    "8.0.513": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jdk8u513+9-linux-i586-full.tar.gz"
   },
   "liberica-jre": {
     "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jre8u202-linux-i586.tar.gz",
@@ -276,7 +276,7 @@
     "8.0.502": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u502+9/bellsoft-jre8u502+9-linux-i586.tar.gz",
     "8.0.504": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jre8u504+1-linux-i586.tar.gz",
     "8.0.512": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jre8u512+11-linux-i586.tar.gz",
-    "8.0.513": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jre8u513+5-linux-i586.tar.gz",
+    "8.0.513": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jre8u513+9-linux-i586.tar.gz",
     "11.0.5": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jre11.0.5+11-linux-i586.tar.gz",
     "11.0.6": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.6+10/bellsoft-jre11.0.6+10-linux-i586.tar.gz",
     "11.0.7": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.7+10/bellsoft-jre11.0.7+10-linux-i586.tar.gz",
@@ -415,7 +415,7 @@
     "8.0.502": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u502+9/bellsoft-jre8u502+9-linux-i586-full.tar.gz",
     "8.0.504": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jre8u504+1-linux-i586-full.tar.gz",
     "8.0.512": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jre8u512+11-linux-i586-full.tar.gz",
-    "8.0.513": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jre8u513+5-linux-i586-full.tar.gz"
+    "8.0.513": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jre8u513+9-linux-i586-full.tar.gz"
   },
   "liberica-lite": {
     "8.0.302": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u302+8/bellsoft-jdk8u302+8-linux-i586-lite.tar.gz",
@@ -443,7 +443,7 @@
     "8.0.502": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u502+9/bellsoft-jdk8u502+9-linux-i586-lite.tar.gz",
     "8.0.504": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u504+1/bellsoft-jdk8u504+1-linux-i586-lite.tar.gz",
     "8.0.512": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u512+11/bellsoft-jdk8u512+11-linux-i586-lite.tar.gz",
-    "8.0.513": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-linux-i586-lite.tar.gz",
+    "8.0.513": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jdk8u513+9-linux-i586-lite.tar.gz",
     "11.0.3": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.3/bellsoft-jdk11.0.3-linux-i586-lite.tar.gz",
     "11.0.4": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.4/bellsoft-jdk11.0.4-linux-i586-lite.tar.gz",
     "11.0.5": "tgz+https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jdk11.0.5+11-linux-i586-lite.tar.gz",

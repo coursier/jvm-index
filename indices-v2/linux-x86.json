@@ -133,9 +133,9 @@
       }
     },
     "21.0.9": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.9-linux-x86-b1038.78.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.9-linux-x86-b1038.91.tar.gz",
       "checksums": {
-        "sha512": "bac47d5d0befca733dcb20692879191928f61dcf6c1fb70883c314fa6245ec579d94f1fd050525fe8a8ef83947110f4111502adc8b5d8e96c9d0c014cf0ffb2b"
+        "sha512": "337991118b495959b0e0504411cf880dd336862e11b5f3b4b1143135fd9c3d69e98fae69731d53dac9b61b110fba595c0fba0045a6f2dc8ecfdf2ece88f35310"
       }
     },
     "21.0.10": {
@@ -145,9 +145,9 @@
       }
     },
     "21.0.11": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.11-linux-x86-b1163.116.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.11-linux-x86-b1163.125.tar.gz",
       "checksums": {
-        "sha512": "2d3d51d90c7be31f329b35dc9278a861f930c87bb6a918568baca24cecddfb6b550d03584e79ecaecda3e7480c5e394f6366b81d42a93c43a52997e04edd7dac"
+        "sha512": "1abef68aeafe8af26d145e22f5ace2cc39896db6d4d346c1fed32b77f47551ffa27a6b771b854255756d62fc79febd67f48e81a7d9960e90959ddde62d2e3f30"
       }
     }
   },
@@ -285,9 +285,9 @@
       }
     },
     "21.0.9": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.9-linux-x86-b1038.78.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.9-linux-x86-b1038.91.tar.gz",
       "checksums": {
-        "sha512": "be579b6e59362f3126ee84aaaa7bc1fba8700a9ff0a260219c48cba0b434475070cbd8409dab75bb6e4c4f322db28343f9c7c0ee7d70bf6c03cbcf74350a59c3"
+        "sha512": "ec8172c5b48fafe45ba744b91659b6a4425f7ee3d5fd69cf417e36ff6c4f4c925923a5629b9c9a009a8e30a1bbfe38d6636c77592a15ac2fb164413a81d895c9"
       }
     },
     "21.0.10": {
@@ -297,9 +297,9 @@
       }
     },
     "21.0.11": {
-      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.11-linux-x86-b1163.116.tar.gz",
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.11-linux-x86-b1163.125.tar.gz",
       "checksums": {
-        "sha512": "e9f889bc76483e5ac134253e32ebb78bd2187af4627b14b9b724df41df92cede1e0170b7e71b27fa2245a4fa14d45c3fa7f9abc4788504d714ff5b437e9ff254"
+        "sha512": "6f6b839fe8387cd4861f67048da594101e42fa2dad0a6a9a5f97d98cb973dee29c2126aa5e28f6eefcc29930e2ade3e1dfdfcdce0ead502fa04d098ad167dff8"
       }
     }
   },
@@ -527,9 +527,9 @@
       }
     },
     "8.0.513": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-linux-i586.tar.gz",
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jdk8u513+9-linux-i586.tar.gz",
       "checksums": {
-        "sha1": "7883e05f949a48599c321c74952313ba0280fa69"
+        "sha1": "163ccecf9468239a7309d4d648d4234eb160f8fb"
       }
     },
     "11.0.3": {
@@ -1387,9 +1387,9 @@
       }
     },
     "8.0.513": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-linux-i586-full.tar.gz",
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jdk8u513+9-linux-i586-full.tar.gz",
       "checksums": {
-        "sha1": "c455a67e2ac5a0880ea6c10240b16d6345b961ea"
+        "sha1": "ca6a1fe16440f8feb5ba405fae5cf063e5ee9e5c"
       }
     }
   },
@@ -1617,9 +1617,9 @@
       }
     },
     "8.0.513": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jre8u513+5-linux-i586.tar.gz",
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jre8u513+9-linux-i586.tar.gz",
       "checksums": {
-        "sha1": "6ed00e2957b7d1e4fb833841acafd1a42eb1af83"
+        "sha1": "56166a4b9b3b0d72393ad104622e28dad420de21"
       }
     },
     "11.0.5": {
@@ -2441,9 +2441,9 @@
       }
     },
     "8.0.513": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jre8u513+5-linux-i586-full.tar.gz",
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jre8u513+9-linux-i586-full.tar.gz",
       "checksums": {
-        "sha1": "db4e8aec237231f8a621ea43e0e8707e2b486267"
+        "sha1": "823c744437c80ee7a0ad1a54ce7dcf7af8554f59"
       }
     }
   },
@@ -2599,9 +2599,9 @@
       }
     },
     "8.0.513": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+5/bellsoft-jdk8u513+5-linux-i586-lite.tar.gz",
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jdk8u513+9-linux-i586-lite.tar.gz",
       "checksums": {
-        "sha1": "c9da76ac4bc27bcd1ef17bfed56b611b12f325d9"
+        "sha1": "82918d4ae62b11e9ebc44dc559bf01512d3929f1"
       }
     },
     "11.0.3": {
