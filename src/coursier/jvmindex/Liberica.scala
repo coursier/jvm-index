@@ -8,8 +8,10 @@ object Liberica {
 
   final case class LibericaEntry(
     featureVersion: Int,
-    patchVersion: Int,
+    interimVersion: Int,
     updateVersion: Int,
+    patchVersion: Int,
+    extraVersion: Int,
     buildVersion: Int,
     bitness: Int,
     os: String,
@@ -19,9 +21,24 @@ object Liberica {
     packageType: String,
     architecture: String
   ) {
-    lazy val sortKey = (featureVersion, patchVersion, updateVersion, buildVersion, packageType)
+    lazy val sortKey = (
+      featureVersion,
+      interimVersion,
+      updateVersion,
+      patchVersion,
+      extraVersion,
+      buildVersion,
+      packageType
+    )
 
-    def jdkVersion: String = s"$featureVersion.$patchVersion.$updateVersion"
+    // Liberica versions look like 21.0.13, 21.0.12.1 or 21.0.13.0.3
+    // (feature.interim.update[.patch[.extra]])
+    def jdkVersion: String = {
+      val base = s"$featureVersion.$interimVersion.$updateVersion"
+      if (extraVersion > 0) s"$base.$patchVersion.$extraVersion"
+      else if (patchVersion > 0) s"$base.$patchVersion"
+      else base
+    }
 
     def indexOs: Os = os match {
       case "macos" => Os("darwin")
@@ -63,8 +80,10 @@ object Liberica {
     def apply(obj: ujson.Obj): LibericaEntry =
       LibericaEntry(
         featureVersion = obj("featureVersion").num.toInt,
-        patchVersion = obj("patchVersion").num.toInt,
+        interimVersion = obj("interimVersion").num.toInt,
         updateVersion = obj("updateVersion").num.toInt,
+        patchVersion = obj("patchVersion").num.toInt,
+        extraVersion = obj.value.get("extraVersion").flatMap(_.numOpt).fold(0)(_.toInt),
         buildVersion = obj("buildVersion").num.toInt,
         bitness = obj("bitness").num.toInt,
         os = obj("os").str,
