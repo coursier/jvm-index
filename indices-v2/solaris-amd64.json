@@ -276,6 +276,12 @@
         "sha1": "de6f22e6fd20c1e72d84da85d93d3ed09c6ce587"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-solaris-x64.tar.gz",
+      "checksums": {
+        "sha1": "43a82b8763e8be99402651e08944292505b77509"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-solaris-x64.tar.gz",
       "checksums": {
@@ -306,16 +312,34 @@
         "sha1": "933351524779254de07fd14f10712afdf89c8a53"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-solaris-x64.tar.gz",
+      "checksums": {
+        "sha1": "1a97006bb2ab004e776120f514e4bc96ada1b27e"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-solaris-x64.tar.gz",
       "checksums": {
         "sha1": "fa0e17f4ffc7324b8ac60f352415a0e5f6d8c042"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-solaris-x64.tar.gz",
+      "checksums": {
+        "sha1": "3b33d627cc0b4af25c633dee015add6cf55ae619"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-solaris-x64.tar.gz",
       "checksums": {
         "sha1": "e9671ed3f730c3cdd40318579a05ad3f67a740ff"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-solaris-x64.tar.gz",
+      "checksums": {
+        "sha1": "936854b9174a0252e71343adee3d0bad3e5807a0"
       }
     },
     "11.0.17": {
@@ -340,6 +364,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-solaris-x64.tar.gz",
       "checksums": {
         "sha1": "21802c17c63afa8c5191300f43356a0bb30bd228"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-solaris-x64.tar.gz",
+      "checksums": {
+        "sha1": "ca6d9c05c29fc4c6711ef1ce381f53d896c01a57"
       }
     },
     "11.0.21": {
@@ -414,46 +444,28 @@
         "sha1": "35faef52a8c3e029b63a77c79888d3035c48521f"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-solaris-x64.tar.gz",
+      "checksums": {
+        "sha1": "8b70be5cf032d947800118e4fd594755fb294987"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-solaris-x64.tar.gz",
       "checksums": {
         "sha1": "c1024085f9bb96cdc0e60375a1b0b8132ff797c3"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-solaris-x64.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-solaris-x64.tar.gz",
       "checksums": {
-        "sha1": "43a82b8763e8be99402651e08944292505b77509"
+        "sha1": "69de395ab5375166fd0f6fbd5c2cb94a14370ade"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-solaris-x64.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-solaris-x64.tar.gz",
       "checksums": {
-        "sha1": "1a97006bb2ab004e776120f514e4bc96ada1b27e"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-solaris-x64.tar.gz",
-      "checksums": {
-        "sha1": "3b33d627cc0b4af25c633dee015add6cf55ae619"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-solaris-x64.tar.gz",
-      "checksums": {
-        "sha1": "936854b9174a0252e71343adee3d0bad3e5807a0"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-solaris-x64.tar.gz",
-      "checksums": {
-        "sha1": "ca6d9c05c29fc4c6711ef1ce381f53d896c01a57"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-solaris-x64.tar.gz",
-      "checksums": {
-        "sha1": "8b70be5cf032d947800118e4fd594755fb294987"
+        "sha1": "8c4bf5e31cf7d12bd55517af5c64c899fb453b63"
       }
     },
     "12.0.0": {
@@ -722,6 +734,12 @@
         "sha1": "d51f61416bfcc06f645279212f444e79266261b4"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-solaris-x64.tar.gz",
+      "checksums": {
+        "sha1": "438088d8737ba258f9437ccac3a63a8f061f7cd2"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-solaris-x64.tar.gz",
       "checksums": {
@@ -752,16 +770,34 @@
         "sha1": "679cad8a41033a13a2c3198ce181d553d68a44e1"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-solaris-x64.tar.gz",
+      "checksums": {
+        "sha1": "57832138bd26508bc37fca9f7f38250ae63f6eb5"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-solaris-x64.tar.gz",
       "checksums": {
         "sha1": "98b685e3a5a31d10d4a4ef14f2334428f67f00a1"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-solaris-x64.tar.gz",
+      "checksums": {
+        "sha1": "7097c46ffe95c004769bda37e4d5424024afa072"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jre11.0.16+8-solaris-x64.tar.gz",
       "checksums": {
         "sha1": "f13d415573acd2f17335f17a046b3394a64c122d"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-solaris-x64.tar.gz",
+      "checksums": {
+        "sha1": "07db5e659256398eb99abbad99d6ab10fa1bd2aa"
       }
     },
     "11.0.17": {
@@ -786,6 +822,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-solaris-x64.tar.gz",
       "checksums": {
         "sha1": "b6a18ccf0784acbd750dab8265c66781b55d3f94"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-solaris-x64.tar.gz",
+      "checksums": {
+        "sha1": "ec34a73111fe9a108061a5cfc0e530026e1aa2a3"
       }
     },
     "11.0.21": {
@@ -860,46 +902,28 @@
         "sha1": "0c9fcd90b7e80c53919f51da480b5adc88267f2a"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-solaris-x64.tar.gz",
+      "checksums": {
+        "sha1": "5704adfd5380331107d3f3df0c68bd443305c0e3"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jre11.0.33+11-solaris-x64.tar.gz",
       "checksums": {
         "sha1": "85bbac90ede243a890cc69b05912c08696ffeb89"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-solaris-x64.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jre11.0.33.0.2+5-solaris-x64.tar.gz",
       "checksums": {
-        "sha1": "438088d8737ba258f9437ccac3a63a8f061f7cd2"
+        "sha1": "407d0817e42db3fa8f1bc66cdd6364e3e5fc2f5f"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-solaris-x64.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-solaris-x64.tar.gz",
       "checksums": {
-        "sha1": "57832138bd26508bc37fca9f7f38250ae63f6eb5"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-solaris-x64.tar.gz",
-      "checksums": {
-        "sha1": "7097c46ffe95c004769bda37e4d5424024afa072"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-solaris-x64.tar.gz",
-      "checksums": {
-        "sha1": "07db5e659256398eb99abbad99d6ab10fa1bd2aa"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-solaris-x64.tar.gz",
-      "checksums": {
-        "sha1": "ec34a73111fe9a108061a5cfc0e530026e1aa2a3"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-solaris-x64.tar.gz",
-      "checksums": {
-        "sha1": "5704adfd5380331107d3f3df0c68bd443305c0e3"
+        "sha1": "b288de5bcdee5ec3d7e2087d71edc0b9f4058fe3"
       }
     }
   },
@@ -1108,6 +1132,12 @@
         "sha1": "13aaddee71769dbe9d23263a2787ae9fdc247d47"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-solaris-x64-lite.tar.gz",
+      "checksums": {
+        "sha1": "595cc1f601d1695d92c0df7dfc93f5448da2423c"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-solaris-x64-lite.tar.gz",
       "checksums": {
@@ -1138,16 +1168,34 @@
         "sha1": "9ab73fb26b29fb76ffd54da019e1037fe0106238"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-solaris-x64-lite.tar.gz",
+      "checksums": {
+        "sha1": "44c70c6a23d1caa387afb70d00cac787f60ed4d3"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-solaris-x64-lite.tar.gz",
       "checksums": {
         "sha1": "be4ee9ab55240826727b33377e7cf2dade6ca81e"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-solaris-x64-lite.tar.gz",
+      "checksums": {
+        "sha1": "d5074bec9a87a9f4bf1e7f7d9fc1a9de19343624"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-solaris-x64-lite.tar.gz",
       "checksums": {
         "sha1": "6192b8e8d499c2ed71412107a924580a960abda1"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-solaris-x64-lite.tar.gz",
+      "checksums": {
+        "sha1": "32da8187726e0c9a208b62c1b5321b416bb6faba"
       }
     },
     "11.0.17": {
@@ -1172,6 +1220,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-solaris-x64-lite.tar.gz",
       "checksums": {
         "sha1": "62216f2a822ce0fc225bf4cedd616f1aecce6005"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-solaris-x64-lite.tar.gz",
+      "checksums": {
+        "sha1": "38586603760744bf8388c4347f12e5aa7e245072"
       }
     },
     "11.0.21": {
@@ -1246,46 +1300,28 @@
         "sha1": "0de4ff21bf7f2abedc66e5c0dca720ef7c5f1281"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-solaris-x64-lite.tar.gz",
+      "checksums": {
+        "sha1": "ab7b660336c3e1ba97f0afb66c27bea7f6678bb1"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-solaris-x64-lite.tar.gz",
       "checksums": {
         "sha1": "c3b6acac386e2a210406109f1fd514bfb604ccdb"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-solaris-x64-lite.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-solaris-x64-lite.tar.gz",
       "checksums": {
-        "sha1": "595cc1f601d1695d92c0df7dfc93f5448da2423c"
+        "sha1": "63a3452c22d04ab60a334e3a9d57b819cb5aa918"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-solaris-x64-lite.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-solaris-x64-lite.tar.gz",
       "checksums": {
-        "sha1": "44c70c6a23d1caa387afb70d00cac787f60ed4d3"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-solaris-x64-lite.tar.gz",
-      "checksums": {
-        "sha1": "d5074bec9a87a9f4bf1e7f7d9fc1a9de19343624"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-solaris-x64-lite.tar.gz",
-      "checksums": {
-        "sha1": "32da8187726e0c9a208b62c1b5321b416bb6faba"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-solaris-x64-lite.tar.gz",
-      "checksums": {
-        "sha1": "38586603760744bf8388c4347f12e5aa7e245072"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-solaris-x64-lite.tar.gz",
-      "checksums": {
-        "sha1": "ab7b660336c3e1ba97f0afb66c27bea7f6678bb1"
+        "sha1": "84c952bfff1865a2300397ec584705a89007b0bc"
       }
     },
     "12.0.0": {

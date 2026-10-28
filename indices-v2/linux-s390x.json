@@ -3478,6 +3478,12 @@
         "sha256": "e0b8ec4011a08ed43c561e20e2f5f8958a410d32074d958de77bcb2a76745533"
       }
     },
+    "21.0.13.0": {
+      "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.13.0/ibm-semeru-open-jdk_s390x_linux_21.0.13.0.tar.gz",
+      "checksums": {
+        "sha256": "b72fb0510300707defbc73771509fd8bcfccb27cf5a17155a60ac5605155e67c"
+      }
+    },
     "22.0.1": {
       "url": "https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_s390x_linux_22.0.1_8_openj9-0.45.0.tar.gz",
       "checksums": {
@@ -4066,6 +4072,12 @@
       "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.15/ibm-semeru-open-jdk_s390x_linux_21.0.12.15.tar.gz",
       "checksums": {
         "sha256": "e0b8ec4011a08ed43c561e20e2f5f8958a410d32074d958de77bcb2a76745533"
+      }
+    },
+    "21.0.13.0": {
+      "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.13.0/ibm-semeru-open-jdk_s390x_linux_21.0.13.0.tar.gz",
+      "checksums": {
+        "sha256": "b72fb0510300707defbc73771509fd8bcfccb27cf5a17155a60ac5605155e67c"
       }
     }
   },

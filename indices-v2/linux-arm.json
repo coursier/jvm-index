@@ -2398,6 +2398,12 @@
         "sha1": "8e2b7020833542399a97ca13dee4bc69e9d2429b"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "2e46f53b594572605cffa469278a91dbe9fc8b74"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
@@ -2428,16 +2434,34 @@
         "sha1": "82ccf3b7ab87d8c75f3c09cd4f239141370c080e"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "1d7a1bd323d4572bdbac1de1ab3c13aa72fb4d89"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "704a6e68b954c8656dcb4d07cd7259a95a8b3cc2"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "af194ab559b022832cd6fb81bf4bc60d2b58166d"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "5fc1391b6cc2f0710edb8fe9f1e979ba3bc5487b"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "3fdeca91cf8277245b2516b3251871a2c62528d1"
       }
     },
     "11.0.17": {
@@ -2462,6 +2486,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "672f2eec0a1c209f4fe13ef500288b153b94e027"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "3f68e9d4476eae0c067e2c50ea5d56d6f5d78c7f"
       }
     },
     "11.0.21": {
@@ -2536,46 +2566,28 @@
         "sha1": "58025b907ea14d6dbb554bd6530f5d683a2149fc"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "7fd47d1ebacfd858083b66bb3d25bdd3b3649bfa"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "de89c07ada694109539cfa871eba8e5c42823ead"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-arm32-vfp-hflt.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
-        "sha1": "2e46f53b594572605cffa469278a91dbe9fc8b74"
+        "sha1": "059920f98eff5d3cd2bc54aba8cd68ea630e1b58"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-arm32-vfp-hflt.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
-        "sha1": "1d7a1bd323d4572bdbac1de1ab3c13aa72fb4d89"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "af194ab559b022832cd6fb81bf4bc60d2b58166d"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "3fdeca91cf8277245b2516b3251871a2c62528d1"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "3f68e9d4476eae0c067e2c50ea5d56d6f5d78c7f"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "7fd47d1ebacfd858083b66bb3d25bdd3b3649bfa"
+        "sha1": "80aac380b0ff020302a236a639fe27b86e6da084"
       }
     },
     "12.0.0": {
@@ -2692,10 +2704,22 @@
         "sha1": "e01a0e7eb3ba901dd2239841a177b33aabeec921"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "d40b1c216c3c1bb2884deb56deed7178042f83b6"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "00eee488704127d569a908772e88b86bb5f007fe"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "6a481eee16b05cb92e7ced7bf7eb46c4e27b8d09"
       }
     },
     "17.0.5": {
@@ -2720,6 +2744,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "53148a91ed502556312a4d65b37b20dee6ff28d8"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "ef32639a508b29ea5b139f82e864bf89a64d6d19"
       }
     },
     "17.0.9": {
@@ -2794,34 +2824,28 @@
         "sha1": "2bbd79914e2b6de66ae762f0ce45f24141150d78"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "244a7d24cad8eb695fa62b464fdc81e9a0d09677"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "02affc20b254b13d70ea0b4e57306e39b80b85b9"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-arm32-vfp-hflt.tar.gz",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jdk17.0.21.0.2+5-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
-        "sha1": "d40b1c216c3c1bb2884deb56deed7178042f83b6"
+        "sha1": "b7ca7fefe90b7d9b98860c89dcd756493c1798c4"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-arm32-vfp-hflt.tar.gz",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jdk17.0.21.0.3+5-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
-        "sha1": "6a481eee16b05cb92e7ced7bf7eb46c4e27b8d09"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "ef32639a508b29ea5b139f82e864bf89a64d6d19"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "244a7d24cad8eb695fa62b464fdc81e9a0d09677"
+        "sha1": "9aa2cabaf2123781519a5ae03c253365410f89cf"
       }
     },
     "18.0.0": {
@@ -2836,19 +2860,19 @@
         "sha1": "8224e175bb15ce3fc0ab0e2bae7cf91bbd771d99"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "5552dffee063045922af2d18d441f42df505ad52"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "2186305418efe0de0ff2123ec4a6c6671b712a8c"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "5552dffee063045922af2d18d441f42df505ad52"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "02faedc49d8887299b96afc598c99753bd064b44"
@@ -2962,16 +2986,28 @@
         "sha1": "dd6feaedc790ead2129a2eeafb0b7211646f1659"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "c748de8204e2f1404cd14e12847d8bec4f75e507"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "d75c13f0394450c35fab1820486b440d5510c742"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-arm32-vfp-hflt.tar.gz",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jdk21.0.13.0.2+5-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
-        "sha1": "c748de8204e2f1404cd14e12847d8bec4f75e507"
+        "sha1": "6d8b4a72ea533c9de2acc173ea56916767cf155f"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "297d345bbbc4ed5c72eb6db13bba519198fb31cb"
       }
     },
     "22.0.0": {
@@ -3016,16 +3052,28 @@
         "sha1": "7cdd754dc4e7bfbbf21857340a369cf20821b495"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "aebcd070a2812f3521a43656d11dcc20c5a59324"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jdk25.0.5+11-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "94607c9de6b3f4dcc0d279332a94a1929cf6106e"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-linux-arm32-vfp-hflt.tar.gz",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jdk25.0.5.0.2+5-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
-        "sha1": "aebcd070a2812f3521a43656d11dcc20c5a59324"
+        "sha1": "65c902026d553c3503190a92d9bc1411f288a702"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jdk25.0.5.0.3+5-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "c384ec099dc93df6a82e6a52f01636f282febc3f"
       }
     },
     "26.0.1": {
@@ -3040,7 +3088,7 @@
         "sha1": "df8a74bdb56a9e66fb8106808050da131c831c4d"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jdk26.0.2.1+1-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "0fb45a3ddd39c29adc46421fe668114e8c1756e8"
@@ -3056,6 +3104,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jdk27.0.1+11-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "33ce215a466faa5864013de4ebaaca11303edfe5"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jdk27.0.1.0.2+5-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "43205acba58b6837c2f58cc7ee10be26b44400b8"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "52a28c94a174d3102c9e03322426564b603c8f63"
       }
     }
   },
@@ -3082,6 +3142,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "88b6f5d6ddf5b539d38c88215f80c0d28374ef6e"
+      }
+    },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "fdef23b0b800781fc340588837951a0428f78ffa"
       }
     },
     "11.0.10": {
@@ -3114,16 +3180,34 @@
         "sha1": "97a82e29fde0b3adb5c173d9d94fe6c793a1fee5"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "82c9d57cfd14344988b57d18fa6efc10f84d065e"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "754d54335b0eebe0c96364058ac944926edc23ac"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "546de92fa207368558996400653aa1987665c7dd"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "f1b7448a4c37ade6edfb47a8a3815f56484368bd"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "daa8a053718a666fc484e5cc8099c406e6f8b8c5"
       }
     },
     "11.0.17": {
@@ -3148,6 +3232,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "b343a387765963d68af75ccee33934d26fb6448a"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "6fad36bc7533e952c2b1e93d33a6df2c676041f6"
       }
     },
     "11.0.21": {
@@ -3222,46 +3312,28 @@
         "sha1": "be65c2280033d9a1e799ecf43a40e36c9da5dd0e"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "2b1e91ff2e0a7b8b0a1015184d85ca9afb666b6b"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "c537ed6d3fd08b3531eeb767b8a6da75ea0da466"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
-        "sha1": "fdef23b0b800781fc340588837951a0428f78ffa"
+        "sha1": "572ca396a544a11f263cea0897eb3d2fdb62f6f6"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
-        "sha1": "82c9d57cfd14344988b57d18fa6efc10f84d065e"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "546de92fa207368558996400653aa1987665c7dd"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "daa8a053718a666fc484e5cc8099c406e6f8b8c5"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "6fad36bc7533e952c2b1e93d33a6df2c676041f6"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "2b1e91ff2e0a7b8b0a1015184d85ca9afb666b6b"
+        "sha1": "f6fb33e59dc952e2afb45dc24e46f48df7a95018"
       }
     },
     "13.0.2": {
@@ -3348,10 +3420,22 @@
         "sha1": "e05855beef88a65b0d00693d4aa7562087bfa24e"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "d8dcf8a6e14642141c5299f5f6cdd21745d7dd0b"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "bde21ff038f2aa949f1452130639a36765d20c11"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "b120af8e4686bc20eec6df4c898d483fa5692333"
       }
     },
     "17.0.5": {
@@ -3376,6 +3460,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "3cf2cf209bb7d5dca73a944ce6fdce38b32179d9"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "c67083f00ee18eaf022f30053e761f37a4592b47"
       }
     },
     "17.0.9": {
@@ -3450,34 +3540,28 @@
         "sha1": "8caec866ecc287ca7fd69e6a53dc0f67f78a7a36"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "1aa13e6415a1d3d396a77e63d3bed5db170d0449"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "569c38db554f25b04be6839f7385f4fbe273d37c"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-arm32-vfp-hflt-full.tar.gz",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jdk17.0.21.0.2+5-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
-        "sha1": "d8dcf8a6e14642141c5299f5f6cdd21745d7dd0b"
+        "sha1": "c561113080e6111db0eb9d8cdef2ded022a4b58b"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jdk17.0.21.0.3+5-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
-        "sha1": "b120af8e4686bc20eec6df4c898d483fa5692333"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "c67083f00ee18eaf022f30053e761f37a4592b47"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "1aa13e6415a1d3d396a77e63d3bed5db170d0449"
+        "sha1": "a575a07acbb1d4926e07b3caef027abf310da152"
       }
     },
     "18.0.0": {
@@ -3492,19 +3576,19 @@
         "sha1": "c0281517a1893defd9f8babc089bb654c6eac247"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "e273a9d0e1e0893ff90ca127f49371ad2bb7b84b"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "812f6e4fc4958ef44dbada5d4ab81943cecb1f9c"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "e273a9d0e1e0893ff90ca127f49371ad2bb7b84b"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "67504fa6d4ec817d8a7e1c5b50e62d6a5a0735d7"
@@ -3618,16 +3702,28 @@
         "sha1": "90cdadcc3fe0e2b3ac531b6e3ce33f714a060337"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "9b889dd9a6e3bda9d5259f977d2e9ead7ebc1bca"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "b3f096f6694ef633792c27d26deacb5ceb8d6171"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jdk21.0.13.0.2+5-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
-        "sha1": "9b889dd9a6e3bda9d5259f977d2e9ead7ebc1bca"
+        "sha1": "46225656f215cc9932b8025f483ce416979af007"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "fc10a26038f35c45638d064429bb253c4682bbe2"
       }
     },
     "22.0.0": {
@@ -3672,16 +3768,28 @@
         "sha1": "a236e1765d4a5abadaa52f4f5b52e9ea8e8a5162"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "8206cb697305315ac2da09c45518e26879f993c3"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jdk25.0.5+11-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "946703b6fbfaa6e1467a35d4bafbf43579c4d2e6"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jdk25.0.5.0.2+5-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
-        "sha1": "8206cb697305315ac2da09c45518e26879f993c3"
+        "sha1": "3bd1a7c820df5ff77e986e777bb9090251f208d4"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jdk25.0.5.0.3+5-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "2e8a0420040fdd4876766eea6b4ff6bb38f65107"
       }
     },
     "26.0.1": {
@@ -3696,7 +3804,7 @@
         "sha1": "9bc5d8aa34d2777b634db32f5d1279e0107ded61"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jdk26.0.2.1+1-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "d867d1722cc5cc68901d87ac264d11208a481749"
@@ -3712,6 +3820,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jdk27.0.1+11-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "5f32cf1310da94ae8fb8dfa277aeca623894ce82"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jdk27.0.1.0.2+5-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "a63680055dbec21ae0de2c744e7f90c5631c1c19"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "6aa6a4b9d3832dec7a2131507aabe61f21b3906d"
       }
     }
   },
@@ -3776,6 +3896,12 @@
         "sha1": "fbd2d2941188e7f5f401a5cdc27105a4b6848927"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "41d069b6a9c82f521d0c23fed8abe9fc57b8c4cb"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
@@ -3806,16 +3932,34 @@
         "sha1": "7b428746d814b261ce33c439ca673dfaa3a628db"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "23db97434a0b743a9e8173b02783d99176a6c139"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "574ec1b54eabb4c33cf621284d3d37868bc36250"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "9fcf5e97ea09711beb00ba8d35e5f7431b767ef5"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jre11.0.16+8-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "eedfd6f05a30c3d582f57b19bf9e519c1f9fee09"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "c741ae86c6f73a911587f2f7c4530476a46627ce"
       }
     },
     "11.0.17": {
@@ -3840,6 +3984,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "b0110cae820b55a2c05472579f74644dfe79a1ce"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "f91a5c946c7354139ca80726439d0fe0b99359c0"
       }
     },
     "11.0.21": {
@@ -3914,46 +4064,28 @@
         "sha1": "38a7088af37c1f89e12829c4ef2c94f6c808d31b"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "58a280980239abedddb34822081aec5e6040468b"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jre11.0.33+11-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "b72daa45a97c395020609906154c1981d7b605e9"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-arm32-vfp-hflt.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jre11.0.33.0.2+5-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
-        "sha1": "41d069b6a9c82f521d0c23fed8abe9fc57b8c4cb"
+        "sha1": "c59e398338c4140c00457a204ea306001563f040"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-arm32-vfp-hflt.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
-        "sha1": "23db97434a0b743a9e8173b02783d99176a6c139"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "9fcf5e97ea09711beb00ba8d35e5f7431b767ef5"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "c741ae86c6f73a911587f2f7c4530476a46627ce"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "f91a5c946c7354139ca80726439d0fe0b99359c0"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "58a280980239abedddb34822081aec5e6040468b"
+        "sha1": "0990dc90680f11ebb63e5b36c2b357b366fb2b50"
       }
     },
     "13.0.1": {
@@ -4046,10 +4178,22 @@
         "sha1": "dd14e4e830e117150e8910df423412b0a70a4b8e"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "80796e9694846b650747f9cf4c5b750c3790b48e"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "4645f1aea993048c6017dd41de18c88f1313ea75"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "f00987b1cd152a1e182f51ddde7b98ff48772295"
       }
     },
     "17.0.5": {
@@ -4074,6 +4218,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jre17.0.8+7-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "a283069f636feffd81048dc8207289f89d809194"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "0f75ecbcf1af4d5810068ee5492a4714b4d0b980"
       }
     },
     "17.0.9": {
@@ -4148,34 +4298,28 @@
         "sha1": "9ef11348bc5de61ef7fe7fe598c0002fd030af8a"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "c089622ac313682fade9a46de9c50f8803bdfe66"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jre17.0.21+11-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "f364b121842fb0bbd775c8ea1c83e8a001e6faf9"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-arm32-vfp-hflt.tar.gz",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jre17.0.21.0.2+5-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
-        "sha1": "80796e9694846b650747f9cf4c5b750c3790b48e"
+        "sha1": "8de858c3b914aea7c75c025d2f504d425d98fd49"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-linux-arm32-vfp-hflt.tar.gz",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jre17.0.21.0.3+5-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
-        "sha1": "f00987b1cd152a1e182f51ddde7b98ff48772295"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "0f75ecbcf1af4d5810068ee5492a4714b4d0b980"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "c089622ac313682fade9a46de9c50f8803bdfe66"
+        "sha1": "f19810a88ab3a4df588b99cb295d920a0cbb8589"
       }
     },
     "18.0.0": {
@@ -4190,19 +4334,19 @@
         "sha1": "2835f1e53960c4bd6b22878b60c711e9f954363b"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "63ce309b8b6f4981fa9302f6f73b3c5b64abcda2"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jre18.0.2+10-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "2e5ac766e69b4c2fb20af0e8ea21130a46e44780"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-arm32-vfp-hflt.tar.gz",
-      "checksums": {
-        "sha1": "63ce309b8b6f4981fa9302f6f73b3c5b64abcda2"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jre18.0.2.1+1-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "123b02700ea95b84b426073ea819181f901af73a"
@@ -4316,16 +4460,28 @@
         "sha1": "cf497c8d8b7aa57eaa7800911975ac2d509e07c5"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "676f38100b6e2d0c087daa1fe1a7d837b0843aab"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jre21.0.13+11-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "6c25be170f7bde0c614765f44586703d4f81cade"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-linux-arm32-vfp-hflt.tar.gz",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jre21.0.13.0.2+5-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
-        "sha1": "676f38100b6e2d0c087daa1fe1a7d837b0843aab"
+        "sha1": "0030e67c3bfe4dfeec18a546fb34701142f9337b"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jre21.0.13.0.3+5-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "2a3241e419a3d57b065cdc710db2743bda21794a"
       }
     },
     "22.0.0": {
@@ -4370,16 +4526,28 @@
         "sha1": "7022f981b334c6d0977ac064cc1b62a19c440aad"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "fce8e600e15ec1f5348fed8db1962741d30e169a"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jre25.0.5+11-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "1fa001b431dbd87fc02f1efba2742df2a6e7e575"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-linux-arm32-vfp-hflt.tar.gz",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jre25.0.5.0.2+5-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
-        "sha1": "fce8e600e15ec1f5348fed8db1962741d30e169a"
+        "sha1": "a69cccca1e19ac1c5f94e057317f3257ac7d883f"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jre25.0.5.0.3+5-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "39534fc2a0dbb9ca71f81694eac288c6105fe613"
       }
     },
     "26.0.1": {
@@ -4394,7 +4562,7 @@
         "sha1": "eb5fd81fc1e123f02261b0cb98cb37f60a037f3d"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jre26.0.2.1+1-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "3b5658a5c8f7f576e6bdf43a57b34fb59df4b6c5"
@@ -4410,6 +4578,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jre27.0.1+11-linux-arm32-vfp-hflt.tar.gz",
       "checksums": {
         "sha1": "012cf43a0603f318a9a3036df67f9958ac4bc983"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jre27.0.1.0.2+5-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "0753b533bfeb42f1318749dc9a9d7eb4c0303672"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jre27.0.1.0.3+5-linux-arm32-vfp-hflt.tar.gz",
+      "checksums": {
+        "sha1": "c866b69264a38cff69ee5f311602d26ff92032d4"
       }
     }
   },
@@ -4436,6 +4616,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "9e5cb892de60ebd332ac32b3cd83df9ae58030bf"
+      }
+    },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "7dddc3388b608e19dd4b47bdce39b23dedeea0ec"
       }
     },
     "11.0.10": {
@@ -4468,16 +4654,34 @@
         "sha1": "a79d9918e278a526f10498bc188954dc5fde703f"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "1954cad17121edb15e1ea687349f343235db1dd9"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "d567b6b0f4adc9485c4d7163f013a1e71f2876fb"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "897221bdb80ef96e9c0583f16da4249902a32cbb"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jre11.0.16+8-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "6016994fcfc80d711be15cf6e1b1759a963fbae6"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "366298fc7f223b1172f160e1e3bfdc859d138b23"
       }
     },
     "11.0.17": {
@@ -4502,6 +4706,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "5a71e74a0b07d18e55e93feb22ce509621dc4581"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "f76dfe72b8a1af8d5ab7f0b6df0e31dc46421f97"
       }
     },
     "11.0.21": {
@@ -4576,46 +4786,28 @@
         "sha1": "7259d7adf5a5b46e8ea36bca9da87190a0bc60f9"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "04248bd37cf353847f0a299b42c17bab4e349049"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jre11.0.33+11-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "2a065557f2c65764b17f70a5072a8ed3eb32c89b"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jre11.0.33.0.2+5-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
-        "sha1": "7dddc3388b608e19dd4b47bdce39b23dedeea0ec"
+        "sha1": "4a400ad6c0f509a119101263fe26019ebdf4d863"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
-        "sha1": "1954cad17121edb15e1ea687349f343235db1dd9"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "897221bdb80ef96e9c0583f16da4249902a32cbb"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "366298fc7f223b1172f160e1e3bfdc859d138b23"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "f76dfe72b8a1af8d5ab7f0b6df0e31dc46421f97"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "04248bd37cf353847f0a299b42c17bab4e349049"
+        "sha1": "b2dc18df56bc63fc872bc17dea13f48c06d07b23"
       }
     },
     "13.0.2": {
@@ -4702,10 +4894,22 @@
         "sha1": "bcf57e48a9f0cdb63607c5db4ec50f79b763003f"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "1978c8f6c5935431543d26a73294058085cce195"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "62582d22117f60fef21fc4d09b5219ad4d338074"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "a09edefd7abad82be9ec7c31e31a3a87b7dcf760"
       }
     },
     "17.0.5": {
@@ -4730,6 +4934,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jre17.0.8+7-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "d184b8dbb7da2be712c3165abacbc0f868a60a93"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "2ce2c9df44aa8d47d162f0697955d270e53863ce"
       }
     },
     "17.0.9": {
@@ -4804,34 +5014,28 @@
         "sha1": "b97e77e60625d00b32236af526d350eef172d0bc"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "0bc5bf3a51e25b5b271d501fe8fdbfa9ba740f22"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jre17.0.21+11-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "d7d0bc1c03068be687074bc5c0f2552db202261b"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-arm32-vfp-hflt-full.tar.gz",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jre17.0.21.0.2+5-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
-        "sha1": "1978c8f6c5935431543d26a73294058085cce195"
+        "sha1": "a19b8e360ee5ec5ec31f94687b238f20d1cbcd34"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jre17.0.21.0.3+5-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
-        "sha1": "a09edefd7abad82be9ec7c31e31a3a87b7dcf760"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "2ce2c9df44aa8d47d162f0697955d270e53863ce"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "0bc5bf3a51e25b5b271d501fe8fdbfa9ba740f22"
+        "sha1": "0e3f8973f213eb5d2817827ff29847581b577a6f"
       }
     },
     "18.0.0": {
@@ -4846,19 +5050,19 @@
         "sha1": "cefcb378c18525ba4cc800f98ac95df0d111b38f"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "1f2f5424eef023db89fd69e7470ff9290b46797a"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jre18.0.2+10-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "7aa0943cc919dd5c9bee92650b943c1455dce913"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-arm32-vfp-hflt-full.tar.gz",
-      "checksums": {
-        "sha1": "1f2f5424eef023db89fd69e7470ff9290b46797a"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jre18.0.2.1+1-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "d5e56cba94808b139259e2d14900f9f45e49aa57"
@@ -4972,16 +5176,28 @@
         "sha1": "a140558b99a190fb3d14e7b7c6190e093f87c27f"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "6a4ca47e695b2cb293ac0f61b5eeeefdcec3ad95"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jre21.0.13+11-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "55d405a213a52c0871bb284d4aded1c609fc8c52"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jre21.0.13.0.2+5-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
-        "sha1": "6a4ca47e695b2cb293ac0f61b5eeeefdcec3ad95"
+        "sha1": "dce3a964086e2d8ab3687bb9df74b7cec7c4d353"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jre21.0.13.0.3+5-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "9bfff11cceb9d32e7cb15cee5f541dc6bbce24f9"
       }
     },
     "22.0.0": {
@@ -5026,16 +5242,28 @@
         "sha1": "009917309ca0db2128147bf7b6563270b90aa143"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "1891ee8b9c13df076f0189b2ef5f99c475e17fb0"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jre25.0.5+11-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "e1edc786153b307cd7ca765c4f056e0932f77f26"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-linux-arm32-vfp-hflt-full.tar.gz",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jre25.0.5.0.2+5-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
-        "sha1": "1891ee8b9c13df076f0189b2ef5f99c475e17fb0"
+        "sha1": "c395e3d45b28169978efd59bf53e5a08459d6c71"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jre25.0.5.0.3+5-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "ec80e9621406f13ba73cb26d770045f4b3db6fa6"
       }
     },
     "26.0.1": {
@@ -5050,7 +5278,7 @@
         "sha1": "b3988614fed1d97497bd1099b25ea58b4a63ebfb"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jre26.0.2.1+1-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "8d3a81d0e4e0e5acdfe44351af1640f2aebb534b"
@@ -5066,6 +5294,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jre27.0.1+11-linux-arm32-vfp-hflt-full.tar.gz",
       "checksums": {
         "sha1": "1bb8d64dd1c398ec26c086756a58bebde6254e1a"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jre27.0.1.0.2+5-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "9ec52d3240349405a2a32c6969bbd5bd1a6cabfd"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jre27.0.1.0.3+5-linux-arm32-vfp-hflt-full.tar.gz",
+      "checksums": {
+        "sha1": "4b9a00dd2795e57e9286fdb6c37431300308bae8"
       }
     }
   },
@@ -5130,6 +5370,12 @@
         "sha1": "22f83c14c5a51b91f19609be1b5ab038ceae402c"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "28a65245915d3f2710fbb46c570297c83ff6971b"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
@@ -5160,16 +5406,34 @@
         "sha1": "a347f1e04806f0f97a170b1659e5d6b3af7a834e"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "2e5e59b348394d544ec400a30f75e92d4db9c8e5"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "0bb2fd8cfe383098f4d89397dbefd130220cf109"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "f9745d25cfc9e83efe5a496775fbcd950caf4fbd"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "42813d93be65082a795451de0c8a2b6847716b8a"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "4c88b3f3727604c5282a0f7757fc81f93c1f97c4"
       }
     },
     "11.0.17": {
@@ -5194,6 +5458,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "3e1e911eb6bda7325ea6cc81ade0b5115a11eb83"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "18932ac1492ee58d63b5687532779b8ae9463d96"
       }
     },
     "11.0.21": {
@@ -5268,46 +5538,28 @@
         "sha1": "e2c93caa1b0a93d81873d8b661b13c38c32f3326"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "0cc743432a1d91b454993ee0f7e477a4a65e1b85"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "2a3b1a57bedb18565cd86e628747cde22d0e3935"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
-        "sha1": "28a65245915d3f2710fbb46c570297c83ff6971b"
+        "sha1": "d2bf1fd22abb49264913ae958701107bb6069ac8"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
-        "sha1": "2e5e59b348394d544ec400a30f75e92d4db9c8e5"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-arm32-vfp-hflt-lite.tar.gz",
-      "checksums": {
-        "sha1": "f9745d25cfc9e83efe5a496775fbcd950caf4fbd"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
-      "checksums": {
-        "sha1": "4c88b3f3727604c5282a0f7757fc81f93c1f97c4"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
-      "checksums": {
-        "sha1": "18932ac1492ee58d63b5687532779b8ae9463d96"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
-      "checksums": {
-        "sha1": "0cc743432a1d91b454993ee0f7e477a4a65e1b85"
+        "sha1": "e3527edb7f7a8f12e5057f46d055dc32bd1d270f"
       }
     },
     "12.0.0": {
@@ -5424,10 +5676,22 @@
         "sha1": "6be6c2c0c895c7d76d5afef67d49bdeb3992cecf"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "d3edcb2247749ac1a403ab6e468a9f623704c184"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "0fc4b5d4affe59d908dc7e2f46ea1fe3237becd3"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "7eb5e26e32d7ee67c35573746101efa61de79513"
       }
     },
     "17.0.5": {
@@ -5452,6 +5716,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "a499c51c1a446468a9089793fcd1bafdc6f42fd7"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "7854d7c23e93b6de6a7e3598a5b24f412672327f"
       }
     },
     "17.0.9": {
@@ -5526,34 +5796,28 @@
         "sha1": "3d2fb194563e628a746361cec61f8c7fd4f990e9"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "3d23f0a9a3211014f5222c9df6b3d562db14b13b"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "5d2eadcb79abbef5359757a3efe9a770ea97e23a"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-arm32-vfp-hflt-lite.tar.gz",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jdk17.0.21.0.2+5-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
-        "sha1": "d3edcb2247749ac1a403ab6e468a9f623704c184"
+        "sha1": "fadded64a68374c38c2ba6276cc7c6381099d24d"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jdk17.0.21.0.3+5-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
-        "sha1": "7eb5e26e32d7ee67c35573746101efa61de79513"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
-      "checksums": {
-        "sha1": "7854d7c23e93b6de6a7e3598a5b24f412672327f"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
-      "checksums": {
-        "sha1": "3d23f0a9a3211014f5222c9df6b3d562db14b13b"
+        "sha1": "32c16b18bb7926a59649c03c687089bedfdb5409"
       }
     },
     "18.0.0": {
@@ -5568,19 +5832,19 @@
         "sha1": "72014543e9a6ceb9a26dcca38bc54c1e0e91c99d"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "0046725e9b137d0a77ca3f53c2ee8fcef46a0451"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "41aac05ff53ef6974a9ff579a6335ae45442c759"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-arm32-vfp-hflt-lite.tar.gz",
-      "checksums": {
-        "sha1": "0046725e9b137d0a77ca3f53c2ee8fcef46a0451"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "51492bca2f6c9bf7d32ac42c5df12e084efcba4e"
@@ -5694,16 +5958,28 @@
         "sha1": "edb7697b3dd966eeb3346ef144ff2cf07ef2eb84"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "6869807f4d30c5cc5a4c8c6f8db37ad0be943381"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "8adb39cdcea2dc145916d6945f547b9177ab4815"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jdk21.0.13.0.2+5-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
-        "sha1": "6869807f4d30c5cc5a4c8c6f8db37ad0be943381"
+        "sha1": "9bba2654374e0947bbffaa0e69fe2546573bf583"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "03f7c7f75b203249a97dba10b77ba0f685fc6164"
       }
     },
     "22.0.0": {
@@ -5748,16 +6024,28 @@
         "sha1": "9855faafa6ac1038bda2f6eb1fd00f0ee52fa64b"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "ce773d77a5ec6ba502fb6121bae8c44615a65877"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jdk25.0.5+11-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "be26a56a794355eb8b87d2946facd1d0cf100384"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jdk25.0.5.0.2+5-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
-        "sha1": "ce773d77a5ec6ba502fb6121bae8c44615a65877"
+        "sha1": "102d56ac0f5ffe26270c8b8c47c95879a1d2467e"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jdk25.0.5.0.3+5-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "4d53364cc0888b31a7db69038bad9b0057ac8d1e"
       }
     },
     "26.0.1": {
@@ -5772,7 +6060,7 @@
         "sha1": "aadaca71b19e2b82658232214811be5055534510"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jdk26.0.2.1+1-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "677fb3bd03512713778ebaf505516c72a3906c6b"
@@ -5788,6 +6076,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jdk27.0.1+11-linux-arm32-vfp-hflt-lite.tar.gz",
       "checksums": {
         "sha1": "13b160a18632299d67aef6a238cfa1823aa79827"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jdk27.0.1.0.2+5-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "90c77e139c60074eb1cf834f0169f841624e5f5f"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-linux-arm32-vfp-hflt-lite.tar.gz",
+      "checksums": {
+        "sha1": "84cb34bf1bfd64ccc6b6dae3aef9ae5eb54ab041"
       }
     }
   },
