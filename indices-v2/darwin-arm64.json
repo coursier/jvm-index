@@ -3779,6 +3779,12 @@
         "sha256": "62e1e06c25c1614a168a9b16ce359d22f226831b26cebd8f51dea308ca6770c6"
       }
     },
+    "21.0.13.0": {
+      "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.13.0/ibm-semeru-open-jdk_aarch64_mac_21.0.13.0.tar.gz",
+      "checksums": {
+        "sha256": "b48f31687d44fa13068555e92c32e886d10cf48c1322adb151803a013852eae3"
+      }
+    },
     "22.0.1": {
       "url": "https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_aarch64_mac_22.0.1_8_openj9-0.45.0.tar.gz",
       "checksums": {
@@ -4323,6 +4329,12 @@
       "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.15/ibm-semeru-open-jdk_aarch64_mac_21.0.12.15.tar.gz",
       "checksums": {
         "sha256": "62e1e06c25c1614a168a9b16ce359d22f226831b26cebd8f51dea308ca6770c6"
+      }
+    },
+    "21.0.13.0": {
+      "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.13.0/ibm-semeru-open-jdk_aarch64_mac_21.0.13.0.tar.gz",
+      "checksums": {
+        "sha256": "b48f31687d44fa13068555e92c32e886d10cf48c1322adb151803a013852eae3"
       }
     }
   },
@@ -5543,16 +5555,34 @@
         "sha1": "9541dab300b72c7f96e5af7081930b44c4ad11ea"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "75b2d53e0e820be55fce239ab60aff7e4d059f7b"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-macos-aarch64.zip",
       "checksums": {
         "sha1": "b1b60bb7f62c62a9db0ed908d789755aca3c261f"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "614d74e5830a371eb3309a3b09fd50d29a6ba34c"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-macos-aarch64.zip",
       "checksums": {
         "sha1": "edc4c560f253929b9293589743c4ece53637ba8a"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "8d3fb1124aab17d9e680c10c663c6f9975aaf1e0"
       }
     },
     "11.0.17": {
@@ -5577,6 +5607,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-macos-aarch64.zip",
       "checksums": {
         "sha1": "f489d68ea557cbaae47a0e487e7be80b3b9df593"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "82e1d926415ac1defe4f5f1610e9f9f2b5964068"
       }
     },
     "11.0.21": {
@@ -5651,40 +5687,28 @@
         "sha1": "d8230795901f5ce119cafd10735b75d7d804413e"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "16c8de0d0a3a9ad8df1e01e78514968493270bfb"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-macos-aarch64.zip",
       "checksums": {
         "sha1": "37e00a114f6b0aeaf22fe417be5dce155dff39fc"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-macos-aarch64.zip",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-macos-aarch64.zip",
       "checksums": {
-        "sha1": "75b2d53e0e820be55fce239ab60aff7e4d059f7b"
+        "sha1": "3169fb215e7e118c04992086b67fd1c58624b72c"
       }
     },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-macos-aarch64.zip",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-macos-aarch64.zip",
       "checksums": {
-        "sha1": "614d74e5830a371eb3309a3b09fd50d29a6ba34c"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-macos-aarch64.zip",
-      "checksums": {
-        "sha1": "8d3fb1124aab17d9e680c10c663c6f9975aaf1e0"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-macos-aarch64.zip",
-      "checksums": {
-        "sha1": "82e1d926415ac1defe4f5f1610e9f9f2b5964068"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-macos-aarch64.zip",
-      "checksums": {
-        "sha1": "16c8de0d0a3a9ad8df1e01e78514968493270bfb"
+        "sha1": "ca621b434ba9d9bc759e675f5aee2cf8736e65ac"
       }
     },
     "15.0.2": {
@@ -5735,10 +5759,22 @@
         "sha1": "39bbd81c85bf91e68a1db37f7e6af42839348eb4"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "c1d1f1e9dcc68de207a9b0f31e4b5dcc91fc92eb"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-macos-aarch64.zip",
       "checksums": {
         "sha1": "23a530de356bce69f699893c76159110f997acca"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "352408632a363a1cca82d275011ae848607e058c"
       }
     },
     "17.0.5": {
@@ -5763,6 +5799,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-macos-aarch64.zip",
       "checksums": {
         "sha1": "d28a7ea1d166da6a3779d0b9b2e5a68a7aef6110"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "cc1f341e247d926bc801887ba2d24d06db449bb4"
       }
     },
     "17.0.9": {
@@ -5837,34 +5879,28 @@
         "sha1": "ef040bd81779c3128ac570cc56c19225d92f2e68"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "e029c169a1cea1190415dcb0f81dc5ebe4be9b63"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-macos-aarch64.zip",
       "checksums": {
         "sha1": "8863d633f2e9c91d88793a69bfc93bf2cfe1bb22"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-aarch64.zip",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jdk17.0.21.0.2+5-macos-aarch64.zip",
       "checksums": {
-        "sha1": "c1d1f1e9dcc68de207a9b0f31e4b5dcc91fc92eb"
+        "sha1": "3b8126364581cd057f7dc996683a9301fbe2ba60"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-macos-aarch64.zip",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jdk17.0.21.0.3+5-macos-aarch64.zip",
       "checksums": {
-        "sha1": "352408632a363a1cca82d275011ae848607e058c"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-macos-aarch64.zip",
-      "checksums": {
-        "sha1": "cc1f341e247d926bc801887ba2d24d06db449bb4"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-macos-aarch64.zip",
-      "checksums": {
-        "sha1": "e029c169a1cea1190415dcb0f81dc5ebe4be9b63"
+        "sha1": "a596ca65146098d03f4682f6a4c4dea7fd5fff2e"
       }
     },
     "18.0.0": {
@@ -5879,19 +5915,19 @@
         "sha1": "a24bd14eda2dc89c5c405faeb671f8e2aefe5234"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "3213a33ee4d0be9dbd49e4d119be6de8466cff6f"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-macos-aarch64.zip",
       "checksums": {
         "sha1": "4b22cfbe793fe4923fad2c4b3d6e89cab09af444"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-macos-aarch64.zip",
-      "checksums": {
-        "sha1": "3213a33ee4d0be9dbd49e4d119be6de8466cff6f"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-macos-aarch64.zip",
       "checksums": {
         "sha1": "bf1579e25067ecc9cf88bbfbe6189c1f8314491c"
@@ -6011,16 +6047,28 @@
         "sha1": "6046e4e15da0f775787b671a47813a5b3ee6d67e"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "067624de3968083ca199a59886bc113dcaabffd3"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-macos-aarch64.zip",
       "checksums": {
         "sha1": "7dd6659886d79c0105d6d4d0e8d6b56ba0936eb1"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-macos-aarch64.zip",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jdk21.0.13.0.2+5-macos-aarch64.zip",
       "checksums": {
-        "sha1": "067624de3968083ca199a59886bc113dcaabffd3"
+        "sha1": "d8851e7944d1def8cf7c7d40f953fea276212dcf"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "f87228be9e1a394877406e04e1f89712a0a09a1d"
       }
     },
     "22.0.0": {
@@ -6107,16 +6155,28 @@
         "sha1": "9440ca0afeef82838ec6fcea4f29ed3018565e31"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "b9dced404540594a3c4889f84022dc6d91292be2"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jdk25.0.5+11-macos-aarch64.zip",
       "checksums": {
         "sha1": "da9f45cec4ddbc0501faaf734ff8f3e61977acfb"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-macos-aarch64.zip",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jdk25.0.5.0.2+5-macos-aarch64.zip",
       "checksums": {
-        "sha1": "b9dced404540594a3c4889f84022dc6d91292be2"
+        "sha1": "f393069f5b5cd347302e90ff4a21157321d822ff"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jdk25.0.5.0.3+5-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "c65dfa1d5b495294ba2dd0b9b7cc4c973883bf2a"
       }
     },
     "26.0.0": {
@@ -6137,7 +6197,7 @@
         "sha1": "c5319257a3a812563d0052402a0763ad02085464"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jdk26.0.2.1+1-macos-aarch64.zip",
       "checksums": {
         "sha1": "594edfbd57b847941fd21ee677d42ea1ae846bb5"
@@ -6153,6 +6213,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jdk27.0.1+11-macos-aarch64.zip",
       "checksums": {
         "sha1": "3efb8c2204023041fd65d03f22d97854a3e7c235"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jdk27.0.1.0.2+5-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "ba37418f823316136ea44c876994a6852c679fb9"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "fbb559ca96c508ec7bfc6a424e7774e7e3610870"
       }
     }
   },
@@ -6355,16 +6427,34 @@
         "sha1": "20ecf9194ebb9766d080ef2fe1d8cd2fab432db3"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "ebc4f1cc8f5b4506f4271bcf38cafb0a45877438"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "3b18d8047d92b12c3e474f20c6d17dec335c9adf"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "b9f047820971d446198794b975fc8b64dc07cd5f"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "1cb1eeb0e90f25c982de13772415cec206aab223"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "02cce7ec207018a4595e1bac745228ebafc25506"
       }
     },
     "11.0.17": {
@@ -6389,6 +6479,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "7ef080b933975e9a6b60441ee4208b54497c26b1"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "a0360e4a5f8aba0dfab14fa028390a7eb0863549"
       }
     },
     "11.0.21": {
@@ -6463,40 +6559,28 @@
         "sha1": "a8dca4a8b434c9459e6202445ce258ac2945d9e5"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "ce06e96e2ae842c64db313683fcf747af6fe58c0"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "9b415205ace1dd1563a44e2ba7bea7543ecba089"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-macos-aarch64-full.zip",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-macos-aarch64-full.zip",
       "checksums": {
-        "sha1": "ebc4f1cc8f5b4506f4271bcf38cafb0a45877438"
+        "sha1": "b0fd1aa5d353c8d366e07150984e0eb4128a89e4"
       }
     },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-macos-aarch64-full.zip",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-macos-aarch64-full.zip",
       "checksums": {
-        "sha1": "b9f047820971d446198794b975fc8b64dc07cd5f"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-macos-aarch64-full.zip",
-      "checksums": {
-        "sha1": "02cce7ec207018a4595e1bac745228ebafc25506"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-macos-aarch64-full.zip",
-      "checksums": {
-        "sha1": "a0360e4a5f8aba0dfab14fa028390a7eb0863549"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-macos-aarch64-full.zip",
-      "checksums": {
-        "sha1": "ce06e96e2ae842c64db313683fcf747af6fe58c0"
+        "sha1": "4fb453c23af8cd53eaa7a70b84fa5dc394ac952a"
       }
     },
     "15.0.2": {
@@ -6547,10 +6631,22 @@
         "sha1": "062a60f1354481bc9c7ee9bf2b9e18d953595d6f"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "044ab30180389e171585fbd6e23d2b1738968017"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "625262f592965c8d76a3c5882ea5d5892b9d910b"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "bced47257b20cc51a45cf784460a92309e7fee8c"
       }
     },
     "17.0.5": {
@@ -6575,6 +6671,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "48b383ee328c5dc7709653482d814ae17d7ee5fb"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "d1d9d7a2956d3890af1e8cfc72704fe649795c10"
       }
     },
     "17.0.9": {
@@ -6649,34 +6751,28 @@
         "sha1": "eeab019810459a472decd0294c199903382949ef"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "6d056fada740bb2859507f8ca41a92974def5f8e"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "2eafa999db221fcdb05c7a8a2b6d777165d2bbd4"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-aarch64-full.zip",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jdk17.0.21.0.2+5-macos-aarch64-full.zip",
       "checksums": {
-        "sha1": "044ab30180389e171585fbd6e23d2b1738968017"
+        "sha1": "32f32f97be67f221292d5ae6336b28060c9076a5"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-macos-aarch64-full.zip",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jdk17.0.21.0.3+5-macos-aarch64-full.zip",
       "checksums": {
-        "sha1": "bced47257b20cc51a45cf784460a92309e7fee8c"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-macos-aarch64-full.zip",
-      "checksums": {
-        "sha1": "d1d9d7a2956d3890af1e8cfc72704fe649795c10"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-macos-aarch64-full.zip",
-      "checksums": {
-        "sha1": "6d056fada740bb2859507f8ca41a92974def5f8e"
+        "sha1": "371488489d04234fa1ed4ba9a76831aef70f3136"
       }
     },
     "18.0.0": {
@@ -6691,19 +6787,19 @@
         "sha1": "f3e6f77ee96f8b3293dbbb6bd1aa47ab21d705d3"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "e2032e4ad374a4855837431538372b3eaeba43b5"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "4daaab01d6ca7dfeff17249a0599c8e614780e5e"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-macos-aarch64-full.zip",
-      "checksums": {
-        "sha1": "e2032e4ad374a4855837431538372b3eaeba43b5"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "4794cbcf94ed8036b94d0fd38a6ffdc1177bcd4f"
@@ -6823,16 +6919,28 @@
         "sha1": "ca77baa16d30155677cc4082940fd8b19715ff33"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "fd764281bbf3f04245bf57584301fb4151a9fd93"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "273c34028235994fea6c1c229e902e266d6a509e"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-macos-aarch64-full.zip",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jdk21.0.13.0.2+5-macos-aarch64-full.zip",
       "checksums": {
-        "sha1": "fd764281bbf3f04245bf57584301fb4151a9fd93"
+        "sha1": "e149b6bdf882b2de7634bc14eaa37c450d7a537c"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "e2421b177641fb47044d4fdbe0d7c9f3d4a06666"
       }
     },
     "22.0.0": {
@@ -6919,16 +7027,28 @@
         "sha1": "9e96285e98d7eaf987faa73b89e82df581f80f69"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "7f9e4f6f94b6257d0d2cc532b426542aaefdcbb1"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jdk25.0.5+11-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "71a272ce08c61445ab2ded8ae9e3a19e19ef5aca"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-macos-aarch64-full.zip",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jdk25.0.5.0.2+5-macos-aarch64-full.zip",
       "checksums": {
-        "sha1": "7f9e4f6f94b6257d0d2cc532b426542aaefdcbb1"
+        "sha1": "836eb8dcd77839e0eccb5b2d297f0947c2acee0f"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jdk25.0.5.0.3+5-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "5f56ef022c5c359c2dee2bc3aa9e11e2b1f8d7cf"
       }
     },
     "26.0.0": {
@@ -6949,7 +7069,7 @@
         "sha1": "93ff131c6dd1c17d96b86af831e7d5f5459b4007"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jdk26.0.2.1+1-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "5c456b97f80a3db559bb2853491aff0385b3a42f"
@@ -6965,6 +7085,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jdk27.0.1+11-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "b0e54119878a8c3bb7b5e90c5008116834bd0206"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jdk27.0.1.0.2+5-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "f05de07acfbc129a5a754bf600ea615efd72e1d1"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "848fa83e3d9b9eeaa8154e55865ec63ffeae6676"
       }
     }
   },
@@ -7167,16 +7299,34 @@
         "sha1": "394afe64f5e535de97efd6f2a323ba11faec1780"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "d19555628105b35cf40197792619526620f160f7"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-macos-aarch64.zip",
       "checksums": {
         "sha1": "b25ab6790a08e7d16a46e262abbd4a5d977ed326"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "5450d8ba06b51d7f0087950fbb44bfd9c8cbdaa1"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jre11.0.16+8-macos-aarch64.zip",
       "checksums": {
         "sha1": "73a33c53f32ecfca0076ad59d66bad75ed534eea"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "03d09b1a160a342f47d863cfc90ac7fc47675854"
       }
     },
     "11.0.17": {
@@ -7201,6 +7351,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-macos-aarch64.zip",
       "checksums": {
         "sha1": "e8b19deb11a51974998c34845ff7837671139db7"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "9740419cb2769494c118ba18fcd45c03c24aec2c"
       }
     },
     "11.0.21": {
@@ -7275,40 +7431,28 @@
         "sha1": "0e696b71d3b799aa8eb84929b8fa5e46fd296a0f"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "27f8ae93622cb745b65773c6057ecd76e5c12155"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jre11.0.33+11-macos-aarch64.zip",
       "checksums": {
         "sha1": "2c2cd7169f3bacd6058f9f0d5f6a924b5696d3fb"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-macos-aarch64.zip",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jre11.0.33.0.2+5-macos-aarch64.zip",
       "checksums": {
-        "sha1": "d19555628105b35cf40197792619526620f160f7"
+        "sha1": "a8fb7e4afdff52c1471dc51b00d289247bdd559e"
       }
     },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-macos-aarch64.zip",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-macos-aarch64.zip",
       "checksums": {
-        "sha1": "5450d8ba06b51d7f0087950fbb44bfd9c8cbdaa1"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-macos-aarch64.zip",
-      "checksums": {
-        "sha1": "03d09b1a160a342f47d863cfc90ac7fc47675854"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-macos-aarch64.zip",
-      "checksums": {
-        "sha1": "9740419cb2769494c118ba18fcd45c03c24aec2c"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-macos-aarch64.zip",
-      "checksums": {
-        "sha1": "27f8ae93622cb745b65773c6057ecd76e5c12155"
+        "sha1": "c71ffc54dcced280af3e823878d4d8b3c3d1403b"
       }
     },
     "15.0.2": {
@@ -7359,10 +7503,22 @@
         "sha1": "fe69bc51a530ab532494eced1986bfb716212b74"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "f8e8554dbbbab31d0c055bc688cd30d938b315f4"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-macos-aarch64.zip",
       "checksums": {
         "sha1": "cbd528a17b19b18647743d870a167e6511319f17"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "afcbe207299a756c46f4cbd6f34a74f260b2cab2"
       }
     },
     "17.0.5": {
@@ -7387,6 +7543,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jre17.0.8+7-macos-aarch64.zip",
       "checksums": {
         "sha1": "1712b26bc0484f0dec2eeb09e1c4514f2195f99d"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "5c0fb2c47047d31fb09cf271ea8b083ee1814f72"
       }
     },
     "17.0.9": {
@@ -7461,34 +7623,28 @@
         "sha1": "d6f0f4479d648a9bd4180a9bd79bd2b4cfb6da9c"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "d8f488ddf968edbf3b33b99de7dde529f9d29c9a"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jre17.0.21+11-macos-aarch64.zip",
       "checksums": {
         "sha1": "fd16f157b1407457d01c69031367fb1780ae98c6"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-macos-aarch64.zip",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jre17.0.21.0.2+5-macos-aarch64.zip",
       "checksums": {
-        "sha1": "f8e8554dbbbab31d0c055bc688cd30d938b315f4"
+        "sha1": "9b369d1f2e26152fd9087af69cf71c0234c90f09"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-macos-aarch64.zip",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jre17.0.21.0.3+5-macos-aarch64.zip",
       "checksums": {
-        "sha1": "afcbe207299a756c46f4cbd6f34a74f260b2cab2"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-macos-aarch64.zip",
-      "checksums": {
-        "sha1": "5c0fb2c47047d31fb09cf271ea8b083ee1814f72"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-macos-aarch64.zip",
-      "checksums": {
-        "sha1": "d8f488ddf968edbf3b33b99de7dde529f9d29c9a"
+        "sha1": "02add8669adfe13849b632058f0e44f3d9186e67"
       }
     },
     "18.0.0": {
@@ -7503,19 +7659,19 @@
         "sha1": "7b8b0cdfb1a9ef3d1d28d6b3622ab2044c881119"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "0cc8ea082b99e18372ea4f96268349e8ecbd7e04"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jre18.0.2+10-macos-aarch64.zip",
       "checksums": {
         "sha1": "bd5f99baf0576714ee49f80eefa7904e33884558"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-macos-aarch64.zip",
-      "checksums": {
-        "sha1": "0cc8ea082b99e18372ea4f96268349e8ecbd7e04"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jre18.0.2.1+1-macos-aarch64.zip",
       "checksums": {
         "sha1": "55e01cf2b345ca296d880a08fc5c806254a416e0"
@@ -7635,16 +7791,28 @@
         "sha1": "4af2b70a4f6e05a189aabed866c57d0dd1207800"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "94adf7e7416aedbd179be2354472a5a32fc04bf6"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jre21.0.13+11-macos-aarch64.zip",
       "checksums": {
         "sha1": "3fd57f472eea959b9e461da8686d55593d2b626a"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-macos-aarch64.zip",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jre21.0.13.0.2+5-macos-aarch64.zip",
       "checksums": {
-        "sha1": "94adf7e7416aedbd179be2354472a5a32fc04bf6"
+        "sha1": "71291e03430b400b73e366b4ec9c48b3dc82fa96"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jre21.0.13.0.3+5-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "f10f60ad7da81e4a5c1cb306ac92450fb1dc8c3d"
       }
     },
     "22.0.0": {
@@ -7731,16 +7899,28 @@
         "sha1": "49313a265ed511be1fe6d54be8fd884d725c237a"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "39d9bbf4d190e2cad96bb8acad089748a1c26555"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jre25.0.5+11-macos-aarch64.zip",
       "checksums": {
         "sha1": "d6082daec9ccd486d183d7b81089b94489a878cc"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-macos-aarch64.zip",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jre25.0.5.0.2+5-macos-aarch64.zip",
       "checksums": {
-        "sha1": "39d9bbf4d190e2cad96bb8acad089748a1c26555"
+        "sha1": "de52ca6ba12139a54c753c67b813043742e1adb4"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jre25.0.5.0.3+5-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "9ec8217897efb23377806067222ae8e3fcd1f470"
       }
     },
     "26.0.0": {
@@ -7761,7 +7941,7 @@
         "sha1": "7a987f7c8791e4d46a6ef847cbf6749a5c9e688f"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jre26.0.2.1+1-macos-aarch64.zip",
       "checksums": {
         "sha1": "a4805cbbad87c098ffba5179dba12d8bece4d5b1"
@@ -7777,6 +7957,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jre27.0.1+11-macos-aarch64.zip",
       "checksums": {
         "sha1": "960fe34bcb2b5bb3d7dde612c9439c7f49e37442"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jre27.0.1.0.2+5-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "6c08e063f6b46646711b2c6ab8ef621c1a52612e"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jre27.0.1.0.3+5-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "051f90db08dca6304ca6e5a5e8f2de464dc73b03"
       }
     }
   },
@@ -7979,16 +8171,34 @@
         "sha1": "f84dc030a50772f3c3f38c1fae4eb5f18fe0d434"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "c07895114519fdf28b929e849395c11aff1d0277"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "efd5c291248f5f668ed8100b6f7b8d8947cae693"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "b7e3717707fd906212c39da49b9a882a355fb908"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jre11.0.16+8-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "9d958f1afbd8eeb1b47af41701d7bec952e6cc05"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "a03ae3fe62e7bda666298fd888b8800d8095e3a0"
       }
     },
     "11.0.17": {
@@ -8013,6 +8223,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "a90279a6c1d16b7c5046539057daea9af6d00cc1"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "e817d21300d9bfaf5d3ea3eb56e121ea66091219"
       }
     },
     "11.0.21": {
@@ -8087,40 +8303,28 @@
         "sha1": "f2718cd04259c5ee5f39e0f1bcbeabd5be470887"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "1f1fca4ccdf8a811617aa47986955026145cb076"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jre11.0.33+11-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "e30d4167c4d86c1538e300e4c881a205c359dbf7"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-macos-aarch64-full.zip",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jre11.0.33.0.2+5-macos-aarch64-full.zip",
       "checksums": {
-        "sha1": "c07895114519fdf28b929e849395c11aff1d0277"
+        "sha1": "76d9ae3fa0110749492c753abc229c06b47a2901"
       }
     },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-macos-aarch64-full.zip",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-macos-aarch64-full.zip",
       "checksums": {
-        "sha1": "b7e3717707fd906212c39da49b9a882a355fb908"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-macos-aarch64-full.zip",
-      "checksums": {
-        "sha1": "a03ae3fe62e7bda666298fd888b8800d8095e3a0"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-macos-aarch64-full.zip",
-      "checksums": {
-        "sha1": "e817d21300d9bfaf5d3ea3eb56e121ea66091219"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-macos-aarch64-full.zip",
-      "checksums": {
-        "sha1": "1f1fca4ccdf8a811617aa47986955026145cb076"
+        "sha1": "9c8474085946010473c79365888a0bec213ea95e"
       }
     },
     "15.0.2": {
@@ -8171,10 +8375,22 @@
         "sha1": "c5a4a9ad2b655a6660fa7d80281c5ac855cf5da4"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "4eb1f7cd54138772d9a25c9d560ecd4115bb4fbf"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "818400476c1cf0c638322a97ecb5df784068f45e"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "1c360457f3532a757a9bd4ddd29476ec0087efa9"
       }
     },
     "17.0.5": {
@@ -8199,6 +8415,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jre17.0.8+7-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "71e2ee6516f08eb1b1b293ca81e91eba42bc28e3"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "f511e017dff2e670e5046a7d7a241b7d79bb4921"
       }
     },
     "17.0.9": {
@@ -8273,34 +8495,28 @@
         "sha1": "98f5e23178cc3ec515ea8210b40caf72a3a5ae36"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "47547536920fe5e50fbe524244969b6fcc580501"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jre17.0.21+11-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "23523411d785e72c9284e6467339c5e9e65889d9"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-macos-aarch64-full.zip",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jre17.0.21.0.2+5-macos-aarch64-full.zip",
       "checksums": {
-        "sha1": "4eb1f7cd54138772d9a25c9d560ecd4115bb4fbf"
+        "sha1": "c145b0cdc702aac9c7d9dade8935e6de96351789"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-macos-aarch64-full.zip",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jre17.0.21.0.3+5-macos-aarch64-full.zip",
       "checksums": {
-        "sha1": "1c360457f3532a757a9bd4ddd29476ec0087efa9"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-macos-aarch64-full.zip",
-      "checksums": {
-        "sha1": "f511e017dff2e670e5046a7d7a241b7d79bb4921"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-macos-aarch64-full.zip",
-      "checksums": {
-        "sha1": "47547536920fe5e50fbe524244969b6fcc580501"
+        "sha1": "36d28702a07b96d31dff7b454e8adf6b837d3c3a"
       }
     },
     "18.0.0": {
@@ -8315,19 +8531,19 @@
         "sha1": "9f2534a58297712bfbf2753585e5bce28aa22403"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "e0ed7b58f386f0b467a05ed6a0f145cac338e964"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jre18.0.2+10-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "32fa06a696b8ddfe0ad001060a368c1aecef54ff"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-macos-aarch64-full.zip",
-      "checksums": {
-        "sha1": "e0ed7b58f386f0b467a05ed6a0f145cac338e964"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jre18.0.2.1+1-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "c69e0722ac4287a9ef94e847e16bb98aa98d07fe"
@@ -8447,16 +8663,28 @@
         "sha1": "36c7eac8b5ce4769e593b8a9310a7b519ebb12c6"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "fbb59a131ce4a6e6f28872ebc3339b3a4de03e54"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jre21.0.13+11-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "d1e412f4975d332b6de3ddcff67082b3b182b763"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-macos-aarch64-full.zip",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jre21.0.13.0.2+5-macos-aarch64-full.zip",
       "checksums": {
-        "sha1": "fbb59a131ce4a6e6f28872ebc3339b3a4de03e54"
+        "sha1": "18c854c348fd9fc7b55b685c10b8356fca90b97c"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jre21.0.13.0.3+5-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "6837fd8705e83ca1baa7d0fd45aecd9c47562d10"
       }
     },
     "22.0.0": {
@@ -8543,16 +8771,28 @@
         "sha1": "2fa3d22a25294dd1bf26bd95f61696425c6d60d2"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "f60ab074cefdc1f0a7732254f39d0088e1a8e70a"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jre25.0.5+11-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "7d180deb2dd32cbb1c39c3bc440ce940edc5aab3"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-macos-aarch64-full.zip",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jre25.0.5.0.2+5-macos-aarch64-full.zip",
       "checksums": {
-        "sha1": "f60ab074cefdc1f0a7732254f39d0088e1a8e70a"
+        "sha1": "11c02be60f86fbe66c42585c695c2de0da508b26"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jre25.0.5.0.3+5-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "05c071e9ff718951ab9d5a40c0d17049ccc3b1fd"
       }
     },
     "26.0.0": {
@@ -8573,7 +8813,7 @@
         "sha1": "3f90653c24de2180faacd784bfab4e779d2b7fa2"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jre26.0.2.1+1-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "36c05513055d4026113e6f90118b2a4b975d41d9"
@@ -8589,6 +8829,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jre27.0.1+11-macos-aarch64-full.zip",
       "checksums": {
         "sha1": "caeb1310761196b171744d432775dc9226ed1e64"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jre27.0.1.0.2+5-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "c0f239ce6083a730dec0487ddbb82ad5d308397b"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jre27.0.1.0.3+5-macos-aarch64-full.zip",
+      "checksums": {
+        "sha1": "1fd110ccc713461ca88054b95659f8b33fc86dfa"
       }
     }
   },
@@ -8779,16 +9031,34 @@
         "sha1": "89d0a4e341fb1321b4b1b9c3459746c844bf4334"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "eaf9fd4c8ab1d6ef3ae218d093ddc7d64a229380"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "e01f0df87e15bc38e5faff89eaddaf93aae83f4e"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "494416296e053db8dd607f8ca7c3596e60b960c5"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "c3570189a58682fd1154e224eef9153706835423"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "25592d47f538ab58a1a02710fd6f17c6a9ae4ff1"
       }
     },
     "11.0.17": {
@@ -8813,6 +9083,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "feffa50df7ce03a7f1dca9add564bca49a8b8028"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "d2ff018c2d6d2a4d9c1716c474a454920cc0e8c3"
       }
     },
     "11.0.21": {
@@ -8887,40 +9163,28 @@
         "sha1": "92f5582e54cfdc25b78be506ce223eb3b8d61cc0"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "c7b3c18b2fe8cc65fe5078fe36c294d41c466d50"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "dc2786e08056dbe781738318bbb414ff2c4b843c"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-macos-aarch64-lite.zip",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-macos-aarch64-lite.zip",
       "checksums": {
-        "sha1": "eaf9fd4c8ab1d6ef3ae218d093ddc7d64a229380"
+        "sha1": "69988d4066c6e102735e0d4ba116591f533dc91a"
       }
     },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-macos-aarch64-lite.zip",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-macos-aarch64-lite.zip",
       "checksums": {
-        "sha1": "494416296e053db8dd607f8ca7c3596e60b960c5"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-macos-aarch64-lite.zip",
-      "checksums": {
-        "sha1": "25592d47f538ab58a1a02710fd6f17c6a9ae4ff1"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-macos-aarch64-lite.zip",
-      "checksums": {
-        "sha1": "d2ff018c2d6d2a4d9c1716c474a454920cc0e8c3"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-macos-aarch64-lite.zip",
-      "checksums": {
-        "sha1": "c7b3c18b2fe8cc65fe5078fe36c294d41c466d50"
+        "sha1": "a8c841212cb7587ef1c47c967adddd5d419c7605"
       }
     },
     "15.0.2": {
@@ -8971,10 +9235,22 @@
         "sha1": "b7a3eaebc57a32ac8381146d0eec0c9370c861db"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "60de537a6153f580dd9da506c8a0bd1022e99c78"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "5132c5717dd0670953f4898bf364f151a06e4689"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "30f2695e736298bcacc3aa44cc8c1d6a381e7df4"
       }
     },
     "17.0.5": {
@@ -8999,6 +9275,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "3ca8c8f6dca7faac55b175e709cb8e84349efae3"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "2583a0c26db30fca018c0bca3806fb99676bd95d"
       }
     },
     "17.0.9": {
@@ -9073,34 +9355,28 @@
         "sha1": "896f0c34376efd568b1be6ce1021641aa6b0ddec"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "1207ff3077d76e3a9c71f742c3c7c060e10b2b24"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "2e612f7031fb70ebf39c6358a8a52a5375fc866d"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-macos-aarch64-lite.zip",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jdk17.0.21.0.2+5-macos-aarch64-lite.zip",
       "checksums": {
-        "sha1": "60de537a6153f580dd9da506c8a0bd1022e99c78"
+        "sha1": "07fd78d1a40b1ce391860af5e453f495d6f67be5"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-macos-aarch64-lite.zip",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jdk17.0.21.0.3+5-macos-aarch64-lite.zip",
       "checksums": {
-        "sha1": "30f2695e736298bcacc3aa44cc8c1d6a381e7df4"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-macos-aarch64-lite.zip",
-      "checksums": {
-        "sha1": "2583a0c26db30fca018c0bca3806fb99676bd95d"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-macos-aarch64-lite.zip",
-      "checksums": {
-        "sha1": "1207ff3077d76e3a9c71f742c3c7c060e10b2b24"
+        "sha1": "18c0dcdc92797dd2c9c0229b26599a7602cecd26"
       }
     },
     "18.0.0": {
@@ -9115,19 +9391,19 @@
         "sha1": "3aeea125dcf5be8633fc6fb3d65b6cd78842803e"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "8a72f6a931b55bf3446939e36bb35264018927d3"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "995dd932d8478ad90a97b4cdeb2eaad8e7bb2e3a"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-macos-aarch64-lite.zip",
-      "checksums": {
-        "sha1": "8a72f6a931b55bf3446939e36bb35264018927d3"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "d4aa0c52c8e58bc6ce6957e5416d653bc2de4f1d"
@@ -9247,16 +9523,28 @@
         "sha1": "ac80ebf9b15200559359220d7780ff6a7e8e8216"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "3ce5b83391dc4b78b18f71a00e0235ce6911373a"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "0e60646f802e0b923314ccdfef4792e4d34fefe0"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-macos-aarch64-lite.zip",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jdk21.0.13.0.2+5-macos-aarch64-lite.zip",
       "checksums": {
-        "sha1": "3ce5b83391dc4b78b18f71a00e0235ce6911373a"
+        "sha1": "be742d03628878ca20b7358838abc964b3e92b7e"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "6e60cb42ddf7dcf72e17996c3568f6b12adf486c"
       }
     },
     "22.0.0": {
@@ -9343,16 +9631,28 @@
         "sha1": "62aa7e51446e7747ede05f96c2b5d6e97ac0f166"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "5f714ff51331f335a2d483f68137b54e9a163dbe"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jdk25.0.5+11-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "353070d232fad47f6eadcf7f6758288f1c69e98e"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-macos-aarch64-lite.zip",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jdk25.0.5.0.2+5-macos-aarch64-lite.zip",
       "checksums": {
-        "sha1": "5f714ff51331f335a2d483f68137b54e9a163dbe"
+        "sha1": "61ca6dfb876c0d0f2f40c3547092299b0c6c1bc3"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jdk25.0.5.0.3+5-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "dea79387c1aa75a2f3a0cf8e1a93f4f27639371c"
       }
     },
     "26.0.0": {
@@ -9373,7 +9673,7 @@
         "sha1": "a9bb418e621f71ba64301981c50d742d3f95dd6f"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jdk26.0.2.1+1-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "d59414b6c8ab36805e716dbb3afdf0729ede64b3"
@@ -9389,6 +9689,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jdk27.0.1+11-macos-aarch64-lite.zip",
       "checksums": {
         "sha1": "300e84f0271d69f78103bea4cf8d63f13e172965"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jdk27.0.1.0.2+5-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "7c6525459ea6ff34ecc3a2d585ae397970798bd2"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-macos-aarch64-lite.zip",
+      "checksums": {
+        "sha1": "101a5bcdb8c0cb6f42ebd1e8ea2b7318a593cce9"
       }
     }
   },
@@ -10509,6 +10821,12 @@
         "sha256": "05161b4b839beafcb361a49c8bfda07f06923562d91c2271dbf511ae48d07314"
       }
     },
+    "17.0.0": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-17.35.1-macOS-aarch64.tar.gz",
+      "checksums": {
+        "sha256": "2b37839ed6997bf0082446264b4cd898a0417dfb4730abf42808071f47462c40"
+      }
+    },
     "17.0.1.12.1": {
       "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.1.12.1-macOS-aarch64.tar.gz",
       "checksums": {
@@ -10645,12 +10963,6 @@
       "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.0.2-macos-aarch64.tar.gz",
       "checksums": {
         "sha256": "6bc0241428f9485a3aa8fcf606c8395c24a5ff0f6d5e9dae2c70eae410a3f5f3"
-      }
-    },
-    "17.35.1": {
-      "url": "https://aka.ms/download-jdk/microsoft-jdk-17.35.1-macOS-aarch64.tar.gz",
-      "checksums": {
-        "sha256": "2b37839ed6997bf0082446264b4cd898a0417dfb4730abf42808071f47462c40"
       }
     },
     "21.0.0": {

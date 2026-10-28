@@ -1379,6 +1379,12 @@
       "checksums": {
         "sha256": "e4ec5c7276290c7bde0baecba9a29be4962f5388684296406a9799d465936087"
       }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "5ddacf925244a00b60cac828b61ff2f67a68cd32b8dfe5cee1405e333b4589e5"
+      }
     }
   },
   "adoptium-debugimage": {
@@ -2100,6 +2106,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-debugimage_aarch64_linux_hotspot_27_35.tar.gz",
       "checksums": {
         "sha256": "80e9ec242122c1ec519aa4f37a32f4a197f83982400028be5ecad82cb3d6bc0b"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "79dabfb30cf85fe0900ed60117168fba44f42aa3835275b53e61d448cb11fb63"
       }
     }
   },
@@ -2889,6 +2901,12 @@
       "checksums": {
         "sha256": "a41b54098373f1ca8f75ee344db19b93ac39eca6c529c3ee9dc50f4b3e7857de"
       }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "d77286f01dc2482e483a20c9c80591e3d4c38b27a6e035268a4f213a8e8bd1e8"
+      }
     }
   },
   "adoptium-testimage": {
@@ -3400,6 +3418,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-testimage_aarch64_linux_hotspot_27_35.tar.gz",
       "checksums": {
         "sha256": "983a42f0e7bf4456bc4a9932b8db23f3cf2e201a1da2880d10fdfb6edd2c7439"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "67eb82eeaad613a6ba40e56fa08cebc8f7c8dcb0ff1c6488f2d8f3f782b47605"
       }
     }
   },
@@ -5610,6 +5634,12 @@
         "sha256": "1d09a9d591f97fe22fb089ea382d46c6be17c7b32e2bd18ebfcc1a17a0948d91"
       }
     },
+    "21.0.13.0": {
+      "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.13.0/ibm-semeru-open-jdk_aarch64_linux_21.0.13.0.tar.gz",
+      "checksums": {
+        "sha256": "c8730b3746f3c2e5eb5ce7cc4415d4b86260cf7e9b12de469607c0c9c3c32dfb"
+      }
+    },
     "22.0.1": {
       "url": "https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_aarch64_linux_22.0.1_8_openj9-0.45.0.tar.gz",
       "checksums": {
@@ -6198,6 +6228,12 @@
       "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.15/ibm-semeru-open-jdk_aarch64_linux_21.0.12.15.tar.gz",
       "checksums": {
         "sha256": "1d09a9d591f97fe22fb089ea382d46c6be17c7b32e2bd18ebfcc1a17a0948d91"
+      }
+    },
+    "21.0.13.0": {
+      "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.13.0/ibm-semeru-open-jdk_aarch64_linux_21.0.13.0.tar.gz",
+      "checksums": {
+        "sha256": "c8730b3746f3c2e5eb5ce7cc4415d4b86260cf7e9b12de469607c0c9c3c32dfb"
       }
     }
   },
@@ -7612,6 +7648,12 @@
         "sha1": "9ad19b36a8135cea42f1d5881ed8661ff6098a71"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "f6b5c300595daf303738bf1c75b647a7c85280b0"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-aarch64.tar.gz",
       "checksums": {
@@ -7642,16 +7684,34 @@
         "sha1": "724f59aa9241be471108b893bcda23a3a0cec95d"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "04eee37f91432a2626edd8691643d01d2a474205"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "cf0818174d31164d7c37223168c2ac70f6f04334"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "0d59e453fe69f121376faf459ccd22f9e8313f14"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "99244fcce65185948180404c6ec938db4fea5d3f"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "af376fbccfe9259f79e22391f718707b64ec7894"
       }
     },
     "11.0.17": {
@@ -7676,6 +7736,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "447b95ef13187398a408495f6ac8a10270c22ccc"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "ccb5a36929ac0e4dc64da304aff66f10da870e51"
       }
     },
     "11.0.21": {
@@ -7750,46 +7816,28 @@
         "sha1": "968f2ff19a6fee3468944b3dcbaa24d127365252"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "03c2fff293128a27735ce4a07eed64c673d8ac71"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "fc5c8c8ad87f8c8b09bde7439f2b77284cef1dbb"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-aarch64.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-linux-aarch64.tar.gz",
       "checksums": {
-        "sha1": "f6b5c300595daf303738bf1c75b647a7c85280b0"
+        "sha1": "e8acecb1aec0385d64a67f79d43df91727034115"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-linux-aarch64.tar.gz",
       "checksums": {
-        "sha1": "04eee37f91432a2626edd8691643d01d2a474205"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "0d59e453fe69f121376faf459ccd22f9e8313f14"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "af376fbccfe9259f79e22391f718707b64ec7894"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "ccb5a36929ac0e4dc64da304aff66f10da870e51"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "03c2fff293128a27735ce4a07eed64c673d8ac71"
+        "sha1": "bf360aa865a38071f16a6ccb61071ee12a80ca46"
       }
     },
     "12.0.0": {
@@ -7906,10 +7954,22 @@
         "sha1": "de2bd37222b40b18a1985ea06652426858472d8e"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "2996f0db4365ef069685e4ec3268291d16c296f4"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "a2c58e229f908f33b2f4fca154fe43ed2bc99600"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "39f08bbe6e89efa2a9c07e72876f44b505e593ed"
       }
     },
     "17.0.5": {
@@ -7934,6 +7994,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "e709176d56b8fdf25fe0ad5590b02a546a030c14"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "46b16b9d3a17db45001b6cfb9a39056e6ef86c9e"
       }
     },
     "17.0.9": {
@@ -8008,34 +8074,28 @@
         "sha1": "6f1b75a819f51f47d96c6a8bb110fa9580e5ff25"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "e0570875a5a110147316619069b0ff88b1458bd5"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "e634c6453a1b091b23aac6fdcab773cf1e43d314"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64.tar.gz",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jdk17.0.21.0.2+5-linux-aarch64.tar.gz",
       "checksums": {
-        "sha1": "2996f0db4365ef069685e4ec3268291d16c296f4"
+        "sha1": "8ced416c8cedc723b62c7dc7d098ccd2df9ac1b6"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-aarch64.tar.gz",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jdk17.0.21.0.3+5-linux-aarch64.tar.gz",
       "checksums": {
-        "sha1": "39f08bbe6e89efa2a9c07e72876f44b505e593ed"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "46b16b9d3a17db45001b6cfb9a39056e6ef86c9e"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "e0570875a5a110147316619069b0ff88b1458bd5"
+        "sha1": "f295ea57bf0876833029fd6490ed9d4b6e9ae08f"
       }
     },
     "18.0.0": {
@@ -8050,19 +8110,19 @@
         "sha1": "c5122084959f81f841919a8aaa3fb823f3db06c2"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "d3d1b44dd8ebf9f78b2b9e6dcc8a69a6a27b5d31"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "61350b1932d7df9435076d6f88a31d791cf4187f"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "d3d1b44dd8ebf9f78b2b9e6dcc8a69a6a27b5d31"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "d4d95b872f128a74fa38df0eb317db92d79e6d5a"
@@ -8182,16 +8242,28 @@
         "sha1": "6e11b612b1c8bc44f4b3b6010c9117a0cd45fc4c"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "75c94bdf89d51c3a7e7836f25bf1f64a903bd3b3"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "fce487017a8168778dfe41f1abf42075cb8cc263"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-aarch64.tar.gz",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jdk21.0.13.0.2+5-linux-aarch64.tar.gz",
       "checksums": {
-        "sha1": "75c94bdf89d51c3a7e7836f25bf1f64a903bd3b3"
+        "sha1": "fc2ccc57e38a546b24ad4fa5b8d93adb0c8e378f"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "173230cff023b791e2bbbf7743174d29cf52bc3c"
       }
     },
     "22.0.0": {
@@ -8278,16 +8350,28 @@
         "sha1": "d49723b31fe8758e67d09f6d4468da99fddd534d"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "bf7f3596ed67f60b55b0c7f10b99b14493c535db"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jdk25.0.5+11-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "adf930fde69fa2eead59cf1938ecc7df2f9241bf"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-linux-aarch64.tar.gz",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jdk25.0.5.0.2+5-linux-aarch64.tar.gz",
       "checksums": {
-        "sha1": "bf7f3596ed67f60b55b0c7f10b99b14493c535db"
+        "sha1": "3e71231527af6c12d49cd8057e8157ecee92529f"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jdk25.0.5.0.3+5-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "c359a09a9b69386af7f6acb5da84a6b4112f8235"
       }
     },
     "26.0.0": {
@@ -8308,7 +8392,7 @@
         "sha1": "d971930a4c851b65b09e789f58b6f32a595ad1b7"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jdk26.0.2.1+1-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "e6ef1ec7ca06df3a2e96b9070ba86e02baa67076"
@@ -8324,6 +8408,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jdk27.0.1+11-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "462c880696a1f41387fa92d42d6474955c8dbbfa"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jdk27.0.1.0.2+5-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "2c70adba9c83c445af409aa195cd1dd15ee0e960"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "cab6a95d7ec596c733345ba8c205c010439c3690"
       }
     }
   },
@@ -8394,16 +8490,28 @@
         "sha1": "78cbb6a1a5f37e8470c243f25cddb9b2eac25051"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+2/bellsoft-jdk17.0.20.1+2-linux-aarch64-crac.tar.gz",
+      "checksums": {
+        "sha1": "83a2cfd9dcf28837c5b56855046a687d599dda44"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+12/bellsoft-jdk17.0.21+12-linux-aarch64-crac.tar.gz",
       "checksums": {
         "sha1": "08c5f0f59eebeb49aab3c9f1082d52eff57070f7"
       }
     },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+2/bellsoft-jdk17.0.20.1+2-linux-aarch64-crac.tar.gz",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+6/bellsoft-jdk17.0.21.0.2+6-linux-aarch64-crac.tar.gz",
       "checksums": {
-        "sha1": "83a2cfd9dcf28837c5b56855046a687d599dda44"
+        "sha1": "b6d1d0742fae3bc7b48038352975288c681ef5bb"
+      }
+    },
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+6/bellsoft-jdk17.0.21.0.3+6-linux-aarch64-crac.tar.gz",
+      "checksums": {
+        "sha1": "c066dc7f5940c8fd768943efdf23798e109abc41"
       }
     },
     "21.0.1": {
@@ -8472,16 +8580,28 @@
         "sha1": "1beec119575a1d1d1422a7191083d7fcb9693e7b"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+2/bellsoft-jdk21.0.12.1+2-linux-aarch64-crac.tar.gz",
+      "checksums": {
+        "sha1": "faedee74b3a4bfffefb4cacfc15dab6ad8d40c8f"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+12/bellsoft-jdk21.0.13+12-linux-aarch64-crac.tar.gz",
       "checksums": {
         "sha1": "1666f5857bb67a626089de0e3d87c38587993a1a"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+2/bellsoft-jdk21.0.12.1+2-linux-aarch64-crac.tar.gz",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+6/bellsoft-jdk21.0.13.0.2+6-linux-aarch64-crac.tar.gz",
       "checksums": {
-        "sha1": "faedee74b3a4bfffefb4cacfc15dab6ad8d40c8f"
+        "sha1": "3fbe81201b40412c4cf593531eed2103a4546ce0"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+6/bellsoft-jdk21.0.13.0.3+6-linux-aarch64-crac.tar.gz",
+      "checksums": {
+        "sha1": "e4e50e0d3776c2ec085c83586fb6cf99f7ea7c67"
       }
     }
   },
@@ -8496,6 +8616,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jdk11.0.9+12-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "76fb171c7c75cb042ad01c6adba67564a7ece428"
+      }
+    },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "406b127d452fc8cee3e73a9426313a87daa28132"
       }
     },
     "11.0.10": {
@@ -8528,16 +8654,34 @@
         "sha1": "69bb2641ec88e68e3a5e3fa3332a563257bfb6f3"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "d148ac2f7d903e9bac90548ee91b36a8ed4457ed"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "572d483081fa43f7f669774184d0190070245fb2"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "16f631bffe4eeaddc9d53fb7dfcb93ece9d3a681"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "a846d908799959e77f4a85f47cd5e65e9a709e0f"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "1f5d8074ae54e6dbdf2d13f2b8da5e87020e794e"
       }
     },
     "11.0.17": {
@@ -8562,6 +8706,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "1e82b1755cc61a6af083e67c42101d78ab56d575"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "6ee7c701730215851574faa7959ac49122fffaf5"
       }
     },
     "11.0.21": {
@@ -8636,46 +8786,28 @@
         "sha1": "65d7ad7a46bef2d4843626fe169152256d956eb4"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "ee2cd285cd6907421429b4e1eb4c54161903f73c"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "6f3045b80c5f81884686dfb1489fe7306e6d8eda"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-aarch64-full.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-linux-aarch64-full.tar.gz",
       "checksums": {
-        "sha1": "406b127d452fc8cee3e73a9426313a87daa28132"
+        "sha1": "35578bfc8e2882d3c5839e48c44d32997d22ecd7"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64-full.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-linux-aarch64-full.tar.gz",
       "checksums": {
-        "sha1": "d148ac2f7d903e9bac90548ee91b36a8ed4457ed"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "16f631bffe4eeaddc9d53fb7dfcb93ece9d3a681"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "1f5d8074ae54e6dbdf2d13f2b8da5e87020e794e"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "6ee7c701730215851574faa7959ac49122fffaf5"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "ee2cd285cd6907421429b4e1eb4c54161903f73c"
+        "sha1": "f377280eda65cfcf13f7c964e850aac247ca75b5"
       }
     },
     "13.0.2": {
@@ -8762,10 +8894,22 @@
         "sha1": "4126adac423a394b39a9da98b138e0ffdea9f088"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "b45082d7582034df8493d2c8f4ae5601d2fe1c88"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "7e0f8f4ff46b50d59a2c36f3502591974fac5a45"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "3b2d4229b11ea33739f4faf8eb97c027a3680c2d"
       }
     },
     "17.0.5": {
@@ -8790,6 +8934,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "d930246ae35c07ca2aa0ec5d22462860b447925c"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "89259ec143807b214ad2dcf7eb457cad9218615f"
       }
     },
     "17.0.9": {
@@ -8864,34 +9014,28 @@
         "sha1": "15ba548c7130df102f6caff528a3e16e2a6a6679"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "150f006bc8511089330a03f99f16e5aeb1efe33d"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "84f4d8f4d7a2370e0d79f2894917c34c365eda41"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64-full.tar.gz",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jdk17.0.21.0.2+5-linux-aarch64-full.tar.gz",
       "checksums": {
-        "sha1": "b45082d7582034df8493d2c8f4ae5601d2fe1c88"
+        "sha1": "704057fcbe7743d2f2a503342b0a1ffe4d34e5bf"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-aarch64-full.tar.gz",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jdk17.0.21.0.3+5-linux-aarch64-full.tar.gz",
       "checksums": {
-        "sha1": "3b2d4229b11ea33739f4faf8eb97c027a3680c2d"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "89259ec143807b214ad2dcf7eb457cad9218615f"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "150f006bc8511089330a03f99f16e5aeb1efe33d"
+        "sha1": "a7867d4353dc0b0086a6fc042cd554b670ca319e"
       }
     },
     "18.0.0": {
@@ -8906,19 +9050,19 @@
         "sha1": "1869768ae6fcede66c8fe82b260be889bce37ea0"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "f4f0f2d6c9cee1b853fd6614449b2d87c80b1fda"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "69412a6df6c1fec520d7a57caafa95b6d229eadb"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "f4f0f2d6c9cee1b853fd6614449b2d87c80b1fda"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "f995c0dcc685a89c1b20152c4eaa64d0c7d0fc08"
@@ -9038,16 +9182,28 @@
         "sha1": "69c313b4f372ccb6fef5b931a29d2183847c1811"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "a8dc25a58b80e62c7161f0b0d2b2b3b870af0eb5"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "94ee10f3e2dbf817e73534b61b8a21ea52f93dff"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-aarch64-full.tar.gz",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jdk21.0.13.0.2+5-linux-aarch64-full.tar.gz",
       "checksums": {
-        "sha1": "a8dc25a58b80e62c7161f0b0d2b2b3b870af0eb5"
+        "sha1": "5315d58f3cbe1079c7925a921e0e91050a31d634"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "98503663751801c9cb1fa90a8fd99b1c5691e2e1"
       }
     },
     "22.0.0": {
@@ -9134,16 +9290,28 @@
         "sha1": "ef93c77ea76cdc3a51506c3645cba93ef6ee6111"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "3fe6debbb76bc94210d86745e3bbff01f755efa5"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jdk25.0.5+11-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "da26e805107fe0e39b7d1a3f54b8d4e7c44a2109"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-linux-aarch64-full.tar.gz",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jdk25.0.5.0.2+5-linux-aarch64-full.tar.gz",
       "checksums": {
-        "sha1": "3fe6debbb76bc94210d86745e3bbff01f755efa5"
+        "sha1": "a2845ec4b13ac4c7d2691f8aabd9779418d9e0be"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jdk25.0.5.0.3+5-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "536ba5a40186697aa4309b37659dbfd1720b0cc2"
       }
     },
     "26.0.0": {
@@ -9164,7 +9332,7 @@
         "sha1": "4f128c28216ba17f72ac3f20eac92c3ee218c9bd"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jdk26.0.2.1+1-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "b8c54a09b2d3b735cf491564ac0619c64d7f2c40"
@@ -9180,6 +9348,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jdk27.0.1+11-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "aeb1883c865443af20d99c03aba78fe871798e8e"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jdk27.0.1.0.2+5-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "ecc7fdb01e4f02c352705c38df39e2c15395af3f"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "51829b4a777e63c0498a0f34cb2509c2c30954e3"
       }
     }
   },
@@ -9448,6 +9628,12 @@
         "sha1": "d2e62c8dee8bd03ebdfd1d0cee34ddc32efb49e6"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "dfb7d882672f3150d6281c9f223dfefc3ca4cf4c"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-linux-aarch64.tar.gz",
       "checksums": {
@@ -9478,16 +9664,34 @@
         "sha1": "2d4f4a17f8a972b61e991ef1324f4f5f4cf8ee3d"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "0cfaa2c9a2a0ef3cc46cc415c009b4c9927bd42f"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "42c02db0d8353d889f3e87236c59ec763c528f86"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "55cefb7bb1c6da78f0add0acd27a8d7f94f5d9ae"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jre11.0.16+8-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "800c53c224e55f5176e900563c80012c00963310"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "6e851d5a525b9e05ec1ec5e0172554e7e6d2f19b"
       }
     },
     "11.0.17": {
@@ -9512,6 +9716,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "7174e6f502d028366dc4db30b8417892e7a13442"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "9a12ddc73fee409d2989c1d08b150526f04e35c5"
       }
     },
     "11.0.21": {
@@ -9586,46 +9796,28 @@
         "sha1": "ac73f59774844956ca8c638e61d26528548e8c2b"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "49c542e85eae7ab297d3d82117a031b0f9bbc444"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jre11.0.33+11-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "b1fbd82439f1fc58cb09d05c54a73bbee8c1a6b2"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-aarch64.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jre11.0.33.0.2+5-linux-aarch64.tar.gz",
       "checksums": {
-        "sha1": "dfb7d882672f3150d6281c9f223dfefc3ca4cf4c"
+        "sha1": "d486b30732c24560a39a22f2d17afa7fa75c0d11"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-aarch64.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-linux-aarch64.tar.gz",
       "checksums": {
-        "sha1": "0cfaa2c9a2a0ef3cc46cc415c009b4c9927bd42f"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "55cefb7bb1c6da78f0add0acd27a8d7f94f5d9ae"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "6e851d5a525b9e05ec1ec5e0172554e7e6d2f19b"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "9a12ddc73fee409d2989c1d08b150526f04e35c5"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "49c542e85eae7ab297d3d82117a031b0f9bbc444"
+        "sha1": "c9bdd2933fc543637f8c12d4058ffcc4ed9444c8"
       }
     },
     "13.0.1": {
@@ -9718,10 +9910,22 @@
         "sha1": "5edef2a6d9a4a16d402ce28e04ef0bcad5573022"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "5d9b3ea82384b9f7cbd89fb446d5f3f7990759d3"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "e845efc48f97cd52d0b6235e686181ff76ea409f"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "d856ef184f5d3378bf99456ccfc86eb4b86927f2"
       }
     },
     "17.0.5": {
@@ -9746,6 +9950,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jre17.0.8+7-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "f6baacb89575dbce31019e4a9a7660337179bc51"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "8a10f1d07c0e672c888327634c666b6da57046c5"
       }
     },
     "17.0.9": {
@@ -9820,34 +10030,28 @@
         "sha1": "f50c2e9f03408ceb2374bb89b0aa9746b4e1c727"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "ba7301f1d35979cd1dd50f3e754e1c4a40f0f5a3"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jre17.0.21+11-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "b6e29ab9d49c136b1ebb7d3294fd397a80198dfd"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-aarch64.tar.gz",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jre17.0.21.0.2+5-linux-aarch64.tar.gz",
       "checksums": {
-        "sha1": "5d9b3ea82384b9f7cbd89fb446d5f3f7990759d3"
+        "sha1": "8834568b84de5fb03b495966c4595187cc2bda93"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-linux-aarch64.tar.gz",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jre17.0.21.0.3+5-linux-aarch64.tar.gz",
       "checksums": {
-        "sha1": "d856ef184f5d3378bf99456ccfc86eb4b86927f2"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "8a10f1d07c0e672c888327634c666b6da57046c5"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "ba7301f1d35979cd1dd50f3e754e1c4a40f0f5a3"
+        "sha1": "947629269e336914a46ff1b68b61c543eaff3306"
       }
     },
     "18.0.0": {
@@ -9862,19 +10066,19 @@
         "sha1": "7b7f430ec282a3cc284e5ec60dace83bf7e7904d"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "616280d71ec73aa18e1e98a95dda44815a5009ff"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jre18.0.2+10-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "fd6f797a5e5e4e22d44190b38c76aa595ea9983b"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha1": "616280d71ec73aa18e1e98a95dda44815a5009ff"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jre18.0.2.1+1-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "1f8bc4778b117fa9f6e8addb22940fc74382e35f"
@@ -9994,16 +10198,28 @@
         "sha1": "71fd92081ac9febccf45aeab0c38a3a55add729c"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "d10a8f43814add863434060a4bb482a49a040a9b"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jre21.0.13+11-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "447c6793a4ffc1617264ea2b37c229e21bffadb4"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-linux-aarch64.tar.gz",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jre21.0.13.0.2+5-linux-aarch64.tar.gz",
       "checksums": {
-        "sha1": "d10a8f43814add863434060a4bb482a49a040a9b"
+        "sha1": "6a6acc4a4bf88bd19307c1b03c4b2fa1d2cda4ae"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jre21.0.13.0.3+5-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "c68444e42c561c5f52b4564ee197755c8096325e"
       }
     },
     "22.0.0": {
@@ -10090,16 +10306,28 @@
         "sha1": "a4bb578f64bbaad1f287226003dec8d3669b0753"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "a1d88cd423d55f75fd5b3ae7044e51d4cd6027db"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jre25.0.5+11-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "b9be7dfbd07c6da2b03113d179fc0a5ad7938374"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-linux-aarch64.tar.gz",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jre25.0.5.0.2+5-linux-aarch64.tar.gz",
       "checksums": {
-        "sha1": "a1d88cd423d55f75fd5b3ae7044e51d4cd6027db"
+        "sha1": "81c832e1719b8f1cd9cb0476c4f582ef77a29419"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jre25.0.5.0.3+5-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "1ba282906a9a5c9a682b678cb4c9af8b0b06b33a"
       }
     },
     "26.0.0": {
@@ -10120,7 +10348,7 @@
         "sha1": "bdfa197c7cecfe66f299ef4e3c6e18a5eff2fb50"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jre26.0.2.1+1-linux-aarch64.tar.gz",
       "checksums": {
         "sha1": "6bc3e687654a8ee809ae2648b6dfb43f89a699b2"
@@ -10137,6 +10365,18 @@
       "checksums": {
         "sha1": "d4df33b460305fc1ab3117e1652875bf6851163a"
       }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jre27.0.1.0.2+5-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "dcae3d8f6da48dcec70823228f84e754e4122dc9"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jre27.0.1.0.3+5-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha1": "012f99319ea4227d25099bddeeb0af5403d5eb42"
+      }
     }
   },
   "liberica-jre-full": {
@@ -10150,6 +10390,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9+12/bellsoft-jre11.0.9+12-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "4f5ab87d38bc968ba4cede096b783220d8c1faca"
+      }
+    },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "6e000796e44d5bf19d7b985ad38a663645dc2c42"
       }
     },
     "11.0.10": {
@@ -10182,16 +10428,34 @@
         "sha1": "809dbb1bab27d709ed64419d24a6bfc8ca5569c5"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "455e238053df76a904fa1f585f53bb7604bc3d22"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "410b5c1242d175522c910c535a8ce82d41a12cea"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "b4f28efbb01b82d520bec30364506537bcdab302"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jre11.0.16+8-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "878fab27da1e29d19c87d67d5333478308a9b060"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "3db6c67d23d03e345807db4af02a99330291d12b"
       }
     },
     "11.0.17": {
@@ -10216,6 +10480,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "6fd39ad6ea5e685573fe3e2168fbb4103b582f94"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "1d48e4d5907548a791d213a8f9c02856b8b58287"
       }
     },
     "11.0.21": {
@@ -10290,46 +10560,28 @@
         "sha1": "7552cadb625a6f5ce5ca6a62ef40848fbdcbf2ae"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "5b94ecdfb4abf76935c1da4741e640021ad8aa06"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jre11.0.33+11-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "cdbfcc9aa838bb92d374a9625a9f3344453aa4c1"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-linux-aarch64-full.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jre11.0.33.0.2+5-linux-aarch64-full.tar.gz",
       "checksums": {
-        "sha1": "6e000796e44d5bf19d7b985ad38a663645dc2c42"
+        "sha1": "5ff07155e04fdfe22656240f05e0da783c359873"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-linux-aarch64-full.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-linux-aarch64-full.tar.gz",
       "checksums": {
-        "sha1": "455e238053df76a904fa1f585f53bb7604bc3d22"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "b4f28efbb01b82d520bec30364506537bcdab302"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "3db6c67d23d03e345807db4af02a99330291d12b"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "1d48e4d5907548a791d213a8f9c02856b8b58287"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "5b94ecdfb4abf76935c1da4741e640021ad8aa06"
+        "sha1": "b824d8f7943383763a7be97ba826e6940362d763"
       }
     },
     "13.0.2": {
@@ -10416,10 +10668,22 @@
         "sha1": "9c97c21ad361c83006e250d42565c1071f12a149"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "cc1877fb7dcc8c9d7044a118591bb24fac83e533"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "a7f7212ed727299cc4a268b8106c931c77a0c8aa"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "944d0d9337ade46d2bc44f380f0c852a513c6515"
       }
     },
     "17.0.5": {
@@ -10444,6 +10708,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jre17.0.8+7-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "38b0cd74bc1a37bda839154d926f567482b2ea15"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "7cb521c361f9c10fe54f62d28c01e589bbb77d84"
       }
     },
     "17.0.9": {
@@ -10518,34 +10788,28 @@
         "sha1": "ab1eb5d68ff3b468d18929b94462fc6f2de88f28"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "af889b95cf59ebaf538730b9fd8ed43dd487e115"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jre17.0.21+11-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "252954f9c067a22d71e2ba3e05c4463a44637124"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-linux-aarch64-full.tar.gz",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jre17.0.21.0.2+5-linux-aarch64-full.tar.gz",
       "checksums": {
-        "sha1": "cc1877fb7dcc8c9d7044a118591bb24fac83e533"
+        "sha1": "f1fabb86f9f3bb9bf8064ffc4e189a46a9f96c1e"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-linux-aarch64-full.tar.gz",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jre17.0.21.0.3+5-linux-aarch64-full.tar.gz",
       "checksums": {
-        "sha1": "944d0d9337ade46d2bc44f380f0c852a513c6515"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "7cb521c361f9c10fe54f62d28c01e589bbb77d84"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "af889b95cf59ebaf538730b9fd8ed43dd487e115"
+        "sha1": "655835b76163aa153ea49f8cb60d13984c690420"
       }
     },
     "18.0.0": {
@@ -10560,19 +10824,19 @@
         "sha1": "0659a9522535c2626c57a897ddaf26acb0314709"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "494c993fabc054295c7f40fee576460c0c3fcf4c"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jre18.0.2+10-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "2bf5db67a4bf72dbb36e073b1d0e419179f65cb6"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-linux-aarch64-full.tar.gz",
-      "checksums": {
-        "sha1": "494c993fabc054295c7f40fee576460c0c3fcf4c"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jre18.0.2.1+1-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "366041367e848e147c7ad51ad5ca1f365c6048c2"
@@ -10692,16 +10956,28 @@
         "sha1": "1e3689101c074e7072b65ea210e2ee8f666817af"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "1695b2b9b9c7124d6d5c4d5dcf41df77cee5a9a9"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jre21.0.13+11-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "b04df760eb0f3756ea88f4d195aa81e3acbf7530"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-linux-aarch64-full.tar.gz",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jre21.0.13.0.2+5-linux-aarch64-full.tar.gz",
       "checksums": {
-        "sha1": "1695b2b9b9c7124d6d5c4d5dcf41df77cee5a9a9"
+        "sha1": "acbaacc65a914d03e65c146855f0ecd5c3cc6617"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jre21.0.13.0.3+5-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "ae6b947a6c649ad30d5fe0251bb8c530c9f0db15"
       }
     },
     "22.0.0": {
@@ -10788,16 +11064,28 @@
         "sha1": "eb94ad1653b6ba7c92343b0aa8e42204c69af11c"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "5b2232eaa8749d7dfd0c4e9e78e31bd7e70ee090"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jre25.0.5+11-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "bde54908014c7341272ca556684be6d50bd23efa"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jre25.0.4.1+1-linux-aarch64-full.tar.gz",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jre25.0.5.0.2+5-linux-aarch64-full.tar.gz",
       "checksums": {
-        "sha1": "5b2232eaa8749d7dfd0c4e9e78e31bd7e70ee090"
+        "sha1": "f52b7a8ae950b65d8816e75bc0db376bfe871789"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jre25.0.5.0.3+5-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "16ed6ab6149b76acb5229b0611c37ce2ae7e6f4a"
       }
     },
     "26.0.0": {
@@ -10818,7 +11106,7 @@
         "sha1": "88013080cce892ed18034a90df22d0900f3ae1c9"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jre26.0.2.1+1-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "83c5e5dc6d9e5e91624102f45a957086fe4b7e13"
@@ -10834,6 +11122,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jre27.0.1+11-linux-aarch64-full.tar.gz",
       "checksums": {
         "sha1": "cfb001fb6dc24d0e4747356412883de8a7b96fba"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jre27.0.1.0.2+5-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "e4fb1433c53bc1db3599a512d54bbf9851c5da94"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jre27.0.1.0.3+5-linux-aarch64-full.tar.gz",
+      "checksums": {
+        "sha1": "6da9541a273e4c60c904d7694de878b83e4d2fe2"
       }
     }
   },
@@ -11054,6 +11354,12 @@
         "sha1": "aa3ba06c6630f19033ca3f2b47084babb53c8285"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "d2f209627236e9f9d0dec7c81dc4b94ab67b49c5"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-linux-aarch64-lite.tar.gz",
       "checksums": {
@@ -11084,16 +11390,34 @@
         "sha1": "966fe2f5d18cd0d27ec631689d26312b72077dcd"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "29d33479a09ca61b3a6a669f0094f6bac1d2d028"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "bd1591389c5f447f2fad00bb78cb8d5cd4a8eb34"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "d168ede5f271ca8dd66d96cedbe4b16e6ea92ba4"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "07ddd88f0bbe6373e819c6fed5bb3e0f3bb3c335"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "6a4d2178d293c8ea1738487c4d93f001e7f2bcf0"
       }
     },
     "11.0.17": {
@@ -11118,6 +11442,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "f46cde190d477cb3084765ad9f38143e24ab4d86"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "e42893240bf41c49d06b8d0a141e929008ef63de"
       }
     },
     "11.0.21": {
@@ -11192,46 +11522,28 @@
         "sha1": "4b78e667675800c41ee1a868e7e02fc09eb4221d"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "cb930aaf3d48024b29d0a2639a9a920241edb177"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "fe39625081204bfa16e3c48f2fc29005dd7c4698"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-linux-aarch64-lite.tar.gz",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-linux-aarch64-lite.tar.gz",
       "checksums": {
-        "sha1": "d2f209627236e9f9d0dec7c81dc4b94ab67b49c5"
+        "sha1": "c5aba38b94e8f66d50c9505e8dbcced8ef7ecf5d"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-linux-aarch64-lite.tar.gz",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-linux-aarch64-lite.tar.gz",
       "checksums": {
-        "sha1": "29d33479a09ca61b3a6a669f0094f6bac1d2d028"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-linux-aarch64-lite.tar.gz",
-      "checksums": {
-        "sha1": "d168ede5f271ca8dd66d96cedbe4b16e6ea92ba4"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-linux-aarch64-lite.tar.gz",
-      "checksums": {
-        "sha1": "6a4d2178d293c8ea1738487c4d93f001e7f2bcf0"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-linux-aarch64-lite.tar.gz",
-      "checksums": {
-        "sha1": "e42893240bf41c49d06b8d0a141e929008ef63de"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-linux-aarch64-lite.tar.gz",
-      "checksums": {
-        "sha1": "cb930aaf3d48024b29d0a2639a9a920241edb177"
+        "sha1": "41a59cc9990b38d4d5b9f1aa49639ceba7cdbe86"
       }
     },
     "12.0.0": {
@@ -11348,10 +11660,22 @@
         "sha1": "8705221573dafca576436b457b6ae495a71b78b5"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "bd77469b352510dbc47738eb3b7e921a5445820d"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "79ecb41bf03ba8a90bfc76c78e1232993dcf7185"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "9223beb0da361dd29cad13b1315a39a76b900572"
       }
     },
     "17.0.5": {
@@ -11376,6 +11700,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "7029d237a427c683a50e500609a5c8a39d62138f"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "5ddabc1ab9ec909848d521da7913a1e327462136"
       }
     },
     "17.0.9": {
@@ -11450,34 +11780,28 @@
         "sha1": "97d038767c667f1e97c03030ffcdb5dd9498f800"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "0a1b4b70774d7d0ca29e4e612ab64efccd7e600f"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "0e21e77d64cf2dea9d05e0f52e27d847b361dbb7"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-linux-aarch64-lite.tar.gz",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jdk17.0.21.0.2+5-linux-aarch64-lite.tar.gz",
       "checksums": {
-        "sha1": "bd77469b352510dbc47738eb3b7e921a5445820d"
+        "sha1": "371f98ddd00a22e5af4a528ecd274d7cb67e12c3"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-linux-aarch64-lite.tar.gz",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jdk17.0.21.0.3+5-linux-aarch64-lite.tar.gz",
       "checksums": {
-        "sha1": "9223beb0da361dd29cad13b1315a39a76b900572"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-linux-aarch64-lite.tar.gz",
-      "checksums": {
-        "sha1": "5ddabc1ab9ec909848d521da7913a1e327462136"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-aarch64-lite.tar.gz",
-      "checksums": {
-        "sha1": "0a1b4b70774d7d0ca29e4e612ab64efccd7e600f"
+        "sha1": "243a42fd692f12c4adb8dcd4014b534262d79967"
       }
     },
     "18.0.0": {
@@ -11492,19 +11816,19 @@
         "sha1": "68e3046d9e6481c57ae6608afe2aa6de119a1572"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "d9a922e5bdc9168cb7e20107ed23bfd56672d616"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "a21bb1352a748d47ade2e8f58784cc8d00cd0377"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-linux-aarch64-lite.tar.gz",
-      "checksums": {
-        "sha1": "d9a922e5bdc9168cb7e20107ed23bfd56672d616"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "ba124437f9e6670054e69a9e66f0f2a8c7504983"
@@ -11624,16 +11948,28 @@
         "sha1": "c2ca1137bfad5302a4048aceaeb83d75483dcfd0"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "87d84b036a028ebaa749457f5f8230e13daf8eb9"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "27db68dabcf6748d1e37801f3e12a50732ab2501"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-aarch64-lite.tar.gz",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jdk21.0.13.0.2+5-linux-aarch64-lite.tar.gz",
       "checksums": {
-        "sha1": "87d84b036a028ebaa749457f5f8230e13daf8eb9"
+        "sha1": "2ca83d552c1981f252ac28bf8543df1113b05430"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "4c7e1433a9147d4f03b3825b7a44a461af96eade"
       }
     },
     "22.0.0": {
@@ -11720,16 +12056,28 @@
         "sha1": "da92317a4e4a2c52ff4b5ba0d5d976903cba97a8"
       }
     },
+    "25.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "fbebd69b5475b9cd482cee01d519590b42fbd659"
+      }
+    },
     "25.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5+11/bellsoft-jdk25.0.5+11-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "866e08c554f1bb9acf363494979e0a52c046ecb7"
       }
     },
-    "25.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.4.1+1/bellsoft-jdk25.0.4.1+1-linux-aarch64-lite.tar.gz",
+    "25.0.5.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.2+5/bellsoft-jdk25.0.5.0.2+5-linux-aarch64-lite.tar.gz",
       "checksums": {
-        "sha1": "fbebd69b5475b9cd482cee01d519590b42fbd659"
+        "sha1": "4d2b0cd47504e234a17a558699eec7bf65a0013d"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.0.3+5/bellsoft-jdk25.0.5.0.3+5-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "da8f78672b54de88de6c5977e5f27b5064405ef1"
       }
     },
     "26.0.0": {
@@ -11750,7 +12098,7 @@
         "sha1": "f24858fa82fa86c123ec190d6dbc775cc21411a7"
       }
     },
-    "26.1.2": {
+    "26.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26.0.2.1+1/bellsoft-jdk26.0.2.1+1-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "2272c46e9fd195769f0586f45fe7aeabbaa8b0a6"
@@ -11766,6 +12114,18 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1+11/bellsoft-jdk27.0.1+11-linux-aarch64-lite.tar.gz",
       "checksums": {
         "sha1": "70d391a7c078f50668c7d2360f375ddd4bcf6b4f"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.2+5/bellsoft-jdk27.0.1.0.2+5-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "5773e5f93ae7d49b3d58a7f02fefe9deca89dae0"
+      }
+    },
+    "27.0.1.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-linux-aarch64-lite.tar.gz",
+      "checksums": {
+        "sha1": "10242a355cd99bb084f8d1fc8717dffd40c52d45"
       }
     }
   },
@@ -12668,6 +13028,12 @@
         "sha256": "d2918bde1083ed719946c6272a6f45ef8d1ead6ba747ee312348a493ebbc19b7"
       }
     },
+    "17.0.0": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-17.35.1-linux-aarch64.tar.gz",
+      "checksums": {
+        "sha256": "0f5e987c7a3b48d8180436128e46ba0b9627b62c2c28079217d65f28811a6b1c"
+      }
+    },
     "17.0.1.12.1": {
       "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.1.12.1-linux-aarch64.tar.gz",
       "checksums": {
@@ -12804,12 +13170,6 @@
       "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.0.2-linux-aarch64.tar.gz",
       "checksums": {
         "sha256": "fc80cf268662b058a7b360fb118f9a729987932d1ab8d72c5813e86df89c6034"
-      }
-    },
-    "17.35.1": {
-      "url": "https://aka.ms/download-jdk/microsoft-jdk-17.35.1-linux-aarch64.tar.gz",
-      "checksums": {
-        "sha256": "0f5e987c7a3b48d8180436128e46ba0b9627b62c2c28079217d65f28811a6b1c"
       }
     },
     "21.0.0": {
@@ -13663,6 +14023,12 @@
       "checksums": {
         "sha256": "e4ec5c7276290c7bde0baecba9a29be4962f5388684296406a9799d465936087"
       }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_aarch64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "5ddacf925244a00b60cac828b61ff2f67a68cd32b8dfe5cee1405e333b4589e5"
+      }
     }
   },
   "temurin-debugimage": {
@@ -14385,6 +14751,12 @@
       "checksums": {
         "sha256": "80e9ec242122c1ec519aa4f37a32f4a197f83982400028be5ecad82cb3d6bc0b"
       }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_aarch64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "79dabfb30cf85fe0900ed60117168fba44f42aa3835275b53e61d448cb11fb63"
+      }
     }
   },
   "temurin-jre": {
@@ -15089,6 +15461,12 @@
       "checksums": {
         "sha256": "a41b54098373f1ca8f75ee344db19b93ac39eca6c529c3ee9dc50f4b3e7857de"
       }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "d77286f01dc2482e483a20c9c80591e3d4c38b27a6e035268a4f213a8e8bd1e8"
+      }
     }
   },
   "temurin-testimage": {
@@ -15546,6 +15924,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-testimage_aarch64_linux_hotspot_27_35.tar.gz",
       "checksums": {
         "sha256": "983a42f0e7bf4456bc4a9932b8db23f3cf2e201a1da2880d10fdfb6edd2c7439"
+      }
+    },
+    "27.0.1.0.2": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_aarch64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+      "checksums": {
+        "sha256": "67eb82eeaad613a6ba40e56fa08cebc8f7c8dcb0ff1c6488f2d8f3f782b47605"
       }
     }
   },

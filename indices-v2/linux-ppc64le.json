@@ -3988,6 +3988,12 @@
         "sha256": "97113620ec93e32dad8efee6f1e221c6ca7af201d632bd2bb2b1484fbd4483d5"
       }
     },
+    "21.0.13.0": {
+      "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.13.0/ibm-semeru-open-jdk_ppc64le_linux_21.0.13.0.tar.gz",
+      "checksums": {
+        "sha256": "992b583b2f477eca176dc77b997048b8baf63e465c26846e4e5456b21a536196"
+      }
+    },
     "22.0.1": {
       "url": "https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.1%2B8_openj9-0.45.0/ibm-semeru-open-jdk_ppc64le_linux_22.0.1_8_openj9-0.45.0.tar.gz",
       "checksums": {
@@ -4588,6 +4594,12 @@
       "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.15/ibm-semeru-open-jdk_ppc64le_linux_21.0.12.15.tar.gz",
       "checksums": {
         "sha256": "97113620ec93e32dad8efee6f1e221c6ca7af201d632bd2bb2b1484fbd4483d5"
+      }
+    },
+    "21.0.13.0": {
+      "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.13.0/ibm-semeru-open-jdk_ppc64le_linux_21.0.13.0.tar.gz",
+      "checksums": {
+        "sha256": "992b583b2f477eca176dc77b997048b8baf63e465c26846e4e5456b21a536196"
       }
     }
   },

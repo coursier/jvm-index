@@ -2766,6 +2766,12 @@
         "sha1": "d159921aa182fdb3a5190eb41fc5173d21991503"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "9f32940d5407d5dbb2d4c5cb9a337ed170a82bb2"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-windows-i586.zip",
       "checksums": {
@@ -2796,16 +2802,34 @@
         "sha1": "e89c2d307ffc33f17877bb532789f6908e0f20b9"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "691d94ce4173e62066efabfe6e3bf77bc8b04b33"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-windows-i586.zip",
       "checksums": {
         "sha1": "25ea43e38707a874578138e8e59f78ac5f7f8a6a"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-i586.zip",
+      "checksums": {
+        "sha1": "c4683ffa0c0c4a0f3d184fbdb9958d469595bdf1"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-windows-i586.zip",
       "checksums": {
         "sha1": "09cd67c0340fd1bdc60caa1903fa8786a3c42974"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "7ee5b55ef0c58032c6a56f2975cfdc2d5b3cd347"
       }
     },
     "11.0.17": {
@@ -2830,6 +2854,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-windows-i586.zip",
       "checksums": {
         "sha1": "30f9615c0e692dd6b951f9ed380974ab7998d6fb"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "9dd10393c72c690c0d9f9bb2dd6e027674918701"
       }
     },
     "11.0.21": {
@@ -2904,46 +2934,28 @@
         "sha1": "ea120754a0c791d7a97fa2f77b3097a815fe21ab"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "1fbd97eba6123dd5a4bf7a8bada26bcc1c6a221c"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-windows-i586.zip",
       "checksums": {
         "sha1": "483362df243a537c17a6d05f71357c9c4de21ce3"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-i586.zip",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-windows-i586.zip",
       "checksums": {
-        "sha1": "9f32940d5407d5dbb2d4c5cb9a337ed170a82bb2"
+        "sha1": "faee7b6b271898f5edfd869cb7f52a2bba1e65c7"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-i586.zip",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-windows-i586.zip",
       "checksums": {
-        "sha1": "691d94ce4173e62066efabfe6e3bf77bc8b04b33"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-i586.zip",
-      "checksums": {
-        "sha1": "c4683ffa0c0c4a0f3d184fbdb9958d469595bdf1"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-windows-i586.zip",
-      "checksums": {
-        "sha1": "7ee5b55ef0c58032c6a56f2975cfdc2d5b3cd347"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-windows-i586.zip",
-      "checksums": {
-        "sha1": "9dd10393c72c690c0d9f9bb2dd6e027674918701"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-windows-i586.zip",
-      "checksums": {
-        "sha1": "1fbd97eba6123dd5a4bf7a8bada26bcc1c6a221c"
+        "sha1": "46b3777189a04140a6a8b721db88d5bf2c25c06f"
       }
     },
     "12.0.0": {
@@ -3060,10 +3072,22 @@
         "sha1": "93391a006a6d2b9d8cc177a338d0dd9e0b06b9dd"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-i586.zip",
+      "checksums": {
+        "sha1": "39d19153869002f36e20f70795e1fdcf03f71920"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-windows-i586.zip",
       "checksums": {
         "sha1": "510bfd15a2fe9c375d4f29538bb8c6d12ddb35cf"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "1bd028e4baae1b6e208298fe39609478205b4d7d"
       }
     },
     "17.0.5": {
@@ -3088,6 +3112,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-windows-i586.zip",
       "checksums": {
         "sha1": "3883361503e221edfb059de05b3330fdb7f9e2de"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "0ac6dd6f8d26b42a236811e29e81e06f872b8854"
       }
     },
     "17.0.9": {
@@ -3162,34 +3192,28 @@
         "sha1": "2db8528057bcbcde6d690eb408e6c2de6e0192e2"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "bb5aca832a1351b2c8921fc33d389b625e1fe124"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-windows-i586.zip",
       "checksums": {
         "sha1": "ca65c612d16a54aca0df06a93df141eeafb31b72"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-i586.zip",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jdk17.0.21.0.2+5-windows-i586.zip",
       "checksums": {
-        "sha1": "39d19153869002f36e20f70795e1fdcf03f71920"
+        "sha1": "b2f656783e705dc1c1b8014ff6f7ac42710ca7b6"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-windows-i586.zip",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jdk17.0.21.0.3+5-windows-i586.zip",
       "checksums": {
-        "sha1": "1bd028e4baae1b6e208298fe39609478205b4d7d"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-windows-i586.zip",
-      "checksums": {
-        "sha1": "0ac6dd6f8d26b42a236811e29e81e06f872b8854"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-windows-i586.zip",
-      "checksums": {
-        "sha1": "bb5aca832a1351b2c8921fc33d389b625e1fe124"
+        "sha1": "b231b97e09b3795dd6c531ac8a432df5ffcedff8"
       }
     },
     "18.0.0": {
@@ -3204,19 +3228,19 @@
         "sha1": "f1223ec1582061916c9431108dac54927b80731a"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-i586.zip",
+      "checksums": {
+        "sha1": "a746bcd43585dee1be008db515ec8d870dd364f5"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-windows-i586.zip",
       "checksums": {
         "sha1": "e8c408788e2c0849f50a1479d194f1aaed9fa0c9"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-i586.zip",
-      "checksums": {
-        "sha1": "a746bcd43585dee1be008db515ec8d870dd364f5"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-windows-i586.zip",
       "checksums": {
         "sha1": "7af1ac62cc0ef25fb5f00dffea7d7c82eeb45782"
@@ -3336,16 +3360,28 @@
         "sha1": "c0ecdf58d570c506bd312b2a4fce319d9b05e7a7"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "225b8e305358587de8eb8c1fe21f8206e0d1a2f3"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-windows-i586.zip",
       "checksums": {
         "sha1": "6512ed6da14230af625ea00e4e9208a52e3aa527"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-windows-i586.zip",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jdk21.0.13.0.2+5-windows-i586.zip",
       "checksums": {
-        "sha1": "225b8e305358587de8eb8c1fe21f8206e0d1a2f3"
+        "sha1": "8d5c1327dc958c2ead068569e06522397ea71861"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-windows-i586.zip",
+      "checksums": {
+        "sha1": "598b925cf01f596cb18e3b6607b7db4534218b89"
       }
     }
   },
@@ -3578,6 +3614,12 @@
         "sha1": "0ce06fd5c32048bb4bac27cf604eaebd1f9db53c"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "7af185d465d100debad8f4b11335ceae9d0c85cb"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-windows-i586-full.zip",
       "checksums": {
@@ -3608,16 +3650,34 @@
         "sha1": "4165f57092dbe0e902569c57ff9162d227c4f992"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "8b0ba3341991942085af80cc0996ebeb281d2a25"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-windows-i586-full.zip",
       "checksums": {
         "sha1": "dfdf9edb0ea6d648e1082a813e5dfdbaab141174"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "5dee9fb7872b15ca034cde81eb9fb2dd23a43d6b"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-windows-i586-full.zip",
       "checksums": {
         "sha1": "6528033dd2161e1a6f3d491198b1c6222d212f57"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "4cee2ae1555e15e1d73cdedd7651ca3487cf9086"
       }
     },
     "11.0.17": {
@@ -3642,6 +3702,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-windows-i586-full.zip",
       "checksums": {
         "sha1": "953b391dad3ec07e7d357a46dff96ae9c1a0eaef"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "9fdf406be4d37f08c843368be19b8fa90c23792d"
       }
     },
     "11.0.21": {
@@ -3716,46 +3782,28 @@
         "sha1": "dc2c0b75dce1a43fe77b87a5680b4023e011cab6"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "b64ac0f85ec964356526f0e9056283781eb4f972"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-windows-i586-full.zip",
       "checksums": {
         "sha1": "4bfe63e4da94de13a035a789754dfd30a91272cc"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-i586-full.zip",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-windows-i586-full.zip",
       "checksums": {
-        "sha1": "7af185d465d100debad8f4b11335ceae9d0c85cb"
+        "sha1": "9fbab4ce10f599c341c5d2c424ea219efca636e1"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-i586-full.zip",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-windows-i586-full.zip",
       "checksums": {
-        "sha1": "8b0ba3341991942085af80cc0996ebeb281d2a25"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "5dee9fb7872b15ca034cde81eb9fb2dd23a43d6b"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "4cee2ae1555e15e1d73cdedd7651ca3487cf9086"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "9fdf406be4d37f08c843368be19b8fa90c23792d"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "b64ac0f85ec964356526f0e9056283781eb4f972"
+        "sha1": "7c743438c0d094b9752aff03cdd198532708c51f"
       }
     },
     "13.0.2": {
@@ -3842,10 +3890,22 @@
         "sha1": "276295e94d6503c335795d2a61e9e8af7c16d166"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "bcc4f852bfd978a88a8969676607388a226bf628"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-windows-i586-full.zip",
       "checksums": {
         "sha1": "18109b613489674b043e369413017ff1ee3d96c3"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "531e136e4cd911f88d5c93b5ca2f6cee7e0653fb"
       }
     },
     "17.0.5": {
@@ -3870,6 +3930,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-windows-i586-full.zip",
       "checksums": {
         "sha1": "f3f79a26ff7d2b723be97c117a06220976174371"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "59b7ecad30f762d3779dfef19fecd5d33481249d"
       }
     },
     "17.0.9": {
@@ -3944,34 +4010,28 @@
         "sha1": "cac9d8aa6b23d248c703578edb550cfc54d358b2"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "eb0699d7cf8ad31d2efc588f61e4f754a333ef0b"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-windows-i586-full.zip",
       "checksums": {
         "sha1": "078416a299142911f8b0f7714c07c5299b4cebdc"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-i586-full.zip",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jdk17.0.21.0.2+5-windows-i586-full.zip",
       "checksums": {
-        "sha1": "bcc4f852bfd978a88a8969676607388a226bf628"
+        "sha1": "000b77077744a6ed8a804a1793e42631631e1783"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-windows-i586-full.zip",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jdk17.0.21.0.3+5-windows-i586-full.zip",
       "checksums": {
-        "sha1": "531e136e4cd911f88d5c93b5ca2f6cee7e0653fb"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "59b7ecad30f762d3779dfef19fecd5d33481249d"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "eb0699d7cf8ad31d2efc588f61e4f754a333ef0b"
+        "sha1": "1c5fa7a3008406ef892b49877c051e7d215eb366"
       }
     },
     "18.0.0": {
@@ -3986,19 +4046,19 @@
         "sha1": "8adf4531a672736adfe1530651ea685bcc777175"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "d48da574e7577e7f9731653a7f8ff174368cd368"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-windows-i586-full.zip",
       "checksums": {
         "sha1": "0f7a84e90686d886962b67f670ea4bacb7a6df9d"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "d48da574e7577e7f9731653a7f8ff174368cd368"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-windows-i586-full.zip",
       "checksums": {
         "sha1": "f8ee564268dc53198f87c338248724b118be93d9"
@@ -4118,16 +4178,28 @@
         "sha1": "b1c0f5be5d82e0e368def9748d54fb2801d98860"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "36eb0af8aff902987329ca8b4928d31d01b96d22"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-windows-i586-full.zip",
       "checksums": {
         "sha1": "ca31c2f16e1cb61c80f6289da0d45c717e5142f9"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-windows-i586-full.zip",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jdk21.0.13.0.2+5-windows-i586-full.zip",
       "checksums": {
-        "sha1": "36eb0af8aff902987329ca8b4928d31d01b96d22"
+        "sha1": "5bf9d89a062fb91e5dcc07958f33684e9df839af"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "4fa2962c28392ff2e4aadca818114018e5be2197"
       }
     }
   },
@@ -4390,6 +4462,12 @@
         "sha1": "37c771047614c75590bb53c76977311099030945"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "cc0fbacac173824d70e1fcb95ca9727f09a97285"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-windows-i586.zip",
       "checksums": {
@@ -4420,16 +4498,34 @@
         "sha1": "d96160a17075ea73655284f4c3cc747f68e80a2c"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "8a5f2c323d33082e9d5a1ecc94ec6c442e3952d4"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-windows-i586.zip",
       "checksums": {
         "sha1": "5966171948e4ead7f73cbdbb35d5a77ce18ea497"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-i586.zip",
+      "checksums": {
+        "sha1": "657bb8d4ce277536227b98190759903933fea6b8"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jre11.0.16+8-windows-i586.zip",
       "checksums": {
         "sha1": "f70a982a3cfbb325213bc49f707cd6721eeee1be"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "6f9374bb3b841e0cc6df4e2f63773bd683105dfb"
       }
     },
     "11.0.17": {
@@ -4454,6 +4550,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-windows-i586.zip",
       "checksums": {
         "sha1": "bf3de67897d7b092f02f78443a8198601bd65007"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "ca25cd6b4e18a5869460a6f8a595ace0ea325c41"
       }
     },
     "11.0.21": {
@@ -4528,46 +4630,28 @@
         "sha1": "c5d039fd973cd7e2ef99d07c2354675b17e8c4e8"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "8352896ae40c83822ca090fb5029061c0df1434a"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jre11.0.33+11-windows-i586.zip",
       "checksums": {
         "sha1": "a371130d0dce2d8a63f20345e3b116a599142523"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-windows-i586.zip",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jre11.0.33.0.2+5-windows-i586.zip",
       "checksums": {
-        "sha1": "cc0fbacac173824d70e1fcb95ca9727f09a97285"
+        "sha1": "5b8b984b2a72a7205ea1cf8727445005382c5ed6"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-i586.zip",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-windows-i586.zip",
       "checksums": {
-        "sha1": "8a5f2c323d33082e9d5a1ecc94ec6c442e3952d4"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-i586.zip",
-      "checksums": {
-        "sha1": "657bb8d4ce277536227b98190759903933fea6b8"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-windows-i586.zip",
-      "checksums": {
-        "sha1": "6f9374bb3b841e0cc6df4e2f63773bd683105dfb"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-windows-i586.zip",
-      "checksums": {
-        "sha1": "ca25cd6b4e18a5869460a6f8a595ace0ea325c41"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-windows-i586.zip",
-      "checksums": {
-        "sha1": "8352896ae40c83822ca090fb5029061c0df1434a"
+        "sha1": "b14fe30ac37b68acd4080f4623d893ef9fde2d6d"
       }
     },
     "13.0.1": {
@@ -4660,10 +4744,22 @@
         "sha1": "6245b9acd6f134b970c4e00c52ee49b3663c0b5e"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-windows-i586.zip",
+      "checksums": {
+        "sha1": "64615e209ae312a67c5ffe358a55d4fb22ea6fcb"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-windows-i586.zip",
       "checksums": {
         "sha1": "6000206f3a8865a69855c9711ba012ac8bfe22f7"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "0114e28c2a72c16d2852cfc0f751643bd21c3096"
       }
     },
     "17.0.5": {
@@ -4688,6 +4784,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jre17.0.8+7-windows-i586.zip",
       "checksums": {
         "sha1": "620979c0565d0e0a8210164033cb479a4a3890dc"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "85aacd0904acfe2cb5d9616582b290422a56abd5"
       }
     },
     "17.0.9": {
@@ -4762,34 +4864,28 @@
         "sha1": "4161bcaf198cd5bf82b1feb43abb4a0a3dab698a"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "b0ef2fdc59b318cffd259ce1076005dc81e2c75d"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jre17.0.21+11-windows-i586.zip",
       "checksums": {
         "sha1": "7a8d7f1266766485e69c69ca8972e082c74ac9ce"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-windows-i586.zip",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jre17.0.21.0.2+5-windows-i586.zip",
       "checksums": {
-        "sha1": "64615e209ae312a67c5ffe358a55d4fb22ea6fcb"
+        "sha1": "1d764474f485e4e262d80a033b8491b15bb2dfe1"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-windows-i586.zip",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jre17.0.21.0.3+5-windows-i586.zip",
       "checksums": {
-        "sha1": "0114e28c2a72c16d2852cfc0f751643bd21c3096"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-windows-i586.zip",
-      "checksums": {
-        "sha1": "85aacd0904acfe2cb5d9616582b290422a56abd5"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-windows-i586.zip",
-      "checksums": {
-        "sha1": "b0ef2fdc59b318cffd259ce1076005dc81e2c75d"
+        "sha1": "db2411d18f348a14865a2a03b38c00b3d1b6ac07"
       }
     },
     "18.0.0": {
@@ -4804,19 +4900,19 @@
         "sha1": "c14d55965037ba27c5a7bbda8389df947b17c7f6"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-windows-i586.zip",
+      "checksums": {
+        "sha1": "5d7a04dd154a712517864d2f100cf87e7a7098f8"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jre18.0.2+10-windows-i586.zip",
       "checksums": {
         "sha1": "547f9096c5498fd6ad7c3ccf13bca304a3b45f8c"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-windows-i586.zip",
-      "checksums": {
-        "sha1": "5d7a04dd154a712517864d2f100cf87e7a7098f8"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jre18.0.2.1+1-windows-i586.zip",
       "checksums": {
         "sha1": "7723cb633093886bde09b6231865965fc84f7575"
@@ -4936,16 +5032,28 @@
         "sha1": "171b71422ceba9621ee4277f0460d2e3a423bf38"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-windows-i586.zip",
+      "checksums": {
+        "sha1": "a07891b379a8708e9d8aecbbac705e42fd1cb27b"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jre21.0.13+11-windows-i586.zip",
       "checksums": {
         "sha1": "ad4e3287e047cc12b37b4f8295a115ed38f10e63"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-windows-i586.zip",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jre21.0.13.0.2+5-windows-i586.zip",
       "checksums": {
-        "sha1": "a07891b379a8708e9d8aecbbac705e42fd1cb27b"
+        "sha1": "f9d0dafd92bd16dea85d6ffb0ce73acb2a1deba0"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jre21.0.13.0.3+5-windows-i586.zip",
+      "checksums": {
+        "sha1": "a3c6030efa5be5fdcec339916f51a81c6c9515a9"
       }
     }
   },
@@ -5178,6 +5286,12 @@
         "sha1": "e6e23826321bd6032774ac33a16140308da73e7b"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "ac6638b82611de0d5057e30582e4f6560878c64d"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jre11.0.10+9-windows-i586-full.zip",
       "checksums": {
@@ -5208,16 +5322,34 @@
         "sha1": "778b1f2a37378f2488509742a05c51fd85a51937"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "92214339fd620be1f90a5913f7f2947ad43b2bbc"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jre11.0.15+10-windows-i586-full.zip",
       "checksums": {
         "sha1": "4e1e9d775e9f66f5be63c099da6a32fd7927fe41"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "9f801a02dd7d0f3473a58c2b6b68b2bc441de9a1"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jre11.0.16+8-windows-i586-full.zip",
       "checksums": {
         "sha1": "987ea3017132ef17cdee6d974cf5cae0fff4ae54"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "d57e42640724e77fe5dbfab5a625da8bf4cfa5f8"
       }
     },
     "11.0.17": {
@@ -5242,6 +5374,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jre11.0.20+8-windows-i586-full.zip",
       "checksums": {
         "sha1": "32e0b67e660b7cf5d493efbcb6b5f4a3b7311a84"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "70695db79af9f93b63bfc9f231d452d52024e032"
       }
     },
     "11.0.21": {
@@ -5316,46 +5454,28 @@
         "sha1": "d96fd8ff49c88e01ba7962945e1582d56148e8f1"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "b6595f956d2b3f3409bdf92b00e69999963e1da6"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jre11.0.33+11-windows-i586-full.zip",
       "checksums": {
         "sha1": "8131b1eefe92518a5597c4d76c8f564d6613b154"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jre11.0.9.1+1-windows-i586-full.zip",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jre11.0.33.0.2+5-windows-i586-full.zip",
       "checksums": {
-        "sha1": "ac6638b82611de0d5057e30582e4f6560878c64d"
+        "sha1": "c881c6ccef367dde6ebc1271abdeadc4e10bf171"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jre11.0.14.1+1-windows-i586-full.zip",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-windows-i586-full.zip",
       "checksums": {
-        "sha1": "92214339fd620be1f90a5913f7f2947ad43b2bbc"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jre11.0.15.1+2-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "9f801a02dd7d0f3473a58c2b6b68b2bc441de9a1"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jre11.0.16.1+1-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "d57e42640724e77fe5dbfab5a625da8bf4cfa5f8"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jre11.0.20.1+1-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "70695db79af9f93b63bfc9f231d452d52024e032"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jre11.0.32.1+1-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "b6595f956d2b3f3409bdf92b00e69999963e1da6"
+        "sha1": "baf7f839ec5368a42b32f05bc7ca044f431b781b"
       }
     },
     "13.0.2": {
@@ -5442,10 +5562,22 @@
         "sha1": "2fdfbeec4a35daf76d5e186642903d5875bf3d4c"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "de6ee533e73884366c8ff1b1bc46016a53c3b767"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jre17.0.4+8-windows-i586-full.zip",
       "checksums": {
         "sha1": "1fe88b859bd1cb34a2280dc8110f0259d1cf3fed"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "034bc480fe61117595c6a30a6e8514bdd0b401d1"
       }
     },
     "17.0.5": {
@@ -5470,6 +5602,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jre17.0.8+7-windows-i586-full.zip",
       "checksums": {
         "sha1": "19374623759ec04b6e43a6b4331fc8a1e25e261a"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "189c487236288ffe3fc424896378e13c43d2cebc"
       }
     },
     "17.0.9": {
@@ -5544,34 +5682,28 @@
         "sha1": "d0a6ce8d66ed07c856987194e52267c7e9fc1d41"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "c76ea478e4588f586b67fbec49170259b86a35f7"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jre17.0.21+11-windows-i586-full.zip",
       "checksums": {
         "sha1": "5040cb42a0d16044d4e175ac4e4a35e2b81a98ae"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jre17.0.3.1+2-windows-i586-full.zip",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jre17.0.21.0.2+5-windows-i586-full.zip",
       "checksums": {
-        "sha1": "de6ee533e73884366c8ff1b1bc46016a53c3b767"
+        "sha1": "9e889ae1c0b97d794587ed034e6b4f5cad9b576e"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jre17.0.4.1+1-windows-i586-full.zip",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jre17.0.21.0.3+5-windows-i586-full.zip",
       "checksums": {
-        "sha1": "034bc480fe61117595c6a30a6e8514bdd0b401d1"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jre17.0.8.1+1-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "189c487236288ffe3fc424896378e13c43d2cebc"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jre17.0.20.1+1-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "c76ea478e4588f586b67fbec49170259b86a35f7"
+        "sha1": "ed49e39170f94d52c00e85b1b788b3988fa34c24"
       }
     },
     "18.0.0": {
@@ -5586,19 +5718,19 @@
         "sha1": "57eafb786009043867080d66cb740fba46f379f3"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "6deb34d7a1ad33118a4e199b9210baa085bc1956"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jre18.0.2+10-windows-i586-full.zip",
       "checksums": {
         "sha1": "f6604e8bd71796cc28bd8cd9e261867b327527d3"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jre18.0.1.1+2-windows-i586-full.zip",
-      "checksums": {
-        "sha1": "6deb34d7a1ad33118a4e199b9210baa085bc1956"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jre18.0.2.1+1-windows-i586-full.zip",
       "checksums": {
         "sha1": "ec1fff2e3134043b2b46b9aebe9e3cabe88fc660"
@@ -5718,16 +5850,28 @@
         "sha1": "8dc72ecfa7ed624b65c8ea8028e485cc025fd98f"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "657127c34317b3f6997de474f2327f25a6842055"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jre21.0.13+11-windows-i586-full.zip",
       "checksums": {
         "sha1": "4629184185863ec19013b1a9f5b6daddde103a57"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jre21.0.12.1+1-windows-i586-full.zip",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jre21.0.13.0.2+5-windows-i586-full.zip",
       "checksums": {
-        "sha1": "657127c34317b3f6997de474f2327f25a6842055"
+        "sha1": "e7ee1fa28d49f67d38e229683ca147a0f5edbd02"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jre21.0.13.0.3+5-windows-i586-full.zip",
+      "checksums": {
+        "sha1": "b12cba27c00ecdd164f7a26f8b3c4662bda7c08e"
       }
     }
   },
@@ -5936,6 +6080,12 @@
         "sha1": "4deaf98351e4724559b616ebf5249338811fd26b"
       }
     },
+    "11.0.9.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "3498d2977e016341c9d5bb8e55b92470d7cb930a"
+      }
+    },
     "11.0.10": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.10+9/bellsoft-jdk11.0.10+9-windows-i586-lite.zip",
       "checksums": {
@@ -5966,16 +6116,34 @@
         "sha1": "0ad1120350d6e4c9a83e431db12c52a6da2ab726"
       }
     },
+    "11.0.14.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "ee885f6c92e887dc18ae08fb7b1fcceb0d9ab11d"
+      }
+    },
     "11.0.15": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15+10/bellsoft-jdk11.0.15+10-windows-i586-lite.zip",
       "checksums": {
         "sha1": "304cfbe5b51fd317f9f24294db0aae03f5ff1625"
       }
     },
+    "11.0.15.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "bbfad7b24be088ac557de6e86599f8f9ffa2ad51"
+      }
+    },
     "11.0.16": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16+8/bellsoft-jdk11.0.16+8-windows-i586-lite.zip",
       "checksums": {
         "sha1": "57ff428bb0710a52e136d434032815f7ab4b68b0"
+      }
+    },
+    "11.0.16.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "871fb49bcf3e54dfa9e4c5438b4c3a89bc967c48"
       }
     },
     "11.0.17": {
@@ -6000,6 +6168,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20+8/bellsoft-jdk11.0.20+8-windows-i586-lite.zip",
       "checksums": {
         "sha1": "efea049eb093a1572d282b92c6797b3c051614d5"
+      }
+    },
+    "11.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "47a073096545336a4e361cbb278c72779f36e9e2"
       }
     },
     "11.0.21": {
@@ -6074,46 +6248,28 @@
         "sha1": "808b1c305874e26b2ba417682675a99affc8ed47"
       }
     },
+    "11.0.32.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "1b12ae87b5f92f85597e4c0e89512e4aa4ddb0ca"
+      }
+    },
     "11.0.33": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-windows-i586-lite.zip",
       "checksums": {
         "sha1": "59eb73508ca59f9d8ba977b27378c58fafb8617e"
       }
     },
-    "11.1.9": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.9.1+1/bellsoft-jdk11.0.9.1+1-windows-i586-lite.zip",
+    "11.0.33.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.2+5/bellsoft-jdk11.0.33.0.2+5-windows-i586-lite.zip",
       "checksums": {
-        "sha1": "3498d2977e016341c9d5bb8e55b92470d7cb930a"
+        "sha1": "c8a5556a39b15cf93e1a87821fb51b930a782ea6"
       }
     },
-    "11.1.14": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.14.1+1/bellsoft-jdk11.0.14.1+1-windows-i586-lite.zip",
+    "11.0.33.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-windows-i586-lite.zip",
       "checksums": {
-        "sha1": "ee885f6c92e887dc18ae08fb7b1fcceb0d9ab11d"
-      }
-    },
-    "11.1.15": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.15.1+2/bellsoft-jdk11.0.15.1+2-windows-i586-lite.zip",
-      "checksums": {
-        "sha1": "bbfad7b24be088ac557de6e86599f8f9ffa2ad51"
-      }
-    },
-    "11.1.16": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.16.1+1/bellsoft-jdk11.0.16.1+1-windows-i586-lite.zip",
-      "checksums": {
-        "sha1": "871fb49bcf3e54dfa9e4c5438b4c3a89bc967c48"
-      }
-    },
-    "11.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.20.1+1/bellsoft-jdk11.0.20.1+1-windows-i586-lite.zip",
-      "checksums": {
-        "sha1": "47a073096545336a4e361cbb278c72779f36e9e2"
-      }
-    },
-    "11.1.32": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.32.1+1/bellsoft-jdk11.0.32.1+1-windows-i586-lite.zip",
-      "checksums": {
-        "sha1": "1b12ae87b5f92f85597e4c0e89512e4aa4ddb0ca"
+        "sha1": "4fbaff68825df3b1e838919712c7bab0cbdd07ef"
       }
     },
     "12.0.0": {
@@ -6230,10 +6386,22 @@
         "sha1": "515f92c71967334156ecdabe352463d19f4274d4"
       }
     },
+    "17.0.3.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "271816debbf6bf6ce718838704ebe15eba7e8eb4"
+      }
+    },
     "17.0.4": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4+8/bellsoft-jdk17.0.4+8-windows-i586-lite.zip",
       "checksums": {
         "sha1": "512cc67620dd07403ad6aaca286138a2f7d66ca7"
+      }
+    },
+    "17.0.4.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "083012cdeb01e482afdf2b848dfb71c6709c73f2"
       }
     },
     "17.0.5": {
@@ -6258,6 +6426,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8+7/bellsoft-jdk17.0.8+7-windows-i586-lite.zip",
       "checksums": {
         "sha1": "5f772c914ec00c2f5c89f91656b4b0c787a4c169"
+      }
+    },
+    "17.0.8.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "270cabd7ed7c3a12abdfba5eda0cac05c510f9b8"
       }
     },
     "17.0.9": {
@@ -6332,34 +6506,28 @@
         "sha1": "4f6ef789025daaa5cf7dffb96393ceade4a35ba7"
       }
     },
+    "17.0.20.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "044de0c6f144307b6f0792485df6bf63ac49c9cb"
+      }
+    },
     "17.0.21": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-windows-i586-lite.zip",
       "checksums": {
         "sha1": "c9abe4581abd8cbf46eb748d591d8be0abc21ba9"
       }
     },
-    "17.1.3": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.3.1+2/bellsoft-jdk17.0.3.1+2-windows-i586-lite.zip",
+    "17.0.21.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.2+5/bellsoft-jdk17.0.21.0.2+5-windows-i586-lite.zip",
       "checksums": {
-        "sha1": "271816debbf6bf6ce718838704ebe15eba7e8eb4"
+        "sha1": "9fcf7569e7421c6f921794a62a76ca68a74c23a9"
       }
     },
-    "17.1.4": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.4.1+1/bellsoft-jdk17.0.4.1+1-windows-i586-lite.zip",
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.0.3+5/bellsoft-jdk17.0.21.0.3+5-windows-i586-lite.zip",
       "checksums": {
-        "sha1": "083012cdeb01e482afdf2b848dfb71c6709c73f2"
-      }
-    },
-    "17.1.8": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.8.1+1/bellsoft-jdk17.0.8.1+1-windows-i586-lite.zip",
-      "checksums": {
-        "sha1": "270cabd7ed7c3a12abdfba5eda0cac05c510f9b8"
-      }
-    },
-    "17.1.20": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-windows-i586-lite.zip",
-      "checksums": {
-        "sha1": "044de0c6f144307b6f0792485df6bf63ac49c9cb"
+        "sha1": "08182eb305568b28598b599002e9bd3e408e4013"
       }
     },
     "18.0.0": {
@@ -6374,19 +6542,19 @@
         "sha1": "f1755c0bedd05bf81b3427ae23be77e8b1f286ab"
       }
     },
+    "18.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "9d7c29af717eac523a1b827db3d3621a07f8caf9"
+      }
+    },
     "18.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2+10/bellsoft-jdk18.0.2+10-windows-i586-lite.zip",
       "checksums": {
         "sha1": "62a4e0998ee9b1083e32661fbd0cb3e288bb2618"
       }
     },
-    "18.1.1": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.1.1+2/bellsoft-jdk18.0.1.1+2-windows-i586-lite.zip",
-      "checksums": {
-        "sha1": "9d7c29af717eac523a1b827db3d3621a07f8caf9"
-      }
-    },
-    "18.1.2": {
+    "18.0.2.1": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18.0.2.1+1/bellsoft-jdk18.0.2.1+1-windows-i586-lite.zip",
       "checksums": {
         "sha1": "5852079df5db57dba49acccdff359bee67c807e9"
@@ -6506,16 +6674,28 @@
         "sha1": "756709a02d3fef85ad73be29b228d7f80edb608e"
       }
     },
+    "21.0.12.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "bd7183bbe815c82493f8e56478614c65f0ad8609"
+      }
+    },
     "21.0.13": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13+11/bellsoft-jdk21.0.13+11-windows-i586-lite.zip",
       "checksums": {
         "sha1": "731a95339e7e4b88d8ffe880c682ce167240aa07"
       }
     },
-    "21.1.12": {
-      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-windows-i586-lite.zip",
+    "21.0.13.0.2": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.2+5/bellsoft-jdk21.0.13.0.2+5-windows-i586-lite.zip",
       "checksums": {
-        "sha1": "bd7183bbe815c82493f8e56478614c65f0ad8609"
+        "sha1": "e0c6770ba7b7111bfc4ec855ad9e25c24504e528"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-windows-i586-lite.zip",
+      "checksums": {
+        "sha1": "71437b7b26a68fa3bc933dd3e4f7be461af4979c"
       }
     }
   },
