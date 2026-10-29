@@ -3659,6 +3659,12 @@
         "sha256": "8512db82c1aa336faa9ab877731b517318daa06d4ce34682fa478df43495daa7"
       }
     },
+    "17.0.21.0": {
+      "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.21.0/ibm-semeru-open-jdk_aarch64_mac_17.0.21.0.tar.gz",
+      "checksums": {
+        "sha256": "d0d8167743fa177ef918f7874da768fd0c0b46d75639b77db091aa44149b63e4"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_18.0.1_10_openj9-0.32.0.tar.gz",
       "checksums": {
@@ -3861,6 +3867,12 @@
       "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.15/ibm-semeru-open-jdk_aarch64_mac_25.0.4.15.tar.gz",
       "checksums": {
         "sha256": "120b39d42fd2fe6aa0adc28a3079e7d0b592c46234489d4cb5fa28956de27bc7"
+      }
+    },
+    "25.0.5.0": {
+      "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.5.0/ibm-semeru-open-jdk_aarch64_mac_25.0.5.0.tar.gz",
+      "checksums": {
+        "sha256": "9f77b20749aac799e032bc33283b4e7469c2b60f1bf2c7196d2da41a122e0019"
       }
     },
     "26.0.0": {
@@ -4184,6 +4196,12 @@
       "checksums": {
         "sha256": "8512db82c1aa336faa9ab877731b517318daa06d4ce34682fa478df43495daa7"
       }
+    },
+    "17.0.21.0": {
+      "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.21.0/ibm-semeru-open-jdk_aarch64_mac_17.0.21.0.tar.gz",
+      "checksums": {
+        "sha256": "d0d8167743fa177ef918f7874da768fd0c0b46d75639b77db091aa44149b63e4"
+      }
     }
   },
   "ibm-semeru-openj9-java18": {
@@ -4439,6 +4457,12 @@
       "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.15/ibm-semeru-open-jdk_aarch64_mac_25.0.4.15.tar.gz",
       "checksums": {
         "sha256": "120b39d42fd2fe6aa0adc28a3079e7d0b592c46234489d4cb5fa28956de27bc7"
+      }
+    },
+    "25.0.5.0": {
+      "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.5.0/ibm-semeru-open-jdk_aarch64_mac_25.0.5.0.tar.gz",
+      "checksums": {
+        "sha256": "9f77b20749aac799e032bc33283b4e7469c2b60f1bf2c7196d2da41a122e0019"
       }
     }
   },

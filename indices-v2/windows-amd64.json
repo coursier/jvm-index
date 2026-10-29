@@ -5626,6 +5626,12 @@
         "sha256": "a5bae250b15a2a391251d58e09e91151eff538f9aa115e30c5cb3a344c0c2c7d"
       }
     },
+    "17.0.21.0": {
+      "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.21.0/ibm-semeru-open-jdk_x64_windows_17.0.21.0.zip",
+      "checksums": {
+        "sha256": "88802c7c785d63d03a762c5ad34457a00e72729f48a36f2002ae2dd7db26a1a5"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_x64_windows_18.0.1_10_openj9-0.32.0.zip",
       "checksums": {
@@ -5828,6 +5834,12 @@
       "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.15/ibm-semeru-open-jdk_x64_windows_25.0.4.15.zip",
       "checksums": {
         "sha256": "bd9d3fd2e5ce77a207be5c9392a81238c8fce19637e4d9aaac29e3a6c212d4ce"
+      }
+    },
+    "25.0.5.0": {
+      "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.5.0/ibm-semeru-open-jdk_x64_windows_25.0.5.0.zip",
+      "checksums": {
+        "sha256": "84a959740f29904202fe2f0fa1eba8c833b2cbfa7f35afcc6851d962f10e4511"
       }
     },
     "26.0.0": {
@@ -6195,6 +6207,12 @@
       "checksums": {
         "sha256": "a5bae250b15a2a391251d58e09e91151eff538f9aa115e30c5cb3a344c0c2c7d"
       }
+    },
+    "17.0.21.0": {
+      "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.21.0/ibm-semeru-open-jdk_x64_windows_17.0.21.0.zip",
+      "checksums": {
+        "sha256": "88802c7c785d63d03a762c5ad34457a00e72729f48a36f2002ae2dd7db26a1a5"
+      }
     }
   },
   "ibm-semeru-openj9-java18": {
@@ -6450,6 +6468,12 @@
       "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.15/ibm-semeru-open-jdk_x64_windows_25.0.4.15.zip",
       "checksums": {
         "sha256": "bd9d3fd2e5ce77a207be5c9392a81238c8fce19637e4d9aaac29e3a6c212d4ce"
+      }
+    },
+    "25.0.5.0": {
+      "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.5.0/ibm-semeru-open-jdk_x64_windows_25.0.5.0.zip",
+      "checksums": {
+        "sha256": "84a959740f29904202fe2f0fa1eba8c833b2cbfa7f35afcc6851d962f10e4511"
       }
     }
   },
