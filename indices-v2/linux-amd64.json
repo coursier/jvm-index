@@ -5762,6 +5762,12 @@
         "sha256": "6e8d61f5b7f66f60f81aff040638214ad9ddcd7c1ea3f812725c2b8881381925"
       }
     },
+    "17.0.21.0": {
+      "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.21.0/ibm-semeru-open-jdk_x64_linux_17.0.21.0.tar.gz",
+      "checksums": {
+        "sha256": "854268feba1ebddcad42cf97915b3c48e44a543bbbe8f43e587a722921a16c42"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/ibmruntimes/semeru18-binaries/releases/download/jdk-18.0.1%2B10_openj9-0.32.0/ibm-semeru-open-jdk_x64_linux_18.0.1_10_openj9-0.32.0.tar.gz",
       "checksums": {
@@ -5964,6 +5970,12 @@
       "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.15/ibm-semeru-open-jdk_x64_linux_25.0.4.15.tar.gz",
       "checksums": {
         "sha256": "56c26f137607ce5b4301a9958e4a43fa32a04c2e66bb75282ca19b4c12be8433"
+      }
+    },
+    "25.0.5.0": {
+      "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.5.0/ibm-semeru-open-jdk_x64_linux_25.0.5.0.tar.gz",
+      "checksums": {
+        "sha256": "cb52686cd841bb76b55b66dabcbf890a303169158aa4bb10fa61040bf462f9b1"
       }
     },
     "26.0.0": {
@@ -6331,6 +6343,12 @@
       "checksums": {
         "sha256": "6e8d61f5b7f66f60f81aff040638214ad9ddcd7c1ea3f812725c2b8881381925"
       }
+    },
+    "17.0.21.0": {
+      "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.21.0/ibm-semeru-open-jdk_x64_linux_17.0.21.0.tar.gz",
+      "checksums": {
+        "sha256": "854268feba1ebddcad42cf97915b3c48e44a543bbbe8f43e587a722921a16c42"
+      }
     }
   },
   "ibm-semeru-openj9-java18": {
@@ -6586,6 +6604,12 @@
       "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.15/ibm-semeru-open-jdk_x64_linux_25.0.4.15.tar.gz",
       "checksums": {
         "sha256": "56c26f137607ce5b4301a9958e4a43fa32a04c2e66bb75282ca19b4c12be8433"
+      }
+    },
+    "25.0.5.0": {
+      "url": "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.5.0/ibm-semeru-open-jdk_x64_linux_25.0.5.0.tar.gz",
+      "checksums": {
+        "sha256": "cb52686cd841bb76b55b66dabcbf890a303169158aa4bb10fa61040bf462f9b1"
       }
     }
   },
