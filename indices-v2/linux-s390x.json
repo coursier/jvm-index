@@ -3603,6 +3603,12 @@
       "checksums": {
         "sha256": "c004e096ba592d5965e64ab03f0b2839c4217d3b9eab8dc0f2ebf994f53f0ebd"
       }
+    },
+    "27.0.1.0": {
+      "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.1.0/ibm-semeru-open-jdk_s390x_linux_27.0.1.0.tar.gz",
+      "checksums": {
+        "sha256": "064e70073e14822e9cbe0b30a6a89e58f4c343b33a3f9fdfed8973537b3419ef"
+      }
     }
   },
   "ibm-semeru-openj9-java11": {
@@ -4240,6 +4246,12 @@
       "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.0.0/ibm-semeru-open-jdk_s390x_linux_27.0.0.0.tar.gz",
       "checksums": {
         "sha256": "c004e096ba592d5965e64ab03f0b2839c4217d3b9eab8dc0f2ebf994f53f0ebd"
+      }
+    },
+    "27.0.1.0": {
+      "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.1.0/ibm-semeru-open-jdk_s390x_linux_27.0.1.0.tar.gz",
+      "checksums": {
+        "sha256": "064e70073e14822e9cbe0b30a6a89e58f4c343b33a3f9fdfed8973537b3419ef"
       }
     }
   },
