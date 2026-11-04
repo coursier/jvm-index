@@ -962,6 +962,12 @@
         "sha256": "bb84dc99346d66d5acd3610c4289b5d7c944559efe0d7a0004f9921866b16c97"
       }
     },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "b1512acf29fb47c460b2da198ab13932294c51703920ad1daffc3f29c2ccb4fb"
+      }
+    },
     "12.0.0": {
       "url": "https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12%2B33/OpenJDK12U-jdk_ppc64le_linux_hotspot_12_33.tar.gz",
       "checksums": {
@@ -1744,6 +1750,12 @@
         "sha256": "69f0544dbcbf5af015f6e2e46ed90a430e2f622b830fdad0ff5066545b0f13a3"
       }
     },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "555330ba0845521d97f66832710f2cdaf2c3b094b19094f059376b9790340785"
+      }
+    },
     "16.0.2": {
       "url": "https://github.com/adoptium/temurin16-binaries/releases/download/jdk-16.0.2%2B7/OpenJDK16U-debugimage_ppc64le_linux_hotspot_16.0.2_7.tar.gz",
       "checksums": {
@@ -2472,6 +2484,12 @@
         "sha256": "c8540b0a3785587646cbda7394a47bbbb43a3226005321db9d17c2f772f828b2"
       }
     },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "465b6d04c1c229888f6dfa4cdd958afb843569f95a37b7e69dc44175b66827f6"
+      }
+    },
     "12.0.0": {
       "url": "https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12%2B33/OpenJDK12U-jre_ppc64le_linux_hotspot_12_33.tar.gz",
       "checksums": {
@@ -3048,6 +3066,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.32.1_1.tar.gz",
       "checksums": {
         "sha256": "4d8907311055fc98bacce31c3927cf4c558d074eb22076c5bb5e7bf0ec12617e"
+      }
+    },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "818e5415ffd141ae9ef35637d9521b6e2c45ff55a83403a1c82383a5782fc61f"
       }
     },
     "13.0.0": {
@@ -4113,6 +4137,12 @@
       "checksums": {
         "sha256": "ad39df802315422a5fb1651f06bbc2fa9a72fcf70004406469cbdffa10ba2e37"
       }
+    },
+    "27.0.1.0": {
+      "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.1.0/ibm-semeru-open-jdk_ppc64le_linux_27.0.1.0.tar.gz",
+      "checksums": {
+        "sha256": "5e642aabfddd77549ce0b42cd651d9a190dceda621a684a757b4209586637130"
+      }
     }
   },
   "ibm-semeru-openj9-java11": {
@@ -4763,6 +4793,12 @@
       "checksums": {
         "sha256": "ad39df802315422a5fb1651f06bbc2fa9a72fcf70004406469cbdffa10ba2e37"
       }
+    },
+    "27.0.1.0": {
+      "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.1.0/ibm-semeru-open-jdk_ppc64le_linux_27.0.1.0.tar.gz",
+      "checksums": {
+        "sha256": "5e642aabfddd77549ce0b42cd651d9a190dceda621a684a757b4209586637130"
+      }
     }
   },
   "ibm-semeru-openj9-java8": {
@@ -5168,6 +5204,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.32.1_1.tar.gz",
       "checksums": {
         "sha256": "bb84dc99346d66d5acd3610c4289b5d7c944559efe0d7a0004f9921866b16c97"
+      }
+    },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "b1512acf29fb47c460b2da198ab13932294c51703920ad1daffc3f29c2ccb4fb"
       }
     },
     "16.0.2": {
@@ -5880,6 +5922,12 @@
         "sha256": "69f0544dbcbf5af015f6e2e46ed90a430e2f622b830fdad0ff5066545b0f13a3"
       }
     },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "555330ba0845521d97f66832710f2cdaf2c3b094b19094f059376b9790340785"
+      }
+    },
     "16.0.2": {
       "url": "https://github.com/adoptium/temurin16-binaries/releases/download/jdk-16.0.2%2B7/OpenJDK16U-debugimage_ppc64le_linux_hotspot_16.0.2_7.tar.gz",
       "checksums": {
@@ -6590,6 +6638,12 @@
         "sha256": "c8540b0a3785587646cbda7394a47bbbb43a3226005321db9d17c2f772f828b2"
       }
     },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "465b6d04c1c229888f6dfa4cdd958afb843569f95a37b7e69dc44175b66827f6"
+      }
+    },
     "17.0.1": {
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.1_12.tar.gz",
       "checksums": {
@@ -7094,6 +7148,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.32.1_1.tar.gz",
       "checksums": {
         "sha256": "4d8907311055fc98bacce31c3927cf4c558d074eb22076c5bb5e7bf0ec12617e"
+      }
+    },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "818e5415ffd141ae9ef35637d9521b6e2c45ff55a83403a1c82383a5782fc61f"
       }
     },
     "16.0.2": {

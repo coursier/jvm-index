@@ -3259,6 +3259,12 @@
       "checksums": {
         "sha256": "026728a4e084f89929f327e78b6d24ec862942b06a85d2fc75794ed6d7f60a15"
       }
+    },
+    "27.0.1.0": {
+      "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.1.0/ibm-semeru-open-jdk_ppc64_aix_27.0.1.0.tar.gz",
+      "checksums": {
+        "sha256": "b26e3bd4a148735b54d2e609217791587dda62c6cc9456da09be2164c2bb2f79"
+      }
     }
   },
   "ibm-semeru-openj9-java11": {
@@ -3908,6 +3914,12 @@
       "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.0.0/ibm-semeru-open-jdk_ppc64_aix_27.0.0.0.tar.gz",
       "checksums": {
         "sha256": "026728a4e084f89929f327e78b6d24ec862942b06a85d2fc75794ed6d7f60a15"
+      }
+    },
+    "27.0.1.0": {
+      "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.1.0/ibm-semeru-open-jdk_ppc64_aix_27.0.1.0.tar.gz",
+      "checksums": {
+        "sha256": "b26e3bd4a148735b54d2e609217791587dda62c6cc9456da09be2164c2bb2f79"
       }
     }
   },
