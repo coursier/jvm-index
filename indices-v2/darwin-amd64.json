@@ -5852,6 +5852,12 @@
       "checksums": {
         "sha256": "055fd3ac860571f81c482860fcdaabfadf9cf7d9d72e34a1930d08060c186178"
       }
+    },
+    "27.0.1.0": {
+      "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.1.0/ibm-semeru-open-jdk_x64_mac_27.0.1.0.tar.gz",
+      "checksums": {
+        "sha256": "2b9e56585723b8c28911111bbd141ad0554ebacbb7f9c387975a5f84174f3c07"
+      }
     }
   },
   "ibm-semeru-openj9-java11": {
@@ -6489,6 +6495,12 @@
       "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.0.0/ibm-semeru-open-jdk_x64_mac_27.0.0.0.tar.gz",
       "checksums": {
         "sha256": "055fd3ac860571f81c482860fcdaabfadf9cf7d9d72e34a1930d08060c186178"
+      }
+    },
+    "27.0.1.0": {
+      "url": "https://github.com/ibmruntimes/semeru27-binaries/releases/download/jdk-27.0.1.0/ibm-semeru-open-jdk_x64_mac_27.0.1.0.tar.gz",
+      "checksums": {
+        "sha256": "2b9e56585723b8c28911111bbd141ad0554ebacbb7f9c387975a5f84174f3c07"
       }
     }
   },
