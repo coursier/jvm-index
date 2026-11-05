@@ -7935,6 +7935,12 @@
         "sha256": "eceab7d5a98a8ca0be16cebf6035f1e8ed680fa96fa85e8dc75e951d09c85694"
       }
     },
+    "11.0.33": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-11.0.33-alpine-x64.tar.gz",
+      "checksums": {
+        "sha256": "c67789fabe5176df9585fdaa5fb0c876dda8e6ac4dfe8168bf3c4cb5209ba64c"
+      }
+    },
     "17.0.2.8.1": {
       "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.2.8.1-alpine-x64.tar.gz",
       "checksums": {
