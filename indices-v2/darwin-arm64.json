@@ -3527,6 +3527,12 @@
         "sha256": "512eb42034bcb5de322866270a7192e127d8c698ec9e948c82974b963e41b598"
       }
     },
+    "11.0.33.0": {
+      "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.33.0/ibm-semeru-open-jdk_aarch64_mac_11.0.33.0.tar.gz",
+      "checksums": {
+        "sha256": "03b2897a6342ac233f702ce76667323737815e87459eb007b91d0d2d4a5a5c7b"
+      }
+    },
     "17.0.3": {
       "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.3%2B7_openj9-0.32.0/ibm-semeru-open-jdk_aarch64_mac_17.0.3_7_openj9-0.32.0.tar.gz",
       "checksums": {
@@ -4055,6 +4061,12 @@
       "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.15/ibm-semeru-open-jdk_aarch64_mac_11.0.32.15.tar.gz",
       "checksums": {
         "sha256": "512eb42034bcb5de322866270a7192e127d8c698ec9e948c82974b963e41b598"
+      }
+    },
+    "11.0.33.0": {
+      "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.33.0/ibm-semeru-open-jdk_aarch64_mac_11.0.33.0.tar.gz",
+      "checksums": {
+        "sha256": "03b2897a6342ac233f702ce76667323737815e87459eb007b91d0d2d4a5a5c7b"
       }
     }
   },

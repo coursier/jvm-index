@@ -5364,6 +5364,12 @@
         "sha256": "4249b6dcc9de4a69285f79ffceb0b309ddba7068a8b4900d49e79a0db856f91e"
       }
     },
+    "11.0.33.0": {
+      "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.33.0/ibm-semeru-open-jdk_aarch64_linux_11.0.33.0.tar.gz",
+      "checksums": {
+        "sha256": "25947aef6c52a1ada2f53d73d8e71ee2e79398977f2f6f46e9f95886a917b085"
+      }
+    },
     "16.0.2": {
       "url": "https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_aarch64_linux_16.0.2_7_openj9-0.27.0.tar.gz",
       "checksums": {
@@ -5934,6 +5940,12 @@
       "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.15/ibm-semeru-open-jdk_aarch64_linux_11.0.32.15.tar.gz",
       "checksums": {
         "sha256": "4249b6dcc9de4a69285f79ffceb0b309ddba7068a8b4900d49e79a0db856f91e"
+      }
+    },
+    "11.0.33.0": {
+      "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.33.0/ibm-semeru-open-jdk_aarch64_linux_11.0.33.0.tar.gz",
+      "checksums": {
+        "sha256": "25947aef6c52a1ada2f53d73d8e71ee2e79398977f2f6f46e9f95886a917b085"
       }
     }
   },

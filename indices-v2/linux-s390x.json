@@ -3232,6 +3232,12 @@
         "sha256": "64cae94efe8e58ad76d9e900d7395a1a5cd0ed3115b9b148a3f2b1ef073226e4"
       }
     },
+    "11.0.33.0": {
+      "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.33.0/ibm-semeru-open-jdk_s390x_linux_11.0.33.0.tar.gz",
+      "checksums": {
+        "sha256": "8a006c70e7f5e735e61fed897c20777ebe1a20b5bdab304c30a65b08ad50e176"
+      }
+    },
     "16.0.2": {
       "url": "https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_s390x_linux_16.0.2_7_openj9-0.27.0.tar.gz",
       "checksums": {
@@ -3802,6 +3808,12 @@
       "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.15/ibm-semeru-open-jdk_s390x_linux_11.0.32.15.tar.gz",
       "checksums": {
         "sha256": "64cae94efe8e58ad76d9e900d7395a1a5cd0ed3115b9b148a3f2b1ef073226e4"
+      }
+    },
+    "11.0.33.0": {
+      "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.33.0/ibm-semeru-open-jdk_s390x_linux_11.0.33.0.tar.gz",
+      "checksums": {
+        "sha256": "8a006c70e7f5e735e61fed897c20777ebe1a20b5bdab304c30a65b08ad50e176"
       }
     }
   },
