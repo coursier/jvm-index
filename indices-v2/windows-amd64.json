@@ -5524,6 +5524,12 @@
         "sha256": "14ec17aea2f1a7014cad6bb29ec0451c54c7367e7714c4fc214cb1da245e1d60"
       }
     },
+    "11.0.33.0": {
+      "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.33.0/ibm-semeru-open-jdk_x64_windows_11.0.33.0.zip",
+      "checksums": {
+        "sha256": "b699add8dfb44168e1ad396f1526173d079709521df650fffbd384ba3787a8d9"
+      }
+    },
     "16.0.2": {
       "url": "https://github.com/ibmruntimes/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_16.0.2_7_openj9-0.27.0.zip",
       "checksums": {
@@ -6094,6 +6100,12 @@
       "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.15/ibm-semeru-open-jdk_x64_windows_11.0.32.15.zip",
       "checksums": {
         "sha256": "14ec17aea2f1a7014cad6bb29ec0451c54c7367e7714c4fc214cb1da245e1d60"
+      }
+    },
+    "11.0.33.0": {
+      "url": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.33.0/ibm-semeru-open-jdk_x64_windows_11.0.33.0.zip",
+      "checksums": {
+        "sha256": "b699add8dfb44168e1ad396f1526173d079709521df650fffbd384ba3787a8d9"
       }
     }
   },
