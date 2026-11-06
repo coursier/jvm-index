@@ -126,6 +126,12 @@
         "sha256": "c487a1c3a56588b3a32d0d07cdd526bf3d401c4b8422be772ca178bfcd647f3f"
       }
     },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "6ef5b027206691439b2dcb2fc05adc13cc7f5b6e75a08fce8f75ee188adc7751"
+      }
+    },
     "17.0.0": {
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_aarch64_mac_hotspot_17_35.tar.gz",
       "checksums": {
@@ -684,6 +690,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
       "checksums": {
         "sha256": "9d76d958ed2ce777627ff94a50e96b8f86540563539e6465e2fa049a397ead75"
+      }
+    },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "827cf13c3f947bf4aab40ef44b3e6ff02ddeeefd18f6bf1a2d26e0fd60f918d5"
       }
     },
     "17.0.0": {
@@ -1246,6 +1258,12 @@
         "sha256": "4fb215c85ab144e0bf34e28c6edd126a3d60af9c3e1db33406a3b1d3e8bcec5e"
       }
     },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "febbce3fa44cc26967d118900483080507afea5c7fc1ab52159ac3cb8715cb28"
+      }
+    },
     "17.0.1": {
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.1_12.tar.gz",
       "checksums": {
@@ -1762,6 +1780,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
       "checksums": {
         "sha256": "f02aafea0685e5aa0ec43650126edadba5293c0d9c84cb68eabc8dabfc671c39"
+      }
+    },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "f946b825f1f097cc17927d82da9c048487763802b4b85571979d726031c9aa8d"
       }
     },
     "17.0.0": {
@@ -11279,6 +11303,12 @@
         "sha256": "c487a1c3a56588b3a32d0d07cdd526bf3d401c4b8422be772ca178bfcd647f3f"
       }
     },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "6ef5b027206691439b2dcb2fc05adc13cc7f5b6e75a08fce8f75ee188adc7751"
+      }
+    },
     "17.0.0": {
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_aarch64_mac_hotspot_17_35.tar.gz",
       "checksums": {
@@ -11837,6 +11867,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
       "checksums": {
         "sha256": "9d76d958ed2ce777627ff94a50e96b8f86540563539e6465e2fa049a397ead75"
+      }
+    },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "827cf13c3f947bf4aab40ef44b3e6ff02ddeeefd18f6bf1a2d26e0fd60f918d5"
       }
     },
     "17.0.0": {
@@ -12399,6 +12435,12 @@
         "sha256": "4fb215c85ab144e0bf34e28c6edd126a3d60af9c3e1db33406a3b1d3e8bcec5e"
       }
     },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "febbce3fa44cc26967d118900483080507afea5c7fc1ab52159ac3cb8715cb28"
+      }
+    },
     "17.0.1": {
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.1_12.tar.gz",
       "checksums": {
@@ -12915,6 +12957,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
       "checksums": {
         "sha256": "f02aafea0685e5aa0ec43650126edadba5293c0d9c84cb68eabc8dabfc671c39"
+      }
+    },
+    "11.0.33": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+      "checksums": {
+        "sha256": "f946b825f1f097cc17927d82da9c048487763802b4b85571979d726031c9aa8d"
       }
     },
     "17.0.0": {
