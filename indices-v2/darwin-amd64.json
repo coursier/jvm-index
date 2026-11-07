@@ -12779,6 +12779,12 @@
         "sha1": "a6bb725ba4b83e59d8491dd99ece6c667e8997ca"
       }
     },
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-openjdk17.0.21.0.3+6-23.0.14+1-macos-amd64.zip",
+      "checksums": {
+        "sha1": "ea607cf0673c1e009051ea9524715a98e5a1b44d"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-openjdk20.0.1+10-23.0.0+1-macos-amd64.zip",
       "checksums": {
@@ -12875,6 +12881,12 @@
         "sha1": "64a569f6da99815c5b8854d9a829e793360fbb7e"
       }
     },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-openjdk21.0.13.0.3+6-23.1.13+1-macos-amd64.zip",
+      "checksums": {
+        "sha1": "bdec6092f20690aa844d16f272e663428446c5a4"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-openjdk22+37-24.0.0+1-macos-amd64.zip",
       "checksums": {
@@ -12963,6 +12975,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4.1+1-25.0.4.1+2/bellsoft-liberica-vm-openjdk25.0.4.1+2-25.0.4.1+1-macos-amd64.zip",
       "checksums": {
         "sha1": "ddefbcdc766481d3db08dcd239f8cdacd2c85430"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-openjdk25.0.5.0.3+6-25.0.5.0.3+1-macos-amd64.zip",
+      "checksums": {
+        "sha1": "72c37f9b89f7843fe20f481375a855e5148213af"
       }
     }
   },
@@ -13201,6 +13219,12 @@
         "sha1": "3bc9d429cad325395c23d589c8b4afe18dd28720"
       }
     },
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-core-openjdk17.0.21.0.3+6-23.0.14+1-macos-amd64.zip",
+      "checksums": {
+        "sha1": "c78c912ecf95b96a9415aec6787454024ef1a4dd"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-core-openjdk20.0.1+10-23.0.0+1-macos-amd64.zip",
       "checksums": {
@@ -13295,6 +13319,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12.1+1-21.0.12.1+2/bellsoft-liberica-vm-core-openjdk21.0.12.1+2-23.1.12.1+1-macos-amd64.zip",
       "checksums": {
         "sha1": "1d491f463204dedb644019a704a54b3bd967b4ce"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-core-openjdk21.0.13.0.3+6-23.1.13+1-macos-amd64.zip",
+      "checksums": {
+        "sha1": "c0ad93e21bf709f79e66750efe84cde951fbd555"
       }
     }
   },
@@ -13509,6 +13539,12 @@
         "sha1": "46477307bbd9316ef1ede918d5be1ca394bb84ea"
       }
     },
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-full-openjdk17.0.21.0.3+6-23.0.14+1-macos-amd64.zip",
+      "checksums": {
+        "sha1": "25a6cc64664a89b5c0f06593e3f39977577e6197"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-full-openjdk20.0.1+10-23.0.0+1-macos-amd64.zip",
       "checksums": {
@@ -13605,6 +13641,12 @@
         "sha1": "387b286576621d7f839c81eb103823f2ae32592f"
       }
     },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-full-openjdk21.0.13.0.3+6-23.1.13+1-macos-amd64.zip",
+      "checksums": {
+        "sha1": "bf1dcd31570cea7b0a284dcca16ecd24dfb1bdfd"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-full-openjdk22+37-24.0.0+1-macos-amd64.zip",
       "checksums": {
@@ -13693,6 +13735,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4.1+1-25.0.4.1+2/bellsoft-liberica-vm-full-openjdk25.0.4.1+2-25.0.4.1+1-macos-amd64.zip",
       "checksums": {
         "sha1": "e8f97055c18b5628928e6012753f32f95e4f021a"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-full-openjdk25.0.5.0.3+6-25.0.5.0.3+1-macos-amd64.zip",
+      "checksums": {
+        "sha1": "83fdae6c2e90879af6d6b56f9097351acf2049d7"
       }
     }
   },
@@ -17296,9 +17344,9 @@
       }
     },
     "8.0.512": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jdk8.0.512-macosx_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-jdk8.0.512-macosx_x64.tar.gz",
       "checksums": {
-        "sha256": "1f784fdee4a70970a102262fd34e6da8ab1d9755b3477a2c45906ddd8d290914"
+        "sha256": "899e3fef1f60a4792d59b2ba81832176aed8fa4f549fdc0c2ee7fd225fc21c28"
       }
     },
     "9.0.0": {
@@ -17536,9 +17584,9 @@
       }
     },
     "11.0.33": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jdk11.0.33-macosx_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.113-ca-jdk11.0.33-macosx_x64.tar.gz",
       "checksums": {
-        "sha256": "ae69ef573c3ad76294f079026775b3b5c70a5fa94fd2f4fccacfaf4b80ed7c13"
+        "sha256": "21d131d8893ed14c2404ac972fd062834553a93ead42aa27b3d4e3cf190c6d08"
       }
     },
     "12.0.0": {
@@ -17878,9 +17926,9 @@
       }
     },
     "17.0.21": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jdk17.0.21-macosx_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-macosx_x64.tar.gz",
       "checksums": {
-        "sha256": "2af1c17d9b2ba530328e52946fe3d4864c0670844918a1dbfb644eb2e2e3e08e"
+        "sha256": "6de9a31bd21c09b787781ce90d5791168b522c2213571d742141e610b81ff7fd"
       }
     },
     "18.0.0": {
@@ -18016,9 +18064,9 @@
       }
     },
     "21.0.13": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jdk21.0.13-macosx_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-macosx_x64.tar.gz",
       "checksums": {
-        "sha256": "a6211ef2de128e72519556ea24c7ecb316ec5589b6ed705aef81c889b4233581"
+        "sha256": "c7364c19e1d941b71951b754481851cfad31f7d99e0e3a0636d79f1c63a3559b"
       }
     },
     "22.0.0": {
@@ -18106,9 +18154,9 @@
       }
     },
     "25.0.5": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jdk25.0.5-macosx_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jdk25.0.5.0.3-macosx_x64.tar.gz",
       "checksums": {
-        "sha256": "d9e9bc4cbe0872e8f71db818d6874878115efebdbd1a93f38542c521353bc81d"
+        "sha256": "7dd987fef4e9623a84365289456bb20d7371b94a0b1e558365b7f54d157759b2"
       }
     },
     "26.0.0": {
@@ -18136,9 +18184,9 @@
       }
     },
     "27.0.1": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jdk27.0.1-macosx_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jdk27.0.1.0.3-macosx_x64.tar.gz",
       "checksums": {
-        "sha256": "6cf97c408250223a9e1237da4779e04db24b075d04c6b2f1a23e273bc44ced3d"
+        "sha256": "88cf4b1d04ed677d88e53716fb0c960b89917a0234cea6555ba9aa5d37961b83"
       }
     }
   },
@@ -18420,9 +18468,9 @@
       }
     },
     "8.0.512": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jre8.0.512-macosx_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-jre8.0.512-macosx_x64.tar.gz",
       "checksums": {
-        "sha256": "982152b352a7ff6850800984b7d801bf031df23f8713d3c777d7137c0baf9ded"
+        "sha256": "a420fa51f4a1ba464369c8e5e7e44576a7e5f91887b725649d5bf1b99a566567"
       }
     },
     "9.0.0": {
@@ -18612,9 +18660,9 @@
       }
     },
     "11.0.33": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jre11.0.33-macosx_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.113-ca-jre11.0.33-macosx_x64.tar.gz",
       "checksums": {
-        "sha256": "903dc6d3020dad9c3120fdb88e8053b2552b13935bc626c397d199b8372be297"
+        "sha256": "6d9045fdc9fe58e0d16d640db37285a0d5b0256c87166c3990c0873a0dc87d35"
       }
     },
     "13.0.1": {
@@ -18924,9 +18972,9 @@
       }
     },
     "17.0.21": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jre17.0.21-macosx_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jre17.0.21.0.3-macosx_x64.tar.gz",
       "checksums": {
-        "sha256": "f2fc9ef10a9dbf1dc7860d0742efb4aba422473633400fef7afbf3ac01a27fe8"
+        "sha256": "362a6c8ae059c3d7080f9c14b133bd317626d38e96c7dd98f0bb4632d1e1b637"
       }
     },
     "18.0.0": {
@@ -19062,9 +19110,9 @@
       }
     },
     "21.0.13": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jre21.0.13-macosx_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jre21.0.13.0.3-macosx_x64.tar.gz",
       "checksums": {
-        "sha256": "10c993c08c0d3dd22646d06e8301428f4207b05681455db2d086f9202d58cb69"
+        "sha256": "f7e28bc4999b62365151599f43835142c3fbefdded634dac8b7e8d487b58273e"
       }
     },
     "22.0.0": {
@@ -19152,9 +19200,9 @@
       }
     },
     "25.0.5": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jre25.0.5-macosx_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jre25.0.5.0.3-macosx_x64.tar.gz",
       "checksums": {
-        "sha256": "bcc4f5b6b9c3257073e19ee427951ea923fcbd6c013e2ff7f94ec87481ea73a7"
+        "sha256": "0be1492faf27424d045e05d5f599661d7f11f4d1937b58feeeb8e246dc91f729"
       }
     },
     "26.0.0": {
@@ -19182,9 +19230,9 @@
       }
     },
     "27.0.1": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jre27.0.1-macosx_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jre27.0.1.0.3-macosx_x64.tar.gz",
       "checksums": {
-        "sha256": "039c6e81a9e251b5133f48dcb4369758a89eb9c0c00aa2721dc9fada837496b2"
+        "sha256": "8c7c3004ece4ca8aa74407f8a8a4a9962da85416c9feb9b4c5e92c50eb2b0590"
       }
     }
   }
