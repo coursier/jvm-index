@@ -12870,6 +12870,12 @@
         "sha1": "1943b83b8ac5307ea74c28cd3239da35f54acca1"
       }
     },
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-openjdk17.0.21.0.3+6-23.0.14+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "4c7a6e63d5a1c97ba275970bbe1f2596f0fc8e23"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-openjdk20.0.1+10-23.0.0+1-windows-amd64.zip",
       "checksums": {
@@ -12966,6 +12972,12 @@
         "sha1": "149c111b456099aacb37ca42306828ccdae63f18"
       }
     },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-openjdk21.0.13.0.3+6-23.1.13+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "13019631ae7211dd269e4bd55a3d12bec22a95c6"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-openjdk22+37-24.0.0+1-windows-amd64.zip",
       "checksums": {
@@ -13054,6 +13066,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4.1+1-25.0.4.1+2/bellsoft-liberica-vm-openjdk25.0.4.1+2-25.0.4.1+1-windows-amd64.zip",
       "checksums": {
         "sha1": "cf8e930dcc6d175323cc79073da67a19ace916e6"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-openjdk25.0.5.0.3+6-25.0.5.0.3+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "c3a7ef1b5f937cd895ebc78a5816da07e0f4c8eb"
       }
     }
   },
@@ -13292,6 +13310,12 @@
         "sha1": "8418ab4bd0c51329ce472ae3c85393b6cb69233b"
       }
     },
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-core-openjdk17.0.21.0.3+6-23.0.14+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "3bed780b4f3c03b6d2a99abd542f4cd73f94659f"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-core-openjdk20.0.1+10-23.0.0+1-windows-amd64.zip",
       "checksums": {
@@ -13386,6 +13410,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12.1+1-21.0.12.1+2/bellsoft-liberica-vm-core-openjdk21.0.12.1+2-23.1.12.1+1-windows-amd64.zip",
       "checksums": {
         "sha1": "3dd5187b199c00fdcc0a70673bb6b630b2f50ab0"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-core-openjdk21.0.13.0.3+6-23.1.13+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "ffc122f6bb66df162a391ad03a539bbc6cee6890"
       }
     }
   },
@@ -13612,6 +13642,12 @@
         "sha1": "6eaacb9d1e17ee86452f439d28009320654fb519"
       }
     },
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-full-openjdk17.0.21.0.3+6-23.0.14+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "a60b3b60157fa486dc9ff19abb3459e9bce777e9"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-full-openjdk20.0.1+10-23.0.0+1-windows-amd64.zip",
       "checksums": {
@@ -13708,6 +13744,12 @@
         "sha1": "5a2c89ea3c545eac1fc52a3a76768caf524a6728"
       }
     },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-full-openjdk21.0.13.0.3+6-23.1.13+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "22ab2b9af4ce7c5506e36b3c18020fe78a2beac4"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-full-openjdk22+37-24.0.0+1-windows-amd64.zip",
       "checksums": {
@@ -13796,6 +13838,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4.1+1-25.0.4.1+2/bellsoft-liberica-vm-full-openjdk25.0.4.1+2-25.0.4.1+1-windows-amd64.zip",
       "checksums": {
         "sha1": "0532bd5512bcc8b07056c90057eb413ec5fae7df"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-full-openjdk25.0.5.0.3+6-25.0.5.0.3+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "62de045f7cdbf4a66cccb735e6e4f11195e42395"
       }
     }
   },
@@ -17579,9 +17627,9 @@
       }
     },
     "8.0.512": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jdk8.0.512-win_x64.zip",
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-jdk8.0.512-win_x64.zip",
       "checksums": {
-        "sha256": "9284148d71bff3b34d678a5159bb5688a062f5084ef14abb3daea0a173bb0bf2"
+        "sha256": "68549cc971a00e4407de1cef569c0851c8dee00c71eab461fe9ca62684bb161b"
       }
     },
     "9.0.0": {
@@ -17819,9 +17867,9 @@
       }
     },
     "11.0.33": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jdk11.0.33-win_x64.zip",
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.113-ca-jdk11.0.33-win_x64.zip",
       "checksums": {
-        "sha256": "fdc77ff97cca003a15b680d0782f0de9063199bbb37b6a645e20bc3ccfcda323"
+        "sha256": "64cf7ed74a5d883ac4ce22ab6144cae9bf058d81f06544f0f928011735b0cbb8"
       }
     },
     "12.0.0": {
@@ -18161,9 +18209,9 @@
       }
     },
     "17.0.21": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jdk17.0.21-win_x64.zip",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-win_x64.zip",
       "checksums": {
-        "sha256": "ed209ff4293ff581c81d3b4268faf108fbe610e6ed43883de9e5f04308d68a72"
+        "sha256": "612efab667042036ad2e4da138cf690680e3cb99b5731c3b27ca00ffb0128230"
       }
     },
     "18.0.0": {
@@ -18299,9 +18347,9 @@
       }
     },
     "21.0.13": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jdk21.0.13-win_x64.zip",
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-win_x64.zip",
       "checksums": {
-        "sha256": "69e9fd7afafe0d70235884f8d9ab15cf8a4b43215b27900d710841e1fb3c7126"
+        "sha256": "7428890c66267aac516514085745dbedc6b8e7703eb0f7d73fb65cf9cd2cf306"
       }
     },
     "22.0.0": {
@@ -18389,9 +18437,9 @@
       }
     },
     "25.0.5": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jdk25.0.5-win_x64.zip",
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jdk25.0.5.0.3-win_x64.zip",
       "checksums": {
-        "sha256": "636341b426cbeb02b4a30f5fe073a44d0ef64a2f91d077855e8d20f807471bf8"
+        "sha256": "792e1454a4abdd8379bb335f3f284652487cbb4113c92962312080b5bc661f72"
       }
     },
     "26.0.0": {
@@ -18419,9 +18467,9 @@
       }
     },
     "27.0.1": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jdk27.0.1-win_x64.zip",
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jdk27.0.1.0.3-win_x64.zip",
       "checksums": {
-        "sha256": "1ceeca99240959cb40325183b067b6c6c82d708f971f4ecc26420a6d914fed9c"
+        "sha256": "70e0aff2bfc1a9468ef464f97c96b295188c15f5a6f7fec3429a4b924b8b338d"
       }
     }
   },
@@ -18631,9 +18679,9 @@
       }
     },
     "8.0.512": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jre8.0.512-win_x64.zip",
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-jre8.0.512-win_x64.zip",
       "checksums": {
-        "sha256": "885eb900690de5041597ca19972cbed85dc282b01d12b8ae6af91c85d484034c"
+        "sha256": "a07b4d154aebe5ea610fa6caa5bcaa2a858b3ae5c5b13d9162aa0f98675b26b1"
       }
     },
     "11.0.3": {
@@ -18817,9 +18865,9 @@
       }
     },
     "11.0.33": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jre11.0.33-win_x64.zip",
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.113-ca-jre11.0.33-win_x64.zip",
       "checksums": {
-        "sha256": "8fc1c179d5c31bf247ffceb0a028f7dde6c39693e2e547e321a67028913fc6a1"
+        "sha256": "664ed5612a7d641bca83749486b2485b6cc0d0966375829d0c9a7cee52a97f43"
       }
     },
     "12.0.0": {
@@ -19135,9 +19183,9 @@
       }
     },
     "17.0.21": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jre17.0.21-win_x64.zip",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jre17.0.21.0.3-win_x64.zip",
       "checksums": {
-        "sha256": "124ebc6c81dbb2b4c4c65bdf99c75300d0ee0354118f7e856705ff421055335f"
+        "sha256": "c5a32fe9b1d2ff07ac4991b57a72d707ad97d54a9cc1bd2f8f005bfd1498d460"
       }
     },
     "18.0.0": {
@@ -19273,9 +19321,9 @@
       }
     },
     "21.0.13": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jre21.0.13-win_x64.zip",
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jre21.0.13.0.3-win_x64.zip",
       "checksums": {
-        "sha256": "9532e56bcf2578b4bbb82507c4e38a17c0332c5918ff6c8b25cd2f71abf42cf9"
+        "sha256": "3a01d4e2eaab87bee5fdccae051fc3dc2c4dd655c04b942aa8ff7a74aab314c4"
       }
     },
     "22.0.0": {
@@ -19363,9 +19411,9 @@
       }
     },
     "25.0.5": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jre25.0.5-win_x64.zip",
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jre25.0.5.0.3-win_x64.zip",
       "checksums": {
-        "sha256": "0aee5f9816045d4f33207f266102d25ac7ab83b24506798130f8649d01196aac"
+        "sha256": "34ce17a0319cca98f76d1d4e7bc9e5bb13c5d76744a70cdbb82a2edcfd31f8d1"
       }
     },
     "26.0.0": {
@@ -19393,9 +19441,9 @@
       }
     },
     "27.0.1": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jre27.0.1-win_x64.zip",
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jre27.0.1.0.3-win_x64.zip",
       "checksums": {
-        "sha256": "9340bdd7f7f024ea0fbc5f9cf1b0cca27d84f1d618690b436c2acfdac430fd7d"
+        "sha256": "03af310a08159d89280bf0e0b22eb0a72ab3d58394b09bc0ea6eeb0fe5c6a25d"
       }
     }
   }

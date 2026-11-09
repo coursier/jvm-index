@@ -1702,6 +1702,7 @@
     "17.0.19": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.12+1-17.0.19+12/bellsoft-liberica-vm-openjdk17.0.19+12-23.0.12+1-macos-aarch64.zip",
     "17.0.20": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.13+1-17.0.20+11/bellsoft-liberica-vm-openjdk17.0.20+11-23.0.13+1-macos-aarch64.zip",
     "17.0.20.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.13.1+1-17.0.20.1+2/bellsoft-liberica-vm-openjdk17.0.20.1+2-23.0.13.1+1-macos-aarch64.zip",
+    "17.0.21.0.3": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-openjdk17.0.21.0.3+6-23.0.14+1-macos-aarch64.zip",
     "20.0.1": "zip+https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-openjdk20.0.1+10-23.0.0+1-macos-aarch64.zip",
     "20.0.2": "zip+https://download.bell-sw.com/vm/23.0.1/bellsoft-liberica-vm-openjdk20.0.2+10-23.0.1+1-macos-aarch64.zip",
     "21.0.0": "zip+https://download.bell-sw.com/vm/23.1.0/bellsoft-liberica-vm-openjdk21+37-23.1.0+1-macos-aarch64.zip",
@@ -1718,6 +1719,7 @@
     "21.0.11": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.11+1-21.0.11+12/bellsoft-liberica-vm-openjdk21.0.11+12-23.1.11+1-macos-aarch64.zip",
     "21.0.12": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12+1-21.0.12+11/bellsoft-liberica-vm-openjdk21.0.12+11-23.1.12+1-macos-aarch64.zip",
     "21.0.12.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12.1+1-21.0.12.1+2/bellsoft-liberica-vm-openjdk21.0.12.1+2-23.1.12.1+1-macos-aarch64.zip",
+    "21.0.13.0.3": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-openjdk21.0.13.0.3+6-23.1.13+1-macos-aarch64.zip",
     "22.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-openjdk22+37-24.0.0+1-macos-aarch64.zip",
     "22.0.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.1+1-22.0.1+10/bellsoft-liberica-vm-openjdk22.0.1+10-24.0.1+1-macos-aarch64.zip",
     "22.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.2+1-22.0.2+11/bellsoft-liberica-vm-openjdk22.0.2+11-24.0.2+1-macos-aarch64.zip",
@@ -1732,7 +1734,8 @@
     "25.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.2+1-25.0.2+13/bellsoft-liberica-vm-openjdk25.0.2+13-25.0.2+1-macos-aarch64.zip",
     "25.0.3": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.3+1-25.0.3+12/bellsoft-liberica-vm-openjdk25.0.3+12-25.0.3+1-macos-aarch64.zip",
     "25.0.4": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4+1-25.0.4+10/bellsoft-liberica-vm-openjdk25.0.4+10-25.0.4+1-macos-aarch64.zip",
-    "25.0.4.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4.1+1-25.0.4.1+2/bellsoft-liberica-vm-openjdk25.0.4.1+2-25.0.4.1+1-macos-aarch64.zip"
+    "25.0.4.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4.1+1-25.0.4.1+2/bellsoft-liberica-vm-openjdk25.0.4.1+2-25.0.4.1+1-macos-aarch64.zip",
+    "25.0.5.0.3": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-openjdk25.0.5.0.3+6-25.0.5.0.3+1-macos-aarch64.zip"
   },
   "liberica-nik-core": {
     "11.0.16": "zip+https://download.bell-sw.com/vm/22.2.0/bellsoft-liberica-vm-core-openjdk11.0.16+8-22.2.0+2-macos-aarch64.zip",
@@ -1764,6 +1767,7 @@
     "17.0.19": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.12+1-17.0.19+12/bellsoft-liberica-vm-core-openjdk17.0.19+12-23.0.12+1-macos-aarch64.zip",
     "17.0.20": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.13+1-17.0.20+11/bellsoft-liberica-vm-core-openjdk17.0.20+11-23.0.13+1-macos-aarch64.zip",
     "17.0.20.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.13.1+1-17.0.20.1+2/bellsoft-liberica-vm-core-openjdk17.0.20.1+2-23.0.13.1+1-macos-aarch64.zip",
+    "17.0.21.0.3": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-core-openjdk17.0.21.0.3+6-23.0.14+1-macos-aarch64.zip",
     "20.0.1": "zip+https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-core-openjdk20.0.1+10-23.0.0+1-macos-aarch64.zip",
     "20.0.2": "zip+https://download.bell-sw.com/vm/23.0.1/bellsoft-liberica-vm-core-openjdk20.0.2+10-23.0.1+1-macos-aarch64.zip",
     "21.0.0": "zip+https://download.bell-sw.com/vm/23.1.0/bellsoft-liberica-vm-core-openjdk21+37-23.1.0+1-macos-aarch64.zip",
@@ -1779,7 +1783,8 @@
     "21.0.10": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.10+1-21.0.10+11/bellsoft-liberica-vm-core-openjdk21.0.10+11-23.1.10+1-macos-aarch64.zip",
     "21.0.11": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.11+1-21.0.11+12/bellsoft-liberica-vm-core-openjdk21.0.11+12-23.1.11+1-macos-aarch64.zip",
     "21.0.12": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12+1-21.0.12+11/bellsoft-liberica-vm-core-openjdk21.0.12+11-23.1.12+1-macos-aarch64.zip",
-    "21.0.12.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12.1+1-21.0.12.1+2/bellsoft-liberica-vm-core-openjdk21.0.12.1+2-23.1.12.1+1-macos-aarch64.zip"
+    "21.0.12.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12.1+1-21.0.12.1+2/bellsoft-liberica-vm-core-openjdk21.0.12.1+2-23.1.12.1+1-macos-aarch64.zip",
+    "21.0.13.0.3": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-core-openjdk21.0.13.0.3+6-23.1.13+1-macos-aarch64.zip"
   },
   "liberica-nik-full": {
     "11.0.16": "zip+https://download.bell-sw.com/vm/22.2.0/bellsoft-liberica-vm-full-openjdk11.0.16+8-22.2.0+2-macos-aarch64.zip",
@@ -1811,6 +1816,7 @@
     "17.0.19": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.12+1-17.0.19+12/bellsoft-liberica-vm-full-openjdk17.0.19+12-23.0.12+1-macos-aarch64.zip",
     "17.0.20": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.13+1-17.0.20+11/bellsoft-liberica-vm-full-openjdk17.0.20+11-23.0.13+1-macos-aarch64.zip",
     "17.0.20.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.13.1+1-17.0.20.1+2/bellsoft-liberica-vm-full-openjdk17.0.20.1+2-23.0.13.1+1-macos-aarch64.zip",
+    "17.0.21.0.3": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-full-openjdk17.0.21.0.3+6-23.0.14+1-macos-aarch64.zip",
     "20.0.1": "zip+https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-full-openjdk20.0.1+10-23.0.0+1-macos-aarch64.zip",
     "20.0.2": "zip+https://download.bell-sw.com/vm/23.0.1/bellsoft-liberica-vm-full-openjdk20.0.2+10-23.0.1+1-macos-aarch64.zip",
     "21.0.0": "zip+https://download.bell-sw.com/vm/23.1.0/bellsoft-liberica-vm-full-openjdk21+37-23.1.0+1-macos-aarch64.zip",
@@ -1827,6 +1833,7 @@
     "21.0.11": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.11+1-21.0.11+12/bellsoft-liberica-vm-full-openjdk21.0.11+12-23.1.11+1-macos-aarch64.zip",
     "21.0.12": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12+1-21.0.12+11/bellsoft-liberica-vm-full-openjdk21.0.12+11-23.1.12+1-macos-aarch64.zip",
     "21.0.12.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12.1+1-21.0.12.1+2/bellsoft-liberica-vm-full-openjdk21.0.12.1+2-23.1.12.1+1-macos-aarch64.zip",
+    "21.0.13.0.3": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-full-openjdk21.0.13.0.3+6-23.1.13+1-macos-aarch64.zip",
     "22.0.0": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-full-openjdk22+37-24.0.0+1-macos-aarch64.zip",
     "22.0.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.1+1-22.0.1+10/bellsoft-liberica-vm-full-openjdk22.0.1+10-24.0.1+1-macos-aarch64.zip",
     "22.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.2+1-22.0.2+11/bellsoft-liberica-vm-full-openjdk22.0.2+11-24.0.2+1-macos-aarch64.zip",
@@ -1841,7 +1848,8 @@
     "25.0.2": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.2+1-25.0.2+13/bellsoft-liberica-vm-full-openjdk25.0.2+13-25.0.2+1-macos-aarch64.zip",
     "25.0.3": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.3+1-25.0.3+12/bellsoft-liberica-vm-full-openjdk25.0.3+12-25.0.3+1-macos-aarch64.zip",
     "25.0.4": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4+1-25.0.4+10/bellsoft-liberica-vm-full-openjdk25.0.4+10-25.0.4+1-macos-aarch64.zip",
-    "25.0.4.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4.1+1-25.0.4.1+2/bellsoft-liberica-vm-full-openjdk25.0.4.1+2-25.0.4.1+1-macos-aarch64.zip"
+    "25.0.4.1": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4.1+1-25.0.4.1+2/bellsoft-liberica-vm-full-openjdk25.0.4.1+2-25.0.4.1+1-macos-aarch64.zip",
+    "25.0.5.0.3": "zip+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-full-openjdk25.0.5.0.3+6-25.0.5.0.3+1-macos-aarch64.zip"
   },
   "microsoft-openjdk": {
     "11.0.15": "tgz+https://aka.ms/download-jdk/microsoft-jdk-11.0.15-macOS-aarch64.tar.gz",
@@ -2303,7 +2311,7 @@
     "8.0.492": "tgz+https://cdn.azul.com/zulu/bin/zulu8.94.0.17-ca-jdk8.0.492-macosx_aarch64.tar.gz",
     "8.0.502": "tgz+https://cdn.azul.com/zulu/bin/zulu8.96.0.19-ca-jdk8.0.502-macosx_aarch64.tar.gz",
     "8.0.504": "tgz+https://cdn.azul.com/zulu/bin/zulu8.96.0.205-ca-jdk8.0.504-macosx_aarch64.tar.gz",
-    "8.0.512": "tgz+https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jdk8.0.512-macosx_aarch64.tar.gz",
+    "8.0.512": "tgz+https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-jdk8.0.512-macosx_aarch64.tar.gz",
     "11.0.9": "tgz+https://cdn.azul.com/zulu/bin/zulu11.43.1015-ca-jdk11.0.9.1-macos_aarch64.tar.gz",
     "11.0.10": "tgz+https://cdn.azul.com/zulu/bin/zulu11.45.27-ca-jdk11.0.10-macosx_aarch64.tar.gz",
     "11.0.11": "tgz+https://cdn.azul.com/zulu/bin/zulu11.48.21-ca-jdk11.0.11-macosx_aarch64.tar.gz",
@@ -2328,7 +2336,7 @@
     "11.0.30": "tgz+https://cdn.azul.com/zulu/bin/zulu11.86.19-ca-jdk11.0.30-macosx_aarch64.tar.gz",
     "11.0.31": "tgz+https://cdn.azul.com/zulu/bin/zulu11.88.17-ca-jdk11.0.31-macosx_aarch64.tar.gz",
     "11.0.32": "tgz+https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jdk11.0.32-macosx_aarch64.tar.gz",
-    "11.0.33": "tgz+https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jdk11.0.33-macosx_aarch64.tar.gz",
+    "11.0.33": "tgz+https://cdn.azul.com/zulu/bin/zulu11.92.113-ca-jdk11.0.33-macosx_aarch64.tar.gz",
     "13.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu13.35.1017-ca-jdk13.0.5.1-macos_aarch64.tar.gz",
     "13.0.6": "tgz+https://cdn.azul.com/zulu/bin/zulu13.37.21-ca-jdk13.0.6-macosx_aarch64.tar.gz",
     "13.0.7": "tgz+https://cdn.azul.com/zulu/bin/zulu13.40.15-ca-jdk13.0.7-macosx_aarch64.tar.gz",
@@ -2373,7 +2381,7 @@
     "17.0.18": "tgz+https://cdn.azul.com/zulu/bin/zulu17.64.15-ca-jdk17.0.18-macosx_aarch64.tar.gz",
     "17.0.19": "tgz+https://cdn.azul.com/zulu/bin/zulu17.66.19-ca-crac-jdk17.0.19-macosx_aarch64.tar.gz",
     "17.0.20": "tgz+https://cdn.azul.com/zulu/bin/zulu17.68.17-ca-jdk17.0.20-macosx_aarch64.tar.gz",
-    "17.0.21": "tgz+https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jdk17.0.21-macosx_aarch64.tar.gz",
+    "17.0.21": "tgz+https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-macosx_aarch64.tar.gz",
     "18.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jdk18.0.0-macosx_aarch64.tar.gz",
     "18.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu18.30.11-ca-jdk18.0.1-macosx_aarch64.tar.gz",
     "18.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jdk18.0.2-macosx_aarch64.tar.gz",
@@ -2396,7 +2404,7 @@
     "21.0.10": "tgz+https://cdn.azul.com/zulu/bin/zulu21.48.15-ca-jdk21.0.10-macosx_aarch64.tar.gz",
     "21.0.11": "tgz+https://cdn.azul.com/zulu/bin/zulu21.50.19-ca-crac-jdk21.0.11-macosx_aarch64.tar.gz",
     "21.0.12": "tgz+https://cdn.azul.com/zulu/bin/zulu21.52.15-ca-jdk21.0.12-macosx_aarch64.tar.gz",
-    "21.0.13": "tgz+https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jdk21.0.13-macosx_aarch64.tar.gz",
+    "21.0.13": "tgz+https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-macosx_aarch64.tar.gz",
     "22.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jdk22.0.0-macosx_aarch64.tar.gz",
     "22.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jdk22.0.1-macosx_aarch64.tar.gz",
     "22.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu22.32.17-ca-crac-jdk22.0.2-macosx_aarch64.tar.gz",
@@ -2411,12 +2419,12 @@
     "25.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu25.32.17-ca-jdk25.0.2-macosx_aarch64.tar.gz",
     "25.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu25.34.17-ca-crac-jdk25.0.3-macosx_aarch64.tar.gz",
     "25.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu25.36.15-ca-jdk25.0.4-macosx_aarch64.tar.gz",
-    "25.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jdk25.0.5-macosx_aarch64.tar.gz",
+    "25.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jdk25.0.5.0.3-macosx_aarch64.tar.gz",
     "26.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu26.28.59-ca-jdk26.0.0-macosx_aarch64.tar.gz",
     "26.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu26.30.11-ca-jdk26.0.1-macosx_aarch64.tar.gz",
     "26.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu26.32.13-ca-jdk26.0.2-macosx_aarch64.tar.gz",
     "27.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu27.28.101-ca-jdk27.0.0-macosx_aarch64.tar.gz",
-    "27.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jdk27.0.1-macosx_aarch64.tar.gz"
+    "27.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jdk27.0.1.0.3-macosx_aarch64.tar.gz"
   },
   "zulu-jre": {
     "8.0.282": "tgz+https://cdn.azul.com/zulu/bin/zulu8.52.0.23-ca-jre8.0.282-macosx_aarch64.tar.gz",
@@ -2444,7 +2452,7 @@
     "8.0.492": "tgz+https://cdn.azul.com/zulu/bin/zulu8.94.0.17-ca-jre8.0.492-macosx_aarch64.tar.gz",
     "8.0.502": "tgz+https://cdn.azul.com/zulu/bin/zulu8.96.0.19-ca-jre8.0.502-macosx_aarch64.tar.gz",
     "8.0.504": "tgz+https://cdn.azul.com/zulu/bin/zulu8.96.0.205-ca-jre8.0.504-macosx_aarch64.tar.gz",
-    "8.0.512": "tgz+https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jre8.0.512-macosx_aarch64.tar.gz",
+    "8.0.512": "tgz+https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-jre8.0.512-macosx_aarch64.tar.gz",
     "11.0.10": "tgz+https://cdn.azul.com/zulu/bin/zulu11.45.27-ca-jre11.0.10-macosx_aarch64.tar.gz",
     "11.0.11": "tgz+https://cdn.azul.com/zulu/bin/zulu11.48.21-ca-jre11.0.11-macosx_aarch64.tar.gz",
     "11.0.12": "tgz+https://cdn.azul.com/zulu/bin/zulu11.50.19-ca-jre11.0.12-macosx_aarch64.tar.gz",
@@ -2468,7 +2476,7 @@
     "11.0.30": "tgz+https://cdn.azul.com/zulu/bin/zulu11.86.19-ca-jre11.0.30-macosx_aarch64.tar.gz",
     "11.0.31": "tgz+https://cdn.azul.com/zulu/bin/zulu11.88.17-ca-jre11.0.31-macosx_aarch64.tar.gz",
     "11.0.32": "tgz+https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jre11.0.32-macosx_aarch64.tar.gz",
-    "11.0.33": "tgz+https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jre11.0.33-macosx_aarch64.tar.gz",
+    "11.0.33": "tgz+https://cdn.azul.com/zulu/bin/zulu11.92.113-ca-jre11.0.33-macosx_aarch64.tar.gz",
     "13.0.6": "tgz+https://cdn.azul.com/zulu/bin/zulu13.37.21-ca-jre13.0.6-macosx_aarch64.tar.gz",
     "13.0.7": "tgz+https://cdn.azul.com/zulu/bin/zulu13.40.15-ca-jre13.0.7-macosx_aarch64.tar.gz",
     "13.0.8": "tgz+https://cdn.azul.com/zulu/bin/zulu13.42.17-ca-jre13.0.8-macosx_aarch64.tar.gz",
@@ -2511,7 +2519,7 @@
     "17.0.18": "tgz+https://cdn.azul.com/zulu/bin/zulu17.64.15-ca-jre17.0.18-macosx_aarch64.tar.gz",
     "17.0.19": "tgz+https://cdn.azul.com/zulu/bin/zulu17.66.19-ca-jre17.0.19-macosx_aarch64.tar.gz",
     "17.0.20": "tgz+https://cdn.azul.com/zulu/bin/zulu17.68.17-ca-jre17.0.20-macosx_aarch64.tar.gz",
-    "17.0.21": "tgz+https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jre17.0.21-macosx_aarch64.tar.gz",
+    "17.0.21": "tgz+https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jre17.0.21.0.3-macosx_aarch64.tar.gz",
     "18.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jre18.0.0-macosx_aarch64.tar.gz",
     "18.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu18.30.11-ca-jre18.0.1-macosx_aarch64.tar.gz",
     "18.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu18.32.11-ca-jre18.0.2-macosx_aarch64.tar.gz",
@@ -2534,7 +2542,7 @@
     "21.0.10": "tgz+https://cdn.azul.com/zulu/bin/zulu21.48.15-ca-jre21.0.10-macosx_aarch64.tar.gz",
     "21.0.11": "tgz+https://cdn.azul.com/zulu/bin/zulu21.50.19-ca-jre21.0.11-macosx_aarch64.tar.gz",
     "21.0.12": "tgz+https://cdn.azul.com/zulu/bin/zulu21.52.15-ca-jre21.0.12-macosx_aarch64.tar.gz",
-    "21.0.13": "tgz+https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jre21.0.13-macosx_aarch64.tar.gz",
+    "21.0.13": "tgz+https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jre21.0.13.0.3-macosx_aarch64.tar.gz",
     "22.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jre22.0.0-macosx_aarch64.tar.gz",
     "22.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jre22.0.1-macosx_aarch64.tar.gz",
     "22.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu22.32.15-ca-jre22.0.2-macosx_aarch64.tar.gz",
@@ -2549,11 +2557,11 @@
     "25.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu25.32.17-ca-jre25.0.2-macosx_aarch64.tar.gz",
     "25.0.3": "tgz+https://cdn.azul.com/zulu/bin/zulu25.34.17-ca-jre25.0.3-macosx_aarch64.tar.gz",
     "25.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu25.36.15-ca-jre25.0.4-macosx_aarch64.tar.gz",
-    "25.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jre25.0.5-macosx_aarch64.tar.gz",
+    "25.0.5": "tgz+https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jre25.0.5.0.3-macosx_aarch64.tar.gz",
     "26.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu26.28.59-ca-jre26.0.0-macosx_aarch64.tar.gz",
     "26.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu26.30.11-ca-jre26.0.1-macosx_aarch64.tar.gz",
     "26.0.2": "tgz+https://cdn.azul.com/zulu/bin/zulu26.32.13-ca-jre26.0.2-macosx_aarch64.tar.gz",
     "27.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu27.28.101-ca-jre27.0.0-macosx_aarch64.tar.gz",
-    "27.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jre27.0.1-macosx_aarch64.tar.gz"
+    "27.0.1": "tgz+https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jre27.0.1.0.3-macosx_aarch64.tar.gz"
   }
 }

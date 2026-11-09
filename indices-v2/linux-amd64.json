@@ -13182,6 +13182,12 @@
         "sha1": "23edad2d1a3935caa9a013dd2418492d48a74325"
       }
     },
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-openjdk17.0.21.0.3+6-23.0.14+1-linux-amd64.tar.gz",
+      "checksums": {
+        "sha1": "2ece2d7a7080d33521becf496f970713fce7f70c"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-openjdk20.0.1+10-23.0.0+1-linux-amd64.tar.gz",
       "checksums": {
@@ -13278,6 +13284,12 @@
         "sha1": "cc0568c2ad0136b819ca15f739c2418a6c9704ac"
       }
     },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-openjdk21.0.13.0.3+6-23.1.13+1-linux-amd64.tar.gz",
+      "checksums": {
+        "sha1": "4956544d9c312c3a7adb8082e7271e0a69fb0b18"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-openjdk22+37-24.0.0+1-linux-amd64.tar.gz",
       "checksums": {
@@ -13366,6 +13378,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4.1+1-25.0.4.1+2/bellsoft-liberica-vm-openjdk25.0.4.1+2-25.0.4.1+1-linux-amd64.tar.gz",
       "checksums": {
         "sha1": "bfe1f9d2a3645c50e1b682fd3704da86c4a2193a"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-openjdk25.0.5.0.3+6-25.0.5.0.3+1-linux-amd64.tar.gz",
+      "checksums": {
+        "sha1": "5dc4128681257de454b57f3d29e0ac3745c8d56b"
       }
     }
   },
@@ -13604,6 +13622,12 @@
         "sha1": "b7ac87e226b89344068cf5bc3e4719b032c53459"
       }
     },
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-core-openjdk17.0.21.0.3+6-23.0.14+1-linux-amd64.tar.gz",
+      "checksums": {
+        "sha1": "9344e1070cc69e3d3079ee72f446ced504e295f3"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-core-openjdk20.0.1+10-23.0.0+1-linux-amd64.tar.gz",
       "checksums": {
@@ -13698,6 +13722,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12.1+1-21.0.12.1+2/bellsoft-liberica-vm-core-openjdk21.0.12.1+2-23.1.12.1+1-linux-amd64.tar.gz",
       "checksums": {
         "sha1": "5aba19039656325ee12cefd3be77f90997b88d94"
+      }
+    },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-core-openjdk21.0.13.0.3+6-23.1.13+1-linux-amd64.tar.gz",
+      "checksums": {
+        "sha1": "59a7ad4f967187f6090d7d96a10e2ff90b331072"
       }
     }
   },
@@ -13924,6 +13954,12 @@
         "sha1": "fb3112ab57f10220bd419621beca76b3b534d75c"
       }
     },
+    "17.0.21.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-full-openjdk17.0.21.0.3+6-23.0.14+1-linux-amd64.tar.gz",
+      "checksums": {
+        "sha1": "8cd0a3c5cb41a39720f546468846b8e82185da05"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-full-openjdk20.0.1+10-23.0.0+1-linux-amd64.tar.gz",
       "checksums": {
@@ -14020,6 +14056,12 @@
         "sha1": "9d86bfd61f10f10724d16bad038a233f2b709fdb"
       }
     },
+    "21.0.13.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-full-openjdk21.0.13.0.3+6-23.1.13+1-linux-amd64.tar.gz",
+      "checksums": {
+        "sha1": "09f88df7adc85f1ab3c6806fa27a358f2b436a25"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-full-openjdk22+37-24.0.0+1-linux-amd64.tar.gz",
       "checksums": {
@@ -14108,6 +14150,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4.1+1-25.0.4.1+2/bellsoft-liberica-vm-full-openjdk25.0.4.1+2-25.0.4.1+1-linux-amd64.tar.gz",
       "checksums": {
         "sha1": "3e80e57011a82e17e36b0234ee1a9d8176722fd4"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-full-openjdk25.0.5.0.3+6-25.0.5.0.3+1-linux-amd64.tar.gz",
+      "checksums": {
+        "sha1": "bb1145e197911b6ff1b9c4dad940eff818fdfae0"
       }
     }
   },
@@ -17759,9 +17807,9 @@
       }
     },
     "8.0.512": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jdk8.0.512-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-jdk8.0.512-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "f82a4cb00bbac1ddaa4e578cd6221361a45ee0e4ce51969c4109451750e5164e"
+        "sha256": "e4e262c47f1309dd7cbbca50835000e82aa7fac12afbbf0f85da7c948f598213"
       }
     },
     "9.0.0": {
@@ -17999,9 +18047,9 @@
       }
     },
     "11.0.33": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jdk11.0.33-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.113-ca-jdk11.0.33-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "64658a2be5140c2ffd571c0e09ac3b505a2be0d4654e09957b584b54b4dac8b5"
+        "sha256": "4578a7d5f440f0252537f4ee55b77b5e26d9f520c605a5f1649d2341f075e520"
       }
     },
     "12.0.0": {
@@ -18341,9 +18389,9 @@
       }
     },
     "17.0.21": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jdk17.0.21-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "730ac4f645f601d3005bcdc8736c7e0630d402382e332c11d61ac2494436587f"
+        "sha256": "81946095839140100ebff36ff52007676e260bbe482675dbc04772595ed94390"
       }
     },
     "18.0.0": {
@@ -18479,9 +18527,9 @@
       }
     },
     "21.0.13": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jdk21.0.13-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "dd8cf0628cfb8c369b7d4fe96783e2b516482b37d2b3e140b208c91deabf1169"
+        "sha256": "abe544103f1c4f0cc4b8997c0cac847eb1e842382eef57ce361c982fb0a3de11"
       }
     },
     "22.0.0": {
@@ -18569,9 +18617,9 @@
       }
     },
     "25.0.5": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jdk25.0.5-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jdk25.0.5.0.3-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "9980dfa804c16b9a8cac843b5f4201910d1a46d94633f559ce283b07617a3b99"
+        "sha256": "bb633b566fd501911a850d604d7d3abdfee657a88f2bbacb12e5ebc34727356f"
       }
     },
     "26.0.0": {
@@ -18599,9 +18647,9 @@
       }
     },
     "27.0.1": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jdk27.0.1-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jdk27.0.1.0.3-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "c734ba335498892ecabdf5722526d945e25f41a09cd6d619b72bc20bec60f852"
+        "sha256": "c128817926e4eebb30868b6ba082028f493afa716e459e34049bde0ab49a9829"
       }
     }
   },
@@ -18811,9 +18859,9 @@
       }
     },
     "8.0.512": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.107-ca-jre8.0.512-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-jre8.0.512-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "5dfbd0a969da91b71b5d10d13d456c57d3d3a6b9986f2ad016d04e8ee823d13e"
+        "sha256": "3844c96fd5305b96d0866551997d9a1b9cdabb8750a8c1ae844318caa36f5156"
       }
     },
     "11.0.3": {
@@ -18997,9 +19045,9 @@
       }
     },
     "11.0.33": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.109-ca-jre11.0.33-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu11.92.113-ca-jre11.0.33-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "d488c77b6ba04a18b9d97b2bc6a72a33e3a97f14c22125252eda0435ece95a7d"
+        "sha256": "a140eb9c92dee59e14a4dbefa0f46007cdfd18c320600201fcb0e5c89bfa72dd"
       }
     },
     "13.0.1": {
@@ -19309,9 +19357,9 @@
       }
     },
     "17.0.21": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jre17.0.21-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jre17.0.21.0.3-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "95f5ca5ad770f631f94738f328e6da8f085452443aae54f95b8a45be9f6c2d9d"
+        "sha256": "1921269ee6866125deebf04c8de8c05a6e7810f7cd0ad723e02c2990288e1757"
       }
     },
     "18.0.0": {
@@ -19447,9 +19495,9 @@
       }
     },
     "21.0.13": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jre21.0.13-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jre21.0.13.0.3-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "cb1021b29c2909faefa57589e9506dcb9c18d88d2659e5e22f4ac1bb20e36e50"
+        "sha256": "250b9d7cdce91f88455fc3528aae4f46b4a516ed74676bbf51448eacc591e601"
       }
     },
     "22.0.0": {
@@ -19537,9 +19585,9 @@
       }
     },
     "25.0.5": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.107-ca-jre25.0.5-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jre25.0.5.0.3-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "04563fc73d8ede919a3c3a8fb56438e6c74c345fb1bf4ab2d4a331b16d78786a"
+        "sha256": "740a9a3ed6b60de7ae2c22633f122147572024c1a66663f69aa7672ec48c4b09"
       }
     },
     "26.0.0": {
@@ -19567,9 +19615,9 @@
       }
     },
     "27.0.1": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.107-ca-jre27.0.1-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jre27.0.1.0.3-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "96276b0da4f3692299c86a157a81679ec4987b58f1120973471a31d0182bd4c0"
+        "sha256": "0c828bc4419042a36439fd3a3ba2d13565443d4dcf37431d035d15913f40bab2"
       }
     }
   }
