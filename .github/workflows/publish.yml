@@ -20,7 +20,7 @@ jobs:
         with:
           fetch-depth: 0
       - uses: coursier/cache-action@v9.0
-      - uses: coursier/setup-action@v3.0
+      - uses: coursier/setup-action@v3.1
         with:
           jvm: 21
       - name: Publish local
@@ -41,7 +41,7 @@ jobs:
         with:
           fetch-depth: 0
       - uses: coursier/cache-action@v9.0
-      - uses: coursier/setup-action@v3.0
+      - uses: coursier/setup-action@v3.1
         with:
           jvm: 21
       - name: Publish

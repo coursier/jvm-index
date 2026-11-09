@@ -23,7 +23,7 @@ jobs:
       - uses: coursier/cache-action@v9.0
         with:
           disableFallback: true
-      - uses: coursier/setup-action@v3.0
+      - uses: coursier/setup-action@v3.1
         with:
           jvm: 21
 
