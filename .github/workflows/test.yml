@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: coursier/cache-action@v9.0
-      - uses: coursier/setup-action@v3.0
+      - uses: coursier/setup-action@v3.1
         with:
           jvm: 21
       - run: ./scala-cli.sh compile src
@@ -23,7 +23,7 @@ jobs:
         with:
           fetch-depth: 0
       - uses: coursier/cache-action@v9.0
-      - uses: coursier/setup-action@v3.0
+      - uses: coursier/setup-action@v3.1
         with:
           jvm: 21
       # Selective execution only runs the check if the indices, or the code of
@@ -49,7 +49,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: coursier/cache-action@v9.0
-      - uses: coursier/setup-action@v3.0
+      - uses: coursier/setup-action@v3.1
         with:
           jvm: 21
           apps: scalafmt
