@@ -7996,6 +7996,12 @@
         "sha256": "4f8d4e38842c0aa1f0ff92823039f5b6d75a0bb4732d605db6da8cedd2bec303"
       }
     },
+    "8.0.512": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-jdk8.0.512-linux_aarch32sf.tar.gz",
+      "checksums": {
+        "sha256": "381f83da497193d71549a090361ed66e4e46eccbb4a0347e0a094d20470fa1df"
+      }
+    },
     "11.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu11.1.8-ca-jdk11.0.0-c2-linux_aarch32hf.tar.gz",
       "checksums": {
