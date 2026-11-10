@@ -33,9 +33,11 @@ object GenerateIndex {
 
     val pool = Executors.newFixedThreadPool(6)
 
-    val index0 =
+    val (index0, warnings) =
       try {
         implicit val ec: ExecutionContext = ExecutionContext.fromExecutorService(pool)
+
+        val mandrelFuture = Future(Mandrel.fullIndex(GhToken.token))
 
         val futures = Seq(
           Future(Corretto.fullIndex(GhToken.token)),
@@ -48,15 +50,26 @@ object GenerateIndex {
           Future(LibericaNik.index()),
           Future(IbmSemeru.fullIndex(GhToken.token)),
           Future(Microsoft.fullIndex()),
-          Future(JetBrains.fullIndex(GhToken.token))
+          Future(JetBrains.fullIndex(GhToken.token)),
+          mandrelFuture.map(_._1)
         )
 
-        futures
+        val index = futures
           .map(f => Await.result(f, Duration.Inf))
           .foldLeft(Index.empty)(_ + _)
+        val warnings = Await.result(mandrelFuture, Duration.Inf)._2
+        (index, warnings)
       }
       finally
         pool.shutdown()
+
+    // Warnings about things that need to be looked at, but that shouldn't prevent the
+    // index from being updated. The index update workflow posts them on its pull request.
+    for (warningsFile <- Option(System.getenv("INDEX_WARNINGS_FILE")).filter(_.nonEmpty)) {
+      val content = warnings.map(warning => s"- $warning${System.lineSeparator()}").mkString
+      os.write.over(os.Path(warningsFile, os.pwd), content, createFolders = true)
+      System.err.println(s"Wrote ${warnings.length} warning(s) to $warningsFile")
+    }
 
     val index = Checksums.resolve(index0, knownChecksums)
 

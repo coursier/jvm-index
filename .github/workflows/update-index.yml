@@ -28,6 +28,7 @@ jobs:
       - run: ./scala-cli.sh src
         env:
           GH_TOKEN: ${{ secrets.INDEX_GITHUB_TOKEN }}
+          INDEX_WARNINGS_FILE: ${{ runner.temp }}/index-warnings.md
 
       - name: Print diff
         run: git diff --color --diff-algorithm=patience
@@ -52,3 +53,71 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "Pull Request Number - **${PR_NUMBER}**" >> $GITHUB_STEP_SUMMARY
           echo "Pull Request URL - **${PR_URL}**" >> $GITHUB_STEP_SUMMARY
+
+      # Things that need to be looked at, but that didn't prevent the index from being
+      # updated (like release notes whose format changed), written by the step running
+      # ./scala-cli.sh src above. These are reported as annotations, and in a comment on
+      # the index update pull request if there's one. That comment is updated on later
+      # runs, rather than having a new comment posted every day.
+      - name: Report index warnings
+        if: always()
+        uses: actions/github-script@v9
+        env:
+          WARNINGS_FILE: ${{ runner.temp }}/index-warnings.md
+          PR_NUMBER: ${{ github.ref == 'refs/heads/master' && steps.cpr.outputs.pull-request-number || '' }}
+        with:
+          script: |
+            const fs = require('fs');
+            const warningsFile = process.env.WARNINGS_FILE;
+            const warnings = fs.existsSync(warningsFile)
+              ? fs.readFileSync(warningsFile, 'utf8').trim()
+              : '';
+
+            for (const line of warnings.split('\n').filter(l => l.trim()))
+              core.warning(line.replace(/^- /, ''));
+            if (warnings)
+              await core.summary
+                .addHeading('Index warnings', 2)
+                .addRaw(warnings + '\n')
+                .write();
+
+            const prNumber = Number(process.env.PR_NUMBER);
+            if (!prNumber) {
+              console.log('No index update pull request, not posting a comment');
+              return;
+            }
+
+            const marker = '<!-- index-warnings -->';
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+            });
+            const existing = comments.find(c => c.body.startsWith(marker));
+
+            let body;
+            if (warnings)
+              body = `${marker}\n## :warning: Index warnings\n\n` +
+                'The index was updated, but these need to be looked at:\n\n' +
+                `${warnings}\n\n` +
+                `Last checked in [this run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}).`;
+            else if (existing)
+              body = `${marker}\n## Index warnings\n\n` +
+                `No warnings anymore, as of [this run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}).`;
+            else
+              return;
+
+            if (existing)
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            else
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body,
+              });
