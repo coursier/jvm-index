@@ -13955,6 +13955,744 @@
       }
     }
   },
+  "mandrel": {
+    "11.0.19": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.6.0-Final/mandrel-java11-windows-amd64-21.3.6.0-Final.zip",
+      "checksums": {
+        "sha256": "2a4c5494039397d05d136f0497134064c82c9ecf17dbe2fecec4ec4560e611dd"
+      }
+    },
+    "17.0.7": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.0.0-Final/mandrel-java17-windows-amd64-23.0.0.0-Final.zip",
+      "checksums": {
+        "sha256": "01db12bfa6358e39fe9ee302ace7c5513b9742e4b131b7f4fe3bd82abd25442e"
+      }
+    },
+    "17.0.8": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.1.2-Final/mandrel-java17-windows-amd64-23.0.1.2-Final.zip",
+      "checksums": {
+        "sha256": "6470802483afbaf166f3f6e393e3f98def250471f4a082a5ebbfa90307b1e52a"
+      }
+    },
+    "17.0.9": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.2.1-Final/mandrel-java17-windows-amd64-23.0.2.1-Final.zip",
+      "checksums": {
+        "sha256": "adb7c64027dfd0ccf1edcdfe924e0dd6711b9eba4f9254ffe8384433a1bd2d71"
+      }
+    },
+    "17.0.10": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.3.0-Final/mandrel-java17-windows-amd64-23.0.3.0-Final.zip",
+      "checksums": {
+        "sha256": "8c470859ab6901e809d7ff61d497203880f0e814503d52529f166c43a36a9573"
+      }
+    },
+    "17.0.11": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.4.1-Final/mandrel-java17-windows-amd64-23.0.4.1-Final.zip",
+      "checksums": {
+        "sha256": "8b81203c6a69f49d4ebfcce07a15f84a53127ec4b847a8a0981c5118e11c8f1f"
+      }
+    },
+    "17.0.12": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.5.0-Final/mandrel-java17-windows-amd64-23.0.5.0-Final.zip",
+      "checksums": {
+        "sha256": "96cf2b8dfb1b05123cda0e653ddea97877c44d8c6215d326c1ce979137455e3a"
+      }
+    },
+    "17.0.13": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.6.0-Final/mandrel-java17-windows-amd64-23.0.6.0-Final.zip",
+      "checksums": {
+        "sha256": "d369c78ec9d496293268ecf8775116be3432ea89f0532ed7382c617e26427dde"
+      }
+    },
+    "20.0.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.0.0-Final/mandrel-java20-windows-amd64-23.0.0.0-Final.zip",
+      "checksums": {
+        "sha256": "690cb59c87e20e677698579ae77c3d669e69840690709ef00ca243de8295ac92"
+      }
+    },
+    "20.0.2": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.1.2-Final/mandrel-java20-windows-amd64-23.0.1.2-Final.zip",
+      "checksums": {
+        "sha256": "138bd2827658a065de79ab1d5ec52614308cf89a93bc69bea4f7e0eeaf906404"
+      }
+    },
+    "21.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.0.0-Final/mandrel-java21-windows-amd64-23.1.0.0-Final.zip",
+      "checksums": {
+        "sha256": "8c154a5ae832354d55ebb80a680442f2fd36411d0653b6f37c038e4759974d6f"
+      }
+    },
+    "21.0.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.1.0-Final/mandrel-java21-windows-amd64-23.1.1.0-Final.zip",
+      "checksums": {
+        "sha256": "0ce98ebcb70d11431b8f53afd8d6ca7a41e6e7fee2fbd395058d4ecc91c2acc6"
+      }
+    },
+    "21.0.2": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.2.0-Final/mandrel-java21-windows-amd64-23.1.2.0-Final.zip",
+      "checksums": {
+        "sha256": "e83c375fbaa0ff57468dfb71018d4b3979959e3c520b498eaac226eff509f453"
+      }
+    },
+    "21.0.3": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.3.1-Final/mandrel-java21-windows-amd64-23.1.3.1-Final.zip",
+      "checksums": {
+        "sha256": "f4997e79eb2e90a903aa1b2741284b219540e57bc86f05abe71df9a44196ac35"
+      }
+    },
+    "21.0.4": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.4.0-Final/mandrel-java21-windows-amd64-23.1.4.0-Final.zip",
+      "checksums": {
+        "sha256": "0cb3236b3fb2335673c7f24077b3b298cfc488dce81b918eef54f5410263624e"
+      }
+    },
+    "21.0.5": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.5.0-Final/mandrel-java21-windows-amd64-23.1.5.0-Final.zip",
+      "checksums": {
+        "sha256": "9ad56efffaee3a1e2bff00c2c22742064c5ea15a52466f38d64b48e81ea4771a"
+      }
+    },
+    "21.0.6": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.6.0-Final/mandrel-java21-windows-amd64-23.1.6.0-Final.zip",
+      "checksums": {
+        "sha256": "7b036b698c8cd845f93ba93cd40a3bc96744bd1b6f0dd22f5cb276895d9cc470"
+      }
+    },
+    "21.0.7": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.7.0-Final/mandrel-java21-windows-amd64-23.1.7.0-Final.zip",
+      "checksums": {
+        "sha256": "6fb5ea367d76c46994cd0b850862dd226211d8364d1dbf4619a6ec5d66d15496"
+      }
+    },
+    "21.0.8": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.8.0-Final/mandrel-java21-windows-amd64-23.1.8.0-Final.zip",
+      "checksums": {
+        "sha256": "7035a82f2245e0f50f15762b6bebda6fdbf153c1d8d0c52af10d68f35b66a5d4"
+      }
+    },
+    "21.0.9": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.9.0-Final/mandrel-java21-windows-amd64-23.1.9.0-Final.zip",
+      "checksums": {
+        "sha256": "64a1915e1ca5a98a79c377cf6e1c47a68ab346b3fcd8b5ad48c61ab05c3877b8"
+      }
+    },
+    "21.0.10": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.10.0-Final/mandrel-java21-windows-amd64-23.1.10.0-Final.zip",
+      "checksums": {
+        "sha256": "62dbbb274328aae2b150429681f9cc9d1d5636b8ac905b8734e9e4bd2c032b65"
+      }
+    },
+    "21.0.11": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.11.0-Final/mandrel-java21-windows-amd64-23.1.11.0-Final.zip",
+      "checksums": {
+        "sha256": "e80f9684673a99f583848f22c455d917e3d7fdbc821647634976e54c289df6fc"
+      }
+    },
+    "21.0.12": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.12.0-Final/mandrel-java21-windows-amd64-23.1.12.0-Final.zip",
+      "checksums": {
+        "sha256": "12f3d1fcd01fe642277294bcd64ced281369550d8510158ea841b84ca1a64136"
+      }
+    },
+    "21.0.12.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.12.1-Final/mandrel-java21-windows-amd64-23.1.12.1-Final.zip",
+      "checksums": {
+        "sha256": "6bf713a22cf6e8c034cbbf282085b02d04a8dc92c2fdc29b08956f1d0b7bbe47"
+      }
+    },
+    "21.0.13": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.13.0-Final/mandrel-java21-windows-amd64-23.1.13.0-Final.zip",
+      "checksums": {
+        "sha256": "9a3da68219d78d9d82640330afae8b5ba8052ff39c261d13608fd7f2bf71bb97"
+      }
+    },
+    "22.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.0.0.0-Final/mandrel-java22-windows-amd64-24.0.0.0-Final.zip",
+      "checksums": {
+        "sha256": "e2aec355b6961d5f891e5bc59d3d58204ee789b9dcc908eb87b3e9976460d63a"
+      }
+    },
+    "22.0.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.0.1.0-Final/mandrel-java22-windows-amd64-24.0.1.0-Final.zip",
+      "checksums": {
+        "sha256": "99fc980340df694687d2bf16cf00f3b7640ffa06181abf13ffa8ac54dd320074"
+      }
+    },
+    "22.0.2": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.0.2.0-Final/mandrel-java22-windows-amd64-24.0.2.0-Final.zip",
+      "checksums": {
+        "sha256": "bc9224b89e778dda6520d25b49f72ad4d70bcd9bc61bf97acdceb75589e5a13d"
+      }
+    },
+    "23.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.1.0.0-Final/mandrel-java23-windows-amd64-24.1.0.0-Final.zip",
+      "checksums": {
+        "sha256": "8aaf7dc423a011d8a5dbe53fcded5040709da48c8749b6533fd3401dd1484cb2"
+      }
+    },
+    "23.0.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.1.1.0-Final/mandrel-java23-windows-amd64-24.1.1.0-Final.zip",
+      "checksums": {
+        "sha256": "0a1c6fe3b0f54cbbcaebb93f0fd4d19caa56be27cb023cb1f1a9c98e43dd7c26"
+      }
+    },
+    "23.0.2": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.1.2.0-Final/mandrel-java23-windows-amd64-24.1.2.0-Final.zip",
+      "checksums": {
+        "sha256": "56967fac9593b7ee90a959c22369f94767a5ca03bf171d3528d9d99eceba0042"
+      }
+    },
+    "24.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.2.0.0-Final/mandrel-java24-windows-amd64-24.2.0.0-Final.zip",
+      "checksums": {
+        "sha256": "4809e42a4f772b1f9369c551ac52943cf6422e8676473b543a41546bc5ac385d"
+      }
+    },
+    "24.0.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.2.1.0-Final/mandrel-java24-windows-amd64-24.2.1.0-Final.zip",
+      "checksums": {
+        "sha256": "47a65e8d8b108dbdb00ce3f6abe2dd764e2046567077f718e0a0023469965970"
+      }
+    },
+    "24.0.2": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.2.2.0-Final/mandrel-java24-windows-amd64-24.2.2.0-Final.zip",
+      "checksums": {
+        "sha256": "53759b82912f53899fe3250c111be2de9b40ecd259f7cc2b3409614b09dff85a"
+      }
+    },
+    "25.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.0.1-Final/mandrel-java25-windows-amd64-25.0.0.1-Final.zip",
+      "checksums": {
+        "sha256": "72e38ae6735fa059fff9d6853f487df0d02f5b850a0e56cce46873b05ac7cb30"
+      }
+    },
+    "25.0.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.1.0-Final/mandrel-java25-windows-amd64-25.0.1.0-Final.zip",
+      "checksums": {
+        "sha256": "b631989ecf2b3fcb599ff7b3c7db5a81372ec13af313b650c6bcea8f01ac1edd"
+      }
+    },
+    "25.0.2": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.2.0-Final/mandrel-java25-windows-amd64-25.0.2.0-Final.zip",
+      "checksums": {
+        "sha256": "722725cfd5e67cccf4e0b985a9970c40cf6c95bf97e18e330188a8f1fabf9db9"
+      }
+    },
+    "25.0.3": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.3.0-Final/mandrel-java25-windows-amd64-25.0.3.0-Final.zip",
+      "checksums": {
+        "sha256": "bac1126aa9ef3ebf56501e57d8b960e1eeacb59a10296a21847c2765100a837c"
+      }
+    },
+    "25.0.4": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.4.0-Final/mandrel-java25-windows-amd64-25.0.4.0-Final.zip",
+      "checksums": {
+        "sha256": "679266593ea73d57dd51aff4a6043e65853f3ba9fe98d971e5afe7d4db1d5826"
+      }
+    },
+    "25.0.4.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.4.1-Final/mandrel-java25-windows-amd64-25.0.4.1-Final.zip",
+      "checksums": {
+        "sha256": "0df78d4f77b0774f4990061f41fb6090a00e64d74d3ee8fe2280972fc9fccb42"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.5.0-Final/mandrel-java25-windows-amd64-25.0.5.0-Final.zip",
+      "checksums": {
+        "sha256": "549899d713d53e302c5f5b7fe3f9f45938fd81b872de86c5ff002960a34cb3ff"
+      }
+    }
+  },
+  "mandrel-java11": {
+    "20.3.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-20.3.0.0.Final/mandrel-java11-windows-amd64-20.3.0.0.Final.zip",
+      "checksums": {
+        "sha256": "1e6d3291c0158be721a68d3dc4946fdf059d80fcf17e4b12bd1ae4b8d0eb9a72"
+      }
+    },
+    "20.3.1.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-20.3.1.1.Final/mandrel-java11-windows-amd64-20.3.1.1.Final.zip",
+      "checksums": {
+        "sha256": "6a7928097e250751a57c585fa31abe99ace47b9db789ee0f00427d4f95a4dc5d"
+      }
+    },
+    "20.3.1.2": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-20.3.1.2-Final/mandrel-java11-windows-amd64-20.3.1.2-Final.zip",
+      "checksums": {
+        "sha256": "c69203685a2c5920b655aef4cfe9c39ef38169d36641d09fecc99e8a2c0d367f"
+      }
+    },
+    "20.3.2.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-20.3.2.0-Final/mandrel-java11-windows-amd64-20.3.2.0-Final.zip",
+      "checksums": {
+        "sha256": "fb63c8dc991c68921c16422b4d53448777072c37c7faef29ff8373617394566e"
+      }
+    },
+    "20.3.3.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-20.3.3.0-Final/mandrel-java11-windows-amd64-20.3.3.0-Final.zip",
+      "checksums": {
+        "sha256": "790fc98c7f7580102e1274a13fd0260446c486133b4ca17ae2f93ed254d6d0ab"
+      }
+    },
+    "21.0.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.0.0.0-Final/mandrel-java11-windows-amd64-21.0.0.0-Final.zip",
+      "checksums": {
+        "sha256": "7dc56fc39a842cacab542a3ddbec665a4c01c945262b0c57edfb207c9febfd70"
+      }
+    },
+    "21.1.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.1.0.0-Final/mandrel-java11-windows-amd64-21.1.0.0-Final.zip",
+      "checksums": {
+        "sha256": "d785bd5cee4128c8d2f2200ced92d25253683617562b64fa99f79da173562ab7"
+      }
+    },
+    "21.2.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.2.0.0-Final/mandrel-java11-windows-amd64-21.2.0.0-Final.zip",
+      "checksums": {
+        "sha256": "212646974eed96d66ad1569d437f0d28f4bd1b6267ea206770d23226f8c45caa"
+      }
+    },
+    "21.2.0.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.2.0.1-Final/mandrel-java11-windows-amd64-21.2.0.1-Final.zip",
+      "checksums": {
+        "sha256": "a464ecceaf04cd55fd4e02519af11355b129ea2fe20fbb11095e8252aa559928"
+      }
+    },
+    "21.2.0.2": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.2.0.2-Final/mandrel-java11-windows-amd64-21.2.0.2-Final.zip",
+      "checksums": {
+        "sha256": "9df2dcd2b97be62e4393af31d3699c0357fe33bd8836aeba4a91f897d64f7bc0"
+      }
+    },
+    "21.3.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.0.0-Final/mandrel-java11-windows-amd64-21.3.0.0-Final.zip",
+      "checksums": {
+        "sha256": "96533a17ef480c81d403726f431de15476143c21b0ee8b06f224d0662e4f626b"
+      }
+    },
+    "21.3.1.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.1.0-Final/mandrel-java11-windows-amd64-21.3.1.0-Final.zip",
+      "checksums": {
+        "sha256": "8677d15d608206d0f9b102c0843273204544c954c217a86cfdc116ec1109aff8"
+      }
+    },
+    "21.3.1.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.1.1-Final/mandrel-java11-windows-amd64-21.3.1.1-Final.zip",
+      "checksums": {
+        "sha256": "dae4910c9e804dfd44d158bc9e078a241f2f6f565de26bc32fc24fb5667b3f31"
+      }
+    },
+    "21.3.2.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.2.0-Final/mandrel-java11-windows-amd64-21.3.2.0-Final.zip",
+      "checksums": {
+        "sha256": "5aface5b2a095328f784538c4ef3e1058964ed9228d544e2926bf02c107d9f34"
+      }
+    },
+    "21.3.3.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.3.0-Final/mandrel-java11-windows-amd64-21.3.3.0-Final.zip",
+      "checksums": {
+        "sha256": "7e44db1f7b79aafd6a7f18c746e795481bca9e7181733613fa4422fef5d35f3c"
+      }
+    },
+    "21.3.4.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.4.0-Final/mandrel-java11-windows-amd64-21.3.4.0-Final.zip",
+      "checksums": {
+        "sha256": "b9e32c5b931ddab54147c3ec53cd4532d05c247a4586d6384feb9ccfaa282793"
+      }
+    },
+    "21.3.5.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.5.1-Final/mandrel-java11-windows-amd64-21.3.5.1-Final.zip",
+      "checksums": {
+        "sha256": "5ceffba59a6fc16d3e6265019ad84b10d9ece89e2f94dbcb27644079cc850510"
+      }
+    },
+    "21.3.6.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.6.0-Final/mandrel-java11-windows-amd64-21.3.6.0-Final.zip",
+      "checksums": {
+        "sha256": "2a4c5494039397d05d136f0497134064c82c9ecf17dbe2fecec4ec4560e611dd"
+      }
+    },
+    "22.0.0.2": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.0.0.2-Final/mandrel-java11-windows-amd64-22.0.0.2-Final.zip",
+      "checksums": {
+        "sha256": "446cd712ea47f419153f450add341b08e0a0ef007dfe8fa0d2a0f217d2b19866"
+      }
+    },
+    "22.1.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.1.0.0-Final/mandrel-java11-windows-amd64-22.1.0.0-Final.zip",
+      "checksums": {
+        "sha256": "eb283cc214e040c46172a4caedd8033e018fb1cf8e0a73c3fb5f1d3768de2227"
+      }
+    },
+    "22.2.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.2.0.0-Final/mandrel-java11-windows-amd64-22.2.0.0-Final.zip",
+      "checksums": {
+        "sha256": "7bdede460d1037d41e8bf57b4fd690d45b954a62c3fba20cb67a997a0048fac4"
+      }
+    }
+  },
+  "mandrel-java17": {
+    "21.3.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.0.0-Final/mandrel-java17-windows-amd64-21.3.0.0-Final.zip",
+      "checksums": {
+        "sha256": "503f7a642f9db0e16b73fbcecfbe28c3e8f3843df8edda42db707500e96750a7"
+      }
+    },
+    "21.3.1.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.1.0-Final/mandrel-java17-windows-amd64-21.3.1.0-Final.zip",
+      "checksums": {
+        "sha256": "81247c31a4404bf0ef933c8c1f029cce0518a03b066971bc7e907a4ee6d341b9"
+      }
+    },
+    "21.3.1.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.1.1-Final/mandrel-java17-windows-amd64-21.3.1.1-Final.zip",
+      "checksums": {
+        "sha256": "45a0b454484af6bd4103ea033f781277093d2cd0d4b215ddd198ce71d9018218"
+      }
+    },
+    "21.3.2.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.2.0-Final/mandrel-java17-windows-amd64-21.3.2.0-Final.zip",
+      "checksums": {
+        "sha256": "affc17112f903b15a7a524703b4a1d39a331d0685c2c92007a0a191e182293d4"
+      }
+    },
+    "21.3.3.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.3.0-Final/mandrel-java17-windows-amd64-21.3.3.0-Final.zip",
+      "checksums": {
+        "sha256": "73360bc42967439944b7b551357889332f3add1c31e669df644bd13a990aec0b"
+      }
+    },
+    "21.3.4.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.4.0-Final/mandrel-java17-windows-amd64-21.3.4.0-Final.zip",
+      "checksums": {
+        "sha256": "8e129788a8668cb6ba31af88b97c330adf3c977c6afd574659eba1c451ff300a"
+      }
+    },
+    "21.3.5.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.5.1-Final/mandrel-java17-windows-amd64-21.3.5.1-Final.zip",
+      "checksums": {
+        "sha256": "dc8b4de549e5aa665ab544bdd8b687757a45197dd1e2d47927d8e27fb9050644"
+      }
+    },
+    "21.3.6.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-21.3.6.0-Final/mandrel-java17-windows-amd64-21.3.6.0-Final.zip",
+      "checksums": {
+        "sha256": "13b898c3e439bdc3dddef2da1014590a3482c7d173cc9d2613db09aa5840bbfe"
+      }
+    },
+    "22.0.0.2": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.0.0.2-Final/mandrel-java17-windows-amd64-22.0.0.2-Final.zip",
+      "checksums": {
+        "sha256": "7a76c533d742de85915af0a3e91cf6cedfa8479cab212658a3c203b821bd4a9f"
+      }
+    },
+    "22.1.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.1.0.0-Final/mandrel-java17-windows-amd64-22.1.0.0-Final.zip",
+      "checksums": {
+        "sha256": "4a6a9ac37953c5daea68b56bd2d8d0d2f74cc9f1d90202f9c7e8bb212d7af4d8"
+      }
+    },
+    "22.2.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.2.0.0-Final/mandrel-java17-windows-amd64-22.2.0.0-Final.zip",
+      "checksums": {
+        "sha256": "50409e6017744f6dee084ae9a75f6a7b6ab07f3a5c63eb5a3eadb8ed9d2e836b"
+      }
+    },
+    "22.3.0.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.3.0.1-Final/mandrel-java17-windows-amd64-22.3.0.1-Final.zip",
+      "checksums": {
+        "sha256": "f264577073fbdced6c2709d9075c54bdf539e62622fb9a5a54b0834df842f235"
+      }
+    },
+    "22.3.1.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.3.1.0-Final/mandrel-java17-windows-amd64-22.3.1.0-Final.zip",
+      "checksums": {
+        "sha256": "fbd00bc412333978be2add8f8f7b041b39620fe705294651f5704ac14b4b91aa"
+      }
+    },
+    "22.3.2.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.3.2.0-Final/mandrel-java17-windows-amd64-22.3.2.0-Final.zip",
+      "checksums": {
+        "sha256": "98a136d8736e752eef119e39c0d12a9b6667d4af729e17d9e4a13bebba7d5851"
+      }
+    },
+    "22.3.2.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.3.2.1-Final/mandrel-java17-windows-amd64-22.3.2.1-Final.zip",
+      "checksums": {
+        "sha256": "5af1f9ff837b6843201f8f8e3232e7e881cc0c0a828cc189ed68466dfc54325b"
+      }
+    },
+    "22.3.3.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.3.3.1-Final/mandrel-java17-windows-amd64-22.3.3.1-Final.zip",
+      "checksums": {
+        "sha256": "80cfc60fe798179d1c1e8b1730383f14afc2483436887efcf05edadeee4e3fe9"
+      }
+    },
+    "22.3.4.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.3.4.0-Final/mandrel-java17-windows-amd64-22.3.4.0-Final.zip",
+      "checksums": {
+        "sha256": "3559102d818998b28ef6a5bff83cfba1534c0609e086a130ab709dbd09d1f3f2"
+      }
+    },
+    "22.3.5.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-22.3.5.0-Final/mandrel-java17-windows-amd64-22.3.5.0-Final.zip",
+      "checksums": {
+        "sha256": "2fee945ba8513d2233033ea33bc6a2f048078037d52cdcbd43fef14fb810d1af"
+      }
+    },
+    "23.0.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.0.0-Final/mandrel-java17-windows-amd64-23.0.0.0-Final.zip",
+      "checksums": {
+        "sha256": "01db12bfa6358e39fe9ee302ace7c5513b9742e4b131b7f4fe3bd82abd25442e"
+      }
+    },
+    "23.0.1.2": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.1.2-Final/mandrel-java17-windows-amd64-23.0.1.2-Final.zip",
+      "checksums": {
+        "sha256": "6470802483afbaf166f3f6e393e3f98def250471f4a082a5ebbfa90307b1e52a"
+      }
+    },
+    "23.0.2.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.2.1-Final/mandrel-java17-windows-amd64-23.0.2.1-Final.zip",
+      "checksums": {
+        "sha256": "adb7c64027dfd0ccf1edcdfe924e0dd6711b9eba4f9254ffe8384433a1bd2d71"
+      }
+    },
+    "23.0.3.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.3.0-Final/mandrel-java17-windows-amd64-23.0.3.0-Final.zip",
+      "checksums": {
+        "sha256": "8c470859ab6901e809d7ff61d497203880f0e814503d52529f166c43a36a9573"
+      }
+    },
+    "23.0.4.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.4.1-Final/mandrel-java17-windows-amd64-23.0.4.1-Final.zip",
+      "checksums": {
+        "sha256": "8b81203c6a69f49d4ebfcce07a15f84a53127ec4b847a8a0981c5118e11c8f1f"
+      }
+    },
+    "23.0.5.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.5.0-Final/mandrel-java17-windows-amd64-23.0.5.0-Final.zip",
+      "checksums": {
+        "sha256": "96cf2b8dfb1b05123cda0e653ddea97877c44d8c6215d326c1ce979137455e3a"
+      }
+    },
+    "23.0.6.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.6.0-Final/mandrel-java17-windows-amd64-23.0.6.0-Final.zip",
+      "checksums": {
+        "sha256": "d369c78ec9d496293268ecf8775116be3432ea89f0532ed7382c617e26427dde"
+      }
+    }
+  },
+  "mandrel-java20": {
+    "23.0.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.0.0-Final/mandrel-java20-windows-amd64-23.0.0.0-Final.zip",
+      "checksums": {
+        "sha256": "690cb59c87e20e677698579ae77c3d669e69840690709ef00ca243de8295ac92"
+      }
+    },
+    "23.0.1.2": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.0.1.2-Final/mandrel-java20-windows-amd64-23.0.1.2-Final.zip",
+      "checksums": {
+        "sha256": "138bd2827658a065de79ab1d5ec52614308cf89a93bc69bea4f7e0eeaf906404"
+      }
+    }
+  },
+  "mandrel-java21": {
+    "23.1.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.0.0-Final/mandrel-java21-windows-amd64-23.1.0.0-Final.zip",
+      "checksums": {
+        "sha256": "8c154a5ae832354d55ebb80a680442f2fd36411d0653b6f37c038e4759974d6f"
+      }
+    },
+    "23.1.1.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.1.0-Final/mandrel-java21-windows-amd64-23.1.1.0-Final.zip",
+      "checksums": {
+        "sha256": "0ce98ebcb70d11431b8f53afd8d6ca7a41e6e7fee2fbd395058d4ecc91c2acc6"
+      }
+    },
+    "23.1.2.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.2.0-Final/mandrel-java21-windows-amd64-23.1.2.0-Final.zip",
+      "checksums": {
+        "sha256": "e83c375fbaa0ff57468dfb71018d4b3979959e3c520b498eaac226eff509f453"
+      }
+    },
+    "23.1.3.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.3.1-Final/mandrel-java21-windows-amd64-23.1.3.1-Final.zip",
+      "checksums": {
+        "sha256": "f4997e79eb2e90a903aa1b2741284b219540e57bc86f05abe71df9a44196ac35"
+      }
+    },
+    "23.1.4.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.4.0-Final/mandrel-java21-windows-amd64-23.1.4.0-Final.zip",
+      "checksums": {
+        "sha256": "0cb3236b3fb2335673c7f24077b3b298cfc488dce81b918eef54f5410263624e"
+      }
+    },
+    "23.1.5.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.5.0-Final/mandrel-java21-windows-amd64-23.1.5.0-Final.zip",
+      "checksums": {
+        "sha256": "9ad56efffaee3a1e2bff00c2c22742064c5ea15a52466f38d64b48e81ea4771a"
+      }
+    },
+    "23.1.6.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.6.0-Final/mandrel-java21-windows-amd64-23.1.6.0-Final.zip",
+      "checksums": {
+        "sha256": "7b036b698c8cd845f93ba93cd40a3bc96744bd1b6f0dd22f5cb276895d9cc470"
+      }
+    },
+    "23.1.7.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.7.0-Final/mandrel-java21-windows-amd64-23.1.7.0-Final.zip",
+      "checksums": {
+        "sha256": "6fb5ea367d76c46994cd0b850862dd226211d8364d1dbf4619a6ec5d66d15496"
+      }
+    },
+    "23.1.8.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.8.0-Final/mandrel-java21-windows-amd64-23.1.8.0-Final.zip",
+      "checksums": {
+        "sha256": "7035a82f2245e0f50f15762b6bebda6fdbf153c1d8d0c52af10d68f35b66a5d4"
+      }
+    },
+    "23.1.9.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.9.0-Final/mandrel-java21-windows-amd64-23.1.9.0-Final.zip",
+      "checksums": {
+        "sha256": "64a1915e1ca5a98a79c377cf6e1c47a68ab346b3fcd8b5ad48c61ab05c3877b8"
+      }
+    },
+    "23.1.10.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.10.0-Final/mandrel-java21-windows-amd64-23.1.10.0-Final.zip",
+      "checksums": {
+        "sha256": "62dbbb274328aae2b150429681f9cc9d1d5636b8ac905b8734e9e4bd2c032b65"
+      }
+    },
+    "23.1.11.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.11.0-Final/mandrel-java21-windows-amd64-23.1.11.0-Final.zip",
+      "checksums": {
+        "sha256": "e80f9684673a99f583848f22c455d917e3d7fdbc821647634976e54c289df6fc"
+      }
+    },
+    "23.1.12.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.12.0-Final/mandrel-java21-windows-amd64-23.1.12.0-Final.zip",
+      "checksums": {
+        "sha256": "12f3d1fcd01fe642277294bcd64ced281369550d8510158ea841b84ca1a64136"
+      }
+    },
+    "23.1.12.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.12.1-Final/mandrel-java21-windows-amd64-23.1.12.1-Final.zip",
+      "checksums": {
+        "sha256": "6bf713a22cf6e8c034cbbf282085b02d04a8dc92c2fdc29b08956f1d0b7bbe47"
+      }
+    },
+    "23.1.13.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.13.0-Final/mandrel-java21-windows-amd64-23.1.13.0-Final.zip",
+      "checksums": {
+        "sha256": "9a3da68219d78d9d82640330afae8b5ba8052ff39c261d13608fd7f2bf71bb97"
+      }
+    }
+  },
+  "mandrel-java22": {
+    "24.0.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.0.0.0-Final/mandrel-java22-windows-amd64-24.0.0.0-Final.zip",
+      "checksums": {
+        "sha256": "e2aec355b6961d5f891e5bc59d3d58204ee789b9dcc908eb87b3e9976460d63a"
+      }
+    },
+    "24.0.1.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.0.1.0-Final/mandrel-java22-windows-amd64-24.0.1.0-Final.zip",
+      "checksums": {
+        "sha256": "99fc980340df694687d2bf16cf00f3b7640ffa06181abf13ffa8ac54dd320074"
+      }
+    },
+    "24.0.2.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.0.2.0-Final/mandrel-java22-windows-amd64-24.0.2.0-Final.zip",
+      "checksums": {
+        "sha256": "bc9224b89e778dda6520d25b49f72ad4d70bcd9bc61bf97acdceb75589e5a13d"
+      }
+    }
+  },
+  "mandrel-java23": {
+    "24.1.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.1.0.0-Final/mandrel-java23-windows-amd64-24.1.0.0-Final.zip",
+      "checksums": {
+        "sha256": "8aaf7dc423a011d8a5dbe53fcded5040709da48c8749b6533fd3401dd1484cb2"
+      }
+    },
+    "24.1.1.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.1.1.0-Final/mandrel-java23-windows-amd64-24.1.1.0-Final.zip",
+      "checksums": {
+        "sha256": "0a1c6fe3b0f54cbbcaebb93f0fd4d19caa56be27cb023cb1f1a9c98e43dd7c26"
+      }
+    },
+    "24.1.2.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.1.2.0-Final/mandrel-java23-windows-amd64-24.1.2.0-Final.zip",
+      "checksums": {
+        "sha256": "56967fac9593b7ee90a959c22369f94767a5ca03bf171d3528d9d99eceba0042"
+      }
+    }
+  },
+  "mandrel-java24": {
+    "24.2.0.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.2.0.0-Final/mandrel-java24-windows-amd64-24.2.0.0-Final.zip",
+      "checksums": {
+        "sha256": "4809e42a4f772b1f9369c551ac52943cf6422e8676473b543a41546bc5ac385d"
+      }
+    },
+    "24.2.1.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.2.1.0-Final/mandrel-java24-windows-amd64-24.2.1.0-Final.zip",
+      "checksums": {
+        "sha256": "47a65e8d8b108dbdb00ce3f6abe2dd764e2046567077f718e0a0023469965970"
+      }
+    },
+    "24.2.2.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.2.2.0-Final/mandrel-java24-windows-amd64-24.2.2.0-Final.zip",
+      "checksums": {
+        "sha256": "53759b82912f53899fe3250c111be2de9b40ecd259f7cc2b3409614b09dff85a"
+      }
+    }
+  },
+  "mandrel-java25": {
+    "25.0.0.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.0.1-Final/mandrel-java25-windows-amd64-25.0.0.1-Final.zip",
+      "checksums": {
+        "sha256": "72e38ae6735fa059fff9d6853f487df0d02f5b850a0e56cce46873b05ac7cb30"
+      }
+    },
+    "25.0.1.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.1.0-Final/mandrel-java25-windows-amd64-25.0.1.0-Final.zip",
+      "checksums": {
+        "sha256": "b631989ecf2b3fcb599ff7b3c7db5a81372ec13af313b650c6bcea8f01ac1edd"
+      }
+    },
+    "25.0.2.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.2.0-Final/mandrel-java25-windows-amd64-25.0.2.0-Final.zip",
+      "checksums": {
+        "sha256": "722725cfd5e67cccf4e0b985a9970c40cf6c95bf97e18e330188a8f1fabf9db9"
+      }
+    },
+    "25.0.3.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.3.0-Final/mandrel-java25-windows-amd64-25.0.3.0-Final.zip",
+      "checksums": {
+        "sha256": "bac1126aa9ef3ebf56501e57d8b960e1eeacb59a10296a21847c2765100a837c"
+      }
+    },
+    "25.0.4.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.4.0-Final/mandrel-java25-windows-amd64-25.0.4.0-Final.zip",
+      "checksums": {
+        "sha256": "679266593ea73d57dd51aff4a6043e65853f3ba9fe98d971e5afe7d4db1d5826"
+      }
+    },
+    "25.0.4.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.4.1-Final/mandrel-java25-windows-amd64-25.0.4.1-Final.zip",
+      "checksums": {
+        "sha256": "0df78d4f77b0774f4990061f41fb6090a00e64d74d3ee8fe2280972fc9fccb42"
+      }
+    },
+    "25.0.5.0": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.5.0-Final/mandrel-java25-windows-amd64-25.0.5.0-Final.zip",
+      "checksums": {
+        "sha256": "549899d713d53e302c5f5b7fe3f9f45938fd81b872de86c5ff002960a34cb3ff"
+      }
+    }
+  },
   "microsoft-openjdk": {
     "11.0.11.9.1": {
       "url": "https://aka.ms/download-jdk/microsoft-jdk-11.0.11.9.1-windows-x64.zip",
