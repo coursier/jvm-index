@@ -22,6 +22,7 @@ capabilities of coursier.
 | [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes/)              | `ibm-semeru`        |
 | [Microsoft OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/download)         | `microsoft-openjdk` |
 | [JetBrains Runtime](https://github.com/JetBrains/JetBrainsRuntime)                   | `jetbrains`         |
+| [Mandrel](https://github.com/graalvm/mandrel)                                        | `mandrel`           |
 
 ## Legacy JDKs
 
