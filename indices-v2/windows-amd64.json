@@ -4857,6 +4857,36 @@
       "checksums": {
         "sha256": "72edc27ce2dd3c156332144a339c97995745cae291205ed2f9b5cc26aa9cb422"
       }
+    },
+    "25.1.3": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.1.3/graalvm-community-jdk-25i1-25.0.3_windows-x64_bin.zip",
+      "checksums": {
+        "sha256": "96f1e7a9674b5b5751224104ff0c4624f15f9522b190d960a041cab72c381393"
+      }
+    },
+    "25.2.4": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.2.4/graalvm-community-jdk-25i2-25.0.4_windows-x64_bin.zip",
+      "checksums": {
+        "sha256": "789d2af1c06c3c24f402d2d4a711bdbb19b36f7d8c74afe6a959492fd121ef33"
+      }
+    },
+    "25.3.4.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.3.4.1/graalvm-community-jdk-25i3-25.0.4.1_windows-x64_bin.zip",
+      "checksums": {
+        "sha256": "770a0d78aba4c19bd40ee410ec82afbbee8e33fdd762e509006ac64e1007b4ce"
+      }
+    },
+    "25.4.4.1.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.4.4.1.1/graalvm-community-jdk-25i4-25.0.4.1.1_windows-x64_bin.zip",
+      "checksums": {
+        "sha256": "2733ea1331f1a98b05dd55a768b07347051dad48f030dbbfa191b11a2ccf4144"
+      }
+    },
+    "25.5.5.0.3": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.5.5.0.3/graalvm-community-jdk-25i5-25.0.5.0.3_windows-x64_bin.zip",
+      "checksums": {
+        "sha256": "b02c3b162129fa8cbfa7ebd0fcc1ae6eba2fc736bf3bef8e40e5ace3e9d9a0d6"
+      }
     }
   },
   "graalvm-java11": {
@@ -5284,6 +5314,36 @@
       "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.2/graalvm-community-jdk-25.0.2_windows-x64_bin.zip",
       "checksums": {
         "sha256": "72edc27ce2dd3c156332144a339c97995745cae291205ed2f9b5cc26aa9cb422"
+      }
+    },
+    "25.1.3": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.1.3/graalvm-community-jdk-25i1-25.0.3_windows-x64_bin.zip",
+      "checksums": {
+        "sha256": "96f1e7a9674b5b5751224104ff0c4624f15f9522b190d960a041cab72c381393"
+      }
+    },
+    "25.2.4": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.2.4/graalvm-community-jdk-25i2-25.0.4_windows-x64_bin.zip",
+      "checksums": {
+        "sha256": "789d2af1c06c3c24f402d2d4a711bdbb19b36f7d8c74afe6a959492fd121ef33"
+      }
+    },
+    "25.3.4.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.3.4.1/graalvm-community-jdk-25i3-25.0.4.1_windows-x64_bin.zip",
+      "checksums": {
+        "sha256": "770a0d78aba4c19bd40ee410ec82afbbee8e33fdd762e509006ac64e1007b4ce"
+      }
+    },
+    "25.4.4.1.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.4.4.1.1/graalvm-community-jdk-25i4-25.0.4.1.1_windows-x64_bin.zip",
+      "checksums": {
+        "sha256": "2733ea1331f1a98b05dd55a768b07347051dad48f030dbbfa191b11a2ccf4144"
+      }
+    },
+    "25.5.5.0.3": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.5.5.0.3/graalvm-community-jdk-25i5-25.0.5.0.3_windows-x64_bin.zip",
+      "checksums": {
+        "sha256": "b02c3b162129fa8cbfa7ebd0fcc1ae6eba2fc736bf3bef8e40e5ace3e9d9a0d6"
       }
     }
   },
@@ -16990,354 +17050,6 @@
     }
   },
   "zulu": {
-    "6.0.47": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.3.0.3-ca-jdk6.0.47-win_x64.zip",
-      "checksums": {
-        "sha256": "f1a0f560135793238e794085fa426ebf4d6a95093c26d1542015c93163c77256"
-      }
-    },
-    "6.0.49": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu1.6.0_49-6.4.0.6-win64.zip",
-      "checksums": {
-        "sha256": "1e752389669a6720be62c3c3dde6a4d14daf16e553128bc185f5f5f2d42d319f"
-      }
-    },
-    "6.0.53": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu1.6.0_53-6.5.0.2-win64.zip",
-      "checksums": {
-        "sha256": "9c3271c0a5d6373e9d4b5a1f4acb6c6ec510532626a101bf0e97bdb2e4831fcf"
-      }
-    },
-    "6.0.56": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.6.0.1-ca-jdk6.0.56-win_x64.zip",
-      "checksums": {
-        "sha256": "110c80d45a4ee1f2a1b893370df75222237a69de07e740bdc3b48c7806be4d7d"
-      }
-    },
-    "6.0.59": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.7.0.2-ca-jdk6.0.59-win_x64.zip",
-      "checksums": {
-        "sha256": "733821ef529d34c5e39082e3fb6ef8b26c382b9133fbb8d2f3da83794eae5bcb"
-      }
-    },
-    "6.0.63": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.8.0.1-ca-jdk6.0.63-win_x64.zip",
-      "checksums": {
-        "sha256": "7c3d7123db58c44ccdfb5a3899a1205c2d549be8ad43bd5ec5cfeb77eb525cd7"
-      }
-    },
-    "6.0.69": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu1.6.0_69-6.9.0.3-win64.zip",
-      "checksums": {
-        "sha256": "9799a0b81df03f184384ecab52a1a2c98bfab6dbea51ac4dc2aea9ded07fbf8f"
-      }
-    },
-    "6.0.73": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu1.6.0_73-6.10.0.3-win64.zip",
-      "checksums": {
-        "sha256": "7b277573b4a4e1954fc577d710f0c3e17d585c2a708487df806237eac9b2a18d"
-      }
-    },
-    "6.0.77": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.11.0.2-jdk6.0.77-win_x64.zip",
-      "checksums": {
-        "sha256": "e9b694c73f56eb64764f528b771b18b93fdb55077b6e384181bd8b884c14871c"
-      }
-    },
-    "6.0.79": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.12.0.2-ca-jdk6.0.79-win_x64.zip",
-      "checksums": {
-        "sha256": "c46ff9efe882ae0fe8876f5322d485d5b9c4ecc532dd89ca4b7635f22cffe712"
-      }
-    },
-    "6.0.83": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.13.0.3-ca-jdk6.0.83-win_x64.zip",
-      "checksums": {
-        "sha256": "22b913d4397f567146f0418c953c9f3f5b27e54edb578c6578378fb0cef39889"
-      }
-    },
-    "6.0.87": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.14.0.1-ca-jdk6.0.87-win_x64.zip",
-      "checksums": {
-        "sha256": "9c067323c4ac9992f671c55a80d56b0a0f1c4f3d353f45c396488474faec5051"
-      }
-    },
-    "6.0.89": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.15.0.1-ca-jdk6.0.89-win_x64.zip",
-      "checksums": {
-        "sha256": "324aaf879f340894045c09592360fad641caf92c110b0210c0ec5c0f2185ec1a"
-      }
-    },
-    "6.0.93": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.16.0.1-ca-jdk6.0.93-win_x64.zip",
-      "checksums": {
-        "sha256": "b960443b08f4c6e8be2d2f477e130d6869f859e56c405b56adce5ab906483918"
-      }
-    },
-    "6.0.97": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.17.0.1-jdk6.0.97-win_x64.zip",
-      "checksums": {
-        "sha256": "2321c1f512cc4643e1ce2ba00674c20507080a43adbf942ea422e2a08dab25eb"
-      }
-    },
-    "6.0.99": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.18.0.3-jdk6.0.99-win_x64.zip",
-      "checksums": {
-        "sha256": "808971598aaaaab8d1c66c5262320169133f3c9ca1adf43e1b94c2b83f5cc61d"
-      }
-    },
-    "6.0.103": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.19.0.1-ca-jdk6.0.103-win_x64.zip",
-      "checksums": {
-        "sha256": "7a1cd226a54f3670650992d63be451326dcd24a4ac625bcc727a8dbb28d288fd"
-      }
-    },
-    "6.0.107": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.20.0.1-ca-jdk6.0.107-win_x64.zip",
-      "checksums": {
-        "sha256": "cb790f382d45208c8fb6f138912482dbdf2efdf39b5fe59c0ab45bd2f06619a5"
-      }
-    },
-    "6.0.113": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.21.0.3-ca-jdk6.0.113-win_x64.zip",
-      "checksums": {
-        "sha256": "d54f5371f35c90e8292ee0a2b84c7c9404bd14bda1d0be297e6250c9b58e8bf7"
-      }
-    },
-    "6.0.119": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.22.0.3-ca-jdk6.0.119-win_x64.zip",
-      "checksums": {
-        "sha256": "24059e8915d675074a80047c75cd6e0672b5c2cadf5b398fb6a6c51d035c54ca"
-      }
-    },
-    "7.0.45": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.2.1.5-ca-jdk7.0.45-win_x64.zip",
-      "checksums": {
-        "sha256": "c60cfb2c07828be29649e0700a7a868f5e42eb6d5ed3b9c842589af3197fd614"
-      }
-    },
-    "7.0.51": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.3.0.4-ca-jdk7.0.51-win_x64.zip",
-      "checksums": {
-        "sha256": "8ee7de6ec1f73187b36d532b1cef60fe34479104772024a4acbda5a7e387ea9e"
-      }
-    },
-    "7.0.55": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.4.0.5-ca-jdk7.0.55-win_x64.zip",
-      "checksums": {
-        "sha256": "29822a6478a3b8f481a54908bcbfbaaadebed1d300586a13daf5f26aa9f10e7e"
-      }
-    },
-    "7.0.60": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.5.0.1-ca-jdk7.0.60-win_x64.zip",
-      "checksums": {
-        "sha256": "17e75b247872ba9960533c11f7bd96f5ce3d62836700f568f5d64930920afb0e"
-      }
-    },
-    "7.0.65": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu1.7.0_65-7.6.0.1-win64.zip",
-      "checksums": {
-        "sha256": "9f08f6c53b54f79d7523d349705bc65faf2297b031efbf0a8f8c1aa5a70acdbc"
-      }
-    },
-    "7.0.72": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.7.0.1-ca-jdk7.0.72-win_x64.zip",
-      "checksums": {
-        "sha256": "174f14476927f9daf0c86fd83e6329e2661f7f6443ab77f3ad1a66dcfd3adfd9"
-      }
-    },
-    "7.0.76": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.8.0.3-ca-jdk7.0.76-win_x64.zip",
-      "checksums": {
-        "sha256": "8c34cfd56ab7d9440b416eb11f84532abca092ecd4f1be1306214f364bbcc0b7"
-      }
-    },
-    "7.0.79": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.9.0.2-ca-jdk7.0.79-win_x64.zip",
-      "checksums": {
-        "sha256": "903e3aad3d89dec653d9e0420a00a9814f6a1cbcc51cdf3807350d6668ac8d05"
-      }
-    },
-    "7.0.80": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu1.7.0_80-7.10.0.1-win64.zip",
-      "checksums": {
-        "sha256": "b1734d2dc874e77e4169a34c514b4f7a2690aca934dab81e0bfda3f0cee09272"
-      }
-    },
-    "7.0.85": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu1.7.0_85-7.11.0.3-win64.zip",
-      "checksums": {
-        "sha256": "9a23460c300b5b3828d5a2397f1a27dd17c6d9c539cafe42e643eabd2094e969"
-      }
-    },
-    "7.0.95": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.13.0.1-jdk7.0.95-win_x64.zip",
-      "checksums": {
-        "sha256": "27d0f8f687e975bfc8d3f54bee0d09850f8eca4ae3631ea505bc1e460337a564"
-      }
-    },
-    "7.0.101": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.14.0.5-ca-jdk7.0.101-win_x64.zip",
-      "checksums": {
-        "sha256": "79238d3521706a8de3a78c712d3af38ad0ff8145aa0b40ade8aaf1acb0167a09"
-      }
-    },
-    "7.0.111": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.15.0.1-jdk7.0.111-win_x64.zip",
-      "checksums": {
-        "sha256": "16d816e5cbc1c3cdf196291bc00459b189e10c48c7a7d3ae26b59a31e3e48048"
-      }
-    },
-    "7.0.121": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.16.0.1-ca-jdk7.0.121-win_x64.zip",
-      "checksums": {
-        "sha256": "6f480e0d07d14bdd1ed35a5046e27a66b4d56bd812641d21458114c7a9379c26"
-      }
-    },
-    "7.0.131": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.17.0.5-jdk7.0.131-win_x64.zip",
-      "checksums": {
-        "sha256": "78fee2070808379ef690fdecebe6a6413309356ffe2bcebb628e124e0c87872a"
-      }
-    },
-    "7.0.141": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.18.0.3-ca-jdk7.0.141-win_x64.zip",
-      "checksums": {
-        "sha256": "ac743bf93a5b4eb20757b59d1bf8b68a97416d29cca85fa01bbcc3ee4f04f262"
-      }
-    },
-    "7.0.154": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.20.0.3-ca-jdk7.0.154-win_x64.zip",
-      "checksums": {
-        "sha256": "43e55b6eab080c3d823235ba7c7dac52f2c2db7aab14072b22877d2e3d53189e"
-      }
-    },
-    "7.0.161": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.21.0.3-jdk7.0.161-win_x64.zip",
-      "checksums": {
-        "sha256": "73a9e326a30cf53388de447c1ec8552744b24d4822ad57634615232fd27b3f55"
-      }
-    },
-    "7.0.171": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.22.0.3-jdk7.0.171-win_x64.zip",
-      "checksums": {
-        "sha256": "7e005aebea78838c8f753350b07e352a198e28b25cbfa422661aa4db6e7efb0b"
-      }
-    },
-    "7.0.181": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.23.0.1-jdk7.0.181-win_x64.zip",
-      "checksums": {
-        "sha256": "012171d8255ae09c0dd5af7583d25aebd0e7962ae1cdb82fb6a1f48c31a5d666"
-      }
-    },
-    "7.0.191": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.24.0.1-jdk7.0.191-win_x64.zip",
-      "checksums": {
-        "sha256": "9c4d7bf9b35cb3198c19eb7671a88cd8c28c88524f06fbee4abd222eba85abfa"
-      }
-    },
-    "7.0.201": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.25.0.5-ca-jdk7.0.201-win_x64.zip",
-      "checksums": {
-        "sha256": "f210faf738888bd0624c4ec710d4e73cf236fbf45d2defc4d688678e3b2098ba"
-      }
-    },
-    "7.0.211": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.27.0.1-ca-jdk7.0.211-win_x64.zip",
-      "checksums": {
-        "sha256": "84e3ffcad3d60773042c1b733c3e62ab627c025ee8e126c027456c6d58221cc4"
-      }
-    },
-    "7.0.222": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.29.0.5-ca-jdk7.0.222-win_x64.zip",
-      "checksums": {
-        "sha256": "cc2feb3a8a32b2feac3800ac98828ebccbc1986965060d79549df7621f2c258e"
-      }
-    },
-    "7.0.232": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.31.0.5-ca-jdk7.0.232-win_x64.zip",
-      "checksums": {
-        "sha256": "f82b3ad6d383a1aceb2d4e9d4b508b66c1460676444b6106defc6033d2f62a4a"
-      }
-    },
-    "7.0.242": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.34.0.5-ca-jdk7.0.242-win_x64.zip",
-      "checksums": {
-        "sha256": "d95394844ccfeb62baf7b872d147250cdd8339939c6e9790ddaef6b025678f01"
-      }
-    },
-    "7.0.252": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.36.0.5-ca-jdk7.0.252-win_x64.zip",
-      "checksums": {
-        "sha256": "6bfff17eeb35262d394e47ed987b749fb4c55174ab5d8493c08b1b7ac628a8b0"
-      }
-    },
-    "7.0.262": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.38.0.11-ca-jdk7.0.262-win_x64.zip",
-      "checksums": {
-        "sha256": "1ff800c7936e58df21f184d577ac65aa970634d893a6b720504202f471597790"
-      }
-    },
-    "7.0.272": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.40.0.15-ca-jdk7.0.272-win_x64.zip",
-      "checksums": {
-        "sha256": "73e5b033bfe0a2b3d6d7bf6072a67b17d433cbafa6bafd29dd6e94c226928d29"
-      }
-    },
-    "7.0.282": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.42.0.13-ca-jdk7.0.282-win_x64.zip",
-      "checksums": {
-        "sha256": "2271e9cccea3b354e34fb1ae35148709c4ffb8ba6e581b443da4bc80b6aa5771"
-      }
-    },
-    "7.0.285": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.42.0.51-ca-jdk7.0.285-win_x64.zip",
-      "checksums": {
-        "sha256": "e3f1daea54baa466450230e1d4e7803543690c77692eb40b5ab5552edc8b85ba"
-      }
-    },
-    "7.0.292": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.44.0.11-ca-jdk7.0.292-win_x64.zip",
-      "checksums": {
-        "sha256": "ab204a6cbc152d5f3341554da17d54503a70414c4930945fc05a6eca04ba67c7"
-      }
-    },
-    "7.0.302": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.46.0.11-ca-jdk7.0.302-win_x64.zip",
-      "checksums": {
-        "sha256": "d44728fc6c86c109cff1bbd977888420f79e3e7996ec77d0156d829a1093474c"
-      }
-    },
-    "7.0.312": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.48.0.11-ca-jdk7.0.312-win_x64.zip",
-      "checksums": {
-        "sha256": "81dc2a04ebaa879edd19f8aa213250aaa833eb58252b2161ad891c29a6935009"
-      }
-    },
-    "7.0.322": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.50.0.11-ca-jdk7.0.322-win_x64.zip",
-      "checksums": {
-        "sha256": "b603e2aaafcdac9bd41ca1333de19420317758a82c54c1bbef9152c3be8e4b12"
-      }
-    },
-    "7.0.332": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.52.0.11-ca-jdk7.0.332-win_x64.zip",
-      "checksums": {
-        "sha256": "7888a2c3d6788e113dbb03396d804419eeed8918f167fcd1368fc06a736b27b7"
-      }
-    },
-    "7.0.342": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.54.0.13-ca-jdk7.0.342-win_x64.zip",
-      "checksums": {
-        "sha256": "b1548bc68042326a0c0a643d69a42e3f6f62d648990ed9abd79bebbde70d25eb"
-      }
-    },
-    "7.0.352": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.56.0.11-ca-jdk7.0.352-win_x64.zip",
-      "checksums": {
-        "sha256": "a0255d1e29d4ab9d685b698217d9adca6a29b2e493608d4e73feda84e7759085"
-      }
-    },
     "8.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu8.0.0.3-ca-jdk8.0.0-win_x64.zip",
       "checksums": {

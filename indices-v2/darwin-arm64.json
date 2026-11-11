@@ -3186,6 +3186,36 @@
       "checksums": {
         "sha256": "50201fb8e8e653e7a253d955877a6b6ad634b42e60c84f45df7e1bb51361635f"
       }
+    },
+    "25.1.3": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.1.3/graalvm-community-jdk-25i1-25.0.3_macos-aarch64_bin.tar.gz",
+      "checksums": {
+        "sha256": "b41cdde27691a0e04a1f2b0660624bc37e59c738e536888860c4c9f65a4a9a3b"
+      }
+    },
+    "25.2.4": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.2.4/graalvm-community-jdk-25i2-25.0.4_macos-aarch64_bin.tar.gz",
+      "checksums": {
+        "sha256": "507330fff8907de51b8621c95a21a491fa9b0d8c240de184594f40f83add3bfa"
+      }
+    },
+    "25.3.4.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.3.4.1/graalvm-community-jdk-25i3-25.0.4.1_macos-aarch64_bin.tar.gz",
+      "checksums": {
+        "sha256": "ebfab1d74420f355a459076162012d6835fa6068bd9d2f230f1fcaf7ee0dd923"
+      }
+    },
+    "25.4.4.1.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.4.4.1.1/graalvm-community-jdk-25i4-25.0.4.1.1_macos-aarch64_bin.tar.gz",
+      "checksums": {
+        "sha256": "4ec9932aa4aab1afca0ea31982d32d6f956615c61fe21a227b49756b25adda4f"
+      }
+    },
+    "25.5.5.0.3": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.5.5.0.3/graalvm-community-jdk-25i5-25.0.5.0.3_macos-aarch64_bin.tar.gz",
+      "checksums": {
+        "sha256": "54369d4a5931a5a2101c7c52444a4e7e6647a3a4e041335053cda6fd22295e0c"
+      }
     }
   },
   "graalvm-java11": {
@@ -3383,6 +3413,36 @@
       "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.2/graalvm-community-jdk-25.0.2_macos-aarch64_bin.tar.gz",
       "checksums": {
         "sha256": "50201fb8e8e653e7a253d955877a6b6ad634b42e60c84f45df7e1bb51361635f"
+      }
+    },
+    "25.1.3": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.1.3/graalvm-community-jdk-25i1-25.0.3_macos-aarch64_bin.tar.gz",
+      "checksums": {
+        "sha256": "b41cdde27691a0e04a1f2b0660624bc37e59c738e536888860c4c9f65a4a9a3b"
+      }
+    },
+    "25.2.4": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.2.4/graalvm-community-jdk-25i2-25.0.4_macos-aarch64_bin.tar.gz",
+      "checksums": {
+        "sha256": "507330fff8907de51b8621c95a21a491fa9b0d8c240de184594f40f83add3bfa"
+      }
+    },
+    "25.3.4.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.3.4.1/graalvm-community-jdk-25i3-25.0.4.1_macos-aarch64_bin.tar.gz",
+      "checksums": {
+        "sha256": "ebfab1d74420f355a459076162012d6835fa6068bd9d2f230f1fcaf7ee0dd923"
+      }
+    },
+    "25.4.4.1.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.4.4.1.1/graalvm-community-jdk-25i4-25.0.4.1.1_macos-aarch64_bin.tar.gz",
+      "checksums": {
+        "sha256": "4ec9932aa4aab1afca0ea31982d32d6f956615c61fe21a227b49756b25adda4f"
+      }
+    },
+    "25.5.5.0.3": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.5.5.0.3/graalvm-community-jdk-25i5-25.0.5.0.3_macos-aarch64_bin.tar.gz",
+      "checksums": {
+        "sha256": "54369d4a5931a5a2101c7c52444a4e7e6647a3a4e041335053cda6fd22295e0c"
       }
     }
   },

@@ -4921,6 +4921,36 @@
       "checksums": {
         "sha256": "e0be791c8fda4d03b6b0a0cb824fef3149736170057b3a515252b44419606af0"
       }
+    },
+    "25.1.3": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.1.3/graalvm-community-jdk-25i1-25.0.3_linux-x64_bin.tar.gz",
+      "checksums": {
+        "sha256": "e9cd1637be853e105f8b09125b4b19fbce385696465d782cbca8bb80e1df8f0d"
+      }
+    },
+    "25.2.4": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.2.4/graalvm-community-jdk-25i2-25.0.4_linux-x64_bin.tar.gz",
+      "checksums": {
+        "sha256": "3f4a89de8eaa96f2ed677f09957c7e872cd8467aad3537f8b5394c1b8c4b942e"
+      }
+    },
+    "25.3.4.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.3.4.1/graalvm-community-jdk-25i3-25.0.4.1_linux-x64_bin.tar.gz",
+      "checksums": {
+        "sha256": "b2bc38d0c4141426eb44d0eefa3cc172c96faf92727d703b61541699128b6fc7"
+      }
+    },
+    "25.4.4.1.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.4.4.1.1/graalvm-community-jdk-25i4-25.0.4.1.1_linux-x64_bin.tar.gz",
+      "checksums": {
+        "sha256": "05ccbbe783210b6886ff7b08fcd0b061c5dce4852b05db87284fc0e24abb08e2"
+      }
+    },
+    "25.5.5.0.3": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.5.5.0.3/graalvm-community-jdk-25i5-25.0.5.0.3_linux-x64_bin.tar.gz",
+      "checksums": {
+        "sha256": "c6438dee6c3ade2220d40b7ccdcad24b512d30e233e61bb4fc70519522de34ef"
+      }
     }
   },
   "graalvm-java11": {
@@ -5348,6 +5378,36 @@
       "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-25.0.2/graalvm-community-jdk-25.0.2_linux-x64_bin.tar.gz",
       "checksums": {
         "sha256": "e0be791c8fda4d03b6b0a0cb824fef3149736170057b3a515252b44419606af0"
+      }
+    },
+    "25.1.3": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.1.3/graalvm-community-jdk-25i1-25.0.3_linux-x64_bin.tar.gz",
+      "checksums": {
+        "sha256": "e9cd1637be853e105f8b09125b4b19fbce385696465d782cbca8bb80e1df8f0d"
+      }
+    },
+    "25.2.4": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.2.4/graalvm-community-jdk-25i2-25.0.4_linux-x64_bin.tar.gz",
+      "checksums": {
+        "sha256": "3f4a89de8eaa96f2ed677f09957c7e872cd8467aad3537f8b5394c1b8c4b942e"
+      }
+    },
+    "25.3.4.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.3.4.1/graalvm-community-jdk-25i3-25.0.4.1_linux-x64_bin.tar.gz",
+      "checksums": {
+        "sha256": "b2bc38d0c4141426eb44d0eefa3cc172c96faf92727d703b61541699128b6fc7"
+      }
+    },
+    "25.4.4.1.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.4.4.1.1/graalvm-community-jdk-25i4-25.0.4.1.1_linux-x64_bin.tar.gz",
+      "checksums": {
+        "sha256": "05ccbbe783210b6886ff7b08fcd0b061c5dce4852b05db87284fc0e24abb08e2"
+      }
+    },
+    "25.5.5.0.3": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.5.5.0.3/graalvm-community-jdk-25i5-25.0.5.0.3_linux-x64_bin.tar.gz",
+      "checksums": {
+        "sha256": "c6438dee6c3ade2220d40b7ccdcad24b512d30e233e61bb4fc70519522de34ef"
       }
     }
   },
@@ -17260,246 +17320,6 @@
     }
   },
   "zulu": {
-    "6.0.77": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.11.0.2-jdk6.0.77-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "f3737a449e8b0690d32694c1b2a0be371c2ee9a8db265bd5affea0c2078cdbf0"
-      }
-    },
-    "6.0.79": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.12.0.2-jdk6.0.79-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "4760a6c19d12fa48fd447ef5c8defcc5f55928dfdd6c812ad3247684c1582fdd"
-      }
-    },
-    "6.0.83": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.13.0.3-jdk6.0.83-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "951897f0d7a60531dc9082a579a05cac5b2d2f07fd13469829db7f0525766b96"
-      }
-    },
-    "6.0.87": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.14.0.1-jdk6.0.87-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "74e3b4d43db7364bdec43eb082d69830c3e1b672302789be470d27c150a1a65d"
-      }
-    },
-    "6.0.89": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.15.0.1-jdk6.0.89-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "404c11209d703d55b302b41dda17750506a8ca9126f39365088500ccd71dba24"
-      }
-    },
-    "6.0.93": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.16.0.1-jdk6.0.93-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "07be53f6441d29851e7409641d74655928e14d222b3871e4e74bd9e64f98f534"
-      }
-    },
-    "6.0.97": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.17.0.1-jdk6.0.97-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "9ac4efd9dd085404d7683b348c6de3090897a3af9b59514696b64bcd46508496"
-      }
-    },
-    "6.0.99": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.18.0.3-ca-jdk6.0.99-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "6abb042de08515dbc1e2973c5c24f95f7b556b7ba1d7f20362c74a6392f125ab"
-      }
-    },
-    "6.0.103": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.19.0.1-jdk6.0.103-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "10a48a962b8605b2eb0af5fd7c41193bf086333aee51bc6d31d6bc26b1e0047f"
-      }
-    },
-    "6.0.107": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.20.0.1-ca-jdk6.0.107-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "c09334f4b1048a20b4d3dca67b7b265eb3ff2675426d3ef1137d0147891df1e7"
-      }
-    },
-    "6.0.113": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.21.0.3-jdk6.0.113-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "ac87d8c1ed7447c0446dd59bcddd995c73ac6ba1630a77154915d1812ea6183a"
-      }
-    },
-    "6.0.119": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu6.22.0.3-ca-jdk6.0.119-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "dd4765b45d9f1fc319a6e5be0bbc79371582daa8fd77872d51072f16deca2625"
-      }
-    },
-    "7.0.95": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.13.0.1-ca-jdk7.0.95-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "b782a6060cea9a564c9a3013a8d15f4152490a3c5be012fe9eb039e895f78076"
-      }
-    },
-    "7.0.101": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.14.0.5-jdk7.0.101-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "fa4c52c34fd41e344fdaa71f1045753115bb247cf6fa0dc951caf429fe683d9f"
-      }
-    },
-    "7.0.111": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.15.0.1-ca-jdk7.0.111-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "03f64390e5d07bb1eea07600892468566f6d92a7edf9c7186a2949d1292833ef"
-      }
-    },
-    "7.0.121": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.16.0.1-jdk7.0.121-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "8d16bf6a6d877d4df951880e13fdb21e889b5a98874c8a99a509f754910daec1"
-      }
-    },
-    "7.0.131": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.17.0.5-ca-jdk7.0.131-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "95a31b09d0275ce7cf48513bd7b34b9ab40ffa6caa3eefc543c40321ba057947"
-      }
-    },
-    "7.0.141": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.18.0.3-ca-jdk7.0.141-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "65d0bba0dc9eb0d07a1134a9aa819dcbf74316d6b00ffbf21d4ca675d14fbf07"
-      }
-    },
-    "7.0.154": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.20.0.3-ca-jdk7.0.154-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "9467a1e12d86b82915301e3b26adf362ce17550a014a3e8edbcb9a9da2b864e8"
-      }
-    },
-    "7.0.161": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.21.0.3-ca-jdk7.0.161-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "af1ea1676d33ec655a1d333709829b9242d55f7ec7de21e6295a2a2ad7dd43a5"
-      }
-    },
-    "7.0.171": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.22.0.3-ca-jdk7.0.171-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "ce88a06c62dc7977cbd1fd770b2e5f14c2699c7f9a391d1e4a7902bf4ff8ca31"
-      }
-    },
-    "7.0.181": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.23.0.1-jdk7.0.181-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "82e6ecc66c5b0c7c21b0df3957ad081040645f0bebd454f0aed668fe0812abde"
-      }
-    },
-    "7.0.191": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.24.0.1-jdk7.0.191-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "1aaa3dcd00a4fc3cc0a072aae1737f31b4a313ad4a8a4a112f3cb9ca6ceba388"
-      }
-    },
-    "7.0.201": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.25.0.5-ca-jdk7.0.201-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "092ac65f2da2521befd71df33a5648b293cd3d25d7331405590bd1352ff0fa3a"
-      }
-    },
-    "7.0.211": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.27.0.1-ca-jdk7.0.211-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "e3f343aa8e3300c03dfaed080eb68e4d666656c15d1019b6d9cf6058fc88c4a8"
-      }
-    },
-    "7.0.222": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.29.0.5-ca-jdk7.0.222-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "2eb69c315beaa6d804647ff33f931f19ca076daa65808cd9fa285d557c00b677"
-      }
-    },
-    "7.0.232": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.31.0.5-ca-jdk7.0.232-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "0087a283472a7336e4dbd26e2c8fe2d5595325b5ae83e922502baf7d240e49dc"
-      }
-    },
-    "7.0.242": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.34.0.5-ca-jdk7.0.242-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "de1c544fafaf351b878e890a5571055f5650ae1db05c1f46a6bd51dcbeaa120f"
-      }
-    },
-    "7.0.252": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.36.0.5-ca-jdk7.0.252-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "e0f34c242e6d456dac3e2c8a9eaeacfa8ea75c4dfc3e8818190bf0326e839d82"
-      }
-    },
-    "7.0.262": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.38.0.11-ca-jdk7.0.262-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "105ff96d4c5d8902436e7e42f41e85f4bab7916c7ea7affa0af70749668b4bd8"
-      }
-    },
-    "7.0.272": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.40.0.15-ca-jdk7.0.272-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "5efbf721a4335a19c8c3fbf2cf2fce8d1c6b4a766fb93e98f9303845f89d901e"
-      }
-    },
-    "7.0.282": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.42.0.13-ca-jdk7.0.282-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "38ec78e7f41f9130cecce5c8c9963d066f7deee5b3ba4dfcca32e197fd933bf9"
-      }
-    },
-    "7.0.285": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.42.0.51-ca-jdk7.0.285-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "3aa93056dbb5f0439ff687a2ec9f80a577fda8d9d7e347ccc778968f37929d0d"
-      }
-    },
-    "7.0.292": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.44.0.11-ca-jdk7.0.292-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "c99df2b396265e664e28248b20068549fcf78b30a4dd74f15309c911238316fe"
-      }
-    },
-    "7.0.302": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.46.0.11-ca-jdk7.0.302-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "37d69a4c03b0ea62e4fabc5282105c6858a44d3949b31c9a52ca287b7c3c828f"
-      }
-    },
-    "7.0.312": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.48.0.11-ca-jdk7.0.312-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "c21e30c6a7c0bba75bb9b5ab7933a6ca65db1947e03842278a363f582445c890"
-      }
-    },
-    "7.0.322": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.50.0.11-ca-jdk7.0.322-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "68ac226429904f208a9b873898d2aa6fce3c900c4da8304d589d0b753634bb10"
-      }
-    },
-    "7.0.332": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.52.0.11-ca-jdk7.0.332-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "573504190ffc0f684b9ac2712075bc6228a6f45e07cd381ccded7996f561590f"
-      }
-    },
-    "7.0.342": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.54.0.13-ca-jdk7.0.342-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "c225191f859b4766cbc830493a15d12097e4291ae6427cce1a904440b7aaea4e"
-      }
-    },
-    "7.0.352": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu7.56.0.11-ca-jdk7.0.352-linux_x64.tar.gz",
-      "checksums": {
-        "sha256": "8a7387c1ed151474301b6553c6046f865dc6c1e1890bcf106acc2780c55727c8"
-      }
-    },
     "8.0.71": {
       "url": "https://cdn.azul.com/zulu/bin/zulu8.12.0.1-jdk8.0.71-linux_x64.tar.gz",
       "checksums": {
