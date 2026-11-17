@@ -6910,6 +6910,12 @@
       "checksums": {
         "sha512": "e8c8fb1e47e3e8d9a0f1548b9b9566c40bcd056771c3052ba6512dc2bde6b65566a4890e9af9a4b27e62446c33eb9dab030b8e813a7a5598f80f72508b9cb8bf"
       }
+    },
+    "25.0.5.0.3": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.0.3-osx-x64-b700.17.tar.gz",
+      "checksums": {
+        "sha512": "4dfc917e27255ca63408def82d9678b6c3460736e421f603b3909c12830d82b7b7aed35dbe0bbfae4ce73f6bfb67c7337a6781f8bbab5c95e3445ea8491474dc"
+      }
     }
   },
   "jetbrains-jcef": {
@@ -7121,6 +7127,12 @@
       "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-x64-b635.79.tar.gz",
       "checksums": {
         "sha512": "39a90c5847eb1c35ce4f3cf89944e1019a23f9b5882092ff6fb782509406be7a62c2bd9d3bbcbd96b543aefd5e3a586afe63e4076aa4c0f66876a2f4005c1a9f"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.0.3-osx-x64-b700.17.tar.gz",
+      "checksums": {
+        "sha512": "b092c06c65bb16105c4d4810501b078950e7a89dfd92346ffce71af750f923f77b82c68eaf86bf0c7a67a518d6f9315c3d5852816418d7b93b14f5c14b6645ba"
       }
     }
   },
@@ -7358,6 +7370,12 @@
       "checksums": {
         "sha512": "1ebd7b3d1b26abb53d261403159df215107eb0d3f7d325870a8f4500a54f7a74df457ea7260fee0823a0192a62666c368ac0be52fd2d4137bbfdbd5840eb6e0b"
       }
+    },
+    "25.0.5.0.3": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.5.0.3-osx-x64-b700.17.tar.gz",
+      "checksums": {
+        "sha512": "eff9acda46d26f734c49ab786d7201e0ec53b9e2b4f01e48cce39a176d22409c82698221b1ee256faa3a8dae98c91809927021a8f03012c132967745a397359e"
+      }
     }
   },
   "jetbrains-jre": {
@@ -7551,6 +7569,12 @@
       "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-x64-b635.79.tar.gz",
       "checksums": {
         "sha512": "fc8f7404d137259bd707870b1c5fc7f7084aa940829f7156ec81144630156cbb344774e97c34d2ecd34a353f84288d60ced8c174968c9465d0b1db8d51a7f90e"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-osx-x64-b700.17.tar.gz",
+      "checksums": {
+        "sha512": "dd9f7060633891a295489b2246654327f305c3ec4564d757eef5825722a671ffe62ad7f3279b2e9d3d8840b2637deb63b85c983aed2a173bb4712153b2ee16c7"
       }
     }
   },
