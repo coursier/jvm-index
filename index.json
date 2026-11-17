@@ -191,6 +191,7 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_ppc64_aix_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_ppc64_aix_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_ppc64_aix_hotspot_26.0.2_10.tar.gz",
@@ -279,6 +280,7 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_ppc64_aix_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_ppc64_aix_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_ppc64_aix_hotspot_26.0.2_10.tar.gz",
@@ -378,6 +380,7 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_ppc64_aix_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_ppc64_aix_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_ppc64_aix_hotspot_26.0.2_10.tar.gz",
@@ -444,6 +447,7 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_ppc64_aix_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_ppc64_aix_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_ppc64_aix_hotspot_26.0.2_10.tar.gz",
@@ -800,6 +804,7 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_ppc64_aix_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jdk_ppc64_aix_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jdk_ppc64_aix_hotspot_26.0.2_10.tar.gz",
@@ -888,6 +893,7 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_ppc64_aix_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-debugimage_ppc64_aix_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-debugimage_ppc64_aix_hotspot_26.0.2_10.tar.gz",
@@ -976,6 +982,7 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_ppc64_aix_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_ppc64_aix_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_ppc64_aix_hotspot_26.0.2_10.tar.gz",
@@ -1034,6 +1041,7 @@
         "1.25.0.3": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.3_9.tar.gz",
         "1.25.0.4": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.4_7.tar.gz",
         "1.25.0.4.1": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
+        "1.25.0.5": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.5_8.tar.gz",
         "1.26.0.0": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-testimage_ppc64_aix_hotspot_26_35.tar.gz",
         "1.26.0.1": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-testimage_ppc64_aix_hotspot_26.0.1_8.tar.gz",
         "1.26.0.2": "tgz+https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-testimage_ppc64_aix_hotspot_26.0.2_10.tar.gz",
@@ -3737,7 +3745,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-osx-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-osx-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-osx-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-x64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-x64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.0.3-osx-x64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jcef": {
         "11.0.14.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-11_0_14_1-osx-x64-b2043.45.tar.gz",
@@ -3774,7 +3783,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-osx-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-osx-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-osx-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-x64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-x64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.0.3-osx-x64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jcef-jre": {
         "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-11_0_11-osx-x64-b1536.2.tar.gz",
@@ -3815,7 +3825,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-osx-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-osx-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-osx-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-x64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-x64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.5.0.3-osx-x64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jre": {
         "17.0.0": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17-osx-x64-b135.1.tar.gz",
@@ -3849,7 +3860,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-osx-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-osx-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-osx-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-x64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-x64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-osx-x64-b700.17.tar.gz"
       },
       "jdk@liberica": {
         "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-macos-amd64.zip",
@@ -6618,7 +6630,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-osx-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-osx-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-osx-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-aarch64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-aarch64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.0.3-osx-aarch64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jcef": {
         "11.0.14.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-11_0_14_1-osx-aarch64-b2043.45.tar.gz",
@@ -6655,7 +6668,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-osx-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-osx-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-osx-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-aarch64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-aarch64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.0.3-osx-aarch64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jcef-jre": {
         "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-11_0_11-osx-aarch64-b1536.2.tar.gz",
@@ -6696,7 +6710,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-osx-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-osx-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-osx-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-aarch64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-aarch64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.5.0.3-osx-aarch64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jre": {
         "17.0.0": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17-osx-aarch64-b135.1.tar.gz",
@@ -6730,7 +6745,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-osx-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-osx-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-osx-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-aarch64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-aarch64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-osx-aarch64-b700.17.tar.gz"
       },
       "jdk@liberica": {
         "8.0.282": "zip+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-macos-aarch64.zip",
@@ -9664,7 +9680,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-linux-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-linux-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-linux-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-x64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-x64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.0.3-linux-x64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jcef": {
         "11.0.14.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-11_0_14_1-linux-x64-b2043.45.tar.gz",
@@ -9702,7 +9719,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-linux-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-linux-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-linux-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-linux-x64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-linux-x64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.0.3-linux-x64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jcef-jre": {
         "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-11_0_11-linux-x64-b1536.2.tar.gz",
@@ -9744,7 +9762,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-linux-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-linux-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-linux-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-linux-x64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-linux-x64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.5.0.3-linux-x64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jre": {
         "17.0.0": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17-linux-x64-b135.1.tar.gz",
@@ -9779,7 +9798,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-linux-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-linux-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-linux-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-x64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-x64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-linux-x64-b700.17.tar.gz"
       },
       "jdk@liberica": {
         "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-linux-amd64.tar.gz",
@@ -14534,7 +14554,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-linux-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-linux-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-linux-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-aarch64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-aarch64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.0.3-linux-aarch64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jcef": {
         "17.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-17.0.3-linux-aarch64-b498.3.tar.gz",
@@ -14566,7 +14587,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-linux-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-linux-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-linux-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-linux-aarch64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-linux-aarch64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.0.3-linux-aarch64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jcef-jre": {
         "17.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-17.0.3-linux-aarch64-b498.3.tar.gz",
@@ -14598,7 +14620,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-linux-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-linux-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-linux-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-linux-aarch64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-linux-aarch64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.5.0.3-linux-aarch64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jre": {
         "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-11_0_11-linux-aarch64-b1536.2.tar.gz",
@@ -14640,7 +14663,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-linux-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-linux-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-linux-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-aarch64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-aarch64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-linux-aarch64-b700.17.tar.gz"
       },
       "jdk@liberica": {
         "8.0.202": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-linux-aarch64.tar.gz",
@@ -20974,7 +20998,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-linux-musl-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-linux-musl-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-linux-musl-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-musl-x64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-musl-x64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.0.3-linux-musl-x64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jre": {
         "17.0.9": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.9-linux-musl-x64-b1166.2.tar.gz",
@@ -20997,7 +21022,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-linux-musl-x64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-linux-musl-x64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-linux-musl-x64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-musl-x64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-musl-x64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-linux-musl-x64-b700.17.tar.gz"
       },
       "jdk@liberica": {
         "8.0.262": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u262+10/bellsoft-jdk8u262+10-linux-x64-musl.tar.gz",
@@ -22774,7 +22800,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-linux-musl-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-linux-musl-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-linux-musl-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-musl-aarch64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-linux-musl-aarch64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.0.3-linux-musl-aarch64-b700.17.tar.gz"
       },
       "jdk@jetbrains-jre": {
         "17.0.9": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.9-linux-musl-aarch64-b1166.2.tar.gz",
@@ -22797,7 +22824,8 @@
         "25.0.2": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-linux-musl-aarch64-b432.48.tar.gz",
         "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-linux-musl-aarch64-b508.16.tar.gz",
         "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-linux-musl-aarch64-b508.27.tar.gz",
-        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-musl-aarch64-b635.79.tar.gz"
+        "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-musl-aarch64-b635.79.tar.gz",
+        "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-linux-musl-aarch64-b700.17.tar.gz"
       },
       "jdk@liberica": {
         "8.0.282": "tgz+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-linux-aarch64-musl.tar.gz",
@@ -25240,7 +25268,8 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-windows-x64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-windows-x64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-windows-x64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-x64-b635.79.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-x64-b635.79.zip",
+        "25.0.5.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.0.3-windows-x64-b700.17.zip"
       },
       "jdk@jetbrains-jcef": {
         "11.0.14.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-11_0_14_1-windows-x64-b2043.45.tar.gz",
@@ -25278,7 +25307,8 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-windows-x64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-windows-x64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-windows-x64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-x64-b635.79.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-x64-b635.79.zip",
+        "25.0.5.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.0.3-windows-x64-b700.17.zip"
       },
       "jdk@jetbrains-jcef-jre": {
         "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-11_0_11-windows-x64-b1536.2.tar.gz",
@@ -25320,7 +25350,8 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-windows-x64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-windows-x64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-windows-x64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-x64-b635.79.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-x64-b635.79.zip",
+        "25.0.5.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.5.0.3-windows-x64-b700.17.zip"
       },
       "jdk@jetbrains-jre": {
         "17.0.0": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17-windows-x64-b135.1.tar.gz",
@@ -25355,7 +25386,8 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-windows-x64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-windows-x64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-windows-x64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-x64-b635.79.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-x64-b635.79.zip",
+        "25.0.5.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-windows-x64-b700.17.zip"
       },
       "jdk@liberica": {
         "8.0.202": "zip+https://github.com/bell-sw/Liberica/releases/download/8u202/bellsoft-jdk8u202-windows-amd64.zip",
@@ -27524,7 +27556,8 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-windows-aarch64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-windows-aarch64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-windows-aarch64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-aarch64-b635.79.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-windows-aarch64-b635.79.zip",
+        "25.0.5.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.0.3-windows-aarch64-b700.17.zip"
       },
       "jdk@jetbrains-jcef": {
         "17.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-17.0.3-windows-aarch64-b498.3.tar.gz",
@@ -27555,7 +27588,8 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.2-windows-aarch64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-windows-aarch64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-windows-aarch64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-aarch64-b635.79.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-windows-aarch64-b635.79.zip",
+        "25.0.5.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.0.3-windows-aarch64-b700.17.zip"
       },
       "jdk@jetbrains-jcef-jre": {
         "17.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-17.0.3-windows-aarch64-b498.3.tar.gz",
@@ -27586,7 +27620,8 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.2-windows-aarch64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-windows-aarch64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-windows-aarch64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-aarch64-b635.79.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-windows-aarch64-b635.79.zip",
+        "25.0.5.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.5.0.3-windows-aarch64-b700.17.zip"
       },
       "jdk@jetbrains-jre": {
         "17.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17.0.3-windows-aarch64-b498.3.tar.gz",
@@ -27617,7 +27652,8 @@
         "25.0.2": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.2-windows-aarch64-b432.48.zip",
         "25.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-windows-aarch64-b508.16.zip",
         "25.0.4": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-windows-aarch64-b508.27.zip",
-        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-aarch64-b635.79.zip"
+        "25.0.4.1": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-windows-aarch64-b635.79.zip",
+        "25.0.5.0.3": "zip+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-windows-aarch64-b700.17.zip"
       },
       "jdk@liberica": {
         "11.0.11": "zip+https://github.com/bell-sw/Liberica/releases/download/11.0.11+9/bellsoft-jdk11.0.11+9-windows-aarch64.zip",

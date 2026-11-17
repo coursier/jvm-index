@@ -1102,6 +1102,12 @@
         "sha256": "548a620c40090680f5bfc8b03feebede610fa43eee21d1b4c9cac616dbcb76de"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "b600aeb31e72caadae1f6951975501bf13a8952bfc8ac8a442721f5fba236e0b"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_ppc64_aix_hotspot_26_35.tar.gz",
       "checksums": {
@@ -1616,6 +1622,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "bdf197302432b4aaa2774dab219f444af014428eb6bcce13e718f137b5a86470"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "ee9bba8b54a14af167a8b5d572186c4e61d1384961741c719d16959ccd63b619"
       }
     },
     "26.0.0": {
@@ -2200,6 +2212,12 @@
         "sha256": "44e79e53c3312bbab922653c01ed00310c1380884e912041a7fce9e1f704fb83"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "76a1c5c0c272afaaa03a153fcc9846d1fc22985ff09b0e75b321cf7cc1c53122"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_ppc64_aix_hotspot_26_35.tar.gz",
       "checksums": {
@@ -2584,6 +2602,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "6e4a2f5b2a96c25b7a0911ce60e42416818e8f81a480014054221b3370179354"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "22c9426daeb41ad3f1d498886514ed44270cab4e8eb8500df55e8452c395b3a9"
       }
     },
     "26.0.0": {
@@ -4560,6 +4584,12 @@
         "sha256": "548a620c40090680f5bfc8b03feebede610fa43eee21d1b4c9cac616dbcb76de"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "b600aeb31e72caadae1f6951975501bf13a8952bfc8ac8a442721f5fba236e0b"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_ppc64_aix_hotspot_26_35.tar.gz",
       "checksums": {
@@ -5074,6 +5104,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "bdf197302432b4aaa2774dab219f444af014428eb6bcce13e718f137b5a86470"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_ppc64_aix_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "ee9bba8b54a14af167a8b5d572186c4e61d1384961741c719d16959ccd63b619"
       }
     },
     "26.0.0": {
@@ -5592,6 +5628,12 @@
         "sha256": "44e79e53c3312bbab922653c01ed00310c1380884e912041a7fce9e1f704fb83"
       }
     },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "76a1c5c0c272afaaa03a153fcc9846d1fc22985ff09b0e75b321cf7cc1c53122"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_ppc64_aix_hotspot_26_35.tar.gz",
       "checksums": {
@@ -5928,6 +5970,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
       "checksums": {
         "sha256": "6e4a2f5b2a96c25b7a0911ce60e42416818e8f81a480014054221b3370179354"
+      }
+    },
+    "25.0.5": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_ppc64_aix_hotspot_25.0.5_8.tar.gz",
+      "checksums": {
+        "sha256": "22c9426daeb41ad3f1d498886514ed44270cab4e8eb8500df55e8452c395b3a9"
       }
     },
     "26.0.0": {

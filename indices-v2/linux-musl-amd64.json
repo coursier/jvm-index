@@ -3862,6 +3862,12 @@
       "checksums": {
         "sha512": "e16d19e54067545a6c6735c318cc06cbbde53c9a7a065e9530b09ae6ac9911c29e02a9f2e5225bddccfde99aa48088d9634c4f3f4a56bb502fb0f66995002566"
       }
+    },
+    "25.0.5.0.3": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.0.3-linux-musl-x64-b700.17.tar.gz",
+      "checksums": {
+        "sha512": "50d3d48edc0d3d681a48ceb099e3f4510761ccc4693ab48afd5757a6d826e76b8c81643866d8d65755e88a69190f10cbee063f411d1359d67c145414460583b8"
+      }
     }
   },
   "jetbrains-jre": {
@@ -3989,6 +3995,12 @@
       "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-linux-musl-x64-b635.79.tar.gz",
       "checksums": {
         "sha512": "e187942900b1eae6c90967a2efec558edf4e6b2ba09258fb7b33320d3fdacf72cc234795fb52017c955a1ca54fe586da81a4f43d000947dd648523dac65b043a"
+      }
+    },
+    "25.0.5.0.3": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-linux-musl-x64-b700.17.tar.gz",
+      "checksums": {
+        "sha512": "74b60a1aee0f5e7f3183c84e38bb1504315281ce4c4aff57c216e02476aa68d66908da9ed71f832f2ee7e7c182108126947f0fc28b06580e6e634ac55539dbab"
       }
     }
   },
