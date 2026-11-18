@@ -3626,6 +3626,12 @@
         "sha256": "e286bfe31e9f4d787a58912898b961869721562d7d89048841d011720dd8c18b"
       }
     },
+    "8.0.514": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.201-ca-jdk8.0.514-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "9363f5d4fd71cc9f2e6304870d34d8756b6aa3bd7c458f818f06559b4d3a480d"
+      }
+    },
     "9.0.1": {
       "url": "https://cdn.azul.com/zulu/bin/zulu9.0.1.3-ca-jdk9.0.1-linux_i686.tar.gz",
       "checksums": {
@@ -4161,9 +4167,9 @@
       }
     },
     "17.0.21": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-linux_i686.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.201-ca-jdk17.0.21.1-linux_i686.tar.gz",
       "checksums": {
-        "sha256": "5fe7e9dab686d42cd0233a4ed00d6984f34369e75fe0c2ebac23adfcab620617"
+        "sha256": "edcfe356d63662cf6fcccd7381a1dae2efc1f627ee915719950f7d7d0e39f3c6"
       }
     },
     "18.0.0": {
@@ -4406,6 +4412,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-jre8.0.512-linux_i686.tar.gz",
       "checksums": {
         "sha256": "e50df672442a0e6f02cd927e6ca55614dfd7ca11c434a504fb181577cc1012d7"
+      }
+    },
+    "8.0.514": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.201-ca-jre8.0.514-linux_i686.tar.gz",
+      "checksums": {
+        "sha256": "3d9091280fba319247ecdb86de5be5243ab7b8bedaa8459d2c0cea9266720cd2"
       }
     },
     "11.0.6": {
@@ -4865,9 +4877,9 @@
       }
     },
     "17.0.21": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jre17.0.21.0.3-linux_i686.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.201-ca-jre17.0.21.1-linux_i686.tar.gz",
       "checksums": {
-        "sha256": "e535df5c2dcafe96ce6950873fc558010f91b4d48af84e974c8bd605db857a72"
+        "sha256": "37c62b914b45a1a774d79f86bfe79d436175f8c8293efd1c0e50b067d0eadb28"
       }
     },
     "18.0.0": {

@@ -2326,6 +2326,13 @@
         "sha256": "30c7edb7134712148cc323d4ccfc816758e7f1e4bb8aa1287795872fa5eca610"
       }
     },
+    "8.514.01.1": {
+      "url": "https://corretto.aws/downloads/resources/8.514.01.1/amazon-corretto-8.514.01.1-macosx-aarch64.tar.gz",
+      "checksums": {
+        "md5": "929c709da007c6a64dc5ce7f48331ad0",
+        "sha256": "29e7f27d601f202410b4f421155206c1cd52adb0c94513785a70ddc942b251e1"
+      }
+    },
     "11.0.15.9.1": {
       "url": "https://corretto.aws/downloads/resources/11.0.15.9.1/amazon-corretto-11.0.15.9.1-macosx-aarch64.tar.gz",
       "checksums": {
@@ -2499,6 +2506,13 @@
       "checksums": {
         "md5": "99051831ce4c151322ac510291d477c0",
         "sha256": "94dfe3dce2a508a5e0e3c67c75feb2ad580531c0dfd66ef46db17e0a8b08a338"
+      }
+    },
+    "11.0.33.1.1": {
+      "url": "https://corretto.aws/downloads/resources/11.0.33.1.1/amazon-corretto-11.0.33.1.1-macosx-aarch64.tar.gz",
+      "checksums": {
+        "md5": "aaad04315f21fd07251c3610999c328f",
+        "sha256": "79b8a95fb1cf6424b0053c75bcc260b20e54becc1b6062e3918215edd796db7a"
       }
     },
     "17.0.0.35.1": {
@@ -2701,6 +2715,13 @@
         "sha256": "3cd5a2bdd380a5654aa1ef5eda3032f60021e8e48a0bdd552e8e39b032705732"
       }
     },
+    "17.0.21.1.2": {
+      "url": "https://corretto.aws/downloads/resources/17.0.21.1.2/amazon-corretto-17.0.21.1.2-macosx-aarch64.tar.gz",
+      "checksums": {
+        "md5": "bc7b43d4fb0f6dd9d633ba3078929c35",
+        "sha256": "111f743800958e4b013f46a53c7f86dd43a0815a0ca8407a52ed699d2d855b60"
+      }
+    },
     "18.0.0.37.1": {
       "url": "https://corretto.aws/downloads/resources/18.0.0.37.1/amazon-corretto-18.0.0.37.1-macosx-aarch64.tar.gz",
       "checksums": {
@@ -2890,6 +2911,13 @@
         "sha256": "f4ee9236ffc3ddcd37da877e04a1ab74b3d3376cf9e4287b5426f4749cc869a9"
       }
     },
+    "21.0.13.1.2": {
+      "url": "https://corretto.aws/downloads/resources/21.0.13.1.2/amazon-corretto-21.0.13.1.2-macosx-aarch64.tar.gz",
+      "checksums": {
+        "md5": "5a311e950e73b19499978b1883351e30",
+        "sha256": "3e566c5b2760dc4f2199ac68b09a1b7c5381f228a336f3514a1aad4c113d474a"
+      }
+    },
     "22.0.0.36.2": {
       "url": "https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-macosx-aarch64.tar.gz",
       "checksums": {
@@ -3016,6 +3044,13 @@
         "sha256": "0da6df8bf4f849939951089e1d10f9fea5df82a7da9f66434f6c2b31c497fe75"
       }
     },
+    "25.0.5.1.2": {
+      "url": "https://corretto.aws/downloads/resources/25.0.5.1.2/amazon-corretto-25.0.5.1.2-macosx-aarch64.tar.gz",
+      "checksums": {
+        "md5": "cd251e274eb5b6c9ffbf9e7ccd302e64",
+        "sha256": "e81e71c375ae39b85f509d31d17e74edc8e4fd7277c375c7b4b77fe26f73f233"
+      }
+    },
     "26.0.0.35.2": {
       "url": "https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-macosx-aarch64.tar.gz",
       "checksums": {
@@ -3063,6 +3098,13 @@
       "checksums": {
         "md5": "51c7e70fcf7a1d080b61065ab4286132",
         "sha256": "6001774fcb01aa85d8fedca380c8330e91705963dd6e0f3d5e695a623e914c34"
+      }
+    },
+    "27.0.1.1.4": {
+      "url": "https://corretto.aws/downloads/resources/27.0.1.1.4/amazon-corretto-27.0.1.1.4-macosx-aarch64.tar.gz",
+      "checksums": {
+        "md5": "02f7506d55b2f1e84c2ea5203da9a241",
+        "sha256": "45d64c5886d5636e3ef06e434f5b79d1e4cb10769c5ea050d9700dfb177c4bf3"
       }
     }
   },
@@ -4612,13 +4654,13 @@
     "25": {
       "url": "https://download.oracle.com/java/25/latest/jdk-25_macos-aarch64_bin.tar.gz",
       "checksums": {
-        "sha256": "453e3a7744c1cf2ceec984a70f35b18a3c6591014b12ccf12350430d63d4575d"
+        "sha256": "0c7dc2dc4534bd6e4a24fc79b050cf05e43370ea0f777ed99ebe01c00cab8fa6"
       }
     },
     "27": {
       "url": "https://download.oracle.com/java/27/latest/jdk-27_macos-aarch64_bin.tar.gz",
       "checksums": {
-        "sha256": "1bdff19b9042d693ec18c6623387ffa9945e3a34fe5ba24b9598aad2ffc5d82e"
+        "sha256": "4be79e2c4f8424ae7d58afabd7e2cca69dcbd6734d28a4eae0f360f204686af4"
       }
     }
   },

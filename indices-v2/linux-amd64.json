@@ -3849,6 +3849,13 @@
         "sha256": "2f2df938886e61c80010ed5af0ea6504ca685280a3b807c5c59ed3ca4fb95be4"
       }
     },
+    "8.514.01.1": {
+      "url": "https://corretto.aws/downloads/resources/8.514.01.1/amazon-corretto-8.514.01.1-linux-x64.tar.gz",
+      "checksums": {
+        "md5": "a603aa1d81d4a9a11e229b07416e3899",
+        "sha256": "7bc25b00ce9372505168791a56dd6b9452294297502c6ed50137fe2e0700e542"
+      }
+    },
     "11.0.4.11.1": {
       "url": "https://corretto.aws/downloads/resources/11.0.4.11.1/amazon-corretto-11.0.4.11.1-linux-x64.tar.gz",
       "checksums": {}
@@ -4090,6 +4097,13 @@
         "sha256": "f368ac379f3b20e266080e80fcc1f5e8567d044a4f895c8786220cab5b580c15"
       }
     },
+    "11.0.33.1.1": {
+      "url": "https://corretto.aws/downloads/resources/11.0.33.1.1/amazon-corretto-11.0.33.1.1-linux-x64.tar.gz",
+      "checksums": {
+        "md5": "69333533c21a5e05ce0381a877b07faa",
+        "sha256": "4b97a5dbc3fb431bf6fed5f06028bcd5830d9cfc1f30655d87abd9ed74fc301c"
+      }
+    },
     "17.0.0.35.1": {
       "url": "https://corretto.aws/downloads/resources/17.0.0.35.1/amazon-corretto-17.0.0.35.1-linux-x64.tar.gz",
       "checksums": {
@@ -4289,6 +4303,13 @@
       "checksums": {
         "md5": "d6e3ba38b0c0e17b051e0655bdb9a563",
         "sha256": "8f9a2ddb131ec5317419f2b0769240fe22ce27f8a0ae43f5346d53e1c8aec6a0"
+      }
+    },
+    "17.0.21.1.2": {
+      "url": "https://corretto.aws/downloads/resources/17.0.21.1.2/amazon-corretto-17.0.21.1.2-linux-x64.tar.gz",
+      "checksums": {
+        "md5": "c31a8191e0681b3f4d2d49c17a2b51e8",
+        "sha256": "d8a350b5988f58e6186ddc1db584af170e9d56862816d4a578e9570d85307e2c"
       }
     },
     "18.0.0.37.1": {
@@ -4494,6 +4515,13 @@
         "sha256": "f3330bf440b8f4514b7b279b6145d4b4493dea9dda5f3a702b49c53c41bec1e4"
       }
     },
+    "21.0.13.1.2": {
+      "url": "https://corretto.aws/downloads/resources/21.0.13.1.2/amazon-corretto-21.0.13.1.2-linux-x64.tar.gz",
+      "checksums": {
+        "md5": "9e596431ec718c529ee9238f983eb5eb",
+        "sha256": "2aaa2a9a43143b20ff0b28c8d0da27407b97dc40b160d9a2f60a26965815e948"
+      }
+    },
     "22.0.0.36.2": {
       "url": "https://corretto.aws/downloads/resources/22.0.0.36.2/amazon-corretto-22.0.0.36.2-linux-x64.tar.gz",
       "checksums": {
@@ -4641,6 +4669,13 @@
         "sha256": "1d89b4194f20ee513f4dd9fc2aadd038de3c713c37fd444d77566b3da7b0ee65"
       }
     },
+    "25.0.5.1.2": {
+      "url": "https://corretto.aws/downloads/resources/25.0.5.1.2/amazon-corretto-25.0.5.1.2-linux-x64.tar.gz",
+      "checksums": {
+        "md5": "c5e54ba59984575c838dc2a3fa5d09e7",
+        "sha256": "8d2be3f035dbdb7f7475e2f7009b7dc20683bfc351ad41064218c8de596c9644"
+      }
+    },
     "26.0.0.35.2": {
       "url": "https://corretto.aws/downloads/resources/26.0.0.35.2/amazon-corretto-26.0.0.35.2-linux-x64.tar.gz",
       "checksums": {
@@ -4688,6 +4723,13 @@
       "checksums": {
         "md5": "c2ed54227f6b420d99540ffb713e4695",
         "sha256": "2a8a5a833ec1b2e6e66bcf8a530438f471ebbbc928be90ab153b2985cdeac8e8"
+      }
+    },
+    "27.0.1.1.4": {
+      "url": "https://corretto.aws/downloads/resources/27.0.1.1.4/amazon-corretto-27.0.1.1.4-linux-x64.tar.gz",
+      "checksums": {
+        "md5": "66a26e4dd10ebebeb36abde88c2f5ef6",
+        "sha256": "af53e33189cc40d1ac571855534d6faa055760488810a81a926c0c05b8aa3ff3"
       }
     }
   },
@@ -6893,13 +6935,13 @@
     "25": {
       "url": "https://download.oracle.com/java/25/latest/jdk-25_linux-x64_bin.tar.gz",
       "checksums": {
-        "sha256": "6deafad80454d1f968105b1f582d89b8c2e88a5dfc98116a8226e0ec2fd5df8e"
+        "sha256": "3d40d69461200594380ac84c17be6224539022028730cffe043ac70c41ffd1d5"
       }
     },
     "27": {
       "url": "https://download.oracle.com/java/27/latest/jdk-27_linux-x64_bin.tar.gz",
       "checksums": {
-        "sha256": "d41bdc29a13920e90ee0f8e97a5bb9cb854ac06e0aa648a7fda1620db6c4e1ee"
+        "sha256": "50d42ab5bacc735aa9b4da9c451f631a4b5c09e00b961df412a26d159c538cfc"
       }
     }
   },
@@ -18416,6 +18458,12 @@
         "sha256": "e4e262c47f1309dd7cbbca50835000e82aa7fac12afbbf0f85da7c948f598213"
       }
     },
+    "8.0.514": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.201-ca-jdk8.0.514-linux_x64.tar.gz",
+      "checksums": {
+        "sha256": "16a4c55c3061ee41e94edb109f5aea1c55a2952d37e25e215d478b8347350860"
+      }
+    },
     "9.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu9.0.0.15-jdk9.0.0-linux_x64.tar.gz",
       "checksums": {
@@ -18993,9 +19041,9 @@
       }
     },
     "17.0.21": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.201-ca-jdk17.0.21.1-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "81946095839140100ebff36ff52007676e260bbe482675dbc04772595ed94390"
+        "sha256": "2837aee74267e02106ee6006809bb0de23ccfa43bf5005621517194b79975695"
       }
     },
     "18.0.0": {
@@ -19131,9 +19179,9 @@
       }
     },
     "21.0.13": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.201-ca-jdk21.0.13.1-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "abe544103f1c4f0cc4b8997c0cac847eb1e842382eef57ce361c982fb0a3de11"
+        "sha256": "510696f7da795e08b48432268173b060a49a6a3b05430690e776b5f3ddecac5e"
       }
     },
     "22.0.0": {
@@ -19221,9 +19269,9 @@
       }
     },
     "25.0.5": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jdk25.0.5.0.3-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.201-ca-jdk25.0.5.1-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "bb633b566fd501911a850d604d7d3abdfee657a88f2bbacb12e5ebc34727356f"
+        "sha256": "fc7a3d9396b443134666b9cf7cd946b532dc1781f5350c725849ac50d16a7198"
       }
     },
     "26.0.0": {
@@ -19251,9 +19299,9 @@
       }
     },
     "27.0.1": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jdk27.0.1.0.3-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.201-ca-jdk27.0.1.1-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "c128817926e4eebb30868b6ba082028f493afa716e459e34049bde0ab49a9829"
+        "sha256": "c4d7bf4c80a21e935187ecdcb111e4b2f14e1fdd18364974fe7f7da54b12bea0"
       }
     }
   },
@@ -19466,6 +19514,12 @@
       "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-jre8.0.512-linux_x64.tar.gz",
       "checksums": {
         "sha256": "3844c96fd5305b96d0866551997d9a1b9cdabb8750a8c1ae844318caa36f5156"
+      }
+    },
+    "8.0.514": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.201-ca-jre8.0.514-linux_x64.tar.gz",
+      "checksums": {
+        "sha256": "44f6fcb843c544c0537fdfbc0a065ce563198e2e911c12babb740e5555a9c54a"
       }
     },
     "11.0.3": {
@@ -19961,9 +20015,9 @@
       }
     },
     "17.0.21": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jre17.0.21.0.3-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.201-ca-jre17.0.21.1-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "1921269ee6866125deebf04c8de8c05a6e7810f7cd0ad723e02c2990288e1757"
+        "sha256": "1e4637d81dabcca728cf8a2dd94bd081eb232fe941b4773ddddea2893fbd163a"
       }
     },
     "18.0.0": {
@@ -20099,9 +20153,9 @@
       }
     },
     "21.0.13": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jre21.0.13.0.3-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.201-ca-jre21.0.13.1-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "250b9d7cdce91f88455fc3528aae4f46b4a516ed74676bbf51448eacc591e601"
+        "sha256": "f38eaca721b30cf779c745999b8320aa4ac5660c261a6b87bd7b953d1b59f63b"
       }
     },
     "22.0.0": {
@@ -20189,9 +20243,9 @@
       }
     },
     "25.0.5": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jre25.0.5.0.3-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu25.38.201-ca-jre25.0.5.1-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "740a9a3ed6b60de7ae2c22633f122147572024c1a66663f69aa7672ec48c4b09"
+        "sha256": "12277af4957cd249dc7aa50017ddde967a826fa48971b2411752fefe48e5ca8b"
       }
     },
     "26.0.0": {
@@ -20219,9 +20273,9 @@
       }
     },
     "27.0.1": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jre27.0.1.0.3-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu27.30.201-ca-jre27.0.1.1-linux_x64.tar.gz",
       "checksums": {
-        "sha256": "0c828bc4419042a36439fd3a3ba2d13565443d4dcf37431d035d15913f40bab2"
+        "sha256": "7e3c1bda11bfa309829220119170336eae8b0da09fba56281888cc1f3e01b2f8"
       }
     }
   }
