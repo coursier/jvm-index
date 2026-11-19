@@ -532,6 +532,12 @@
         "sha1": "163ccecf9468239a7309d4d648d4234eb160f8fb"
       }
     },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "087bafa02644160286f3858b42061ce8ab489ea0"
+      }
+    },
     "11.0.3": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.3/bellsoft-jdk11.0.3-linux-i586.tar.gz",
       "checksums": {
@@ -764,6 +770,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-linux-i586.tar.gz",
       "checksums": {
         "sha1": "9f1d0352b7e9da097c2cd7b19383f4cdbefe4258"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.1+5/bellsoft-jdk11.0.33.1+5-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "4e5d1ba77cc62eb5196a1da113de9d7cec8dbfad"
       }
     },
     "12.0.0": {
@@ -1024,6 +1036,12 @@
         "sha1": "c9d2f6829fa1c1c9ba41bf269d6f3bba5aad3801"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.1+5/bellsoft-jdk17.0.21.1+5-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "ba11a5d57ddb3d9e6f22b1efb274d188cdf4680c"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-i586.tar.gz",
       "checksums": {
@@ -1190,6 +1208,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-linux-i586.tar.gz",
       "checksums": {
         "sha1": "6357797acea326afbf287a50abdf2488145de8ff"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.1+5/bellsoft-jdk21.0.13.1+5-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "b7dc54eb08832eb8859121cc3d449ad85a0e0c58"
       }
     },
     "22.0.0": {
@@ -1427,6 +1451,12 @@
       "checksums": {
         "sha1": "ca6a1fe16440f8feb5ba405fae5cf063e5ee9e5c"
       }
+    },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "4e2bb7d37e715e5ebd7e037e87a1038dde9ecbdf"
+      }
     }
   },
   "liberica-jre": {
@@ -1658,6 +1688,12 @@
         "sha1": "56166a4b9b3b0d72393ad104622e28dad420de21"
       }
     },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jre8u514+5-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "1f81f56ca972b86bd3c7749ec4157e53b149c1e2"
+      }
+    },
     "11.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jre11.0.5+11-linux-i586.tar.gz",
       "checksums": {
@@ -1878,6 +1914,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-linux-i586.tar.gz",
       "checksums": {
         "sha1": "3244333126e389b897af31ec50e6ed252c65edb8"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.1+5/bellsoft-jre11.0.33.1+5-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "7af426dedbf74d9f5a5d7ff5f57c14075b4aadc8"
       }
     },
     "13.0.1": {
@@ -2114,6 +2156,12 @@
         "sha1": "1471d457d7ded30ee67a113979c3af29825d6633"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.1+5/bellsoft-jre17.0.21.1+5-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "e3944f6ce0a065b50f4113bc38c0b273eb2a1ef6"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-i586.tar.gz",
       "checksums": {
@@ -2280,6 +2328,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jre21.0.13.0.3+5-linux-i586.tar.gz",
       "checksums": {
         "sha1": "162a598d02823e79fd24ed7ca291f7ebf68dee8c"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.1+5/bellsoft-jre21.0.13.1+5-linux-i586.tar.gz",
+      "checksums": {
+        "sha1": "9d2dfc61c72e284bc179f0f75cf12f23dce9ff06"
       }
     },
     "22.0.0": {
@@ -2517,6 +2571,12 @@
       "checksums": {
         "sha1": "823c744437c80ee7a0ad1a54ce7dcf7af8554f59"
       }
+    },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jre8u514+5-linux-i586-full.tar.gz",
+      "checksums": {
+        "sha1": "bb51e38465a730ab6340b2339022f488ffa21249"
+      }
     }
   },
   "liberica-lite": {
@@ -2674,6 +2734,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jdk8u513+9-linux-i586-lite.tar.gz",
       "checksums": {
         "sha1": "82918d4ae62b11e9ebc44dc559bf01512d3929f1"
+      }
+    },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "80bb72d1f76af1bab41f8ce1680ac5cdc9e50ea1"
       }
     },
     "11.0.3": {
@@ -2908,6 +2974,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-linux-i586-lite.tar.gz",
       "checksums": {
         "sha1": "3a2cfd04d5e10ac93061d16b13149aef4f3452ea"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.1+5/bellsoft-jdk11.0.33.1+5-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "2f32312393421d4664fcbcc1d9c99e3123b24bba"
       }
     },
     "12.0.0": {
@@ -3168,6 +3240,12 @@
         "sha1": "135edbf189528ea416a8922d229e4aa300d22430"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.1+5/bellsoft-jdk17.0.21.1+5-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "3e7b841f90365a3d30c6daa937a90acd113d1459"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-i586-lite.tar.gz",
       "checksums": {
@@ -3334,6 +3412,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-linux-i586-lite.tar.gz",
       "checksums": {
         "sha1": "b7064399d50eda2ce8864c62716772c3a36285c3"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.1+5/bellsoft-jdk21.0.13.1+5-linux-i586-lite.tar.gz",
+      "checksums": {
+        "sha1": "153003cd2147a2c6adf2ba429f0d363ac5d72473"
       }
     },
     "22.0.0": {
