@@ -14,11 +14,24 @@ object Graalvm {
       .map(_.tagName)
       .toVector
 
-    (Iterator(17) ++ Iterator.from(20))
+    // Java versions are read from the release tags, rather than probed one after the
+    // other, as some of them get no release (there's no GraalVM Community for Java 26)
+    javaVersions(releases)
       .map(v => index(releases, ghToken, v.toString))
-      .takeWhile(!_.isEmpty)
       .foldLeft(Index.empty)(_ + _)
   }
+
+  // Java versions of tags like jdk-25.0.2 or graal-25.5.5.0.3 (see index below)
+  private val javaVersionTagRegex = "(?:jdk-([0-9]+)|graal-([0-9]+)\\.[1-9][0-9]*)\\..*".r
+
+  def javaVersions(releases: Seq[String]): Seq[Int] =
+    releases
+      .collect {
+        case javaVersionTagRegex(jdkVer, null)   => jdkVer.toInt
+        case javaVersionTagRegex(null, graalVer) => graalVer.toInt
+      }
+      .distinct
+      .sorted
 
   def index(
     releases: Seq[String],
