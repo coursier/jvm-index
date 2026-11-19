@@ -14,8 +14,11 @@ jobs:
       - name: Validate index vs code changes
         run: |
           set -euo pipefail
+          # The checkout above already fetched the full history of the base branch.
+          # Don't fetch it again with --depth, as that cuts the history of the base
+          # branch, so that it has no merge base with HEAD if it moved since the merge
+          # commit checked out here was computed.
           base_ref="origin/${{ github.base_ref }}"
-          git fetch origin "${{ github.base_ref }}" --depth=1
           changed_files=$(git diff --name-only "${base_ref}"...HEAD)
           if [ -z "${changed_files}" ]; then
             echo "No changed files detected."
