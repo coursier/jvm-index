@@ -8024,6 +8024,12 @@
         "sha1": "fae9377767cb454bb42a6f9426678038faa7985e"
       }
     },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "bd02da4d05b4bb958a30ae511d6a971e6a76dc9f"
+      }
+    },
     "11.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11/bellsoft-jdk11-windows-amd64.zip",
       "checksums": {
@@ -8274,6 +8280,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-windows-amd64.zip",
       "checksums": {
         "sha1": "e4d7465d577dbd76a361a28aab4e992da6a7ed87"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.1+5/bellsoft-jdk11.0.33.1+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "70cb689fff3b2130ea121a4bae07d065890efacb"
       }
     },
     "12.0.0": {
@@ -8534,6 +8546,12 @@
         "sha1": "6c9839bdfafa923cb1f70f6df0a1734fa15b5e3f"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.1+5/bellsoft-jdk17.0.21.1+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "a179cce2cd69133702970d51dbf771d8df277140"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-windows-amd64.zip",
       "checksums": {
@@ -8702,6 +8720,12 @@
         "sha1": "cf1bf4593b445f2f8b08c932e08ce5b9dd4471be"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.1+5/bellsoft-jdk21.0.13.1+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "c67b95d2f76c3182aa5bd359160634108548d495"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-windows-amd64.zip",
       "checksums": {
@@ -8810,6 +8834,12 @@
         "sha1": "ccbbbfda2ffc9c4d05188eaccc1573fc77d3fb81"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.1+5/bellsoft-jdk25.0.5.1+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "5620088afae9e1379a75fd7c7912386099ff633a"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jdk26+37-windows-amd64.zip",
       "checksums": {
@@ -8856,6 +8886,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-windows-amd64.zip",
       "checksums": {
         "sha1": "c6a4fbc0e7c7643c725bf13bf3975056b075c3f3"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.1+5/bellsoft-jdk27.0.1.1+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "2f7a88405b45a704e02afafb359939b6b1cad42c"
       }
     }
   },
@@ -9062,6 +9098,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jdk8u513+9-windows-amd64-full.zip",
       "checksums": {
         "sha1": "111356dd56533450a5e576f3d24967b803cc828b"
+      }
+    },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "19e934c879a4873054def0ec4ff8f7e99f1f04a7"
       }
     },
     "11.0.6": {
@@ -9278,6 +9320,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-windows-amd64-full.zip",
       "checksums": {
         "sha1": "3df65b5c15d697825bd80de7e9c5f3e3ba988c84"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.1+5/bellsoft-jdk11.0.33.1+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "e897a3b99be65aff91fca74f3f185e4d8fa63365"
       }
     },
     "13.0.2": {
@@ -9508,6 +9556,12 @@
         "sha1": "29693a2616442896461018b2fe41ab3aa18917e7"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.1+5/bellsoft-jdk17.0.21.1+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "8681eb1c21cf8db6e08dbb750c690bedc5f018da"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-windows-amd64-full.zip",
       "checksums": {
@@ -9676,6 +9730,12 @@
         "sha1": "17047626c28b30aa4042e555f370703969a627ce"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.1+5/bellsoft-jdk21.0.13.1+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "3bc4b724410f0e49dc0f70fe7734e510922f018c"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-windows-amd64-full.zip",
       "checksums": {
@@ -9784,6 +9844,12 @@
         "sha1": "a286e459eb9c27aa44bff4484125c51255e922ab"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.1+5/bellsoft-jdk25.0.5.1+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "9cdf7635069d1b303444a97700f037f1b7fbd59e"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jdk26+37-windows-amd64-full.zip",
       "checksums": {
@@ -9830,6 +9896,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-windows-amd64-full.zip",
       "checksums": {
         "sha1": "59090ed5b0ac7d21bcb923c15790ab4d946d927f"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.1+5/bellsoft-jdk27.0.1.1+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "2bc0f2c7097290e0846a2e9ab877c5805a777105"
       }
     }
   },
@@ -10062,6 +10134,12 @@
         "sha1": "e93232a59e5c17d5d5d04d9142fe2fce9178ca03"
       }
     },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jre8u514+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "43989a65b391134795d0aa9420a949398c3683f0"
+      }
+    },
     "11.0.5": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.5+11/bellsoft-jre11.0.5+11-windows-amd64.zip",
       "checksums": {
@@ -10282,6 +10360,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-windows-amd64.zip",
       "checksums": {
         "sha1": "6c6c75a5c00d38a5071de45b13be08c5d7447144"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.1+5/bellsoft-jre11.0.33.1+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "e7c3e16ad73d4476d3170d6f209b0740e21d35f7"
       }
     },
     "13.0.1": {
@@ -10518,6 +10602,12 @@
         "sha1": "85c8d238fe41b71ef951e272264ebeede9ea7557"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.1+5/bellsoft-jre17.0.21.1+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "070b83ca4749024a830ac89b38ed8bc60b24b6e2"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-windows-amd64.zip",
       "checksums": {
@@ -10686,6 +10776,12 @@
         "sha1": "fe5d8b7a61a059fb502e82abcf78a33c7660b521"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.1+5/bellsoft-jre21.0.13.1+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "344f5e2ca61f807ecffeda6e3c3f2afb9e035cb0"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-windows-amd64.zip",
       "checksums": {
@@ -10794,6 +10890,12 @@
         "sha1": "b5d1d341df632ff77ff387b00d519f54d2d4b146"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.1+5/bellsoft-jre25.0.5.1+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "c386b5235cdc69ef910c2d24d488cca813aa3302"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jre26+37-windows-amd64.zip",
       "checksums": {
@@ -10840,6 +10942,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jre27.0.1.0.3+5-windows-amd64.zip",
       "checksums": {
         "sha1": "aedd30be79d9089ce3acc10bbdad0863fe90a937"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.1+5/bellsoft-jre27.0.1.1+5-windows-amd64.zip",
+      "checksums": {
+        "sha1": "d00cfc6993ce5357b645a5206dec3bfe81d62101"
       }
     }
   },
@@ -11046,6 +11154,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jre8u513+9-windows-amd64-full.zip",
       "checksums": {
         "sha1": "d34d2c88e2f3ee12d691794a7ffce6150f16b50a"
+      }
+    },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jre8u514+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "077eb81bf9ad58ed1d7d95ca92fca90c503b4679"
       }
     },
     "11.0.6": {
@@ -11262,6 +11376,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-windows-amd64-full.zip",
       "checksums": {
         "sha1": "4ed904d5d8538fb8d4c64af9667e3a66d483159e"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.1+5/bellsoft-jre11.0.33.1+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "e3cca0c78df2de396c7cbdf165de21e3441a99bb"
       }
     },
     "13.0.2": {
@@ -11492,6 +11612,12 @@
         "sha1": "ea7270e21668a9e9e16c45255566815846d9fd8b"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.1+5/bellsoft-jre17.0.21.1+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "5dbc49c0a06e9c3615a65b5635d9c202e2aa66e6"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-windows-amd64-full.zip",
       "checksums": {
@@ -11660,6 +11786,12 @@
         "sha1": "b29cb82518cd1085f0cafc3f2c205ea28704ce9d"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.1+5/bellsoft-jre21.0.13.1+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "0ce5094632eb253e9049329509dc3c045d8ed296"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-windows-amd64-full.zip",
       "checksums": {
@@ -11768,6 +11900,12 @@
         "sha1": "5e32c5cf4e9d845f60f0fedc9ff528846df100f8"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.1+5/bellsoft-jre25.0.5.1+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "eb2ce5d70a88cee6b6ac1ce8bed442124aadcaaf"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jre26+37-windows-amd64-full.zip",
       "checksums": {
@@ -11814,6 +11952,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jre27.0.1.0.3+5-windows-amd64-full.zip",
       "checksums": {
         "sha1": "d925dbdb26a056ab2cd92484e22966748b56e861"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.1+5/bellsoft-jre27.0.1.1+5-windows-amd64-full.zip",
+      "checksums": {
+        "sha1": "834edc5b4c5170794adad5d2e957c509567e06c1"
       }
     }
   },
@@ -11972,6 +12116,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jdk8u513+9-windows-amd64-lite.zip",
       "checksums": {
         "sha1": "a8be9f9086f1b7d65aa62c22faf1bed20d282be4"
+      }
+    },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-windows-amd64-lite.zip",
+      "checksums": {
+        "sha1": "8929ec73a7e0ff169fb11f61610081d455e7d8bd"
       }
     },
     "11.0.0": {
@@ -12224,6 +12374,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-windows-amd64-lite.zip",
       "checksums": {
         "sha1": "acf56884b8df9235097e9e0c07ea30cab109955a"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.1+5/bellsoft-jdk11.0.33.1+5-windows-amd64-lite.zip",
+      "checksums": {
+        "sha1": "a1f784e90dde9d26947cb924b63c600685a491d1"
       }
     },
     "12.0.0": {
@@ -12484,6 +12640,12 @@
         "sha1": "3f0bfa2ec4c595e2635ac40f15b84152e1edebcd"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.1+5/bellsoft-jdk17.0.21.1+5-windows-amd64-lite.zip",
+      "checksums": {
+        "sha1": "209e9b7a224ea7720bb3cfee3a63a199ed0d39a1"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-windows-amd64-lite.zip",
       "checksums": {
@@ -12652,6 +12814,12 @@
         "sha1": "22503d3db186f83731a65d23971adbfb92245eb5"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.1+5/bellsoft-jdk21.0.13.1+5-windows-amd64-lite.zip",
+      "checksums": {
+        "sha1": "79b245e639cba2fbd946750c7e6321d9d5d5bc31"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-windows-amd64-lite.zip",
       "checksums": {
@@ -12760,6 +12928,12 @@
         "sha1": "7a101982e59276607e00ec305472f66b58d3b826"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.1+5/bellsoft-jdk25.0.5.1+5-windows-amd64-lite.zip",
+      "checksums": {
+        "sha1": "9c635204a34a7552d3bb95cf9c1832caba1a127a"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jdk26+37-windows-amd64-lite.zip",
       "checksums": {
@@ -12806,6 +12980,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-windows-amd64-lite.zip",
       "checksums": {
         "sha1": "b9f258d7cbf6a8e43c71770e75da09edc64e9a84"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.1+5/bellsoft-jdk27.0.1.1+5-windows-amd64-lite.zip",
+      "checksums": {
+        "sha1": "2bc0b11e3ada813d6f860a5ee1d8c4078e127c66"
       }
     }
   },
@@ -14910,6 +15090,12 @@
         "sha256": "632ffd60faedb4047eadecb02b2f281e99e4c35e1e7711e5dcdc4c73e2185995"
       }
     },
+    "11.0.33.1": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-11.0.33.1-windows-x64.zip",
+      "checksums": {
+        "sha256": "a1a1f6bebdd0cd4e15115e3c26b8f6769ac4b0d52056d6fb4a9df0b8499be1e5"
+      }
+    },
     "17.0.0": {
       "url": "https://aka.ms/download-jdk/microsoft-jdk-17.35.1-windows-x64.zip",
       "checksums": {
@@ -15054,6 +15240,12 @@
         "sha256": "49154292866386b2f4f09a3ecf3be07ab80a419149c84ec1d4419b9eec9e4b64"
       }
     },
+    "17.0.21.1": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.1-windows-x64.zip",
+      "checksums": {
+        "sha256": "a07e270f86aec056d9c2acf981eb64a38e30814dacfadbc5f80f31c55d5a4427"
+      }
+    },
     "21.0.0": {
       "url": "https://aka.ms/download-jdk/microsoft-jdk-21.0.0-windows-x64.zip",
       "checksums": {
@@ -15144,6 +15336,12 @@
         "sha256": "c5706a9cf482ef1a0622a86eea5b13d557b07f04554572af061e2d02b58c0f99"
       }
     },
+    "21.0.13.1": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.1-windows-x64.zip",
+      "checksums": {
+        "sha256": "071c10e8e7fa62cfef83137b152f5f40e37012dd48e4d5586c5125667cf0b8de"
+      }
+    },
     "25.0.0": {
       "url": "https://aka.ms/download-jdk/microsoft-jdk-25.0.0-windows-x64.zip",
       "checksums": {
@@ -15184,6 +15382,12 @@
       "url": "https://aka.ms/download-jdk/microsoft-jdk-25.0.5.0.2-windows-x64.zip",
       "checksums": {
         "sha256": "5da7525c8268a10a66bd76a39f4e9af24d4ebc974d42800a609852c498a68460"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-25.0.5.1-windows-x64.zip",
+      "checksums": {
+        "sha256": "82ce06e0d21a65f9ea3e76f3a5adb07078505bdb364e38e184c15e0e3100609b"
       }
     }
   },

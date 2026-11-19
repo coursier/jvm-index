@@ -492,6 +492,12 @@
         "sha256": "db018054d52c1c109ad128c1412ead2d84ae91052ce60ca370df17b6a89831f5"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "4ac50955ad93051e45280c4edabae97c7c9ca4e1d2842c4e430e5b7d9960a570"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -642,6 +648,12 @@
         "sha256": "dc453842ee3f24710258f42a95bdfe5c2bfc0ca9d70c12f950ead82aee0c8361"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jdk_x64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "87af8e1557222db2a29c9d055c34a317916b4ddbdb91474d04b35229d337193e"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_x64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -772,6 +784,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
       "checksums": {
         "sha256": "576a3b8ba79aa5a8bc7f1cb8b54aeffab8b2d1fb84a8fde4f8f3035ac65dfca1"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.1%2B4/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.1_4.tar.gz",
+      "checksums": {
+        "sha256": "5ac34cbeed56fba0456cf94d1d8df3568ab852e196f54abf5172257f3d167dda"
       }
     }
   },
@@ -1212,6 +1230,12 @@
         "sha256": "1180e29ef81fcba521789a9c92744a3d1e413048dadc59cebaef5732fa541547"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "c83c669eb3908b94e72e30718db9539ae0988931388a5251ebffe5ebe8b4222d"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -1362,6 +1386,12 @@
         "sha256": "ee3093b1f94b1eda3f95143331db7700ebfe5909a514a3f324753cfb654cb564"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-debugimage_x64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "4da00be8ff8c13da9b9cb0d0958e67c66dbac17306928f6b7fafe1a06144abd3"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_x64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -1492,6 +1522,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
       "checksums": {
         "sha256": "39bbaa862ab9213ec75a2bf88223e7acb774ff682e32177d1358536d2286a293"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.1%2B4/OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.1_4.tar.gz",
+      "checksums": {
+        "sha256": "ebeb06e4b8264fec796d80607fc7ec8ff147471e05889f3ea608e2649f26a4d3"
       }
     }
   },
@@ -1920,6 +1956,12 @@
         "sha256": "e42129db57e3965d9d8befdb097531d7887916690338ff0be7d1b0113287c872"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "99fabb8e2517861fbbf1fc26103ee62240ec693340c4c7a812f7043e82acb203"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
       "checksums": {
@@ -2064,6 +2106,12 @@
         "sha256": "9138eab0f7d230e17163953f015ec9ae2431dbc49069c658b7f991e45b54fb9b"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "72835f41a468ae949fc058f8ec6a73d303ca3e5ea165621e08aacb36bb537bba"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_x64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -2194,6 +2242,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
       "checksums": {
         "sha256": "2ed5b164f40cf5f5a04b73054d147f9111e431eff710d9c725a0efb191ff20a6"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.1%2B4/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.1_4.tar.gz",
+      "checksums": {
+        "sha256": "b77dceb6bc1ddcddb2a1c291d1e972d5e6eda22c15c4cb843c95ea36f833023f"
       }
     }
   },
@@ -2420,6 +2474,12 @@
         "sha256": "f995b6d678d7e71a376cc0a3c8156dbc48b9fcdbff8b746beb83bc9758abb9d1"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "c1facb804c0e4b507ccd787f44e38b8ea5b06c48fd848b0fb9b0043d8c75c458"
+      }
+    },
     "19.0.2": {
       "url": "https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_x64_alpine-linux_hotspot_19.0.2_7.tar.gz",
       "checksums": {
@@ -2526,6 +2586,12 @@
       "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-testimage_x64_alpine-linux_hotspot_21.0.13_9.tar.gz",
       "checksums": {
         "sha256": "3efbd4f2beb1f46a04663a811400706f27429e84bc963cea9b7c01c1c4cfec06"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-testimage_x64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "3cbfbd2c485d12a780c89adbb292281548e6fe5228c41cbd4b69de6e30862993"
       }
     },
     "22.0.0": {
@@ -2658,6 +2724,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
       "checksums": {
         "sha256": "469c844dc018be0821839bbec8e51cfa2f5fee842908a4a39c9af005b30bc342"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.1%2B4/OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.1_4.tar.gz",
+      "checksums": {
+        "sha256": "2c96289dec19dc941ad0bb02c6b70568edc6fe610d741eb36511f8b0857686d0"
       }
     }
   },
@@ -4239,6 +4311,12 @@
         "sha1": "9bf88e3d36b81ab0a14653a1319f41969bab7182"
       }
     },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-linux-x64-musl.tar.gz",
+      "checksums": {
+        "sha1": "392c86b422db32759d54fd88365d153658660432"
+      }
+    },
     "11.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.2/bellsoft-jdk11.0.2-linux-x64-musl.tar.gz",
       "checksums": {
@@ -4477,6 +4555,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-linux-x64-musl.tar.gz",
       "checksums": {
         "sha1": "b638e27e5de4c99f5b71498a3e58c3c0b143295e"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.1+5/bellsoft-jdk11.0.33.1+5-linux-x64-musl.tar.gz",
+      "checksums": {
+        "sha1": "a21e5f758e9d339943d91e0e1e21e4de0c57587f"
       }
     },
     "12.0.0": {
@@ -4737,6 +4821,12 @@
         "sha1": "33faf76ba9b5982b5b6fa1445880d9aaadb21e69"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.1+5/bellsoft-jdk17.0.21.1+5-linux-x64-musl.tar.gz",
+      "checksums": {
+        "sha1": "2d8404a0773a8b8b6cb4cfc140dcfd513b142ebe"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-x64-musl.tar.gz",
       "checksums": {
@@ -4905,6 +4995,12 @@
         "sha1": "d2be153d6c71f5005cca68c13c9e5565b1dc990a"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.1+5/bellsoft-jdk21.0.13.1+5-linux-x64-musl.tar.gz",
+      "checksums": {
+        "sha1": "76588f0f1abaf85eea62b9f91e923fab7e70cec5"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-x64-musl.tar.gz",
       "checksums": {
@@ -5013,6 +5109,12 @@
         "sha1": "89d753a038fb32df46dc7c56635e46b1669c4e34"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.1+5/bellsoft-jdk25.0.5.1+5-linux-x64-musl.tar.gz",
+      "checksums": {
+        "sha1": "5a5f53891f67b747f2483363104379f7321785e3"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jdk26+37-linux-x64-musl.tar.gz",
       "checksums": {
@@ -5059,6 +5161,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-linux-x64-musl.tar.gz",
       "checksums": {
         "sha1": "3b3f6fb79b73956659a4596b5e3512ed0b251a91"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.1+5/bellsoft-jdk27.0.1.1+5-linux-x64-musl.tar.gz",
+      "checksums": {
+        "sha1": "78cf2b0baf593bb2125cee06e332548ca6a4b406"
       }
     }
   },
@@ -5147,6 +5255,12 @@
         "sha1": "e025b20bbebd23c52270f8264575b6bf8f986c70"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.1+6/bellsoft-jdk17.0.21.1+6-linux-x64-musl-crac.tar.gz",
+      "checksums": {
+        "sha1": "89fe9cf20dd3de12bf555be676403556b44638df"
+      }
+    },
     "21.0.2": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.2+15/bellsoft-jdk21.0.2+15-linux-x64-musl-crac.tar.gz",
       "checksums": {
@@ -5229,6 +5343,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.0.3+6/bellsoft-jdk21.0.13.0.3+6-linux-x64-musl-crac.tar.gz",
       "checksums": {
         "sha1": "21c3ded3d92e78818f1fcf1488fb5f9466f238b5"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.1+6/bellsoft-jdk21.0.13.1+6-linux-x64-musl-crac.tar.gz",
+      "checksums": {
+        "sha1": "e7ca5262e573c6506458a34dd6f921629e5d218c"
       }
     }
   },
@@ -5423,6 +5543,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jre8u513+9-linux-x64-musl.tar.gz",
       "checksums": {
         "sha1": "be464df12f27236701c9556c908e1628ff9e06c0"
+      }
+    },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jre8u514+5-linux-x64-musl.tar.gz",
+      "checksums": {
+        "sha1": "84b5826bcdc2fc5dd64482e055ce652bf7ced807"
       }
     },
     "11.0.8": {
@@ -5627,6 +5753,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jre11.0.33.0.3+7-linux-x64-musl.tar.gz",
       "checksums": {
         "sha1": "a04a11ea25c9f3a7ae8f7104fc4b896aa27cec0b"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.1+5/bellsoft-jre11.0.33.1+5-linux-x64-musl.tar.gz",
+      "checksums": {
+        "sha1": "bd1537db2315a907f2d11ecbdb37cb2e4cfc6249"
       }
     },
     "14.0.2": {
@@ -5839,6 +5971,12 @@
         "sha1": "6f9ccd1b8ef0f1faaf7d4fd98218216f48ba90ea"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.1+5/bellsoft-jre17.0.21.1+5-linux-x64-musl.tar.gz",
+      "checksums": {
+        "sha1": "4509713af09b14dede71d4d1bdd5a17ab654b619"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jre18+37-linux-x64-musl.tar.gz",
       "checksums": {
@@ -6007,6 +6145,12 @@
         "sha1": "30b5612b0e4e091dd92bc8d0b822d7836a2d87a7"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.1+5/bellsoft-jre21.0.13.1+5-linux-x64-musl.tar.gz",
+      "checksums": {
+        "sha1": "bfc9085c406c24f760c6f55b3d455da5ddd2452e"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jre22+37-linux-x64-musl.tar.gz",
       "checksums": {
@@ -6115,6 +6259,12 @@
         "sha1": "e56780ad2014e78295a909bdaf6ae531d05ef77f"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.1+5/bellsoft-jre25.0.5.1+5-linux-x64-musl.tar.gz",
+      "checksums": {
+        "sha1": "7d60d7cde80c4cf33e95ca2139de2545388358ca"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jre26+37-linux-x64-musl.tar.gz",
       "checksums": {
@@ -6161,6 +6311,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jre27.0.1.0.3+5-linux-x64-musl.tar.gz",
       "checksums": {
         "sha1": "80481956de9d0bfc46bf429badeb50fee377eab9"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.1+5/bellsoft-jre27.0.1.1+5-linux-x64-musl.tar.gz",
+      "checksums": {
+        "sha1": "cc340ba3dbc007dc24aff088ec6ec04aeece6473"
       }
     }
   },
@@ -6319,6 +6475,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jdk8u513+9-linux-x64-musl-lite.tar.gz",
       "checksums": {
         "sha1": "f9db5efdfe4e627360bb8d2088456e2045215b25"
+      }
+    },
+    "8.0.514": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-linux-x64-musl-lite.tar.gz",
+      "checksums": {
+        "sha1": "f3d6e4ed61848eb0d34221d44bb6c2044c018bbb"
       }
     },
     "11.0.2": {
@@ -6559,6 +6721,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.0.3+7/bellsoft-jdk11.0.33.0.3+7-linux-x64-musl-lite.tar.gz",
       "checksums": {
         "sha1": "a1dc7a93e28639b26e17091c55f5be67f5d5b9bf"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/11.0.33.1+5/bellsoft-jdk11.0.33.1+5-linux-x64-musl-lite.tar.gz",
+      "checksums": {
+        "sha1": "a82a08dee8234f1366848c4f30c963522b226a5b"
       }
     },
     "12.0.0": {
@@ -6819,6 +6987,12 @@
         "sha1": "74571a15ff13597f3ab0699f1a91da4a0150b51d"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/17.0.21.1+5/bellsoft-jdk17.0.21.1+5-linux-x64-musl-lite.tar.gz",
+      "checksums": {
+        "sha1": "315b993e493b631fad213c649d4d663819a99bc3"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/18+37/bellsoft-jdk18+37-linux-x64-musl-lite.tar.gz",
       "checksums": {
@@ -6987,6 +7161,12 @@
         "sha1": "46d7d77dfce64f2e068a489dc32bb356e129a1fb"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/21.0.13.1+5/bellsoft-jdk21.0.13.1+5-linux-x64-musl-lite.tar.gz",
+      "checksums": {
+        "sha1": "f729eb5663cfda303ea10273a44ae003c9065b1b"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/22+37/bellsoft-jdk22+37-linux-x64-musl-lite.tar.gz",
       "checksums": {
@@ -7095,6 +7275,12 @@
         "sha1": "9ab63fb39e311efa7d40e23f1a39eefd4e1c1c03"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/25.0.5.1+5/bellsoft-jdk25.0.5.1+5-linux-x64-musl-lite.tar.gz",
+      "checksums": {
+        "sha1": "b2354f457960d1ee207dc42fe144c7f330726186"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/bell-sw/Liberica/releases/download/26+37/bellsoft-jdk26+37-linux-x64-musl-lite.tar.gz",
       "checksums": {
@@ -7141,6 +7327,12 @@
       "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.0.3+5/bellsoft-jdk27.0.1.0.3+5-linux-x64-musl-lite.tar.gz",
       "checksums": {
         "sha1": "8b89507ce9e9ff2df851cf52352c7368df497910"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/bell-sw/Liberica/releases/download/27.0.1.1+5/bellsoft-jdk27.0.1.1+5-linux-x64-musl-lite.tar.gz",
+      "checksums": {
+        "sha1": "217277a3b8dbfd1ca98d699e2fd6558fc75de4ea"
       }
     }
   },
@@ -8067,6 +8259,12 @@
         "sha256": "c67789fabe5176df9585fdaa5fb0c876dda8e6ac4dfe8168bf3c4cb5209ba64c"
       }
     },
+    "11.0.33.1": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-11.0.33.1-alpine-x64.tar.gz",
+      "checksums": {
+        "sha256": "2d7c557c8a94eb2f532f75d71e0fda6c51e86cee30e660c2fed85044e9fc3e21"
+      }
+    },
     "17.0.2.8.1": {
       "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.2.8.1-alpine-x64.tar.gz",
       "checksums": {
@@ -8197,6 +8395,12 @@
       "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.0.2-alpine-x64.tar.gz",
       "checksums": {
         "sha256": "40fc35a752c3b00c443dc44bf54ad488b418f55f2cca126acfd98d46cb28bd90"
+      }
+    },
+    "17.0.21.1": {
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.1-alpine-x64.tar.gz",
+      "checksums": {
+        "sha256": "6a41713d42a70994dc4d54521a3a83ff72decd253318584c7687ef06f76c8de1"
       }
     }
   },
@@ -8637,6 +8841,12 @@
         "sha256": "db018054d52c1c109ad128c1412ead2d84ae91052ce60ca370df17b6a89831f5"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "4ac50955ad93051e45280c4edabae97c7c9ca4e1d2842c4e430e5b7d9960a570"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_x64_alpine-linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -8787,6 +8997,12 @@
         "sha256": "dc453842ee3f24710258f42a95bdfe5c2bfc0ca9d70c12f950ead82aee0c8361"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jdk_x64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "87af8e1557222db2a29c9d055c34a317916b4ddbdb91474d04b35229d337193e"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_x64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -8917,6 +9133,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
       "checksums": {
         "sha256": "576a3b8ba79aa5a8bc7f1cb8b54aeffab8b2d1fb84a8fde4f8f3035ac65dfca1"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.1%2B4/OpenJDK27U-jdk_x64_alpine-linux_hotspot_27.0.1.1_4.tar.gz",
+      "checksums": {
+        "sha256": "5ac34cbeed56fba0456cf94d1d8df3568ab852e196f54abf5172257f3d167dda"
       }
     }
   },
@@ -9357,6 +9579,12 @@
         "sha256": "1180e29ef81fcba521789a9c92744a3d1e413048dadc59cebaef5732fa541547"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "c83c669eb3908b94e72e30718db9539ae0988931388a5251ebffe5ebe8b4222d"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_x64_alpine-linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -9507,6 +9735,12 @@
         "sha256": "ee3093b1f94b1eda3f95143331db7700ebfe5909a514a3f324753cfb654cb564"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-debugimage_x64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "4da00be8ff8c13da9b9cb0d0958e67c66dbac17306928f6b7fafe1a06144abd3"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_x64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -9637,6 +9871,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
       "checksums": {
         "sha256": "39bbaa862ab9213ec75a2bf88223e7acb774ff682e32177d1358536d2286a293"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.1%2B4/OpenJDK27U-debugimage_x64_alpine-linux_hotspot_27.0.1.1_4.tar.gz",
+      "checksums": {
+        "sha256": "ebeb06e4b8264fec796d80607fc7ec8ff147471e05889f3ea608e2649f26a4d3"
       }
     }
   },
@@ -10065,6 +10305,12 @@
         "sha256": "e42129db57e3965d9d8befdb097531d7887916690338ff0be7d1b0113287c872"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "99fabb8e2517861fbbf1fc26103ee62240ec693340c4c7a812f7043e82acb203"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_x64_alpine-linux_hotspot_18.0.1_10.tar.gz",
       "checksums": {
@@ -10209,6 +10455,12 @@
         "sha256": "9138eab0f7d230e17163953f015ec9ae2431dbc49069c658b7f991e45b54fb9b"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "72835f41a468ae949fc058f8ec6a73d303ca3e5ea165621e08aacb36bb537bba"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_x64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -10339,6 +10591,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
       "checksums": {
         "sha256": "2ed5b164f40cf5f5a04b73054d147f9111e431eff710d9c725a0efb191ff20a6"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.1%2B4/OpenJDK27U-jre_x64_alpine-linux_hotspot_27.0.1.1_4.tar.gz",
+      "checksums": {
+        "sha256": "b77dceb6bc1ddcddb2a1c291d1e972d5e6eda22c15c4cb843c95ea36f833023f"
       }
     }
   },
@@ -10565,6 +10823,12 @@
         "sha256": "f995b6d678d7e71a376cc0a3c8156dbc48b9fcdbff8b746beb83bc9758abb9d1"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "c1facb804c0e4b507ccd787f44e38b8ea5b06c48fd848b0fb9b0043d8c75c458"
+      }
+    },
     "19.0.2": {
       "url": "https://github.com/adoptium/temurin19-binaries/releases/download/jdk-19.0.2%2B7/OpenJDK19U-testimage_x64_alpine-linux_hotspot_19.0.2_7.tar.gz",
       "checksums": {
@@ -10671,6 +10935,12 @@
       "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-testimage_x64_alpine-linux_hotspot_21.0.13_9.tar.gz",
       "checksums": {
         "sha256": "3efbd4f2beb1f46a04663a811400706f27429e84bc963cea9b7c01c1c4cfec06"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-testimage_x64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "3cbfbd2c485d12a780c89adbb292281548e6fe5228c41cbd4b69de6e30862993"
       }
     },
     "22.0.0": {
@@ -10803,6 +11073,12 @@
       "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.0.2_1.tar.gz",
       "checksums": {
         "sha256": "469c844dc018be0821839bbec8e51cfa2f5fee842908a4a39c9af005b30bc342"
+      }
+    },
+    "27.0.1.1": {
+      "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.1%2B4/OpenJDK27U-testimage_x64_alpine-linux_hotspot_27.0.1.1_4.tar.gz",
+      "checksums": {
+        "sha256": "2c96289dec19dc941ad0bb02c6b70568edc6fe610d741eb36511f8b0857686d0"
       }
     }
   },
