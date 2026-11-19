@@ -90,6 +90,12 @@
         "sha256": "a41f2d7b886ed318db51543cd045d94dd35179f66df302e6c3fd48a41a6dd9f5"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "8e3ef290b2c182fed0f4318dfb928cde1f5b95bf5c28ff4bb236d38b0b177a74"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_aarch64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -312,6 +318,12 @@
       "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.13_9.tar.gz",
       "checksums": {
         "sha256": "a0cd0613e9286537f79889b7b21862a312df777864f7cc4056483347255faab2"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "b26f71b0e52c8032c97b0cb613d7fd5208dfbe60ba7a0e30b06768a5694af224"
       }
     },
     "22.0.0": {
@@ -538,6 +550,12 @@
         "sha256": "382633eb2ba28cc5b97be1446eb1dd8d2a60a3795be0166a030e4cda338c490e"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "0236751150c82f1ef91be8cc32a36091a95e97650285fea848f2bb82311e5da7"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_aarch64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -760,6 +778,12 @@
       "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.13_9.tar.gz",
       "checksums": {
         "sha256": "7c60bf70109ba24e96fc127283df82b6675765561b1059af98b678b0bd901799"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "89bc3d86993b8be3b0a0927a8b6f52fb530cba95d87cba50a458bd2d63560ec5"
       }
     },
     "22.0.0": {
@@ -5766,6 +5790,12 @@
         "sha256": "a41f2d7b886ed318db51543cd045d94dd35179f66df302e6c3fd48a41a6dd9f5"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "8e3ef290b2c182fed0f4318dfb928cde1f5b95bf5c28ff4bb236d38b0b177a74"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_aarch64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -5988,6 +6018,12 @@
       "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.13_9.tar.gz",
       "checksums": {
         "sha256": "a0cd0613e9286537f79889b7b21862a312df777864f7cc4056483347255faab2"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-debugimage_aarch64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "b26f71b0e52c8032c97b0cb613d7fd5208dfbe60ba7a0e30b06768a5694af224"
       }
     },
     "22.0.0": {
@@ -6214,6 +6250,12 @@
         "sha256": "382633eb2ba28cc5b97be1446eb1dd8d2a60a3795be0166a030e4cda338c490e"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "0236751150c82f1ef91be8cc32a36091a95e97650285fea848f2bb82311e5da7"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_aarch64_alpine-linux_hotspot_22_36.tar.gz",
       "checksums": {
@@ -6436,6 +6478,12 @@
       "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.13_9.tar.gz",
       "checksums": {
         "sha256": "7c60bf70109ba24e96fc127283df82b6675765561b1059af98b678b0bd901799"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-testimage_aarch64_alpine-linux_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "89bc3d86993b8be3b0a0927a8b6f52fb530cba95d87cba50a458bd2d63560ec5"
       }
     },
     "22.0.0": {

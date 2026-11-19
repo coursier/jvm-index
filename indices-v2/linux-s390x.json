@@ -1040,6 +1040,12 @@
         "sha256": "5e64213ad83d6f8bbdf565050b1d8f623b46cab18efe8143a2177c4ceb7a6083"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "5eb485f9c907d87aab0523cf8c08a68648ebafe102d0076fed87ce5cf95ee1e2"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_s390x_linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -1604,6 +1610,12 @@
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.21_9.tar.gz",
       "checksums": {
         "sha256": "8855893b8f933ea45508ddce4813966ddd3a6b5da51c1006b72f9cd3535839c8"
+      }
+    },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "b766e26c1f6d9bc949dfa5cf2df94e94a667aca3f7d6a99bd15aa4a82fa75cda"
       }
     },
     "18.0.0": {
@@ -2244,6 +2256,12 @@
         "sha256": "c2f8f6c55b09a5bb9c26fbdc85cad41e10860a396da447e2ce7a182480e74945"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-jre_s390x_linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "77bf9f135bc14491da6abbc7f0da1ca196e18570dfdcb7ff8cfff8822689438f"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_s390x_linux_hotspot_18.0.1_10.tar.gz",
       "checksums": {
@@ -2766,6 +2784,12 @@
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.21_9.tar.gz",
       "checksums": {
         "sha256": "19d1023f6a856c50b2659eb36e952b8a55431542cfcac1ce395de8d3e725737f"
+      }
+    },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "dcb254f7ed8a854b0bc31d4948cc94dd3b7a8ee6cbf48d9ae4e30c0c6a8da9c6"
       }
     },
     "19.0.2": {
@@ -4744,6 +4768,12 @@
         "sha256": "5e64213ad83d6f8bbdf565050b1d8f623b46cab18efe8143a2177c4ceb7a6083"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "5eb485f9c907d87aab0523cf8c08a68648ebafe102d0076fed87ce5cf95ee1e2"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-jdk_s390x_linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -5310,6 +5340,12 @@
         "sha256": "8855893b8f933ea45508ddce4813966ddd3a6b5da51c1006b72f9cd3535839c8"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "b766e26c1f6d9bc949dfa5cf2df94e94a667aca3f7d6a99bd15aa4a82fa75cda"
+      }
+    },
     "18.0.0": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18%2B36/OpenJDK18U-debugimage_s390x_linux_hotspot_18_36.tar.gz",
       "checksums": {
@@ -5864,6 +5900,12 @@
         "sha256": "c2f8f6c55b09a5bb9c26fbdc85cad41e10860a396da447e2ce7a182480e74945"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-jre_s390x_linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "77bf9f135bc14491da6abbc7f0da1ca196e18570dfdcb7ff8cfff8822689438f"
+      }
+    },
     "18.0.1": {
       "url": "https://github.com/adoptium/temurin18-binaries/releases/download/jdk-18.0.1%2B10/OpenJDK18U-jre_s390x_linux_hotspot_18.0.1_10.tar.gz",
       "checksums": {
@@ -6332,6 +6374,12 @@
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.21_9.tar.gz",
       "checksums": {
         "sha256": "19d1023f6a856c50b2659eb36e952b8a55431542cfcac1ce395de8d3e725737f"
+      }
+    },
+    "17.0.21.1": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.21.1_2.tar.gz",
+      "checksums": {
+        "sha256": "dcb254f7ed8a854b0bc31d4948cc94dd3b7a8ee6cbf48d9ae4e30c0c6a8da9c6"
       }
     },
     "19.0.2": {
