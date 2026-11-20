@@ -192,6 +192,12 @@
         "sha256": "d02eadc0a0f93faba4be38c8657eb8eef842103a4c7c2400f5827dbd90fc21c9"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "0501ef55ea9ec19b14987def7a73e044cd1748f7f3b97237b49007d387a84a1a"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26_35.tar.gz",
       "checksums": {
@@ -420,6 +426,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "15d8d1ca80746f35f424c47d1e33baa469f132ebb4c1fb91ca4f19c364e29d70"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "d7bc00755b875bfb222547ea56c918e00a81ad731026e0c73112d6ccc561120b"
       }
     },
     "26.0.0": {
@@ -652,6 +664,12 @@
         "sha256": "7c2b97b1b34947399f6c911e5aa69d171b745b0005ea79f47c4f3f1d47554bc2"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "2d50e05c4120fb1f35ced1a3cc53aa83040e5732c4e5955461cf2749db69cc2f"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26_35.tar.gz",
       "checksums": {
@@ -880,6 +898,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "f80d03043bcd6da95b5b36163736a64a00862b61ba9cb4a9d7be58c606511b7b"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "e4ea5fa0998ee418e336c269c8841f0118e092a9d44de16312e35ccf149d9a95"
       }
     },
     "26.0.0": {
@@ -5892,6 +5916,12 @@
         "sha256": "d02eadc0a0f93faba4be38c8657eb8eef842103a4c7c2400f5827dbd90fc21c9"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "0501ef55ea9ec19b14987def7a73e044cd1748f7f3b97237b49007d387a84a1a"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_aarch64_alpine-linux_hotspot_26_35.tar.gz",
       "checksums": {
@@ -6120,6 +6150,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "15d8d1ca80746f35f424c47d1e33baa469f132ebb4c1fb91ca4f19c364e29d70"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-debugimage_aarch64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "d7bc00755b875bfb222547ea56c918e00a81ad731026e0c73112d6ccc561120b"
       }
     },
     "26.0.0": {
@@ -6352,6 +6388,12 @@
         "sha256": "7c2b97b1b34947399f6c911e5aa69d171b745b0005ea79f47c4f3f1d47554bc2"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "2d50e05c4120fb1f35ced1a3cc53aa83040e5732c4e5955461cf2749db69cc2f"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_aarch64_alpine-linux_hotspot_26_35.tar.gz",
       "checksums": {
@@ -6580,6 +6622,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "f80d03043bcd6da95b5b36163736a64a00862b61ba9cb4a9d7be58c606511b7b"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-testimage_aarch64_alpine-linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "e4ea5fa0998ee418e336c269c8841f0118e092a9d44de16312e35ccf149d9a95"
       }
     },
     "26.0.0": {
