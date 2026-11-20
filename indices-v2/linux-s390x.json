@@ -1262,6 +1262,12 @@
         "sha256": "dfed6b7b428852ab1a3b9eb7734264f4d4cc163686e4136f93b9942f3d8f44cd"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "01da4a2bbc08b3d7afb44de5bb83e2fbd838e06b83aabf3ca0204f916438e339"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_s390x_linux_hotspot_26_35.tar.gz",
       "checksums": {
@@ -1832,6 +1838,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_s390x_linux_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "56cd0ed7a037d4765fa938f09d2557c189853df2149fc283013b6e491e7f6f40"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-debugimage_s390x_linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "cc02529ca55e3a922f2bc2816a42ce0adc329c4104e6c1849793451b47649f54"
       }
     },
     "26.0.0": {
@@ -2472,6 +2484,12 @@
         "sha256": "68fd959a83c4c0fa18e50d332323b178e6f4f14bf0a5e7f708114545013c3389"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jre_s390x_linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "4bc1628ef796f26aa31b98698fb1d0a222b20e1c264665d4761646902855acca"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_s390x_linux_hotspot_26_35.tar.gz",
       "checksums": {
@@ -2970,6 +2988,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_s390x_linux_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "cab4c773d8ebf5ae945a0f1078722e7a0d0e6177581fdce26c492352fa10a243"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-testimage_s390x_linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "c5a8d5ccab092614591a238e2bd9101e7110583fabb24a53a3e0fe52c5f2d0ef"
       }
     },
     "26.0.0": {
@@ -4990,6 +5014,12 @@
         "sha256": "dfed6b7b428852ab1a3b9eb7734264f4d4cc163686e4136f93b9942f3d8f44cd"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "01da4a2bbc08b3d7afb44de5bb83e2fbd838e06b83aabf3ca0204f916438e339"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jdk_s390x_linux_hotspot_26_35.tar.gz",
       "checksums": {
@@ -5562,6 +5592,12 @@
         "sha256": "56cd0ed7a037d4765fa938f09d2557c189853df2149fc283013b6e491e7f6f40"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-debugimage_s390x_linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "cc02529ca55e3a922f2bc2816a42ce0adc329c4104e6c1849793451b47649f54"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-debugimage_s390x_linux_hotspot_26_35.tar.gz",
       "checksums": {
@@ -6116,6 +6152,12 @@
         "sha256": "68fd959a83c4c0fa18e50d332323b178e6f4f14bf0a5e7f708114545013c3389"
       }
     },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jre_s390x_linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "4bc1628ef796f26aa31b98698fb1d0a222b20e1c264665d4761646902855acca"
+      }
+    },
     "26.0.0": {
       "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_s390x_linux_hotspot_26_35.tar.gz",
       "checksums": {
@@ -6560,6 +6602,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_s390x_linux_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "cab4c773d8ebf5ae945a0f1078722e7a0d0e6177581fdce26c492352fa10a243"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-testimage_s390x_linux_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "c5a8d5ccab092614591a238e2bd9101e7110583fabb24a53a3e0fe52c5f2d0ef"
       }
     },
     "26.0.0": {
