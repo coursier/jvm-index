@@ -451,6 +451,12 @@
       "checksums": {
         "sha512": "2af4aaa1d7577dec7413e1117283a928c875a4d3cc54de5fe95b6b228b086128bdf79e72dfd24eaef6ada1ce05fff7cffc64ad17d5cfe63a3ab5f4d7facc1829"
       }
+    },
+    "25.0.5.1": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.1-windows-aarch64-b635.102.zip",
+      "checksums": {
+        "sha512": "08be834ab615b408f2c0387860b9729c6965d78d78f35dd5eb96cafb40aeb35abc14339614659939726c2a97e00ca943e9135cdda05b12278789b4187b151918"
+      }
     }
   },
   "jetbrains-jcef": {
@@ -632,6 +638,12 @@
       "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.0.3-windows-aarch64-b700.17.zip",
       "checksums": {
         "sha512": "ef5d1631d04a7830d12fae83cb080909e921a9ed15a823150917f1c42509bd962a112b6c9b537113565bb83cc989431f8b68382c2906d5ef2204b6e0a8af96e9"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.1-windows-aarch64-b635.102.zip",
+      "checksums": {
+        "sha512": "cab41784fe96e8fc62ad06171caf62506ce785bd7b8411a9726cddb8d23624bbecb4f4df3fa64cdf80cf100b09bf630181a5ea72dbdf115fd7c85c548174fe5e"
       }
     }
   },
@@ -815,6 +827,12 @@
       "checksums": {
         "sha512": "ec772b1e6a563cb70d0f751318ec62529f4af3c52271e8a8f413279e97de5eb20b9493eb2d2d99c0e3446f6d2b1a8409ed4a0dd7a2d7d1d2094554e992e78df6"
       }
+    },
+    "25.0.5.1": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.5.1-windows-aarch64-b635.102.zip",
+      "checksums": {
+        "sha512": "0205e3431c43c1a5c3671ad6035c6c9b86f1f6ac58950ebf3fe812ef4a6107fba310724e22e0dc405688527e7802417b114afb6a0813f7bf642f4374325c9082"
+      }
     }
   },
   "jetbrains-jre": {
@@ -996,6 +1014,12 @@
       "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-windows-aarch64-b700.17.zip",
       "checksums": {
         "sha512": "a5b04e13b775a43b43fd4ea826ad2221507137a75aeb65361418a7fd3d93f792b7315499e0ab671f34568c811823dc5f52a22ec32a5273dde6b839f87225d67d"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.1-windows-aarch64-b635.102.zip",
+      "checksums": {
+        "sha512": "009561df0d04373625dbafdd08f2ee538109a5eeeb87413a20020761495c6c57d9ba858f65a6e441b3cdcf00f623aef1a2d34b8cb3f0e23466482cbe00ad7b9f"
       }
     }
   },

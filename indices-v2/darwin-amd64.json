@@ -968,6 +968,12 @@
         "sha256": "11e3e9de3ce65ff957aee9b4b76876553e9d328cab9aede47996463625c88887"
       }
     },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jdk_x64_mac_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "2e1a185a9f09ce85a7d9f6c28c8aa8e913978e92017ca62209e36e51e215091e"
+      }
+    },
     "12.0.0": {
       "url": "https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12%2B33/OpenJDK12U-jdk_x64_mac_hotspot_12_33.tar.gz",
       "checksums": {
@@ -1352,6 +1358,12 @@
         "sha256": "9aa1d1c17ae5467a022679e7e0af5c00797d94ac462ed1a46f4db07a8a34a6dd"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jdk_x64_mac_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "1b5eff1741bb83d32e2e19aade71452bb42e40f047c01d3e178d438304c9a26d"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -1446,6 +1458,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_mac_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "32cd4d2151c91aa00d0fc911edfd05245ed40fa6b1aa894d5f35c928cd67a59d"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jdk_x64_mac_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "b4b96fb7b9babd1b4faab1238e1835d0d7dd77b0690d220643c749a9ac00db36"
       }
     },
     "26.0.0": {
@@ -1768,6 +1786,12 @@
         "sha256": "6b871a548aa233bb2a8efd713aee91468678b9d8ffd15cd34c1148660988923f"
       }
     },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-debugimage_x64_mac_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "84e6305d526c66f041baa578179010f7005f1fe9ee39ebcdc6f825d5cba12c86"
+      }
+    },
     "16.0.2": {
       "url": "https://github.com/adoptium/temurin16-binaries/releases/download/jdk-16.0.2%2B7/OpenJDK16U-debugimage_x64_mac_hotspot_16.0.2_7.tar.gz",
       "checksums": {
@@ -2080,6 +2104,12 @@
         "sha256": "54a1e5a863ea81f79dd14fc1090cdbdcc8e288e5bac681e0382d8657a6089cc6"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-debugimage_x64_mac_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "faca0d208b177d3931c3c81ad623b4dd4f341ded388328efb05a884de31b4aea"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -2174,6 +2204,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_x64_mac_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "49d94ebadc6b428abfeb5f066b86a852fd67019b13b06730f5b87d701d850ce4"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-debugimage_x64_mac_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "8e432859ecc1a605bf212c05f796a90348a5252d947b148886061df9a3063205"
       }
     },
     "26.0.0": {
@@ -2506,6 +2542,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_x64_mac_hotspot_11.0.33_10.tar.gz",
       "checksums": {
         "sha256": "7469fb193a946aaea33038a280d4db29bef3a04c8312ba32b3762dd11ea41e90"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jre_x64_mac_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "e1ca13a72997986ae348ad38aa661807184295c41ec689b2b28f135a6b9cbb5b"
       }
     },
     "12.0.0": {
@@ -2874,6 +2916,12 @@
         "sha256": "c909674b1c10c261b9a3fb7e9c0efebd303e33f88a4fe84be7135b5e2d711f89"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jre_x64_mac_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "10cee6ba4cd83fd4613a3f0bb3ef9dddd68c68d5f3ccfcc7e456707c9e1eafe0"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -2968,6 +3016,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_x64_mac_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "806902c796c670969b7b27df73b8f0fe0924a61bd65083aa53064115e49cab2d"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jre_x64_mac_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "fac7e81bba96b45cfc3381dbc8bbca6ffd129e3e30aed70493245b61dde7d639"
       }
     },
     "26.0.0": {
@@ -3102,6 +3156,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_x64_mac_hotspot_11.0.33_10.tar.gz",
       "checksums": {
         "sha256": "a880e1e8fc73fb26b54a3d8becf70acc2351a177d8c88114f91ea9dd0ceebe29"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-testimage_x64_mac_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "220be2b1e7e818474ca733b822ed10a86ea45902367f655d0e7c44d8fc08b072"
       }
     },
     "12.0.2": {
@@ -3392,6 +3452,12 @@
         "sha256": "1ab805617b7a7852e45d2352c54fc7669b2f5a7282269430a8af3ab6a4094c7a"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-testimage_x64_mac_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "904b7204fea9b9964a79ce0dcb30919b7669fd9ec632d75d78364a60719c56f4"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-testimage_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -3486,6 +3552,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_x64_mac_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "0c30f8b6edca86399cf8617a1a862498373adff43970b0e374db7132b8020320"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-testimage_x64_mac_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "c22b3b12ff5a7b6eebc491861cb2b86eb76a0ae9d90c2d9868ecbba2dc3f1240"
       }
     },
     "26.0.0": {
@@ -6982,6 +7054,12 @@
       "checksums": {
         "sha512": "4dfc917e27255ca63408def82d9678b6c3460736e421f603b3909c12830d82b7b7aed35dbe0bbfae4ce73f6bfb67c7337a6781f8bbab5c95e3445ea8491474dc"
       }
+    },
+    "25.0.5.1": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.1-osx-x64-b635.102.tar.gz",
+      "checksums": {
+        "sha512": "cea66092b39bf275cfb40cbf317accb98224468622fc99e35bdb0325ebae0c4591ef35847e00ed8c1eff3f483cd3833964e8aac29d857bc4ad5bc3e470da3957"
+      }
     }
   },
   "jetbrains-jcef": {
@@ -7199,6 +7277,12 @@
       "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.0.3-osx-x64-b700.17.tar.gz",
       "checksums": {
         "sha512": "b092c06c65bb16105c4d4810501b078950e7a89dfd92346ffce71af750f923f77b82c68eaf86bf0c7a67a518d6f9315c3d5852816418d7b93b14f5c14b6645ba"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.1-osx-x64-b635.102.tar.gz",
+      "checksums": {
+        "sha512": "35a48afd21a768b3829f9de050c8054fed9fadaa798227cdd6a3c760b53bac5adcd5204cb846a90e4918f0b95488c037883485474ec1473bf1d20487ac2fb592"
       }
     }
   },
@@ -7442,6 +7526,12 @@
       "checksums": {
         "sha512": "eff9acda46d26f734c49ab786d7201e0ec53b9e2b4f01e48cce39a176d22409c82698221b1ee256faa3a8dae98c91809927021a8f03012c132967745a397359e"
       }
+    },
+    "25.0.5.1": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.5.1-osx-x64-b635.102.tar.gz",
+      "checksums": {
+        "sha512": "5e75a12a6250518799583a0f6c37a871d976f20b8c3e91c2a2a2304eb41460962f3542f7ce917a649425447bc7e2978693c0176a78328ceedcc341e2ec98030b"
+      }
     }
   },
   "jetbrains-jre": {
@@ -7641,6 +7731,12 @@
       "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-osx-x64-b700.17.tar.gz",
       "checksums": {
         "sha512": "dd9f7060633891a295489b2246654327f305c3ec4564d757eef5825722a671ffe62ad7f3279b2e9d3d8840b2637deb63b85c983aed2a173bb4712153b2ee16c7"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.1-osx-x64-b635.102.tar.gz",
+      "checksums": {
+        "sha512": "f2e3330ab23ce55a57471ef96b946840c7483c4ff28a57c4e685e0e5944564877fbb83e30155a09f6807a9cf1d927c5f6ee43f37a4f25057f0ae91d3c55493d1"
       }
     }
   },
@@ -14779,6 +14875,12 @@
         "sha256": "11e3e9de3ce65ff957aee9b4b76876553e9d328cab9aede47996463625c88887"
       }
     },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jdk_x64_mac_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "2e1a185a9f09ce85a7d9f6c28c8aa8e913978e92017ca62209e36e51e215091e"
+      }
+    },
     "16.0.2": {
       "url": "https://github.com/adoptium/temurin16-binaries/releases/download/jdk-16.0.2%2B7/OpenJDK16U-jdk_x64_mac_hotspot_16.0.2_7.tar.gz",
       "checksums": {
@@ -15091,6 +15193,12 @@
         "sha256": "9aa1d1c17ae5467a022679e7e0af5c00797d94ac462ed1a46f4db07a8a34a6dd"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jdk_x64_mac_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "1b5eff1741bb83d32e2e19aade71452bb42e40f047c01d3e178d438304c9a26d"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jdk_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -15185,6 +15293,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_mac_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "32cd4d2151c91aa00d0fc911edfd05245ed40fa6b1aa894d5f35c928cd67a59d"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jdk_x64_mac_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "b4b96fb7b9babd1b4faab1238e1835d0d7dd77b0690d220643c749a9ac00db36"
       }
     },
     "26.0.0": {
@@ -15507,6 +15621,12 @@
         "sha256": "6b871a548aa233bb2a8efd713aee91468678b9d8ffd15cd34c1148660988923f"
       }
     },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-debugimage_x64_mac_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "84e6305d526c66f041baa578179010f7005f1fe9ee39ebcdc6f825d5cba12c86"
+      }
+    },
     "16.0.2": {
       "url": "https://github.com/adoptium/temurin16-binaries/releases/download/jdk-16.0.2%2B7/OpenJDK16U-debugimage_x64_mac_hotspot_16.0.2_7.tar.gz",
       "checksums": {
@@ -15819,6 +15939,12 @@
         "sha256": "54a1e5a863ea81f79dd14fc1090cdbdcc8e288e5bac681e0382d8657a6089cc6"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-debugimage_x64_mac_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "faca0d208b177d3931c3c81ad623b4dd4f341ded388328efb05a884de31b4aea"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-debugimage_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -15913,6 +16039,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-debugimage_x64_mac_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "49d94ebadc6b428abfeb5f066b86a852fd67019b13b06730f5b87d701d850ce4"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-debugimage_x64_mac_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "8e432859ecc1a605bf212c05f796a90348a5252d947b148886061df9a3063205"
       }
     },
     "26.0.0": {
@@ -16235,6 +16367,12 @@
         "sha256": "7469fb193a946aaea33038a280d4db29bef3a04c8312ba32b3762dd11ea41e90"
       }
     },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jre_x64_mac_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "e1ca13a72997986ae348ad38aa661807184295c41ec689b2b28f135a6b9cbb5b"
+      }
+    },
     "17.0.1": {
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jre_x64_mac_hotspot_17.0.1_12.tar.gz",
       "checksums": {
@@ -16529,6 +16667,12 @@
         "sha256": "c909674b1c10c261b9a3fb7e9c0efebd303e33f88a4fe84be7135b5e2d711f89"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-jre_x64_mac_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "10cee6ba4cd83fd4613a3f0bb3ef9dddd68c68d5f3ccfcc7e456707c9e1eafe0"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -16623,6 +16767,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_x64_mac_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "806902c796c670969b7b27df73b8f0fe0924a61bd65083aa53064115e49cab2d"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-jre_x64_mac_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "fac7e81bba96b45cfc3381dbc8bbca6ffd129e3e30aed70493245b61dde7d639"
       }
     },
     "26.0.0": {
@@ -16757,6 +16907,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_x64_mac_hotspot_11.0.33_10.tar.gz",
       "checksums": {
         "sha256": "a880e1e8fc73fb26b54a3d8becf70acc2351a177d8c88114f91ea9dd0ceebe29"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-testimage_x64_mac_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "220be2b1e7e818474ca733b822ed10a86ea45902367f655d0e7c44d8fc08b072"
       }
     },
     "16.0.2": {
@@ -16987,6 +17143,12 @@
         "sha256": "1ab805617b7a7852e45d2352c54fc7669b2f5a7282269430a8af3ab6a4094c7a"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1%2B2/OpenJDK21U-testimage_x64_mac_hotspot_21.0.13.1_2.tar.gz",
+      "checksums": {
+        "sha256": "904b7204fea9b9964a79ce0dcb30919b7669fd9ec632d75d78364a60719c56f4"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-testimage_x64_mac_hotspot_22_36.tar.gz",
       "checksums": {
@@ -17081,6 +17243,12 @@
       "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-testimage_x64_mac_hotspot_25.0.5_8.tar.gz",
       "checksums": {
         "sha256": "0c30f8b6edca86399cf8617a1a862498373adff43970b0e374db7132b8020320"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5.1%2B2/OpenJDK25U-testimage_x64_mac_hotspot_25.0.5.1_2.tar.gz",
+      "checksums": {
+        "sha256": "c22b3b12ff5a7b6eebc491861cb2b86eb76a0ae9d90c2d9868ecbba2dc3f1240"
       }
     },
     "26.0.0": {

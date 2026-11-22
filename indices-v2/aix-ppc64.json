@@ -814,6 +814,12 @@
         "sha256": "59c1036df4bebdf4b1c4d81b0b4799695f4957cab2a5443d94a14549a296e166"
       }
     },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "631d2f10faaacfb26561d93706bd8ce398464804ab44c9f84dd7b67d9c2aec32"
+      }
+    },
     "12.0.0": {
       "url": "https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12%2B33/OpenJDK12U-jdk_ppc64_aix_hotspot_12_33.tar.gz",
       "checksums": {
@@ -1408,6 +1414,12 @@
         "sha256": "27ba20465513aab1a57b6353dab8ffb292acf2f50beef55ae455420ef0b9ed93"
       }
     },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "26be0cd1ec7d0dff5bb8baf8e3affcf92e7aca037977d45a55a3cc7b6682fca0"
+      }
+    },
     "17.0.6": {
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-debugimage_ppc64_aix_hotspot_17.0.6_10.tar.gz",
       "checksums": {
@@ -1948,6 +1960,12 @@
         "sha256": "e2ce5a79399fc3b79fbdedae9d8138b8aabcf7dea19f43a26457cd421e14fbed"
       }
     },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "7710580549062df29d0d62a58f406ceebd931c220eb838e04a2548d3d77fc132"
+      }
+    },
     "12.0.0": {
       "url": "https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/download/jdk-12%2B33/OpenJDK12U-jre_ppc64_aix_hotspot_12_33.tar.gz",
       "checksums": {
@@ -2362,6 +2380,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.32.1_1.tar.gz",
       "checksums": {
         "sha256": "3be5f37f84d873afc83b0a6ddf61eb0c570200f03a47fe733ef95905f49c6821"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "372fd9ac0172dbb59c33659a510346cbe24f4b7ef8997c843c6dabbdd30f210a"
       }
     },
     "13.0.0": {
@@ -4404,6 +4428,12 @@
         "sha256": "59c1036df4bebdf4b1c4d81b0b4799695f4957cab2a5443d94a14549a296e166"
       }
     },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "631d2f10faaacfb26561d93706bd8ce398464804ab44c9f84dd7b67d9c2aec32"
+      }
+    },
     "17.0.6": {
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.6_10.tar.gz",
       "checksums": {
@@ -4936,6 +4966,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.32.1_1.tar.gz",
       "checksums": {
         "sha256": "27ba20465513aab1a57b6353dab8ffb292acf2f50beef55ae455420ef0b9ed93"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "26be0cd1ec7d0dff5bb8baf8e3affcf92e7aca037977d45a55a3cc7b6682fca0"
       }
     },
     "17.0.6": {
@@ -5472,6 +5508,12 @@
         "sha256": "e2ce5a79399fc3b79fbdedae9d8138b8aabcf7dea19f43a26457cd421e14fbed"
       }
     },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "7710580549062df29d0d62a58f406ceebd931c220eb838e04a2548d3d77fc132"
+      }
+    },
     "17.0.6": {
       "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.6_10.tar.gz",
       "checksums": {
@@ -5826,6 +5868,12 @@
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.32.1_1.tar.gz",
       "checksums": {
         "sha256": "3be5f37f84d873afc83b0a6ddf61eb0c570200f03a47fe733ef95905f49c6821"
+      }
+    },
+    "11.0.33.1": {
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.33.1_1.tar.gz",
+      "checksums": {
+        "sha256": "372fd9ac0172dbb59c33659a510346cbe24f4b7ef8997c843c6dabbdd30f210a"
       }
     },
     "17.0.6": {
