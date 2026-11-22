@@ -22,6 +22,7 @@
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.32_9.tar.gz",
     "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "11.0.33": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+    "11.0.33.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.33.1_1.tar.gz",
     "17.0.0": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_aarch64_mac_hotspot_17_35.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.2_8.tar.gz",
@@ -122,6 +123,7 @@
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.32_9.tar.gz",
     "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "11.0.33": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+    "11.0.33.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.33.1_1.tar.gz",
     "17.0.0": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-debugimage_aarch64_mac_hotspot_17_35.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.2_8.tar.gz",
@@ -222,6 +224,7 @@
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.32_9.tar.gz",
     "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "11.0.33": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+    "11.0.33.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.33.1_1.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.2_8.tar.gz",
     "17.0.3": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.3_7.tar.gz",
@@ -315,6 +318,7 @@
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.32_9.tar.gz",
     "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "11.0.33": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+    "11.0.33.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.33.1_1.tar.gz",
     "17.0.0": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-testimage_aarch64_mac_hotspot_17_35.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.6": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.6_10.tar.gz",
@@ -858,7 +862,8 @@
     "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.3-osx-aarch64-b508.16.tar.gz",
     "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4-osx-aarch64-b508.27.tar.gz",
     "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.4.1-osx-aarch64-b635.79.tar.gz",
-    "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.0.3-osx-aarch64-b700.17.tar.gz"
+    "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.0.3-osx-aarch64-b700.17.tar.gz",
+    "25.0.5.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.5.1-osx-aarch64-b635.102.tar.gz"
   },
   "jetbrains-jcef": {
     "11.0.14.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-11_0_14_1-osx-aarch64-b2043.45.tar.gz",
@@ -896,7 +901,8 @@
     "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.3-osx-aarch64-b508.16.tar.gz",
     "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-osx-aarch64-b508.27.tar.gz",
     "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-osx-aarch64-b635.79.tar.gz",
-    "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.0.3-osx-aarch64-b700.17.tar.gz"
+    "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.0.3-osx-aarch64-b700.17.tar.gz",
+    "25.0.5.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.5.1-osx-aarch64-b635.102.tar.gz"
   },
   "jetbrains-jcef-jre": {
     "11.0.11": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-11_0_11-osx-aarch64-b1536.2.tar.gz",
@@ -938,7 +944,8 @@
     "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.3-osx-aarch64-b508.16.tar.gz",
     "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4-osx-aarch64-b508.27.tar.gz",
     "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.4.1-osx-aarch64-b635.79.tar.gz",
-    "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.5.0.3-osx-aarch64-b700.17.tar.gz"
+    "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.5.0.3-osx-aarch64-b700.17.tar.gz",
+    "25.0.5.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-25.0.5.1-osx-aarch64-b635.102.tar.gz"
   },
   "jetbrains-jre": {
     "17.0.0": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-17-osx-aarch64-b135.1.tar.gz",
@@ -973,7 +980,8 @@
     "25.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.3-osx-aarch64-b508.16.tar.gz",
     "25.0.4": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4-osx-aarch64-b508.27.tar.gz",
     "25.0.4.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.4.1-osx-aarch64-b635.79.tar.gz",
-    "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-osx-aarch64-b700.17.tar.gz"
+    "25.0.5.0.3": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.0.3-osx-aarch64-b700.17.tar.gz",
+    "25.0.5.1": "tgz+https://cache-redirector.jetbrains.com/intellij-jbr/jbr-25.0.5.1-osx-aarch64-b635.102.tar.gz"
   },
   "liberica": {
     "8.0.282": "zip+https://github.com/bell-sw/Liberica/releases/download/8u282+8/bellsoft-jdk8u282+8-macos-aarch64.zip",
@@ -2079,6 +2087,7 @@
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.32_9.tar.gz",
     "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "11.0.33": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+    "11.0.33.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.33.1_1.tar.gz",
     "17.0.0": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_aarch64_mac_hotspot_17_35.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.2_8.tar.gz",
@@ -2179,6 +2188,7 @@
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.32_9.tar.gz",
     "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "11.0.33": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+    "11.0.33.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-debugimage_aarch64_mac_hotspot_11.0.33.1_1.tar.gz",
     "17.0.0": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-debugimage_aarch64_mac_hotspot_17_35.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.2_8.tar.gz",
@@ -2279,6 +2289,7 @@
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.32_9.tar.gz",
     "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "11.0.33": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+    "11.0.33.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.33.1_1.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.2": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.2%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.2_8.tar.gz",
     "17.0.3": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.3_7.tar.gz",
@@ -2372,6 +2383,7 @@
     "11.0.32": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.32_9.tar.gz",
     "11.0.32.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.32.1_1.tar.gz",
     "11.0.33": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33%2B10/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.33_10.tar.gz",
+    "11.0.33.1": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1%2B1/OpenJDK11U-testimage_aarch64_mac_hotspot_11.0.33.1_1.tar.gz",
     "17.0.0": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-testimage_aarch64_mac_hotspot_17_35.tar.gz",
     "17.0.1": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.1_12.tar.gz",
     "17.0.6": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.6%2B10/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.6_10.tar.gz",
