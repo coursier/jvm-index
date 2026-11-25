@@ -3378,6 +3378,12 @@
       "checksums": {
         "sha256": "54369d4a5931a5a2101c7c52444a4e7e6647a3a4e041335053cda6fd22295e0c"
       }
+    },
+    "25.6.5.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.6.5.1/graalvm-community-jdk-25i6-25.0.5.1_macos-aarch64_bin.tar.gz",
+      "checksums": {
+        "sha256": "19ef5175f18fe2a957a5ec4cc3dd263a164e88ae621cf80ee1c715ede72469f0"
+      }
     }
   },
   "graalvm-java11": {
@@ -3605,6 +3611,12 @@
       "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.5.5.0.3/graalvm-community-jdk-25i5-25.0.5.0.3_macos-aarch64_bin.tar.gz",
       "checksums": {
         "sha256": "54369d4a5931a5a2101c7c52444a4e7e6647a3a4e041335053cda6fd22295e0c"
+      }
+    },
+    "25.6.5.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.6.5.1/graalvm-community-jdk-25i6-25.0.5.1_macos-aarch64_bin.tar.gz",
+      "checksums": {
+        "sha256": "19ef5175f18fe2a957a5ec4cc3dd263a164e88ae621cf80ee1c715ede72469f0"
       }
     }
   },
@@ -10407,6 +10419,12 @@
         "sha1": "3ef3631bff94b46b69f8b587b1fcfc0d1af3c870"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14.1+1-17.0.21.1+6/bellsoft-liberica-vm-openjdk17.0.21.1+6-23.0.14.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "93c73e0cefecb1b02c3d315ecd0eaafd558558c0"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-openjdk20.0.1+10-23.0.0+1-macos-aarch64.zip",
       "checksums": {
@@ -10509,6 +10527,12 @@
         "sha1": "a394a79730dc8be35ac5be30f1e5be6f2ab3a74a"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13.1+1-21.0.13.1+6/bellsoft-liberica-vm-openjdk21.0.13.1+6-23.1.13.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "3a8f090f21f2f18047cb4ccfd06b3c0884743468"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-openjdk22+37-24.0.0+1-macos-aarch64.zip",
       "checksums": {
@@ -10603,6 +10627,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-openjdk25.0.5.0.3+6-25.0.5.0.3+1-macos-aarch64.zip",
       "checksums": {
         "sha1": "d8e1769323ebb41b9d90363ba567d781b8a2a957"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.1+1-25.0.5.1+6/bellsoft-liberica-vm-openjdk25.0.5.1+6-25.0.5.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "16605c242a0d86b1102f058dd54b47a11d47a0a7"
       }
     }
   },
@@ -10787,6 +10817,12 @@
         "sha1": "fce17fabc06abf339512f3bc7cb2f56f0c42567b"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14.1+1-17.0.21.1+6/bellsoft-liberica-vm-core-openjdk17.0.21.1+6-23.0.14.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "e42a5d871c795196939ab753b1c0235cc6c4f94c"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-core-openjdk20.0.1+10-23.0.0+1-macos-aarch64.zip",
       "checksums": {
@@ -10887,6 +10923,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-core-openjdk21.0.13.0.3+6-23.1.13+1-macos-aarch64.zip",
       "checksums": {
         "sha1": "d00b5ad564e464999801eb3e79ab263414d56a92"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13.1+1-21.0.13.1+6/bellsoft-liberica-vm-core-openjdk21.0.13.1+6-23.1.13.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "4e7e33dead059604ebe7703b47da79e3033867d7"
       }
     }
   },
@@ -11071,6 +11113,12 @@
         "sha1": "3dd38ffdf64101f5e69b8e46c6c761ba44d37d52"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14.1+1-17.0.21.1+6/bellsoft-liberica-vm-full-openjdk17.0.21.1+6-23.0.14.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "1379cdcfc6840c67e43b1e27c4ae00cc411d0730"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-full-openjdk20.0.1+10-23.0.0+1-macos-aarch64.zip",
       "checksums": {
@@ -11173,6 +11221,12 @@
         "sha1": "756ce611dc3a8e1373d069c5ce0abbdae1dd7a15"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13.1+1-21.0.13.1+6/bellsoft-liberica-vm-full-openjdk21.0.13.1+6-23.1.13.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "a85cc735cffea362552a63c76a23640da6d97193"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-full-openjdk22+37-24.0.0+1-macos-aarch64.zip",
       "checksums": {
@@ -11268,6 +11322,12 @@
       "checksums": {
         "sha1": "7471bdd30c1ba7ef126d209c3b0d0bb0caf70fc5"
       }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.1+1-25.0.5.1+6/bellsoft-liberica-vm-full-openjdk25.0.5.1+6-25.0.5.1+1-macos-aarch64.zip",
+      "checksums": {
+        "sha1": "8f4416d81f1b5af7a6be063e2bebcd6e94eb3ae6"
+      }
     }
   },
   "mandrel": {
@@ -11341,6 +11401,12 @@
       "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.13.0-Final/mandrel-java21-macos-aarch64-23.1.13.0-Final.tar.gz",
       "checksums": {
         "sha256": "401771c23303121c99259f1820a958acacefe506b0e0c490d300b38a5c8ca5d6"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.13.1-Final/mandrel-java21-macos-aarch64-23.1.13.1-Final.tar.gz",
+      "checksums": {
+        "sha256": "9baf015639a4c5199683284694c278204bf413b8076ef1b7218c9c3f44ce79aa"
       }
     },
     "22.0.1": {
@@ -11432,6 +11498,12 @@
       "checksums": {
         "sha256": "bef93bae36710af5ac938149c0cbe93cad984d9185c73c763b240b7b2064dfc9"
       }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.5.1-Final/mandrel-java25-macos-aarch64-25.0.5.1-Final.tar.gz",
+      "checksums": {
+        "sha256": "c6f227e5c08f9726abb6b2e6856e2105139bb3fb002582e70f49e18a67255213"
+      }
     }
   },
   "mandrel-java21": {
@@ -11505,6 +11577,12 @@
       "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.13.0-Final/mandrel-java21-macos-aarch64-23.1.13.0-Final.tar.gz",
       "checksums": {
         "sha256": "401771c23303121c99259f1820a958acacefe506b0e0c490d300b38a5c8ca5d6"
+      }
+    },
+    "23.1.13.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.13.1-Final/mandrel-java21-macos-aarch64-23.1.13.1-Final.tar.gz",
+      "checksums": {
+        "sha256": "9baf015639a4c5199683284694c278204bf413b8076ef1b7218c9c3f44ce79aa"
       }
     }
   },
@@ -11603,6 +11681,12 @@
       "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.5.0-Final/mandrel-java25-macos-aarch64-25.0.5.0-Final.tar.gz",
       "checksums": {
         "sha256": "bef93bae36710af5ac938149c0cbe93cad984d9185c73c763b240b7b2064dfc9"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.5.1-Final/mandrel-java25-macos-aarch64-25.0.5.1-Final.tar.gz",
+      "checksums": {
+        "sha256": "c6f227e5c08f9726abb6b2e6856e2105139bb3fb002582e70f49e18a67255213"
       }
     }
   },

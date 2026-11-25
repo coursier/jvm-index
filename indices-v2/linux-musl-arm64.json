@@ -5216,6 +5216,12 @@
         "sha1": "902a963281e0d34696d17b6e981e2607511e79f4"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14.1+1-17.0.21.1+6/bellsoft-liberica-vm-openjdk17.0.21.1+6-23.0.14.1+1-linux-aarch64-musl.tar.gz",
+      "checksums": {
+        "sha1": "18e48f77bcdcb933be660c7b9a59d8129fee0b71"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-openjdk20.0.1+10-23.0.0+1-linux-aarch64-musl.tar.gz",
       "checksums": {
@@ -5318,6 +5324,12 @@
         "sha1": "25067ad1b026f4fe86e0abe96dd018db46085da9"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13.1+1-21.0.13.1+6/bellsoft-liberica-vm-openjdk21.0.13.1+6-23.1.13.1+1-linux-aarch64-musl.tar.gz",
+      "checksums": {
+        "sha1": "6cc53692ce60c204b697602642a451f02c3addf5"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-openjdk22+37-24.0.0+1-linux-aarch64-musl.tar.gz",
       "checksums": {
@@ -5412,6 +5424,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-openjdk25.0.5.0.3+6-25.0.5.0.3+1-linux-aarch64-musl.tar.gz",
       "checksums": {
         "sha1": "819a8e234ed0383bda5f61645e20eb5772cdcfc7"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.1+1-25.0.5.1+6/bellsoft-liberica-vm-openjdk25.0.5.1+6-25.0.5.1+1-linux-aarch64-musl.tar.gz",
+      "checksums": {
+        "sha1": "1f480a4e0c4f43cd823351bedb912ac34854f304"
       }
     }
   },
@@ -5656,6 +5674,12 @@
         "sha1": "0d91e427862374e3089de7ff5c96588f655e3ce5"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14.1+1-17.0.21.1+6/bellsoft-liberica-vm-core-openjdk17.0.21.1+6-23.0.14.1+1-linux-aarch64-musl.tar.gz",
+      "checksums": {
+        "sha1": "aef7ff3b67053111b3d0e45f03bdf39c518fa440"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-core-openjdk20.0.1+10-23.0.0+1-linux-aarch64-musl.tar.gz",
       "checksums": {
@@ -5756,6 +5780,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-core-openjdk21.0.13.0.3+6-23.1.13+1-linux-aarch64-musl.tar.gz",
       "checksums": {
         "sha1": "440be0d8f730a617cb8c64f4b69c589c8b58d347"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13.1+1-21.0.13.1+6/bellsoft-liberica-vm-core-openjdk21.0.13.1+6-23.1.13.1+1-linux-aarch64-musl.tar.gz",
+      "checksums": {
+        "sha1": "a543b761dc196a0a6f3e0226b0b1db38f935c2d6"
       }
     }
   },
