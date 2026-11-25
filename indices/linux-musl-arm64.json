@@ -868,6 +868,7 @@
     "17.0.20": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.13+1-17.0.20+11/bellsoft-liberica-vm-openjdk17.0.20+11-23.0.13+1-linux-aarch64-musl.tar.gz",
     "17.0.20.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.13.1+1-17.0.20.1+2/bellsoft-liberica-vm-openjdk17.0.20.1+2-23.0.13.1+1-linux-aarch64-musl.tar.gz",
     "17.0.21.0.3": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-openjdk17.0.21.0.3+6-23.0.14+1-linux-aarch64-musl.tar.gz",
+    "17.0.21.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14.1+1-17.0.21.1+6/bellsoft-liberica-vm-openjdk17.0.21.1+6-23.0.14.1+1-linux-aarch64-musl.tar.gz",
     "20.0.1": "tgz+https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-openjdk20.0.1+10-23.0.0+1-linux-aarch64-musl.tar.gz",
     "20.0.2": "tgz+https://download.bell-sw.com/vm/23.0.1/bellsoft-liberica-vm-openjdk20.0.2+10-23.0.1+1-linux-aarch64-musl.tar.gz",
     "21.0.0": "tgz+https://download.bell-sw.com/vm/23.1.0/bellsoft-liberica-vm-openjdk21+37-23.1.0+1-linux-aarch64-musl.tar.gz",
@@ -885,6 +886,7 @@
     "21.0.12": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12+1-21.0.12+11/bellsoft-liberica-vm-openjdk21.0.12+11-23.1.12+1-linux-aarch64-musl.tar.gz",
     "21.0.12.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12.1+1-21.0.12.1+2/bellsoft-liberica-vm-openjdk21.0.12.1+2-23.1.12.1+1-linux-aarch64-musl.tar.gz",
     "21.0.13.0.3": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-openjdk21.0.13.0.3+6-23.1.13+1-linux-aarch64-musl.tar.gz",
+    "21.0.13.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13.1+1-21.0.13.1+6/bellsoft-liberica-vm-openjdk21.0.13.1+6-23.1.13.1+1-linux-aarch64-musl.tar.gz",
     "22.0.0": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-openjdk22+37-24.0.0+1-linux-aarch64-musl.tar.gz",
     "22.0.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.1+1-22.0.1+10/bellsoft-liberica-vm-openjdk22.0.1+10-24.0.1+1-linux-aarch64-musl.tar.gz",
     "22.0.2": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/24.0.2+1-22.0.2+11/bellsoft-liberica-vm-openjdk22.0.2+11-24.0.2+1-linux-aarch64-musl.tar.gz",
@@ -900,7 +902,8 @@
     "25.0.3": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.3+2-25.0.3+12/bellsoft-liberica-vm-openjdk25.0.3+12-25.0.3+2-linux-aarch64-musl.tar.gz",
     "25.0.4": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4+1-25.0.4+10/bellsoft-liberica-vm-openjdk25.0.4+10-25.0.4+1-linux-aarch64-musl.tar.gz",
     "25.0.4.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.4.1+1-25.0.4.1+2/bellsoft-liberica-vm-openjdk25.0.4.1+2-25.0.4.1+1-linux-aarch64-musl.tar.gz",
-    "25.0.5.0.3": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-openjdk25.0.5.0.3+6-25.0.5.0.3+1-linux-aarch64-musl.tar.gz"
+    "25.0.5.0.3": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-openjdk25.0.5.0.3+6-25.0.5.0.3+1-linux-aarch64-musl.tar.gz",
+    "25.0.5.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.1+1-25.0.5.1+6/bellsoft-liberica-vm-openjdk25.0.5.1+6-25.0.5.1+1-linux-aarch64-musl.tar.gz"
   },
   "liberica-nik-core": {
     "11.0.11": "tgz+https://download.bell-sw.com/vm/21.1.0/bellsoft-liberica-vm-core-openjdk11-21.1.0-linux-aarch64-musl.tar.gz",
@@ -943,6 +946,7 @@
     "17.0.20": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.13+1-17.0.20+11/bellsoft-liberica-vm-core-openjdk17.0.20+11-23.0.13+1-linux-aarch64-musl.tar.gz",
     "17.0.20.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.13.1+1-17.0.20.1+2/bellsoft-liberica-vm-core-openjdk17.0.20.1+2-23.0.13.1+1-linux-aarch64-musl.tar.gz",
     "17.0.21.0.3": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14+1-17.0.21.0.3+6/bellsoft-liberica-vm-core-openjdk17.0.21.0.3+6-23.0.14+1-linux-aarch64-musl.tar.gz",
+    "17.0.21.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14.1+1-17.0.21.1+6/bellsoft-liberica-vm-core-openjdk17.0.21.1+6-23.0.14.1+1-linux-aarch64-musl.tar.gz",
     "20.0.1": "tgz+https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-core-openjdk20.0.1+10-23.0.0+1-linux-aarch64-musl.tar.gz",
     "20.0.2": "tgz+https://download.bell-sw.com/vm/23.0.1/bellsoft-liberica-vm-core-openjdk20.0.2+10-23.0.1+1-linux-aarch64-musl.tar.gz",
     "21.0.0": "tgz+https://download.bell-sw.com/vm/23.1.0/bellsoft-liberica-vm-core-openjdk21+37-23.1.0+1-linux-aarch64-musl.tar.gz",
@@ -959,7 +963,8 @@
     "21.0.11": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.11+1-21.0.11+12/bellsoft-liberica-vm-core-openjdk21.0.11+12-23.1.11+1-linux-aarch64-musl.tar.gz",
     "21.0.12": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12+1-21.0.12+11/bellsoft-liberica-vm-core-openjdk21.0.12+11-23.1.12+1-linux-aarch64-musl.tar.gz",
     "21.0.12.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.12.1+1-21.0.12.1+2/bellsoft-liberica-vm-core-openjdk21.0.12.1+2-23.1.12.1+1-linux-aarch64-musl.tar.gz",
-    "21.0.13.0.3": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-core-openjdk21.0.13.0.3+6-23.1.13+1-linux-aarch64-musl.tar.gz"
+    "21.0.13.0.3": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-core-openjdk21.0.13.0.3+6-23.1.13+1-linux-aarch64-musl.tar.gz",
+    "21.0.13.1": "tgz+https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13.1+1-21.0.13.1+6/bellsoft-liberica-vm-core-openjdk21.0.13.1+6-23.1.13.1+1-linux-aarch64-musl.tar.gz"
   },
   "temurin": {
     "21.0.0": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21_35.tar.gz",

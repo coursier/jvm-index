@@ -5001,6 +5001,12 @@
       "checksums": {
         "sha256": "b02c3b162129fa8cbfa7ebd0fcc1ae6eba2fc736bf3bef8e40e5ace3e9d9a0d6"
       }
+    },
+    "25.6.5.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.6.5.1/graalvm-community-jdk-25i6-25.0.5.1_windows-x64_bin.zip",
+      "checksums": {
+        "sha256": "1f534c46337f838880553c47f973a3d769b4058036288afcec930e2abddf06a1"
+      }
     }
   },
   "graalvm-java11": {
@@ -5458,6 +5464,12 @@
       "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.5.5.0.3/graalvm-community-jdk-25i5-25.0.5.0.3_windows-x64_bin.zip",
       "checksums": {
         "sha256": "b02c3b162129fa8cbfa7ebd0fcc1ae6eba2fc736bf3bef8e40e5ace3e9d9a0d6"
+      }
+    },
+    "25.6.5.1": {
+      "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/graal-25.6.5.1/graalvm-community-jdk-25i6-25.0.5.1_windows-x64_bin.zip",
+      "checksums": {
+        "sha256": "1f534c46337f838880553c47f973a3d769b4058036288afcec930e2abddf06a1"
       }
     }
   },
@@ -13326,6 +13338,12 @@
         "sha1": "4c7a6e63d5a1c97ba275970bbe1f2596f0fc8e23"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14.1+1-17.0.21.1+6/bellsoft-liberica-vm-openjdk17.0.21.1+6-23.0.14.1+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "e378a1a8b52dace21d39db8f459c76a08d7e0f9d"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-openjdk20.0.1+10-23.0.0+1-windows-amd64.zip",
       "checksums": {
@@ -13428,6 +13446,12 @@
         "sha1": "13019631ae7211dd269e4bd55a3d12bec22a95c6"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13.1+1-21.0.13.1+6/bellsoft-liberica-vm-openjdk21.0.13.1+6-23.1.13.1+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "281f755d16603baca27bda4b98d195cde6ee3a26"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-openjdk22+37-24.0.0+1-windows-amd64.zip",
       "checksums": {
@@ -13522,6 +13546,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-openjdk25.0.5.0.3+6-25.0.5.0.3+1-windows-amd64.zip",
       "checksums": {
         "sha1": "c3a7ef1b5f937cd895ebc78a5816da07e0f4c8eb"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.1+1-25.0.5.1+6/bellsoft-liberica-vm-openjdk25.0.5.1+6-25.0.5.1+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "a4b58992c8a216891709bee97c757cb2aab34998"
       }
     }
   },
@@ -13766,6 +13796,12 @@
         "sha1": "3bed780b4f3c03b6d2a99abd542f4cd73f94659f"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14.1+1-17.0.21.1+6/bellsoft-liberica-vm-core-openjdk17.0.21.1+6-23.0.14.1+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "c0f9f01aee9498bdf73b10ad6be94810ed97663a"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-core-openjdk20.0.1+10-23.0.0+1-windows-amd64.zip",
       "checksums": {
@@ -13866,6 +13902,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13+1-21.0.13.0.3+6/bellsoft-liberica-vm-core-openjdk21.0.13.0.3+6-23.1.13+1-windows-amd64.zip",
       "checksums": {
         "sha1": "ffc122f6bb66df162a391ad03a539bbc6cee6890"
+      }
+    },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13.1+1-21.0.13.1+6/bellsoft-liberica-vm-core-openjdk21.0.13.1+6-23.1.13.1+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "e3ae0c8280f441eee45c505b24c1f1d2606d3e82"
       }
     }
   },
@@ -14098,6 +14140,12 @@
         "sha1": "a60b3b60157fa486dc9ff19abb3459e9bce777e9"
       }
     },
+    "17.0.21.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.0.14.1+1-17.0.21.1+6/bellsoft-liberica-vm-full-openjdk17.0.21.1+6-23.0.14.1+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "fed626b8fab33021721a1ae603229a57c81a5073"
+      }
+    },
     "20.0.1": {
       "url": "https://download.bell-sw.com/vm/23.0.0/bellsoft-liberica-vm-full-openjdk20.0.1+10-23.0.0+1-windows-amd64.zip",
       "checksums": {
@@ -14200,6 +14248,12 @@
         "sha1": "22ab2b9af4ce7c5506e36b3c18020fe78a2beac4"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/23.1.13.1+1-21.0.13.1+6/bellsoft-liberica-vm-full-openjdk21.0.13.1+6-23.1.13.1+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "f5372930c9819467db873e29c26118ce44e133ee"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/24.0.0+1-22+37/bellsoft-liberica-vm-full-openjdk22+37-24.0.0+1-windows-amd64.zip",
       "checksums": {
@@ -14294,6 +14348,12 @@
       "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.0.3+1-25.0.5.0.3+6/bellsoft-liberica-vm-full-openjdk25.0.5.0.3+6-25.0.5.0.3+1-windows-amd64.zip",
       "checksums": {
         "sha1": "62de045f7cdbf4a66cccb735e6e4f11195e42395"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/bell-sw/LibericaNIK/releases/download/25.0.5.1+1-25.0.5.1+6/bellsoft-liberica-vm-full-openjdk25.0.5.1+6-25.0.5.1+1-windows-amd64.zip",
+      "checksums": {
+        "sha1": "5ab00b2b65a7b052b88c404c484cdfbce1a9a5a1"
       }
     }
   },
@@ -14448,6 +14508,12 @@
         "sha256": "9a3da68219d78d9d82640330afae8b5ba8052ff39c261d13608fd7f2bf71bb97"
       }
     },
+    "21.0.13.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.13.1-Final/mandrel-java21-windows-amd64-23.1.13.1-Final.zip",
+      "checksums": {
+        "sha256": "fdde6c16ddf272b32b904c956370465f789e859352d40dc2e9c3f5b3959d13c3"
+      }
+    },
     "22.0.0": {
       "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-24.0.0.0-Final/mandrel-java22-windows-amd64-24.0.0.0-Final.zip",
       "checksums": {
@@ -14542,6 +14608,12 @@
       "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.5.0-Final/mandrel-java25-windows-amd64-25.0.5.0-Final.zip",
       "checksums": {
         "sha256": "549899d713d53e302c5f5b7fe3f9f45938fd81b872de86c5ff002960a34cb3ff"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.5.1-Final/mandrel-java25-windows-amd64-25.0.5.1-Final.zip",
+      "checksums": {
+        "sha256": "d89fd22777928795e104d9ead83bc7d20848177db74ca2cd9c675300fddc8848"
       }
     }
   },
@@ -14929,6 +15001,12 @@
       "checksums": {
         "sha256": "9a3da68219d78d9d82640330afae8b5ba8052ff39c261d13608fd7f2bf71bb97"
       }
+    },
+    "23.1.13.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-23.1.13.1-Final/mandrel-java21-windows-amd64-23.1.13.1-Final.zip",
+      "checksums": {
+        "sha256": "fdde6c16ddf272b32b904c956370465f789e859352d40dc2e9c3f5b3959d13c3"
+      }
     }
   },
   "mandrel-java22": {
@@ -15032,6 +15110,12 @@
       "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.5.0-Final/mandrel-java25-windows-amd64-25.0.5.0-Final.zip",
       "checksums": {
         "sha256": "549899d713d53e302c5f5b7fe3f9f45938fd81b872de86c5ff002960a34cb3ff"
+      }
+    },
+    "25.0.5.1": {
+      "url": "https://github.com/graalvm/mandrel/releases/download/mandrel-25.0.5.1-Final/mandrel-java25-windows-amd64-25.0.5.1-Final.zip",
+      "checksums": {
+        "sha256": "d89fd22777928795e104d9ead83bc7d20848177db74ca2cd9c675300fddc8848"
       }
     }
   },
