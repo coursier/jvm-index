@@ -8320,6 +8320,12 @@
         "sha256": "381f83da497193d71549a090361ed66e4e46eccbb4a0347e0a094d20470fa1df"
       }
     },
+    "8.0.514": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.201-ca-jdk8.0.514-linux_aarch32hf.tar.gz",
+      "checksums": {
+        "sha256": "3035c5b3f12cd942ccabc4ec8ab45e34f327a520ef81999254f9e74380e8a0ea"
+      }
+    },
     "11.0.0": {
       "url": "https://cdn.azul.com/zulu/bin/zulu11.1.8-ca-jdk11.0.0-c2-linux_aarch32hf.tar.gz",
       "checksums": {
@@ -8633,9 +8639,9 @@
       }
     },
     "17.0.21": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-c2-linux_aarch32hf.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.201-ca-jdk17.0.21.1-c2-linux_aarch32hf.tar.gz",
       "checksums": {
-        "sha256": "b400880dd4509d3e9a9d2c3476157332b35bd123cd4479929991c25d0a1268cb"
+        "sha256": "6f2c814ce946b48a1fca11be4e3dcd10037a3202604d5fd7ffc8a56a876bf052"
       }
     }
   },
@@ -8755,9 +8761,9 @@
       }
     },
     "17.0.21": {
-      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jre17.0.21.0.3-c2-linux_aarch32hf.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.70.201-ca-jre17.0.21.1-c2-linux_aarch32hf.tar.gz",
       "checksums": {
-        "sha256": "8e248807c3d771807f81548e5ff21a92fe367b5ed3ed096592a39705adfccc05"
+        "sha256": "87ec59062ea42d03647295acffe925617113560bfdcd21413c727fe3d6020a65"
       }
     }
   }

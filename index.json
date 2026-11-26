@@ -2798,6 +2798,7 @@
         "1.8.0-502": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jdk_x64_mac_hotspot_8u502b07.tar.gz",
         "1.8.0-504": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jdk_x64_mac_hotspot_8u504b01.tar.gz",
         "1.8.0-512": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jdk_x64_mac_hotspot_8u512b09.tar.gz",
+        "1.8.0-514": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u514-b01/OpenJDK8U-jdk_x64_mac_hotspot_8u514b01.tar.gz",
         "1.9.0.0": "tgz+https://github.com/AdoptOpenJDK/openjdk9-binaries/releases/download/jdk-9%2B181/OpenJDK9U-jdk_x64_mac_hotspot_9_181.tar.gz",
         "1.10.0.2": "tgz+https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jdk_x64_mac_hotspot_10.0.2_13.tar.gz",
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_x64_mac_hotspot_11.0.12_7.tar.gz",
@@ -2938,6 +2939,7 @@
         "1.8.0-502": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-debugimage_x64_mac_hotspot_8u502b07.tar.gz",
         "1.8.0-504": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-debugimage_x64_mac_hotspot_8u504b01.tar.gz",
         "1.8.0-512": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-debugimage_x64_mac_hotspot_8u512b09.tar.gz",
+        "1.8.0-514": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u514-b01/OpenJDK8U-debugimage_x64_mac_hotspot_8u514b01.tar.gz",
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_x64_mac_hotspot_11.0.12_7.tar.gz",
         "1.11.0.13": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-debugimage_x64_mac_hotspot_11.0.13_8.tar.gz",
         "1.11.0.14": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14%2B9/OpenJDK11U-debugimage_x64_mac_hotspot_11.0.14_9.tar.gz",
@@ -3064,6 +3066,7 @@
         "1.8.0-502": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jre_x64_mac_hotspot_8u502b07.tar.gz",
         "1.8.0-504": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jre_x64_mac_hotspot_8u504b01.tar.gz",
         "1.8.0-512": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jre_x64_mac_hotspot_8u512b09.tar.gz",
+        "1.8.0-514": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u514-b01/OpenJDK8U-jre_x64_mac_hotspot_8u514b01.tar.gz",
         "1.9.0.0": "tgz+https://github.com/AdoptOpenJDK/openjdk9-binaries/releases/download/jdk-9%2B181/OpenJDK9U-jre_x64_mac_hotspot_9_181.tar.gz",
         "1.10.0.2": "tgz+https://github.com/AdoptOpenJDK/openjdk10-binaries/releases/download/jdk-10.0.2%2B13.1/OpenJDK10U-jre_x64_mac_hotspot_10.0.2_13.tar.gz",
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jre_x64_mac_hotspot_11.0.12_7.tar.gz",
@@ -5190,6 +5193,7 @@
         "1.8.0-502": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jdk_x64_mac_hotspot_8u502b07.tar.gz",
         "1.8.0-504": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jdk_x64_mac_hotspot_8u504b01.tar.gz",
         "1.8.0-512": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jdk_x64_mac_hotspot_8u512b09.tar.gz",
+        "1.8.0-514": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u514-b01/OpenJDK8U-jdk_x64_mac_hotspot_8u514b01.tar.gz",
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_x64_mac_hotspot_11.0.12_7.tar.gz",
         "1.11.0.13": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jdk_x64_mac_hotspot_11.0.13_8.tar.gz",
         "1.11.0.14": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14%2B9/OpenJDK11U-jdk_x64_mac_hotspot_11.0.14_9.tar.gz",
@@ -5316,6 +5320,7 @@
         "1.8.0-502": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-debugimage_x64_mac_hotspot_8u502b07.tar.gz",
         "1.8.0-504": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-debugimage_x64_mac_hotspot_8u504b01.tar.gz",
         "1.8.0-512": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-debugimage_x64_mac_hotspot_8u512b09.tar.gz",
+        "1.8.0-514": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u514-b01/OpenJDK8U-debugimage_x64_mac_hotspot_8u514b01.tar.gz",
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_x64_mac_hotspot_11.0.12_7.tar.gz",
         "1.11.0.13": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-debugimage_x64_mac_hotspot_11.0.13_8.tar.gz",
         "1.11.0.14": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14%2B9/OpenJDK11U-debugimage_x64_mac_hotspot_11.0.14_9.tar.gz",
@@ -5442,6 +5447,7 @@
         "1.8.0-502": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jre_x64_mac_hotspot_8u502b07.tar.gz",
         "1.8.0-504": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jre_x64_mac_hotspot_8u504b01.tar.gz",
         "1.8.0-512": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jre_x64_mac_hotspot_8u512b09.tar.gz",
+        "1.8.0-514": "tgz+https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u514-b01/OpenJDK8U-jre_x64_mac_hotspot_8u514b01.tar.gz",
         "1.11.0.12": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jre_x64_mac_hotspot_11.0.12_7.tar.gz",
         "1.11.0.13": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jre_x64_mac_hotspot_11.0.13_8.tar.gz",
         "1.11.0.14": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14%2B9/OpenJDK11U-jre_x64_mac_hotspot_11.0.14_9.tar.gz",
@@ -13738,6 +13744,7 @@
         "8.0.502": "tgz+https://cdn.azul.com/zulu/bin/zulu8.96.0.21-ca-jdk8.0.502-linux_aarch32hf.tar.gz",
         "8.0.504": "tgz+https://cdn.azul.com/zulu/bin/zulu8.96.0.205-ca-jdk8.0.504-linux_aarch32hf.tar.gz",
         "8.0.512": "tgz+https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-jdk8.0.512-linux_aarch32sf.tar.gz",
+        "8.0.514": "tgz+https://cdn.azul.com/zulu/bin/zulu8.98.0.201-ca-jdk8.0.514-linux_aarch32hf.tar.gz",
         "11.0.0": "tgz+https://cdn.azul.com/zulu/bin/zulu11.1.8-ca-jdk11.0.0-c2-linux_aarch32hf.tar.gz",
         "11.0.3": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu11.31.16-ca-jdk11.0.3-linux_aarch32hf.tar.gz",
         "11.0.4": "tgz+https://cdn.azul.com/zulu/bin/zulu11.33.21-ca-jdk11.0.4-linux_aarch32hf.tar.gz",
@@ -13790,7 +13797,7 @@
         "17.0.18": "tgz+https://cdn.azul.com/zulu/bin/zulu17.64.17-ca-jdk17.0.18-c2-linux_aarch32hf.tar.gz",
         "17.0.19": "tgz+https://cdn.azul.com/zulu/bin/zulu17.66.19-ca-jdk17.0.19-c2-linux_aarch32hf.tar.gz",
         "17.0.20": "tgz+https://cdn.azul.com/zulu/bin/zulu17.68.17-ca-jdk17.0.20-c2-linux_aarch32hf.tar.gz",
-        "17.0.21": "tgz+https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-c2-linux_aarch32hf.tar.gz"
+        "17.0.21": "tgz+https://cdn.azul.com/zulu/bin/zulu17.70.201-ca-jdk17.0.21.1-c2-linux_aarch32hf.tar.gz"
       },
       "jdk@zulu-jre": {
         "17.0.2": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu17.32.13-ca-jre17.0.2-linux_aarch32hf.tar.gz",
@@ -13812,7 +13819,7 @@
         "17.0.18": "tgz+https://cdn.azul.com/zulu/bin/zulu17.64.17-ca-jre17.0.18-c2-linux_aarch32hf.tar.gz",
         "17.0.19": "tgz+https://cdn.azul.com/zulu/bin/zulu17.66.19-ca-jre17.0.19-c2-linux_aarch32hf.tar.gz",
         "17.0.20": "tgz+https://cdn.azul.com/zulu/bin/zulu17.68.17-ca-jre17.0.20-c2-linux_aarch32hf.tar.gz",
-        "17.0.21": "tgz+https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jre17.0.21.0.3-c2-linux_aarch32hf.tar.gz"
+        "17.0.21": "tgz+https://cdn.azul.com/zulu/bin/zulu17.70.201-ca-jre17.0.21.1-c2-linux_aarch32hf.tar.gz"
       }
     },
     "arm64": {
@@ -17656,7 +17663,8 @@
         "8.0.492": "tgz+https://cdn.azul.com/zulu/bin/zulu8.94.0.17-ca-hl-jdk8.0.492-linux_ppc64.tar.gz",
         "8.0.502": "tgz+https://cdn.azul.com/zulu/bin/zulu8.96.0.21-ca-hl-jdk8.0.502-linux_ppc64.tar.gz",
         "8.0.504": "tgz+https://cdn.azul.com/zulu/bin/zulu8.96.0.205-ca-hl-jdk8.0.504-linux_ppc64.tar.gz",
-        "8.0.512": "tgz+https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-hl-jdk8.0.512-linux_ppc64.tar.gz"
+        "8.0.512": "tgz+https://cdn.azul.com/zulu/bin/zulu8.98.0.111-ca-hl-jdk8.0.512-linux_ppc64.tar.gz",
+        "8.0.514": "tgz+https://cdn.azul.com/zulu/bin/zulu8.98.0.201-ca-hl-jdk8.0.514-linux_ppc64.tar.gz"
       },
       "jdk@zulu-jre": {
         "8.0.382": "tgz+https://cdn.azul.com/zulu-embedded/bin/zulu8.72.0.17-ca-hl-jre8.0.382-linux_ppc64.tar.gz",
