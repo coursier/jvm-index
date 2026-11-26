@@ -3239,6 +3239,12 @@
       "checksums": {
         "sha256": "815cb22d227d4be803307cc288bc8f5ec079f4385d53377de98bfd93ef80395c"
       }
+    },
+    "8.0.514": {
+      "url": "https://cdn.azul.com/zulu/bin/zulu8.98.0.201-ca-hl-jdk8.0.514-linux_ppc64.tar.gz",
+      "checksums": {
+        "sha256": "ef854f25d783fa1c8123643ab01b8b8f136c13e435801d1b58be4de2b2c75704"
+      }
     }
   },
   "zulu-jre": {
