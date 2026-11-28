@@ -186,6 +186,12 @@
         "sha256": "e2a7fa7d86033e6c315aa45a7ba772d1d93ccb4f736cab40291a5d7b0998e6b9"
       }
     },
+    "8.0-514": {
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u514-b01/OpenJDK8U-jdk_x64_alpine-linux_hotspot_8u514b01.tar.gz",
+      "checksums": {
+        "sha256": "f2eacf6b06e56b4014888b07b7e72d37011d5e2da97cee5ba4d22451a97e9550"
+      }
+    },
     "11.0.13": {
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.13_8.tar.gz",
       "checksums": {
@@ -936,6 +942,12 @@
         "sha256": "8f9b38e8599bca5ad8f8c6c4678dde72da8dc9548f74cb9d8b31e848749b8d56"
       }
     },
+    "8.0-514": {
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u514-b01/OpenJDK8U-debugimage_x64_alpine-linux_hotspot_8u514b01.tar.gz",
+      "checksums": {
+        "sha256": "87f9edca603122c51c3b48494b12365431ea31b8f4b904acef8c8b086d315249"
+      }
+    },
     "11.0.13": {
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-debugimage_x64_alpine-linux_hotspot_11.0.13_8.tar.gz",
       "checksums": {
@@ -1684,6 +1696,12 @@
       "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jre_x64_alpine-linux_hotspot_8u512b09.tar.gz",
       "checksums": {
         "sha256": "12b6d25841b3e932a60dab34da43f4989a07f767444e3fe7c58d1187252753d9"
+      }
+    },
+    "8.0-514": {
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u514-b01/OpenJDK8U-jre_x64_alpine-linux_hotspot_8u514b01.tar.gz",
+      "checksums": {
+        "sha256": "85338c0a957a6865e3c13d7b7a2181fc21c90193d3828f42bf38988b8dff9e75"
       }
     },
     "11.0.13": {
@@ -8625,6 +8643,12 @@
         "sha256": "e2a7fa7d86033e6c315aa45a7ba772d1d93ccb4f736cab40291a5d7b0998e6b9"
       }
     },
+    "8.0-514": {
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u514-b01/OpenJDK8U-jdk_x64_alpine-linux_hotspot_8u514b01.tar.gz",
+      "checksums": {
+        "sha256": "f2eacf6b06e56b4014888b07b7e72d37011d5e2da97cee5ba4d22451a97e9550"
+      }
+    },
     "11.0.13": {
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.13_8.tar.gz",
       "checksums": {
@@ -9375,6 +9399,12 @@
         "sha256": "8f9b38e8599bca5ad8f8c6c4678dde72da8dc9548f74cb9d8b31e848749b8d56"
       }
     },
+    "8.0-514": {
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u514-b01/OpenJDK8U-debugimage_x64_alpine-linux_hotspot_8u514b01.tar.gz",
+      "checksums": {
+        "sha256": "87f9edca603122c51c3b48494b12365431ea31b8f4b904acef8c8b086d315249"
+      }
+    },
     "11.0.13": {
       "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.13%2B8/OpenJDK11U-debugimage_x64_alpine-linux_hotspot_11.0.13_8.tar.gz",
       "checksums": {
@@ -10123,6 +10153,12 @@
       "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jre_x64_alpine-linux_hotspot_8u512b09.tar.gz",
       "checksums": {
         "sha256": "12b6d25841b3e932a60dab34da43f4989a07f767444e3fe7c58d1187252753d9"
+      }
+    },
+    "8.0-514": {
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u514-b01/OpenJDK8U-jre_x64_alpine-linux_hotspot_8u514b01.tar.gz",
+      "checksums": {
+        "sha256": "85338c0a957a6865e3c13d7b7a2181fc21c90193d3828f42bf38988b8dff9e75"
       }
     },
     "11.0.13": {
